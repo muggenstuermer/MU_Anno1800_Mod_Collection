@@ -1,0 +1,732 @@
+<ModOps>
+	<ModOp Type="add" Path="Templates/Group[Name = 'Economy']">
+		<Template>
+			<Name>WarfWarehouseMu</Name>
+			<Properties>
+				<Standard />
+				<Text />
+				<Blocking />
+				<Building>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildingCategoryName>11151</BuildingCategoryName>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<AllowChangeDirection>1</AllowChangeDirection>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<BuildingType>Logistic</BuildingType>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337500738</Building>
+						</Item>
+						<Item>
+							<Building>1337500739</Building>
+						</Item>
+						<Item>
+							<Building>1337500740</Building>
+						</Item>
+						<Item>
+							<Building>1337500741</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500755</Building>
+						</Item>
+						<Item>
+							<Building>1337500756</Building>
+						</Item>
+						<Item>
+							<Building>1337500757</Building>
+						</Item>
+						<Item>
+							<Building>1337500758</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500770</Building>
+						</Item>
+						<Item>
+							<Building>1337500771</Building>
+						</Item>
+						<Item>
+							<Building>1337500772</Building>
+						</Item>
+						<Item>
+							<Building>1337500773</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500774</Building>
+						</Item>
+						<Item>
+							<Building>1337500775</Building>
+						</Item>
+						<Item>
+							<Building>1337500776</Building>
+						</Item>
+						<Item>
+							<Building>1337500777</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500780</Building>
+						</Item>
+						<Item>
+							<Building>1337500781</Building>
+						</Item>
+						<Item>
+							<Building>1337500782</Building>
+						</Item>
+						<Item>
+							<Building>1337500783</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500784</Building>
+						</Item>
+						<Item>
+							<Building>1337500785</Building>
+						</Item>
+						<Item>
+							<Building>1337500786</Building>
+						</Item>
+						<Item>
+							<Building>1337500787</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500790</Building>
+						</Item>
+						<Item>
+							<Building>1337500791</Building>
+						</Item>
+						<Item>
+							<Building>1337500792</Building>
+						</Item>
+						<Item>
+							<Building>1337500793</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500795</Building>
+						</Item>
+						<Item>
+							<Building>1337500796</Building>
+						</Item>
+						<Item>
+							<Building>1337500797</Building>
+						</Item>
+						<Item>
+							<Building>1337500798</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500802</Building>
+						</Item>
+						<Item>
+							<Building>1337500803</Building>
+						</Item>
+						<Item>
+							<Building>1337500804</Building>
+						</Item>
+						<Item>
+							<Building>1337500805</Building>
+						</Item>
+						<Item>
+							<Building>1337500806</Building>
+						</Item>
+						<Item>
+							<Building>1337500807</Building>
+						</Item>
+						<Item>
+							<Building>1337500808</Building>
+						</Item>
+						
+						<Item>
+							<Building>601462</Building>
+							<!-- Original Exports Office -->
+						</Item>
+						<Item>
+							<Building>601461</Building>
+							<!-- Original Harbourmaster -->
+						</Item>
+						
+						<Item>
+							<Building>1404422061</Building>
+							<!-- Harbourmaster NW -->
+						</Item>
+						<Item>
+							<Building>1404422062</Building>
+							<!-- Exports Office NW -->
+						</Item>
+						<Item>
+							<Building>1404422090</Building>
+							<!-- Depot No Blocker NW -->
+						</Item>
+						<Item>
+							<Building>1404422079</Building>
+							<!-- Loading Wharf Arch NW -->
+						</Item>
+						
+						<Item>
+							<Building>1404422098</Building>
+							<!-- Harbourmaster Enbesa -->
+						</Item>
+						<Item>
+							<Building>1404422092</Building>
+							<!-- Exports Office Enbesa -->
+						</Item>
+					</InfluencedByNeighbors>
+					<BuildingBlockPool>
+						<Single />
+						<DontCare />
+						<Corner />
+						<Mid>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<End />
+						<TCrossing />
+						<Crossing />
+					</BuildingBlockPool>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+				</Building>
+				<Cost />
+				<Selection>
+					<GUIType>Warehouse</GUIType>
+					<ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+						<Colors>
+							<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+						</Colors>
+				</Selection>
+				<Object>
+					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+				</Object>
+				<Constructable>
+					<DestructionCategory>Production</DestructionCategory>
+				</Constructable>
+				<Mesh>
+					<LogoMode>CorporationLogoFromPlayer</LogoMode>
+					<SetCompanyLogo>1</SetCompanyLogo>
+				</Mesh>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+						<ActiveSounds>
+							<Item>
+								<Sound>200834</Sound>
+							</Item>
+						</ActiveSounds>
+						<DestroySounds>
+							<Item>
+								<Sound>9818756</Sound>
+							</Item>
+						</DestroySounds>
+						<IncidentSounds>
+							<InfectedFire>
+								<Item>
+									<Sound>214659</Sound>
+								</Item>
+							</InfectedFire>
+						</IncidentSounds>
+						<BuildingRepaired>
+							<Item>
+								<Sound>203866</Sound>
+							</Item>
+						</BuildingRepaired>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<Locked />
+				<Infolayer />
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Warehouse>
+					<WarehouseStorage>
+						<StorageMax>100</StorageMax>
+					</WarehouseStorage>
+					<StorageType>Warehouse</StorageType>
+				</Warehouse>
+				<LogisticNode>
+					<TransporterCountMax>0</TransporterCountMax>
+					<QueueConfiguration>
+						<ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
+					</QueueConfiguration>
+				</LogisticNode>
+				<Ornament>
+					<OrnamentUnit>4</OrnamentUnit>
+					<OrnamentDescritpion>2975</OrnamentDescritpion>
+				</Ornament>
+				<UpgradeList />
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
+				<Maintenance>
+					<IncomeCategory>InfrastructureBuildings</IncomeCategory>
+				</Maintenance>
+				<StorageBase>
+					<ProductStorageList>120055</ProductStorageList>
+				</StorageBase>
+				<Attackable>
+					<HasRuinState>1</HasRuinState>
+				</Attackable>
+				<Upgradable />
+				<Pausable />
+			</Properties>
+		</Template>
+	
+		<Template>
+			<Name>LandDepotMu</Name>
+			<Properties>
+				<Standard />
+				<Building>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<AllowChangeDirection>1</AllowChangeDirection>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<TerrainType>Terrain</TerrainType>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<BuildingCategoryName>163019</BuildingCategoryName>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337500738</Building>
+						</Item>
+						<Item>
+							<Building>1337500739</Building>
+						</Item>
+						<Item>
+							<Building>1337500740</Building>
+						</Item>
+						<Item>
+							<Building>1337500741</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500755</Building>
+						</Item>
+						<Item>
+							<Building>1337500756</Building>
+						</Item>
+						<Item>
+							<Building>1337500757</Building>
+						</Item>
+						<Item>
+							<Building>1337500758</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500770</Building>
+						</Item>
+						<Item>
+							<Building>1337500771</Building>
+						</Item>
+						<Item>
+							<Building>1337500772</Building>
+						</Item>
+						<Item>
+							<Building>1337500773</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500774</Building>
+						</Item>
+						<Item>
+							<Building>1337500775</Building>
+						</Item>
+						<Item>
+							<Building>1337500776</Building>
+						</Item>
+						<Item>
+							<Building>1337500777</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500780</Building>
+						</Item>
+						<Item>
+							<Building>1337500781</Building>
+						</Item>
+						<Item>
+							<Building>1337500782</Building>
+						</Item>
+						<Item>
+							<Building>1337500783</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500784</Building>
+						</Item>
+						<Item>
+							<Building>1337500785</Building>
+						</Item>
+						<Item>
+							<Building>1337500786</Building>
+						</Item>
+						<Item>
+							<Building>1337500787</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500790</Building>
+						</Item>
+						<Item>
+							<Building>1337500791</Building>
+						</Item>
+						<Item>
+							<Building>1337500792</Building>
+						</Item>
+						<Item>
+							<Building>1337500793</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500795</Building>
+						</Item>
+						<Item>
+							<Building>1337500796</Building>
+						</Item>
+						<Item>
+							<Building>1337500797</Building>
+						</Item>
+						<Item>
+							<Building>1337500798</Building>
+						</Item>
+						
+						<Item>
+							<Building>1337500802</Building>
+						</Item>
+						<Item>
+							<Building>1337500803</Building>
+						</Item>
+						<Item>
+							<Building>1337500804</Building>
+						</Item>
+						<Item>
+							<Building>1337500805</Building>
+						</Item>
+						<Item>
+							<Building>1337500806</Building>
+						</Item>
+						<Item>
+							<Building>1337500807</Building>
+						</Item>
+						<Item>
+							<Building>1337500808</Building>
+						</Item>
+						
+						<Item>
+							<Building>601462</Building>
+							<!-- Original Exports Office -->
+						</Item>
+						<Item>
+							<Building>601461</Building>
+							<!-- Original Harbourmaster -->
+						</Item>
+						
+						<Item>
+							<Building>1404422061</Building>
+							<!-- Harbourmaster NW -->
+						</Item>
+						<Item>
+							<Building>1404422062</Building>
+							<!-- Exports Office NW -->
+						</Item>
+						<Item>
+							<Building>1404422090</Building>
+							<!-- Depot No Blocker NW -->
+						</Item>
+						<Item>
+							<Building>1404422079</Building>
+							<!-- Loading Wharf Arch NW -->
+						</Item>
+						
+						<Item>
+							<Building>1404422098</Building>
+							<!-- Harbourmaster Enbesa -->
+						</Item>
+						<Item>
+							<Building>1404422092</Building>
+							<!-- Exports Office Enbesa -->
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+				</Building>
+				<Blocking />
+				<Mesh />
+				<Object />
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<GUIType>Generic</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text />
+				<Cost />
+				<Attackable>
+					<HasRuinState>1</HasRuinState>
+					<RuinSmokeParticles>
+						<Item>
+							<SmokeParticleFilePath>data/graphics/effects/military/explosions/damage_smoke_01.cfg</SmokeParticleFilePath>
+						</Item>
+					</RuinSmokeParticles>
+					<RuinSmokeParticlesMin>1</RuinSmokeParticlesMin>
+					<RuinSmokeParticlesMax>4</RuinSmokeParticlesMax>
+					<RuinSmokeParticleRectBorderPercent>0.2</RuinSmokeParticleRectBorderPercent>
+					<ExplosionEffects>
+						<Item />
+					</ExplosionEffects>
+					<SelfHealPerHealTick>300</SelfHealPerHealTick>
+				</Attackable>
+				<Warehouse>
+					<StorageType>Depot</StorageType>
+				</Warehouse>
+				<StorageBase>
+					<ProductStorageList>120055</ProductStorageList>
+				</StorageBase>
+				<Locked />
+				<Maintenance>
+					<IncomeCategory>InfrastructureBuildings</IncomeCategory>
+				</Maintenance>
+				<Pausable />
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+								</VectorElement>
+								<Sound>214784</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<IncidentSounds>
+						<ExplosionOneShots>
+							<Item>
+								<Sound>203849</Sound>
+							</Item>
+						</ExplosionOneShots>
+					</IncidentSounds>
+				</SoundEmitter>
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+				</Ornament>
+				<Infolayer />
+				<UpgradeList />
+				<LogisticNode>
+					<TransporterCountMax>0</TransporterCountMax>
+				</LogisticNode>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+			</Properties>
+		</Template>
+	
+	</ModOp>
+</ModOps>

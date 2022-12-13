@@ -1,0 +1,50 @@
+#Police_Station_MU
+
+This mod adds 2 more police stations.
+
+the state prison:
+---------------------
+Reach of the emergency forces (compared to the original) : +400%.
+Emergency forces ( compared to the original ) : +400% (5 units)
+Emergency forces Movement rate (compared to the original) : +30%.
+Emergency forces Execution speed (compared to the original) : +100%
+Reduces riots (compared to the original) : +4%.
+Range insurgency reduction (compared to the original) : +400%.
+
+
+the mobile task force:
+---------------------
+Reach of the emergency forces (compared to the original) : -16%.
+Emergency forces ( compared to the original ) : +100% (2 units)
+Emergency forces Movement rate (compared to the original) : +15%.
+Emergency forces Execution speed (compared to the original) : +50%
+Reduces riots (compared to the original) : -3%.
+Range insurgency reduction (compared to the original): -15%.
+
+
+
+The buildings were integrated into the original building menu of the police station.
+
+
+---------------------------
+Changelog - 1.1
+---------------------------
+	- correction of assets.xml for better compatibility with spice it up and availability in Enbesa.
+
+---------------------------
+Changelog - 1.2
+---------------------------
+	- GU16 Bugfixing and adjustment of various values.
+	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
+	- various values can be changed as desired by a controller
+	
+---------------------------
+Changelog - 1.21
+---------------------------
+	- added a relevant addition : <SecondPartyRelevant>, ensures that the AI evolves.
+	
+---------------------------
+Changelog - 1.22
+---------------------------
+	- added another relevant addition : <Upgradable>, in this case a missing tag probably leads to unwanted actions of the game.
+	- polish added.

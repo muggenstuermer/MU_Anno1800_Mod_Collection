@@ -1,0 +1,746 @@
+<ModOps>
+	<!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+	<!-- ID's are used for this mod: 1337500014 to 1337500021  + 1337509995,1337509996 -->
+	
+<!--
+
+1337500021 - Trigger
+
+1337500014 - New Buildmenu for OLD WORLD
+1337500015 - New Buildmenu for NEW WORLD
+1337500020 - New Buildmenu for AFRICA
+
+Hospital / big resolverunit
+1337500016 - Resolver Unit Illness Normal / <Template>ResolverUnitHospitalMU</Template>
+1337509996 - Resolver Unit Illness Normal / <Template>FeedbackUnitClass</Template>
+1337509995 - Resolver Unit Illness Normal / <Template>TrafficFeedbackUnit</Template>
+
+Hospital / small resolverunit
+1337500017 - Resolver Unit Illness Normal / <Template>ResolverUnitHospitalSmallMU</Template>
+
+
+1337500018 - Hospital / big
+1337500019 - Hospital / small
+
+-->
+	
+	<!-- Freischaltung / Trigger -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130219']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500021</GUID>
+					<Name>intermediate moderate 1.2</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000002</Context>
+                                <CounterAmount>900</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337500018</Asset>
+												<!-- Hospital / big -->
+											</Item>
+											<Item>
+												<Asset>1337500019</Asset>
+												<!-- Hospital / small -->
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>1337500018</Asset>
+												<!-- Hospital / big -->
+											</Item>
+											<Item>
+												<Asset>1337500019</Asset>
+												<!-- Hospital / small -->
+											</Item>
+										</UnhideAssets>
+										<AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- New Buildmenu for OLD WORLD-->
+	<ModOp Type="addNextSibling" GUID='500019'>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500014</GUID>
+                    <Name>HospitalOW</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_hospital.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1010464</Building>
+                            <!-- Hospital Original OW-->
+                        </Item>
+						<Item>
+                            <Building>1337500018</Building>
+                             <!-- Hospital / big -->
+                        </Item>
+						<Item>
+                            <Building>1337500019</Building>
+                             <!-- Hospital / small -->
+                        </Item>
+					</BuildingList>
+                    <CategoryDescription>3789</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hospital</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<!-- New Buildmenu for NEW WORLD-->
+	<ModOp Type="addNextSibling" GUID='501429'>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500015</GUID>
+                    <Name>HospitalNW</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_hospital.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>101276</Building>
+                            <!-- Hospital Original NW-->
+                        </Item>
+						<Item>
+                            <Building>1337500018</Building>
+                             <!-- Hospital / big -->
+                        </Item>
+						<Item>
+                            <Building>1337500019</Building>
+                             <!-- Hospital / small -->
+                        </Item>
+					</BuildingList>
+                    <CategoryDescription>3789</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hospital</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<!-- New Buildmenu for Africa-->
+	<ModOp Type="addNextSibling" GUID='117859'>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500020</GUID>
+                    <Name>HospitalNW</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_hospital.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>117668</Building>
+                            <!-- Hospital Original Africa-->
+                        </Item>
+						<Item>
+                            <Building>1337500018</Building>
+                             <!-- Hospital / big -->
+                        </Item>
+						<Item>
+                            <Building>1337500019</Building>
+                             <!-- Hospital / small -->
+                        </Item>
+					</BuildingList>
+                    <CategoryDescription>3789</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hospital</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<!-- Replace Original Hospital from Constructionmenu OLD WORLD with new menu-->
+	<ModOp Type = "replace" GUID='25000191,500092' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010464']">
+        <Item>
+			<Building>1337500014</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Replace Original Hospital from Constructionmenu NEW WORLD with new menu-->
+	<ModOp Type = "replace" GUID='25000194,500137' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101276']">
+        <Item>
+			<Building>1337500015</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Replace Original Hospital from Constructionmenu Afrika with new menu-->
+	<ModOp Type = "replace" GUID='114554,119012' Path="/Values/ConstructionCategory/BuildingList/Item[Building='117668']">
+        <Item>
+			<Building>1337500020</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Hospital / big  resolverunit -->
+	<ModOp Type="addNextSibling" GUID='1010464'>
+		<Asset>
+			<Template>ResolverUnitHospitalMU</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500016</GUID>
+					<Name>Resolver Unit Illness Normal</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_hospital_2d.png</IconFilename>
+					<InfoDescription>12012</InfoDescription>
+				</Standard>
+				<IncidentResolverUnit>
+					<FeedbackUnitClass>1337509996</FeedbackUnitClass>
+				</IncidentResolverUnit>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Doctors</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>25834</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling" GUID="1010464">
+    <Asset>
+	  <Template>FeedbackUnitClass</Template>
+	  <Values>
+		<Standard>
+		  <GUID>1337509996</GUID>
+		  <Name>Resolver Unit Illness Normal</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/icon_hospital.png</IconFilename>
+		</Standard>
+		<TrafficFeedbackClass>
+		  <UnitAssets>
+			<Item>
+			  <UnitAsset>1337509995</UnitAsset>
+			</Item>
+		  </UnitAssets>
+		  <AllowedReactions />
+		</TrafficFeedbackClass>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010464">
+    <Asset>
+	  <Template>TrafficFeedbackUnit</Template>
+	  <Values>
+		<Standard>
+		  <GUID>1337509995</GUID>
+		  <Name>Resolver Unit Illness Normal</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/icon_hospital.png</IconFilename>
+		</Standard>
+		<TrafficFeedbackUnit>
+		  <UnitType>Vehicle</UnitType>
+		  <CfgPath>data\modgraphics\vehicle\motorized_hospital\motorized_hospital_vehicle.cfg</CfgPath>
+		  <SpeedSource>Managed</SpeedSource>
+		  <OverwriteSpeed>0.4</OverwriteSpeed>
+		  <ResidentCamInteraction>MountAsCoach</ResidentCamInteraction>
+		</TrafficFeedbackUnit>
+	  </Values>
+	</Asset>
+  </ModOp>
+	
+	<!-- Hospital / small resolverunit -->
+	<ModOp Type="addNextSibling" GUID='1010464'>
+		<Asset>
+			<Template>ResolverUnitHospitalSmallMU</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500017</GUID>
+					<Name>Resolver Unit Illness Normal</Name>
+					<IconFilename>data/ui/2kimages/main/icons/icon_hospital_2d.png</IconFilename>
+					<InfoDescription>12012</InfoDescription>
+				</Standard>
+				<IncidentResolverUnit>
+					<FeedbackUnitClass>140719</FeedbackUnitClass>
+				</IncidentResolverUnit>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Doctors</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+                        </English>
+					</LocaText>
+					<LineID>25834</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Hospital / big  -->
+	<ModOp Type="addNextSibling" GUID='1010464'>
+		<Asset>
+			<Template>InstitutionBuildingHospitalMU</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500018</GUID>
+					<Name>institution_03 (Hospital)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/hospital_big.png</IconFilename>
+					<InfoDescription>3789</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+				</Building>
+				<Blocking />
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5500</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>22</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>38</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010218</Ingredient>
+							<Amount>18</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010207</Ingredient>
+							<Amount>18</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\public\hospital\hospital.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>CityInstitution</GUIType>
+				</Selection>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Hospital</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>3737</LineID>
+				</Text>
+				<Constructable />
+				<Locked />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>239532</Sound>
+						</Item>
+					</ActiveSounds>
+					<IncidentSounds>
+						<InfectedFire>
+							<Item>
+								<Sound>214659</Sound>
+							</Item>
+						</InfectedFire>
+					</IncidentSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController />
+				<Infolayer />
+				<UpgradeList />
+				<IncidentResolver>
+					<ResolverUnit>1337500016</ResolverUnit>
+					<ResolverUnitCount>4</ResolverUnitCount>
+					<SpecialUnit>100584</SpecialUnit>
+					<ResolvableIncidents>Illness</ResolvableIncidents>
+					<DuringConstructionText>15224</DuringConstructionText>
+					<DuringIncidentHeadline>3781</DuringIncidentHeadline>
+					<ActionButtonText>3690</ActionButtonText>
+					<DuringIncidentHeadlineIcon>501922</DuringIncidentHeadlineIcon>
+				</IncidentResolver>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>255</Amount>
+							<InactiveAmount>175</InactiveAmount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+					<MaximumHitPoints>8500</MaximumHitPoints>
+					<SelfHealPerHealTick>8</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable />
+				<IncidentInfluencer>
+					<Influence>
+						<Illness>
+							<Influence>-10.18</Influence>
+							<Distance>24</Distance>
+						</Illness>
+					</Influence>
+				</IncidentInfluencer>
+				<DelayedConstruction />
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
+				<Culture />
+				<Upgradable />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<ModOp GUID="1337500018" Type="replace" Path="/Values/Maintenance/Maintenances/Item[Product='1010017']/Amount" ModOpID="BigHospitalMaintenance">
+		<Amount>255</Amount>
+	</ModOp>
+	
+	<ModOp GUID="1337500018" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010017']/Amount" ModOpID="BigHospitalCost">
+		<Amount>5500</Amount>
+	</ModOp>
+	<ModOp GUID="1337500018" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010196']/Amount" ModOpID="BigHospitalTimber">
+		<Amount>22</Amount>
+	</ModOp>
+	<ModOp GUID="1337500018" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010205']/Amount" ModOpID="BigHospitalBricks">
+		<Amount>38</Amount>
+	</ModOp>
+	<ModOp GUID="1337500018" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010218']/Amount" ModOpID="BigHospitalSteelBeams">
+		<Amount>18</Amount>
+	</ModOp>
+	<ModOp GUID="1337500018" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010207']/Amount" ModOpID="BigHospitalWindows">
+		<Amount>18</Amount>
+	</ModOp>
+	
+	<ImyaExpose Path="self::Amount" ModOpID="BigHospitalMaintenance" ExposeID="BigHospitalMaintenance" Description="The Big Hospitals Maintenance Cost in Credits" Kind="Slider">
+    <SliderDefinition Min="0" Max="5000" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigHospitalCost" ExposeID="BigHospitalCreditsCost" Description="The Big Hospitals Cost in Credits" Kind="Slider">
+    <SliderDefinition Min="0" Max="15500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigHospitalTimber" ExposeID="BigHospitalTimberCost" Description="The Big Hospitals Cost in Timber" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigHospitalBricks" ExposeID="BigHospitalBricksCost" Description="The Big Hospitals Cost in Bricks" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigHospitalSteelBeams" ExposeID="BigHospitalSteelBeamsCost" Description="The Big Hospitals Cost in Steel Beams" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigHospitalWindows" ExposeID="BigHospitalWindowsCost" Description="The Big Hospitals Cost in Windows" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  
+	<!-- AI-blocking building -> Hospital / big + small -->
+	<ModOp Type="add" GUID='220' Path="/Values/ConstructionAI/BuildingReplacements">
+        <Item>
+            <Building>1337500018</Building>
+            <Replacement>1010464</Replacement>
+        </Item>
+		<Item>
+            <Building>1337500019</Building>
+            <Replacement>1010464</Replacement>
+        </Item>
+		<Item>
+            <Building>1337500018</Building>
+            <Replacement>101276</Replacement>
+        </Item>
+		<Item>
+            <Building>1337500019</Building>
+            <Replacement>101276</Replacement>
+        </Item>
+    </ModOp>
+	
+	<ModOp Type="add" GUID='167' Path="/Values/ConstructionAI">
+		<BuildingReplacements>
+        </BuildingReplacements>
+    </ModOp>
+	
+	<ModOp Type="add" GUID='167' Path="/Values/ConstructionAI/BuildingReplacements">
+			<Item>
+				<Building>1337500018</Building>
+				<Replacement>1010464</Replacement>
+			</Item>
+			<Item>
+				<Building>1337500019</Building>
+				<Replacement>1010464</Replacement>
+			</Item>
+			<Item>
+				<Building>1337500018</Building>
+				<Replacement>101276</Replacement>
+			</Item>
+			<Item>
+				<Building>1337500019</Building>
+				<Replacement>101276</Replacement>
+			</Item>
+    </ModOp>
+	
+	<!-- add big + small to the buff and logistic pool -->
+	<ModOp Type="add" GUID='141703' Path="/Values/CharacterInteractionConfig/BuildBuildingWhitelist">
+        <Item>
+			<Building>1337500018</Building>
+		</Item>
+		<Item>
+			<Building>1337500019</Building>
+		</Item>
+    </ModOp>
+	<ModOp Type="add" GUID='190611' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+			<GUID>1337500018</GUID>
+		</Item>
+		<Item>
+			<GUID>1337500019</GUID>
+		</Item>
+    </ModOp>
+	<ModOp Type="add" GUID='193879' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+			<GUID>1337500018</GUID>
+		</Item>
+		<Item>
+			<GUID>1337500019</GUID>
+		</Item>
+    </ModOp>
+	<ModOp Type="add" GUID='190777' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+			<GUID>1337500018</GUID>
+		</Item>
+		<Item>
+			<GUID>1337500019</GUID>
+		</Item>
+    </ModOp>
+	
+	<!-- Hospital big + small Feedbackunits-->
+	<ModOp Type="add" GUID='142785' Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+			<Building>1337500019</Building>
+		</Item>
+		<Item>
+			<Building>1337500018</Building>
+		</Item>
+    </ModOp>
+	<ModOp Type="add" GUID='142747' Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+			<Building>1337500019</Building>
+		</Item>
+		<Item>
+			<Building>1337500018</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Hospital / small -->
+	<ModOp Type="addNextSibling" GUID='1010464'>
+		<Asset>
+			<Template>InstitutionBuildingHospitalMU</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500019</GUID>
+					<Name>institution_03 (Hospital)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/hospital_small.png</IconFilename>
+					<InfoDescription>3789</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+				</Building>
+				<Blocking />
+				<Cost>
+					<Costs>
+						<Item>
+						<Ingredient>1010017</Ingredient>
+						<Amount>2500</Amount>
+						</Item>
+						<Item>
+						<Ingredient>1010196</Ingredient>
+						<Amount>15</Amount>
+						</Item>
+						<Item>
+						<Ingredient>1010253</Ingredient>
+						<Amount>5</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\public\hospital\small_hospital.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\public\hospital\small_hospital_01_a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\public\hospital\small_hospital_01_b.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\public\hospital\small_hospital_02.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>CityInstitution</GUIType>
+				</Selection>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Hospital</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>3737</LineID>
+				</Text>
+				<Constructable />
+				<Locked />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>239532</Sound>
+						</Item>
+					</ActiveSounds>
+					<IncidentSounds>
+						<InfectedFire>
+							<Item>
+								<Sound>214659</Sound>
+							</Item>
+						</InfectedFire>
+					</IncidentSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController />
+				<Infolayer />
+				<UpgradeList />
+				<IncidentResolver>
+					<ResolverUnit>1337500017</ResolverUnit>
+					<ResolverUnitCount>3</ResolverUnitCount>
+					<SpecialUnit>100584</SpecialUnit>
+					<ResolvableIncidents>Illness</ResolvableIncidents>
+					<DuringConstructionText>15224</DuringConstructionText>
+					<DuringIncidentHeadline>3781</DuringIncidentHeadline>
+					<ActionButtonText>3690</ActionButtonText>
+					<DuringIncidentHeadlineIcon>501922</DuringIncidentHeadlineIcon>
+				</IncidentResolver>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>55</Amount>
+							<InactiveAmount>35</InactiveAmount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+					<MaximumHitPoints>2500</MaximumHitPoints>
+					<SelfHealPerHealTick>2</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable />
+				<IncidentInfluencer>
+					<Influence>
+						<Illness>
+							<Influence>-6.79</Influence>
+							<Distance>12.75</Distance>
+						</Illness>
+					</Influence>
+				</IncidentInfluencer>
+				<DelayedConstruction />
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
+				<Culture />
+				<Upgradable />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<ModOp GUID="1337500019" Type="replace" Path="/Values/Maintenance/Maintenances/Item[Product='1010017']/Amount" ModOpID="SmallHospitalMaintenance">
+		<Amount>55</Amount>
+	</ModOp>
+	<ModOp GUID="1337500019" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010017']/Amount" ModOpID="SmallHospitalCost">
+		<Amount>2500</Amount>
+	</ModOp>
+	<ModOp GUID="1337500019" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010196']/Amount" ModOpID="SmallHospitalTimber">
+		<Amount>15</Amount>
+	</ModOp>
+	<ModOp GUID="1337500019" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010253']/Amount" ModOpID="SmallHospitalCotton">
+		<Amount>5</Amount>
+	</ModOp>
+  
+	<ImyaExpose Path="self::Amount" ModOpID="SmallHospitalMaintenance" ExposeID="SmallHospitalCreditsMaintenance" Description="The Small Hospitals Maintenance Cost in Credits" Kind="Slider">
+		<SliderDefinition Min="0" Max="5000" Stepping="1" />
+	</ImyaExpose>
+	<ImyaExpose Path="self::Amount" ModOpID="SmallHospitalCost" ExposeID="SmallHospitalCreditsCost" Description="The Small Hospitals Cost in Credits" Kind="Slider">
+		<SliderDefinition Min="0" Max="15500" Stepping="1" />
+	</ImyaExpose>
+	<ImyaExpose Path="self::Amount" ModOpID="SmallHospitalTimber" ExposeID="SmallHospitalTimberCost" Description="The Small Hospitals Cost in Timber" Kind="Slider">
+		<SliderDefinition Min="0" Max="500" Stepping="1" />
+	</ImyaExpose>
+	<ImyaExpose Path="self::Amount" ModOpID="SmallHospitalCotton" ExposeID="SmallHospitalCottonCost" Description="The Small Hospitals Cost in Cotton" Kind="Slider">
+		<SliderDefinition Min="0" Max="500" Stepping="1" />
+	</ImyaExpose>
+</ModOps>

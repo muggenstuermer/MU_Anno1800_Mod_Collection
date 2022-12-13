@@ -1,0 +1,750 @@
+<ModOps>
+	<!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+	<!-- ID's are used for this mod: 1337500007 to 1337500013 + 1337500022,1337509997,1337509998-->
+	
+<!--
+
+1337500022 - Trigger
+
+1337500007 - New Buildmenu for OLD WORLD
+1337500008 - New Buildmenu for NEW WORLD
+1337500013 - New Buildmenu for AFRICA
+
+1337500009 - Feuerwache / big  resolverunit ResolverUnitFire01MU
+1337509998 - Feuerwache / big  resolverunit FeedbackUnitClass
+1337509997 - Feuerwache / big  resolverunit TrafficFeedbackUnit
+
+1337500010 - Feuerwache / small resolverunit
+
+1337500011 - Feuerwache / big
+1337500012 - Feuerwache / small
+-->
+	
+	<!-- Freischaltung / Trigger -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500022</GUID>
+					<Name>intermediate moderate 1.2</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000000</Context>
+								<CounterAmount>100</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337500011</Asset>
+												<!-- Feuerwache / big -->
+											</Item>
+											<Item>
+												<Asset>1337500012</Asset>
+												<!-- Feuerwache / small -->
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>1337500011</Asset>
+												<!-- Feuerwache / big -->
+											</Item>
+											<Item>
+												<Asset>1337500012</Asset>
+												<!-- Feuerwache / small -->
+											</Item>
+										</UnhideAssets>
+										<AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- New Buildmenu for OLD WORLD-->
+	<ModOp Type="addNextSibling" GUID='500505'>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500007</GUID>
+                    <Name>FireOW</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1010463</Building>
+                            <!-- Fire Original OW-->
+                        </Item>
+						<Item>
+                            <Building>1337500011</Building>
+                             <!-- Feuerwache / big -->
+                        </Item>
+						<Item>
+                            <Building>1337500012</Building>
+                             <!-- Feuerwache / small -->
+                        </Item>
+					</BuildingList>
+                    <CategoryDescription>118032</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>FireStation</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<!-- New Buildmenu for NEW WORLD-->
+	<ModOp Type="addNextSibling" GUID='101033'>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500008</GUID>
+                    <Name>FireNW</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>101275</Building>
+                            <!-- Fire Original NW-->
+                        </Item>
+						<Item>
+                            <Building>1337500011</Building>
+                             <!-- Feuerwache / big -->
+                        </Item>
+						<Item>
+                            <Building>1337500012</Building>
+                             <!-- Feuerwache / small -->
+                        </Item>
+					</BuildingList>
+                    <CategoryDescription>118032</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>FireStation</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<!-- New Buildmenu for AFRICA-->
+	<ModOp Type="addNextSibling" GUID='117858'>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500013</GUID>
+                    <Name>FireNW</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>119892</Building>
+                            <!-- Fire Original AFRICA-->
+                        </Item>
+						<Item>
+                            <Building>1337500011</Building>
+                             <!-- Feuerwache / big -->
+                        </Item>
+						<Item>
+                            <Building>1337500012</Building>
+                             <!-- Feuerwache / small -->
+                        </Item>
+					</BuildingList>
+                    <CategoryDescription>118032</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>FireStation</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<!-- Replace Original Firestation from Constructionmenu OLD WORLD with new menu -->
+	<ModOp Type = "replace" GUID='25000189,500092' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']">
+        <Item>
+			<Building>1337500007</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Replace Original Firestation from Constructionmenu NEW WORLD with new menu-->
+	<ModOp Type = "replace" GUID='25000193,500137' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101275']">
+        <Item>
+			<Building>1337500008</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Replace Original Firestation from Constructionmenu AFRICA with new menu-->
+	<ModOp Type = "replace" GUID='114553,119012' Path="/Values/ConstructionCategory/BuildingList/Item[Building='119892']">
+        <Item>
+			<Building>1337500013</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Feuerwache / big  resolverunit -->
+	<ModOp Type="addNextSibling" GUID='1010463'>
+		<Asset>
+			<Template>ResolverUnitFire01MU</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500009</GUID>
+					<Name>Resolver Unit Fire Normal</Name>
+					<IconFilename>data/ui/2kimages/main/icons/icon_fire_brigade_2d.png</IconFilename>
+					<InfoDescription>21508</InfoDescription>
+				</Standard>
+				<IncidentResolverUnit>
+					<FeedbackUnitClass>1337509998</FeedbackUnitClass>
+				</IncidentResolverUnit>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Fire Fighters</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>25831</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling" GUID="1010463">
+    <Asset>
+	  <Template>FeedbackUnitClass</Template>
+	  <Values>
+		<Standard>
+		  <GUID>1337509998</GUID>
+		  <Name>Resolver Unit Fire Normal</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+		</Standard>
+		<TrafficFeedbackClass>
+		  <UnitAssets>
+			<Item>
+			  <UnitAsset>1337509997</UnitAsset>
+			</Item>
+		  </UnitAssets>
+		  <AllowedReactions />
+		</TrafficFeedbackClass>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010463">
+    <Asset>
+	  <Template>TrafficFeedbackUnit</Template>
+	  <Values>
+		<Standard>
+		  <GUID>1337509997</GUID>
+		  <Name>Resolver Unit Fire Normal</Name>
+		  <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+		</Standard>
+		<TrafficFeedbackUnit>
+		  <UnitType>Vehicle</UnitType>
+		  <CfgPath>data\modgraphics\vehicle\motorized_firefighter\motorized_firefighter_vehicle.cfg</CfgPath>
+		  <SpeedSource>Managed</SpeedSource>
+		  <OverwriteSpeed>0.4</OverwriteSpeed>
+		  <ResidentCamInteraction>MountAsCoach</ResidentCamInteraction>
+		</TrafficFeedbackUnit>
+		<Trailer>
+		  <TrailerCount>1</TrailerCount>
+		  <TrailerEndPartCfgVariations>
+			<Item>
+			  <CfgVariation>data/graphics/vehicle/horse_drawn_carriage_fire_service/horse_drawn_carriage_fire_service_rear.cfg</CfgVariation>
+			</Item>
+		  </TrailerEndPartCfgVariations>
+		</Trailer>
+	  </Values>
+	</Asset>
+  </ModOp>
+	
+	<!-- Feuerwache / small resolverunit -->
+	<ModOp Type="addNextSibling" GUID='1010463'>
+		<Asset>
+			<Template>ResolverUnitFire02MU</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500010</GUID>
+					<Name>Resolver Unit Riot Normal</Name>
+					<IconFilename>data/ui/2kimages/main/icons/icon_fire_brigade_2d.png</IconFilename>
+					<InfoDescription>21508</InfoDescription>
+				</Standard>
+				<IncidentResolverUnit>
+					<FeedbackUnitClass>140717</FeedbackUnitClass>
+				</IncidentResolverUnit>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Fire Fighters</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+                        </English>
+					</LocaText>
+					<LineID>25831</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Feuerwache / big  -->
+	<ModOp Type="addNextSibling" GUID='1010462'>
+		<Asset>
+			<Template>CityInstitutionBuildingFireMU</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500011</GUID>
+					<Name>institution_02 (Fire Department)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/fire_big.png</IconFilename>
+					<InfoDescription>118032</InfoDescription>
+				</Standard>
+				<Building>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+				</Building>
+				<Blocking />
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>3500</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>14</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>34</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010218</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010207</Ingredient>
+							<Amount>4</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\public\fire_station\fire_station.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>CityInstitution</GUIType>
+				</Selection>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Fire Station</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>3736</LineID>
+				</Text>
+				<Constructable />
+				<Locked />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>202400</Sound>
+						</Item>
+					</ActiveSounds>
+					<IncidentSounds>
+						<InfectedFire>
+							<Item>
+								<Sound>214659</Sound>
+							</Item>
+						</InfectedFire>
+					</IncidentSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Infolayer />
+				<UpgradeList />
+				<IncidentResolver>
+					<ResolverUnit>1337500009</ResolverUnit>
+					<ResolverUnitCount>4</ResolverUnitCount>
+					<SpecialUnit>100580</SpecialUnit>
+					<ResolvableIncidents>Fire</ResolvableIncidents>
+					<DuringConstructionText>17463</DuringConstructionText>
+					<DuringIncidentHeadline>3779</DuringIncidentHeadline>
+					<ActionButtonText>3690</ActionButtonText>
+					<DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+				</IncidentResolver>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>45</Amount>
+							<InactiveAmount>35</InactiveAmount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+					<MaximumHitPoints>5500</MaximumHitPoints>
+					<SelfHealPerHealTick>6</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable />
+				<IncidentInfluencer>
+					<Influence>
+						<Fire>
+							<Influence>-10.18</Influence>
+							<Distance>24</Distance>
+						</Fire>
+						<Explosion>
+							<Influence>-10.18</Influence>
+							<Distance>15</Distance>
+						</Explosion>
+					</Influence>
+				</IncidentInfluencer>
+				<DelayedConstruction />
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
+				<Culture />
+				<Upgradable />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<ModOp GUID="1337500011" Type="replace" Path="/Values/Maintenance/Maintenances/Item[Product='1010017']/Amount" ModOpID="BigFireStationMaintenance">
+    <Amount>45</Amount>
+  </ModOp>
+  <ModOp GUID="1337500011" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010017']/Amount" ModOpID="BigFireStationCost">
+    <Amount>3500</Amount>
+  </ModOp>
+  <ModOp GUID="1337500011" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010196']/Amount" ModOpID="BigFireStationTimber">
+    <Amount>14</Amount>
+  </ModOp>
+  <ModOp GUID="1337500011" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010205']/Amount" ModOpID="BigFireStationBricks">
+    <Amount>34</Amount>
+  </ModOp>
+   <ModOp GUID="1337500011" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010218']/Amount" ModOpID="BigFireStationSteelBeams">
+    <Amount>8</Amount>
+  </ModOp>
+   <ModOp GUID="1337500011" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010207']/Amount" ModOpID="BigFireStationWindows">
+    <Amount>4</Amount>
+  </ModOp>
+  
+  <ImyaExpose Path="self::Amount" ModOpID="BigFireStationMaintenance" ExposeID="BigFireStationCreditsMaintenance" Description="The Big Firestations Maintenance Cost in Credits" Kind="Slider">
+    <SliderDefinition Min="0" Max="5000" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigFireStationCost" ExposeID="BigFireStationCreditsCost" Description="The Big Firestations Cost in Credits" Kind="Slider">
+    <SliderDefinition Min="0" Max="15500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigFireStationTimber" ExposeID="BigFireStationTimberCost" Description="The Big Firestations Cost in Timber" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigFireStationBricks" ExposeID="BigFireStationBricksCost" Description="The Big Firestations Cost in Bricks" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigFireStationSteelBeams" ExposeID="BigFireStationSteelBeamsCost" Description="The Big Firestations Cost in Steel Beams" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="BigFireStationWindows" ExposeID="BigFireStationWindowsCost" Description="The Big Firestations Cost in Windows" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+	
+	<!-- AI-blocking building -> Feuerwache / big + small -->
+	<ModOp Type="add" GUID='220' Path="/Values/ConstructionAI/BuildingReplacements">
+        <Item>
+            <Building>1337500011</Building>
+            <Replacement>1010463</Replacement>
+        </Item>
+		<Item>
+            <Building>1337500012</Building>
+            <Replacement>1010463</Replacement>
+        </Item>
+		<Item>
+            <Building>1337500011</Building>
+            <Replacement>101275</Replacement>
+        </Item>
+		<Item>
+            <Building>1337500012</Building>
+            <Replacement>101275</Replacement>
+        </Item>
+    </ModOp>
+	
+	<ModOp Type="add" GUID='167' Path="/Values/ConstructionAI">
+		<BuildingReplacements>
+        </BuildingReplacements>
+    </ModOp>
+	
+	<ModOp Type="add" GUID='167' Path="/Values/ConstructionAI/BuildingReplacements">
+			<Item>
+				<Building>1337500011</Building>
+				<Replacement>1010463</Replacement>
+			</Item>
+			<Item>
+				<Building>1337500012</Building>
+				<Replacement>1010463</Replacement>
+			</Item>
+			<Item>
+				<Building>1337500011</Building>
+				<Replacement>101275</Replacement>
+			</Item>
+			<Item>
+				<Building>1337500012</Building>
+				<Replacement>101275</Replacement>
+			</Item>
+    </ModOp>
+	
+	<!-- add big + small to the buff and logistic pool -->
+	<ModOp Type="add" GUID='141703' Path="/Values/CharacterInteractionConfig/BuildBuildingWhitelist">
+        <Item>
+			<Building>1337500011</Building>
+		</Item>
+		<Item>
+			<Building>1337500012</Building>
+		</Item>
+    </ModOp>
+	<ModOp Type="add" GUID='190611' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+			<GUID>1337500011</GUID>
+		</Item>
+		<Item>
+			<GUID>1337500012</GUID>
+		</Item>
+    </ModOp>
+	<ModOp Type="add" GUID='193879' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+			<GUID>1337500011</GUID>
+		</Item>
+		<Item>
+			<GUID>1337500012</GUID>
+		</Item>
+    </ModOp>
+	<ModOp Type="add" GUID='190775' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+			<GUID>1337500011</GUID>
+		</Item>
+		<Item>
+			<GUID>1337500012</GUID>
+		</Item>
+    </ModOp>
+	
+	<!-- Feuerwache big + small Feedbackunits-->
+	<ModOp Type="add" GUID='142785' Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+			<Building>1337500012</Building>
+		</Item>
+		<Item>
+			<Building>1337500011</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Feuerwache / small -->
+	<ModOp Type="addNextSibling" GUID='1010463'>
+		<Asset>
+			<Template>CityInstitutionBuildingFireMU</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500012</GUID>
+					<Name>institution_02 (Fire Department)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/fire_small.png</IconFilename>
+					<InfoDescription>118032</InfoDescription>
+				</Standard>
+				<Building>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+				</Building>
+				<Blocking />
+				<Cost>
+					<Costs>
+						<Item>
+						<Ingredient>1010017</Ingredient>
+						<Amount>1500</Amount>
+						</Item>
+						<Item>
+						<Ingredient>1010196</Ingredient>
+						<Amount>15</Amount>
+						</Item>
+						<Item>
+						<Ingredient>1010205</Ingredient>
+						<Amount>5</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\public\fire_station\fire_station_small_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\public\fire_station\fire_station_small_02.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>CityInstitution</GUIType>
+				</Selection>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Fire Station</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>3736</LineID>
+				</Text>
+				<Constructable />
+				<Locked />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>202400</Sound>
+						</Item>
+					</ActiveSounds>
+					<IncidentSounds>
+						<InfectedFire>
+							<Item>
+								<Sound>214659</Sound>
+							</Item>
+						</InfectedFire>
+					</IncidentSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Infolayer />
+				<UpgradeList />
+				<IncidentResolver>
+					<ResolverUnit>1337500010</ResolverUnit>
+					<ResolverUnitCount>2</ResolverUnitCount>
+					<SpecialUnit>100580</SpecialUnit>
+					<ResolvableIncidents>Fire</ResolvableIncidents>
+					<DuringConstructionText>17463</DuringConstructionText>
+					<DuringIncidentHeadline>3779</DuringIncidentHeadline>
+					<ActionButtonText>3690</ActionButtonText>
+					<DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+				</IncidentResolver>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>15</Amount>
+							<InactiveAmount>15</InactiveAmount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+					<MaximumHitPoints>2500</MaximumHitPoints>
+					<SelfHealPerHealTick>2</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable />
+				<IncidentInfluencer>
+					<Influence>
+						<Fire>
+							<Influence>-6.79</Influence>
+							<Distance>12.75</Distance>
+						</Fire>
+						<Explosion>
+							<Influence>-6.79</Influence>
+							<Distance>12.75</Distance>
+						</Explosion>
+					</Influence>
+				</IncidentInfluencer>
+				<DelayedConstruction />
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
+				<Culture />
+				<Upgradable />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	 <ModOp GUID="1337500002" Type="replace" Path="/Values/Maintenance/Maintenances/Item[Product='1010017']/Amount" ModOpID="SmallFireStationMaintenance">
+    <Amount>15</Amount>
+  </ModOp>
+  <ModOp GUID="1337500002" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010017']/Amount" ModOpID="SmallFireStationCost">
+    <Amount>1500</Amount>
+  </ModOp>
+  <ModOp GUID="1337500002" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010196']/Amount" ModOpID="SmallFireStationTimber">
+    <Amount>15</Amount>
+  </ModOp>
+   <ModOp GUID="1337500002" Type="replace" Path="/Values/Cost/Costs/Item[Ingredient='1010205']/Amount" ModOpID="SmallFireStationBricks">
+    <Amount>5</Amount>
+  </ModOp>
+  
+  <ImyaExpose Path="self::Amount" ModOpID="SmallFireStationMaintenance" ExposeID="SmallFireStationCreditsMaintenance" Description="The Small Firestations Maintenance Cost in Credits" Kind="Slider">
+    <SliderDefinition Min="0" Max="5000" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="SmallFireStationCost" ExposeID="SmallFireStationCreditsCost" Description="The Small Firestations Cost in Credits" Kind="Slider">
+    <SliderDefinition Min="0" Max="15500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="SmallFireStationTimber" ExposeID="SmallFireStationTimberCost" Description="The Small Firestations Cost in Timber" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+  <ImyaExpose Path="self::Amount" ModOpID="SmallFireStationBricks" ExposeID="SmallFireStationBricksCost" Description="The Small Firestations Cost in Bricks" Kind="Slider">
+    <SliderDefinition Min="0" Max="500" Stepping="1" />
+  </ImyaExpose>
+	
+</ModOps>

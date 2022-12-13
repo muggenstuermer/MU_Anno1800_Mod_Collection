@@ -1,0 +1,115 @@
+<ModOps>
+	<ModOp Type="add" Path="Templates/Group[Name = 'Economy']">
+        <Template>
+      <Name>InstitutionBuildingHospitalMU</Name>
+      <Properties>
+        <Standard />
+        <Building>
+          <BuildingType>Factory</BuildingType>
+          <BuildingCategoryName>100001</BuildingCategoryName>
+        </Building>
+        <Blocking />
+        <Cost />
+        <Object>
+          <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+        </Object>
+        <Mesh />
+        <Selection>
+          <GUIType>Production</GUIType>
+        </Selection>
+        <Text />
+        <Constructable>
+          <DestructionCategory>Production</DestructionCategory>
+        </Constructable>
+        <Locked />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+            </BuildMoveStart>
+            <BuildMoveSuccess>
+              <Item>
+                <Sound>203995</Sound>
+              </Item>
+            </BuildMoveSuccess>
+            <BuildMoveEnd>
+              <Item>
+                <Sound>200141</Sound>
+              </Item>
+            </BuildMoveEnd>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <IncidentResolver>
+          <SpecialUnitThresholds>
+            <Item>
+              <UnitAmount>2</UnitAmount>
+              <HappinessThreshold>10</HappinessThreshold>
+              <PopulationCount>100</PopulationCount>
+            </Item>
+            <Item>
+              <UnitAmount>4</UnitAmount>
+              <HappinessThreshold>25</HappinessThreshold>
+              <PopulationCount>200</PopulationCount>
+            </Item>
+            <Item>
+              <UnitAmount>6</UnitAmount>
+              <HappinessThreshold>50</HappinessThreshold>
+              <PopulationCount>300</PopulationCount>
+            </Item>
+          </SpecialUnitThresholds>
+        </IncidentResolver>
+        <Maintenance>
+          <IncomeCategory>CityInstitutionBuildings</IncomeCategory>
+        </Maintenance>
+        <Attackable>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+        <Pausable />
+        <IncidentInfluencer />
+        <DelayedConstruction />
+        <AmbientMoodProvider />
+        <Culture />
+        <Upgradable />
+      </Properties>
+    </Template>
+	<Template>
+      <Name>ResolverUnitHospitalMU</Name>
+      <Properties>
+        <IncidentResolverUnit>
+          <ResolverOperatingDistance>65000</ResolverOperatingDistance>
+          <ResolverMovementSpeed>1.08</ResolverMovementSpeed>
+          <IntensityDecreaseRate>0.25</IntensityDecreaseRate>
+          <FeedbackUnitClass>0</FeedbackUnitClass>
+        </IncidentResolverUnit>
+        <Text />
+      </Properties>
+    </Template>
+	<Template>
+      <Name>ResolverUnitHospitalSmallMU</Name>
+      <Properties>
+        <IncidentResolverUnit>
+          <ResolverOperatingDistance>45000</ResolverOperatingDistance>
+          <ResolverMovementSpeed>0.92</ResolverMovementSpeed>
+          <IntensityDecreaseRate>0.15</IntensityDecreaseRate>
+          <FeedbackUnitClass>0</FeedbackUnitClass>
+        </IncidentResolverUnit>
+        <Text />
+      </Properties>
+    </Template>
+    </ModOp>
+</ModOps>

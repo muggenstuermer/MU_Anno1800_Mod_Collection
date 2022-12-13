@@ -1,0 +1,243 @@
+<ModOps>
+	<!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+	<!-- ID's are used for this mod: 1337500369,1337500370,1337509994,1337509993 -->
+
+  <!--
+	Vanilla GUIDs
+	LINES :
+		101388-corner and cross line 1 tile
+		101389-corner line
+		101390-straight 2 tiles line (between posts)
+		101391-straight 3 tiles line (between posts)
+		101392-?
+	
+	POSTS :
+		101393-straight post
+		101394-corner and cross post
+		101396-t-cross post
+		101401-railway cross post
+		
+1337500369 - trolleybus + trailer skin
+1337500370 - trolleybus (without trailer) skin
+1337509994 - double-decker bus (without glass) skin
+1337509993 - convertible bus skin 
+  -->
+  
+	
+	
+	<ModOp Type="replace" GUID='101393' Path="Values/Object/Variations">
+        <Variations>
+			<Item>
+				<Filename>data\modgraphics\electric\electricity_post_01_straight.cfg</Filename><!-- straight post -->
+            </Item>
+		</Variations>
+    </ModOp>
+	
+	<ModOp Type="replace" GUID='101396' Path="Values/Object/Variations">
+        <Variations>
+			<Item>
+				<Filename>data\modgraphics\electric\electricity_post_03_tcross.cfg</Filename><!-- t-cross post -->
+            </Item>
+		</Variations>
+    </ModOp>
+	
+	<ModOp Type="replace" GUID='101394' Path="Values/Object/Variations">
+        <Variations>
+			<Item>
+				<Filename>data\modgraphics\electric\electricity_post_02_crossing.cfg</Filename><!-- corner and cross post -->
+            </Item>
+		</Variations>
+    </ModOp>
+	
+	<ModOp Type="replace" GUID='101401' Path="Values/Object/Variations">
+        <Variations>
+			<Item>
+				<Filename>data\modgraphics\electric\electricity_post_01_straight.cfg</Filename><!-- railway cross post -->
+            </Item>
+		</Variations>
+    </ModOp>
+	
+	
+	
+	<ModOp Type="replace" GUID='101388' Path="Values/Object/Variations">
+        <Variations>
+			<Item>
+				<Filename>data\modgraphics\electric\electricity_line_01.cfg</Filename><!-- corner and cross line 1 tile -->
+            </Item>
+		</Variations>
+    </ModOp>
+	
+	<ModOp Type="replace" GUID='101389' Path="Values/Object/Variations">
+        <Variations>
+			<Item>
+				<Filename>data\modgraphics\electric\electricity_line_02.cfg</Filename><!-- corner line -->
+            </Item>
+		</Variations>
+    </ModOp>
+	
+	<ModOp Type="replace" GUID='101390' Path="Values/Object/Variations">
+        <Variations>
+			<Item>
+				<Filename>data\modgraphics\electric\electricity_line_03.cfg</Filename><!-- straight 2 tiles line (between posts)-->
+            </Item>
+		</Variations>
+    </ModOp>
+	
+	<ModOp Type="replace" GUID='101391' Path="Values/Object/Variations">
+        <Variations>
+			<Item>
+				<Filename>data\modgraphics\electric\electricity_line_04.cfg</Filename><!-- straight 3 tiles line (between posts)-->
+            </Item>
+		</Variations>
+    </ModOp>
+	
+	<ModOp Type="replace" GUID='101392' Path="Values/Object/Variations">
+        <Variations>
+			<Item>
+				<Filename>data\modgraphics\electric\electricity_line_05.cfg</Filename><!-- could not find it ingame ? -->
+            </Item>
+		</Variations>
+    </ModOp>
+	
+	
+	<!-- BUS -->
+	<!-- adding skins : trolleybus + trailer -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>TrafficFeedbackUnit</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500369</GUID>
+					<Name>Bus_Trolley_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/busses/ele_bus_skin_with.png</IconFilename>
+					<ID>TrolleyBus01</ID>
+				</Standard>
+				<TrafficFeedbackUnit>
+					<UnitType>Bus</UnitType>
+					<CfgPath>data\modgraphics\electric\bus_01.cfg</CfgPath>
+					<SpeedSource>TakeFromAsset</SpeedSource>
+					<OverwriteSpeed>0.4</OverwriteSpeed>
+					<ResidentCamInteraction>Bus</ResidentCamInteraction>
+				</TrafficFeedbackUnit>
+				<Trailer>
+					<TrailerCount>1</TrailerCount>
+					<TrailerEndPartCfgVariations>
+						<Item>
+							<CfgVariation>data\modgraphics\electric\bus_trailer.cfg</CfgVariation>
+						</Item>
+					</TrailerEndPartCfgVariations>
+				</Trailer>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- adding skins : trolleybus (without trailer) -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>TrafficFeedbackUnit</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500370</GUID>
+					<Name>Bus_Trolley_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/busses/ele_bus_skin_without.png</IconFilename>
+					<ID>TrolleyBus02</ID>
+				</Standard>
+				<TrafficFeedbackUnit>
+					<UnitType>Bus</UnitType>
+					<CfgPath>data\modgraphics\electric\bus_01.cfg</CfgPath>
+					<SpeedSource>TakeFromAsset</SpeedSource>
+					<OverwriteSpeed>0.4</OverwriteSpeed>
+					<ResidentCamInteraction>Bus</ResidentCamInteraction>
+				</TrafficFeedbackUnit>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- adding skins : double-decker bus -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>TrafficFeedbackUnit</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509994</GUID>
+					<Name>Double_Decker_Bus_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/busses/double_bus.png</IconFilename>
+					<ID>TrolleyBus03</ID>
+				</Standard>
+				<TrafficFeedbackUnit>
+					<UnitType>Bus</UnitType>
+					<CfgPath>data\modgraphics\electric\bus_03.cfg</CfgPath>
+					<SpeedSource>TakeFromAsset</SpeedSource>
+					<OverwriteSpeed>0.4</OverwriteSpeed>
+					<ResidentCamInteraction>Bus</ResidentCamInteraction>
+				</TrafficFeedbackUnit>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- adding skins : convertible bus -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>TrafficFeedbackUnit</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509993</GUID>
+					<Name>Cabrio_Bus_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/busses/cabrio_bus.png</IconFilename>
+					<ID>TrolleyBus04</ID>
+				</Standard>
+				<TrafficFeedbackUnit>
+					<UnitType>Bus</UnitType>
+					<CfgPath>data\modgraphics\electric\bus_02.cfg</CfgPath>
+					<SpeedSource>TakeFromAsset</SpeedSource>
+					<OverwriteSpeed>0.4</OverwriteSpeed>
+					<ResidentCamInteraction>Bus</ResidentCamInteraction>
+				</TrafficFeedbackUnit>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- adding skins to skin asset -->
+	<ModOp Type="add" GUID='601452' Path="Values/TrafficFeedbackClass/UnitAssets">
+        <Item>
+			<UnitAsset>1337500369</UnitAsset>
+		</Item>
+		<Item>
+			<UnitAsset>1337500370</UnitAsset>
+		</Item>
+		<Item>
+			<UnitAsset>1337509994</UnitAsset>
+		</Item>
+		<Item>
+			<UnitAsset>1337509993</UnitAsset>
+		</Item>
+    </ModOp>
+	
+	<!-- adding skins to the <Template>SkinDescriptionFeature</Template> -->
+	<ModOp Type="add" GUID='142915' Path="Values/SkinDescriptionFeature/FakeSkinsThatAreFeedbackUnits">
+		<Item>
+			<FeedbackUnit>1337500369</FeedbackUnit>
+			<SkinName>1337500369</SkinName>
+			<SkinDescription>7376</SkinDescription>
+			<SkinCategoryDescription>5949</SkinCategoryDescription>
+		</Item>
+		<Item>
+			<FeedbackUnit>1337500370</FeedbackUnit>
+			<SkinName>1337500370</SkinName>
+			<SkinDescription>7376</SkinDescription>
+			<SkinCategoryDescription>5949</SkinCategoryDescription>
+		</Item>
+		<Item>
+			<FeedbackUnit>1337509994</FeedbackUnit>
+			<SkinName>1337509994</SkinName>
+			<SkinDescription>7376</SkinDescription>
+			<SkinCategoryDescription>5949</SkinCategoryDescription>
+		</Item>
+		<Item>
+			<FeedbackUnit>1337509993</FeedbackUnit>
+			<SkinName>1337509993</SkinName>
+			<SkinDescription>7376</SkinDescription>
+			<SkinCategoryDescription>5949</SkinCategoryDescription>
+		</Item>
+	</ModOp>
+</ModOps>
