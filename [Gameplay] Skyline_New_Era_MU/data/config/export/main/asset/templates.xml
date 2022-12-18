@@ -1,0 +1,623 @@
+<ModOps>
+	<ModOp Type="add" Path="Templates/Group[Name = 'Economy']">
+		<Template>
+			<Name>HouseMallMU</Name>
+			<Properties>
+				<Standard />
+				<Building>
+					<BuildingCategoryName>136515</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<AllowChangeDirection>1</AllowChangeDirection>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<BuildingType>Factory</BuildingType>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337500385</Building>
+						</Item>
+						<Item>
+							<Building>1337500383</Building>
+						</Item>
+						<Item>
+							<Building>1337500381</Building>
+						</Item>
+						<Item>
+							<Building>1337500379</Building>
+						</Item>
+						<Item>
+							<Building>1337500377</Building>
+						</Item>
+						<Item>
+							<Building>1337500375</Building>
+						</Item>
+						<Item>
+							<Building>1337500594</Building>
+						</Item>
+						<Item>
+							<Building>1337500589</Building>
+						</Item>
+						<Item>
+							<Building>1337500590</Building>
+						</Item>
+						<Item>
+							<Building>1337500591</Building>
+						</Item>
+						<Item>
+							<Building>1337500592</Building>
+						</Item>
+						<Item>
+							<Building>1337500593</Building>
+						</Item>
+						<Item>
+							<Building>1337500696</Building>
+						</Item>
+						<Item>
+							<Building>1337500697</Building>
+						</Item>
+						<Item>
+							<Building>1337500698</Building>
+						</Item>
+						<Item>
+							<Building>1337500699</Building>
+						</Item>
+						<Item>
+							<Building>1337500700</Building>
+						</Item>
+						<Item>
+							<Building>1337500701</Building>
+						</Item>
+						<Item>
+							<Building>1337500733</Building>
+						</Item>
+						<Item>
+							<Building>1337500734</Building>
+						</Item>
+						<Item>
+							<Building>1337500735</Building>
+						</Item>
+						<Item>
+							<Building>1337500736</Building>
+						</Item>
+						<Item>
+							<Building>1337500737</Building>
+						</Item>
+						<Item>
+							<Building>1010345</Building>
+						</Item>
+						<Item>
+							<Building>1010346</Building>
+						</Item>
+						<Item>
+							<Building>1010347</Building>
+						</Item>
+						<Item>
+							<Building>1010344</Building>
+						</Item>
+						<Item>
+							<Building>1010343</Building>
+						</Item>
+						<Item>
+							<Building>601888</Building>
+						</Item>
+						<Item>
+							<Building>601889</Building>
+						</Item>
+						<Item>
+							<Building>601890</Building>
+						</Item>
+						<Item>
+							<Building>601882</Building>
+						</Item>
+						<Item>
+							<Building>601883</Building>
+						</Item>
+						<Item>
+							<Building>601884</Building>
+						</Item>
+						<Item>
+							<Building>601886</Building>
+						</Item>
+						<Item>
+							<Building>601891</Building>
+						</Item>
+						<!-- Jakobs Buildings -->
+						<Item>
+							<Building>1500010142</Building> <!-- pescatarian farmer -->
+						</Item>
+						<Item>
+							<Building>1500010143</Building> <!-- pescatarian worker -->
+						</Item>
+						<Item>
+							<Building>1500010144</Building> <!-- pescatarian artisan -->
+						</Item>
+						<Item>
+							<Building>1500010145</Building> <!-- pescatarian engineer -->
+						</Item>
+						<Item>
+							<Building>1500010200</Building> <!-- worker scraper 1 -->
+						</Item>
+						<Item>
+							<Building>1500010201</Building> <!-- worker scraper 2 -->
+						</Item>
+						<Item>
+							<Building>1500010401</Building> <!-- diagonals -->
+						</Item>
+						<Item>
+							<Building>1500010415</Building> <!-- narrow -->
+						</Item>
+						<!-- minimalls -->
+						<Item>
+							<Building>1500010850</Building> <!-- departmant store -->
+						</Item>
+						<Item>
+							<Building>1500010851</Building> <!-- departmant store -->
+						</Item>
+						<Item>
+							<Building>1500010852</Building> <!-- departmant store -->
+						</Item>
+						<Item>
+							<Building>1500010853</Building> <!-- departmant store -->
+						</Item>
+						<Item>
+							<Building>1500010854</Building> <!-- departmant store -->
+						</Item>
+						<Item>
+							<Building>1500010855</Building> <!-- department store -->
+						</Item>
+						<Item>
+							<Building>1500010856</Building> <!-- furniture store -->
+						</Item>
+						<Item>
+							<Building>1500010857</Building> <!-- furniture store -->
+						</Item>
+						<Item>
+							<Building>1500010858</Building> <!-- furniture store -->
+						</Item>
+						<Item>
+							<Building>1500010859</Building> <!-- furniture store -->
+						</Item>
+						<Item>
+							<Building>1500010860</Building> <!-- furniture store -->
+						</Item>
+						<Item>
+							<Building>1500010861</Building> <!-- furniture store -->
+						</Item>
+						<Item>
+							<Building>1500010862</Building> <!-- drug store -->
+						</Item>
+						<Item>
+							<Building>1500010863</Building> <!-- drug store -->
+						</Item>
+						<Item>
+							<Building>1500010864</Building> <!-- drug store -->
+						</Item>
+						<Item>
+							<Building>1500010865</Building> <!-- drug store -->
+						</Item>
+						<Item>
+							<Building>1500010866</Building> <!-- drug store -->
+						</Item>
+						<Item>
+							<Building>1500010867</Building> <!-- drug store -->
+						</Item>
+						<Item>
+							<Building>1500010888</Building> <!-- booster building -->
+						</Item>
+						<Item>
+							<Building>1500010909</Building> <!-- ornamental -->
+						</Item>
+						<!-- restaurants -->
+						<Item>
+							<Building>1500010517</Building>
+						</Item>
+						<Item>
+							<Building>1500010518</Building>
+						</Item>
+						<Item>
+							<Building>1500010519</Building>
+						</Item>
+						<Item>
+							<Building>1500010520</Building>
+						</Item>
+						<Item>
+							<Building>1500010521</Building>
+						</Item>
+						<Item>
+							<Building>1500010522</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>6</Variation>
+								</Item>
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+					</BuildingBlockPool>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item />
+					</InfluencedVariationDirection>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<AllowChangeDirection>1</AllowChangeDirection>
+				</Building>
+				<Blocking />
+				<Object>
+					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+				</Object>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>8000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>30</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010218</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010207</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Mesh />
+				<Selection>
+				  <GUIType>Production</GUIType>
+				  <StaticHelpEntryPoint>HighLifeShoppingArcades</StaticHelpEntryPoint>
+				  <ParticipantMessageTrigger>ClickRecipeBuffFactory</ParticipantMessageTrigger>
+				  <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+				  <OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+				  </OnSelection>
+				</Selection>
+				<Text />
+				<Constructable />
+				<Locked />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<FactoryBase />
+				<LogisticNode>
+					<ResetOnGUIDChange>1</ResetOnGUIDChange>
+					<TransporterCountMax>1</TransporterCountMax>
+				</LogisticNode>
+				<Maintenance>
+					<ConsumerPriority>1</ConsumerPriority>
+					<IncomeCategory>Malls</IncomeCategory>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>250</Amount>
+							<InactiveAmount>10</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1010116</Product>
+							<Amount>105</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Industrializable />
+				<IncidentInfectable>
+					<Infectable>
+						<Explosion>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+						</Explosion>
+						<Illness>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+						</Illness>
+					</Infectable>
+					<IncidentInfectionChanceFactors>
+						<Fire>
+							<DensityDistance>20</DensityDistance>
+							<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+							<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+						</Fire>
+						<Riot>
+							<FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+							<FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+							<FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+							<HappinessThreshold>20</HappinessThreshold>
+						</Riot>
+					</IncidentInfectionChanceFactors>
+				</IncidentInfectable>
+				<Electrifiable />
+				<AmbientMoodProvider />
+				<Attackable>
+					<MaximumHitPoints>2000</MaximumHitPoints>
+					<HasRuinState>1</HasRuinState>
+				</Attackable>
+				<UpgradeList />
+				<Pausable>
+					<CanPauseManually>1</CanPauseManually>
+				</Pausable>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Infolayer />
+				<BuffFactory>
+					<BaseBuffScope>Radius</BaseBuffScope>
+					<ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+				</BuffFactory>
+				<RecipeBuilding>
+					<RecipeBuildingType>Mall</RecipeBuildingType>
+				</RecipeBuilding>
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+				</Ornament>
+				<Culture />
+			</Properties>
+		</Template>
+		
+		<Template>
+      <Name>HouseWarehouseMU</Name>
+      <Properties>
+        <Standard />
+        <Building>
+			<SecondPartyRelevant>0</SecondPartyRelevant>
+			<BuildingCategoryName>11151</BuildingCategoryName>
+			<AllowChangeVariation>1</AllowChangeVariation>
+			<AllowChangeDirection>1</AllowChangeDirection>
+			<BuildModeRandomRotation>90</BuildModeRandomRotation>
+			<BuildingType>Logistic</BuildingType>
+			<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+			<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+        </Building>
+		<Blocking />
+        <Cost />
+		<Object>
+		<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+        </Object>
+		<Mesh>
+			<LogoMode>CorporationLogoFromPlayer</LogoMode>
+			<SetCompanyLogo>1</SetCompanyLogo>
+		</Mesh>
+       <Selection>
+			<GUIType>Warehouse</GUIType>
+			<ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+			<Colors>
+				<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+			</Colors>
+		</Selection>
+        <Constructable>
+          <DestructionCategory>Production</DestructionCategory>
+        </Constructable>
+        <Locked />
+        <SoundEmitter>
+			<ConstructionSounds>
+				<BuildFailed>
+					<Item>
+						<Sound>9818387</Sound>
+					</Item>
+				</BuildFailed>
+				<BuildMoveStart>
+					<Item>
+						<Sound>9818755</Sound>
+					</Item>
+				</BuildMoveStart>
+				<BuildMoveSuccess>
+					<Item>
+						<Sound>203995</Sound>
+					</Item>
+				</BuildMoveSuccess>
+				<BuildMoveEnd>
+					<Item>
+						<Sound>200141</Sound>
+					</Item>
+				</BuildMoveEnd>
+				<ActiveSounds>
+					<Item>
+						<Sound>200834</Sound>
+					</Item>
+				</ActiveSounds>
+				<DestroySounds>
+					<Item>
+						<Sound>9818756</Sound>
+					</Item>
+				</DestroySounds>
+				<IncidentSounds>
+					<InfectedFire>
+						<Item>
+							<Sound>214659</Sound>
+						</Item>
+					</InfectedFire>
+				</IncidentSounds>
+				<BuildingRepaired>
+					<Item>
+						<Sound>203866</Sound>
+					</Item>
+				</BuildingRepaired>
+			</ConstructionSounds>
+		</SoundEmitter>
+        <Infolayer />
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Warehouse>
+          <WarehouseStorage>
+            <StorageMax>100</StorageMax>
+          </WarehouseStorage>
+          <StorageType>Warehouse</StorageType>
+        </Warehouse>
+		<StorageBase>
+          <ProductStorageList>120055</ProductStorageList>
+        </StorageBase>
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+          <QueueConfiguration>
+            <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
+          </QueueConfiguration>
+        </LogisticNode>
+		<Ornament />
+        <UpgradeList />
+        <AmbientMoodProvider>
+			<AmbientMood>ResidenceTier1</AmbientMood>
+		</AmbientMoodProvider>
+        <Maintenance>
+          <IncomeCategory>InfrastructureBuildings</IncomeCategory>
+        </Maintenance>
+		<Attackable>
+          <HasRuinState>1</HasRuinState>
+        </Attackable>
+		<Upgradable />
+        <Pausable />
+		<Electric />
+      </Properties>
+    </Template>
+	</ModOp>
+</ModOps>
