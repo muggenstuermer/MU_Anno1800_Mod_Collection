@@ -40,12 +40,12 @@ Changelog - 1.1
 Changelog - 1.2
 ---------------------------
 	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
+	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
 	- various values can be changed by a slider.
 	- the fire brigade institute now moves out with motorised units.
 	- Polish added.
 	
-https://github.com/muggenstuermer/Fire_Station_MU/releases/latest
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 # Police_Station_MU
 ----
@@ -85,7 +85,7 @@ Changelog - 1.1
 Changelog - 1.2
 ---------------------------
 	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
+	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
 	- various values can be changed as desired by a controller
 	
 ---------------------------
@@ -99,7 +99,7 @@ Changelog - 1.22
 	- added another relevant addition : <Upgradable>, in this case a missing tag probably leads to unwanted actions of the game.
 	- polish added.
 	
-https://github.com/muggenstuermer/Police_Station_MU/releases/latest
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 # Hospital_MU
 ----
@@ -138,12 +138,12 @@ Changelog - 1.1
 Changelog - 1.2
 ---------------------------
 	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
+	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
 	- various values can be changed by a controller.
 	- the sanatorium now moves out with motorised units.
 	- Polish added.
 	
-https://github.com/muggenstuermer/Hospital_MU/releases/latest
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 # MuggenTours_MU
 ----
@@ -173,11 +173,12 @@ Changelog - 1.1
 	- Double-decker bus and convertible bus skin added.
 	- Polish added.
 	
-https://github.com/muggenstuermer/MuggenTours_MU/releases/latest
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 # Shared_Objects_MU
 ----
-https://github.com/muggenstuermer/Shared_Objects_MU/releases/latest
+This mod will provide shared objekts and files,that will used by diffrent mods and creators in the future.
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 # Tourists_Alternativ_Buildings_MU
 ----
@@ -223,7 +224,7 @@ In addition, there are also passages which have been created by chance.
 Required active mods :
 ---------------------
 "Shared_Objects_MU" by @muggenstuermer
-https://github.com/muggenstuermer/Shared_Objects_MU/releases/tag/Shared_Objects_MU_v1.0
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
 Have fun with it: your muggenstuermer ;)
@@ -241,13 +242,13 @@ Changelog - 1.2
 Changelog - 1.3
 ---------------------------
 	- GU16 Bugfixing.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
+	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
 	- various values can be changed by a slider.
 	- added decals and feedback.
 	- objects are no longer overbuildable.
 	- Polish added.
 	
-https://github.com/muggenstuermer/Tourists_Alternativ_Buildings_MU/releases/latest
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 # Worlds_New_Depots_MU
 ----
@@ -305,7 +306,7 @@ The "Dockland" depots have the following storage capacities:
 The underground depots have a storage capacity of 30t per object and are not upgradeable.
 
 These values will be changed in the future with the final release of the Anno 1800 Mod Manager :
-https://github.com/anno-mods/iModYourAnno
+https://github.com/anno-mods/iModYourAnno/releases/latest
 freely changeable.
 
 You can find the building menu :
@@ -324,7 +325,7 @@ Required active mods :
 https://www.nexusmods.com/anno1800/mods/215
 
 "Shared_Objects_MU" by @muggenstuermer
-https://github.com/muggenstuermer/Shared_Objects_MU/releases/tag/Shared_Objects_MU_v1.0
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 Recommended active mods :
 
@@ -351,7 +352,7 @@ Changelog - 1.1
 Changelog - 1.2
 ---------------------------
 	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
+	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
 	- various values can be changed as desired by a controller
 
 ---------------------------
@@ -360,7 +361,7 @@ Changelog - 1.21
 	- start restructuring the files to "[MuggeShared] Shared_Objects_MU " mod.
 	  the goal is to not have duplicates of files used in different mods in the mod folders all the time and to give other mod creators the possibility to use them if needed.
 	  
-https://github.com/muggenstuermer/Worlds_New_Depots_MU/releases/latest
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
 be patient for the rest...
