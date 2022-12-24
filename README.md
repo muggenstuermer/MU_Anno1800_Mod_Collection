@@ -429,5 +429,25 @@ Changelog - 1.3
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
+# Streets_Related_MU
+----
+![image](https://github.com/muggenstuermer/Streets_Related_MU/blob/main/sample.jpg)
+
+
+This mod will contain all my mods in the future, which are directly related to the theme "streets".
+Street mods from City_Ornaments or Harbour_Ornaments will follow.
+
+
+---------------------------
+Release - 1.0
+---------------------------
+	- This mod provides various round street intersection covers !
+	- Crossroads One-One Buildblocker imprint V1
+	- Intersection One-One Buildblocker print V2
+	- Intersection One-Two
+	- Intersection Two-Two
+	
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+
 
 be patient for the rest...
