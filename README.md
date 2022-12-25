@@ -41,7 +41,8 @@ Changelog - 1.1
 Changelog - 1.2
 ---------------------------
 	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
+	- preparations for value changes by iModYourAnno ModManager:
+https://github.com/anno-mods/iModYourAnno/releases/latest
 	- various values can be changed by a slider.
 	- the fire brigade institute now moves out with motorised units.
 	- Polish added.
@@ -200,7 +201,7 @@ This mod adds alternative buildings for the hotel ,bar and café (shift+V)
 
 Furthermore, it adds a historic railway station, "Historic Station Warehouse", which takes over the function of a warehouse to improve the townscape a bit.
 
-**This building is buffs:**
+**This building buffs:**
 ----
 - hotels : max +105 more tourists
 
@@ -231,8 +232,8 @@ In addition, there are also passages which have been created by chance.
 -> one time for single streets
 
 
-Required active mods :
----------------------
+**Required active mods :**
+----
 "Shared_Objects_MU" by @muggenstuermer
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
