@@ -2,29 +2,30 @@
 
 muggenstuermers mod collection-all up to date in one place
 
-# Fire_Station_MU
-----
+## Fire_Station_MU
+
 ![image](https://github.com/muggenstuermer/Fire_Station_MU/blob/master/69-1604249843-347029700.webp)
+
 This mod adds 2 more fire stations.
 
-the Fire Brigade Institute:
----------------------
-Reach of the emergency forces (compared to the original) : +8%.
-Emergency forces ( compared to the original ) : +300% (4 units)
-Emergency forces Movement rate (compared to the original) : +30%.
-Emergency forces Execution speed (compared to the original) : +100%
-Reduces the risk of fire (compared to the original) : +45%.
-Range of fire reduction (compared to the original) : +60%.
+**The Fire Brigade Institute:**
+----
+- Reach of the emergency forces (compared to the original) : +8%.
+- Emergency forces ( compared to the original ) : +300% (4 units)
+- Emergency forces Movement rate (compared to the original) : +30%.
+- Emergency forces Execution speed (compared to the original) : +100%
+- Reduces the risk of fire (compared to the original) : +45%.
+- Range of fire reduction (compared to the original) : +60%.
 
 
-the Volunteer Firefighter:
----------------------
-Reach of the emergency forces (compared to the original) : -16%.
-Emergency forces ( compared to the original ) : +100% (2 units)
-Emergency forces Movement rate (compared to the original) : +15%.
-Emergency forces Execution speed (compared to the original) : +50%
-Reduces the risk of fire  (compared to the original) : -3%.
-Range of fire reduction (compared to the original): -15%.
+**The Volunteer Firefighter:**
+----
+- Reach of the emergency forces (compared to the original) : -16%.
+- Emergency forces ( compared to the original ) : +100% (2 units)
+- Emergency forces Movement rate (compared to the original) : +15%.
+- Emergency forces Execution speed (compared to the original) : +50%
+- Reduces the risk of fire  (compared to the original) : -3%.
+- Range of fire reduction (compared to the original): -15%.
 
 
 The buildings were integrated into the original building menu of the fire station.
@@ -47,29 +48,31 @@ Changelog - 1.2
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
-# Police_Station_MU
-----
+
+## Police_Station_MU
+
 ![image](https://github.com/muggenstuermer/Police_Station_MU/blob/master/70-1604251169-2062417092.webp)
+
 This mod adds 2 more police stations.
 
-the state prison:
----------------------
-Reach of the emergency forces (compared to the original) : +400%.
-Emergency forces ( compared to the original ) : +400% (5 units)
-Emergency forces Movement rate (compared to the original) : +30%.
-Emergency forces Execution speed (compared to the original) : +100%
-Reduces riots (compared to the original) : +4%.
-Range insurgency reduction (compared to the original) : +400%.
+**The state prison:**
+----
+- Reach of the emergency forces (compared to the original) : +400%.
+- Emergency forces ( compared to the original ) : +400% (5 units)
+- Emergency forces Movement rate (compared to the original) : +30%.
+- Emergency forces Execution speed (compared to the original) : +100%
+- Reduces riots (compared to the original) : +4%.
+- Range insurgency reduction (compared to the original) : +400%.
 
 
-the mobile task force:
----------------------
-Reach of the emergency forces (compared to the original) : -16%.
-Emergency forces ( compared to the original ) : +100% (2 units)
-Emergency forces Movement rate (compared to the original) : +15%.
-Emergency forces Execution speed (compared to the original) : +50%
-Reduces riots (compared to the original) : -3%.
-Range insurgency reduction (compared to the original): -15%.
+**The mobile task force:**
+----
+- Reach of the emergency forces (compared to the original) : -16%.
+- Emergency forces ( compared to the original ) : +100% (2 units)
+- Emergency forces Movement rate (compared to the original) : +15%.
+- Emergency forces Execution speed (compared to the original) : +50%
+- Reduces riots (compared to the original) : -3%.
+- Range insurgency reduction (compared to the original): -15%.
 
 
 The buildings were integrated into the original building menu of the police station.
@@ -101,29 +104,31 @@ Changelog - 1.22
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
-# Hospital_MU
-----
+
+## Hospital_MU
+
 ![image](https://github.com/muggenstuermer/Hospital_MU/blob/main/71-1604253336-951215647.png)
+
 This mod adds 2 more hospitals / doctors.
 
-the sanatorium:
----------------------
-Deployed forces range ( compared to the original ) : +8%
-Task forces ( compared to the original ) : +100% (4 units)
-Force movement rate ( compared to original ) : +30%
-Deployment rate ( compared to the original ) : +100%
-Reduced sickness ( compared to original ) : +45%
-Range disease reduction ( compared to original ) : +60%
+**The sanatorium:**
+----
+- Deployed forces range ( compared to the original ) : +8%
+- Task forces ( compared to the original ) : +100% (4 units)
+- Force movement rate ( compared to original ) : +30%
+- Deployment rate ( compared to the original ) : +100%
+- Reduced sickness ( compared to original ) : +45%
+- Range disease reduction ( compared to original ) : +60%
 
 
-of the alternative practitioners:
----------------------
-Task force range ( compared to the original ) : -16%
-Task forces ( compared to original ) : +50% (3 units)
-Force movement rate ( compared to original ) : +15%
-Deployment rate ( compared to the original ) : +50%
-Reduced sickness ( compared to original ) : -3%
-Range disease reduction ( compared to original ) : -15%
+**The alternative practitioners:**
+----
+- Task force range ( compared to the original ) : -16%
+- Task forces ( compared to original ) : +50% (3 units)
+- Force movement rate ( compared to original ) : +15%
+- Deployment rate ( compared to the original ) : +50%
+- Reduced sickness ( compared to original ) : -3%
+- Range disease reduction ( compared to original ) : -15%
 
 
 The buildings have been integrated into the original tree menu of the hospital, available in Enbesa.
@@ -145,9 +150,11 @@ Changelog - 1.2
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
-# MuggenTours_MU
-----
+
+## MuggenTours_MU
+
 ![image](https://github.com/muggenstuermer/MuggenTours_MU/blob/main/298-1643879468-718482811.png)
+
 This mod adds two trolleybus skins, a double decker bus and a convertible bus skin.
 
 Furthermore, this mod replaces the central power poles with poles placed at the roadside and power lines that have lighting with hanging lights.
@@ -157,12 +164,12 @@ don't take this mod too seriously ;)
 	
 	
 	
-ATTENTION!!
---
-NOT COMPATIBLE WITH SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.
---
-This MUST be deactivated !
---
+# ATTENTION!!
+
+# NOT COMPATIBLE WITH SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.
+
+# This MUST be deactivated !
+
 	
 Have fun with it: your muggenstuermer ;)
 
@@ -175,14 +182,17 @@ Changelog - 1.1
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
-# Shared_Objects_MU
-----
+
+## Shared_Objects_MU
+
 This mod will provide shared objekts and files,that will used by diffrent mods and creators in the future.
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
-# Tourists_Alternativ_Buildings_MU
-----
+
+## Tourists_Alternativ_Buildings_MU
+
 ![image](https://github.com/muggenstuermer/Tourists_Alternativ_Buildings_MU/blob/main/288-1641737932-1729552676.png)
+
 This mod adds alternative buildings for the hotel ,bar and café (shift+V)
 
 - with upcoming updates all multibuildings from the Tourist Season will get an alternative.
@@ -190,25 +200,25 @@ This mod adds alternative buildings for the hotel ,bar and café (shift+V)
 
 Furthermore, it adds a historic railway station, "Historic Station Warehouse", which takes over the function of a warehouse to improve the townscape a bit.
 
-- This building is buff:
+**This building is buffs:**
+----
+- hotels : max +105 more tourists
 
-hotels : max +105 more tourists
+- +15 more through :
 
-+15 more through :
-
-Tourist harbour
-Restaurants
-Variety
-Jam
-Café
-Shampoo
-Bar
+	- Tourist harbour
+	- Restaurants
+	- Variety
+	- Jam
+	- Café
+	- Shampoo
+	- Bar
 
 
-Bars / restaurants / cafés / all shopping arcades / all chemical factories :
+- Bars / restaurants / cafés / all shopping arcades / all chemical factories :
 
-+15% higher production
--25% labour force
+	- +15% higher production
+	- -25% labour force
 
 
 at the sides there is space for 3 rail entrances and exits (or roads, as you like)
