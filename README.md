@@ -512,8 +512,7 @@ All department stores as underground buildings are also available.
   These can be built over to support all possible building variations.
   
 - We have tried to cover all possible building variations with the glass roofs.
-  Should a possibility arise during the game that cannot be covered with glass roofs, please send me a screenshot,
-  please send me a screenshot of it, thank you.
+  Should a possibility arise during the game that cannot be covered with glass roofs, please send me a screenshot of it, thank you.
   
 - Because of the roofing,the construction method with terrain adjustment was chosen.
 	
