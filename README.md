@@ -438,7 +438,7 @@ This mod will contain all my mods in the future, which are directly related to t
 Street mods from City_Ornaments or Harbour_Ornaments will follow.
 
 Necessary active mods :
-	
+---------------------	
 	"Shared_Objects_MU" by @muggenstuermer
 	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
