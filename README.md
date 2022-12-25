@@ -2,14 +2,14 @@
 
 muggenstuermers mod collection-all up to date in one place
 
-## Fire_Station_MU
+# Fire_Station_MU
 
 ![image](https://github.com/muggenstuermer/Fire_Station_MU/blob/master/69-1604249843-347029700.webp)
 
 This mod adds 2 more fire stations.
 
-**The Fire Brigade Institute:**
-----
+## The Fire Brigade Institute:
+------------------------------
 - Reach of the emergency forces (compared to the original) : +8%.
 - Emergency forces ( compared to the original ) : +300% (4 units)
 - Emergency forces Movement rate (compared to the original) : +30%.
@@ -18,8 +18,8 @@ This mod adds 2 more fire stations.
 - Range of fire reduction (compared to the original) : +60%.
 
 
-**The Volunteer Firefighter:**
-----
+## The Volunteer Firefighter:
+-----------------------------
 - Reach of the emergency forces (compared to the original) : -16%.
 - Emergency forces ( compared to the original ) : +100% (2 units)
 - Emergency forces Movement rate (compared to the original) : +15%.
@@ -49,14 +49,14 @@ Changelog - 1.2
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
-## Police_Station_MU
+# Police_Station_MU
 
 ![image](https://github.com/muggenstuermer/Police_Station_MU/blob/master/70-1604251169-2062417092.webp)
 
 This mod adds 2 more police stations.
 
-**The state prison:**
-----
+## The state prison:
+--------------------
 - Reach of the emergency forces (compared to the original) : +400%.
 - Emergency forces ( compared to the original ) : +400% (5 units)
 - Emergency forces Movement rate (compared to the original) : +30%.
@@ -65,8 +65,8 @@ This mod adds 2 more police stations.
 - Range insurgency reduction (compared to the original) : +400%.
 
 
-**The mobile task force:**
-----
+## The mobile task force:
+-------------------------
 - Reach of the emergency forces (compared to the original) : -16%.
 - Emergency forces ( compared to the original ) : +100% (2 units)
 - Emergency forces Movement rate (compared to the original) : +15%.
@@ -105,14 +105,14 @@ Changelog - 1.22
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
-## Hospital_MU
+# Hospital_MU
 
 ![image](https://github.com/muggenstuermer/Hospital_MU/blob/main/71-1604253336-951215647.png)
 
 This mod adds 2 more hospitals / doctors.
 
-**The sanatorium:**
-----
+## The sanatorium:
+------------------
 - Deployed forces range ( compared to the original ) : +8%
 - Task forces ( compared to the original ) : +100% (4 units)
 - Force movement rate ( compared to original ) : +30%
@@ -121,8 +121,8 @@ This mod adds 2 more hospitals / doctors.
 - Range disease reduction ( compared to original ) : +60%
 
 
-**The alternative practitioners:**
-----
+## The alternative practitioners:
+---------------------------------
 - Task force range ( compared to the original ) : -16%
 - Task forces ( compared to original ) : +50% (3 units)
 - Force movement rate ( compared to original ) : +15%
@@ -151,7 +151,7 @@ Changelog - 1.2
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
-## MuggenTours_MU
+# MuggenTours_MU
 
 ![image](https://github.com/muggenstuermer/MuggenTours_MU/blob/main/298-1643879468-718482811.png)
 
@@ -183,13 +183,13 @@ Changelog - 1.1
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
-## Shared_Objects_MU
+# Shared_Objects_MU
 
 This mod will provide shared objekts and files,that will used by diffrent mods and creators in the future.
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
-## Tourists_Alternativ_Buildings_MU
+# Tourists_Alternativ_Buildings_MU
 
 ![image](https://github.com/muggenstuermer/Tourists_Alternativ_Buildings_MU/blob/main/288-1641737932-1729552676.png)
 
@@ -200,8 +200,8 @@ This mod adds alternative buildings for the hotel ,bar and café (shift+V)
 
 Furthermore, it adds a historic railway station, "Historic Station Warehouse", which takes over the function of a warehouse to improve the townscape a bit.
 
-**This building buffs:**
-----
+## This building buffs:
+-----------------------
 - hotels : max +105 more tourists
 
 - +15 more through :
@@ -227,12 +227,12 @@ and in the middle of each of the main entrances for a street (or whatever you pr
 
 
 In addition, there are also passages which have been created by chance.
--> one time for double roads
--> one time for single streets
+- one for double Streets
+- one for single Street
 
 
 ## Required active mods :
-----
+-------------------------
 "Shared_Objects_MU" by @muggenstuermer
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
@@ -260,9 +260,11 @@ Changelog - 1.3
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
+
 # Worlds_New_Depots_MU
-----
+
 ![image](https://github.com/muggenstuermer/Worlds_New_Depots_MU/blob/main/Anno%201800%20Screenshot%202022.08.26%20-%2011.36.17.75.png)
+
 Based on the industry dlc, this mod offers the possibility to build an upgradeable "storage" city with modified dockland modules.
 "Speicher"-city", and thus to create an "industrial district".
 It is possible to build depots on the land in the Old World, New World, Arctic and Enbesa, which can be upgraded in 3 steps.
@@ -328,8 +330,8 @@ You can find the building menu :
 
 The mod is available for all languages this time ;)
 
-Required active mods :
-----------------------
+## Required active mods :
+-------------------------
 
 "New World Docklands" by @Lrds xormenter :
 https://www.nexusmods.com/anno1800/mods/215
@@ -337,7 +339,8 @@ https://www.nexusmods.com/anno1800/mods/215
 "Shared_Objects_MU" by @muggenstuermer
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
-Recommended active mods :
+# Recommended active mods :
+---------------------------
 
 "Arctic Quay" by Spice it Up,by @pigeonattack + @DaLexy
 https://www.nexusmods.com/anno1800/mods/5
@@ -374,7 +377,7 @@ Changelog - 1.21
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 # Skyline_New_Era_MU
-----
+
 ![image](https://github.com/muggenstuermer/Skyline_New_Era_MU/blob/main/382-1654210484-1099724876.png)
 
 Skyscrapers now get the 3 existing skinpacks from Vibrant Citys in their full extent.
@@ -389,7 +392,6 @@ They always follow this pattern in the order:
 this applies to all 7 possible skyscraper types, regardless of their height and composition.
 
 
-
 In addition, this mod provides all department stores in skyscraper optics, which initially resemble a construction site.
 
 - department stores'
@@ -399,7 +401,7 @@ In addition, this mod provides all department stores in skyscraper optics, which
 
 All department stores' heights and skins,can be changed via the skin system.
 
-- Lvl 1 with 1 floor with possible skins : Original,Brick,Nightlife,Colourful
+- Lvl `1` with 1 floor with possible skins : Original,Brick,Nightlife,Colourful
 - Lvl 2 with 2 floors with possible skins : Original,Brick,Nightlife,Colourful
 - Lvl 3 with 3 floors with possible skins : Original,Brick,Nightlife,Colourful
 - Lvl 4 with 4 floors with possible skins : Original,Brick,Nightlife,Colourful
