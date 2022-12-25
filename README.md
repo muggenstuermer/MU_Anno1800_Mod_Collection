@@ -41,8 +41,7 @@ Changelog - 1.1
 Changelog - 1.2
 ---------------------------
 	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager:
-https://github.com/anno-mods/iModYourAnno/releases/latest
+	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
 	- various values can be changed by a slider.
 	- the fire brigade institute now moves out with motorised units.
 	- Polish added.
@@ -165,11 +164,11 @@ don't take this mod too seriously ;)
 	
 	
 	
-# ATTENTION!!
+## ATTENTION!!
 
-# NOT COMPATIBLE WITH SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.
+## NOT COMPATIBLE WITH SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.
 
-# This MUST be deactivated !
+## This MUST be deactivated !
 
 	
 Have fun with it: your muggenstuermer ;)
@@ -232,7 +231,7 @@ In addition, there are also passages which have been created by chance.
 -> one time for single streets
 
 
-**Required active mods :**
+## Required active mods :
 ----
 "Shared_Objects_MU" by @muggenstuermer
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
