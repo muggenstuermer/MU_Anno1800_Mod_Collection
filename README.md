@@ -401,11 +401,11 @@ In addition, this mod provides all department stores in skyscraper optics, which
 
 All department stores' heights and skins,can be changed via the skin system.
 
-- Lvl `1` with 1 floor with possible skins : Original,Brick,Nightlife,Colourful
-- Lvl 2 with 2 floors with possible skins : Original,Brick,Nightlife,Colourful
-- Lvl 3 with 3 floors with possible skins : Original,Brick,Nightlife,Colourful
-- Lvl 4 with 4 floors with possible skins : Original,Brick,Nightlife,Colourful
-- Lvl 5 with 5 floors with possible skins : Original,Brick,Nightlife,Colourful
+- Lvl `1` with `1` floor with possible skins : Original,Brick,Nightlife,Colourful
+- Lvl `2` with `2` floors with possible skins : Original,Brick,Nightlife,Colourful
+- Lvl `3` with `3` floors with possible skins : Original,Brick,Nightlife,Colourful
+- Lvl `4` with `4` floors with possible skins : Original,Brick,Nightlife,Colourful
+- Lvl `5` with `5` floors with possible skins : Original,Brick,Nightlife,Colourful
 
 Recipes as well as the department stores are unlocked like the original.
 
