@@ -5,7 +5,7 @@
 	
 <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
 	
-	<!-- ID's are used for this mod: 1337502000 bis 1337502349 -->
+	<!-- ID's are used for this mod: 1337502000 bis 1337502361 -->
 	<!-- InternalID's are used for this mod : 0 -->
 	
 <!--
@@ -493,6 +493,22 @@ PalaceInvestor_Residence TownhallBuff copied and modified from Fishboss mod Trai
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 Ornamental Buildings
+1337502350 - Untergrund-Kaufhaus Ornamental Offen-KEIN DACH Skin 01
+1337502351 - Untergrund-Kaufhaus Ornamental Offen-KEIN DACH Skin 02
+1337502352 - Untergrund-Kaufhaus Ornamental Offen-KEIN DACH Skin 03
+
+1337502353 - Untergrund-Kaufhaus Ornamental Offen-MIT DACH Skin 01
+1337502354 - Untergrund-Kaufhaus Ornamental Offen-MIT DACH Skin 02
+1337502355 - Untergrund-Kaufhaus Ornamental Offen-MIT DACH Skin 03
+
+1337502356 - Untergrund-Kaufhaus Ornamental-OHNE DACH-MIT TÜR Skin 01
+1337502357 - Untergrund-Kaufhaus Ornamental-OHNE DACH-MIT TÜR Skin 02
+1337502358 - Untergrund-Kaufhaus Ornamental-OHNE DACH-MIT TÜR Skin 01
+
+1337502359 - Untergrund-Kaufhaus Ornamental-MIT DACH-MIT TÜR Skin 01
+1337502360 - Untergrund-Kaufhaus Ornamental-MIT DACH-MIT TÜR Skin 02
+1337502361 - Untergrund-Kaufhaus Ornamental-MIT DACH-MIT TÜR Skin 03
+
 1337502329 - Ornamental Untergrund-Kaufhaus Offen-KEIN DACH
 1337502330 - Ornamental Untergrund-Kaufhaus Offen-MIT DACH
 1337502331 - Ornamental Untergrund-Kaufhaus OHNE DACH-MIT TÜR
@@ -33539,6 +33555,966 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	</ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ENDE Palace-Investor Asset xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx START Untergrund-Kaufhaus ORNAMENTAL Asset xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='701'>
+	<!-- Untergrund-Kaufhaus Ornamental Offen-KEIN DACH Skin 01 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502350</GUID>
+					<Name>underground_mall_skin_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_rust.png</IconFilename>
+					<ID>underground_mall_skin_01</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7377</SkinName>
+					<SkinDescription>7378</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\end_mall_no_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\end_mall_no_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_tree_no_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_statue_no_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_tree_no_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_walktrough_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_no_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\t_cross_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\t_cross_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\x_cross_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\x_cross_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Untergrund-Kaufhaus Ornamental Offen-KEIN DACH Skin 02 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502351</GUID>
+					<Name>underground_mall_skin_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_nature.png</IconFilename>
+					<ID>underground_mall_skin_02</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7379</SkinName>
+					<SkinDescription>7380</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\end_mall_no_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\end_mall_no_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_tree_no_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_statue_no_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_tree_no_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_walktrough_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_no_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\t_cross_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\t_cross_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\x_cross_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\x_cross_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Untergrund-Kaufhaus Ornamental Offen-KEIN DACH Skin 03 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502352</GUID>
+					<Name>underground_mall_skin_03</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_gold.png</IconFilename>
+					<ID>underground_mall_skin_03</ID>
+				</Standard>
+				<Skin>
+					<SkinName>933</SkinName>
+					<SkinDescription>7212</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\end_mall_no_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\end_mall_no_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_tree_no_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_statue_no_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_tree_no_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_walktrough_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_no_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\t_cross_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\t_cross_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\x_cross_mall_no_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\x_cross_mall_no_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<ModOp Type="addNextSibling" GUID='701'>
+	<!-- Untergrund-Kaufhaus Ornamental Offen-MIT DACH Skin 01 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502353</GUID>
+					<Name>underground_mall_skin_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_rust.png</IconFilename>
+					<ID>underground_mall_skin_01</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7377</SkinName>
+					<SkinDescription>7378</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\end_mall_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\end_mall_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_tree_no_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_statue_no_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_tree_no_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_walktrough_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\t_cross_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\t_cross_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\x_cross_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\x_cross_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Untergrund-Kaufhaus Ornamental Offen-MIT DACH Skin 02 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502354</GUID>
+					<Name>underground_mall_skin_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_nature.png</IconFilename>
+					<ID>underground_mall_skin_02</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7379</SkinName>
+					<SkinDescription>7380</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\end_mall_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\end_mall_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_tree_no_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_statue_no_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_tree_no_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_walktrough_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\t_cross_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\t_cross_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\x_cross_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\x_cross_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Untergrund-Kaufhaus Ornamental Offen-MIT DACH Skin 03 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502355</GUID>
+					<Name>underground_mall_skin_03</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_gold.png</IconFilename>
+					<ID>underground_mall_skin_03</ID>
+				</Standard>
+				<Skin>
+					<SkinName>933</SkinName>
+					<SkinDescription>7212</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\end_mall_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\end_mall_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_tree_no_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_statue_no_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_tree_no_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_walktrough_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_roof_statue_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\t_cross_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\t_cross_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\x_cross_mall_roof_tree_no_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\x_cross_mall_roof_fountain_no_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<ModOp Type="addNextSibling" GUID='701'>
+	<!-- Untergrund-Kaufhaus Ornamental-OHNE DACH-MIT TÜR Skin 01 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502356</GUID>
+					<Name>underground_mall_skin_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_rust.png</IconFilename>
+					<ID>underground_mall_skin_01</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7377</SkinName>
+					<SkinDescription>7378</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\end_mall_no_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\end_mall_no_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_tree_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_statue_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_no_roof_tree_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_walktrough_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_no_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\t_cross_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\t_cross_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\x_cross_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\x_cross_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Untergrund-Kaufhaus Ornamental-OHNE DACH-MIT TÜR Skin 02 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502357</GUID>
+					<Name>underground_mall_skin_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_nature.png</IconFilename>
+					<ID>underground_mall_skin_02</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7379</SkinName>
+					<SkinDescription>7380</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\end_mall_no_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\end_mall_no_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_tree_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_statue_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_no_roof_tree_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_walktrough_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_no_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\t_cross_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\t_cross_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\x_cross_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\x_cross_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Untergrund-Kaufhaus Ornamental-OHNE DACH-MIT TÜR Skin 03 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502358</GUID>
+					<Name>underground_mall_skin_03</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_gold.png</IconFilename>
+					<ID>underground_mall_skin_03</ID>
+				</Standard>
+				<Skin>
+					<SkinName>933</SkinName>
+					<SkinDescription>7212</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\end_mall_no_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\end_mall_no_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_tree_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_statue_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_no_roof_tree_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_walktrough_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_no_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\t_cross_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\t_cross_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\x_cross_mall_no_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\x_cross_mall_no_roof_fountain_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<ModOp Type="addNextSibling" GUID='701'>
+	<!-- Untergrund-Kaufhaus Ornamental-MIT DACH-MIT TÜR Skin 01 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502359</GUID>
+					<Name>underground_mall_skin_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_rust.png</IconFilename>
+					<ID>underground_mall_skin_01</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7377</SkinName>
+					<SkinDescription>7378</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\end_mall_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\end_mall_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_tree_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_statue_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_mall_roof_tree_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\straight_walktrough_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\corner_mall_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\t_cross_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\t_cross_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\x_cross_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_01_ornamental\x_cross_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Untergrund-Kaufhaus Ornamental-MIT DACH-MIT TÜR Skin 02 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502360</GUID>
+					<Name>underground_mall_skin_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_nature.png</IconFilename>
+					<ID>underground_mall_skin_02</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7379</SkinName>
+					<SkinDescription>7380</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\end_mall_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\end_mall_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_tree_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_statue_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_mall_roof_tree_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\straight_walktrough_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\corner_mall_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\t_cross_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\t_cross_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\x_cross_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_02_ornamental\x_cross_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Untergrund-Kaufhaus Ornamental-MIT DACH-MIT TÜR Skin 03 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502361</GUID>
+					<Name>underground_mall_skin_03</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/underground_mall_skin_gold.png</IconFilename>
+					<ID>underground_mall_skin_03</ID>
+				</Standard>
+				<Skin>
+					<SkinName>933</SkinName>
+					<SkinDescription>7212</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\end_mall_roof_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\end_mall_roof_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_tree_door_bridge_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_statue_door_bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_mall_roof_tree_door_2bridge_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\straight_walktrough_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\corner_mall_roof_statue_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\t_cross_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\t_cross_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\x_cross_mall_roof_tree_door_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\ornamental\underground_mall_skin_03_ornamental\x_cross_mall_roof_fountain_door_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+	
 	<!-- Ornamental Untergrund-Kaufhaus Offen-KEIN DACH -->
 	<ModOp Type="addNextSibling" GUID='135100'>
 		<Asset>
@@ -33634,13 +34610,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 						<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/underground_mall_skin_ice.png</OverrideDefaultIcon>
 						<SkinList>
 							<Item>
-								<SkinAssetGuid>1337502012</SkinAssetGuid>
+								<SkinAssetGuid>1337502350</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502013</SkinAssetGuid>
+								<SkinAssetGuid>1337502351</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502014</SkinAssetGuid>
+								<SkinAssetGuid>1337502352</SkinAssetGuid>
 							</Item>
 						</SkinList>
 					</Skins>
@@ -33763,13 +34739,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 						<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/underground_mall_skin_ice.png</OverrideDefaultIcon>
 						<SkinList>
 							<Item>
-								<SkinAssetGuid>1337502039</SkinAssetGuid>
+								<SkinAssetGuid>1337502353</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502040</SkinAssetGuid>
+								<SkinAssetGuid>1337502354</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502041</SkinAssetGuid>
+								<SkinAssetGuid>1337502355</SkinAssetGuid>
 							</Item>
 						</SkinList>
 					</Skins>
@@ -33892,13 +34868,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 						<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/underground_mall_skin_ice.png</OverrideDefaultIcon>
 						<SkinList>
 							<Item>
-								<SkinAssetGuid>1337502078</SkinAssetGuid>
+								<SkinAssetGuid>1337502356</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502079</SkinAssetGuid>
+								<SkinAssetGuid>1337502357</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502080</SkinAssetGuid>
+								<SkinAssetGuid>1337502358</SkinAssetGuid>
 							</Item>
 						</SkinList>
 					</Skins>
@@ -34021,13 +34997,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 						<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/underground_mall_skin_ice.png</OverrideDefaultIcon>
 						<SkinList>
 							<Item>
-								<SkinAssetGuid>1337502117</SkinAssetGuid>
+								<SkinAssetGuid>1337502359</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502118</SkinAssetGuid>
+								<SkinAssetGuid>1337502360</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502119</SkinAssetGuid>
+								<SkinAssetGuid>1337502361</SkinAssetGuid>
 							</Item>
 						</SkinList>
 					</Skins>
