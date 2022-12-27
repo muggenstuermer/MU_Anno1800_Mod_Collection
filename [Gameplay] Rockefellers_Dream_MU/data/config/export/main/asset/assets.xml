@@ -5,7 +5,7 @@
 	
 <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
 	
-	<!-- ID's are used for this mod: 1337502000 bis 1337502229 -->
+	<!-- ID's are used for this mod: 1337502000 bis 1337502349 -->
 	<!-- InternalID's are used for this mod : 0 -->
 	
 <!--
@@ -498,6 +498,21 @@ Ornamental Buildings
 1337502331 - Ornamental Untergrund-Kaufhaus OHNE DACH-MIT TÜR
 1337502332 - Ornamental Untergrund-Kaufhaus MIT DACH-MIT TÜR
 
+1337502340 - Ornamental Palace-Kaufhaus Skin_01
+1337502341 - Ornamental Palace-Kaufhaus Skin_01
+
+1337502342 - Ornamental Palace-Bar Skin_01
+1337502343 - Ornamental Palace-Bar Skin_01
+
+1337502344 - Ornamental Palace-Cafe Skin_01
+1337502345 - Ornamental Palace-Cafe Skin_01
+
+1337502346 - Ornamental Palace-Restaurant Skin_01
+1337502347 - Ornamental Palace-Restaurant Skin_01
+
+1337502348 - Ornamental Palace-Hotel Skin_01
+1337502349 - Ornamental Palace-Hotel Skin_01
+
 1337502333 - Ornamental Palace-Kaufhaus
 1337502334 - Ornamental Palace-Bar
 1337502335 - Ornamental Palace-Cafe
@@ -518,12 +533,12 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 1337502292 - TRIGGER
 1337502293 - TRIGGER
 1337502294 - TRIGGER
-1337502295 - TRIGGER
+1337502338 - TRIGGER
 1337502296 - TRIGGER
 1337502297 - TRIGGER
 1337502298 - TRIGGER
 1337502299 - TRIGGER
-1337502300 - TRIGGER
+1337502339 - TRIGGER
 1337502301 - TRIGGER
 1337502302 - TRIGGER
 1337502303 - TRIGGER
@@ -34044,6 +34059,862 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	</ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ENDE Untergrund-Kaufhaus Leer Offen-KEIN DACH ORNAMENTAL Asset xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx START Palace Buildings ORNAMENTAL Asset xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<ModOp Type="addNextSibling" GUID='701'>
+	<!-- Palace-Kaufhaus ORNAMENTAL Skin 01 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502340</GUID>
+					<Name>palace_mall_skin_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_rust.png</IconFilename>
+					<ID>palace_mall_skin_01</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7377</SkinName>
+					<SkinDescription>7378</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_01\palace_mall_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Palace-Kaufhaus Ornamental Skin 02 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502341</GUID>
+					<Name>palace_mall_skin_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+					<ID>palace_mall_skin_02</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7375</SkinName>
+					<SkinDescription>7376</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_mall_skin_02\palace_mall_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling" GUID='701'>
+	<!-- Palace-Bar OrnamentalSkin 01 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502342</GUID>
+					<Name>palace_bar_skin_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_rust.png</IconFilename>
+					<ID>palace_bar_skin_01</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7377</SkinName>
+					<SkinDescription>7378</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_01\palace_bar_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+		
+	<!-- Palace-Bar Ornamental Skin 02 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502343</GUID>
+					<Name>palace_bar_skin_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+					<ID>palace_bar_skin_02</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7375</SkinName>
+					<SkinDescription>7376</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_bar_skin_02\palace_bar_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>	
+	<ModOp Type="addNextSibling" GUID='701'>
+	<!-- Palace-Cafe Ornamental Skin 01 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502344</GUID>
+					<Name>palace_cafe_skin_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_rust.png</IconFilename>
+					<ID>palace_cafe_skin_01</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7377</SkinName>
+					<SkinDescription>7378</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_01\palace_cafe_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+		
+	<!-- Palace-Cafe Ornamental Skin 02 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502345</GUID>
+					<Name>palace_cafe_skin_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+					<ID>palace_cafe_skin_02</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7375</SkinName>
+					<SkinDescription>7376</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_cafe_skin_02\palace_cafe_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling" GUID='701'>
+	<!-- Palace-Restaurant Ornamental Skin 01 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502346</GUID>
+					<Name>palace_restaurant_skin_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_rust.png</IconFilename>
+					<ID>palace_restaurant_skin_01</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7377</SkinName>
+					<SkinDescription>7378</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_01\palace_restaurant_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+		
+	<!-- Palace-Restaurant Ornamental Skin 02 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502347</GUID>
+					<Name>palace_restaurant_skin_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+					<ID>palace_restaurant_skin_02</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7375</SkinName>
+					<SkinDescription>7376</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_restaurant_skin_02\palace_restaurant_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling" GUID='701'>
+	<!-- Palace-Hotel Ornamental Skin 01 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502348</GUID>
+					<Name>palace_hotel_skin_01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_rust.png</IconFilename>
+					<ID>palace_hotel_skin_01</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7377</SkinName>
+					<SkinDescription>7378</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_01\palace_hotel_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+		
+	<!-- Palace-Hotel Ornamental Skin 02 -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502349</GUID>
+					<Name>palace_hotel_skin_02</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+					<ID>palace_hotel_skin_02</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7375</SkinName>
+					<SkinDescription>7376</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_end_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_straight_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_straight_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_straight_rotated_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_straight_rotated_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_arch_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_arch_dome_01_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_arch_02_doors.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_arch_dome_02_doors.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_arch_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_arch_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_arch_02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_arch_dome_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_corner_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_corner_02.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_tcross_01.cfg</FileName>
+						</Item>
+						
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_cross_dome_01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\modgraphics\buildings\public\palace_hotel_skin_02\palace_hotel_cross_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+				</Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<Scope>Account</Scope>
+					<VisibleWhenLocked>1</VisibleWhenLocked>
+				</Locked>
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+	
 	<!-- Ornamental Palace-Kaufhaus -->
 	<ModOp Type="addNextSibling" GUID='135100'>
 		<Asset>
@@ -34141,10 +35012,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 						<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
 						<SkinList>
 							<Item>
-								<SkinAssetGuid>1337502156</SkinAssetGuid>
+								<SkinAssetGuid>1337502340</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502157</SkinAssetGuid>
+								<SkinAssetGuid>1337502341</SkinAssetGuid>
 							</Item>
 						</SkinList>
 					</Skins>
@@ -34269,10 +35140,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 						<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
 						<SkinList>
 							<Item>
-								<SkinAssetGuid>1337502230</SkinAssetGuid>
+								<SkinAssetGuid>1337502342</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502231</SkinAssetGuid>
+								<SkinAssetGuid>1337502343</SkinAssetGuid>
 							</Item>
 						</SkinList>
 					</Skins>
@@ -34397,10 +35268,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 						<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
 						<SkinList>
 							<Item>
-								<SkinAssetGuid>1337502246</SkinAssetGuid>
+								<SkinAssetGuid>1337502344</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502247</SkinAssetGuid>
+								<SkinAssetGuid>1337502345</SkinAssetGuid>
 							</Item>
 						</SkinList>
 					</Skins>
@@ -34525,10 +35396,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 						<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
 						<SkinList>
 							<Item>
-								<SkinAssetGuid>1337502264</SkinAssetGuid>
+								<SkinAssetGuid>1337502346</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502265</SkinAssetGuid>
+								<SkinAssetGuid>1337502347</SkinAssetGuid>
 							</Item>
 						</SkinList>
 					</Skins>
@@ -34653,10 +35524,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 						<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
 						<SkinList>
 							<Item>
-								<SkinAssetGuid>1337502280</SkinAssetGuid>
+								<SkinAssetGuid>1337502348</SkinAssetGuid>
 							</Item>
 							<Item>
-								<SkinAssetGuid>1337502281</SkinAssetGuid>
+								<SkinAssetGuid>1337502349</SkinAssetGuid>
 							</Item>
 						</SkinList>
 					</Skins>
@@ -36040,7 +36911,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502295</GUID>
+					<GUID>1337502338</GUID>
 					<Name>Furniture_06_Unlock</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
 				</Standard>
@@ -36135,6 +37006,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 												<Asset>1337502016</Asset><!-- UndergroundEinrichtungshaus lamps -->
 											</Item>
 											
+											<Item>
+												<Asset>1337502026</Asset><!-- Undergroundeinrichtungshaus blank -->
+											</Item>
 											<Item>
 												<Asset>1337502065</Asset><!-- UndergroundEinrichtungshaus-Offen-MIT DACH -->
 											</Item>
@@ -36485,7 +37359,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502300</GUID>
+					<GUID>1337502339</GUID>
 					<Name>Drugstore_11_Unlock</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
 				</Standard>
@@ -36514,6 +37388,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 												<Asset>1337502028</Asset><!-- UndergroundDrogerie Toothpaste -->
 											</Item>
 											
+											<Item>
+												<Asset>1337502038</Asset><!-- Undergrounddrogerie blank -->
+											</Item>
 											<Item>
 												<Asset>1337502077</Asset><!-- UndergroundDrogerie Leer -->
 											</Item>
