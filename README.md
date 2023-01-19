@@ -32,19 +32,6 @@ The buildings were integrated into the original building menu of the fire statio
 
 Have fun with it: your muggenstuermer ;)
 
----------------------------
-Changelog - 1.1
----------------------------
-	- correction of assets.xml for better compatibility with spice it up and availability in Enbesa.
-	
----------------------------
-Changelog - 1.2
----------------------------
-	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
-	- various values can be changed by a slider.
-	- the fire brigade institute now moves out with motorised units.
-	- Polish added.
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
@@ -79,28 +66,6 @@ The buildings were integrated into the original building menu of the police stat
 
 Have fun with it: your muggenstuermer ;)
 
----------------------------
-Changelog - 1.1
----------------------------
-	- correction of assets.xml for better compatibility with spice it up and availability in Enbesa.
-
----------------------------
-Changelog - 1.2
----------------------------
-	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
-	- various values can be changed as desired by a controller
-	
----------------------------
-Changelog - 1.21
----------------------------
-	- added a relevant addition : <SecondPartyRelevant>, ensures that the AI evolves.
-	
----------------------------
-Changelog - 1.22
----------------------------
-	- added another relevant addition : <Upgradable>, in this case a missing tag probably leads to unwanted actions of the game.
-	- polish added.
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
@@ -135,18 +100,6 @@ The buildings have been integrated into the original tree menu of the hospital, 
 
 Have fun with it: your muggenstuermer ;)
 
----------------------------
-Changelog - 1.1
----------------------------
-
----------------------------
-Changelog - 1.2
----------------------------
-	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
-	- various values can be changed by a controller.
-	- the sanatorium now moves out with motorised units.
-	- Polish added.
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
@@ -173,12 +126,6 @@ don't take this mod too seriously ;)
 	
 Have fun with it: your muggenstuermer ;)
 
----------------------------
-Changelog - 1.1
----------------------------
-	- GU16 Bugfixing.
-	- Double-decker bus and convertible bus skin added.
-	- Polish added.
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
@@ -239,24 +186,6 @@ https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 Have fun with it: your muggenstuermer ;)
 
----------------------------
-Changelog - 1.1
----------------------------
-
----------------------------
-Changelog - 1.2
----------------------------
-	- Cafe added
-
----------------------------
-Changelog - 1.3
----------------------------
-	- GU16 Bugfixing.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
-	- various values can be changed by a slider.
-	- added decals and feedback.
-	- objects are no longer overbuildable.
-	- Polish added.
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
@@ -355,24 +284,6 @@ https://www.nexusmods.com/anno1800/mods/5
 
 Have fun with it: your muggenstuermer ;)
 
-
----------------------------
-Changelog - 1.1
----------------------------
-	- Docklands now also available in the Arctic: Harbour building menu -> Technician
-
----------------------------
-Changelog - 1.2
----------------------------
-	- GU16 Bugfixing and adjustment of various values.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases/latest
-	- various values can be changed as desired by a controller
-
----------------------------
-Changelog - 1.21
----------------------------
-	- start restructuring the files to "[MuggeShared] Shared_Objects_MU " mod.
-	  the goal is to not have duplicates of files used in different mods in the mod folders all the time and to give other mod creators the possibility to use them if needed.
 	  
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
@@ -415,29 +326,6 @@ FullSatisfactionDistance and NoSatisfactionDistance have been halved.
 
 Have fun with it: your muggenstuermer ;)
 
-
----------------------------
-Changelog - 1.1
----------------------------
-	
-	- Compatibility to Harborlife from SPIU adapted
-	- Upgradeable department stores in the style of the skyscrapers added
-	- Skins for new department stores can be changed with the brush from the building menu
-
----------------------------
-Changelog - 1.2
----------------------------
-	
-	- small bugfixing where the neon signs didn't appear when the warehouses were producing.couldn't find the cause,now appear even when not producing.
-	- polnish added,big thanks to Avenger432 !
-	
----------------------------
-Changelog - 1.3
----------------------------
-	
-	- GU16 Bugfixing.
-	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
-	- various values can be changed as desired by a controller
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
@@ -449,20 +337,24 @@ https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 This mod will contain all my mods in the future, which are directly related to the theme "streets".
 Street mods from City_Ornaments or Harbour_Ornaments will follow.
 
+contains:
+	- known streets and street related parts from City_Ornaments_MU_2
+	- bridges for different possibilities - road bridges - pedestrian bridges - railway bridges
+	- water channels and their bridges
+	- a modular lake,which can be used under all bridges ,pedestrian bridges excluded ( hinders the use of the bridge by feedback )
+	- invisible Harbour_Ornaments_MU_2 content - affects construction of roads from land to water
+	- roundabouts in the NW matches to Jakob's Improved Streets mod.
+	- the regions have all their own roundabouts
+
 ## Required active mods :
 ---------------------	
 "Shared_Objects_MU" by @muggenstuermer
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
+"Improved Streets" by @Jakob with activated rails modification
+https://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest
 
----------------------------
-Release - 1.0
----------------------------
-	- This mod provides various round street intersection covers !
-	- Crossroads One-One Buildblocker imprint V1
-	- Intersection One-One Buildblocker print V2
-	- Intersection One-Two
-	- Intersection Two-Two
+
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
@@ -569,5 +461,3 @@ A big thank you goes to @jje1000 !
 
 Have fun with it: your muggenstuermer ;)
 
-
-be patient for the rest...
