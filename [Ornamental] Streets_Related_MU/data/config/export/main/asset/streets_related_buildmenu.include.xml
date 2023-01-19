@@ -1,0 +1,204 @@
+<ModOps>
+<!--
+
+1337502504 Buildmenu OW
+1337502507 Buildmenu NW
+1337502508 Buildmenu ENBESA
+1337502509 Buildmenu ARCTIC
+
+-->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502504</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_streets_related_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 <Item>
+							<Building>1000178</Building>
+						</Item>
+						<Item>
+							<Building>1010035</Building>
+						</Item>
+					</BuildingList>
+					<CategoryDescription>1337502505</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>GroundPlacements</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID />
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502507</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_streets_related_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 <Item>
+							<Building>101308</Building>
+						</Item>
+						<Item>
+							<Building>101309</Building>
+						</Item>
+					</BuildingList>
+					<CategoryDescription>1337502505</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>GroundPlacements</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID />
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502508</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_streets_related_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 <Item>
+							<Building>114523</Building>
+						</Item>
+						<Item>
+							<Building>119029</Building>
+						</Item>
+					</BuildingList>
+					<CategoryDescription>1337502505</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>GroundPlacements</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID />
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502509</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_streets_related_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 <Item>
+							<Building>112113</Building>
+						</Item>
+					</BuildingList>
+					<CategoryDescription>1337502505</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>GroundPlacements</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID />
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG : Ersetzt JEDE ORIGINAL STRASSE mit BAUMENÜ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Original Strassen Buttons aus Baumenü Entfernen xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- OW -->
+	<ModOp Type="replace" GUID='500092,25000189' Path="Values/ConstructionCategory/BuildingList/Item[Building = '1000178']">
+        <Item>
+			<Building>1337502504</Building>
+		</Item>
+    </ModOp>
+	<ModOp Type="replace" GUID='25000190' Path="Values/ConstructionCategory/BuildingList/Item[Building = '1010035']">
+        <Item>
+			<Building>1337502504</Building>
+		</Item>
+    </ModOp>
+	<ModOp Type="remove" GUID='500092' Path="Values/ConstructionCategory/BuildingList/Item[Building = '1010035']">
+        <Item>
+			<Building>1010035</Building>
+		</Item>
+    </ModOp>
+	<!-- NW -->
+	<ModOp Type="replace" GUID='500137,25000193' Path="Values/ConstructionCategory/BuildingList/Item[Building = '101308']">
+        <Item>
+			<Building>1337502507</Building>
+		</Item>
+    </ModOp>
+	<ModOp Type="replace" GUID='25000194' Path="Values/ConstructionCategory/BuildingList/Item[Building = '101309']">
+        <Item>
+			<Building>1337502507</Building>
+		</Item>
+    </ModOp>
+	<ModOp Type="remove" GUID='500137' Path="Values/ConstructionCategory/BuildingList/Item[Building = '101309']">
+        <Item>
+			<Building>101309</Building>
+		</Item>
+    </ModOp>
+	<!-- ENBESA -->
+	<ModOp Type="replace" GUID='119012,114553' Path="Values/ConstructionCategory/BuildingList/Item[Building = '114523']">
+        <Item>
+			<Building>1337502508</Building>
+		</Item>
+    </ModOp>
+	<ModOp Type="replace" GUID='114554' Path="Values/ConstructionCategory/BuildingList/Item[Building = '119029']">
+        <Item>
+			<Building>1337502508</Building>
+		</Item>
+    </ModOp>
+	<ModOp Type="remove" GUID='119012' Path="Values/ConstructionCategory/BuildingList/Item[Building = '119029']">
+        <Item>
+			<Building>119029</Building>
+		</Item>
+    </ModOp>
+	<!-- ARCTIC -->
+	<ModOp Type="replace" GUID='116343,112790' Path="Values/ConstructionCategory/BuildingList/Item[Building = '112113']">
+        <Item>
+			<Building>1337502509</Building>
+		</Item>
+    </ModOp>
+</ModOps>

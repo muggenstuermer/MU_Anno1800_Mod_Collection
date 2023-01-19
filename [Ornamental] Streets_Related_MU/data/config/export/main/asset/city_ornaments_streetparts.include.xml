@@ -1,0 +1,6196 @@
+<ModOps>
+
+
+<!--
+
+1337502600 Kopfsteinpflaster Fakestrasse
+1337502601 Helles Kopfsteinpflaster Fakestrasse
+
+1337500183 Friedhofswege Fakestrasse
+1337500245 Baumallee Fakestrasse
+1337500246 Bemooster Weg Fakestrasse
+1337500247 Alter Pflasterweg Fakestrasse
+1337500248 Pflasterstraße Fakestrasse
+1337500249 GEHWEG Fakestrasse
+1337500250 Überdachte Plaza Fakestrasse
+
+1337501339 Hacienda Pflaster Fakestrasse
+1337501341 Hacienda Weg Fakestrasse
+
+1337500053 Plazaboden 15 Fakestrasse
+1337500147 Überdachte Promenade Fakestrasse
+
+1337501370 Hacienda Pflaster (Echte) Straße
+1337501371 Brücke Hacienda Pflaster (Echte) Straße
+
+1337501372 Hacienda Wege (Echte) Straße
+1337501373 Brücke Hacienda Pflaster (Echte) Straße
+
+1337500030 Noble Straße
+1337500031 Brücke Noble Straße
+
+1337500032 Edle Straße
+1337500033 Brücke Edle Straße
+
+1337500034 Schotterweg
+1337500035 Brücke Schotterweg
+
+1337500055 Ornamental Kanal Grün NW
+1337500063 Ornamental Kanal Grün AW
+1337500057 Kreuzung Kanal-Normal(Dirt) Street AW
+1337500058 Kreuzung Kanal-Fast Street AW
+1337500059 Kreuzung Kanal-Normal(Dirt) Street NW
+1337500060 Kreuzung Kanal-Fast Street NW
+
+1337502518 Baubarer See Für Modulare StrassenBrücken
+1337502528 Baubarer Betonsee Für Modulare StrassenBrücken OW
+1337502529 Baubarer Betonsee Für Modulare StrassenBrücken NW
+
+1337502551 Trigger
+
+-->
+
+
+	<!-- replacing the <AssociatedRegions> of the Basetile with all sessions -->
+	<ModOp Type="replace" GUID='24774' Path="/Values/Building/AssociatedRegions">
+        <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+    </ModOp>
+	
+	<!-- replacing the original beautiful pond canal bridge to be able to overbuild with street  and invisible bridge -->
+	<ModOp Type="replace" GUID='452' Path="/Values/Street/CfgAdditionAtlas" ModOpID="ChangeVanillaOrnamentalCanalsBridgeMU">
+        <CfgAdditionAtlas>
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item>
+				<Cfg>data/cdlc05/graphics/buildings/ornamental/canal/irrigation_channel_short_01.cfg</Cfg>
+			</Item>
+			<Item>
+				<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges/vanilla_double.cfg</Cfg>
+			</Item>
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+			<Item />
+		  </CfgAdditionAtlas>
+    </ModOp>
+
+<!-- Kopfsteinpflaster Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502600</GUID>
+					<Name>CobbleGrey</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_01.png</IconFilename>
+				</Standard>
+				<Text>
+					<TextOverride>5218</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingCategoryName>5753</BuildingCategoryName>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_01.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/cdlc09/graphics/buildings/ornamental/cobble_grey/cobble_v01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/cdlc09/graphics/buildings/ornamental/cobble_grey/cobble_v02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/cdlc09/graphics/buildings/ornamental/cobble_grey/cobble_v03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/cdlc09/graphics/buildings/ornamental/cobble_grey/cobble_v04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>5219</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+<!-- Helles Kopfsteinpflaster Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502601</GUID>
+					<Name>CobbleGrey</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_01.png</IconFilename>
+				</Standard>
+				<Text>
+					<TextOverride>5220</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingCategoryName>5753</BuildingCategoryName>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_01.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/cdlc09/graphics/buildings/ornamental/cobble_white/cobble_white_v01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/cdlc09/graphics/buildings/ornamental/cobble_white/cobble_white_v02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/cdlc09/graphics/buildings/ornamental/cobble_white/cobble_white_v03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/cdlc09/graphics/buildings/ornamental/cobble_white/cobble_white_v04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>5221</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+
+<!-- Friedhofswege Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500183</GUID>
+                    <Name>Graveyard_path</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\grave\grave_straight.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337500183</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337500183</Building>
+						</Item>
+						<Item>
+							<Building>1337500245</Building>
+						</Item>
+						<Item>
+							<Building>1337500246</Building>
+						</Item>
+						<Item>
+							<Building>1337500247</Building>
+						</Item>
+						<Item>
+							<Building>1337500248</Building>
+						</Item>
+						<Item>
+							<Building>1337500249</Building>
+						</Item>
+						<Item>
+							<Building>1337500175</Building>
+						</Item>
+						<Item>
+							<Building>1337500176</Building>
+						</Item>
+						<Item>
+							<Building>1337500177</Building>
+						</Item>
+						<Item>
+							<Building>1337500178</Building>
+						</Item>
+						<Item>
+							<Building>1337500179</Building>
+						</Item>
+						<Item>
+							<Building>1337500181</Building>
+						</Item>
+						<Item>
+							<Building>1337500182</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>0</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>0</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<Single>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Single>
+						<DontCare />
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+						  </Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_straight.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_end.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_corner.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_cross.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_t.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data/modgraphics/streets/graveyard_path/path_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/modgraphics/streets/graveyard_path/path_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/modgraphics/streets/graveyard_path/path_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/modgraphics/streets/graveyard_path/path_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/modgraphics/streets/graveyard_path/path_t_cross.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Baumallee Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500245</GUID>
+                    <Name>Alley</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/alley/baumalle_straight.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+                </Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337500245</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337501342</Building>
+						</Item>
+						<Item>
+							<Building>1337501341</Building>
+						</Item>
+						<Item>
+							<Building>25224</Building>
+						</Item>
+						<Item>
+							<Building>1337500183</Building>
+						</Item>
+						<Item>
+							<Building>1337500245</Building>
+						</Item>
+						<Item>
+							<Building>1337500246</Building>
+						</Item>
+						<Item>
+							<Building>1337500247</Building>
+						</Item>
+						<Item>
+							<Building>1337500248</Building>
+						</Item>
+						<Item>
+							<Building>1337500249</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/alley/baumalle_straight.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/alley/baumalle_end.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/alley/baumalle_corner.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/alley/baumalle_cross.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/alley/baumalle_t.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\alley\alley_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\alley\alley_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\alley\alley_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\alley\alley_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\alley\alley_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+
+	<!-- Bemooster Weg Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500246</GUID>
+                    <Name>Alley2</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/moosy/moos_straight.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+                </Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337500246</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337501342</Building>
+						</Item>
+						<Item>
+							<Building>1337501341</Building>
+						</Item>
+						<Item>
+							<Building>25224</Building>
+						</Item>
+						<Item>
+							<Building>1337500183</Building>
+						</Item>
+						<Item>
+							<Building>1337500245</Building>
+						</Item>
+						<Item>
+							<Building>1337500246</Building>
+						</Item>
+						<Item>
+							<Building>1337500247</Building>
+						</Item>
+						<Item>
+							<Building>1337500248</Building>
+						</Item>
+						<Item>
+							<Building>1337500249</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/moosy/moos_straight.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/moosy/moos_end.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/moosy/moos_corner.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/moosy/moos_cross.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/moosy/moos_t.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\mossy\moosy_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\mossy\moosy_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\mossy\moosy_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\mossy\moosy_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\mossy\moosy_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Alter Pflasterweg Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500247</GUID>
+                    <Name>Alley3</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/old_path/pflasterweg.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+                </Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337500247</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337501342</Building>
+						</Item>
+						<Item>
+							<Building>1337501341</Building>
+						</Item>
+						<Item>
+							<Building>25224</Building>
+						</Item>
+						<Item>
+							<Building>1337500183</Building>
+						</Item>
+						<Item>
+							<Building>1337500245</Building>
+						</Item>
+						<Item>
+							<Building>1337500246</Building>
+						</Item>
+						<Item>
+							<Building>1337500247</Building>
+						</Item>
+						<Item>
+							<Building>1337500248</Building>
+						</Item>
+						<Item>
+							<Building>1337500249</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>0</DirectionOffet>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/old_path/pflasterweg.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\old_path\old_path.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+<!-- Pflasterstraße Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500248</GUID>
+                    <Name>Alley2</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/cobbled/pflasterstrasse_straight.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+                </Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337500248</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337501342</Building>
+						</Item>
+						<Item>
+							<Building>1337501341</Building>
+						</Item>
+						<Item>
+							<Building>25224</Building>
+						</Item>
+						<Item>
+							<Building>1337500183</Building>
+						</Item>
+						<Item>
+							<Building>1337500245</Building>
+						</Item>
+						<Item>
+							<Building>1337500246</Building>
+						</Item>
+						<Item>
+							<Building>1337500247</Building>
+						</Item>
+						<Item>
+							<Building>1337500248</Building>
+						</Item>
+						<Item>
+							<Building>1337500249</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/cobbled/pflasterstrasse_straight.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/cobbled/pflasterstrasse_end.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/cobbled/pflasterstrasse_corner.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/cobbled/pflasterstrasse_cross.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/cobbled/pflasterstrasse_tcross.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+               <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\cobbled\cobbled_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\cobbled\cobbled_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\cobbled\cobbled_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\cobbled\cobbled_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\cobbled\cobbled_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+<!-- GEHWEG Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500249</GUID>
+                    <Name>Groundplane System</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_straight.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+				</Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337500249</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337501342</Building>
+						</Item>
+						<Item>
+							<Building>1337501341</Building>
+						</Item>
+						<Item>
+							<Building>25224</Building>
+						</Item>
+						<Item>
+							<Building>1337500183</Building>
+						</Item>
+						<Item>
+							<Building>1337500245</Building>
+						</Item>
+						<Item>
+							<Building>1337500246</Building>
+						</Item>
+						<Item>
+							<Building>1337500247</Building>
+						</Item>
+						<Item>
+							<Building>1337500248</Building>
+						</Item>
+						<Item>
+							<Building>1337500249</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+						  <Direction>2</Direction>
+						  <Type>End</Type>
+						</Item>
+						<Item>
+						  <Direction>3</Direction>
+						  <Type>End</Type>
+						</Item>
+						<Item>
+						  <Direction>1</Direction>
+						  <Type>Corner</Type>
+						</Item>
+						<Item>
+						  <Type>End</Type>
+						</Item>
+						<Item>
+						  <Type>Mid</Type>
+						</Item>
+						<Item>
+						  <Direction>2</Direction>
+						  <Type>Corner</Type>
+						</Item>
+						<Item>
+						  <Direction>2</Direction>
+						  <Type>TCrossing</Type>
+						</Item>
+						<Item>
+						  <Direction>1</Direction>
+						  <Type>End</Type>
+						</Item>
+						<Item>
+						  <Type>Corner</Type>
+						</Item>
+						<Item>
+						  <Direction>1</Direction>
+						  <Type>Mid</Type>
+						</Item>
+						<Item>
+						  <Direction>1</Direction>
+						  <Type>TCrossing</Type>
+						</Item>
+						<Item>
+						  <Direction>3</Direction>
+						  <Type>Corner</Type>
+						</Item>
+						<Item>
+						  <Type>TCrossing</Type>
+						</Item>
+						<Item>
+						  <Direction>3</Direction>
+						  <Type>TCrossing</Type>
+						</Item>
+						<Item>
+						  <Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_straight.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_end.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_corner.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_cross.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_tcross.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+						  <Filename>data/cdlc05/graphics/buildings/ornamental/deco_groundplanes/groundplane_04.cfg</Filename>
+						</Item>
+						<Item>
+						  <Filename>data/cdlc05/graphics/buildings/ornamental/deco_groundplanes/groundplane_08.cfg</Filename>
+						</Item>
+						<Item>
+						  <Filename>data/cdlc05/graphics/buildings/ornamental/deco_groundplanes/groundplane_03.cfg</Filename>
+						</Item>
+						<Item>
+						  <Filename>data/cdlc05/graphics/buildings/ornamental/deco_groundplanes/groundplane_06.cfg</Filename>
+						</Item>
+						<Item>
+						  <Filename>data/cdlc05/graphics/buildings/ornamental/deco_groundplanes/groundplane_07.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+
+<!-- Überdachte Plaza Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500250</GUID>
+                    <Name>Groundplane System</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\promenade\glasdach.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+				</Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337500250</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337500250</Building>
+						</Item>
+						<Item>
+							<Building>1337500053</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.psd</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.psd</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.psd</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.psd</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.psd</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\promenade\promenade_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\promenade\promenade_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\promenade\promenade_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\promenade\promenade_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\promenade\promenade_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+<!-- Hacienda Pflaster Fakestrasse -->
+    <ModOp Type="addNextSibling" GUID='1010035'>
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337501339</GUID>
+                    <Name>Hacienda (Street)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_courtyard_1.png</IconFilename>
+                    <InfoDescription>12750</InfoDescription>
+                </Standard>
+                <Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337501339</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_courtyard_1.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_courtyard_2.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+				</Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\hacienda_paving\hacienda_ornaments_floor_1x1_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\hacienda_paving\hacienda_ornaments_floor_1x1_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\hacienda_paving\hacienda_ornaments_floor_1x1_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	
+<!-- Hacienda Weg Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337501341</GUID>
+                    <Name>Hacienda_Weg (Street)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_street_1.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+                </Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337501341</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337501342</Building>
+						</Item>
+						<Item>
+							<Building>1337501341</Building>
+						</Item>
+						<Item>
+							<Building>25224</Building>
+						</Item>
+						<Item>
+							<Building>1337500183</Building>
+						</Item>
+						<Item>
+							<Building>1337500245</Building>
+						</Item>
+						<Item>
+							<Building>1337500246</Building>
+						</Item>
+						<Item>
+							<Building>1337500247</Building>
+						</Item>
+						<Item>
+							<Building>1337500248</Building>
+						</Item>
+						<Item>
+							<Building>1337500249</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+                        <Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+                        </Corner>
+                        <Mid>
+							<Pool>
+								<Item />
+							</Pool>
+                        </Mid>
+                        <TCrossing>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+                        </TCrossing>
+                        <Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+                        </Crossing>
+                        <End>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+                        </End>
+					</BuildingBlockPool>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_street_1.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_street_2.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_street_3.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_street_4.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_street_5.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+               <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+                        <Item>
+							<Filename>data\modgraphics\streets\hacienda_pathway\hacienda_ornaments_floor_1x1_street_01_straight.cfg</Filename>
+                        </Item>
+                        <Item>
+							<Filename>data\modgraphics\streets\hacienda_pathway\hacienda_ornaments_floor_1x1_street_01_corner.cfg</Filename>
+                        </Item>
+                        <Item>
+							<Filename>data\modgraphics\streets\hacienda_pathway\hacienda_ornaments_floor_1x1_street_01_tcross.cfg</Filename>
+                        </Item>
+                        <Item>
+							<Filename>data\modgraphics\streets\hacienda_pathway\hacienda_ornaments_floor_1x1_street_01_cross.cfg</Filename>
+                        </Item>
+                        <Item>
+							<Filename>data\modgraphics\streets\hacienda_pathway\hacienda_ornaments_floor_1x1_street_01_end.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+<!-- Plazaboden 15 Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500053</GUID>
+                    <Name>Groundplane System</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace/palace_path.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+				</Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337500053</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337500053</Building>
+						</Item>
+						<Item>
+							<Building>1337500250</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\palace_path\palace_path_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\palace_path\palace_path_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\palace_path\palace_path_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\palace_path\palace_path_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\palace_path\palace_path_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Überdachte Promenade Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500147</GUID>
+                    <Name>Groundplane System</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/promenade_roofed/promenade_roofed.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+				</Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337500147</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337500147</Building>
+						</Item>
+						<Item>
+							<Building>269303</Building>
+                        </Item>
+						<Item>
+                          <Building>1440134608</Building> <!-- Spiu Plaza Streets Promenade Paving -->
+                        </Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                          <Direction>2</Direction>
+                          <Type>End</Type>
+                        </Item>
+                        <Item>
+                          <Direction>3</Direction>
+                          <Type>End</Type>
+                        </Item>
+                        <Item>
+                          <Direction>1</Direction>
+                          <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                          <Type>End</Type>
+                        </Item>
+                        <Item>
+                          <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                          <Direction>2</Direction>
+                          <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                          <Direction>2</Direction>
+                          <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                          <Direction>1</Direction>
+                          <Type>End</Type>
+                        </Item>
+                        <Item>
+                          <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                          <Direction>1</Direction>
+                          <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                          <Direction>1</Direction>
+                          <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                          <Direction>3</Direction>
+                          <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                          <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                          <Direction>3</Direction>
+                          <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                          <Type>Crossing</Type>
+                        </Item>
+					</InfluencedVariationDirection>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingBlockPool>
+                        <DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+                        </DontCare>
+                        <Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+                        </Corner>
+                        <Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+								<Item>
+									<Variation>5</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+							</Pool>
+                        </Mid>
+                        <TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+                        </TCrossing>
+                        <Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+                        </Crossing>
+                        <End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+                        </End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_straight_promenade.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_promenade_end.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_promenade_angle.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_promenade_crossing.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_promenade_junction.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_straight_promenade_variation.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_gerade.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_ende.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_ecke.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_kreuz.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_t_kreuz.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_gerade2.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Hacienda Pflaster (Echte) Straße -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>Street</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337501370</GUID>
+                    <Name>HaciendaStreet01</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/streets/hacienda_01.png</IconFilename>
+					<InfoDescription>12751</InfoDescription>
+					<ID>HaciendaStreet01</ID>
+                </Standard>
+                <Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+                        <Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>1</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<CfgFileName>data/modgraphics/streets/hacienda_01/hacienda_01.cfg</CfgFileName>
+					<BridgeAsset>1337501371</BridgeAsset>
+					<InternalID>482</InternalID><!-- modulo256 = 226 -->
+					<DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<StyleRows>12</StyleRows>
+					<Quality>2</Quality>
+					<OverbuildRule>GoodStreet</OverbuildRule>
+					<SpeedFactor>1.5</SpeedFactor>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<AdaptToNeighbors>
+						<AdaptGroups>Street;StreetHighQuality</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Crossing_Rail_Street;Crossing_Rail_StreetHighQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetHighQuality;QuayStreet;StreetHighQuality</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+                <Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked />
+                <SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215917</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215920</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Brick</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Paved Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>2</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>4224</LineID>
+				</Text>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<PickingAsset>1337501370</PickingAsset>
+				</Building>
+				<Ornament />
+            </Values>
+        </Asset>
+	</ModOp>
+	<!-- Brücke Hacienda Pflaster (Echte) Straße -->
+	<ModOp Type="addNextSibling" GUID='101587'>
+		<Asset>
+			<Template>BridgeBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501371</GUID>
+					<Name>StoneBridge</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/streets/hacienda_01.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Stone Bridge</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>29411</LineID>
+				</Text>
+				<Blocking>
+					<GroundDecalAsset>101588</GroundDecalAsset>
+				</Blocking>
+				<Building>
+					<PickingAsset>1337501370</PickingAsset>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>2000</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>20</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\hacienda_01\bridge_hacienda_01_road.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+									<InheritanceMapV2>
+										<Entry>
+											<TemplateName>BridgeBuilding</TemplateName>
+											<Index>0</Index>
+										</Entry>
+									</InheritanceMapV2>
+								</VectorElement>
+							</Item>
+							<Item>
+								<Sound>200901</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+					<MaterialType>Bridge_Brick</MaterialType>
+				</SoundEmitter>
+				<FeedbackController />
+				<Ornament />
+				<AmbientMoodProvider />
+				<Attackable />
+				<Pausable />
+				<Bridge>
+					<MinLength>3</MinLength>
+					<MaxLength>16</MaxLength>
+				</Bridge>
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Hacienda Wege (Echte) Straße -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>Street</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337501372</GUID>
+                    <Name>HaciendaStreet02</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/streets/hacienda_02.png</IconFilename>
+					<InfoDescription>12751</InfoDescription>
+					<ID>HaciendaStreet02</ID>
+                </Standard>
+                <Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+                        <Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>1</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<CfgFileName>data/modgraphics/streets/hacienda_02/hacienda_02.cfg</CfgFileName>
+					<BridgeAsset>1337501373</BridgeAsset>
+					<InternalID>483</InternalID><!-- modulo256 = 227 -->
+					<DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<StyleRows>12</StyleRows>
+					<Quality>2</Quality>
+					<OverbuildRule>GoodStreet</OverbuildRule>
+					<SpeedFactor>1.5</SpeedFactor>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<AdaptToNeighbors>
+						<AdaptGroups>Street;StreetHighQuality</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Crossing_Rail_Street;Crossing_Rail_StreetHighQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetHighQuality;QuayStreet;StreetHighQuality</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+                <Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+                <Locked />
+                <SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215917</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215920</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Brick</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Paved Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>2</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>4224</LineID>
+				</Text>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<PickingAsset>1337501372</PickingAsset>
+				</Building>
+				<Ornament />
+            </Values>
+        </Asset>
+	</ModOp>
+	<!-- Brücke Hacienda Pflaster (Echte) Straße -->
+	<ModOp Type="addNextSibling" GUID='101587'>
+		<Asset>
+			<Template>BridgeBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501373</GUID>
+					<Name>StoneBridge</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/streets/hacienda_02.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Stone Bridge</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>29411</LineID>
+				</Text>
+				<Blocking>
+					<GroundDecalAsset>101588</GroundDecalAsset>
+				</Blocking>
+				<Building>
+					<PickingAsset>1337501372</PickingAsset>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>2000</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>20</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\hacienda_02\bridge_hacienda_02_road.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+									<InheritanceMapV2>
+										<Entry>
+											<TemplateName>BridgeBuilding</TemplateName>
+											<Index>0</Index>
+										</Entry>
+									</InheritanceMapV2>
+								</VectorElement>
+							</Item>
+							<Item>
+								<Sound>200901</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+					<MaterialType>Bridge_Brick</MaterialType>
+				</SoundEmitter>
+				<FeedbackController />
+				<Ornament />
+				<AmbientMoodProvider />
+				<Attackable />
+				<Pausable />
+				<Bridge>
+					<MinLength>3</MinLength>
+					<MaxLength>16</MaxLength>
+				</Bridge>
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Noble Straße -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>Street</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500030</GUID>
+                    <IconFilename>data/ui/2kimages/main/3dicons/streets/noble_street.png</IconFilename>
+					<InfoDescription>12751</InfoDescription>
+					<ID>NobleStreet</ID>
+                </Standard>
+                <Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+                        <Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>1</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<CfgFileName>data\modgraphics\streets\noble\noble_street.cfg</CfgFileName>
+					<BridgeAsset>1337500031</BridgeAsset>
+					<InternalID>468</InternalID><!-- modulo256 = 212 -->
+					<DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<StyleRows>12</StyleRows>
+					<Quality>2</Quality>
+					<OverbuildRule>GoodStreet</OverbuildRule>
+					<SpeedFactor>1.5</SpeedFactor>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<AdaptToNeighbors>
+						<AdaptGroups>Street;StreetHighQuality</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Crossing_Rail_Street;Crossing_Rail_StreetHighQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetHighQuality;QuayStreet;StreetHighQuality</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+                <Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				 <Locked />
+                <SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215917</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215920</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Brick</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Paved Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>2</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>4224</LineID>
+				</Text>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<PickingAsset>1337500030</PickingAsset>
+				</Building>
+				<Ornament />
+            </Values>
+        </Asset>
+	</ModOp>
+	<!-- Brücke Noble Straße -->
+	<ModOp Type="addNextSibling" GUID='101587'>
+		<Asset>
+			<Template>BridgeBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500031</GUID>
+					<Name>StoneBridge</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/streets/noble_street.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Stone Bridge</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>29411</LineID>
+				</Text>
+				<Blocking>
+					<GroundDecalAsset>101588</GroundDecalAsset>
+				</Blocking>
+				<Building>
+					<PickingAsset>1337500030</PickingAsset>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>2000</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>20</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<GUIType>Generic</GUIType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\noble\bridge_noble_street.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+									<InheritanceMapV2>
+										<Entry>
+											<TemplateName>BridgeBuilding</TemplateName>
+											<Index>0</Index>
+										</Entry>
+									</InheritanceMapV2>
+								</VectorElement>
+							</Item>
+							<Item>
+								<Sound>200901</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+					<MaterialType>Bridge_Brick</MaterialType>
+				</SoundEmitter>
+				<FeedbackController />
+				<Ornament />
+				<AmbientMoodProvider />
+				<Attackable />
+				<Pausable />
+				<Bridge>
+					<MinLength>3</MinLength>
+					<MaxLength>16</MaxLength>
+				</Bridge>
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Edle Straße -->
+	<ModOp Type="addNextSibling" GUID='1010136'>
+		<Asset>
+            <Template>Street</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500032</GUID>
+                    <IconFilename>data/ui/2kimages/main/3dicons/streets/gallant_street.png</IconFilename>
+					<InfoDescription>12751</InfoDescription>
+					<ID>EdleStreet</ID>
+                </Standard>
+                <Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+                        <Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>1</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<CfgFileName>data/modgraphics/streets/gallant/gallant_street.cfg</CfgFileName>
+					<BridgeAsset>1337500033</BridgeAsset>
+					<InternalID>469</InternalID><!-- modulo256 = 213 -->
+					<DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<StyleRows>12</StyleRows>
+					<Quality>2</Quality>
+					<OverbuildRule>GoodStreet</OverbuildRule>
+					<SpeedFactor>1.5</SpeedFactor>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<AdaptToNeighbors>
+						<AdaptGroups>Street;StreetHighQuality</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Crossing_Rail_Street;Crossing_Rail_StreetHighQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetHighQuality;QuayStreet;StreetHighQuality</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+                <Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+                <SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215917</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215920</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Brick</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Paved Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>2</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>4224</LineID>
+				</Text>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<PickingAsset>1337500032</PickingAsset>
+				</Building>
+				<Ornament />
+            </Values>
+        </Asset>
+	</ModOp>
+	<!-- Brücke Edle Straße -->
+	<ModOp Type="addNextSibling" GUID='101587'>
+		<Asset>
+			<Template>BridgeBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500033</GUID>
+					<Name>StoneBridge</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/streets/gallant_street.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Stone Bridge</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>29411</LineID>
+				</Text>
+				<Blocking>
+					<GroundDecalAsset>101588</GroundDecalAsset>
+				</Blocking>
+				<Building>
+					<PickingAsset>1337500032</PickingAsset>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>2000</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>20</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<GUIType>Generic</GUIType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/modgraphics/streets/gallant/bridge_gallant_street.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+									<InheritanceMapV2>
+										<Entry>
+											<TemplateName>BridgeBuilding</TemplateName>
+											<Index>0</Index>
+										</Entry>
+									</InheritanceMapV2>
+								</VectorElement>
+							</Item>
+							<Item>
+								<Sound>200901</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+					<MaterialType>Bridge_Brick</MaterialType>
+				</SoundEmitter>
+				<FeedbackController />
+				<Ornament />
+				<AmbientMoodProvider />
+				<Attackable />
+				<Pausable />
+				<Bridge>
+					<MinLength>3</MinLength>
+					<MaxLength>16</MaxLength>
+				</Bridge>
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Schotterweg -->
+	<ModOp Type="addNextSibling" GUID='1010136'>
+		<Asset>
+            <Template>Street</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500034</GUID>
+                    <IconFilename>data/ui/2kimages/main/3dicons/streets/gravel_street.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+					<ID>Feldweg</ID>
+                </Standard>
+                <Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+                        <Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>1</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<CfgFileName>data\modgraphics\streets\gravel\gravel_street.cfg</CfgFileName>
+					<BridgeAsset>1337500035</BridgeAsset>
+					<InternalID>470</InternalID><!-- modulo256 = 214 -->
+					<DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<StyleRows>12</StyleRows>
+					<Quality>1</Quality>
+					<OverbuildRule>BadStreet</OverbuildRule>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Street;StreetLowQuality</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>StreetHighQuality;Crossing_Rail_Street;Crossing_Rail_StreetLowQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetLowQuality;QuayStreet;StreetLowQuality</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+                <Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+                <SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215917</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215920</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Dirt</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Dirt Road</Text>
+							<Status>Exported</Status>
+							<ExportCount>3</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>4224</LineID>
+				</Text>
+				<Building>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<PickingAsset>1337500034</PickingAsset>
+				</Building>
+				<Ornament />
+            </Values>
+        </Asset>
+	</ModOp>
+	<!-- Brücke Schotterweg -->
+	<ModOp Type="addNextSibling" GUID='101587'>
+		<Asset>
+			<Template>BridgeBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500035</GUID>
+					<Name>StoneBridge</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/streets/gravel_street.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Wooden Bridge</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>29410</LineID>
+				</Text>
+				<Blocking>
+					<GroundDecalAsset>101383</GroundDecalAsset>
+				</Blocking>
+				<Building>
+					<PickingAsset>1337500034</PickingAsset>
+				</Building>
+					<Cost>
+						<Costs>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+									<InheritanceMapV2>
+										<Entry>
+											<TemplateName>BridgeBuilding</TemplateName>
+											<Index>0</Index>
+										</Entry>
+									</InheritanceMapV2>
+							</VectorElement>
+							<Amount>1000</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>20</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>BridgeBuilding</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<GUIType>Generic</GUIType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\gravel\bridge_gravel_street.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+									<InheritanceMapV2>
+										<Entry>
+											<TemplateName>BridgeBuilding</TemplateName>
+											<Index>0</Index>
+										</Entry>
+									</InheritanceMapV2>
+								</VectorElement>
+							</Item>
+							<Item>
+								<Sound>200901</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<SpawnSounds>
+						<Item>
+							<Sound>200901</Sound>
+						</Item>
+					</SpawnSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+					<MaterialType>Bridge_Dirt</MaterialType>
+				</SoundEmitter>
+				<FeedbackController />
+				<Ornament />
+				<AmbientMoodProvider />
+				<Attackable />
+				<Pausable />
+				<Bridge>
+					<MinLength>3</MinLength>
+					<MaxLength>16</MaxLength>
+				</Bridge>
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Ornamental Kanal Grün NW -->
+	<ModOp Type="addNextSibling" GUID="112842">
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500055</GUID>
+					<Name>CanalNature</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/canals/kanal_grass.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<InvalidColor>-50116</InvalidColor>
+					<InternalID>471</InternalID><!-- modulo256 = 215 -->
+					<DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/canaldecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<OverbuildRule>IrrigationPipe</OverbuildRule>
+					<IsLogicRoad>0</IsLogicRoad>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<IsIrrigationPipe>1</IsIrrigationPipe>
+					<RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
+					<CfgAdditionAtlas>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_single_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_end_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_short_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_curv_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_3way_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_cross_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_curv_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_3way_bassin_03.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_3way_bassin_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_tripple_corner_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_short_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_3way_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_double_corner_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_curv_bassin_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_place_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_long_01_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_long_01_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_long_01_03.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_long_01_04.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_long_02_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_long_02_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_long_02_03.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_long_02_04.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_short_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_short_03.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_short_04.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_short_05.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_short_05_duck.cfg</Cfg>
+						</Item>
+					</CfgAdditionAtlas>
+					<AdaptToNeighbors>
+						<AdaptGroups>Canal</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<WalkingBlocked>1</WalkingBlocked>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>200140</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215919</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Dirt</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Canal</Text>
+							<Status>Exported</Status>
+							<ExportCount>4</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>44420</LineID>
+				</Text>
+				<Building>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+					<PickingAsset>1337500055</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Ornamental Kanal Grün AW -->
+	<ModOp Type="addNextSibling" GUID="112842">
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500063</GUID>
+					<Name>CanalNature</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/canals/kanal_grass.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<InvalidColor>-50116</InvalidColor>
+					<InternalID>485</InternalID><!-- modulo256 = 229 -->
+					<DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/canaldecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<OverbuildRule>IrrigationPipe</OverbuildRule>
+					<IsLogicRoad>0</IsLogicRoad>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<IsIrrigationPipe>1</IsIrrigationPipe>
+					<RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
+					<CfgAdditionAtlas>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_end_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_end_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_curv_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_3way_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_cross_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_curv_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_3way_bassin_03.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_3way_bassin_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_tripple_corner_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_3way_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_double_corner_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_curv_bassin_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_place_bassin_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_unsupported_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_03.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_04.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_01.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_03.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_04.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_03.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_04.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_05.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data/modgraphics/buildings/ornamental/green_cannal_ow/irrigation_channel_short_03.cfg</Cfg>
+						</Item>
+					</CfgAdditionAtlas>
+					<AdaptToNeighbors>
+						<AdaptGroups>Canal</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<WalkingBlocked>1</WalkingBlocked>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>200140</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215919</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Dirt</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Canal</Text>
+							<Status>Exported</Status>
+							<ExportCount>4</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>44420</LineID>
+				</Text>
+				<Building>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+					<PickingAsset>1337500063</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- Kreuzung Kanal-Normal(Dirt) Street AW -->
+	<ModOp Type="addNextSibling" GUID="127913">
+        <Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500057</GUID>
+					<Name>CrossingCanal-Street</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/christmas_park_props_system_02_cross.png</IconFilename>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<InvalidColor>-50116</InvalidColor>
+					<InternalID>463</InternalID><!-- modulo256 = 207 -->
+					<DecalMapping>data/config/street/crossingdecal_irrigation_pipe.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<Quality>1</Quality>
+					<OverbuildRule>IrrigationPipeStreetCrossing</OverbuildRule>
+					<IsPlazza>1</IsPlazza>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<IsIrrigationPipe>1</IsIrrigationPipe>
+					<RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
+					<CfgAdditionAtlas>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item>
+						  <Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_closed_open.cfg</Cfg>
+						</Item>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</CfgAdditionAtlas>
+					<AdaptToNeighbors>
+						<AdaptGroups>StreetLowQuality;Canal</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>200140</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215919</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Dirt</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Canal Crossing</Text>
+							<Status>Exported</Status>
+							<ExportCount>4</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>44421</LineID>
+				</Text>
+				<Building>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1000178</PickingAsset>
+					<AssociatedRegions>Moderate;Arctic</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+    </ModOp>
+	<!-- Kreuzung Kanal-Fast Street AW -->
+	<ModOp Type="addNextSibling" GUID="127913">
+        <Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500058</GUID>
+					<Name>CrossingCanal-FastStreet</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/christmas_park_props_system_02_cross.png</IconFilename>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<InvalidColor>-50116</InvalidColor>
+					<InternalID>464</InternalID><!-- modulo256 = 208 -->
+					<DecalMapping>data/config/street/crossingdecal_irrigation_pipe.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<Quality>2</Quality>
+					<OverbuildRule>IrrigationPipeStreetCrossing</OverbuildRule>
+					<SpeedFactor>1.5</SpeedFactor>
+					<IsPlazza>1</IsPlazza>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<IsIrrigationPipe>1</IsIrrigationPipe>
+					<RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
+					<CfgAdditionAtlas>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item>
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02.cfg</Cfg>-->
+							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\singel_canal_fake_bridge_canal.cfg</Cfg>
+						</Item>
+						<Item>
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_closed_open.cfg</Cfg>-->
+							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\double_canal_fake_bridge_canal.cfg</Cfg>
+						</Item>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</CfgAdditionAtlas>
+					<AdaptToNeighbors>
+						<AdaptGroups>StreetHighQuality;Canal</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>200140</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215919</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Dirt</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Canal Crossing</Text>
+							<Status>Exported</Status>
+							<ExportCount>4</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>44422</LineID>
+				</Text>
+				<Building>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>1010035</PickingAsset>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+    </ModOp>
+	<!-- Kreuzung Kanal-Normal(Dirt) Street NW -->
+	<ModOp Type="addNextSibling" GUID="127913">
+        <Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500059</GUID>
+					<Name>CrossingCanal-Street</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/christmas_park_props_system_02_cross.png</IconFilename>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<InvalidColor>-50116</InvalidColor>
+					<InternalID>465</InternalID><!-- modulo256 = 209 -->
+					<DecalMapping>data/config/street/crossingdecal_irrigation_pipe.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<Quality>1</Quality>
+					<OverbuildRule>IrrigationPipeStreetCrossing</OverbuildRule>
+					<IsPlazza>1</IsPlazza>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<IsIrrigationPipe>1</IsIrrigationPipe>
+					<RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
+					<CfgAdditionAtlas>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item>
+						  <Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02.cfg</Cfg>
+						</Item>
+						<Item>
+						  <Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_closed_open.cfg</Cfg>
+						</Item>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</CfgAdditionAtlas>
+					<AdaptToNeighbors>
+						<AdaptGroups>StreetLowQuality;Canal</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>200140</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+					<BuildAddWaypoint>
+						<Item>
+							<Sound>215919</Sound>
+						</Item>
+					</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Dirt</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Canal Crossing</Text>
+							<Status>Exported</Status>
+							<ExportCount>4</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>44421</LineID>
+				</Text>
+				<Building>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>101308</PickingAsset>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+    </ModOp>
+	<!-- Kreuzung Kanal-Fast Street NW -->
+	<ModOp Type="addNextSibling" GUID="127913">
+        <Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500060</GUID>
+					<Name>CrossingCanal-FastStreet</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/christmas_park_props_system_02_cross.png</IconFilename>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<InvalidColor>-50116</InvalidColor>
+					<InternalID>466</InternalID><!-- modulo256 = 210 -->
+					<DecalMapping>data/config/street/crossingdecal_irrigation_pipe.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<Quality>2</Quality>
+					<OverbuildRule>IrrigationPipeStreetCrossing</OverbuildRule>
+					<SpeedFactor>1.5</SpeedFactor>
+					<IsPlazza>1</IsPlazza>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<IsIrrigationPipe>1</IsIrrigationPipe>
+					<RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
+					<CfgAdditionAtlas>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item>
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02.cfg</Cfg>-->
+							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\singel_canal_fake_bridge_canal_nw.cfg</Cfg>
+						</Item>
+						<Item>
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_closed_open.cfg</Cfg>-->
+							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\double_canal_fake_bridge_canal_nw.cfg</Cfg>
+						</Item>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</CfgAdditionAtlas>
+					<AdaptToNeighbors>
+						<AdaptGroups>StreetHighQuality;Canal</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>200140</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215919</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Dirt</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+						<Text>Canal Crossing</Text>
+						<Status>Exported</Status>
+						<ExportCount>4</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>44422</LineID>
+				</Text>
+				<Building>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<PickingAsset>101309</PickingAsset>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+    </ModOp>
+	
+	<!-- Kreuzung Kanal-Rail AW -->
+	<ModOp Type="addNextSibling" GUID="273699">
+        <Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500061</GUID>
+					<Name>CrossingRails-PipeModarate</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_railway.png</IconFilename>
+					<InfoDescription>10947</InfoDescription>
+				</Standard>
+				<Cost>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<CfgFileName>data\modgraphics\buildings\ornamental\green_cannal_ow\modarate_street_03.cfg</CfgFileName>
+					<InternalID>467</InternalID><!-- modulo256 = 211 -->
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<StyleRows>10</StyleRows>
+					<Quality>2</Quality>
+					<OverbuildRule>Railcrossing</OverbuildRule>
+					<IsLogicRoad>0</IsLogicRoad>
+					<IsRailway>1</IsRailway>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<IsRenderedExternally>1</IsRenderedExternally>
+					<IsIrrigationPipe>1</IsIrrigationPipe>
+					<AdaptToNeighbors>
+						<AdaptGroups>Rail_And_RailUnderBuilding;Canal</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+				<Constructable />
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214787</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>216000</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Railway Crossing</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11154</BuildingCategoryName>
+					<PickingAsset>1010136</PickingAsset>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+    </ModOp>
+	<!-- Kreuzung Kanal-Rail NW -->
+	<ModOp Type="addNextSibling" GUID="273699">
+        <Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500062</GUID>
+					<Name>CrossingRails-PipeColony01</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_railway.png</IconFilename>
+					<InfoDescription>10947</InfoDescription>
+				</Standard>
+				<Cost>
+					<ItemsPerCost>4</ItemsPerCost>
+				</Cost>
+				<Street>
+					<CfgFileName>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\nw_street_03.cfg</CfgFileName>
+					<InternalID>449</InternalID><!-- modulo256 = 193 -->
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<StyleRows>10</StyleRows>
+					<Quality>2</Quality>
+					<OverbuildRule>Railcrossing</OverbuildRule>
+					<IsLogicRoad>0</IsLogicRoad>
+					<IsRailway>1</IsRailway>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<IsRenderedExternally>1</IsRenderedExternally>
+					<IsIrrigationPipe>1</IsIrrigationPipe>
+					<AdaptToNeighbors>
+						<AdaptGroups>Rail_And_RailUnderBuilding;Canal</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+				<Constructable />
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214787</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>216000</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Railway Crossing</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11154</BuildingCategoryName>
+					<PickingAsset>1010136</PickingAsset>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+    </ModOp>
+	
+	<!-- Kanäle den Regionen Hinzufügen wegen Brückenbau -->
+	<ModOp Type="add" GUID="141032" Path="/Values/GlobalConstructionAIBalancing/RegionStreets/Moderate">
+		<IrrigationPipe>1337500063</IrrigationPipe>
+		<Crossing_Pipe_StreetNormal>1337500057</Crossing_Pipe_StreetNormal>
+		<Crossing_Pipe_StreetFast>1337500058</Crossing_Pipe_StreetFast>
+	</ModOp>
+	<ModOp Type="add" GUID="141032" Path="/Values/GlobalConstructionAIBalancing/RegionStreets/Colony01">
+		<IrrigationPipe>1337500055</IrrigationPipe>
+		<Crossing_Pipe_StreetNormal>1337500059</Crossing_Pipe_StreetNormal>
+		<Crossing_Pipe_StreetFast>1337500060</Crossing_Pipe_StreetFast>
+	</ModOp>
+	<ModOp Type="add" GUID="141032" Path="/Values/GlobalConstructionAIBalancing/RegionStreets/Arctic">
+		<IrrigationPipe>1337500063</IrrigationPipe>
+		<Crossing_Pipe_StreetNormal>1337500057</Crossing_Pipe_StreetNormal>
+		<Crossing_Pipe_StreetFast>1337500058</Crossing_Pipe_StreetFast>
+	</ModOp>
+	
+
+<!-- Baubarer See Für Modulare StrassenBrücken -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502518</GUID>
+                    <Name>StraightCanalRiverNoPond</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\canals\kanal_grass_ornamental.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+					<ID>StraightCanalRiverPond</ID>
+				</Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337502518</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502518</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<Single>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Single>
+						<DontCare />
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>9</Variation>
+								</Item>
+						  </Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</End>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>6</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>7</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>14</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+					</BuildingBlockPool>
+					<VariationIcons>
+					<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_end_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_short_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_short_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_short_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_short_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_short_05.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_short_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_short_bassin_02.cfg</Filename>
+						</Item>
+						
+						
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_curv_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_curv_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_curv_bassin_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_double_corner_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_tripple_corner_bassin_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_cross_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_place_bassin_01.cfg</Filename>
+						</Item>
+						
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_3way_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_3way_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_3way_bassin_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_3way_bassin_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>10</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+<!-- Baubarer Betonsee Für Modulare StrassenBrücken OW -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502528</GUID>
+                    <Name>StraightCanalRiverNoPond</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/canals/kanal_beton.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+					<ID>StraightCanalRiverPond</ID>
+				</Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337502528</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502528</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<Single>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Single>
+						<DontCare />
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>9</Variation>
+								</Item>
+						  </Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</End>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>6</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>7</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>14</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+					</BuildingBlockPool>
+					<VariationIcons>
+					<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_end_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_short_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_short_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_short_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_short_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_short_05.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_short_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_short_bassin_01.cfg</Filename>
+						</Item>
+						
+						
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_curv_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_curv_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_curv_bassin_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_double_corner_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_tripple_corner_bassin_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_cross_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_place_bassin_01.cfg</Filename>
+						</Item>
+						
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_3way_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_3way_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_3way_bassin_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton\irrigation_channel_3way_bassin_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>10</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- Baubarer Betonsee Für Modulare StrassenBrücken NW -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502529</GUID>
+                    <Name>StraightCanalRiverNoPond</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/canals/kanal_beton_02.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+					<ID>StraightCanalRiverPond</ID>
+				</Standard>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337502529</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502529</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<Single>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Single>
+						<DontCare />
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>9</Variation>
+								</Item>
+						  </Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</End>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>6</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>7</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>14</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+					</BuildingBlockPool>
+					<VariationIcons>
+					<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_end_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_short_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_short_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_short_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_short_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_short_05.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_short_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_short_bassin_01.cfg</Filename>
+						</Item>
+						
+						
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_curv_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_curv_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_curv_bassin_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_double_corner_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_tripple_corner_bassin_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_cross_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_place_bassin_01.cfg</Filename>
+						</Item>
+						
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_3way_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_3way_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_3way_bassin_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_beton_nw\irrigation_channel_3way_bassin_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>10</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1337502504,1337502509' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010035' or Building = '112113']">
+		<Item>
+			<Building>1337500030</Building><!-- Noble Straße -->
+		</Item>
+		<Item>
+			<Building>1337500032</Building><!-- Edle Straße -->
+		</Item>
+		<Item>
+			<Building>1337500034</Building><!-- Schotterweg -->
+		</Item>
+		<Item>
+			<Building>1337501370</Building><!-- Hacienda Pflaster (Echte) Straße -->
+		</Item>
+		<Item>
+			<Building>1337501372</Building><!-- Hacienda Wege (Echte) Straße -->
+		</Item>
+		
+		<Item>
+			<Building>1337502600</Building><!-- Kopfsteinpflaster Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502601</Building><!-- Helles Kopfsteinpflaster Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500249</Building><!-- GEHWEG Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500183</Building><!-- Friedhofswege Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500245</Building><!-- Baumallee Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500246</Building><!-- Bemooster Weg Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500247</Building><!-- Alter Pflasterweg Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500248</Building><!-- Pflasterstraße Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500053</Building><!-- Plazaboden 15 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500250</Building><!-- Überdachte Plaza Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500147</Building><!-- Überdachte Promenade -->
+		</Item>
+		<Item>
+			<Building>1337501339</Building><!-- Hacienda Pflaster Fakestraße -->
+		</Item>
+		<Item>
+			<Building>1337501341</Building><!-- Hacienda Weg Fakestraße -->
+		</Item>
+		
+		
+		<!--<Item>
+			<Building>1337500055</Building> Ornamental Kanal Grün NW 
+		</Item>-->
+		<Item>
+			<Building>1337500063</Building><!-- Ornamental Kanal Grün AW -->
+		</Item>
+		
+		<Item>
+			<Building>1337502518</Building><!-- Baubarer See Für Modulare StrassenBrücken -->
+		</Item>
+		<Item>
+			<Building>1337502528</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken OW -->
+		</Item>
+		<Item>
+			<Building>1337502529</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken NW -->
+		</Item>
+    </ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW + ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1337502507,1337502508' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '101309' or Building = '119029']">
+		<Item>
+			<Building>1337501370</Building><!-- Hacienda Pflaster (Echte) Straße -->
+		</Item>
+		<Item>
+			<Building>1337501372</Building><!-- Hacienda Wege (Echte) Straße -->
+		</Item>
+		<Item>
+			<Building>1337500030</Building><!-- Noble Straße -->
+		</Item>
+		<Item>
+			<Building>1337500032</Building><!-- Edle Straße -->
+		</Item>
+		<Item>
+			<Building>1337500034</Building><!-- Schotterweg -->
+		</Item>
+		
+		<Item>
+			<Building>1337501339</Building><!-- Hacienda Pflaster Fakestraße -->
+		</Item>
+		<Item>
+			<Building>1337501341</Building><!-- Hacienda Weg Fakestraße -->
+		</Item>
+		<Item>
+			<Building>1337502600</Building><!-- Kopfsteinpflaster Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502601</Building><!-- Helles Kopfsteinpflaster Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500249</Building><!-- GEHWEG Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500183</Building><!-- Friedhofswege Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500245</Building><!-- Baumallee Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500246</Building><!-- Bemooster Weg Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500247</Building><!-- Alter Pflasterweg Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500248</Building><!-- Pflasterstraße Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500053</Building><!-- Plazaboden 15 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500250</Building><!-- Überdachte Plaza Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500147</Building><!-- Überdachte Promenade -->
+		</Item>
+		
+		<Item>
+			<Building>1337500055</Building><!-- Ornamental Kanal Grün NW -->
+		</Item>
+		<!--<Item>
+			<Building>1337500063</Building> Ornamental Kanal Grün AW 
+		</Item>-->
+		
+		<Item>
+			<Building>1337502518</Building><!-- Baubarer See Für Modulare StrassenBrücken -->
+		</Item>
+		<Item>
+			<Building>1337502528</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken -->
+		</Item>
+		<Item>
+			<Building>1337502529</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken NW -->
+		</Item>
+    </ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	<ModOp Type="addNextSibling" GUID='1337502509' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '112113']">
+		
+    </ModOp> -->	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502551</GUID>
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337500183</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500245</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500246</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500247</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500248</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500249</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500250</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501339</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501341</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500053</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500147</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501370</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501372</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500030</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500032</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500034</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502600</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502601</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500055</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500063</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502518</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502528</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502529</Asset>
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											
+											
+											
+											<Item>
+												<Asset>1337500183</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500245</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500246</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500247</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500248</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500249</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500250</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501339</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501341</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500053</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500147</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501370</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501372</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500030</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500032</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500034</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502600</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502601</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500055</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500063</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502518</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502528</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502529</Asset>
+											</Item>
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>

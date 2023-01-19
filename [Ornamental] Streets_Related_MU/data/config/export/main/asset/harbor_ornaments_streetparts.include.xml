@@ -1,0 +1,345 @@
+<ModOps>
+
+<!--
+
+1337501046 ARKTIS KAISTRASSE
+1337501047 AFRIKA KAISTRASSE
+
+
+-->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Nicht sichtbare modifikationen Landstrassen übergang Meer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- ARKTIS KAISTRASSE -->
+	<ModOp Type="addNextSibling" GUID='601443'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501046</GUID>
+					<Name>QuayStreetArctic</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_quay.png</IconFilename>
+					<ID>QuayStreetArctic</ID>
+				  <InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\modgraphics\streets\quay_street_arctic\quay_system_01.cfg</CfgFileName>
+					<InternalID>441</InternalID><!-- modulo256 = 185 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>QuayStreet</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Street;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+				  <DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+						  <Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501046</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Arctic</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- AFRIKA KAISTRASSE -->
+	<ModOp Type="addNextSibling" GUID='601443'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501047</GUID>
+					<Name>QuayStreetAfrica</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_quay.png</IconFilename>
+					<ID>QuayStreetAfrica</ID>
+				  <InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data/modgraphics/streets/quay_street_africa/quay_system_01.cfg</CfgFileName>
+					<InternalID>442</InternalID><!-- modulo256 = 186 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>QuayStreet</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Street;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+				  <DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+						  <Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501047</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Africa</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	
+	<!-- Original Kaistrasse mit neuer Textur wie kai OW -->
+	<ModOp Type="merge" GUID='601443' Path="/Values/Street/CfgFileName">
+		<CfgFileName>data/modgraphics/streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
+    </ModOp>
+	
+	<!-- Original Kaistrasse mit neuer Textur wie kai NW -->
+	<ModOp Type="merge" GUID='131865' Path="/Values/Street/CfgFileName">
+		<CfgFileName>data/modgraphics/streets/quay_street_nw/quay_system_01.cfg</CfgFileName>
+    </ModOp>
+	
+	<!-- Zusätzliche Strassen dem Übergang Land zu Wasser hinzufügen OW -->
+	<ModOp Type="add" GUID='5000000' Path="/Values/Region/CoastGUIDReplacements">
+		
+		<Item>
+			<OldGUID>1337501370</OldGUID><!-- Hacienda Pflaster (Echte) Straße -->
+			<NewGUID>601443</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337501372</OldGUID><!-- Hacienda Wege (Echte) Straße -->
+			<NewGUID>601443</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500030</OldGUID><!-- Noble Straße -->
+			<NewGUID>601443</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500032</OldGUID><!-- Edle Straße -->
+			<NewGUID>601443</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500034</OldGUID><!-- Schotterweg -->
+			<NewGUID>601443</NewGUID>
+		</Item>
+		
+	</ModOp>
+	
+	<!-- Zusätzliche Strassen dem Übergang Land zu Wasser hinzufügen NW -->
+	<ModOp Type="add" GUID='5000001' Path="/Values/Region/CoastGUIDReplacements">
+		
+		<Item>
+			<OldGUID>1337501370</OldGUID><!-- Hacienda Pflaster (Echte) Straße -->
+			<NewGUID>131865</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337501372</OldGUID><!-- Hacienda Wege (Echte) Straße -->
+			<NewGUID>131865</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500030</OldGUID><!-- Noble Straße -->
+			<NewGUID>131865</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500032</OldGUID><!-- Edle Straße -->
+			<NewGUID>131865</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500034</OldGUID><!-- Schotterweg -->
+			<NewGUID>131865</NewGUID>
+		</Item>
+		
+	</ModOp>
+	
+	<!-- Zusätzliche Strassen dem Übergang Land zu Wasser hinzufügen AFRIKA -->
+	<ModOp Type="add" GUID='114327' Path="/Values/Region">
+		<CoastGUIDReplacements>
+		</CoastGUIDReplacements>
+    </ModOp>
+	
+	<ModOp Type="add" GUID='114327' Path="/Values/Region/CoastGUIDReplacements">
+		<Item>
+			<OldGUID>1337501370</OldGUID><!-- Hacienda Pflaster (Echte) Straße -->
+			<NewGUID>1337501047</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337501372</OldGUID><!-- Hacienda Wege (Echte) Straße -->
+			<NewGUID>1337501047</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500030</OldGUID><!-- Noble Straße -->
+			<NewGUID>1337501047</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500032</OldGUID><!-- Edle Straße -->
+			<NewGUID>1337501047</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500034</OldGUID><!-- Schotterweg -->
+			<NewGUID>1337501047</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>114523</OldGUID><!-- Wüstenweg -->
+			<NewGUID>1337501047</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>119029</OldGUID><!-- Gepflasterte Straße -->
+			<NewGUID>1337501047</NewGUID>
+		</Item>
+		
+	</ModOp>
+	
+	<!-- Zusätzliche Strassen dem Übergang Land zu Wasser hinzufügen ARKTIS -->
+	<ModOp Type="add" GUID='160001' Path="/Values/Region">
+		<CoastGUIDReplacements>
+		</CoastGUIDReplacements>
+    </ModOp>
+	
+	<ModOp Type="add" GUID='160001' Path="/Values/Region/CoastGUIDReplacements">
+		<Item>
+			<OldGUID>1337501370</OldGUID><!-- Hacienda Pflaster (Echte) Straße -->
+			<NewGUID>1337501046</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337501372</OldGUID><!-- Hacienda Wege (Echte) Straße -->
+			<NewGUID>1337501046</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500030</OldGUID><!-- Noble Straße -->
+			<NewGUID>1337501046</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500032</OldGUID><!-- Edle Straße -->
+			<NewGUID>1337501046</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500034</OldGUID><!-- Schotterweg -->
+			<NewGUID>1337501046</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>112113</OldGUID><!-- Straße -->
+			<NewGUID>1337501046</NewGUID>
+		</Item>
+		
+	</ModOp>
+
+</ModOps>

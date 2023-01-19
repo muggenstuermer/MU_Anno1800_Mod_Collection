@@ -7,13 +7,71 @@ Notwendige aktive mods :
 	
 	"Shared_Objects_MU" von @muggenstuermer
 	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+	
+	"Improved Streets" von @Jakob mit aktivierter schienen modifikation
+	https://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest
 
 
 ---------------------------
 Release - 1.0
 ---------------------------
-	- Dieser Mod Stellt verschiedene rund Strassen-Kreuzungs-Cover zur verfügung !
+	- Dieser Mod Stellt verschiedene runde Strassen-Kreuzungs-Cover zur verfügung !
 	- Kreuzung Eins-Eins Buildblocker abdruck V1
 	- Kreuzung Eins-Eins Buildblocker abdruck V2
 	- Kreuzung Eins-Zwei
 	- Kreuzung Zwei-Zwei
+	
+---------------------------
+Changelog - 1.1
+---------------------------
+	- Original Strassen mit in das baumenü übernommen
+	- bekannte Strassen und Strassenbezogene teile aus City_Ornaments_MU_2 hinzugefügt
+	- InternalID Kollissionen zu New Horizons behoben,dadurch auch eine umstrukturierung einiger Objekte vollzogen
+	- Brücken für verschiedene möglichkeiten erschaffen - strassenbrücken - fußgängerbrücken - eisenbahnbrücken
+	- bekannte Wasserkanäle überarbeitet - brücken und optik - umbau wegen hinzugefügten brücken
+		- Der Feldweg hat für den Natürlichen Wasserkanal eine neue Brücke erhalten,anlehnend an das nächste cdlc " Drachengarten "
+		- Die Pflasterstrasse hat bei allen Mod und Vanilla Kanälen " KEINE " Brücke mehr.
+		- Die Eisenbahnschienen haben bekannte Natürlichen Wasserkanal Eisenbahnbrücke behalten 
+	- einen modularen see hinzugefügt,der unter allen brücken ,Fußgängerbrücken ausgeschlossen ( behindert das nutzen der brücke durch feedback ), eingesetzt werden kann.
+		- Systembedingt und je nach bauweise,können kleinere " löcher " entstehen weil ein falsches objekt gesetzt wurde.der See enthält alle teile,um diese lücken korrekt zu schließen.Objekt anklicken und mit den Pfeiltasten in der UI das passene stück suchen !
+	- nicht sichtbare Harbour_Ornaments_MU_2 content hinzugefügt - betrifft den bau der strassen von land zu wasser
+	- Original Wasserkanäle so modifiziert,daß originalbrücke NUR noch mit dem Feldweg erscheint. mit der Steinstrasse wird der brückenteil durch kanalteile ersetzt um eine der Modbrücken nutzen zu können ! Nur in  Enbesa wurde nichts verändert.
+	- Runde Strassen Cover in der NW wurden farblich an Jakobs Improved Streets Mod angepasst
+	- Die Regionen haben alle ihre eigenen Kreisverkehre erhalten
+	- tweak möglichkeiten erstellt,welche zwar im mod als standart genutzt werden,aber bei benuzung von iModYourAnno neu gesetzt werden müssen.
+	
+	--------------------------
+	Brücken Gebrauchsanleitung
+	--------------------------
+		- Strassenbrücken :
+		-------------------
+			damit alles auch über die brücke fährt:
+				- immer zuerst brücke bauen
+				- danach unter die brücke nach wahl : Natürlicher Wasserkanal oder eines der Überbaubarern Kanäle aus dieser Mod oder Vanilla Kanal (kein Abwasserkanal,keine Straßen !)
+				- zuletzt eine Strasse durch die Brücke / entlang der Brücke bauen
+				
+		- Fußgängerbrücken :
+		-------------------
+				- immer zuerst brücke bauen
+				- danach unter die brücke nach wahl : Natürlicher Wasserkanal  oder Vanilla Kanal  oder ein blumenbeet etc. WICHTIG ! (kein Abwasserkanal,keine Straßen,keinen überbaubaren kanal - Ornamental !)
+				- an die enden der brücke die strasse verbinden
+				
+		- Eisenbahnbrücken :
+		-------------------
+			damit der Zug über die brücke fährt:
+				- immer zuerst brücke bauen
+				- danach unter die brücke nach wahl : Natürlicher Wasserkanal oder eines der Überbaubarern Kanäle aus dieser Mod.
+				- zuletzt die Schienen durch die Brücke / entlang der Brücke bauen
+					- die modulare strassenbrücke und die modulare eisenbahnbrücke,lassen sich kreuzen.dafür ist in der modularen eisenbahnbrücke nach der kreuzung extra ein objekt dafür integriert (shift+V oder pfeiltasten in der ui nutzen)
+				
+		- Modulare Brücken :
+		-------------------
+			damit alles funktioniert:
+				- immer zuerst brücke bauen
+				- dann das passende endstück platzieren,strasse oder schienen.
+				- danach unter die brücke : eines der Überbaubarern Kanäle aus dieser Mod
+				- dann die Strassen/Schienen durch die Brücke / entlang der Brücke bauen - bei einer Kreuzung der modularen strassenbrücke und der modularen eisenbahnbrücke,gibt es nach dem regulären kreu objekt bei den schienen,ein übergangs objekt.mit shift+V oder den Pfeiltasten im UI weiterschalten
+				
+
+Besonderer Dank geht an @darknesswei#2951 für die chinesische Übersetzung und Tonton Yip#8766 für die französische Übersetzung. Außerdem ein großes Dankeschön an @Aveneger432 von Nexus für seine polnische Übersetzung und an @Ionovia#8097 fürs ständige austesten und vorstellen der mods.
+Vielen Dank euch allen !!!

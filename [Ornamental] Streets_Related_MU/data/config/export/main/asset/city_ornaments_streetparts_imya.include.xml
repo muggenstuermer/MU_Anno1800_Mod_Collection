@@ -1,0 +1,285 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Possible settings for using mod or vanilla customizations" />
+  <!-- replacing the original beautiful pond fast street canal bridge to be able to overbuild with street  and invisible original bridge -->
+  <ModOp Type="replace" GUID="452" Path="/Values/Street/CfgAdditionAtlas" ModOpID="ChangeVanillaOrnamentalCanalsBridgeMU" Skip="1">
+    <CfgAdditionAtlas>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item>
+        <Cfg>data/cdlc05/graphics/buildings/ornamental/canal/irrigation_channel_short_01.cfg</Cfg>
+      </Item>
+      <Item>
+        <Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\vanilla_double.cfg</Cfg>
+      </Item>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+    </CfgAdditionAtlas>
+  </ModOp>
+  <!-- replacing the original beautiful pond canal bridge to be able to overbuild with street  and invisible bridge tweak 
+	<ModOp Type="merge" GUID="452" Path="/Values/Street" ModOpID="ChangeVanillaOrnamentalCanalsBridgeMU" Skip="1">
+		<CfgAdditionAtlas />
+	</ModOp>-->
+  <ImyaExpose Path="self::CfgAdditionAtlas" ModOpID="ChangeVanillaOrnamentalCanalsBridgeMU" ExposeID="Change Vanilla Ornamental Canals Bridge MU" Description="Determines whether the vanilla canal bridges are kept for the cobblestone road in the old and new worlds, or are modified in favor of the mod bridges ( Default = ON = Mod default settings ) ONLY THE BEAUTIFUL POND !" Kind="Toggle">
+    <AltValue>
+      <CfgAdditionAtlas>
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item>
+          <Cfg>data/cdlc05/graphics/buildings/ornamental/canal/irrigation_channel_crossing_02.cfg</Cfg>
+        </Item>
+        <Item>
+          <Cfg>data/cdlc05/graphics/buildings/ornamental/canal/irrigation_channel_crossing_02_closed_open.cfg</Cfg>
+        </Item>
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+      </CfgAdditionAtlas>
+    </AltValue>
+  </ImyaExpose>
+  <!-- Description 
+  <ImyaTweaks Title="Adjustments to the Dirt Street Canal Bridge OW" />-->
+  <!-- Replacing the old mod canal bridge with a new Chinese styled bridge for the Dirt Street OW tweak -->
+  <ModOp Type="replace" GUID="1337500057" Path="/Values/Street/CfgAdditionAtlas" ModOpID="UseOldCanalBridgesOrNewOnesDirtMU" Skip="1">
+    <CfgAdditionAtlas>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item>
+        <Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02.cfg</Cfg>
+      </Item>
+      <Item>
+        <Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_closed_open.cfg</Cfg>
+      </Item>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+    </CfgAdditionAtlas>
+  </ModOp>
+  <ImyaExpose Path="self::CfgAdditionAtlas" ModOpID="UseOldCanalBridgesOrNewOnesDirtMU" ExposeID="Use Old Or New Canal Bridges in OW MU" Description="Determines whether the old mod canal bridge or a new Chinese-style bridge is used in OW ( Default = ON = Mod default settings ) NOT THE BEAUTIFUL POND !" Kind="Toggle">
+    <AltValue>
+      <CfgAdditionAtlas>
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item>
+          <Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_flat.cfg</Cfg>
+        </Item>
+        <Item>
+          <Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_closed_open_flat.cfg</Cfg>
+        </Item>
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+      </CfgAdditionAtlas>
+    </AltValue>
+  </ImyaExpose>
+  <!-- Description 
+  <ImyaTweaks Title="Adjustments to the Dirt Street Canal Bridge NW" />-->
+  <!-- Replacing the old mod canal bridge with a new Chinese styled bridge for the Dirt Street NW tweak -->
+  <ModOp Type="replace" GUID="1337500059" Path="/Values/Street/CfgAdditionAtlas" ModOpID="UseOldCanalBridgesOrNewOnesDirtNwMU" Skip="1">
+    <CfgAdditionAtlas>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item>
+        <Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02.cfg</Cfg>
+      </Item>
+      <Item>
+        <Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_closed_open.cfg</Cfg>
+      </Item>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+    </CfgAdditionAtlas>
+  </ModOp>
+  <ImyaExpose Path="self::CfgAdditionAtlas" ModOpID="UseOldCanalBridgesOrNewOnesDirtNwMU" ExposeID="Use Old Or New Canal Bridges in NW MU" Description="Determines whether the old mod canal bridge or a new Chinese-style bridge is used in NW ( Default = ON = Mod default settings ) NOT THE BEAUTIFUL POND !" Kind="Toggle">
+    <AltValue>
+      <CfgAdditionAtlas>
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item>
+          <Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_b.cfg</Cfg>
+        </Item>
+        <Item>
+          <Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_closed_open_b.cfg</Cfg>
+        </Item>
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+        <Item />
+      </CfgAdditionAtlas>
+    </AltValue>
+  </ImyaExpose>
+</ModOps>

@@ -3,17 +3,75 @@
 Ce mod contiendra à l'avenir toutes mes modifications qui ont un rapport direct avec le thème des rues.
 Les mods de rues de City_Ornaments ou Harbour_Ornaments suivront.
 
-Mods actifs nécessaires :
+Modes actifs nécessaires :
 	
-	"Shared_Objects_MU" par @muggenstuermer
+	"Shared_Objects_MU" de @muggenstuermer
 	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+	
+	"Improved Streets" de @Jakob avec modification de rail activée.
+	https://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest
 
 
 ---------------------------
-Sortie - 1.0
+Version - 1.0
 ---------------------------
-	- Ce mod met à disposition différentes couvertures d'intersections de rues !
-	- Carrefour Un-En-Un Empreinte Buildblocker V1
+	- Ce mod met à disposition différentes couvertures d'intersections de rues rondes !
+	- Carrefour Un-un Buildblocker empreinte V1
 	- Croisement Un-Un Buildblocker empreinte V2
 	- Croisement un-deux
 	- Croisement Deux-Deux
+	
+---------------------------
+Changelog - 1.1
+---------------------------
+	- Ajout des rues originales dans le menu de construction
+	- ajout des rues connues et des parties de rues de City_Ornaments_MU_2
+	- Correction des collisions InternalID avec New Horizons, ce qui a entraîné une restructuration de certains objets.
+	- création de ponts pour différentes possibilités - ponts routiers - ponts piétonniers - ponts ferroviaires
+	- canaux d'eau connus révisés - ponts et apparence - reconstruction à cause des ponts ajoutés
+		- Le chemin de terre a reçu un nouveau pont pour le canal d'eau naturel, inspiré du prochain cdlc " Jardin des dragons ".
+		- La route pavée n'a plus " AUCUN " pont pour tous les canaux Mod et Vanilla.
+		- La voie ferrée a conservé le pont de chemin de fer du canal naturel connu. 
+	- Ajout d'un lac modulaire qui peut être utilisé sous tous les ponts, à l'exception des ponts pour piétons (gêne l'utilisation du pont par feedback).
+		- En fonction du système et de la construction, de petits "trous" peuvent apparaître parce qu'un mauvais objet a été placé. Le lac contient toutes les pièces pour combler correctement ces espaces. Cliquez sur l'objet et utilisez les touches fléchées de l'interface utilisateur pour trouver la pièce correspondante !
+	- contenu Harbour_Ornaments_MU_2 non visible ajouté - concerne la construction des routes de la terre à l'eau
+	- Les canaux d'eau originaux ont été modifiés de telle sorte que le pont original n'apparaisse plus qu'avec le chemin de terre. avec la route de pierre, la partie du pont est remplacée par des parties de canal pour pouvoir utiliser un des ponts mod ! Seule Enbesa n'a pas été modifiée.
+	- Les couleurs des couvertures de routes rondes dans la NW ont été adaptées au mod Improved Streets de Jakob.
+	- Les régions ont toutes leurs propres ronds-points.
+	- Création de possibilités de tweak, qui sont utilisées par défaut dans le mod, mais qui doivent être redéfinies lors de l'utilisation d'iModYourAnno.
+	
+	--------------------------
+	Mode d'emploi des ponts
+	--------------------------
+		- Ponts routiers :
+		-------------------
+			pour que tout passe aussi par le pont :
+				- toujours construire le pont en premier
+				- ensuite, sous le pont, au choix : canal naturel ou l'un des canaux constructibles de ce mod ou canal vanille (pas d'égouts, pas de routes !)
+				- en dernier, construire une route à travers le pont / le long du pont
+				
+		- Ponts pour piétons :
+		-------------------
+				- toujours construire le pont en premier
+				- Ensuite, sous le pont, au choix : canal naturel ou canal vanille ou un parterre de fleurs, etc. IMPORTANT ! (pas d'égout, pas de route, pas de canal constructible - ornemental !)
+				- Relier les routes aux extrémités du pont.
+				
+		- Ponts de chemin de fer :
+		-------------------
+			pour que le train passe sur le pont :
+				- toujours construire le pont en premier
+				- ensuite, sous le pont, au choix : canal naturel ou l'un des canaux constructibles de ce module.
+				- en dernier, construire les rails à travers le pont / le long du pont
+					- le pont routier modulaire et le pont ferroviaire modulaire peuvent être croisés. pour cela, un objet est spécialement intégré dans le pont ferroviaire modulaire après le croisement (utiliser shift+V ou les touches fléchées dans l'ui).
+				
+		- Ponts modulaires :
+		-------------------
+			pour que tout fonctionne :
+				- toujours construire d'abord le pont
+				- ensuite, placer la pièce finale appropriée, route ou rails.
+				- ensuite, sous le pont : un des canaux superposables de ce mod
+				- ensuite, construire les routes/rails à travers le pont/le long du pont - lors d'un croisement entre le pont routier modulaire et le pont ferroviaire modulaire, il y a un objet de transition après l'objet de croisement régulier pour les rails. passer à l'objet suivant avec shift+V ou les touches fléchées dans l'UI
+				
+
+Un merci particulier à @darknesswei#2951 pour la traduction chinoise et à Tonton Yip#8766 pour la traduction française. Un grand merci également à @Aveneger432 de Nexus pour sa traduction polonaise et à @Ionovia#8097 pour avoir constamment testé et présenté les mods.
+Merci à tous ! !

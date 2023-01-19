@@ -1,543 +1,144 @@
 <ModOps>	
 <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+
 	
-	<!-- ID's are used for this mod: 1337502500 to 1337502506 -->
-	<!-- InternalID's are used for this mod : 0 -->
-	
-<!--
-StreetCover ONE-ONE-BUILDBLOCKER-V1
-1337502500
+<!-- ID's are used for this mod: 
+streets_related_buildmenu:
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+1337502504 Buildmenu OW
+1337502507 Buildmenu NW
+1337502508 Buildmenu ENBESA
+1337502509 Buildmenu ARCTIC
 
-StreetCover ONE-ONE-BUILDBLOCKER-V2
-1337502501
+round_street_covers :
+xxxxxxxxxxxxxxxxxxxxx
+1337502500 Round StreetCover ONE-ONE-BUILDBLOCKER-V1
+1337502501 Round StreetCover ONE-ONE-BUILDBLOCKER-V2
+1337502502 Round StreetCover ONE-TWO
+1337502503 Round StreetCover TWO-TWO
 
-StreetCover ONE-TWO
-1337502502
+1337502510 Round StreetCover ONE-ONE-BUILDBLOCKER-V1 NW
+1337502511 Round StreetCover ONE-ONE-BUILDBLOCKER-V2 NW
+1337502512 Round StreetCover ONE-TWO NW
+1337502513 Round StreetCover TWO-TWO NW
 
-StreetCover TWO-TWO
-1337502503
+1337502530 Round StreetCover ONE-ONE-BUILDBLOCKER-V1 AFRICA
+1337502531 Round StreetCover ONE-ONE-BUILDBLOCKER-V2 AFRICA
+1337502532 Round StreetCover ONE-TWO AFRICA
+1337502533 Round StreetCover TWO-TWO AFRICA
 
-StreetCover Buildmenu
-1337502504
-StreetCover Buildmenu Description
-1337502505
+1337502514 StreetBridges without Lamps
+1337502515 StreetBridges with Lamps
+1337502516 StreetBridges with Roof
 
-Trigger with "1" Worker
-1337502506
+1337502520 PedestriansBridges without Lamps
+1337502521 PedestriansBridges with Lamps
+1337502522 PedestriansBridges with Roof
+
+1337502523 RailBridges without Lamps
+1337502524 RailBridges with Lamps
+
+1337502525 Modular Bridge
+1337502526 Modular Rail Bridge
+1337502527 Modular Endpieces
+
+1337502549 Trigger
+
+city_ornaments_streetparts:
+xxxxxxxxxxxxxxxxxxxxxxxxxxx
+1337502600 Kopfsteinpflaster Fakestrasse
+1337502601 Helles Kopfsteinpflaster Fakestrasse
+
+1337500183 Friedhofswege Fakestrasse
+1337500245 Baumallee Fakestrasse
+1337500246 Bemooster Weg Fakestrasse
+1337500247 Alter Pflasterweg Fakestrasse
+1337500248 Pflasterstraße Fakestrasse
+1337500249 GEHWEG Fakestrasse
+1337500250 Überdachte Plaza Fakestrasse
+
+1337501339 Hacienda Pflaster Fakestrasse
+1337501341 Hacienda Weg Fakestrasse
+
+1337500053 Plazaboden 15 Fakestrasse
+1337500147 Überdachte Promenade Fakestrasse
+
+1337501370 Hacienda Pflaster (Echte) Straße
+1337501371 Brücke Hacienda Pflaster (Echte) Straße
+
+1337501372 Hacienda Wege (Echte) Straße
+1337501373 Brücke Hacienda Pflaster (Echte) Straße
+
+1337500030 Noble Straße
+1337500031 Brücke Noble Straße
+
+1337500032 Edle Straße
+1337500033 Brücke Edle Straße
+
+1337500034 Schotterweg
+1337500035 Brücke Schotterweg
+
+1337500055 Ornamental Kanal Grün NW
+1337500063 Ornamental Kanal Grün AW
+1337500057 Kreuzung Kanal-Normal(Dirt) Street AW
+1337500058 Kreuzung Kanal-Fast Street AW
+1337500059 Kreuzung Kanal-Normal(Dirt) Street NW
+1337500060 Kreuzung Kanal-Fast Street NW
+
+1337502518 Baubarer See Für Modulare StrassenBrücken
+1337502528 Baubarer Betonsee Für Modulare StrassenBrücken OW
+1337502529  Baubarer Betonsee Für Modulare StrassenBrücken NW
+
+1337502551 Trigger
+
+habor_ornaments_streetparts:
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+1337501046 ARKTIS KAISTRASSE
+1337501047 AFRIKA KAISTRASSE
+
 -->
+<!-- 
+InternalID's are used for this mod :
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+city_ornaments_streetparts
+482 - modulo256 = 226 Hacienda Pflaster (Echte) Straße
+483 - modulo256 = 227 Hacienda Wege (Echte) Straße
+468 - modulo256 = 212 Noble Straße
+469 - modulo256 = 213  Edle Straße
+470 - modulo256 = 214 Schotterweg
+471 - modulo256 = 215 Ornamental Kanal Grün NW
+485 - modulo256 = 229 Ornamental Kanal Grün AW
+463 - modulo256 = 207 Kreuzung Kanal-Normal(Dirt) Street AW
+464 - modulo256 = 208 Kreuzung Kanal-Fast Street AW
+465 - modulo256 = 209 Kreuzung Kanal-Normal(Dirt) Street NW
+466 - modulo256 = 210 Kreuzung Kanal-Fast Street NW
+467 - modulo256 = 211 Kreuzung Kanal-Rail AW
+449 - modulo256 = 193 Kreuzung Kanal-Rail NW
 
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCover Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-	<ModOp Type="addNextSibling" GUID='1010035'>
-	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1-->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502500</GUID>
-                    <Name>Round_Street_Cover</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/cover_one_one_v1.png</IconFilename>
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-                <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<PickingAsset>1337502500</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>500</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_01a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_01b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_05a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_05b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_06a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_06b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_07a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_07b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_rondel_adjust_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_rondel_adjust_01a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_rondel_adjust_01b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_rondel_no_adjust_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_rondel_no_adjust_01a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_rondel_no_adjust_01b.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-					</DestroySounds>
-				</SoundEmitter>
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-			</Values>
-        </Asset>
-		
-	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V2-->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502501</GUID>
-                    <Name>Round_Street_Cover</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/cover_one_one_v2.png</IconFilename><!--ändern-->
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-                <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<PickingAsset>1337502501</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>500</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_02a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_02b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_03a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_03b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_04a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_one_04b.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-					</DestroySounds>
-				</SoundEmitter>
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-			</Values>
-        </Asset>
-		
-	<!-- Round StreetCover ONE-TWO -->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502502</GUID>
-                    <Name>Round_Street_Cover</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/cover_one_two.png</IconFilename><!--ändern-->
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-                <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<PickingAsset>1337502502</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>500</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_two_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_two_01a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_two_01b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_two_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_two_02a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_one_two_02b.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-					</DestroySounds>
-				</SoundEmitter>
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-			</Values>
-        </Asset>
-		
-	<!-- Round StreetCover TWO-TWO -->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502503</GUID>
-                    <Name>Round_Street_Cover</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/cover_two_two.png</IconFilename><!--ändern-->
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-                <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<PickingAsset>1337502503</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>500</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_two_two_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_two_two_01a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_two_two_01b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_two_two_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_two_two_02a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\streetcover_5x5_two_two_02b.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-					</DestroySounds>
-				</SoundEmitter>
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-			</Values>
-        </Asset>
-	</ModOp>
+harbor_ornaments_streetparts
+441 - modulo256 = 185 ARKTIS KAISTRASSE
+442 - modulo256 = 186 AFRIKA KAISTRASSE
+-->
 	
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCover Ende xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER BAUMENÜS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-	<ModOp Type="addNextSibling" GUID='1010359'>
-		<Asset>
-			<Template>ConstructionCategory</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502504</GUID>
-					<Name>GroundPlacements</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/icon_streets_related_menu.png</IconFilename>>
-				</Standard>
-				<ConstructionCategory>
-					<BuildingList>
-						<Item>
-							<Building>1337502500</Building>
-						</Item>
-						<Item>
-							<Building>1337502501</Building>
-						</Item>
-						<Item>
-							<Building>1337502502</Building>
-						</Item>
-						<Item>
-							<Building>1337502503</Building>
-						</Item>
-					</BuildingList>
-					<CategoryDescription>1337502505</CategoryDescription>
-				</ConstructionCategory>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>GroundPlacements</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID />
-				</Text>
-				<Locked />
-			</Values>
-		</Asset>
-	</ModOp>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG : HINTER JEDE ORIGINAL STEINSTRASSE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- #1 - Streets_Related_MU : Buildmenu -->
+    <Include File="streets_related_buildmenu.include.xml" />
 
-	<ModOp Type="addNextSibling" Path="//*[self::BuildingList]/Item[Building = '1010035']">
-        <Item>
-			<Building>1337502504</Building>
-		</Item>
-    </ModOp>
+<!-- #2 - CO2: All Streets and Fakestreets -->
+    <Include File="city_ornaments_streetparts.include.xml" />
 	
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-	<!-- Freischaltung -->
-	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
-		<Asset>
-			<Template>FeatureUnlock</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502506</GUID>
-					<Name>intermediate moderate 2.0</Name>
-					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-				</Standard>
-				<Trigger>
-					<TriggerCondition>
-						<Template>ConditionPlayerCounter</Template>
-						<Values>
-							<ConditionPlayerCounter>
-								<PlayerCounter>PopulationByLevel</PlayerCounter>
-								<Context>15000001</Context>
-								<CounterAmount>1</CounterAmount>
-							</ConditionPlayerCounter>
-						</Values>
-					</TriggerCondition>
-					<TriggerActions>
-						<Item>
-							<TriggerAction>
-								<Template>ActionUnlockAsset</Template>
-								<Values>
-									<Action />
-									<ActionUnlockAsset>
-										<UnlockAssets>
-											<Item>
-												<Asset>1337502500</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502501</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502502</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502503</Asset>
-											</Item>
-										</UnlockAssets>
-										<UnhideAssets>
-											<Item>
-												<Asset>1337502500</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502501</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502502</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502503</Asset>
-											</Item>
-										</UnhideAssets>
-									</ActionUnlockAsset>
-								</Values>
-							</TriggerAction>
-						</Item>
-					</TriggerActions>
-				</Trigger>
-				<TriggerSetup />
-			</Values>
-		</Asset>
-	</ModOp>
+<!-- #3 - Streets_Related_MU : Round Street Covers and Bridges -->
+    <Include File="round_street_covers.include.xml" />	
+	
+<!-- #4 - HO2: All Quaystreets, all Regions -->
+    <Include File="harbor_ornaments_streetparts.include.xml" />
+	
+<!-- #5 - CO2: IMYA TWEAKS -->
+    <Include File="city_ornaments_streetparts_imya.include.xml" />
+	
+<!-- #6 - Streets_Related_MU: IMYA TWEAKS -->
+    <Include File="round_street_covers_imya.include.xml" />
+	
+<!-- #7 - HO2: IMYA TWEAKS -->
+    <Include File="harbor_ornaments_streetparts_imya.include.xml" />
+
 </ModOps>

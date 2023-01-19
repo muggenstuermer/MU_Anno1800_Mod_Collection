@@ -1,0 +1,11 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Attractiveness settings for the Roundabouts and Bridges" />
+  <!-- Change Attractiveness of the Mod streetcovers and bridges -->
+  <ModOp Type="replace" GUID="1337502500,1337502501,1337502502,1337502503,1337502510,1337502511,1337502512,1337502513,1337502530,1337502531,1337502532,1337502533,1337502514,1337502515,1337502516,1337502520,1337502521,1337502522,1337502523,1337502524" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfBridgesMU" Skip="1">
+    <Attractiveness>5</Attractiveness>
+  </ModOp>
+  <ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfBridgesMU" ExposeID="Set Value For Attractiveness Of Roundabouts and Bridges MU" Description="Determines how many attraction points the Roundabouts and Bridges gives ( Mod default settings = 5 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+</ModOps>
