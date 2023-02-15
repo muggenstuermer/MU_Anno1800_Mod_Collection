@@ -1,0 +1,86 @@
+<ModOps>
+	<ModOp Type="add" Path="Templates/Group[Name = 'Economy']">
+	<!-- HarborOrnamentMU -->
+	<Template>
+        <Name>HarborOrnamentMU</Name>
+        <Properties>
+          <Standard />
+          <Building>
+            <TerrainType>Water_Including_Coast</TerrainType>
+            <AllowChangeVariation>1</AllowChangeVariation>
+          </Building>
+          <Blocking>
+            <!--<GroundDecalAsset>601492</GroundDecalAsset>
+            <GroundDecalInvisible>601493</GroundDecalInvisible>
+			<HasBuildingBaseTiles>1</HasBuildingBaseTiles>-->
+            <BlockWater>1</BlockWater>
+          </Blocking>
+          <Mesh />
+          <Object />
+          <AmbientMoodProvider />
+          <Constructable />
+          <Selection>
+            <GUIType>Generic</GUIType>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Text />
+          <Cost />
+          <Attackable>
+            <RuinSmokeParticles>
+              <Item>
+                <SmokeParticleFilePath>data/graphics/effects/military/explosions/damage_smoke_01.cfg</SmokeParticleFilePath>
+              </Item>
+            </RuinSmokeParticles>
+            <RuinSmokeParticlesMin>1</RuinSmokeParticlesMin>
+            <RuinSmokeParticlesMax>3</RuinSmokeParticlesMax>
+            <RuinSmokeParticleRectBorderPercent>0.2</RuinSmokeParticleRectBorderPercent>
+            <ExplosionEffects>
+              <Item />
+            </ExplosionEffects>
+            <SelfHealPerHealTick>300</SelfHealPerHealTick>
+          </Attackable>
+          <Infolayer />
+          <Maintenance>
+            <IncomeCategory>HarbourBuildings</IncomeCategory>
+          </Maintenance>
+          <Locked />
+          <Ornament>
+            <PlazzaSize>10</PlazzaSize>
+            <OrnamentUnit>1</OrnamentUnit>
+          </Ornament>
+          <FeedbackController />
+          <SoundEmitter>
+            <ConstructionSounds>
+              <BuildFailed>
+                <Item>
+                  <Sound>9818387</Sound>
+                </Item>
+              </BuildFailed>
+              <BuildMoveStart>
+                <Item>
+                  <Sound>9818755</Sound>
+                </Item>
+              </BuildMoveStart>
+              <BuildMoveSuccess>
+                <Item>
+                  <Sound>203995</Sound>
+                </Item>
+              </BuildMoveSuccess>
+              <BuildMoveEnd>
+                <Item>
+                  <Sound>200141</Sound>
+                </Item>
+              </BuildMoveEnd>
+            </ConstructionSounds>
+          </SoundEmitter>
+		  <Culture />
+        </Properties>
+      </Template>
+	</ModOp>
+
+</ModOps>

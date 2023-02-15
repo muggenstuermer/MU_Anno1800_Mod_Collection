@@ -1,0 +1,4882 @@
+<ModOps>
+
+
+<!--
+Flower Bed OW
+1337500110 FlowerBedWhiteOW
+1337500111 FlowerBedYellowOW
+1337500112 FlowerBedRedOW
+1337500113 FlowerBedBlueOW
+1337500114 FlowerBedPurpleOW
+1337503075 FlowerBedAllMixedOW
+
+Flower Bed NW
+1337500115 FlowerBedOrangeNW
+1337500116 FlowerBedWhiteNW
+1337500117 FlowerBedRedNW
+1337500118 FlowerBedBlueNW
+1337503076 FlowerBedAllMixedNW
+
+Flower Bed Africa
+1337503077 FlowerBedWhiteAfrica
+1337503078 FlowerBedYellowAfrica
+1337503079 FlowerBedRedAfrica
+1337503080 FlowerBedBlueAfrica
+1337503081 FlowerBedPurpleAfrica
+1337503082 FlowerBedOrangeAfrica
+1337503083 FlowerBedWhiteNwAfrica
+1337503084 FlowerBedRedNwAfrica
+1337503085 FlowerBedBlueNwAfrica
+1337503086 FlowerBedAllAfrica
+
+Flower Bed Mixed OW
+1337500119 FlowerBedWhiteMixedOW
+1337500120 FlowerBedYellowMixedOW
+1337500121 FlowerBedRedMixedOW
+1337500122 FlowerBedBlueMixedOW
+1337500123 FlowerBedPurpleMixedOW
+1337503087 FlowerBedAllMixedMixedOW
+
+Flower Bed Mixed NW
+1337500124 FlowerBedOrangeMixedNW
+1337500125 FlowerBedWhiteNwMixedNW
+1337500126 FlowerBedRedNwMixedNW
+1337500127 FlowerBedBlueNwMixedNW
+1337503088 FlowerBedAllMixedMixedNW
+
+Flower Bed Mixed Africa
+1337503089 FlowerBedWhiteAfrica
+1337503090 FlowerBedYellowAfrica
+1337503091 FlowerBedRedAfrica
+1337503092 FlowerBedBlueAfrica
+1337503093 FlowerBedPurpleAfrica
+1337503094 FlowerBedOrangeAfrica
+1337503095 FlowerBedWhiteNwAfrica
+1337503096 FlowerBedRedNwAfrica
+1337503097 FlowerBedBlueNwAfrica
+1337503098 FlowerBedMixedAllAfrica
+
+Flower Field OW
+1337500164 FlowerFieldWhiteOW
+1337500165 FlowerFieldYellowOW
+1337500166 FlowerFieldRedOW
+1337500167 FlowerFieldBlueOW
+1337500168 FlowerFieldPurpleOW
+1337503100 FlowerFieldAllMixedOW
+
+Flower Field NW
+1337500169 FlowerFieldOrangeNW
+1337500170 FlowerFieldWhiteNW
+1337500171 FlowerFieldRedNW
+1337500172 FlowerFieldBlueNW
+1337503101 FlowerFieldAllMixedNW
+
+Flower Field Africa
+1337503102 FlowerFieldWhiteAfrica
+1337503103 FlowerFieldYellowAfrica
+1337503104 FlowerFieldRedAfrica
+1337503105 FlowerFieldBlueAfrica
+1337503106 FlowerFieldPurpleAfrica
+1337503107 FlowerFieldOrangeAfrica
+1337503108 FlowerFieldWhiteNwAfrica
+1337503109 FlowerFieldRedNwAfrica
+1337503110 FlowerFieldBlueNwAfrica
+1337503111 FlowerFieldAllAfrica
+
+1337503150 Trigger
+
+-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed OW Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<!-- Flower Bed white OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500110</GUID>
+                    <Name>FlowerBedWhiteOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_01.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500110</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_01.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed yellow OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500111</GUID>
+                    <Name>FlowerBedYellowOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_02.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500111</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_02.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed red OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500112</GUID>
+                    <Name>FlowerBedRedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_03.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500112</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_03.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed blue OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500113</GUID>
+                    <Name>FlowerBedBlueOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_04.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500113</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_04.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed purple OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500114</GUID>
+                    <Name>FlowerBedPurpleOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_05.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500114</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_05.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed mixed OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503075</GUID>
+                    <Name>FlowerBedAllMixedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_01_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503075</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_01.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_02.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_03.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_04.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_ow_05.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_03.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_04.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_05.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed OW End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed NW Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<!-- Flower Bed orange NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500115</GUID>
+                    <Name>FlowerBedOrangeNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_nw_01.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500115</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_01.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed white NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500116</GUID>
+                    <Name>FlowerBedWhiteNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_nw_02.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500116</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_02.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed red NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500117</GUID>
+                    <Name>FlowerBedRedNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_nw_03.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500117</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_03.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed blue NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500118</GUID>
+                    <Name>FlowerBedBlueNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_nw_04.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500118</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_04.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed mixed NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503076</GUID>
+                    <Name>FlowerBedAllMixedNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_01_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503076</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_nw_01.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_nw_02.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_nw_03.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_nw_04.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_03.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_04.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed NW End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed Africa Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<!-- Flower Bed white Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503077</GUID>
+                    <Name>FlowerBedWhiteAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_01.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503077</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_01.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed yellow Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503078</GUID>
+                    <Name>FlowerBedYellowAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_02.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503078</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_02.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed red Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503079</GUID>
+                    <Name>FlowerBedRedAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_03.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503079</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_03.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed blue Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503080</GUID>
+                    <Name>FlowerBedBlueAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_04.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503080</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_04.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed purple Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503081</GUID>
+                    <Name>FlowerBedPurpleAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_05.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503081</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_05.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed orange Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503082</GUID>
+                    <Name>FlowerBedOrangeAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_06.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503082</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_06.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed white nw Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503083</GUID>
+                    <Name>FlowerBedWhiteNwAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_07.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503083</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_07.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed red nw Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503084</GUID>
+                    <Name>FlowerBedRedNwAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_08.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503084</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_08.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed blue nw Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503085</GUID>
+                    <Name>FlowerBedBlueNwAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_09.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503085</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_09.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed All Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503086</GUID>
+                    <Name>FlowerBedAllAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_02_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503086</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_01.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_02.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_03.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_04.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_05.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_06.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_07.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_08.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/flower_bed_africa_09.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_03.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_04.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_05.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_06.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_07.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_08.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_09.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed Africa End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed Mixed OW Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<!-- Flower Bed white mixed OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500119</GUID>
+                    <Name>FlowerBedWhiteMixedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_01_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500119</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_01_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed yellow mixed OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500120</GUID>
+                    <Name>FlowerBedYellowMixedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_02_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500120</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_02_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed red mixed OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500121</GUID>
+                    <Name>FlowerBedRedMixedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_03_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500121</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_03_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed blue mixed OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500122</GUID>
+                    <Name>FlowerBedBlueMixedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_04_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500122</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_04_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed purple mixed OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500123</GUID>
+                    <Name>FlowerBedPurpleMixedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_05_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500123</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_05_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed mixed mixed OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503087</GUID>
+                    <Name>FlowerBedAllMixedMixedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_03_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503087</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_01_mixed.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_02_mixed.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_03_mixed.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_04_mixed.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_ow_05_mixed.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_01_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_02_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_03_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_04_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\ow\flower_bed_05_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed OW Mixed End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed Mixed NW Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<!-- Flower Bed orange mixed NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500124</GUID>
+                    <Name>FlowerBedOrangeMixedNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_01_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500124</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllnwChangeVariation>1</AllnwChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllnwedWithinRestrictedAABBBuildability>1</IsAllnwedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_01_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed white NW mixed NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500125</GUID>
+                    <Name>FlowerBedWhiteNwMixedNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_02_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500125</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllnwChangeVariation>1</AllnwChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllnwedWithinRestrictedAABBBuildability>1</IsAllnwedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_02_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed red NW mixed NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500126</GUID>
+                    <Name>FlowerBedRedNwMixedNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_03_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500126</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllnwChangeVariation>1</AllnwChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllnwedWithinRestrictedAABBBuildability>1</IsAllnwedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_03_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed blue NW mixed NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500127</GUID>
+                    <Name>FlowerBedBlueNwMixedNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_04_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500127</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllnwChangeVariation>1</AllnwChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllnwedWithinRestrictedAABBBuildability>1</IsAllnwedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_04_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed mixed mixed NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503088</GUID>
+                    <Name>FlowerBedAllMixedMixedNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_02_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503088</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllnwChangeVariation>1</AllnwChangeVariation>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_01_mixed.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_02_mixed.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_03_mixed.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_nw_04_mixed.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllnwedWithinRestrictedAABBBuildability>1</IsAllnwedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_01_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_02_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_03_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\nw\flower_bed_04_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed NW Mixed End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed Mixed Africa Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<!-- Flower Bed Mixed white Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503089</GUID>
+                    <Name>FlowerBedWhiteAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_01_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503089</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_01_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed Mixed yellow Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503090</GUID>
+                    <Name>FlowerBedYellowAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_02_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503090</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_02_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed Mixed red Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503091</GUID>
+                    <Name>FlowerBedRedAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_03_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503091</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_03_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed Mixed blue Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503092</GUID>
+                    <Name>FlowerBedBlueAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_04_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503092</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_04_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed Mixed purple Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503093</GUID>
+                    <Name>FlowerBedPurpleAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_05_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503093</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_05_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed Mixed orange Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503094</GUID>
+                    <Name>FlowerBedOrangeAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_06_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503094</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_06_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed Mixed white nw Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503095</GUID>
+                    <Name>FlowerBedWhiteNwAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_07_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503095</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_07_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed Mixed red nw Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503096</GUID>
+                    <Name>FlowerBedRedNwAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_08_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503096</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_08_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed Mixed blue nw Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503097</GUID>
+                    <Name>FlowerBedBlueNwAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_09_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503097</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_09_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Bed Mixed All Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503098</GUID>
+                    <Name>FlowerBedMixedAllAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_03_mixed.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503098</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_01_mixed.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_02_mixed.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_03_mixed.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_04_mixed.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_05_mixed.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_06_mixed.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_07_mixed.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_08_mixed.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_bed/mixed/flower_bed_africa_09_mixed.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_01_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_02_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_03_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_04_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_05_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_06_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_07_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_08_mixed.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_bed\africa\flower_bed_09_mixed.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+	
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Bed Mixed Africa End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Field OW Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<!-- Flower Field white OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500164</GUID>
+                    <Name>FlowerFieldWhiteOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_01.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500164</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_01.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field yellow OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500165</GUID>
+                    <Name>FlowerFieldYellowOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_02.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500165</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_02.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field red OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500166</GUID>
+                    <Name>FlowerFieldRedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_03.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500166</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_03.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field blue OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500167</GUID>
+                    <Name>FlowerFieldBlueOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_04.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500167</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_04.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field purple OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500168</GUID>
+                    <Name>FlowerFieldPurpleOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_05.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500168</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_05.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field All mixed OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503100</GUID>
+                    <Name>FlowerFieldAllMixedOW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_02.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503100</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_01.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_02.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_03.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_04.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_ow_05.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_03.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_04.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\ow\flower_field_05.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Field OW End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Field NW Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<!-- Flower Field orange NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500169</GUID>
+                    <Name>FlowerFieldOrangeNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_nw_01.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500169</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\nw\flower_field_01.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field white NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500170</GUID>
+                    <Name>FlowerFieldWhiteNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_nw_02.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500170</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\nw\flower_field_02.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field red NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500171</GUID>
+                    <Name>FlowerFieldRedNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_nw_03.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500171</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\nw\flower_field_03.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field blue NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500172</GUID>
+                    <Name>FlowerFieldBlueNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_nw_04.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337500172</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\nw\flower_field_04.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field All mixed NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503101</GUID>
+                    <Name>FlowerFieldAllMixedNW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_nw_03.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503101</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_nw_01.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_nw_02.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_nw_03.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_nw_04.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\nw\flower_field_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\nw\flower_field_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\nw\flower_field_03.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\nw\flower_field_04.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Field NW End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Field Africa Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<!-- Flower Field white Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503102</GUID>
+                    <Name>FlowerFieldWhiteAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_01.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503102</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_01.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field yellow Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503103</GUID>
+                    <Name>FlowerFieldYellowAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_02.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503103</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_02.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field red Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503104</GUID>
+                    <Name>FlowerFieldRedAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_03.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503104</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_03.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field blue Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503105</GUID>
+                    <Name>FlowerFieldBlueAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_04.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503105</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_04.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field purple Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503106</GUID>
+                    <Name>FlowerFieldPurpleAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_05.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503106</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_05.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field orange Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503107</GUID>
+                    <Name>FlowerFieldOrangeAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_06.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503107</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_06.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field white nw Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503108</GUID>
+                    <Name>FlowerFieldWhiteNwAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_07.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503108</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_07.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field red nw Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503109</GUID>
+                    <Name>FlowerFieldRedNwAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_08.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503109</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_08.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field blue nw Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503110</GUID>
+                    <Name>FlowerFieldBlueNwAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_09.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503110</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_09.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+		<!-- Flower Field All Africa -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337503111</GUID>
+                    <Name>FlowerFieldAllAfrica</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_07.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337503111</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+					<VariationIcons>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_01.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_02.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_03.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_04.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_05.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_06.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_07.png</IconFilename>
+                        </Item>
+                        <Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_08.png</IconFilename>
+                        </Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/flower_field/flower_field_africa_09.png</IconFilename>
+                        </Item>
+					</VariationIcons>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection />
+                <Object>
+                    <Variations>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_03.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_04.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_05.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_06.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_07.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_08.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\modgraphics\buildings\ornamental\flowers\flower_field\africa\flower_field_09.cfg</Filename>
+                        </Item>
+					</Variations>
+                </Object>
+				<Constructable />
+                <Mesh />
+				<SoundEmitter />
+				<Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+				<Culture>
+					<Attractiveness>2</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flower Field Africa End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1337503150</GUID><!-- ÄNDERN -->
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337500110</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500111</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500112</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500113</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500114</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503075</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500115</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500116</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500117</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500118</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503076</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337503077</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503078</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503079</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503080</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503081</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503082</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503083</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503084</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503085</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503086</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500119</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500120</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500121</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500122</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500123</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503087</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500124</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500125</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500126</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500127</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503088</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337503089</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503090</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503091</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503092</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503093</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503094</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503095</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503096</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503097</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503098</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503099</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500164</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500165</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500166</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500167</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500168</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503100</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500169</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500170</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500171</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500172</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503101</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337503102</Asset>
+											</Item>
+											<Item>
+												<Asset>13375031032</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503104</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503105</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503106</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503107</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503108</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503109</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503110</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503111</Asset>
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											
+											<Item>
+												<Asset>1337500110</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500111</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500112</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500113</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500114</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503075</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500115</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500116</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500117</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500118</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503076</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337503077</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503078</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503079</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503080</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503081</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503082</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503083</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503084</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503085</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503086</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500119</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500120</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500121</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500122</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500123</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503087</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500124</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500125</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500126</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500127</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503088</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337503089</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503090</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503091</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503092</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503093</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503094</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503095</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503096</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503097</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503098</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503099</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500164</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500165</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500166</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500167</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500168</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503100</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337500169</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500170</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500171</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500172</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503101</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337503102</Asset>
+											</Item>
+											<Item>
+												<Asset>13375031032</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503104</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503105</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503106</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503107</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503108</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503109</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503110</Asset>
+											</Item>
+											<Item>
+												<Asset>1337503111</Asset>
+											</Item>
+											
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	
+	<!-- Add OW Flowers to OW Green_Mile Flowers Buildmenu -->
+	<ModOp Type="add" GUID='1337503003' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337500110</Building>
+		</Item>
+		<Item>
+			<Building>1337500111</Building>
+		</Item>
+		<Item>
+			<Building>1337500112</Building>
+		</Item>
+		<Item>
+			<Building>1337500113</Building>
+		</Item>
+		<Item>
+			<Building>1337500114</Building>
+		</Item>
+		<Item>
+			<Building>1337503075</Building>
+		</Item>
+		
+		<Item>
+			<Building>1337500119</Building>
+		</Item>
+		<Item>
+			<Building>1337500120</Building>
+		</Item>
+		<Item>
+			<Building>1337500121</Building>
+		</Item>
+		<Item>
+			<Building>1337500122</Building>
+		</Item>
+		<Item>
+			<Building>1337500123</Building>
+		</Item>
+		<Item>
+			<Building>1337503087</Building>
+		</Item>
+		
+		<Item>
+			<Building>1337500164</Building>
+		</Item>
+		<Item>
+			<Building>1337500165</Building>
+		</Item>
+		<Item>
+			<Building>1337500166</Building>
+		</Item>
+		<Item>
+			<Building>1337500167</Building>
+		</Item>
+		<Item>
+			<Building>1337500168</Building>
+		</Item>
+		<Item>
+			<Building>1337503100</Building>
+		</Item>
+		
+	</ModOp>
+	
+	<!-- Add NW Flowers to NW Green_Mile Flowers Buildmenu -->
+	<ModOp Type="add" GUID='1337503004' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337500115</Building>
+		</Item>
+		<Item>
+			<Building>1337500116</Building>
+		</Item>
+		<Item>
+			<Building>1337500117</Building>
+		</Item>
+		<Item>
+			<Building>1337500118</Building>
+		</Item>
+		<Item>
+			<Building>1337503076</Building>
+		</Item>
+		
+		<Item>
+			<Building>1337500124</Building>
+		</Item>
+		<Item>
+			<Building>1337500125</Building>
+		</Item>
+		<Item>
+			<Building>1337500126</Building>
+		</Item>
+		<Item>
+			<Building>1337500127</Building>
+		</Item>
+		<Item>
+			<Building>1337503088</Building>
+		</Item>
+		
+		<Item>
+			<Building>1337500169</Building>
+		</Item>
+		<Item>
+			<Building>1337500170</Building>
+		</Item>
+		<Item>
+			<Building>1337500171</Building>
+		</Item>
+		<Item>
+			<Building>1337500172</Building>
+		</Item>
+		<Item>
+			<Building>1337503101</Building>
+		</Item>
+		
+	</ModOp>
+	
+	<!-- Add Africa Flowers to Africa Green_Mile Flowers Buildmenu -->
+	<ModOp Type="add" GUID='1337503005' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337503077</Building>
+		</Item>
+		<Item>
+			<Building>1337503078</Building>
+		</Item>
+		<Item>
+			<Building>1337503079</Building>
+		</Item>
+		<Item>
+			<Building>1337503080</Building>
+		</Item>
+		<Item>
+			<Building>1337503081</Building>
+		</Item>
+		<Item>
+			<Building>1337503082</Building>
+		</Item>
+		<Item>
+			<Building>1337503083</Building>
+		</Item>
+		<Item>
+			<Building>1337503084</Building>
+		</Item>
+		<Item>
+			<Building>1337503085</Building>
+		</Item>
+		<Item>
+			<Building>1337503086</Building>
+		</Item>
+		
+		<Item>
+			<Building>1337503089</Building>
+		</Item>
+		<Item>
+			<Building>1337503090</Building>
+		</Item>
+		<Item>
+			<Building>1337503091</Building>
+		</Item>
+		<Item>
+			<Building>1337503092</Building>
+		</Item>
+		<Item>
+			<Building>1337503093</Building>
+		</Item>
+		<Item>
+			<Building>1337503094</Building>
+		</Item>
+		<Item>
+			<Building>1337503095</Building>
+		</Item>
+		<Item>
+			<Building>1337503096</Building>
+		</Item>
+		<Item>
+			<Building>1337503097</Building>
+		</Item>
+		<Item>
+			<Building>1337503098</Building>
+		</Item>
+		<Item>
+			<Building>1337503099</Building>
+		</Item>
+		
+		<Item>
+			<Building>1337503102</Building>
+		</Item>
+		<Item>
+			<Building>13375031032</Building>
+		</Item>
+		<Item>
+			<Building>1337503104</Building>
+		</Item>
+		<Item>
+			<Building>1337503105</Building>
+		</Item>
+		<Item>
+			<Building>1337503106</Building>
+		</Item>
+		<Item>
+			<Building>1337503107</Building>
+		</Item>
+		<Item>
+			<Building>1337503108</Building>
+		</Item>
+		<Item>
+			<Building>1337503109</Building>
+		</Item>
+		<Item>
+			<Building>1337503110</Building>
+		</Item>
+		<Item>
+			<Building>1337503111</Building>
+		</Item>
+		
+	</ModOp>
+	
+</ModOps>

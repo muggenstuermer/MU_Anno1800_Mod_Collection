@@ -461,3 +461,27 @@ A big thank you goes to @jje1000 !
 
 Have fun with it: your muggenstuermer ;)
 
+
+
+# Green_Mile_MU
+
+![image](https://github.com/muggenstuermer/Green_Mile_MU/blob/main/screenshot_2023-02-15-18-03-07.jpg)
+
+This mod contains all trees and plants from City and Harbour_Ornaments and have been reworked.
+
+To maintain the vanilla build menu appearance for the ornaments, the Arctic and Enbesa have also received an ornaments tab.
+
+I have added a separate mods tab.
+
+This new menu may be used by other modders, and is basically desired, as long as it fits into this section.
+
+
+## Required active mods :
+---------------------	
+"Shared_Objects_MU" by @muggenstuermer
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+
+
+---------------------------
+Release - 1.0
+---------------------------
