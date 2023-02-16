@@ -485,3 +485,8 @@ https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 ---------------------------
 Release - 1.0
 ---------------------------
+
+---------------------------
+Changelog - 1.1
+---------------------------
+	- Tweak possibility for attractiveness added.
