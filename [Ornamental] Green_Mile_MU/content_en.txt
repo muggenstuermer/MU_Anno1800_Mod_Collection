@@ -1,9 +1,17 @@
 #Green_Mile_MU
 
-This mod contains all trees and plants from City and Harbour_Ornaments and have been reworked.
+This mod contains all the trees and plants from City and Harbour_Ornaments and have been reworked.
 To maintain the vanilla tree menu appearance for the ornaments, the Arctic and Enbesa have also received an ornaments tab.
 I have added a separate mods tab.
 This new menu may be used by other modders, and is basically desired, as long as it fits into this section.
+
+The harbour objects are very difficult or impossible to remove with the remove tool from the build menu.
+This is due to the fact that these objects do not have a ground decal so that they can freely choose the background, which will be added with future mods.
+
+These objects can be removed by clicking on them and pressing the "Remove" key on the keyboard.
+
+The attractiveness of the objects is set by mod to 2 points per object.
+However, this value can be freely changed for each region with the ModManager IModYourAnno (https://github.com/anno-mods/iModYourAnno/releases/latest).
 
 Necessary active mods :
 	
@@ -14,3 +22,8 @@ Necessary active mods :
 ---------------------------
 Release - 1.0
 ---------------------------
+
+---------------------------
+Changelog - 1.1
+---------------------------
+	- Tweak possibility for attractiveness added.

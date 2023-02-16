@@ -1,0 +1,36 @@
+<ModOps>
+	<!-- Description -->
+	<ImyaTweaks Title="Attractiveness settings for the Green_Mile Harbor Tree Objects per Session" />
+	
+	 <!-- Change Attractiveness of the Mod Harbor Trees OW-->
+	<ModOp Type="replace" GUID="1337501252,1337501250,1337503122,1337503123,1337501249,1337503129,1337503132,1337501251,1337503140" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfHarborTreesOW">
+		<Attractiveness>2</Attractiveness>
+	</ModOp>
+	<ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfHarborTreesOW" ExposeID="Set Value For Attractiveness Of Harbor Trees in OW MU" Description="Determines how many attraction points the Harbor Trees in the OW gives ( Mod default settings = 2 )" Kind="Slider">
+		<SliderDefinition Min="0" Max="100" Stepping="1" />
+	</ImyaExpose>
+	
+	<!-- Change Attractiveness of the Mod Harbor Trees NW-->
+	<ModOp Type="replace" GUID="1337503118,1337503120,1337503124,1337503125,1337503127,1337503130,1337503133,1337503138,1337503141" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfHarborTreesNW">
+		<Attractiveness>2</Attractiveness>
+	</ModOp>
+	<ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfHarborTreesNW" ExposeID="Set Value For Attractiveness Of Harbor Trees in NW MU" Description="Determines how many attraction points the Harbor Trees in the NW gives ( Mod default settings = 2 )" Kind="Slider">
+		<SliderDefinition Min="0" Max="100" Stepping="1" />
+	</ImyaExpose>
+	
+	<!-- Change Attractiveness of the Mod Harbor Trees Africa-->
+	<ModOp Type="replace" GUID="1337503119,1337503121,1337503126,1337503128,1337503131,1337503134,1337503139,1337503142" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfHarborTreesAfrica">
+		<Attractiveness>2</Attractiveness>
+	</ModOp>
+	<ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfHarborTreesAfrica" ExposeID="Set Value For Attractiveness Of Harbor Trees in Africa MU" Description="Determines how many attraction points the Harbor Trees in Africa gives ( Mod default settings = 2 )" Kind="Slider">
+		<SliderDefinition Min="0" Max="100" Stepping="1" />
+	</ImyaExpose>
+	
+	<!-- Change Attractiveness of the Mod Harbor Big Pots all Sessions-->
+	<ModOp Type="replace" GUID="1337501254" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfHarborBigPotsAll">
+		<Attractiveness>2</Attractiveness>
+	</ModOp>
+	<ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfHarborBigPotsAll" ExposeID="Set Value For Attractiveness Of Harbor Big Pots in all Sessions MU" Description="Determines how many attraction points the Harbor Big Pots in all Sessions gives ( Mod default settings = 2 )" Kind="Slider">
+		<SliderDefinition Min="0" Max="100" Stepping="1" />
+	</ImyaExpose>
+</ModOps>
