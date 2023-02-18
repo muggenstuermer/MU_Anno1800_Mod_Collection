@@ -2,7 +2,9 @@
   "Version": "1.1",
   "ModID": "Green_Mile_MU",
   "IncompatibleIds": null,
-  "ModDependencies": "Shared_Objects_MU\nhttps://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest",
+  "ModDependencies": [ 
+    "Shared_Objects_MU" 
+  ],
   "Category": {
     "Chinese": null,
     "English": "Ornamental",
@@ -55,28 +57,9 @@
       "Russian": null,
       "Spanish": null,
       "Taiwanese": null
-    },
-    {
-      "Chinese": null,
-      "English": null,
-      "French": null,
-      "German": null,
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
     }
   ],
-  "DLCDependencies": [
-    {
-      "DLC": null,
-      "Dependant": null
-    }
-	
-  ],
+  "DLCDependencies": [],
   "CreatorName": "muggenstuermer",
   "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
   "Image" : null
