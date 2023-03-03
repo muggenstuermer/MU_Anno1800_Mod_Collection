@@ -1,0 +1,894 @@
+<ModOps>
+    <!--
+
+1337505000 Ornaments Categorie OW/Mods Tab
+
+1337505001 Ornaments Categorie NW/Mods Tab
+
+1337505002 Ornaments Categorie Arctic/Classic Tab
+1337505003 Ornaments Categorie Arctic/Season Tab
+1337505004 Ornaments Categorie Arctic/Cosmetic Tab
+1337505005 Ornaments Categorie Arctic/Special Tab
+1337505006 Ornaments Categorie Arctic/Mods Tab
+
+1337505007 Ornaments Categorie Arctic/Park Tab
+1337505008 Ornaments Categorie Arctic/City Tab
+1337505009 Ornaments Categorie Arctic/Industrial Tab
+
+1337505010 Ornaments Categorie Africa/Classic Tab
+1337505011 Ornaments Categorie Africa/Season Tab
+1337505012 Ornaments Categorie Africa/Cosmetic Tab
+1337505013 Ornaments Categorie Africa/Special Tab
+1337505014 Ornaments Categorie Africa/Mods Tab
+
+1337505015 Ornaments Categorie Africa/Park Tab
+1337505016 Ornaments Categorie Africa/City Tab
+1337505017 Ornaments Categorie Africa/Industrial Tab
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Harbor Tab
+1337505018 Harbor Tab OW
+1337505019 Harbor Tab NW
+1337505020 Harbor Tab Arctic
+1337505021 Harbor Tab Africa
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding Mods Tab Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- NEW Mods tab -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505000</GUID>
+                    <Name>Moderate Modding Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\modding_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!--<Item>
+                                  <Building>502338</Building>
+                                </Item>-->
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- NEW Mods tab -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505001</GUID>
+                    <Name>NW Modding Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\modding_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!--<Item>
+                                  <Building>502338</Building>
+                                </Item>-->
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+					<TextOverride>1337505000</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien Arctic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <!--Klassisch-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505002</GUID>
+                    <Name>Arctic Ornament Menu Vanilla &amp; Free Updates</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_kontor1.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>134880</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Classic</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60390</LineID>
+                    <TextOverride>500069</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Seasons-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505003</GUID>
+                    <Name>Arctic Ornament Menu DLCs</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_promo_plants_2d.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible -->
+                        <Item>
+                            <Building>134880</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Seasons</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60391</LineID>
+                    <TextOverride>500070</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Kosmetisch-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505004</GUID>
+                    <Name>Arctic Ornament Menu CDLCs</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_prestige.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible -->
+                        <Item>
+                            <Building>134880</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Cosmetic</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60352</LineID>
+                    <TextOverride>500078</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Spezial-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505005</GUID>
+                    <Name>Arctic Special Reward Menu</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/achievement/icon_achievement_category_items.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible -->
+                        <Item>
+                            <Building>134880</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+                    <TextOverride>6577</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!-- NEW Mods tab -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505006</GUID>
+                    <Name>Arctic Modding Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\modding_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible -->
+                        <Item>
+                            <Building>134880</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+					<TextOverride>1337505000</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Park-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505007</GUID>
+                    <Name>Arctic Ornament Menu Park</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_tree_progress.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>134880</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Park</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60368</LineID>
+                    <TextOverride>500067</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Stadt-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505008</GUID>
+                    <Name>Arctic Ornament Menu City</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_promo_ministries_2d.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>134880</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>City</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60370</LineID>
+                    <TextOverride>500944</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Industrie-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505009</GUID>
+                    <Name>Moderate Ornament Menu Industry&amp;Harbor</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_loading_bay.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible -->
+                        <Item>
+                            <Building>134880</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Industry</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60377</LineID>
+                    <TextOverride>500059</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien Africa xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <!--Klassisch-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505010</GUID>
+                    <Name>Africa Ornament Menu Vanilla &amp; Free Updates</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_kontor1.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>134879</Building>
+                        </Item>
+                        <Item>
+                            <Building>130700</Building>
+                        </Item>
+                        <Item>
+                            <Building>130698</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Classic</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60390</LineID>
+                    <TextOverride>500069</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Seasons-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505011</GUID>
+                    <Name>Africa Ornament Menu DLCs</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_promo_plants_2d.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible -->
+                        <Item>
+                            <Building>134879</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Seasons</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60391</LineID>
+                    <TextOverride>500070</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Kosmetisch-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505012</GUID>
+                    <Name>Africa Ornament Menu CDLCs</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_prestige.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible -->
+                        <Item>
+                            <Building>134879</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Cosmetic</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60352</LineID>
+                    <TextOverride>500078</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Spezial-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505013</GUID>
+                    <Name>Africa Special Reward Menu</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/achievement/icon_achievement_category_items.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible -->
+                        <Item>
+                            <Building>134879</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+                    <TextOverride>6577</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!-- NEW Mods tab -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505014</GUID>
+                    <Name>Africa Modding Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\modding_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!--<Item>
+                                  <Building>134879</Building>
+                                </Item>-->
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+					<TextOverride>1337505000</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Park-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505015</GUID>
+                    <Name>Africa Ornament Menu Park</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_tree_progress.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>134879</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Park</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60368</LineID>
+                    <TextOverride>500067</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Stadt-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505016</GUID>
+                    <Name>Africa Ornament Menu City</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_promo_ministries_2d.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>130700</Building>
+                        </Item>
+                        <Item>
+                            <Building>130698</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>City</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60370</LineID>
+                    <TextOverride>500944</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Industrie-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505017</GUID>
+                    <Name>Africa Ornament Menu Industry&amp;Harbor</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_loading_bay.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible -->
+                        <Item>
+                            <Building>134879</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Industry</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60377</LineID>
+                    <TextOverride>500059</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- Harbor tab -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505018</GUID>
+                    <Name>Moderate Harbor Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\harbor_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!--<Item>
+				  <Building>502338</Building>
+				</Item>-->
+                    </BuildingList>
+                    <CategoryDescription>11150</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+                    <TextOverride>11150</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- Harbor tab -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505019</GUID>
+                    <Name>NW Harbor Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\harbor_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!--<Item>
+				  <Building>502338</Building>
+				</Item>-->
+                    </BuildingList>
+                    <CategoryDescription>11150</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+                    <TextOverride>11150</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab Arctic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- Harbor tab -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505020</GUID>
+                    <Name>Arctic Harbor Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\harbor_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!--<Item>
+				  <Building>502338</Building>
+				</Item>-->
+                    </BuildingList>
+                    <CategoryDescription>11150</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+                    <TextOverride>11150</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab Africa xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- Harbor tab -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505021</GUID>
+                    <Name>Africa Harbor Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\harbor_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!--<Item>
+				  <Building>502338</Building>
+				</Item>-->
+                    </BuildingList>
+                    <CategoryDescription>11150</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+                    <TextOverride>11150</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu OW After Special Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsSource/Categories/Item[Category = '6577']">
+        <Item>
+            <Category>1337505000</Category>
+            <!-- Moderate Modding Menu -->
+        </Item>
+        <Item>
+            <Category>1337505018</Category>
+            <!-- Moderate Harbor Menu -->
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu NW After Special Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsSource/Categories/Item[Category = '6621']">
+        <Item>
+            <Category>1337505001</Category>
+            <!-- NW Modding Menu -->
+        </Item>
+        <Item>
+            <Category>1337505019</Category>
+            <!-- NW Harbor Menu -->
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu OW After Industry Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories/Item[Category = '500059']">
+        <Item>
+            <Category>1337505000</Category>
+            <!-- Moderate Modding Menu -->
+        </Item>
+        <Item>
+            <Category>1337505018</Category>
+            <!-- Moderate Harbor Menu -->
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu NW After Industry Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsCategory/Categories/Item[Category = '500058']">
+        <Item>
+            <Category>1337505001</Category>
+            <!-- NW Modding Menu -->
+        </Item>
+        <Item>
+            <Category>1337505019</Category>
+            <!-- NW Harbor Menu -->
+        </Item>
+    </ModOp>
+    <!-- Remove Arctic forrest from vanilla buildmenu to include it into new Ornaments menu-->
+    <ModOp Type="remove" GUID="112790" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '134880']" />
+    <!-- Remove Africa Ornaments from vanilla buildmenu to include it into new Ornaments menu -->
+    <ModOp Type="remove" GUID="114553" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '134879' or Building = '130700' or Building = '130698']" />
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding ARCTIC Ornaments Menu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="add" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Arctic">
+        <OrnamentsMode>
+            <OrnamentsSource>
+                <Categories>
+                    <Item>
+                        <Category>1337505002</Category>
+                        <!-- Klassisch -->
+                    </Item>
+                    <Item>
+                        <Category>1337505003</Category>
+                        <!-- Seasons -->
+                    </Item>
+                    <Item>
+                        <Category>1337505004</Category>
+                        <!-- Kosmetisch -->
+                    </Item>
+                    <Item>
+                        <Category>1337505005</Category>
+                        <!-- Spezial -->
+                    </Item>
+                    <Item>
+                        <Category>1337505006</Category>
+                        <!-- Modding -->
+                    </Item>
+                    <Item>
+                        <Category>1337505020</Category>
+                        <!-- Hafen -->
+                    </Item>
+                </Categories>
+            </OrnamentsSource>
+            <OrnamentsCategory>
+                <Categories>
+                    <Item>
+                        <Category>1337505007</Category>
+                        <!-- Park-->
+                    </Item>
+                    <Item>
+                        <Category>1337505008</Category>
+                        <!-- Stadt -->
+                    </Item>
+                    <Item>
+                        <Category>1337505009</Category>
+                        <!-- Industrie -->
+                    </Item>
+                    <Item>
+                        <Category>1337505006</Category>
+                        <!-- Modding -->
+                    </Item>
+                    <Item>
+                        <Category>1337505020</Category>
+                        <!-- Hafen -->
+                    </Item>
+                </Categories>
+            </OrnamentsCategory>
+        </OrnamentsMode>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding AFRICA Ornaments Menu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="add" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Africa">
+        <OrnamentsMode>
+            <OrnamentsSource>
+                <Categories>
+                    <Item>
+                        <Category>1337505010</Category>
+                        <!-- Klassisch -->
+                    </Item>
+                    <Item>
+                        <Category>1337505011</Category>
+                        <!-- Seasons -->
+                    </Item>
+                    <Item>
+                        <Category>1337505012</Category>
+                        <!-- Kosmetisch -->
+                    </Item>
+                    <Item>
+                        <Category>1337505013</Category>
+                        <!-- Spezial -->
+                    </Item>
+                    <Item>
+                        <Category>1337505014</Category>
+                        <!-- Modding -->
+                    </Item>
+                    <Item>
+                        <Category>1337505021</Category>
+                        <!-- Hafen -->
+                    </Item>
+                </Categories>
+            </OrnamentsSource>
+            <OrnamentsCategory>
+                <Categories>
+                    <Item>
+                        <Category>1337505015</Category>
+                        <!-- Park-->
+                    </Item>
+                    <Item>
+                        <Category>1337505016</Category>
+                        <!-- Stadt -->
+                    </Item>
+                    <Item>
+                        <Category>1337505017</Category>
+                        <!-- Industrie -->
+                    </Item>
+                    <Item>
+                        <Category>1337505014</Category>
+                        <!-- Modding -->
+                    </Item>
+                    <Item>
+                        <Category>1337505021</Category>
+                        <!-- Hafen -->
+                    </Item>
+                </Categories>
+            </OrnamentsCategory>
+        </OrnamentsMode>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding Mods Tab End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+</ModOps>
