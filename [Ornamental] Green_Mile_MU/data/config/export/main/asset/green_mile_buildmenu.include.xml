@@ -29,7 +29,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503000</GUID>
 					<Name>GreenMileOW</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_ow.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_ow.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -47,7 +47,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503001</GUID>
 					<Name>GreenMileNW</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_nw.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_nw.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -65,7 +65,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503002</GUID>
 					<Name>GreenMileAfrica</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_africa.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_africa.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -84,7 +84,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503003</GUID>
 					<Name>GreenMileFlowersOW</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_ow.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_ow.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -102,7 +102,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503004</GUID>
 					<Name>GreenMileFlowersNW</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_nw.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_nw.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -120,7 +120,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503005</GUID>
 					<Name>GreenMileFlowersAfrica</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_africa.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_africa.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -139,7 +139,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503112</GUID>
 					<Name>GreenMileHarborOW</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_harbor_ow.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_harbor_ow.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -157,7 +157,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503113</GUID>
 					<Name>GreenMileHarborNW</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_harbor_nw.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_harbor_nw.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -175,7 +175,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503114</GUID>
 					<Name>GreenMileHarborAfrica</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_harbor_africa.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_trees_harbor_africa.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -194,7 +194,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503115</GUID>
 					<Name>GreenMileFlowersHarborOW</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_harbor_ow.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_harbor_ow.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -212,7 +212,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503116</GUID>
 					<Name>GreenMileFlowersHarborNW</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_harbor_nw.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_harbor_nw.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -230,7 +230,7 @@ NOT IN USE AT THE MOMENT
 				<Standard>
 					<GUID>1337503117</GUID>
 					<Name>GreenMileFlowersHarborAfrica</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_harbor_africa.png</IconFilename>>
+					<IconFilename>data\ui\2kimages\main\3dicons\green_mile_flowers_harbor_africa.png</IconFilename>
 				</Standard>
 				<ConstructionCategory>
 					<BuildingList>
@@ -244,16 +244,14 @@ NOT IN USE AT THE MOMENT
 	</ModOp>
 
 	<!-- Add OW Green_Mile Buildmenu to Ornamentsmenu-->
-	<ModOp Type="add" GUID='1337505000,500068' Path="/Values/ConstructionCategory/BuildingList">
+	<ModOp Type="add" GUID='1337505000' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337503000</Building>
 		</Item>
 		<Item>
 			<Building>1337503003</Building>
 		</Item>
-		<Item>
-			<Building>1337503112</Building>
-		</Item>
+		
 		<!--<Item>
 			<Building>1337503115</Building>
 		</Item>-->
@@ -263,9 +261,6 @@ NOT IN USE AT THE MOMENT
 		</Item>
 		<Item>
 			<Building>1337503004</Building>
-		</Item>
-		<Item>
-			<Building>1337503113</Building>
 		</Item>
 		<!--<Item>
 			<Building>1337503116</Building>
@@ -273,15 +268,12 @@ NOT IN USE AT THE MOMENT
 	</ModOp>
 	
 	<!-- Add NW Green_Mile Buildmenu to Ornamentsmenu-->
-	<ModOp Type="add" GUID='1337505001,500055' Path="/Values/ConstructionCategory/BuildingList">
+	<ModOp Type="add" GUID='1337505001' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337503001</Building>
 		</Item>
 		<Item>
 			<Building>1337503004</Building>
-		</Item>
-		<Item>
-			<Building>1337503113</Building>
 		</Item>
 		<!--<Item>
 			<Building>1337503116</Building>
@@ -293,24 +285,18 @@ NOT IN USE AT THE MOMENT
 		<Item>
 			<Building>1337503003</Building>
 		</Item>
-		<Item>
-			<Building>1337503112</Building>
-		</Item>
 		<!--<Item>
 			<Building>1337503115</Building>
 		</Item>-->
 	</ModOp>
 	
 	<!-- Add Africa Green_Mile Buildmenu to Ornamentsmenu-->
-	<ModOp Type="add" GUID='1337505014,1337505016' Path="/Values/ConstructionCategory/BuildingList">
+	<ModOp Type="add" GUID='1337505014' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337503002</Building>
 		</Item>
 		<Item>
 			<Building>1337503005</Building>
-		</Item>
-		<Item>
-			<Building>1337503114</Building>
 		</Item>
 		<!--<Item>
 			<Building>1337503117</Building>
@@ -322,12 +308,40 @@ NOT IN USE AT THE MOMENT
 		<Item>
 			<Building>1337503004</Building>
 		</Item>
-		<Item>
-			<Building>1337503113</Building>
-		</Item>
 		<!--<Item>
 			<Building>1337503116</Building>
 		</Item>-->
 	</ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HARBOR Objects xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<!-- Add OW Green_Mile Harbor Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505018' Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+			<Building>1337503112</Building>
+		</Item>
+		<Item>
+			<Building>1337503113</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Add NW Green_Mile Harbor Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505019' Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+			<Building>1337503113</Building>
+		</Item>
+		<Item>
+			<Building>1337503112</Building>
+		</Item>
+    </ModOp>
+	
+	<!-- Add Africa Green_Mile Harbor Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505021' Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+			<Building>1337503114</Building>
+		</Item>
+		<Item>
+			<Building>1337503113</Building>
+		</Item>
+    </ModOp>
 	
 </ModOps>
