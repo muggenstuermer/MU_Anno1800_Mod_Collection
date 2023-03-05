@@ -36,9 +36,18 @@ Harbor Tab
 -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding Mods Tab Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="1010035">
+    <ModOp Type="addNextSibling" GUID='1010035'>
         <!-- NEW Mods tab -->
         <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505000</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
             <Template>ConstructionCategory</Template>
             <Values>
                 <Standard>
@@ -67,10 +76,21 @@ Harbor Tab
             </Values>
         </Asset>
     </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505000'][position() < last()]"/>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="1010035">
+    <ModOp Type="addNextSibling" GUID='1010035'>
         <!-- NEW Mods tab -->
         <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505001</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
             <Template>ConstructionCategory</Template>
             <Values>
                 <Standard>
@@ -100,8 +120,10 @@ Harbor Tab
             </Values>
         </Asset>
     </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505001'][position() < last()]"/>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien Arctic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="1010359">
+    <ModOp Type="addNextSibling" GUID='1010359'>
         <!--Klassisch-->
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -344,7 +366,7 @@ Harbor Tab
         </Asset>
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien Africa xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="1010359">
+    <ModOp Type="addNextSibling" GUID='1010359'>
         <!--Klassisch-->
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -596,9 +618,18 @@ Harbor Tab
     </ModOp>
     <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="1010035">
+    <ModOp Type="addNextSibling" GUID='1010035'>
         <!-- Harbor tab -->
         <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505018</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
             <Template>ConstructionCategory</Template>
             <Values>
                 <Standard>
@@ -628,10 +659,21 @@ Harbor Tab
             </Values>
         </Asset>
     </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505018'][position() < last()]"/>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="1010035">
+    <ModOp Type="addNextSibling" GUID='1010035'>
         <!-- Harbor tab -->
         <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505019</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
             <Template>ConstructionCategory</Template>
             <Values>
                 <Standard>
@@ -661,10 +703,21 @@ Harbor Tab
             </Values>
         </Asset>
     </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505019'][position() < last()]"/>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab Arctic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="1010035">
+    <ModOp Type="addNextSibling" GUID='1010035'>
         <!-- Harbor tab -->
         <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505020</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
             <Template>ConstructionCategory</Template>
             <Values>
                 <Standard>
@@ -694,10 +747,21 @@ Harbor Tab
             </Values>
         </Asset>
     </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505020'][position() < last()]"/>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab Africa xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="1010035">
+    <ModOp Type="addNextSibling" GUID='1010035'>
         <!-- Harbor tab -->
         <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505021</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
             <Template>ConstructionCategory</Template>
             <Values>
                 <Standard>
@@ -727,9 +791,23 @@ Harbor Tab
             </Values>
         </Asset>
     </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505021'][position() < last()]"/>
     <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding Fallback To Avoid Warnings xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='25000035'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1500010221</GUID>
+					<Name>fallback</Name>
+				</Standard>
+			</Values>
+		</Asset>
+	</ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu OW After Special Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsSource/Categories/Item[Category = '6577']">
+    <ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505000' or Item/Category='1337505018')]/Item[Category = '6577'] | //Values[Standard/GUID='1500010221']">
         <Item>
             <Category>1337505000</Category>
             <!-- Moderate Modding Menu -->
@@ -740,7 +818,7 @@ Harbor Tab
         </Item>
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu NW After Special Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsSource/Categories/Item[Category = '6621']">
+    <ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '6621'] | //Values[Standard/GUID='1500010221']">
         <Item>
             <Category>1337505001</Category>
             <!-- NW Modding Menu -->
@@ -751,7 +829,8 @@ Harbor Tab
         </Item>
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu OW After Industry Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories/Item[Category = '500059']">
+    <!--<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories/Item[Category = '500059']">-->
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories[not(Item/Category='1337505000' or Item/Category='1337505018')]/Item[Category = '6621'] | //Values[Standard/GUID='1500010221']">
         <Item>
             <Category>1337505000</Category>
             <!-- Moderate Modding Menu -->
@@ -762,7 +841,8 @@ Harbor Tab
         </Item>
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu NW After Industry Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsCategory/Categories/Item[Category = '500058']">
+    <!--<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsCategory/Categories/Item[Category = '500058']">-->
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsCategory/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '6621'] | //Values[Standard/GUID='1500010221']">
         <Item>
             <Category>1337505001</Category>
             <!-- NW Modding Menu -->
@@ -772,12 +852,15 @@ Harbor Tab
             <!-- NW Harbor Menu -->
         </Item>
     </ModOp>
+	
     <!-- Remove Arctic forrest from vanilla buildmenu to include it into new Ornaments menu-->
     <ModOp Type="remove" GUID="112790" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '134880']" />
+	
     <!-- Remove Africa Ornaments from vanilla buildmenu to include it into new Ornaments menu -->
     <ModOp Type="remove" GUID="114553" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '134879' or Building = '130700' or Building = '130698']" />
+	
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding ARCTIC Ornaments Menu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="add" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Arctic">
+    <ModOp Type="add" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Arctic">
         <OrnamentsMode>
             <OrnamentsSource>
                 <Categories>
@@ -834,7 +917,7 @@ Harbor Tab
         </OrnamentsMode>
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding AFRICA Ornaments Menu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="add" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Africa">
+    <ModOp Type="add" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Africa">
         <OrnamentsMode>
             <OrnamentsSource>
                 <Categories>
