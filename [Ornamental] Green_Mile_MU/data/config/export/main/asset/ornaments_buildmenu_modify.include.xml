@@ -29,6 +29,15 @@
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID='1010035'>
 		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505000</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
                           <Template>ConstructionCategory</Template>
                           <Values>
                             <Standard>
@@ -58,9 +67,20 @@
                           </Values>
                         </Asset>
 	</ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505000'][position() < last()]"/>
 	
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505001</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
 		<Asset>
                           <Template>ConstructionCategory</Template>
                           <Values>
@@ -91,6 +111,9 @@
                           </Values>
                         </Asset>
 	</ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505001'][position() < last()]"/>
+
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien Arctic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID='1010359'>
 		<Asset>
@@ -577,18 +600,31 @@
 	
 	</ModOp>
 	
-	
-	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsSource/Categories/Item[Category = '6577']">
+	<ModOp Type="addNextSibling" GUID="25000035">
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1500010221</GUID>
+					<Name>fallback</Name>
+				</Standard>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505000')]/Item[Category = '6577'] | //Values[Standard/GUID='1500010221']">
 		<Item>
 			<Category>1337505000</Category><!-- Moderate Modding Menu -->
 		</Item>
 	</ModOp>
 	
-	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsSource/Categories/Item[Category = '6621']">
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505001')]/Item[Category = '6621'] | //Values[Standard/GUID='1500010221']">
 		<Item>
 			<Category>1337505001</Category><!-- NW Modding Menu -->
 		</Item>
 	</ModOp>
+
+	<ModOp Type="remove" GUID="1500010221" />
 	
 	
 	<!-- Remove Arctic forrest from vanilla buildmenu -->
