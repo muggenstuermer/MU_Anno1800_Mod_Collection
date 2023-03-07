@@ -830,7 +830,7 @@ Harbor Tab
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu OW After Industry Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!--<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories/Item[Category = '500059']">-->
-	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories[not(Item/Category='1337505000' or Item/Category='1337505018')]/Item[Category = '6621'] | //Values[Standard/GUID='1500010221']">
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories[not(Item/Category='1337505000' or Item/Category='1337505018')]/Item[Category = '500059'] | //Values[Standard/GUID='1500010221']">
         <Item>
             <Category>1337505000</Category>
             <!-- Moderate Modding Menu -->
@@ -842,7 +842,7 @@ Harbor Tab
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu NW After Industry Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!--<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsCategory/Categories/Item[Category = '500058']">-->
-	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsCategory/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '6621'] | //Values[Standard/GUID='1500010221']">
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsCategory/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '500058'] | //Values[Standard/GUID='1500010221']">
         <Item>
             <Category>1337505001</Category>
             <!-- NW Modding Menu -->
@@ -975,3 +975,5 @@ Harbor Tab
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding Mods Tab End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 </ModOps>
+
+<!-- 2023-03-06 15:11:25 -->
