@@ -8,6 +8,9 @@ Necessary active mods :
 	"Shared_Objects_MU" by @muggenstuermer
 	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 	
+	"A_Modified_Ornaments_Tab" by @muggenstuermer
+	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+	
 	"Improved Streets" by @Jakob with activated rails modification
 	https://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest
 
@@ -41,7 +44,7 @@ Changelog - 1.1
 	- tweak options created,which are used as default in the mod,but have to be reset when using iModYourAnno.
 	
 	--------------------------
-	Bridges user guide
+	Bridges user manual
 	--------------------------
 		- Road bridges :
 		-------------------
@@ -51,13 +54,13 @@ Changelog - 1.1
 				- last build a road through the bridge / along the bridge
 				
 		- pedestrian bridges :
-		-------------------
-				- always build a bridge first
+		--------------------
+				- always build bridge first
 				- after that under the bridge you can choose : natural water channel or vanilla channel or a flower bed etc. IMPORTANT ! (no sewers,no roads,no canals to build over - ornamental !)
 				- connect the road to the ends of the bridge
 				
 		- Railway bridges :
-		-------------------
+		--------------------
 			so that the train passes over the bridge:
 				- always build the bridge first
 				- then build under the bridge either a natural water channel or one of the overbuildable channels from this mod.
@@ -65,13 +68,46 @@ Changelog - 1.1
 					- the modular road bridge and the modular railway bridge can be crossed. for this purpose, an extra object is integrated in the modular railway bridge after the crossing (use shift+V or arrow keys in the ui).
 				
 		- Modular bridges :
-		-------------------
+		--------------------
 			so that everything works:
 				- always build bridge first
 				- then place the appropriate end piece, road or rails.
 				- then under the bridge: one of the overbuildable channels from this mod.
-				- then build the roads/rails through the bridge/along the bridge - at a crossing of the modular road bridge and the modular railway bridge,after the regular cross object at the rails,there is a transition object.shift+V or the arrow keys in the UI to switch to the next object.
+				- then build the roads/rails through the bridge/along the bridge - at a crossing of the modular road bridge and the modular railway bridge,after the regular cross object at the rails,there is a transition object.with shift+V or the arrow keys in the UI,switch forward
+				
+				
+---------------------------
+Changelog - 1.2
+---------------------------
+	- Created a separate harbour construction menu
+	- added known harbour roads from Harbour_Ornaments_MU_2
+	- added functional bridges for the harbour
+	- added a sand road for the country by request
+	- created several Enbesa fakestreets
+	- by request,added swans for the overbuildable channel ( low probability )
+	- made preparations for upcoming update
+	
+	--------------------------------
+	harbour bridges manual
+	--------------------------------
+		- Road bridges :
+		-------------------
+			unlike bridges on land, you don't have to do anything here other than build the object.
+			
+		- Footbridges :
+		--------------------
+			unlike the bridges on land, here you don't have to do anything other than build the object, and pull the quay road or the quay at the ends of the bridge slightly into the bridge.
+			
+		- Modular bridges :
+		--------------------
+			in contrast to the bridges on land, all you have to do here is build the object and pull the quay road or the quay at the ends of the bridge slightly into the bridge.
+				- the modular pedestrian bridge can be built over. this means that a quay road can be pulled under this bridge (parallel is also possible!). the road is then used by the market carts, while the pedestrians walk on the bridge.
+				  This feature is a random product, so it is not impossible that in the future the bridge height might be adjusted.
+				  
+				- the end section of the modular footbridge,contains a straight section as a variation.the <WaterBlocker> has been removed from this section,so that the small feedback boats can pass underneath.
+				  The possibility of using it is self-explanatory.
+		
 				
 
 Special thanks to @darknesswei#2951 for the Chinese translation and Tonton Yip#8766 for the French translation. Also a big thank you to @Aveneger432 from Nexus for his Polish translation and to @Ionovia#8097 for constantly testing and introducing the mods.
-Thank you all very much !!!
+Thank you all so much !!!

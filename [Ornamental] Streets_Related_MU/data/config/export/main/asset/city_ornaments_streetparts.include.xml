@@ -19,34 +19,45 @@
 
 1337500053 Plazaboden 15 Fakestrasse
 1337500147 Überdachte Promenade Fakestrasse
+1337502614 Sandstrasse Fakestrasse
+1337502615 Africa Decal 01 Fakestrasse
+1337502616 Africa Decal 02 Fakestrasse
+1337502617 Africa Decal 03 Fakestrasse
+1337502618 Africa Decal 04 Fakestrasse
+1337502619 Africa Decal 08 Fakestrasse
+1337502620 Africa Decal 09 Fakestrasse
 
-1337501370 Hacienda Pflaster (Echte) Straße
+1337501370 Hacienda Pflaster (Echte) Straße <InternalID>482</InternalID>-modulo256 = 226
 1337501371 Brücke Hacienda Pflaster (Echte) Straße
 
-1337501372 Hacienda Wege (Echte) Straße
+1337501372 Hacienda Wege (Echte) Straße <InternalID>483</InternalID>- modulo256 = 227
 1337501373 Brücke Hacienda Pflaster (Echte) Straße
 
-1337500030 Noble Straße
+1337500030 Noble Straße <InternalID>468</InternalID>-modulo256 = 212
 1337500031 Brücke Noble Straße
 
-1337500032 Edle Straße
+1337500032 Edle Straße <InternalID>469</InternalID>-modulo256 = 213
 1337500033 Brücke Edle Straße
 
-1337500034 Schotterweg
+1337500034 Schotterweg <InternalID>470</InternalID>-modulo256 = 214
 1337500035 Brücke Schotterweg
 
-1337500055 Ornamental Kanal Grün NW
-1337500063 Ornamental Kanal Grün AW
-1337500057 Kreuzung Kanal-Normal(Dirt) Street AW
-1337500058 Kreuzung Kanal-Fast Street AW
-1337500059 Kreuzung Kanal-Normal(Dirt) Street NW
-1337500060 Kreuzung Kanal-Fast Street NW
+1337500055 Ornamental Kanal Grün NW <InternalID>471</InternalID>-modulo256 = 215
+1337500063 Ornamental Kanal Grün AW <InternalID>485</InternalID>-modulo256 = 229
+1337500057 Kreuzung Kanal-Normal(Dirt) Street AW <InternalID>463</InternalID>-modulo256 = 207
+1337500058 Kreuzung Kanal-Fast Street AW <InternalID>464</InternalID>-modulo256 = 208
+1337500059 Kreuzung Kanal-Normal(Dirt) Street NW <InternalID>465</InternalID>-modulo256 = 209
+1337500060 Kreuzung Kanal-Fast Street NW <InternalID>466</InternalID>-modulo256 = 210
+1337500061 Kreuzung Kanal-Rail AW <InternalID>467</InternalID>-modulo256 = 211
+1337500062 Kreuzung Kanal-Rail NW <InternalID>449</InternalID>-modulo256 = 193
 
 1337502518 Baubarer See Für Modulare StrassenBrücken
 1337502528 Baubarer Betonsee Für Modulare StrassenBrücken OW
 1337502529 Baubarer Betonsee Für Modulare StrassenBrücken NW
 
-1337502551 Trigger
+1337500251 Schienenstraße <InternalID>459</InternalID>-modulo256 = 203
+
+1337502573 Trigger
 
 -->
 
@@ -125,6 +136,8 @@
 				<Building>
 					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
 					<BuildingCategoryName>5753</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<VariationIcons>
 						<Item>
 							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_01.png</IconFilename>
@@ -213,6 +226,8 @@
 				<Building>
 					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
 					<BuildingCategoryName>5753</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<VariationIcons>
 						<Item>
 							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_01.png</IconFilename>
@@ -298,7 +313,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
                 <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337500183</PickingAsset>
@@ -508,19 +523,19 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data/modgraphics/streets/graveyard_path/path_straight.cfg</Filename>
+							<Filename>data\modgraphics\streets\graveyard_path\path_straight.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/modgraphics/streets/graveyard_path/path_end.cfg</Filename>
+							<Filename>data\modgraphics\streets\graveyard_path\path_end.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/modgraphics/streets/graveyard_path/path_corner.cfg</Filename>
+							<Filename>data\modgraphics\streets\graveyard_path\path_corner.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/modgraphics/streets/graveyard_path/path_cross.cfg</Filename>
+							<Filename>data\modgraphics\streets\graveyard_path\path_cross.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/modgraphics/streets/graveyard_path/path_t_cross.cfg</Filename>
+							<Filename>data\modgraphics\streets\graveyard_path\path_t_cross.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -562,7 +577,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
                 <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337500245</PickingAsset>
@@ -785,7 +800,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
                 <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337500246</PickingAsset>
@@ -1008,7 +1023,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
                 <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337500247</PickingAsset>
@@ -1207,7 +1222,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
                 <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337500248</PickingAsset>
@@ -1430,7 +1445,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337500249</PickingAsset>
@@ -1652,7 +1667,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337500250</PickingAsset>
@@ -1854,9 +1869,10 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<PickingAsset>1337501339</PickingAsset>
 					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
 					<VariationIcons>
@@ -1913,7 +1929,6 @@
         </Asset>
 	</ModOp>
 	
-	
 <!-- Hacienda Weg Fakestrasse -->
 	<ModOp Type="addNextSibling" GUID='1010035'>
 		<Asset>
@@ -1933,7 +1948,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
                 <Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337501341</PickingAsset>
@@ -2149,7 +2164,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337500053</PickingAsset>
@@ -2351,7 +2366,7 @@
 					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
 				</Blocking>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>112113</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
 					<PickingAsset>1337500147</PickingAsset>
@@ -2515,22 +2530,22 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_gerade.cfg</Filename>
+							<Filename>data\modgraphics\streets\promenade_roofed\promenade_roofed_gerade.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_ende.cfg</Filename>
+							<Filename>data\modgraphics\streets\promenade_roofed\promenade_roofed_ende.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_ecke.cfg</Filename>
+							<Filename>data\modgraphics\streets\promenade_roofed\promenade_roofed_ecke.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_kreuz.cfg</Filename>
+							<Filename>data\modgraphics\streets\promenade_roofed\promenade_roofed_kreuz.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_t_kreuz.cfg</Filename>
+							<Filename>data\modgraphics\streets\promenade_roofed\promenade_roofed_t_kreuz.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/modgraphics/streets/promenade_roofed/promenade_roofed_gerade2.cfg</Filename>
+							<Filename>data\modgraphics\streets\promenade_roofed\promenade_roofed_gerade2.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -2551,6 +2566,640 @@
 				<Culture />
 			</Values>
         </Asset>
+	</ModOp>
+	
+	<!-- Sandstrasse Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>	
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502614</GUID>
+					<Name>Beach Ornament Sandvariations</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_01.png</IconFilename>
+					<InfoDescription>12750</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Sand</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+					<LineID>60408</LineID>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>112113</BuildingCategoryName>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502614</Building>
+						</Item>
+						<Item>
+							<Building>7895</Building>
+						</Item>
+						<Item>
+							<Building>7085</Building>
+						</Item>
+						<Item>
+							<Building>7178</Building>
+						</Item>
+						<Item>
+							<Building>7179</Building>
+						</Item>
+						<Item>
+							<Building>7181</Building>
+						</Item>
+						<Item>
+							<Building>7879</Building>
+						</Item>
+						<Item>
+							<Building>7880</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingBlockPool>
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>6</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>7</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Single>
+							<Pool>
+								<Item />
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Single>
+					</BuildingBlockPool>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_01.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_04.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_01.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\sand\beach_groundplate_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\sand\beach_groundplate_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\sand\beach_groundplate_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\sand\beach_groundplate_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\sand\beach_groundplate_corner_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\sand\beach_groundplate_corner_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\sand\beach_groundplate_corner_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\streets\sand\beach_groundplate_corner_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>2</OrnamentUnit>
+					<OrnamentDescription>8272</OrnamentDescription>
+					<OrnamentType>Ornament_Beach</OrnamentType>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 01 Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502615</GUID>
+					<Name>AfricaDecal01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\africa_decals\africa_decal_01.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingCategoryName>5753</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\africa\enbesa_decal_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>5219</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 02 Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502616</GUID>
+					<Name>AfricaDecal02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\africa_decals\africa_decal_02.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingCategoryName>5753</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\africa\enbesa_decal_02.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>5219</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 03 Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502617</GUID>
+					<Name>AfricaDecal03</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\africa_decals\africa_decal_03.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingCategoryName>5753</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\africa\enbesa_decal_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>5219</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 04 Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502618</GUID>
+					<Name>AfricaDecal04</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\africa_decals\africa_decal_04.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingCategoryName>5753</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\africa\enbesa_decal_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>5219</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 08 Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502619</GUID>
+					<Name>AfricaDecal08</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\africa_decals\africa_decal_08.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingCategoryName>5753</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\africa\africa_full_mid_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>5219</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 09 Fakestrasse -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502620</GUID>
+					<Name>AfricaDecal08</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\africa_decals\africa_decal_09.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<GroundDecalAsset>24774</GroundDecalAsset>
+					<GroundDecalInvisible>24774</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingCategoryName>5753</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\streets\africa\africa_full_mid_02.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>5219</OrnamentDescription>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
 	</ModOp>
 	
 	<!-- Hacienda Pflaster (Echte) Straße -->
@@ -4844,6 +5493,7 @@
 					<BlocksBuilding>0</BlocksBuilding>
 				</Blocking>
 				<Building>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<BuildingCategoryName>11149</BuildingCategoryName>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
 					<BuildModeStartVariation>0</BuildModeStartVariation>
@@ -4998,6 +5648,10 @@
 									<DirectionOffet>3</DirectionOffet>
 									<Variation>14</Variation>
 								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>15</Variation>
+								</Item>
 							</Pool>
 						</Crossing>
 					</BuildingBlockPool>
@@ -5044,6 +5698,9 @@
 						</Item>
 						
 						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
 						<Item>
 							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
 						</Item>
@@ -5107,8 +5764,6 @@
 							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_short_bassin_02.cfg</Filename>
 						</Item>
 						
-						
-						
 						<Item>
 							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_curv_01.cfg</Filename>
 						</Item>
@@ -5130,6 +5785,9 @@
 						</Item>
 						<Item>
 							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_place_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_place_bassin_02.cfg</Filename>
 						</Item>
 						
 						
@@ -5155,7 +5813,7 @@
 				<Locked />
 				<FeedbackController />
 				<Ornament>
-					<PlazzaSize>10</PlazzaSize>
+					<PlazzaSize>20</PlazzaSize>
 					<OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
 				<AmbientMoodProvider />
@@ -5846,6 +6504,95 @@
 			</Values>
         </Asset>
 	</ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Fake Rail for future Update xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<!-- Schienenstraße -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>Street</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500251</GUID>
+                    <Name>StoneStreet</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_railway.png</IconFilename>
+					<InfoDescription>1337500289</InfoDescription>
+					<ID>NobleStreetTest</ID>
+                </Standard>
+                <Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\modgraphics\streets\fake_rails\fake_rails.cfg</CfgFileName>
+					<CrossingAsset>1010183</CrossingAsset>
+					<BridgeAsset>101384</BridgeAsset>
+					<InternalID>459</InternalID><!-- modulo256 = 203 -->
+					<DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+					<HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+					<HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+					<GroupBits>5</GroupBits>
+					<OnlyCheckGroupBits>4392</OnlyCheckGroupBits>
+					<StyleRows>12</StyleRows>
+					<Quality>2</Quality>
+					<IsLogicRoad>0</IsLogicRoad>
+					<IsPlazza>0</IsPlazza>
+					<IsRailway>0</IsRailway>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<AdaptToNeighbors>
+					<AdaptGroups>Street</AdaptGroups>
+					<NeighborsThatMakeUsAdapt>Bridge_Rail;Quay_And_QuayBase_And_HiddenFences;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<WalkingBlocked>1</WalkingBlocked>
+				</Street>
+                <Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+                <SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>200777</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215917</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215920</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+					<MaterialType>Street_Brick</MaterialType>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Paved Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>2</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>4224</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<PickingAsset>1337500251</PickingAsset>
+				</Building>
+				<Ornament />
+            </Values>
+        </Asset>
+	</ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID='1337502504,1337502509' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010035' or Building = '112113']">
@@ -5899,10 +6646,32 @@
 			<Building>1337500147</Building><!-- Überdachte Promenade -->
 		</Item>
 		<Item>
+			<Building>1337502614</Building><!-- Sandstrasse Fakestrasse -->
+		</Item>
+		<Item>
 			<Building>1337501339</Building><!-- Hacienda Pflaster Fakestraße -->
 		</Item>
 		<Item>
 			<Building>1337501341</Building><!-- Hacienda Weg Fakestraße -->
+		</Item>
+		
+		<Item>
+			<Building>1337502615</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502616</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502617</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502618</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502619</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502620</Building><!-- Africa Decal 01 Fakestrasse -->
 		</Item>
 		
 		
@@ -5922,6 +6691,12 @@
 		<Item>
 			<Building>1337502529</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken NW -->
 		</Item>
+		
+		
+		<Item>
+			<Building>1337500251</Building><!-- Schienenstrasse -->
+		</Item>
+		
     </ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW + ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
 	<ModOp Type="addNextSibling" GUID='1337502507,1337502508' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '101309' or Building = '119029']">
@@ -5947,6 +6722,26 @@
 		<Item>
 			<Building>1337501341</Building><!-- Hacienda Weg Fakestraße -->
 		</Item>
+		
+		<Item>
+			<Building>1337502615</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502616</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502617</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502618</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502619</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502620</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		
 		<Item>
 			<Building>1337502600</Building><!-- Kopfsteinpflaster Fakestrasse -->
 		</Item>
@@ -5980,6 +6775,9 @@
 		<Item>
 			<Building>1337500147</Building><!-- Überdachte Promenade -->
 		</Item>
+		<Item>
+			<Building>1337502614</Building><!-- Sandstrasse Fakestrasse -->
+		</Item>
 		
 		<Item>
 			<Building>1337500055</Building><!-- Ornamental Kanal Grün NW -->
@@ -6009,7 +6807,7 @@
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502551</GUID>
+					<GUID>1337502573</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -6066,6 +6864,27 @@
 												<Asset>1337500147</Asset>
 											</Item>
 											<Item>
+												<Asset>1337502614</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502615</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502616</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502617</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502618</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502619</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502620</Asset>
+											</Item>
+											<Item>
 												<Asset>1337501370</Asset>
 											</Item>
 											<Item>
@@ -6104,6 +6923,11 @@
 											<Item>
 												<Asset>1337502529</Asset>
 											</Item>
+											
+											<Item>
+												<Asset>1337500251</Asset>
+											</Item>
+											
 											
 										</UnlockAssets>
 										<UnhideAssets>
@@ -6144,6 +6968,27 @@
 												<Asset>1337500147</Asset>
 											</Item>
 											<Item>
+												<Asset>1337502614</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502615</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502616</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502617</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502618</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502619</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502620</Asset>
+											</Item>
+											<Item>
 												<Asset>1337501370</Asset>
 											</Item>
 											<Item>
@@ -6182,6 +7027,11 @@
 											<Item>
 												<Asset>1337502529</Asset>
 											</Item>
+											
+											<Item>
+												<Asset>1337500251</Asset>
+											</Item>
+											
 										</UnhideAssets>
 									</ActionUnlockAsset>
 								</Values>
@@ -6194,3 +7044,5 @@
 		</Asset>
 	</ModOp>
 </ModOps>
+
+<!-- 2023-03-07 14:03:27 -->

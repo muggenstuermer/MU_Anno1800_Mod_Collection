@@ -8,6 +8,9 @@ Notwendige aktive mods :
 	"Shared_Objects_MU" von @muggenstuermer
 	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 	
+	"A_Modified_Ornaments_Tab" von @muggenstuermer
+	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+	
 	"Improved Streets" von @Jakob mit aktivierter schienen modifikation
 	https://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest
 
@@ -51,13 +54,13 @@ Changelog - 1.1
 				- zuletzt eine Strasse durch die Brücke / entlang der Brücke bauen
 				
 		- Fußgängerbrücken :
-		-------------------
+		--------------------
 				- immer zuerst brücke bauen
 				- danach unter die brücke nach wahl : Natürlicher Wasserkanal  oder Vanilla Kanal  oder ein blumenbeet etc. WICHTIG ! (kein Abwasserkanal,keine Straßen,keinen überbaubaren kanal - Ornamental !)
 				- an die enden der brücke die strasse verbinden
 				
 		- Eisenbahnbrücken :
-		-------------------
+		--------------------
 			damit der Zug über die brücke fährt:
 				- immer zuerst brücke bauen
 				- danach unter die brücke nach wahl : Natürlicher Wasserkanal oder eines der Überbaubarern Kanäle aus dieser Mod.
@@ -65,12 +68,45 @@ Changelog - 1.1
 					- die modulare strassenbrücke und die modulare eisenbahnbrücke,lassen sich kreuzen.dafür ist in der modularen eisenbahnbrücke nach der kreuzung extra ein objekt dafür integriert (shift+V oder pfeiltasten in der ui nutzen)
 				
 		- Modulare Brücken :
-		-------------------
+		--------------------
 			damit alles funktioniert:
 				- immer zuerst brücke bauen
 				- dann das passende endstück platzieren,strasse oder schienen.
 				- danach unter die brücke : eines der Überbaubarern Kanäle aus dieser Mod
 				- dann die Strassen/Schienen durch die Brücke / entlang der Brücke bauen - bei einer Kreuzung der modularen strassenbrücke und der modularen eisenbahnbrücke,gibt es nach dem regulären kreu objekt bei den schienen,ein übergangs objekt.mit shift+V oder den Pfeiltasten im UI weiterschalten
+				
+				
+---------------------------
+Changelog - 1.2
+---------------------------
+	- Ein Seperates Hafen Baumenü erstellt
+	- bekannte Hafenstrassen aus Harbour_Ornaments_MU_2 hinzugefügt
+	- funktionale Brücken für den Hafen hinzugefügt.
+	- auf Wunsch,eine Sandstrasse für das Land hinzugefügt
+	- mehrere Enbesa Fakestrassen erstellt
+	- auf Wunsch,Schwäne für den Überbaubaren Kanal hinzugefügt ( niedrige wahrscheinlichkeit )
+	- vorbereitungen für kommendes Update getroffen
+	
+	--------------------------------
+	Hafen Brücken Gebrauchsanleitung
+	--------------------------------
+		- Strassenbrücken :
+		-------------------
+			im gegensatz zu den brücken an Land,muss man hier nichts weiter tun als das Objekt zu bauen.
+			
+		- Fußgängerbrücken :
+		--------------------
+			im gegensatz zu den brücken an Land,muss man hier nichts weiter tun als das Objekt zu bauen,und die Kaistrasse oder den Kai an den Brückenenden etwas in die brücke hinein ziehen.
+			
+		- Modulare Brücken :
+		--------------------
+			im gegensatz zu den brücken an Land,muss man hier nichts weiter tun als das Objekt zu bauen,und die Kaistrasse oder den Kai an den Brückenenden etwas in die brücke hinein ziehen.
+				- die Modulare Fußgängerbrücke ist überbaubar.damit kann man eine kaistrasse unter dieser brücke hindurchziehen ( parallel auch möglich!).dann wird die Strasse von den Marktkarren genutzt,während die fußgänger auf der brücke laufen.
+				  nur bei höheren fahrzeugen,sieht das etwas seltsam aus.dieses Feature ist ein Zufallsprodukt,weswegen es nicht ausgeschlossen ist,daß in der zukunft eventuell die brückenhöhe angepasst wird.
+				  
+				- das endstück der modularen Fußgängerbrücke,enthält als Variation ein gerades Teilstück.Bei diesem Teilstück wurde der <WaterBlocker> entfernt,so daß die kleinen Feedback Boote,darunter durch fahren können.
+				  die einsatz möglichkeit dafür,erklärt sich von selbst.
+		
 				
 
 Besonderer Dank geht an @darknesswei#2951 für die chinesische Übersetzung und Tonton Yip#8766 für die französische Übersetzung. Außerdem ein großes Dankeschön an @Aveneger432 von Nexus für seine polnische Übersetzung und an @Ionovia#8097 fürs ständige austesten und vorstellen der mods.

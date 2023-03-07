@@ -1,77 +1,113 @@
 #Streets_Related_MU
 
 Ten mod bedzie zawieral wszystkie moje mody w przyszlosci, które maja zwiazek bezposrednio z tematem "ulice".
-Street mods z City_Ornaments lub Harbour_Ornaments, bedzie nastepowal.
+Street mods z City_Ornaments czy Harbour_Ornaments, beda pojawiac sie w dalszej kolejnosci.
 
 Niezbedne aktywne mody :
 	
 	"Shared_Objects_MU" autorstwa @muggenstuermer
 	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 	
-	"Ulepszone ulice" autorstwa @Jakob z aktywowana modyfikacja szyn.
+	"A_Modified_Ornaments_Tab" autorstwa @muggenstuermer
+	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+	
+	"Improved Streets" autorstwa @Jakob z aktywna modyfikacja "rails
 	https://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest
 
 
 ---------------------------
 Wydanie - 1.0
 ---------------------------
-	- Ten mod zapewnia rózne okragle oslony skrzyzowan ulicznych !
+	- Ten mod zapewnia rózne okragle oslony skrzyzowan ulic !
 	- Intersection One-One Buildblocker print V1
-	- Intersection One-One Buildblocker print V2
-	- Skrzyzowanie jeden-dwa
+	- Skrzyzowanie jeden-jeden Buildblocker V2
+	- Skrzyzowanie Jeden-Dwa
 	- Skrzyzowanie Dwa-Dwa
 	
 ---------------------------
 Changelog - 1.1
 ---------------------------
-	- Oryginalne ulice uwzglednione w menu budynku
+	- Oryginalne ulice wlaczone do menu budynków
 	- dodano znane ulice i czesci zwiazane z ulicami z City_Ornaments_MU_2
-	- Kolizje InternalID do New Horizons naprawione, tym samym równiez restrukturyzacja niektórych obiektów wykonana
-	- stworzone mosty dla róznych mozliwosci - mosty drogowe - mosty dla pieszych - mosty kolejowe
+	- Naprawiono kolizje InternalID z New Horizons, tym samym dokonano równiez restrukturyzacji niektórych obiektów
+	- Stworzone mosty dla róznych mozliwosci - mosty drogowe - mosty dla pieszych - mosty kolejowe
 	- przerobione znane kanaly wodne - mosty i optyka - przebudowane dla dodanych mostów
-		- Droga gruntowa dostala nowy most na naturalny kanal wodny,oparty na kolejnym cdlc " smoczy ogród "
-		- Brukowa droga ma " NIE " most juz dla wszystkich kanalów Mod i Vanilla.
-		- Tory kolejowe zachowaly dobrze znany naturalny most kolejowy z kanalem wodnym. 
-	- dodano modulowe jezioro, które moze byc uzywane pod wszystkimi mostami, z wylaczeniem mostów dla pieszych (utrudnia korzystanie z mostu przez sprzezenie zwrotne).
-		- W zaleznosci od systemu i sposobu budowy moga pojawic sie male "dziury", poniewaz zostal umieszczony niewlasciwy obiekt.Jezioro zawiera wszystkie czesci, aby prawidlowo zamknac te luki.Kliknij na obiekt i uzyj klawiszy strzalek w UI, aby znalezc pasujacy kawalek !
+		- Droga gruntowa otrzymala nowy most dla naturalnego kanalu wodnego, oparty na nastepnym cdlc "smoczy ogród".
+		- Droga brukowa nie posiada juz zadnego mostu dla wszystkich kanalów Mod i Vanilla.
+		- Tory kolejowe zachowaly dobrze znany most kolejowy dla naturalnego kanalu wodnego. 
+	- Dodano modulowe jezioro, które moze byc uzywane pod wszystkimi mostami, z wylaczeniem mostów dla pieszych (utrudnia korzystanie z mostu przez sprzezenie zwrotne).
+		- W zaleznosci od systemu i sposobu budowy moga pojawic sie male "dziury" poniewaz zostal umieszczony niewlasciwy obiekt.Jezioro zawiera wszystkie czesci do prawidlowego zamkniecia tych luk.Kliknij na obiekt i uzyj klawiszy strzalek w UI aby znalezc pasujacy kawalek !
 	- dodano niewidzialna zawartosc Harbour_Ornaments_MU_2 - wplywa na budowe dróg z ladu do wody
-	- Oryginalne kanaly wodne zmodyfikowane tak, ze oryginalny most pojawia sie TYLKO przy drodze gruntowej. przy drodze kamiennej czesc mostu jest zastapiona czesciami kanalu, aby móc uzyc jednego z modów mostu! Tylko w Enbesa nic sie nie zmienilo.
-	- Okragle okladki ulic w NW zostaly dopasowane kolorystycznie do Jakob's Improved Streets mod.
-	- Wszystkie regiony maja swoje ronda.
-	- stworzone opcje tweakowe, które sa uzywane jako domyslne w modzie, ale musza byc zresetowane przy uzyciu iModYourAnno.
+	- Oryginalne kanaly wodne zmodyfikowane tak, ze oryginalny most pojawia sie TYLKO przy drodze gruntowej. przy drodze kamiennej czesc mostu jest zastapiona czesciami kanalu, aby móc uzyc jednego z modów mostu ! Tylko w Enbesa nic nie zostalo zmienione.
+	- Okragle ulice w NW zostaly dopasowane kolorystycznie do moda Improved Streets Jakoba.
+	- Wszystkie regiony maja swoje wlasne ronda.
+	- Stworzono opcje tweak, które sa uzywane jako domyslne w modzie, ale musza byc resetowane przy uzyciu iModYourAnno.
 	
 	--------------------------
-	Podrecznik uzytkownika mostów
+	Instrukcja obslugi mostów
 	--------------------------
 		- Mosty drogowe :
 		-------------------
-			upewnij sie, ze wszystko idzie przez most:
-				- Zawsze najpierw buduj most.
+			upewnij sie, ze wszystko przejdzie przez most:
+				- zawsze najpierw buduj most
 				- nastepnie zbuduj pod mostem: naturalny kanal wodny lub jeden z nadbudowywanych kanalów z tego moda lub kanal waniliowy (bez kanalizacji, bez dróg!)
-				- ostatnio zbudowac droge przez most / wzdluz mostu
+				- na koniec zbuduj droge przez most / wzdluz mostu
 				
 		- mosty dla pieszych :
-		-------------------
-				- Zawsze najpierw buduj most.
-				- Po tym pod mostem mozna wybrac : naturalny kanal wodny lub kanal waniliowy lub kwietnik itp. WAZNE! (brak kanalizacji,brak dróg,brak kanalów nad którymi mozna budowac - ozdobne !)
-				- polaczyc droge z koncami mostu
+		--------------------
+				- zawsze najpierw buduj most
+				- nastepnie pod mostem mozesz wybrac : naturalny kanal wodny lub waniliowy kanal lub klomb itp. WAZNE ! (nie ma kanalizacji, nie ma dróg, nie ma kanalów do budowania nad nimi - ozdobne !)
+				- polacz drogi z koncami mostu
 				
 		- Mosty kolejowe :
-		-------------------
+		--------------------
 			tak aby pociag przejechal przez most:
-				- Zawsze najpierw buduj most.
-				- Nastepnie zbuduj pod mostem albo naturalny kanal wodny, albo jeden z nadbudowywanych kanalów z tego moda.
-				- ostatnio budowac tory przez most / wzdluz mostu
-					- modulowy most drogowy i modulowy most kolejowy moga byc przekraczane. w tym celu w modulowym moscie kolejowym po przekroczeniu jest zintegrowany dodatkowy obiekt (uzyj shift+V lub klawiszy strzalek w ui).
+				- zawsze najpierw buduj most
+				- nastepnie zbuduj pod mostem naturalny kanal wodny lub jeden z nadbudowywanych kanalów z tego moda.
+				- na koniec zbuduj tory przez most / wzdluz mostu
+					- modulowy most drogowy i modulowy most kolejowy moga byc przekraczane. w tym celu, dodatkowy obiekt jest zintegrowany z modulowym mostem kolejowym po przekroczeniu (uzyj shift+V lub klawiszy strzalek w ui).
 				
 		- Mosty modulowe :
-		-------------------
-			zeby wszystko dzialalo:
+		--------------------
+			aby wszystko dzialalo:
 				- zawsze najpierw buduj most
-				- nastepnie umiescic odpowiedni element koncowy, droge lub szyny.
-				- potem pod mostem: jeden z nadbudowanych kanalów z tego moda.
-				- nastepnie buduj drogi/kolejki przez most/wzdluz mostu - na skrzyzowaniu modulowego mostu drogowego i modulowego mostu kolejowego,po zwyklym obiekcie krzyzowym przy szynach jest obiekt przejsciowy.shift+V lub klawisze strzalek w UI aby przelaczyc sie na nastepny obiekt.
+				- nastepnie umiesc odpowiedni element koncowy, droge lub szyny.
+				- nastepnie pod mostem: jeden z nadbudowywanych kanalów z tego moda.
+				- nastepnie buduj drogi/szyny przez most/wzdluz mostu - na skrzyzowaniu modularnego mostu drogowego i modularnego mostu kolejowego, za zwyklym obiektem krzyzowym przy szynach, znajduje sie obiekt przejsciowy.Za pomoca shift+V lub klawiszy strzalek w UI, przelacz sie do przodu
+				
+				
+---------------------------
+Changelog - 1.2
+---------------------------
+	- Stworzono osobne menu budowy portu
+	- Dodano znane drogi portowe z Harbour_Ornaments_MU_2
+	- dodano funkcjonalne mosty dla portu
+	- dodano piaskowa droge dla kraju na zyczenie
+	- Utworzono kilka ulic fakestetów Enbesa
+	- na prosbe, dodano labedzie dla nadbudowywanego kanalu ( niskie prawdopodobienstwo )
+	- Przygotowalem sie do nadchodzacej aktualizacji
+	
+	--------------------------------
+	podrecznik mostów portowych
+	--------------------------------
+		- Mosty drogowe :
+		-------------------
+			w przeciwienstwie do mostów na ladzie, tutaj nie musisz robic nic poza budowa obiektu.
+			
+		- Kladki dla pieszych :
+		--------------------
+			w przeciwienstwie do mostów na ladzie, tutaj nie trzeba robic nic poza zbudowaniem obiektu i wciagnieciem lekko drogi nabrzeznej lub nabrzeza na koncach mostu.
+			
+		- Mosty modulowe :
+		--------------------
+			W przeciwienstwie do mostów na ladzie, tutaj wystarczy zbudowac obiekt i lekko wciagnac droge nabrzezna lub nabrzeze na koncach mostu w most.
+				- modulowy most dla pieszych moze byc zbudowany nad. oznacza to, ze droga nabrzezna moze byc wciagnieta pod ten most (równolegle tez jest to mozliwe!). droga jest wtedy uzywana przez wozy targowe, podczas gdy piesi chodza po moscie.
+				  Funkcja ta jest produktem losowym, wiec nie jest wykluczone, ze w przyszlosci wysokosc mostu moze zostac zmieniona.
+				  
+				- koncowy odcinek modulowej kladki, zawiera jako wariant odcinek prosty.ten odcinek ma usunieta <WaterBlocker>, tak ze male lodzie zwrotne, moga pod nim przeplywac.
+				  Mozliwosc wykorzystania tego jest samowystarczalna.
+		
 				
 
-Specjalne podziekowania dla @darknesswei#2951 za tlumaczenie chinskie i Tonton Yip#8766 za tlumaczenie francuskie. Równiez wielkie podziekowania dla @Aveneger432 z Nexusa za polskie tlumaczenie oraz dla @Ionovia#8097 za ciagle testowanie i wprowadzanie modów.
-Bardzo dziekuje wszystkim !!!
+Specjalne podziekowania dla @darknesswei#2951 za chinskie tlumaczenie i Tonton Yip#8766 za francuskie tlumaczenie. Równiez wielkie podziekowania dla @Aveneger432 z Nexusa za polskie tlumaczenie oraz dla @Ionovia#8097 za ciagle testowanie i wprowadzanie modów.
+Wszystkim bardzo dziekuje !!!

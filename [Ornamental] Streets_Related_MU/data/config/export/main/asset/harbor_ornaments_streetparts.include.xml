@@ -2,10 +2,38 @@
 
 <!--
 
-1337501046 ARKTIS KAISTRASSE
-1337501047 AFRIKA KAISTRASSE
+1337501046 ARKTIS KAISTRASSE <InternalID>441</InternalID>-modulo256 = 185
+1337501047 AFRICA KAISTRASSE <InternalID>442</InternalID>-modulo256 = 186
+1337500252 Schienenstraße Wasser <InternalID>460</InternalID>-modulo256 = 204
 
+1337501028 Kai Strasse rot OW <InternalID>423</InternalID>-modulo256 = 167
+1337501029 Kai Strasse rot NW <InternalID>424</InternalID>-modulo256 = 168
+1337501030 Kai Strasse rot AFRICA <InternalID>425</InternalID>-modulo256 = 169
 
+1337501031 Metall Strasse ALL <InternalID>426</InternalID>-modulo256 = 170
+
+1337501032 Steinbrücken Strasse OW <InternalID>427</InternalID>-modulo256 = 171
+1337501033 Steinbrücken Strasse NW <InternalID>428</InternalID>-modulo256 = 172
+1337501034 Steinbrücken Strasse ARCTIC <InternalID>429</InternalID>-modulo256 = 173
+1337501035 Steinbrücken Strasse AFRICA <InternalID>430</InternalID>-modulo256 = 174
+
+1337501036 Felswand Strasse OW <InternalID>431</InternalID>-modulo256 = 175
+1337501037 Felswand Strasse NW <InternalID>432</InternalID>-modulo256 = 176
+1337501038 Felswand Strasse AFRICA <InternalID>433</InternalID>-modulo256 = 177
+
+1337501039 Felswand Strasse überdacht OW <InternalID>434</InternalID>-modulo256 = 178
+1337501040 Felswand Strasse überdacht NW <InternalID>435</InternalID>-modulo256 = 179
+1337501041 Felswand Strasse überdacht AFRICA <InternalID>436</InternalID>-modulo256 = 180
+
+1337501042 Stege Strasse OW <InternalID>437</InternalID>-modulo256 = 181
+1337501043 Stege Strasse NW <InternalID>438</InternalID>-modulo256 = 182
+1337501044 Stege Strasse ARCTIC <InternalID>439</InternalID>-modulo256 = 183
+1337501045 Stege Strasse AFRICA <InternalID>440</InternalID>-modulo256 = 184
+
+1337501048 Unsichtbare kaistrasse für brückenbau als grounddecal <InternalID>443</InternalID>-modulo256 = 187
+1337501050 OBSOLETE
+
+1337502571 Trigger
 -->
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Nicht sichtbare modifikationen Landstrassen übergang Meer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -30,7 +58,7 @@
 					</Costs>
 				</Cost>
 				<Street>
-					<CfgFileName>data\modgraphics\streets\quay_street_arctic\quay_system_01.cfg</CfgFileName>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\quay_street_arctic\quay_system_01.cfg</CfgFileName>
 					<InternalID>441</InternalID><!-- modulo256 = 185 -->
 					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
 					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
@@ -97,6 +125,7 @@
 						</English>
 					</LocaText>
 					<LineID>48528</LineID>
+					<TextOverride>601443</TextOverride>
 				</Text>
 				<Building>
 					<BuildingCategoryName>11150</BuildingCategoryName>
@@ -108,7 +137,7 @@
 		</Asset>
 	</ModOp>
 	
-	<!-- AFRIKA KAISTRASSE -->
+	<!-- AFRICA KAISTRASSE -->
 	<ModOp Type="addNextSibling" GUID='601443'>
 		<Asset>
 			<Template>Street</Template>
@@ -129,7 +158,7 @@
 					</Costs>
 				</Cost>
 				<Street>
-					<CfgFileName>data/modgraphics/streets/quay_street_africa/quay_system_01.cfg</CfgFileName>
+					<CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_africa/quay_system_01.cfg</CfgFileName>
 					<InternalID>442</InternalID><!-- modulo256 = 186 -->
 					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
 					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
@@ -196,6 +225,7 @@
 						</English>
 					</LocaText>
 					<LineID>48528</LineID>
+					<TextOverride>601443</TextOverride>
 				</Text>
 				<Building>
 					<BuildingCategoryName>11150</BuildingCategoryName>
@@ -207,15 +237,115 @@
 		</Asset>
 	</ModOp>
 	
+	<!-- Schienenstraße Wasser -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337500252</GUID>
+					<Name>Quayrails</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_railway.png</IconFilename>
+					<ID>Quayrails</ID>
+					<InfoDescription>1337500290</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\modgraphics\streets\fake_rails_water\fake_rails_system_01.cfg</CfgFileName>
+					<InternalID>460</InternalID><!-- modulo256 = 204 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>Harbour</OverbuildRule>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<IsLogicRoad>0</IsLogicRoad>
+					<IsHarbour>1</IsHarbour>
+					<IsPlazza>0</IsPlazza>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>QuayStreet;Rail_And_RailUnderBuilding</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Street;Crossing_Rail_Street;Rail_And_RailUnderBuilding;Bridge_Rail</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+					<WalkingBlocked>1</WalkingBlocked>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337500252</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Ornament />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Holzpflöcke im hafenbereich entfernen -->
+	<ModOp Type="replace" GUID='100452' Path="/Values/Street/CfgFileName">
+		<CfgFileName></CfgFileName>
+    </ModOp>
 	
 	<!-- Original Kaistrasse mit neuer Textur wie kai OW -->
 	<ModOp Type="merge" GUID='601443' Path="/Values/Street/CfgFileName">
-		<CfgFileName>data/modgraphics/streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
+		<CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
     </ModOp>
 	
 	<!-- Original Kaistrasse mit neuer Textur wie kai NW -->
 	<ModOp Type="merge" GUID='131865' Path="/Values/Street/CfgFileName">
-		<CfgFileName>data/modgraphics/streets/quay_street_nw/quay_system_01.cfg</CfgFileName>
+		<CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_nw/quay_system_01.cfg</CfgFileName>
     </ModOp>
 	
 	<!-- Zusätzliche Strassen dem Übergang Land zu Wasser hinzufügen OW -->
@@ -240,6 +370,10 @@
 		<Item>
 			<OldGUID>1337500034</OldGUID><!-- Schotterweg -->
 			<NewGUID>601443</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500251</OldGUID><!-- Schienenstraße -->
+			<NewGUID>1337500252</NewGUID><!-- Schienenstraße Wasser -->
 		</Item>
 		
 	</ModOp>
@@ -267,10 +401,14 @@
 			<OldGUID>1337500034</OldGUID><!-- Schotterweg -->
 			<NewGUID>131865</NewGUID>
 		</Item>
+		<Item>
+			<OldGUID>1337500251</OldGUID><!-- Schienenstraße -->
+			<NewGUID>1337500252</NewGUID><!-- Schienenstraße Wasser -->
+		</Item>
 		
 	</ModOp>
 	
-	<!-- Zusätzliche Strassen dem Übergang Land zu Wasser hinzufügen AFRIKA -->
+	<!-- Zusätzliche Strassen dem Übergang Land zu Wasser hinzufügen AFRICA -->
 	<ModOp Type="add" GUID='114327' Path="/Values/Region">
 		<CoastGUIDReplacements>
 		</CoastGUIDReplacements>
@@ -304,6 +442,10 @@
 		<Item>
 			<OldGUID>119029</OldGUID><!-- Gepflasterte Straße -->
 			<NewGUID>1337501047</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500251</OldGUID><!-- Schienenstraße -->
+			<NewGUID>1337500252</NewGUID><!-- Schienenstraße Wasser -->
 		</Item>
 		
 	</ModOp>
@@ -342,4 +484,2059 @@
 		
 	</ModOp>
 
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Kaistrassen All Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Kai Strasse rot OW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501028</GUID>
+					<Name>QuayStreet_red_OW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_red.png</IconFilename>
+					<ID>QuayStreet_red_OW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\quay_street_ow_red\quay_system_01.cfg</CfgFileName>
+					<InternalID>423</InternalID><!-- modulo256 = 167 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>QuayStreet</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Street;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501028</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Kai Strasse rot NW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501029</GUID>
+					<Name>QuayStreet_red_NW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_red.png</IconFilename>
+					<ID>QuayStreet_red_NW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\quay_street_nw_red\quay_system_01.cfg</CfgFileName>
+					<InternalID>424</InternalID><!-- modulo256 = 168 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>QuayStreet</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Street;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501028</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501029</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Kai Strasse rot AFRICA -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501030</GUID>
+					<Name>QuayStreet_red_AFRICA</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_red.png</IconFilename>
+					<ID>QuayStreet_red_AFRICA</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\quay_street_africa_red\quay_system_01.cfg</CfgFileName>
+					<InternalID>425</InternalID><!-- modulo256 = 169 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>QuayStreet</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Street;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501028</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501030</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Africa</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Kaistrasse metall XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+	<!-- Metall Strasse ALL -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501031</GUID>
+					<Name>QuayStreet_metal_ALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_metal.png</IconFilename>
+					<ID>QuayStreet_metal_ALL</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\metalic_road_all\quay_system_01.cfg</CfgFileName>
+					<InternalID>426</InternalID><!-- modulo256 = 170 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501031</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Kaistrasse steinbrücke XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+	<!-- Steinbrücken Strasse OW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501032</GUID>
+					<Name>QuayStreet_BRIDGE_OW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_bridge.png</IconFilename>
+					<ID>QuayStreet_BRIDGE_OW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\stone_bridge_road_ow\quay_system_01.cfg</CfgFileName>
+					<InternalID>427</InternalID><!-- modulo256 = 171 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501032</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Steinbrücken Strasse NW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501033</GUID>
+					<Name>QuayStreet_BRIDGE_NW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_bridge.png</IconFilename>
+					<ID>QuayStreet_BRIDGE_NW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\stone_bridge_road_nw\quay_system_01.cfg</CfgFileName>
+					<InternalID>428</InternalID><!-- modulo256 = 172 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501032</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501033</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Steinbrücken Strasse ARKTIS -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501034</GUID>
+					<Name>QuayStreet_BRIDGE_ARCTIC</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_bridge.png</IconFilename>
+					<ID>QuayStreet_BRIDGE_ARCTIC</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\stone_bridge_road_arctic\quay_system_01.cfg</CfgFileName>
+					<InternalID>429</InternalID><!-- modulo256 = 173 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501032</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501034</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Arctic</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Steinbrücken Strasse AFRIKA -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501035</GUID>
+					<Name>QuayStreet_BRIDGE_AFRICA</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_bridge.png</IconFilename>
+					<ID>QuayStreet_BRIDGE_AFRICA</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\stone_bridge_road_africa\quay_system_01.cfg</CfgFileName>
+					<InternalID>430</InternalID><!-- modulo256 = 174 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501032</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501035</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Africa</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Kaistrasse felswand XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+	<!-- Felswand Strasse OW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501036</GUID>
+					<Name>QuayStreet_ROCK_OW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_rock.png</IconFilename>
+					<ID>QuayStreet_ROCK_OW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\rock_road_ow\quay_system_01.cfg</CfgFileName>
+					<InternalID>431</InternalID><!-- modulo256 = 175 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501036</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Felswand Strasse NW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501037</GUID>
+					<Name>QuayStreet_ROCK_NW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_rock.png</IconFilename>
+					<ID>QuayStreet_ROCK_NW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\rock_road_nw\quay_system_01.cfg</CfgFileName>
+					<InternalID>432</InternalID><!-- modulo256 = 176 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501036</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501037</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Felswand Strasse AFRIKA -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501038</GUID>
+					<Name>QuayStreet_ROCK_AFRIKA</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_rock.png</IconFilename>
+					<ID>QuayStreet_ROCK_AFRIKA</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\rock_road_africa\quay_system_01.cfg</CfgFileName>
+					<InternalID>433</InternalID><!-- modulo256 = 177 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501036</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501038</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Africa</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Kaistrasse felswand überdacht XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+	<!-- Felswand Strasse überdacht OW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501039</GUID>
+					<Name>QuayStreet_ROCK_ROOF_OW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_rock_roof.png</IconFilename>
+					<ID>QuayStreet_ROCK_ROOF_OW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\rock_road_ow_roof\quay_system_01.cfg</CfgFileName>
+					<InternalID>434</InternalID><!-- modulo256 = 178 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501039</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Felswand Strasse überdacht NW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501040</GUID>
+					<Name>QuayStreet_ROCK_ROOF_NW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_rock_roof.png</IconFilename>
+					<ID>QuayStreet_ROCK_ROOF_NW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\rock_road_nw_roof\quay_system_01.cfg</CfgFileName>
+					<InternalID>435</InternalID><!-- modulo256 = 179 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501039</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501040</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Felswand Strasse überdacht AFRIKA -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501041</GUID>
+					<Name>QuayStreet_ROCK_ROOF_AFRICA</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_rock_roof.png</IconFilename>
+					<ID>QuayStreet_ROCK_ROOF_AFRICA</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\rock_road_africa_roof\quay_system_01.cfg</CfgFileName>
+					<InternalID>436</InternalID><!-- modulo256 = 180 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501039</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501041</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Africa</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Kaistrasse Stege XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+	<!-- Stege Strasse OW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501042</GUID>
+					<Name>QuayStreet_FOOTBRIDGE_OW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_wood.png</IconFilename>
+					<ID>QuayStreet_FOOTBRIDGE_OW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\footbridge_road_ow\quay_system_01.cfg</CfgFileName>
+					<InternalID>437</InternalID><!-- modulo256 = 181 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501042</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Stege Strasse NW -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501043</GUID>
+					<Name>QuayStreet_FOOTBRIDGE_NW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_wood.png</IconFilename>
+					<ID>QuayStreet_FOOTBRIDGE_NW</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\footbridge_road_nw\quay_system_01.cfg</CfgFileName>
+					<InternalID>438</InternalID><!-- modulo256 = 182 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501042</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501042</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Stege Strasse ARKTIS -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501044</GUID>
+					<Name>QuayStreet_FOOTBRIDGE_ARCTIC</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_wood.png</IconFilename>
+					<ID>QuayStreet_FOOTBRIDGE_ARCTIC</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\footbridge_road_arctic\quay_system_01.cfg</CfgFileName>
+					<InternalID>439</InternalID><!-- modulo256 = 183 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501042</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501042</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Arctic</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Stege Strasse AFRIKA -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501045</GUID>
+					<Name>QuayStreet_FOOTBRIDGE_AFRICA</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_wood.png</IconFilename>
+					<ID>QuayStreet_FOOTBRIDGE_AFRICA</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\footbridge_road_africa\quay_system_01.cfg</CfgFileName>
+					<InternalID>440</InternalID><!-- modulo256 = 184 -->
+					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>QuayStreet</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+					<TextOverride>1337501042</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501042</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Africa</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Unsichtbare kaistrasse für brückenbau als grounddecal -->
+	<ModOp Type="addNextSibling" GUID='601443'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337501048</GUID>
+					<Name>InvisibleStreet</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\quay_streets\street_wood.png</IconFilename>
+					<ID>InvisibleStreet</ID>
+				  <InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\invisible_street\quay_system_01.cfg</CfgFileName>
+					<InternalID>443</InternalID><!-- modulo256 = 187 -->
+					<DecalMapping>data/config/street/quay_base.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<Quality>3</Quality>
+					<OverbuildRule>Harbour</OverbuildRule>
+					<IsHarbour>1</IsHarbour>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;Street;StreetLowQuality;StreetHighQuality;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+					<ExecuteTransitionRule>64</ExecuteTransitionRule>
+				</Street>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Locked>
+				  <DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Quay Street</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>48528</LineID>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337501048</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502571</GUID>
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337501028</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501029</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501030</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501031</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501032</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501033</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501034</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501035</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501036</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501037</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501038</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501039</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501040</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501041</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501042</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501043</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501044</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501045</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501048</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501050</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500252</Asset>
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											
+											<Item>
+												<Asset>1337501028</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501029</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501030</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501031</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501032</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501033</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501034</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501035</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501036</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501037</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501038</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501039</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501040</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501041</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501042</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501043</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501044</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501045</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501048</Asset>
+											</Item>
+											<Item>
+												<Asset>1337501050</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500252</Asset>
+											</Item>
+											
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Kaistrassen All Ende xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenu hinzufügen  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- Add OW Quaystreets to OW Streets_Relatet Harbor Quaystreets Buildmenu -->
+	<ModOp Type="add" GUID='1337502552' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337501028</Building>
+		</Item>
+		<Item>
+			<Building>1337501031</Building>
+		</Item>
+		<Item>
+			<Building>1337501032</Building>
+		</Item>
+		<Item>
+			<Building>1337501036</Building>
+		</Item>
+		<Item>
+			<Building>1337501039</Building>
+		</Item>
+		<Item>
+			<Building>1337501042</Building>
+		</Item>
+	</ModOp>
+	
+<!-- Add NW Quaystreets to NW Streets_Relatet Harbor Quaystreets Buildmenu -->
+	<ModOp Type="add" GUID='1337502553' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337501029</Building>
+		</Item>
+		<Item>
+			<Building>1337501031</Building>
+		</Item>
+		<Item>
+			<Building>1337501033</Building>
+		</Item>
+		<Item>
+			<Building>1337501037</Building>
+		</Item>
+		<Item>
+			<Building>1337501040</Building>
+		</Item>
+		<Item>
+			<Building>1337501043</Building>
+		</Item>
+	</ModOp>
+
+<!-- Add Arctic Quaystreets to Arctic Streets_Relatet Harbor Quaystreets Buildmenu -->
+	<ModOp Type="add" GUID='1337502555' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337501034</Building>
+		</Item>
+		<Item>
+			<Building>1337501044</Building>
+		</Item>
+	</ModOp>
+	
+<!-- Add Africa Quaystreets to Africa Streets_Relatet Harbor Quaystreets Buildmenu -->
+	<ModOp Type="add" GUID='1337502554' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337501030</Building>
+		</Item>
+		<Item>
+			<Building>1337501031</Building>
+		</Item>
+		<Item>
+			<Building>1337501035</Building>
+		</Item>
+		<Item>
+			<Building>1337501038</Building>
+		</Item>
+		<Item>
+			<Building>1337501041</Building>
+		</Item>
+		<Item>
+			<Building>1337501045</Building>
+		</Item>
+	</ModOp>
 </ModOps>
+
+<!-- 2023-03-07 14:03:08 -->

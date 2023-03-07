@@ -1,8 +1,12 @@
 {
-  "Version": "1.1",
+  "Version": "1.2",
   "ModID": "Streets_Related_MU",
   "IncompatibleIds": null,
-  "ModDependencies": "Shared_Objects_MU\nhttps://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest\nImproved Streets from Jakobs Collection\nhttps://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest",
+  "ModDependencies": [ 
+    "Shared_Objects_MU",
+	"A_Modified_Ornaments_Tab",
+	"Improved_Streets_from_Jakobs_Collection"
+  ],
   "Category": {
     "Chinese": null,
     "English": "Mixed",
@@ -31,13 +35,13 @@
   },
   "Description": {
     "Chinese": null,
-    "English": "In the future, this mod will contain all my modifications that are directly related to the topic \"Streets\".\nStreet mods from City_Ornaments or Harbor_Ornaments will follow.",
-    "French": "À l'avenir, ce mod contiendra toutes mes modifications directement liées au sujet \"Rues\".\nLes mods de rue de City_Ornaments ou Harbor_Ornaments suivront.",
-    "German": "Dieser Mod wird in Zukunft alle meine Modifikationen enthalten,welche direkt mit dem Thema \"Strassen\" zu tun haben.\nStrassen mods aus City_Ornaments oder Harbour_Ornaments,werden folgen.",
+    "English": "In the future, this mod will contain all my modifications that are directly related to the topic \"Streets\".\nStreet mods from City_Ornaments or Harbor_Ornaments are included.",
+    "French": "À l'avenir, ce mod contiendra toutes mes modifications directement liées au sujet \"Rues\".\nLes modifications de rue de City_Ornaments ou Harbor_Ornaments sont incluses.",
+    "German": "Dieser Mod wird in Zukunft alle meine Modifikationen enthalten,welche direkt mit dem Thema \"Strassen\" zu tun haben.\nStraßenmodifikationen von City_Ornaments oder Harbor_Ornaments sind enthalten.",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
-    "Polish": "W przyszłości ten mod będzie zawierał wszystkie moje modyfikacje, które są bezpośrednio związane z tematem \"drogi\".\nMody uliczne z City_Ornaments lub Harbor_Ornaments pojawią się później.",
+    "Polish": "W przyszłości ten mod będzie zawierał wszystkie moje modyfikacje, które są bezpośrednio związane z tematem \"drogi\".\nUwzględnione są modyfikacje ulic City_Ornaments lub Harbor_Ornaments.",
     "Russian": null,
     "Spanish": null,
     "Taiwanese": null
@@ -70,14 +74,8 @@
       "Taiwanese": null
     }
   ],
-  "DLCDependencies": [
-    {
-      "DLC": null,
-      "Dependant": null
-    }
-	
-  ],
+  "DLCDependencies": [],
   "CreatorName": "muggenstuermer",
-  "CreatorContact": "https://discord.gg/2yNrjsk9R8",
+  "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
   "Image" : null
 }
