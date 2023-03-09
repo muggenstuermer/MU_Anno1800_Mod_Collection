@@ -52,8 +52,11 @@
 1337500062 Kreuzung Kanal-Rail NW <InternalID>449</InternalID>-modulo256 = 193
 
 1337502518 Baubarer See Für Modulare StrassenBrücken
+1337502632 Baubarer See Für Modulare StrassenBrücken Afrika
 1337502528 Baubarer Betonsee Für Modulare StrassenBrücken OW
 1337502529 Baubarer Betonsee Für Modulare StrassenBrücken NW
+
+1337502633 Placeable Swans
 
 1337500251 Schienenstraße <InternalID>459</InternalID>-modulo256 = 203
 
@@ -5824,6 +5827,359 @@
         </Asset>
 	</ModOp>
 	
+<!-- Baubarer See Für Modulare StrassenBrücken Afrika -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502632</GUID>
+                    <Name>StraightCanalRiverNoPond</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_canal.png</IconFilename>
+					<InfoDescription>163093</InfoDescription>
+					<ID>StraightCanalRiverPond</ID>
+				</Standard>
+				<Text>
+					<TextOverride>1337502518</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Building>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337502632</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502632</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<Single>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Single>
+						<DontCare />
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>9</Variation>
+								</Item>
+						  </Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</End>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>6</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>7</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>14</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>15</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+					</BuildingBlockPool>
+					<VariationIcons>
+					<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						
+						
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_end_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_short_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_short_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_short_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_short_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_short_05_duck.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_short_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_short_bassin_02.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_curv_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_curv_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_curv_bassin_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_double_corner_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_tripple_corner_bassin_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_cross_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_place_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_place_bassin_01.cfg</Filename>
+						</Item>
+						
+						
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_3way_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_3way_bassin_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_3way_bassin_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\kanal_africa\irrigation_channel_3way_bassin_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>20</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
 <!-- Baubarer Betonsee Für Modulare StrassenBrücken OW -->
 	<ModOp Type="addNextSibling" GUID='1010035'>
 		<Asset>
@@ -6505,6 +6861,89 @@
         </Asset>
 	</ModOp>
 	
+<!-- Placeable Swans -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502633</GUID>
+                    <Name>Swans</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_swan.png</IconFilename>
+					<InfoDescription>13689</InfoDescription>
+                </Standard>
+                <Text>
+					<TextOverride>10748</TextOverride>
+				</Text>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337502633</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Culture />
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\canal_swans\swans_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\canal_swans\swans_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\canal_swans\swans_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\canal_swans\swans_04.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+			</Values>
+        </Asset>
+	</ModOp>
+	
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Fake Rail for future Update xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
 	<!-- Schienenstraße -->
 	<ModOp Type="addNextSibling" GUID='1010035'>
@@ -6691,15 +7130,18 @@
 		<Item>
 			<Building>1337502529</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken NW -->
 		</Item>
-		
-		
 		<Item>
-			<Building>1337500251</Building><!-- Schienenstrasse -->
+			<Building>1337502633</Building><!-- Placeable Swans -->
 		</Item>
 		
+		<!-- 
+		<Item>
+			<Building>1337500251</Building>Schienenstrasse
+		</Item>
+		 -->
     </ModOp>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW + ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
-	<ModOp Type="addNextSibling" GUID='1337502507,1337502508' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '101309' or Building = '119029']">
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1337502507' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '101309']">
 		<Item>
 			<Building>1337501370</Building><!-- Hacienda Pflaster (Echte) Straße -->
 		</Item>
@@ -6743,6 +7185,10 @@
 		</Item>
 		
 		<Item>
+			<Building>1337502614</Building><!-- Sandstrasse Fakestrasse -->
+		</Item>
+		
+		<Item>
 			<Building>1337502600</Building><!-- Kopfsteinpflaster Fakestrasse -->
 		</Item>
 		<Item>
@@ -6775,8 +7221,118 @@
 		<Item>
 			<Building>1337500147</Building><!-- Überdachte Promenade -->
 		</Item>
+		
+		
+		<Item>
+			<Building>1337500055</Building><!-- Ornamental Kanal Grün NW -->
+		</Item>
+		<!--<Item>
+			<Building>1337500063</Building> Ornamental Kanal Grün AW 
+		</Item>-->
+		
+		<Item>
+			<Building>1337502518</Building><!-- Baubarer See Für Modulare StrassenBrücken -->
+		</Item>
+		<!-- <Item>
+			<Building>1337502632</Building> Baubarer See Für Modulare StrassenBrücken Afrika 
+		</Item>-->
+		
+		<Item>
+			<Building>1337502528</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken -->
+		</Item>
+		<Item>
+			<Building>1337502529</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken NW -->
+		</Item>
+		<Item>
+			<Building>1337502633</Building><!-- Placeable Swans -->
+		</Item>
+		
+		<!-- 
+		<Item>
+			<Building>1337500251</Building>Schienenstrasse
+		</Item>
+		 -->
+    </ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1337502508' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '119029']">
+		<Item>
+			<Building>1337501370</Building><!-- Hacienda Pflaster (Echte) Straße -->
+		</Item>
+		<Item>
+			<Building>1337501372</Building><!-- Hacienda Wege (Echte) Straße -->
+		</Item>
+		<Item>
+			<Building>1337500030</Building><!-- Noble Straße -->
+		</Item>
+		<Item>
+			<Building>1337500032</Building><!-- Edle Straße -->
+		</Item>
+		<Item>
+			<Building>1337500034</Building><!-- Schotterweg -->
+		</Item>
+		
+		<Item>
+			<Building>1337502615</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502616</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502617</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502618</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502619</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502620</Building><!-- Africa Decal 01 Fakestrasse -->
+		</Item>
+		
+		<Item>
+			<Building>1337501339</Building><!-- Hacienda Pflaster Fakestraße -->
+		</Item>
+		<Item>
+			<Building>1337501341</Building><!-- Hacienda Weg Fakestraße -->
+		</Item>
+		
 		<Item>
 			<Building>1337502614</Building><!-- Sandstrasse Fakestrasse -->
+		</Item>
+		
+		<Item>
+			<Building>1337502600</Building><!-- Kopfsteinpflaster Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337502601</Building><!-- Helles Kopfsteinpflaster Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500249</Building><!-- GEHWEG Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500183</Building><!-- Friedhofswege Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500245</Building><!-- Baumallee Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500246</Building><!-- Bemooster Weg Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500247</Building><!-- Alter Pflasterweg Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500248</Building><!-- Pflasterstraße Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500053</Building><!-- Plazaboden 15 Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500250</Building><!-- Überdachte Plaza Fakestrasse -->
+		</Item>
+		<Item>
+			<Building>1337500147</Building><!-- Überdachte Promenade -->
 		</Item>
 		
 		<Item>
@@ -6790,11 +7346,24 @@
 			<Building>1337502518</Building><!-- Baubarer See Für Modulare StrassenBrücken -->
 		</Item>
 		<Item>
+			<Building>1337502632</Building><!-- Baubarer See Für Modulare StrassenBrücken Afrika-->
+		</Item>
+		
+		<Item>
 			<Building>1337502528</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken -->
 		</Item>
 		<Item>
 			<Building>1337502529</Building><!-- Baubarer Betonsee Für Modulare StrassenBrücken NW -->
 		</Item>
+		<Item>
+			<Building>1337502633</Building><!-- Placeable Swans -->
+		</Item>
+		
+		<!-- 
+		<Item>
+			<Building>1337500251</Building>Schienenstrasse
+		</Item>
+		 -->
     </ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 	<ModOp Type="addNextSibling" GUID='1337502509' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '112113']">
@@ -6918,6 +7487,10 @@
 												<Asset>1337502518</Asset>
 											</Item>
 											<Item>
+												<Asset>1337502632</Asset>
+											</Item>
+											
+											<Item>
 												<Asset>1337502528</Asset>
 											</Item>
 											<Item>
@@ -6926,6 +7499,10 @@
 											
 											<Item>
 												<Asset>1337500251</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502633</Asset>
 											</Item>
 											
 											
@@ -7022,6 +7599,10 @@
 												<Asset>1337502518</Asset>
 											</Item>
 											<Item>
+												<Asset>1337502632</Asset>
+											</Item>
+											
+											<Item>
 												<Asset>1337502528</Asset>
 											</Item>
 											<Item>
@@ -7030,6 +7611,10 @@
 											
 											<Item>
 												<Asset>1337500251</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502633</Asset>
 											</Item>
 											
 										</UnhideAssets>
@@ -7045,4 +7630,4 @@
 	</ModOp>
 </ModOps>
 
-<!-- 2023-03-07 14:03:27 -->
+<!-- 2023-03-09 03:59:38 -->
