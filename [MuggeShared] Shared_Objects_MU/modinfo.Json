@@ -1,6 +1,9 @@
 {
   "Version": "1.2",
   "ModID": "Shared_Objects_MU",
+  "LoadAfterIds": [
+    "A_Modified_Ornaments_Tab"
+  ]
   "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
@@ -55,29 +58,10 @@
       "Russian": null,
       "Spanish": null,
       "Taiwanese": null
-    },
-    {
-      "Chinese": null,
-      "English": null,
-      "French": null,
-      "German": null,
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
     }
   ],
-  "DLCDependencies": [
-    {
-      "DLC": null,
-      "Dependant": null
-    }
-	
-  ],
+  "DLCDependencies": [],
   "CreatorName": "muggenstuermer",
-  "CreatorContact": "https://discord.gg/2yNrjsk9R8",
+  "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
   "Image" : null
 }

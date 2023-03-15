@@ -1,6 +1,11 @@
 {
   "Version": "1.2",
   "ModID": "Streets_Related_MU",
+  "LoadAfterIds": [
+    "A_Modified_Ornaments_Tab",
+	"Shared_Objects_MU",
+	"Green_Mile_MU"
+  ]
   "IncompatibleIds": null,
   "ModDependencies": [ 
 	"A_Modified_Ornaments_Tab",
@@ -47,19 +52,6 @@
     "Taiwanese": null
   },
   "KnownIssues": [
-    {
-      "Chinese": null,
-      "English": null,
-      "French": null,
-      "German": null,
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
-    },
     {
       "Chinese": null,
       "English": null,

@@ -1,0 +1,273 @@
+<ModOps>
+<!--
+
+1337502634 Buildmenu OW
+1337502635 Buildmenu NW
+1337502636 Buildmenu ENBESA
+1337502637 Buildmenu ARCTIC
+
+1337502638 Buildmenu HARBOR OW
+1337502639 Buildmenu HARBOR NW
+1337502640 Buildmenu HARBOR ENBESA
+1337502641 Buildmenu HARBOR ARCTIC
+
+-->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502634</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 
+					</BuildingList>
+					<CategoryDescription>4285</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>GroundPlacements</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID />
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502635</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 
+					</BuildingList>
+					<CategoryDescription>4285</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<TextOverride>1337502634</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502636</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 
+					</BuildingList>
+					<CategoryDescription>4285</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<TextOverride>1337502634</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502637</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 
+					</BuildingList>
+					<CategoryDescription>4285</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<TextOverride>1337502634</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502638</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_harbor_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 
+					</BuildingList>
+					<CategoryDescription>132438</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>GroundPlacements</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID />
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU HARBOR NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502639</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_harbor_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 
+					</BuildingList>
+					<CategoryDescription>132438</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<TextOverride>1337502638</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502640</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_harbor_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 
+					</BuildingList>
+					<CategoryDescription>132438</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<TextOverride>1337502638</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU HARBOR ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010343'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502641</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_harbor_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						
+					</BuildingList>
+					<CategoryDescription>132438</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<TextOverride>1337502638</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Add OW Pavements Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505000' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502634</Building>
+		</Item>
+	</ModOp>
+	
+	<!-- Add NW Pavements Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505001' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502635</Building>
+		</Item>
+	</ModOp>
+	
+	<!-- Add Africa Pavements Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505014' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502636</Building>
+		</Item>
+	</ModOp>
+	
+	<!-- Add Artic Pavements Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505006' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502637</Building>
+		</Item>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG HAFEN xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Add OW Pavements HARBOR Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505018' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502638</Building>
+		</Item>
+	</ModOp>
+	
+	<!-- Add NW Pavements HARBOR Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505019' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502639</Building>
+		</Item>
+	</ModOp>
+	
+	<!-- Add Africa Pavements HARBOR Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505021' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502640</Building>
+		</Item>
+	</ModOp>
+	
+	<!-- Add Artic Pavements HARBOR Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505020' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502641</Building>
+		</Item>
+	</ModOp>
+</ModOps>
+
+<!-- 2023-03-15 18:33:52 -->

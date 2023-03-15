@@ -326,6 +326,9 @@
 							<Building>1337500183</Building>
 						</Item>
 						<Item>
+							<Building>1337502643</Building>
+						</Item>
+						<Item>
 							<Building>1337500245</Building>
 						</Item>
 						<Item>
@@ -572,6 +575,7 @@
                     <IconFilename>data/ui/2kimages/main/3dicons/alley/baumalle_straight.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
                 </Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -795,6 +799,7 @@
                     <IconFilename>data/ui/2kimages/main/3dicons/moosy/moos_straight.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
                 </Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -1018,6 +1023,7 @@
                     <IconFilename>data/ui/2kimages/main/3dicons/old_path/pflasterweg.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
                 </Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -1217,6 +1223,7 @@
                     <IconFilename>data/ui/2kimages/main/3dicons/cobbled/pflasterstrasse_straight.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
                 </Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -1440,6 +1447,7 @@
 					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_straight.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
 				</Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -1662,6 +1670,7 @@
 					<IconFilename>data\ui\2kimages\main\3dicons\promenade\glasdach.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
 				</Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -1681,6 +1690,12 @@
 						</Item>
 						<Item>
 							<Building>1337500053</Building>
+						</Item>
+						<Item>
+							<Building>1337502645</Building>
+						</Item>
+						<Item>
+							<Building>1337502646</Building>
 						</Item>
 					</InfluencedByNeighbors>
 					<InfluencedVariationDirection>
@@ -1864,6 +1879,7 @@
 					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_courtyard_1.png</IconFilename>
                     <InfoDescription>12750</InfoDescription>
                 </Standard>
+				<Text />
                 <Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -1943,6 +1959,7 @@
                     <IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_street_1.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
                 </Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -2159,6 +2176,7 @@
 					<IconFilename>data/ui/2kimages/main/3dicons/palace/palace_path.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
 				</Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -2178,6 +2196,12 @@
 						</Item>
 						<Item>
 							<Building>1337500250</Building>
+						</Item>
+						<Item>
+							<Building>1337502645</Building>
+						</Item>
+						<Item>
+							<Building>1337502646</Building>
 						</Item>
 					</InfluencedByNeighbors>
 					<InfluencedVariationDirection>
@@ -2361,6 +2385,7 @@
 					<IconFilename>data/ui/2kimages/main/3dicons/promenade_roofed/promenade_roofed.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
 				</Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -2582,15 +2607,7 @@
 					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_01.png</IconFilename>
 					<InfoDescription>12750</InfoDescription>
 				</Standard>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Sand</Text>
-							<Status>Exported</Status>
-						</English>
-					</LocaText>
-					<LineID>60408</LineID>
-				</Text>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -2603,6 +2620,9 @@
 					<InfluencedByNeighbors>
 						<Item>
 							<Building>1337502614</Building>
+						</Item>
+						<Item>
+							<Building>1337502647</Building>
 						</Item>
 						<Item>
 							<Building>7895</Building>
@@ -2858,7 +2878,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\streets\africa\enbesa_decal_01.cfg</Filename>
+							<Filename>data\muggenstuermer\africa_decals\enbesa_decal_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -2923,7 +2943,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\streets\africa\enbesa_decal_02.cfg</Filename>
+							<Filename>data\muggenstuermer\africa_decals\enbesa_decal_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -2988,7 +3008,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\streets\africa\enbesa_decal_03.cfg</Filename>
+							<Filename>data\muggenstuermer\africa_decals\enbesa_decal_03.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -3053,7 +3073,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\streets\africa\enbesa_decal_04.cfg</Filename>
+							<Filename>data\muggenstuermer\africa_decals\enbesa_decal_04.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -3118,7 +3138,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\streets\africa\africa_full_mid_01.cfg</Filename>
+							<Filename>data\muggenstuermer\africa_decals\africa_full_mid_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -3183,7 +3203,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\streets\africa\africa_full_mid_02.cfg</Filename>
+							<Filename>data\muggenstuermer\africa_decals\africa_full_mid_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -5489,6 +5509,7 @@
 					<InfoDescription>163093</InfoDescription>
 					<ID>StraightCanalRiverPond</ID>
 				</Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -6192,6 +6213,7 @@
 					<InfoDescription>163093</InfoDescription>
 					<ID>StraightCanalRiverPond</ID>
 				</Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -6532,6 +6554,7 @@
 					<InfoDescription>163093</InfoDescription>
 					<ID>StraightCanalRiverPond</ID>
 				</Standard>
+				<Text />
 				<Blocking>
 					<HidePropsRadius>0</HidePropsRadius>
 					<DeletePropsRadius>0</DeletePropsRadius>
@@ -7630,4 +7653,4 @@
 	</ModOp>
 </ModOps>
 
-<!-- 2023-03-09 03:59:38 -->
+<!-- 2023-03-10 05:21:12 -->

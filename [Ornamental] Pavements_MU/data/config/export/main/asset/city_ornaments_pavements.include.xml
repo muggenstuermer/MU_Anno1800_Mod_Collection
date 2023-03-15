@@ -1,0 +1,5351 @@
+<ModOps>
+
+
+<!--
+Decals ALL
+xxxxxxxxxx
+1337502643 Friedhofs Platz
+1337502644 Alter Pflasterweg Platz
+1337502645 Überdachter Platz
+1337502646 Einfacher Platz
+1337502647 Sand Platz
+1337502678 Original Pflaster Kopie
+1337502679 Original Friedhofspflaster Kopie
+1337502680 Original Mosaikpflaster Kopie
+1337502681 Original Promenade Kopie
+1337502682 Original Betonboden Kopie
+1337502683 Original Gehweg Kopie
+1337502684 Original Kopfsteinpflaster Kopie
+1337502685 Original Helles Kopfsteinpflaster Kopie
+
+Decals OW
+xxxxxxxxx
+1337500039  OW Plaza 01
+1337500040  OW Plaza 02
+1337500041  OW Plaza 03
+1337500042  OW Plaza 04
+1337500043  OW Plaza 05
+1337500044  OW Plaza 06
+1337500045  OW Plaza 07
+1337500046  OW Plaza 08
+1337500047  OW Plaza 09
+1337500048  OW Plaza 10
+1337500049  OW Plaza 11
+
+Decals NW
+xxxxxxxxx
+1337502648  NW Plaza 01
+1337502649  NW Plaza 02
+1337502650  NW Plaza 03
+1337502651  NW Plaza 04
+1337502652  NW Plaza 05
+1337502653  NW Plaza 06
+1337502654  NW Plaza 07
+1337502655  NW Plaza 08
+1337502656  NW Plaza 09
+1337502657  NW Plaza 10
+1337502658  NW Plaza 11
+
+Decals AFRICA
+xxxxxxxxx
+1337502659  AFRICA Decal 01
+1337502660  AFRICA Decal 02
+1337502661  AFRICA Decal 03
+1337502662  AFRICA Decal 04
+1337502663  AFRICA Decal 05
+1337502664  AFRICA Decal 06
+1337502665  AFRICA Plaza 01
+1337502666  AFRICA Plaza 02
+1337502667  AFRICA Plaza 03
+1337502668  AFRICA Plaza 04
+1337502669  AFRICA Plaza 05
+1337502670  AFRICA Plaza 06
+1337502671  AFRICA Plaza 07
+1337502672  AFRICA Plaza 08
+1337502673  AFRICA Plaza 09
+1337502674  AFRICA Plaza 10
+1337502675  AFRICA Plaza 11
+1337502676  AFRICA Plaza 12
+1337502677  AFRICA Plaza 13
+1337502686  Original Sandfläche Kopie aus dlc11_airport_ornaments_1x1_empty_colony_ground_diff
+
+1337502642 Trigger
+
+-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	
+	<!-- Friedhofs Platz -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502643</GUID>
+                    <Name>Graveyard_path</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\grave\grave_straight.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>6871</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337502643</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502643</Building>
+						</Item>
+						<Item>
+							<Building>1337500183</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>0</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>0</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<Single>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Single>
+						<DontCare />
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+						  </Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_straight.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_end.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_corner.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_cross.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\grave\grave_t.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\graveyard_path\path_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\graveyard_path\path_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\graveyard_path\path_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\graveyard_path\path_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\graveyard_path\path_t_cross.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Alter Pflasterweg Platz -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502644</GUID>
+                    <Name>Alley3</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/old_path/pflasterweg.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502644</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\old_path\old_path.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Überdachter Platz -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502645</GUID>
+                    <Name>Groundplane System</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\promenade\glasdach.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337502645</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502645</Building>
+						</Item>
+						<Item>
+							<Building>1337502646</Building>
+						</Item>
+						<Item>
+							<Building>1337500250</Building>
+						</Item>
+						<Item>
+							<Building>1337500053</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.psd</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.psd</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.psd</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.psd</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.psd</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\promenade\promenade_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\promenade\promenade_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\promenade\promenade_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\promenade\promenade_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\promenade\promenade_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Einfacher Platz -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502646</GUID>
+                    <Name>Groundplane System</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/palace/palace_path.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337502646</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502646</Building>
+						</Item>
+						<Item>
+							<Building>1337502645</Building>
+						</Item>
+						<Item>
+							<Building>1337500250</Building>
+						</Item>
+						<Item>
+							<Building>1337500053</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\palace_path\palace_path_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\palace_path\palace_path_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\palace_path\palace_path_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\palace_path\palace_path_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\palace_path\palace_path_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Sand Platz -->
+	<ModOp Type="addNextSibling" GUID='1010035'>	
+		<Asset>
+			<Template>OrnamentalBuilding</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502647</GUID>
+					<Name>Beach Ornament Sandvariations</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_01.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502647</Building>
+						</Item>
+						<Item>
+							<Building>1337502614</Building>
+						</Item>
+						<Item>
+							<Building>7895</Building>
+						</Item>
+						<Item>
+							<Building>7085</Building>
+						</Item>
+						<Item>
+							<Building>7178</Building>
+						</Item>
+						<Item>
+							<Building>7179</Building>
+						</Item>
+						<Item>
+							<Building>7181</Building>
+						</Item>
+						<Item>
+							<Building>7879</Building>
+						</Item>
+						<Item>
+							<Building>7880</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Single</Type>
+						</Item>
+						<Item>
+							<Type>Single</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<BuildingBlockPool>
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>6</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>7</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Single>
+							<Pool>
+								<Item />
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Single>
+					</BuildingBlockPool>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_01.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_04.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_01.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\beach_groundplate_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\beach_groundplate_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\beach_groundplate_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\beach_groundplate_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\beach_groundplate_corner_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\beach_groundplate_corner_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\beach_groundplate_corner_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\beach_groundplate_corner_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<Ornament>
+					<OrnamentUnit>2</OrnamentUnit>
+					<OrnamentDescription>8272</OrnamentDescription>
+					<OrnamentType>Ornament_Beach</OrnamentType>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Original Pflaster Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502678</GUID>
+                    <Name>culture_1x1_plaza</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornament_placeholders/cultural_1x1_01.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502678</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\culture_1x1_plaza\cultural_props_1x1_01.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Original Friedhofspflaster Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502679</GUID>
+                    <Name>GG_Graveyard_Cobblestone_01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ground_plane_cobblestone\icon_graveyard_cementery_cobble.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>6871</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502679</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ground_plane_cobblestone\ground_plane_cobblestone.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Original Mosaikpflaster Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502680</GUID>
+                    <Name>culture_1x1_secondground</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/monument_01_1x1_05.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>102466</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502680</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\culture_1x1_secondground\monument_01_1x1_05.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Original Promenade Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502681</GUID>
+                    <Name>Palace Ornament01 Set02 promenade</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_straight_promenade.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>269303</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502681</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+                        <Item>
+                          <Building>1337502681</Building>
+                        </Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+								<Item>
+									<Variation>5</Variation>
+								</Item>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>5</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_straight_promenade.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_promenade_end.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_promenade_angle.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_promenade_crossing.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_promenade_junction.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_ornament/icon_ornament_straight_promenade_variation.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\uplay_promenade\up_dlc04_props_system_1x1_street_straight_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\uplay_promenade\up_dlc04_props_system_1x1_street_end_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\uplay_promenade\up_dlc04_props_system_1x1_street_corner_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\uplay_promenade\up_dlc04_props_system_1x1_street_cross_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\uplay_promenade\up_dlc04_props_system_1x1_street_tee_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\uplay_promenade\up_dlc04_props_system_1x1_street_straight_02.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Original Betonboden Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502682</GUID>
+                    <Name>BH Ornament24 Empty Groundplane</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_ground.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>270038</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502682</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\concrete_floor\industrial_props_system_1x1_ground_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\concrete_floor\industrial_props_system_1x1_ground_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\concrete_floor\industrial_props_system_1x1_ground_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\concrete_floor\industrial_props_system_1x1_ground_04.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Original Gehweg Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502683</GUID>
+                    <Name>Groundplane System</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_straight.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>137776</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502683</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502683</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item />
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_straight.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_end.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_corner.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_cross.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_tcross.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\groundplane\groundplane_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\groundplane\groundplane_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\groundplane\groundplane_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\groundplane\groundplane_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\groundplane\groundplane_07.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Original Kopfsteinpflaster Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502684</GUID>
+                    <Name>CDLC09 CobbleGrey</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_01.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>5218</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502684</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_01.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\cobble_grey\cobble_v01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\cobble_grey\cobble_v02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\cobble_grey\cobble_v03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\cobble_grey\cobble_v04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Original Helles Kopfsteinpflaster Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502685</GUID>
+                    <Name>CDLC09 CobbleWhite</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_01.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>5220</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502685</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_01.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_cobblestone_bright_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\cobble_white\cobble_white_v01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\cobble_white\cobble_white_v02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\cobble_white\cobble_white_v03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\cobble_white\cobble_white_v04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<!-- OW Plaza 01 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500039</GUID>
+                    <Name>Square01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_01.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500039</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_01.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+
+	<!-- OW Plaza 02 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500040</GUID>
+                    <Name>Square02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_02.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500040</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_02.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+
+	<!-- OW Plaza 03 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500041</GUID>
+                    <Name>Square03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_03.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500041</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_03.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- OW Plaza 04 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500042</GUID>
+                    <Name>Square04</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_04.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500042</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_04.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- OW Plaza 05 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500043</GUID>
+                    <Name>Square05</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_05.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500043</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_05.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- OW Plaza 06 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500044</GUID>
+                    <Name>Square06</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_06.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500044</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_06.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- OW Plaza 07 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500045</GUID>
+                    <Name>Square07</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_07.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500045</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_07.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- OW Plaza 08 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500046</GUID>
+                    <Name>Square08</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_08.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500046</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_08.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- OW Plaza 09 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500047</GUID>
+                    <Name>Square09</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_09.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500047</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_09.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- OW Plaza 10 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500048</GUID>
+                    <Name>Square10</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_10.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500048</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_10.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- OW Plaza 11 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500049</GUID>
+                    <Name>Square11</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\ow_plaza_decals\plaza_ow_11.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337500049</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\ow\plaza_1x1_11.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<!-- NW Plaza 01 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502648</GUID>
+                    <Name>SquareNW01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_01.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502648</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_01.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 02 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502649</GUID>
+                    <Name>SquareNW02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_02.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502649</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_02.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 03 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502650</GUID>
+                    <Name>SquareNW03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_03.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502650</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_03.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 04 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502651</GUID>
+                    <Name>SquareNW04</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_04.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502651</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_04.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 05 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502652</GUID>
+                    <Name>SquareNW05</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_05.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502652</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_05.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 06 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502653</GUID>
+                    <Name>SquareNW06</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_06.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502653</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_06.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 07 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502654</GUID>
+                    <Name>SquareNW07</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_07.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502654</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_07.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 08 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502655</GUID>
+                    <Name>SquareNW08</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_08.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502655</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_08.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 09 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502656</GUID>
+                    <Name>SquareNW09</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_09.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502656</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_09.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 10 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502657</GUID>
+                    <Name>SquareNW10</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_10.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502657</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_10.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- NW Plaza 11 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502658</GUID>
+                    <Name>SquareNW11</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\nw_plaza_decals\plaza_nw_11.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502658</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\nw\plaza_1x1_11.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Africa Decal 01 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502659</GUID>
+                    <Name>DecalAfrica01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_14.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502659</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_14.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 02 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502660</GUID>
+                    <Name>DecalAfrica02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_15.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502660</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_15.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 03 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502661</GUID>
+                    <Name>DecalAfrica03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_16.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502661</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_16.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 04 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502662</GUID>
+                    <Name>DecalAfrica04</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_17.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502662</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_17.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 05 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502663</GUID>
+                    <Name>DecalAfrica05</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_12.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502663</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_12.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Decal 06 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502664</GUID>
+                    <Name>DecalAfrica06</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_13.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502664</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_13.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 01 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502665</GUID>
+                    <Name>SquareAfrica01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_01.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502665</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_01.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 02 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502666</GUID>
+                    <Name>SquareAfrica02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_02.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502666</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_02.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 03 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502667</GUID>
+                    <Name>SquareAfrica03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_03.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502667</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_03.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 04 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502668</GUID>
+                    <Name>SquareAfrica04</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_04.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502668</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_04.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 05 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502669</GUID>
+                    <Name>SquareAfrica05</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_05.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502669</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_05.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 06 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502670</GUID>
+                    <Name>SquareAfrica06</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_06.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502670</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_06.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 07 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502671</GUID>
+                    <Name>SquareAfrica07</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_07.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502671</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_07.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 08 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502672</GUID>
+                    <Name>SquareAfrica08</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_08.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502672</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_08.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 09 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502673</GUID>
+                    <Name>SquareAfrica09</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_09.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502673</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_09.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 10 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502674</GUID>
+                    <Name>SquareAfrica10</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_10.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502674</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_10.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 11 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502675</GUID>
+                    <Name>SquareAfrica11</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_11.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502675</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_11.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 12 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502676</GUID>
+                    <Name>SquareAfrica12</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_18.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>1</BuildModeStartVariation>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502676</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502676</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+									<DirectionOffet>1</DirectionOffet>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+									<DirectionOffet>3</DirectionOffet>
+								</Item>
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>6</Variation>
+									<DirectionOffet>1</DirectionOffet>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+									<DirectionOffet>3</DirectionOffet>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_18_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_18_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_18_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_18_corner_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_18_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_18_cross_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_18_t_cross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_18_t_cross_02.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Africa Plaza 13 -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502677</GUID>
+                    <Name>Graveyard_path</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\africa_plaza_decals\plaza_africa_19.png</IconFilename>
+                </Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337502677</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502677</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>0</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>0</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Direction>0</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<Single>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Single>
+						<DontCare />
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>0</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+						  </Pool>
+						</Corner>
+						<Mid />
+						<End />
+						<TCrossing />
+						<Crossing />
+					</BuildingBlockPool>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_19.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\africa\plaza_1x1_20.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>4</PlazzaSize>
+					<OrnamentUnit>4</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Original Sandfläche Kopie aus dlc11_airport_ornaments_1x1_empty_colony_ground_diff -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502686</GUID>
+                    <Name>AfriPark_Plain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/africa/icon_sand_01.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>130719</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337502686</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\ornaments_1x1_sand_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pavement\sand\ornaments_1x1_sand_02.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="add" GUID='1337502634' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502678</Building><!-- Original Pflaster -->
+		</Item>
+		<Item>
+			<Building>1337502679</Building><!-- Original Friedhofspflaster -->
+		</Item>
+		<Item>
+			<Building>1337502680</Building><!-- Original Mosaikpflaster -->
+		</Item>
+		<Item>
+			<Building>1337502681</Building><!-- Original Promenade -->
+		</Item>
+		<Item>
+			<Building>1337502682</Building><!-- Original Betonboden -->
+		</Item>
+		<Item>
+			<Building>1337502683</Building><!-- Original Gehweg -->
+		</Item>
+		<Item>
+			<Building>1337502684</Building><!-- Original Kopfsteinpflaster -->
+		</Item>
+		<Item>
+			<Building>1337502685</Building><!-- Original Helles Kopfsteinpflaster -->
+		</Item>
+	
+		<Item>
+			<Building>1337502643</Building><!-- Friedhofs Platz -->
+		</Item>
+		<Item>
+			<Building>1337502644</Building><!-- Alter Pflasterweg Platz -->
+		</Item>
+		<Item>
+			<Building>1337502645</Building><!-- Überdachter Platz -->
+		</Item>
+		<Item>
+			<Building>1337502646</Building><!-- Einfacher Platz -->
+		</Item>
+		<Item>
+			<Building>1337500039</Building><!--  OW Plaza 01  -->
+		</Item>
+		<Item>
+			<Building>1337500040</Building><!--  OW Plaza 02  -->
+		</Item>
+		<Item>
+			<Building>1337500041</Building><!--  OW Plaza 03  -->
+		</Item>
+		<Item>
+			<Building>1337500042</Building><!--  OW Plaza 04  -->
+		</Item>
+		<Item>
+			<Building>1337500043</Building><!--  OW Plaza 05  -->
+		</Item>
+		<Item>
+			<Building>1337500044</Building><!--  OW Plaza 06  -->
+		</Item>
+		<Item>
+			<Building>1337500045</Building><!--  OW Plaza 07  -->
+		</Item>
+		<Item>
+			<Building>1337500046</Building><!--  OW Plaza 08  -->
+		</Item>
+		<Item>
+			<Building>1337500047</Building><!--  OW Plaza 09  -->
+		</Item>
+		<Item>
+			<Building>1337500048</Building><!--  OW Plaza 10  -->
+		</Item>
+		<Item>
+			<Building>1337500049</Building><!--  OW Plaza 11  -->
+		</Item>
+		<Item>
+			<Building>1337502686</Building><!-- Sandfläche -->
+		</Item>
+		<Item>
+			<Building>1337502647</Building><!-- Sand Platz -->
+		</Item>
+
+	</ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="add" GUID='1337502635' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502678</Building><!-- Original Pflaster -->
+		</Item>
+		<Item>
+			<Building>1337502679</Building><!-- Original Friedhofspflaster -->
+		</Item>
+		<Item>
+			<Building>1337502680</Building><!-- Original Mosaikpflaster -->
+		</Item>
+		<Item>
+			<Building>1337502681</Building><!-- Original Promenade -->
+		</Item>
+		<Item>
+			<Building>1337502682</Building><!-- Original Betonboden -->
+		</Item>
+		<Item>
+			<Building>1337502683</Building><!-- Original Gehweg -->
+		</Item>
+		<Item>
+			<Building>1337502684</Building><!-- Original Kopfsteinpflaster -->
+		</Item>
+		<Item>
+			<Building>1337502685</Building><!-- Original Helles Kopfsteinpflaster -->
+		</Item>
+	
+		<Item>
+			<Building>1337502643</Building><!-- Friedhofs Platz -->
+		</Item>
+		<Item>
+			<Building>1337502644</Building><!-- Alter Pflasterweg Platz -->
+		</Item>
+		<Item>
+			<Building>1337502645</Building><!-- Überdachter Platz -->
+		</Item>
+		<Item>
+			<Building>1337502646</Building><!-- Einfacher Platz -->
+		</Item>
+		<Item>
+			<Building>1337502648</Building><!-- NW Plaza 01 -->
+		</Item>
+		<Item>
+			<Building>1337502649</Building><!-- NW Plaza 02 -->
+		</Item>
+		<Item>
+			<Building>1337502650</Building><!-- NW Plaza 03 -->
+		</Item>
+		<Item>
+			<Building>1337502651</Building><!-- NW Plaza 04 -->
+		</Item>
+		<Item>
+			<Building>1337502652</Building><!-- NW Plaza 05 -->
+		</Item>
+		<Item>
+			<Building>1337502653</Building><!-- NW Plaza 06 -->
+		</Item>
+		<Item>
+			<Building>1337502654</Building><!-- NW Plaza 07 -->
+		</Item>
+		<Item>
+			<Building>1337502655</Building><!-- NW Plaza 08 -->
+		</Item>
+		<Item>
+			<Building>1337502656</Building><!-- NW Plaza 09 -->
+		</Item>
+		<Item>
+			<Building>1337502657</Building><!-- NW Plaza 10 -->
+		</Item>
+		<Item>
+			<Building>1337502658</Building><!-- NW Plaza 11 -->
+		</Item>
+		<Item>
+			<Building>1337502686</Building><!-- Sandfläche -->
+		</Item>
+		<Item>
+			<Building>1337502647</Building><!-- Sand Platz -->
+		</Item>
+		
+	</ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU Africa xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="add" GUID='1337502636' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502678</Building><!-- Original Pflaster -->
+		</Item>
+		<Item>
+			<Building>1337502679</Building><!-- Original Friedhofspflaster -->
+		</Item>
+		<Item>
+			<Building>1337502680</Building><!-- Original Mosaikpflaster -->
+		</Item>
+		<Item>
+			<Building>1337502681</Building><!-- Original Promenade -->
+		</Item>
+		<Item>
+			<Building>1337502682</Building><!-- Original Betonboden -->
+		</Item>
+		<Item>
+			<Building>1337502683</Building><!-- Original Gehweg -->
+		</Item>
+		<Item>
+			<Building>1337502684</Building><!-- Original Kopfsteinpflaster -->
+		</Item>
+		<Item>
+			<Building>1337502685</Building><!-- Original Helles Kopfsteinpflaster -->
+		</Item>
+	
+		<Item>
+			<Building>1337502643</Building><!-- Friedhofs Platz -->
+		</Item>
+		<Item>
+			<Building>1337502644</Building><!-- Alter Pflasterweg Platz -->
+		</Item>
+		<Item>
+			<Building>1337502645</Building><!-- Überdachter Platz -->
+		</Item>
+		<Item>
+			<Building>1337502646</Building><!-- Einfacher Platz -->
+		</Item>
+		
+		<Item>
+			<Building>1337502659</Building><!-- Africa Decal 01 -->
+		</Item>
+		<Item>
+			<Building>1337502660</Building><!-- Africa Decal 02 -->
+		</Item>
+		<Item>
+			<Building>1337502661</Building><!-- Africa Decal 03 -->
+		</Item>
+		<Item>
+			<Building>1337502662</Building><!-- Africa Decal 04 -->
+		</Item>
+		<Item>
+			<Building>1337502663</Building><!-- Africa Decal 05 -->
+		</Item>
+		<Item>
+			<Building>1337502664</Building><!-- Africa Decal 06 -->
+		</Item>
+		
+		<Item>
+			<Building>1337502665</Building><!-- Africa Plaza 01 -->
+		</Item>
+		<Item>
+			<Building>1337502666</Building><!-- Africa Plaza 02 -->
+		</Item>
+		<Item>
+			<Building>1337502667</Building><!-- Africa Plaza 03 -->
+		</Item>
+		<Item>
+			<Building>1337502668</Building><!-- Africa Plaza 04 -->
+		</Item>
+		<Item>
+			<Building>1337502669</Building><!-- Africa Plaza 05 -->
+		</Item>
+		<Item>
+			<Building>1337502670</Building><!-- Africa Plaza 06 -->
+		</Item>
+		<Item>
+			<Building>1337502671</Building><!-- Africa Plaza 07 -->
+		</Item>
+		<Item>
+			<Building>1337502672</Building><!-- Africa Plaza 08 -->
+		</Item>
+		<Item>
+			<Building>1337502673</Building><!-- Africa Plaza 09 -->
+		</Item>
+		<Item>
+			<Building>1337502674</Building><!-- Africa Plaza 10 -->
+		</Item>
+		<Item>
+			<Building>1337502675</Building><!-- Africa Plaza 11 -->
+		</Item>
+		<Item>
+			<Building>1337502676</Building><!-- Africa Plaza 12 -->
+		</Item>
+		<Item>
+			<Building>1337502677</Building><!-- Africa Plaza 13 -->
+		</Item>
+		<Item>
+			<Building>1337502686</Building><!-- Sandfläche -->
+		</Item>
+		<Item>
+			<Building>1337502647</Building><!-- Sand Platz -->
+		</Item>
+		
+		
+	</ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>FeatureUnlock</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502642</GUID>
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+                <Text />
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337502643</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502644</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502645</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502646</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502647</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500039</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500040</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500041</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500042</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500043</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500044</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500045</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500046</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500047</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500048</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500049</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502648</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502649</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502650</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502651</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502652</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502653</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502654</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502655</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502656</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502657</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502658</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502659</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502660</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502661</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502662</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502663</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502664</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502665</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502666</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502667</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502668</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502669</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502670</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502671</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502672</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502673</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502674</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502675</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502676</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502677</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502678</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502679</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502680</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502681</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502682</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502683</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502684</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502685</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502686</Asset>
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>1337502643</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502644</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502645</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502646</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502647</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500039</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500040</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500041</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500042</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500043</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500044</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500045</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500046</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500047</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500048</Asset>
+											</Item>
+											<Item>
+												<Asset>1337500049</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502648</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502649</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502650</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502651</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502652</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502653</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502654</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502655</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502656</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502657</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502658</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502659</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502660</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502661</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502662</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502663</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502664</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502665</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502666</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502667</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502668</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502669</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502670</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502671</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502672</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502673</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502674</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502675</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502676</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502677</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502678</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502679</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502680</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502681</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502683</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502684</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502685</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502686</Asset>
+											</Item>
+											
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>
+
+<!-- 2023-03-15 18:34:11 -->
