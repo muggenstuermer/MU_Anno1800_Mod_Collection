@@ -32,6 +32,41 @@
 
 1337502687 Trigger
 -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx some adjustments on original assets xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Kai mit dirt decal statt Kisten OW / NW UND ARKTIS --><!-- PAVEMENT -->
+	<!-- Quay without cladder - taken from Spice it Up / [Addon] Harborlife - Creator: MystiqueBee84 - allowed by Taubenangriff to make this mod independent -->
+    <ModOp Type="replace" GUID='102344,80173' Path="Values/Object/Variations">
+        <Variations>
+            <Item>
+                <Filename>data/graphics/effects/decals/dirt_decals/dirt_decal_1x1_01.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/graphics/effects/decals/dirt_decals/dirt_decal_1x1_02.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/graphics/effects/decals/dirt_decals/dirt_decal_1x2_01.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/graphics/effects/decals/dirt_decals/dirt_decal_1x1_01.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/graphics/effects/decals/dirt_decals/dirt_decal_1x1_02.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/graphics/effects/decals/dirt_decals/dirt_decal_1x2_01.cfg</Filename>
+            </Item>
+            <Item>
+                <Filename>data/graphics/effects/decals/dirt_decals/dirt_decal_1x2_02.cfg</Filename>
+            </Item>
+        </Variations>
+    </ModOp>
+	
+	<!-- Holzpflöcke im hafenbereich entfernen -->
+	<ModOp Type="replace" GUID='100452' Path="/Values/Street/CfgFileName">
+		<CfgFileName></CfgFileName>
+    </ModOp>
+
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Make the Africa quay available xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="replace" GUID='117729'>
 		<Asset>
@@ -2461,4 +2496,4 @@
 	</ModOp>
 </ModOps>
 
-<!-- 2023-03-15 18:34:31 -->
+<!-- 2023-03-16 06:44:07 -->

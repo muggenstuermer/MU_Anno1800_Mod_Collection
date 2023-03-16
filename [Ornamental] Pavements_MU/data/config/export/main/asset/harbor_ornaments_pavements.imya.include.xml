@@ -1,0 +1,12 @@
+<ModOps>
+	<!-- Description -->
+	<ImyaTweaks Title="Incrase and Decrase the Harbour Construction Area Radius to your needs" />
+	
+	 <!-- Change Harbour Construction Area Radius -->
+	<ModOp Type="replace" GUID="2001241" Path="/Values/BuildingBaseTiles/HarbourConstructionAreaRadius" ModOpID="SetHarbourConstructionAreaRadiusMU">
+		<HarbourConstructionAreaRadius>90</HarbourConstructionAreaRadius>
+	</ModOp>
+	<ImyaExpose Path="self::HarbourConstructionAreaRadius" ModOpID="SetHarbourConstructionAreaRadiusMU" ExposeID="Set Value For Harbour Construction Area Radius" Description="Determines the size of Harbour Construction Area Radius ( Mod default settings = 90 )" Kind="Slider">
+		<SliderDefinition Min="0" Max="150" Stepping="1" />
+	</ImyaExpose>
+</ModOps>
