@@ -12,7 +12,7 @@
 1337501001 Kai mit Steg "unten" NW <InternalID>401</InternalID> -  modulo256 = 145
 1337501005 Kai mit Steg "oben" NW <InternalID>405</InternalID> -  modulo256 = 149
 1337501014 Kai rot NW <InternalID>409</InternalID> -  modulo256 = 153
-1337501018 Kai steinbrücke NW <InternalID>413</InternalID> -  modulo256 = 157
+1337501018 Kai steinbrücke NW <InternalID>255</InternalID> -  modulo256 = 255
 1337501022 Kai felswand NW <InternalID>417</InternalID> -  modulo256 = 161
 1337501025 Kai Stege NW <InternalID>420</InternalID> -  modulo256 = 164
 
@@ -25,7 +25,7 @@
 
 1337501002 Kai mit Steg "unten" ARKTIS <InternalID>402</InternalID> -  modulo256 = 146
 1337501006 Kai mit Steg "oben" ARKTIS <InternalID>406</InternalID> -  modulo256 = 150
-1337501019 Kai steinbrücke ARKTIS <InternalID>414</InternalID> -  modulo256 = 158
+1337501019 Kai steinbrücke ARKTIS <InternalID>256</InternalID> -  modulo256 = 256
 1337501026 Kai Stege ARKTIS <InternalID>421</InternalID> -  modulo256 = 165
 
 1337501016 Kai metall ALL <InternalID>411</InternalID> -  modulo256 = 155
@@ -966,7 +966,7 @@
 				</Cost>
 				<Street>
 					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_quays\stone_bridge_quay_nw\quay_system_01.cfg</CfgFileName>
-					<InternalID>413</InternalID><!-- modulo256 = 157 -->
+					<InternalID>255</InternalID><!-- modulo256 = 255 -->
 					<DecalMapping>data/config/street/quay_new.txt.bin</DecalMapping>
 					<DecalVariation>data/config/street/quay_new_var.txt</DecalVariation>
 					<StyleRows>8</StyleRows>
@@ -1947,7 +1947,7 @@
 				</Cost>
 				<Street>
 					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_quays\stone_bridge_quay_arctic\quay_system_01.cfg</CfgFileName>
-					<InternalID>414</InternalID><!-- modulo256 = 158 -->
+					<InternalID>256</InternalID><!-- modulo256 = 256 -->
 					<DecalMapping>data/config/street/quay_new.txt.bin</DecalMapping>
 					<DecalVariation>data/config/street/quay_new_var.txt</DecalVariation>
 					<StyleRows>8</StyleRows>
@@ -2496,4 +2496,4 @@
 	</ModOp>
 </ModOps>
 
-<!-- 2023-03-16 06:44:07 -->
+<!-- 2023-03-16 17:59:00 -->
