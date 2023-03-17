@@ -25,7 +25,7 @@
 
 1337501002 Kai mit Steg "unten" ARKTIS <InternalID>402</InternalID> -  modulo256 = 146
 1337501006 Kai mit Steg "oben" ARKTIS <InternalID>406</InternalID> -  modulo256 = 150
-1337501019 Kai steinbrücke ARKTIS <InternalID>256</InternalID> -  modulo256 = 256
+1337501019 Kai steinbrücke ARKTIS <InternalID>249</InternalID> -  modulo256 = 249
 1337501026 Kai Stege ARKTIS <InternalID>421</InternalID> -  modulo256 = 165
 
 1337501016 Kai metall ALL <InternalID>411</InternalID> -  modulo256 = 155
@@ -34,7 +34,7 @@
 -->
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx some adjustments on original assets xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-	<!-- Kai mit dirt decal statt Kisten OW / NW UND ARKTIS --><!-- PAVEMENT -->
+	<!-- Kai mit dirt decal statt Kisten OW / NW UND ARKTIS -->
 	<!-- Quay without cladder - taken from Spice it Up / [Addon] Harborlife - Creator: MystiqueBee84 - allowed by Taubenangriff to make this mod independent -->
     <ModOp Type="replace" GUID='102344,80173' Path="Values/Object/Variations">
         <Variations>
@@ -89,7 +89,7 @@
 				</Cost>
 				<Street>
 					<CfgFileName>data/dlc06/graphics/buildings/special/quay_system_01/props/quay_system_01.cfg</CfgFileName>
-					<InternalID>57</InternalID><!-- ORIGINAL -->
+					<InternalID>57</InternalID>
 					<DecalMapping>data/config/street/quay_new.txt.bin</DecalMapping>
 					<DecalVariation>data/config/street/quay_new_var.txt</DecalVariation>
 					<StyleRows>8</StyleRows>
@@ -1947,7 +1947,7 @@
 				</Cost>
 				<Street>
 					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_quays\stone_bridge_quay_arctic\quay_system_01.cfg</CfgFileName>
-					<InternalID>256</InternalID><!-- modulo256 = 256 -->
+					<InternalID>249</InternalID><!-- modulo256 = 249 -->
 					<DecalMapping>data/config/street/quay_new.txt.bin</DecalMapping>
 					<DecalVariation>data/config/street/quay_new_var.txt</DecalVariation>
 					<StyleRows>8</StyleRows>
