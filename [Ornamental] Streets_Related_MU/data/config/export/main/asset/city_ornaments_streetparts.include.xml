@@ -93,10 +93,11 @@
 			<Item />
 			<Item />
 			<Item>
-				<Cfg>data/cdlc05/graphics/buildings/ornamental/canal/irrigation_channel_short_01.cfg</Cfg>
+				<!--<Cfg>data/cdlc05/graphics/buildings/ornamental/canal/irrigation_channel_short_01.cfg</Cfg> no bridge -->
+				<Cfg>data/cdlc05/graphics/buildings/ornamental/canal/irrigation_channel_crossing_02.cfg</Cfg><!-- original bridge -->
 			</Item>
 			<Item>
-				<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges/vanilla_double.cfg</Cfg>
+				<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\vanilla_double.cfg</Cfg>
 			</Item>
 			<Item />
 			<Item />
@@ -5006,12 +5007,14 @@
 						<Item />
 						<Item />
 						<Item>
-							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02.cfg</Cfg>-->
-							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\singel_canal_fake_bridge_canal.cfg</Cfg>
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02.cfg</Cfg> chinese bridge -->
+							<!--<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\singel_canal_fake_bridge_canal.cfg</Cfg> no bridge -->
+							<Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_flat.cfg</Cfg><!-- beton bridge -->
 						</Item>
 						<Item>
-							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_closed_open.cfg</Cfg>-->
-							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\double_canal_fake_bridge_canal.cfg</Cfg>
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_closed_open.cfg</Cfg> chinese bridge -->
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_closed_open_flat.cfg</Cfg> beton bridge -->
+							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\double_canal_fake_bridge_canal.cfg</Cfg><!-- no bridge -->
 						</Item>
 						<Item />
 						<Item />
@@ -5257,12 +5260,14 @@
 						<Item />
 						<Item />
 						<Item>
-							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02.cfg</Cfg>-->
-							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\singel_canal_fake_bridge_canal_nw.cfg</Cfg>
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02.cfg</Cfg> chinese bridge -->
+							<!--<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\singel_canal_fake_bridge_canal_nw.cfg</Cfg> no bridge -->
+							<Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_b.cfg</Cfg><!-- beton bridge nw -->
 						</Item>
 						<Item>
-							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_closed_open.cfg</Cfg>-->
-							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\double_canal_fake_bridge_canal_nw.cfg</Cfg>
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_closed_open.cfg</Cfg> chinese bridge -->
+							<!--<Cfg>data\modgraphics\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_closed_open_b.cfg</Cfg> beton bridge -->
+							<Cfg>data\modgraphics\buildings\ornamental\canal_bridge\fake_canal_bridges\double_canal_fake_bridge_canal_nw.cfg</Cfg><!-- no bridge -->
 						</Item>
 						<Item />
 						<Item />
