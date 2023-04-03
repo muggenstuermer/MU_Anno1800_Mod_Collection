@@ -18,6 +18,11 @@ xxxxxxxxxx
 1337502684 Original Kopfsteinpflaster Kopie
 1337502685 Original Helles Kopfsteinpflaster Kopie
 
+Decals ALL update 1.1
+xxxxxxxxxxxxxxxxxxxxx
+1337501340 Original Hacienda Pflaster Kopie
+
+
 Decals OW
 xxxxxxxxx
 1337500039  OW Plaza 01
@@ -32,6 +37,10 @@ xxxxxxxxx
 1337500048  OW Plaza 10
 1337500049  OW Plaza 11
 
+Decals OW update 1.1
+xxxxxxxxxxxxxxxxxxxxx
+1337502783 Grass
+
 Decals NW
 xxxxxxxxx
 1337502648  NW Plaza 01
@@ -45,6 +54,10 @@ xxxxxxxxx
 1337502656  NW Plaza 09
 1337502657  NW Plaza 10
 1337502658  NW Plaza 11
+
+Decals NW update 1.1
+xxxxxxxxxxxxxxxxxxxxx
+1337502784 Grass
 
 Decals AFRICA
 xxxxxxxxx
@@ -69,7 +82,11 @@ xxxxxxxxx
 1337502677  AFRICA Plaza 13
 1337502686  Original Sandfläche Kopie aus dlc11_airport_ornaments_1x1_empty_colony_ground_diff
 
-1337502642 Trigger
+Decals AFRICA update 1.1
+xxxxxxxxxxxxxxxxxxxxx
+1337502785 Grass
+
+1337502782 Trigger
 
 -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -1855,6 +1872,86 @@ xxxxxxxxx
         </Asset>
 	</ModOp>
 	
+	<!-- Original Hacienda Pflaster Kopie -->
+		<ModOp Type="addNextSibling" GUID='1010035'>
+			<Asset>
+				<Template>OrnamentalBuilding</Template>
+				<Values>
+					<Standard>
+						<GUID>1337501340</GUID>
+						<Name>Hacienda (Ornament)</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_courtyard_1.png</IconFilename>
+					</Standard>
+					<Text>
+						<TextOverride>24770</TextOverride>
+					</Text>
+					 <Blocking>
+						<HidePropsRadius>0</HidePropsRadius>
+						<DeletePropsRadius>0</DeletePropsRadius>
+						<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+						<BlocksBuilding>0</BlocksBuilding>
+					</Blocking>
+					<Building>
+						<BuildingCategoryName>11149</BuildingCategoryName>
+						<SecondPartyRelevant>0</SecondPartyRelevant>
+						<BuildModeRandomRotation>90</BuildModeRandomRotation>
+						<PickingAsset>1337501340</PickingAsset>
+						<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+						<VariationIcons>
+							<Item>
+							  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_courtyard_1.png</IconFilename>
+							</Item>
+							<Item>
+							  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_courtyard_2.png</IconFilename>
+							</Item>
+							<Item>
+							  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/hacienda/icon_hacienda_courtyard_1.png</IconFilename>
+							</Item>
+						</VariationIcons>
+					</Building>
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>25</Amount>
+							</Item>
+						</Costs>
+					</Cost>
+					<Selection>
+						<Colors>
+							<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+						</Colors>
+					</Selection>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\hacienda_paving\hacienda_ornaments_floor_1x1_01.cfg</Filename>
+							</Item>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\hacienda_paving\hacienda_ornaments_floor_1x1_02.cfg</Filename>
+							</Item>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\hacienda_paving\hacienda_ornaments_floor_1x1_03.cfg</Filename>
+							</Item>
+						</Variations>
+					</Object>
+					<Constructable />
+					<Mesh />
+					<SoundEmitter />
+					<Locked />
+					<FeedbackController />
+					<Ornament>
+						<OrnamentUnit>1</OrnamentUnit>
+						<OrnamentDescription>114583</OrnamentDescription>
+					</Ornament>
+					<AmbientMoodProvider />
+					<Pausable />
+					<Infolayer />
+					<Culture />
+				</Values>
+			</Asset>
+		</ModOp>
+	
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
 	<!-- OW Plaza 01 -->
 	<ModOp Type="addNextSibling" GUID='1010035'>
@@ -2526,6 +2623,69 @@ xxxxxxxxx
 			</Values>
         </Asset>
 	</ModOp>
+	
+	<!-- Original Gras Kopie OW -->
+		<ModOp Type="addNextSibling" GUID='1010035'>
+			<Asset>
+				<Template>OrnamentalBuilding</Template>
+				<Values>
+					<Standard>
+						<GUID>1337502783</GUID>
+						<Name>1x1GrassOW)</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/ornaments/park_props_1x1_01.png</IconFilename>
+					</Standard>
+					<Text>
+						<TextOverride>131423</TextOverride>
+					</Text>
+					 <Blocking>
+						<HidePropsRadius>0</HidePropsRadius>
+						<DeletePropsRadius>0</DeletePropsRadius>
+						<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+						<BlocksBuilding>0</BlocksBuilding>
+					</Blocking>
+					<Building>
+						<BuildingCategoryName>11149</BuildingCategoryName>
+						<SecondPartyRelevant>0</SecondPartyRelevant>
+						<BuildModeRandomRotation>90</BuildModeRandomRotation>
+						<PickingAsset>1337502783</PickingAsset>
+						<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					</Building>
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>25</Amount>
+							</Item>
+						</Costs>
+					</Cost>
+					<Selection>
+						<Colors>
+							<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+						</Colors>
+					</Selection>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\ow\natural_1x1_decal_01.cfg</Filename>
+							</Item>
+						</Variations>
+					</Object>
+					<Constructable />
+					<Mesh />
+					<SoundEmitter />
+					<Locked />
+					<FeedbackController />
+					<Ornament>
+						<OrnamentUnit>1</OrnamentUnit>
+						<OrnamentDescription>114583</OrnamentDescription>
+					</Ornament>
+					<AmbientMoodProvider />
+					<Pausable />
+					<Infolayer />
+					<Culture />
+				</Values>
+			</Asset>
+		</ModOp>
 	
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
@@ -3199,6 +3359,69 @@ xxxxxxxxx
 			</Values>
         </Asset>
 	</ModOp>
+	
+	<!-- Original Gras Kopie NW -->
+		<ModOp Type="addNextSibling" GUID='1010035'>
+			<Asset>
+				<Template>OrnamentalBuilding</Template>
+				<Values>
+					<Standard>
+						<GUID>1337502784</GUID>
+						<Name>1x1GrassNW)</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/ornaments/park_props_1x1_01.png</IconFilename>
+					</Standard>
+					<Text>
+						<TextOverride>131423</TextOverride>
+					</Text>
+					 <Blocking>
+						<HidePropsRadius>0</HidePropsRadius>
+						<DeletePropsRadius>0</DeletePropsRadius>
+						<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+						<BlocksBuilding>0</BlocksBuilding>
+					</Blocking>
+					<Building>
+						<BuildingCategoryName>11149</BuildingCategoryName>
+						<SecondPartyRelevant>0</SecondPartyRelevant>
+						<BuildModeRandomRotation>90</BuildModeRandomRotation>
+						<PickingAsset>1337502784</PickingAsset>
+						<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					</Building>
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>25</Amount>
+							</Item>
+						</Costs>
+					</Cost>
+					<Selection>
+						<Colors>
+							<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+						</Colors>
+					</Selection>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\nw\natural_1x1_decal_01.cfg</Filename>
+							</Item>
+						</Variations>
+					</Object>
+					<Constructable />
+					<Mesh />
+					<SoundEmitter />
+					<Locked />
+					<FeedbackController />
+					<Ornament>
+						<OrnamentUnit>1</OrnamentUnit>
+						<OrnamentDescription>114583</OrnamentDescription>
+					</Ornament>
+					<AmbientMoodProvider />
+					<Pausable />
+					<Infolayer />
+					<Culture />
+				</Values>
+			</Asset>
+		</ModOp>
 	
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- Africa Decal 01 -->
@@ -4696,6 +4919,72 @@ xxxxxxxxx
         </Asset>
 	</ModOp>
 	
+	<!-- Original Gras Kopie AFRICA -->
+		<ModOp Type="addNextSibling" GUID='1010035'>
+			<Asset>
+				<Template>OrnamentalBuilding</Template>
+				<Values>
+					<Standard>
+						<GUID>1337502785</GUID>
+						<Name>1x1GrassAFRICA)</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/ornaments/africa/icon_grass_01.png</IconFilename>
+					</Standard>
+					<Text>
+						<TextOverride>131423</TextOverride>
+					</Text>
+					 <Blocking>
+						<HidePropsRadius>0</HidePropsRadius>
+						<DeletePropsRadius>0</DeletePropsRadius>
+						<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+						<BlocksBuilding>0</BlocksBuilding>
+					</Blocking>
+					<Building>
+						<BuildingCategoryName>11149</BuildingCategoryName>
+						<SecondPartyRelevant>0</SecondPartyRelevant>
+						<BuildModeRandomRotation>90</BuildModeRandomRotation>
+						<PickingAsset>1337502785</PickingAsset>
+						<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					</Building>
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>25</Amount>
+							</Item>
+						</Costs>
+					</Cost>
+					<Selection>
+						<Colors>
+							<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+						</Colors>
+					</Selection>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\africa\natural_1x1_decal_01.cfg</Filename>
+							</Item>
+							<Item>
+                              <Filename>data/dlc06/graphics/buildings/ornamental/africa_ornaments_1x1_grass_01.cfg</Filename>
+                            </Item>
+						</Variations>
+					</Object>
+					<Constructable />
+					<Mesh />
+					<SoundEmitter />
+					<Locked />
+					<FeedbackController />
+					<Ornament>
+						<OrnamentUnit>1</OrnamentUnit>
+						<OrnamentDescription>114583</OrnamentDescription>
+					</Ornament>
+					<AmbientMoodProvider />
+					<Pausable />
+					<Infolayer />
+					<Culture />
+				</Values>
+			</Asset>
+		</ModOp>
+	
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="add" GUID='1337502634' Path="/Values/ConstructionCategory/BuildingList">
@@ -4722,6 +5011,9 @@ xxxxxxxxx
 		</Item>
 		<Item>
 			<Building>1337502685</Building><!-- Original Helles Kopfsteinpflaster -->
+		</Item>
+		<Item>
+			<Building>1337501340</Building><!-- Original Hacienda Pflaster Kopie -->
 		</Item>
 	
 		<Item>
@@ -4775,6 +5067,9 @@ xxxxxxxxx
 		<Item>
 			<Building>1337502647</Building><!-- Sand Platz -->
 		</Item>
+		<Item>
+			<Building>1337502783</Building><!-- Original Gras Kopie OW -->
+		</Item>
 
 	</ModOp>
 	
@@ -4803,6 +5098,9 @@ xxxxxxxxx
 		</Item>
 		<Item>
 			<Building>1337502685</Building><!-- Original Helles Kopfsteinpflaster -->
+		</Item>
+		<Item>
+			<Building>1337501340</Building><!-- Original Hacienda Pflaster Kopie -->
 		</Item>
 	
 		<Item>
@@ -4856,6 +5154,9 @@ xxxxxxxxx
 		<Item>
 			<Building>1337502647</Building><!-- Sand Platz -->
 		</Item>
+		<Item>
+			<Building>1337502784</Building><!-- Original Gras Kopie NW -->
+		</Item>
 		
 	</ModOp>
 	
@@ -4884,6 +5185,9 @@ xxxxxxxxx
 		</Item>
 		<Item>
 			<Building>1337502685</Building><!-- Original Helles Kopfsteinpflaster -->
+		</Item>
+		<Item>
+			<Building>1337501340</Building><!-- Original Hacienda Pflaster Kopie -->
 		</Item>
 	
 		<Item>
@@ -4963,6 +5267,9 @@ xxxxxxxxx
 		<Item>
 			<Building>1337502647</Building><!-- Sand Platz -->
 		</Item>
+		<Item>
+			<Building>1337502785</Building><!-- Original Gras Kopie AFRICA -->
+		</Item>
 		
 		
 	</ModOp>
@@ -4974,7 +5281,7 @@ xxxxxxxxx
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502642</GUID>
+					<GUID>1337502782</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -5166,6 +5473,19 @@ xxxxxxxxx
 											<Item>
 												<Asset>1337502686</Asset>
 											</Item>
+											<!-- update 1.1 -->
+											<Item>
+												<Asset>1337501340</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502783</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502784</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502785</Asset>
+											</Item>
 											
 										</UnlockAssets>
 										<UnhideAssets>
@@ -5334,6 +5654,19 @@ xxxxxxxxx
 											<Item>
 												<Asset>1337502686</Asset>
 											</Item>
+											<!-- update 1.1 -->
+											<Item>
+												<Asset>1337501340</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502783</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502784</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502785</Asset>
+											</Item>
 											
 										</UnhideAssets>
 									</ActionUnlockAsset>
@@ -5348,4 +5681,4 @@ xxxxxxxxx
 	</ModOp>
 </ModOps>
 
-<!-- 2023-03-15 18:34:11 -->
+<!-- 2023-04-04 01:49:03 -->
