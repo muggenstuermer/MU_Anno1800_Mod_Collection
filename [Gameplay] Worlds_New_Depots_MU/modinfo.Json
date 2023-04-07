@@ -1,33 +1,36 @@
 {
   "Version": "1.21",
   "ModID": "Worlds_New_Depots_MU",
-  "IncompatibleIds": null,
-  "ModDependencies": "New World Docklands\nhttps://www.nexusmods.com/anno1800/mods/215\nShared_Objects_MU\nhttps://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest",
+  "IncompatibleIds": [],
+  "ModDependencies": [ 
+	"Shared_Objects_MU",
+	"NewWorldDocklands"
+  ],
   "Category": {
-    "Chinese": null,
+    "Chinese": "Gameplay",
     "English": "Gameplay",
     "French": "Gameplay",
     "German": "Gameplay",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
-    "Polish": "Rozgrywka",
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
   },
     "ModName": {
-    "Chinese": null,
+    "Chinese": "Worlds_New_Depots_MU",
     "English": "Worlds_New_Depots_MU",
     "French": "Worlds_New_Depots_MU",
     "German": "Worlds_New_Depots_MU",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
+    "Italian": "Worlds_New_Depots_MU",
+    "Japanese": "Worlds_New_Depots_MU",
+    "Korean": "Worlds_New_Depots_MU",
     "Polish": "Worlds_New_Depots_MU",
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "Russian": "Worlds_New_Depots_MU",
+    "Spanish": "Worlds_New_Depots_MU",
+    "Taiwanese": "Worlds_New_Depots_MU"
   },
   "Description": {
     "Chinese": null,
@@ -55,19 +58,6 @@
       "Russian": null,
       "Spanish": null,
       "Taiwanese": null
-    },
-    {
-      "Chinese": null,
-      "English": null,
-      "French": null,
-      "German": null,
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
     }
   ],
   "DLCDependencies": [
@@ -75,9 +65,8 @@
       "DLC": "Docklands",
       "Dependant": "required"
     }
-	
   ],
   "CreatorName": "muggenstuermer",
-  "CreatorContact": "https://discord.gg/2yNrjsk9R8",
+  "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
   "Image" : null
 }

@@ -1,33 +1,38 @@
 {
   "Version": "1.3",
   "ModID": "Skyline_New_Era_MU",
-  "IncompatibleIds": null,
-  "ModDependencies": null,
+  "LoadAfterIds": [
+    "Spice_Harborlife"
+  ],
+  "IncompatibleIds": [],
+  "ModDependencies": [ 
+	"Spice_Harborlife"
+  ],
   "Category": {
-    "Chinese": null,
+    "Chinese": "Skin Mod",
     "English": "Skin Mod",
     "French": "Skin Mod",
     "German": "Skin Mod",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
+    "Italian": "Skin Mod",
+    "Japanese": "Skin Mod",
+    "Korean": "Skin Mod",
     "Polish": "Skin Mod",
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "Russian": "Skin Mod",
+    "Spanish": "Skin Mod",
+    "Taiwanese": "Skin Mod"
   },
     "ModName": {
-    "Chinese": null,
+    "Chinese": "Skyline_New_Era_MU",
     "English": "Skyline_New_Era_MU",
     "French": "Skyline_New_Era_MU",
     "German": "Skyline_New_Era_MU",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
+    "Italian": "Skyline_New_Era_MU",
+    "Japanese": "Skyline_New_Era_MU",
+    "Korean": "Skyline_New_Era_MU",
     "Polish": "Skyline_New_Era_MU",
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "Russian": "Skyline_New_Era_MU",
+    "Spanish": "Skyline_New_Era_MU",
+    "Taiwanese": "Skyline_New_Era_MU"
   },
   "Description": {
     "Chinese": null,
@@ -55,19 +60,6 @@
       "Russian": null,
       "Spanish": null,
       "Taiwanese": null
-    },
-    {
-      "Chinese": null,
-      "English": null,
-      "French": null,
-      "German": null,
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
     }
   ],
   "DLCDependencies": [
@@ -75,9 +67,8 @@
       "DLC": "HighLife",
       "Dependant": "required"
     }
-	
   ],
   "CreatorName": "muggenstuermer",
-  "CreatorContact": "https://discord.gg/2yNrjsk9R8",
+  "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
   "Image" : null
 }

@@ -1,33 +1,35 @@
 {
   "Version": "1.3",
   "ModID": "Tourists_Alternativ_Buildings_MU",
-  "IncompatibleIds": null,
-  "ModDependencies": [ "Shared_Objects_MU" ],
+  "IncompatibleIds": [],
+  "ModDependencies": [ 
+	"Shared_Objects_MU"
+  ],
   "Category": {
-    "Chinese": null,
+    "Chinese": "Building",
     "English": "Building",
     "French": "Immeuble",
     "German": "Gebäude",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
     "Polish": "Budynki",
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
   },
     "ModName": {
-    "Chinese": null,
+    "Chinese": "Tourists_Alternativ_Buildings_MU",
     "English": "Tourists_Alternativ_Buildings_MU",
     "French": "Tourists_Alternativ_Buildings_MU",
     "German": "Tourists_Alternativ_Buildings_MU",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
+    "Italian": "Tourists_Alternativ_Buildings_MU",
+    "Japanese": "Tourists_Alternativ_Buildings_MU",
+    "Korean": "Tourists_Alternativ_Buildings_MU",
     "Polish": "Tourists_Alternativ_Buildings_MU",
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "Russian": "Tourists_Alternativ_Buildings_MU",
+    "Spanish": "Tourists_Alternativ_Buildings_MU",
+    "Taiwanese": "Tourists_Alternativ_Buildings_MU"
   },
   "Description": {
     "Chinese": null,
@@ -55,23 +57,15 @@
       "Russian": null,
       "Spanish": null,
       "Taiwanese": null
-    },
-    {
-      "Chinese": null,
-      "English": null,
-      "French": null,
-      "German": null,
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
     }
   ],
-  "DLCDependencies": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    }
+  ],
   "CreatorName": "muggenstuermer",
-  "CreatorContact": "https://discord.gg/TFGXpmsm",
+  "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
   "Image" : null
 }

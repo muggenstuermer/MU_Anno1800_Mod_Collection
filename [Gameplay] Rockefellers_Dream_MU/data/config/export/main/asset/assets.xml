@@ -32771,6 +32771,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 					<IconFilename>data/ui/2kimages/main/3dicons/palace_investors.png</IconFilename>
 					<InfoDescription>163059</InfoDescription>
 				</Standard>
+				<Constructable>
+					<!-- overwrites IconFilename in construction menus -->
+					<ConstructionMenuIcon>1337502286</ConstructionMenuIcon>
+				</Constructable>
 				<Building>
 					<PickingAsset>1337502286</PickingAsset>
 					<AllowChangeVariation>1</AllowChangeVariation>

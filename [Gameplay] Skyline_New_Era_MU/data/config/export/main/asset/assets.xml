@@ -19710,8 +19710,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 	
 <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  AB HIER MENÜ POSITIONIERUNG  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
 
-	<!-- <ModOp Type="add" GUID="25000192,500447,500944,500094" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1010372']"> -->
-	<ModOp Type="addNextSibling" GUID='25000192,500447,500944,500094' Path="/Values/ConstructionCategory/BuildingList/Item[Building='135100']">
+	<ModOp Type="addNextSibling" Path="//*[self::BuildingList]/Item[Building = '135100']">
 		<Item>
 			<Building>1337500387</Building>
 		</Item>

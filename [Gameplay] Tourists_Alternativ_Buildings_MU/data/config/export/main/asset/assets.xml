@@ -534,7 +534,7 @@
     </ModOp>
 	
 	<!-- Baumenü nach hotel -->
-	<ModOp Type="addNextSibling" GUID="500944,132779" Path="Values/ConstructionCategory/BuildingList/Item[Building = '601445']">
+	<ModOp Type="addNextSibling" Path="//*[self::BuildingList]/Item[Building = '601445']">
         <Item>
             <Building>1337500355</Building>
         </Item>

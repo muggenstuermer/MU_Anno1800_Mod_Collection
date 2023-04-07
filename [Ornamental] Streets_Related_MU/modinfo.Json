@@ -3,14 +3,13 @@
   "ModID": "Streets_Related_MU",
   "LoadAfterIds": [
     "A_Modified_Ornaments_Tab",
-    "Shared_Objects_MU",
-    "Green_Mile_MU"
+	"Shared_Objects_MU"
   ],
-  "IncompatibleIds": null,
+  "IncompatibleIds": [],
   "ModDependencies": [ 
-    "A_Modified_Ornaments_Tab",
-    "Shared_Objects_MU",
-    "jakob_street_skins"
+	"A_Modified_Ornaments_Tab",
+	"Shared_Objects_MU",
+	"jakob_street_skins"
   ],
   "Category": {
     "Chinese": "Ornamental",
@@ -66,7 +65,12 @@
       "Taiwanese": null
     }
   ],
-  "DLCDependencies": [],
+  "DLCDependencies": [
+    {
+      "DLC": null,
+      "Dependant": null
+    }
+  ],
   "CreatorName": "muggenstuermer",
   "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
   "Image" : null

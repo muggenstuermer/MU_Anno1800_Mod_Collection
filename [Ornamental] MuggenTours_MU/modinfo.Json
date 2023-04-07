@@ -1,33 +1,33 @@
 {
   "Version": "1.1",
   "ModID": "MuggenTours_MU",
-  "IncompatibleIds": null,
-  "ModDependencies": null,
+  "IncompatibleIds": [],
+  "ModDependencies": [],
   "Category": {
-    "Chinese": null,
+    "Chinese": "Misc",
     "English": "Misc",
-    "French": "Divers",
-    "German": "Sonstiges",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
-    "Polish": null,
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "French": "Misc",
+    "German": "Misc",
+    "Italian": "Misc",
+    "Japanese": "Misc",
+    "Korean": "Misc",
+    "Polish": "Misc",
+    "Russian": "Misc",
+    "Spanish": "Misc",
+    "Taiwanese": "Misc"
   },
   "ModName": {
-    "Chinese": null,
+    "Chinese": "MuggenTours_MU",
     "English": "MuggenTours_MU",
     "French": "MuggenTours_MU",
     "German": "MuggenTours_MU",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
+    "Italian": "MuggenTours_MU",
+    "Japanese": "MuggenTours_MU",
+    "Korean": "MuggenTours_MU",
     "Polish": "MuggenTours_MU",
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
+    "Russian": "MuggenTours_MU",
+    "Spanish": "MuggenTours_MU",
+    "Taiwanese": "MuggenTours_MU"
   },
   "Description": {
     "Chinese": null,
@@ -45,19 +45,6 @@
   "KnownIssues": [
     {
       "Chinese": null,
-      "English": "NOT COMPATIBLE WITH SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.",
-      "French": "NON COMPATIBLE AVEC SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.",
-      "German": "NICHT KOMPATIBEL ZU SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.",
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": "NIEKOMPATYBILNY ZE SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.",
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
-    },
-    {
-      "Chinese": null,
       "English": null,
       "French": null,
       "German": null,
@@ -70,8 +57,13 @@
       "Taiwanese": null
     }
   ],
-  "DLCDependencies": "Tourist Season",
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    }
+  ],
   "CreatorName": "muggenstuermer",
-  "CreatorContact": "https://discord.gg/TPZmTWrxke",
+  "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
   "Image" : null
 }

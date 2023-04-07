@@ -3659,6 +3659,9 @@
 		<Item>
 			<Building>1337502503</Building><!-- Round StreetCover TWO-TWO -->
 		</Item>
+	</ModOp>
+		
+	<ModOp Type="add" GUID='1337502787' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337502514</Building><!-- StreetBridges without Lamps -->
 		</Item>
@@ -3694,9 +3697,6 @@
 		<Item>
 			<Building>1337502527</Building><!-- Modulare Endstücke -->
 		</Item>
-		
-		
-		
     </ModOp>
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Menü NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!--<ModOp Type="addNextSibling" GUID='1337502507' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1337502633']">-->
@@ -3713,6 +3713,9 @@
 		<Item>
 			<Building>1337502513</Building><!-- Round StreetCover TWO-TWO NW -->
 		</Item>
+	</ModOp>
+	
+	<ModOp Type="add" GUID='1337502788' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337502514</Building><!-- StreetBridges without Lamps -->
 		</Item>
@@ -3765,6 +3768,9 @@
 		<Item>
 			<Building>1337502533</Building><!-- Round StreetCover TWO-TWO AFRICA -->
 		</Item>
+	</ModOp>
+		
+	<ModOp Type="add" GUID='1337502789' Path="/Values/ConstructionCategory/BuildingList">	
 		<Item>
 			<Building>1337502621</Building><!-- StreetBridges without Lamps -->
 		</Item>
