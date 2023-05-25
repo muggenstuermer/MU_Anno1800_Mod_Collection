@@ -1,0 +1,2968 @@
+<ModOps>
+    <!--
+
+601381 unused Vanilla GUID for Immigrants Population
+
+1337502794 Pub need
+1337502793 Pub Building
+
+1337502796 Chapel need
+1337502795 Chapel Building
+
+1337502798 Townhall need
+1337502797 Townhall Building
+
+1337502800 TownGate need
+1337502799 TownGate Building
+
+1337502815 Immigrant Population
+
+1337502816 All Immigrant Residences Pool
+
+
+Immigrants Residences
+xxxxxxxxxxxxxxxxxxxxx
+1337502810 2x2 ResidenceBuilding
+1337502812 2x1 ResidenceBuilding
+1337502813 1x1 ResidenceBuilding
+1337502817 1x2 ResidenceBuilding
+1337502818 1x3 ResidenceBuilding
+
+Immigrants Warehouses
+xxxxxxxxxxxxxxxxxxxxx
+1337502819 Warehouse Cattle
+1337502820 Warehouse Horse
+1337502821 Warehouse Pig
+1337502822 Warehouse Sheep
+
+1337500238 Farmers Markeplace Skin
+
+1337502814 Trigger
+
+-->
+    <!-- #1 - Skins Warehouse Cattle -->
+    <Include File="warehouse_cattle_skins.include.xml" />
+    <!-- #2 - Skins Warehouse Horse -->
+    <Include File="warehouse_horse_skins.include.xml" />
+    <!-- #3 - Skins Warehouse Pig -->
+    <Include File="warehouse_pig_skins.include.xml" />
+    <!-- #4 - Skins Warehouse Sheep -->
+    <Include File="warehouse_sheep_skins.include.xml" />
+    <!-- #5 - Skins Wirtshaus -->
+    <Include File="pub_skins.include.xml" />
+    <!-- #6 - Skins Chapel -->
+    <Include File="chapel_skins.include.xml" />
+    <!-- #7 - Skins Townhall -->
+    <Include File="townhall_skins.include.xml" />
+    <!-- #8 - Skins Towngate -->
+    <Include File="towngate_skins.include.xml" />
+    <!-- #9 - Skins Bauernhäuser 2x2 -->
+    <Include File="houses_2x2_skins.include.xml" />
+    <!-- #10 - Skins Bauernhäuser 2x1 -->
+    <Include File="houses_2x1_skins.include.xml" />
+    <!-- #11 - Skins Bauernhäuser 1x1 -->
+    <Include File="houses_1x1_skins.include.xml" />
+    <!-- #12 - Skins Bauernhäuser 1x2 -->
+    <Include File="houses_1x2_skins.include.xml" />
+    <!-- #13 - Skins Bauernhäuser 1x3 -->
+    <Include File="houses_1x3_skins.include.xml" />
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Population: Immigrants (simple Farmers) xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Population: Immigrants -->
+    <ModOp GUID="15000004" Type="addNextSibling">
+        <Asset>
+            <Template>PopulationLevel7</Template>
+            <Values>
+                <Standard>
+                    <GUID>601381</GUID>
+                    <!-- unused Vanilla GUID -->
+                    <Name>Immigrant</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\specialists\systemic\icon_worker_204.png</IconFilename>
+                </Standard>
+                <PopulationLevel7>
+                    <PopulationInputs>
+                        <Item>
+                            <Product>120020</Product>
+                            <SupplyWeight>5</SupplyWeight>
+                        </Item>
+                        <Item>
+                            <Product>1337502794</Product>
+                            <SupplyWeight>4</SupplyWeight>
+                        </Item>
+                        <Item>
+                            <Product>1337502796</Product>
+                            <SupplyWeight>6</SupplyWeight>
+                            <FullWeightPopulationCount>100</FullWeightPopulationCount>
+                        </Item>
+                        <Item>
+                            <Product>1337502798</Product>
+                            <SupplyWeight>4</SupplyWeight>
+                            <FullWeightPopulationCount>120</FullWeightPopulationCount>
+                        </Item>
+                        <Item>
+                            <Product>1337502800</Product>
+                            <SupplyWeight>6</SupplyWeight>
+                            <FullWeightPopulationCount>140</FullWeightPopulationCount>
+                        </Item>
+                        <Item>
+                            <Product>1010216</Product>
+                            <Amount>0.000555556</Amount>
+                            <HappinessValue>8</HappinessValue>
+                            <MoneyValue>30</MoneyValue>
+                        </Item>
+                        <Item>
+                            <Product>1010237</Product>
+                            <Amount>0.000512821</Amount>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>30</MoneyValue>
+                            <FullWeightPopulationCount>150</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>99</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+                        <Item>
+                            <Product>1010235</Product>
+                            <Amount>0.0004</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>10</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000001</Population>
+                                <MinPopulationAmount>150</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>535</Product>
+                            <Amount>0.000266667</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>10</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000002</Population>
+                                <MinPopulationAmount>500</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>536</Product>
+                            <Amount>0.000133333</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>30</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000006</Population>
+                                <MinPopulationAmount>1</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>2524</Product>
+                            <Amount>5E-05</Amount>
+                            <SupplyWeight>3</SupplyWeight>
+                            <MoneyValue>60</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000006</Population>
+                                <MinPopulationAmount>1000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>1010203</Product>
+                            <Amount>5.833333E-05</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>15</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000001</Population>
+                                <MinPopulationAmount>300</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>5383</Product>
+                            <Amount>0.0002833333</Amount>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>45</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>5403</Population>
+                                <MinPopulationAmount>1</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                    </PopulationInputs>
+                    <DefaultResidence>1337502810</DefaultResidence>
+                    <PopulationOutputs>
+                        <Item>
+                            <Product>1010052</Product>
+                            <Amount>26</Amount>
+                        </Item>
+                    </PopulationOutputs>
+                    <CategoryIcon>data/ui/2kimages/main/icons/icon_arrow.png</CategoryIcon>
+                    <PopulationParticipant>Resident_tier02</PopulationParticipant>
+                    <PopulationAtWorkParticipant>Resident_tier02_atWork</PopulationAtWorkParticipant>
+                    <MoodText>
+                        <Angry>
+                            <Text>1337502802</Text>
+                        </Angry>
+                        <Unhappy>
+                            <Text>1337502803</Text>
+                        </Unhappy>
+                        <Neutral>
+                            <Text>1337502804</Text>
+                        </Neutral>
+                        <Happy>
+                            <Text>1337502805</Text>
+                        </Happy>
+                        <Euphoric>
+                            <Text>1337502806</Text>
+                        </Euphoric>
+                    </MoodText>
+                </PopulationLevel7>
+                <Locked />
+            </Values>
+        </Asset>
+        <!-- Wirtshaus product -->
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502794</GUID>
+                    <Name>Farmers_Pub</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_pub.png</IconFilename>
+                </Standard>
+                <Locked />
+                <Product>
+                    <ProductColor>-11415604</ProductColor>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11708</ProductCategory>
+                    <IsAbstract>1</IsAbstract>
+                    <AssociatedRegion>Moderate</AssociatedRegion>
+                </Product>
+                <ExpeditionAttribute />
+            </Values>
+        </Asset>
+        <!-- Wirtshaus Building -->
+        <Asset>
+            <Template>PublicServiceBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502793</GUID>
+                    <Name>service_01 (Pub)</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_pub.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\pub\wood_building_2x2_pub_hayroof_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\pub\wood_building_2x2_pub_stoneroof_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502793</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\pub\pub_skin_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502859</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502860</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502861</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502862</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>PublicService</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Pub</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>3730</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200845</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>PublicServiceBuilding</TemplateName>
+                                            <Index>0</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Sound>214786</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                    </ConstructionSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <PublicService>
+                    <FullSatisfactionDistance>25</FullSatisfactionDistance>
+                    <NoSatisfactionDistance>40</NoSatisfactionDistance>
+                    <PublicServiceOutputs>
+                        <Item>
+                            <Product>1337502794</Product>
+                        </Item>
+                    </PublicServiceOutputs>
+                </PublicService>
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                    <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>10</Amount>
+                            <InactiveAmount>5</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2250</MaximumHitPoints>
+                    <SelfHealPerHealTick>3</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Chapel product -->
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502796</GUID>
+                    <Name>Farmers_Chapel</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_chapel.png</IconFilename>
+                </Standard>
+                <Locked />
+                <Product>
+                    <ProductColor>-11415604</ProductColor>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11708</ProductCategory>
+                    <IsAbstract>1</IsAbstract>
+                    <AssociatedRegion>Moderate</AssociatedRegion>
+                </Product>
+                <ExpeditionAttribute />
+            </Values>
+        </Asset>
+        <!-- Chapel Building -->
+        <Asset>
+            <Template>PublicServiceBuildingWithMusicInfluencer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502795</GUID>
+                    <Name>service_02 (Chapel)</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_chapel.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>800</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>16</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\chapel\chapel_cross_org_canopy_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\chapel\chapel_cross_org_canopy_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\chapel\chapel_cross_made_canopy_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\chapel\chapel_no_cross_canopy_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\chapel\chapel_no_cross_no_angel_canopy_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\chapel\chapel_no_cross_no_angel_no_canopy_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502795</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\chapel\chapel_skin_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502855</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502856</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502857</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502858</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>PublicService</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chapel</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>3730</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>227033</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200851</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <SelectionSounds>
+                        <Item>
+                            <Sound>9818389</Sound>
+                        </Item>
+                    </SelectionSounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>214786</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildFailed>
+                            <Item>
+                                <Sound>9818387</Sound>
+                            </Item>
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item>
+                                <Sound>9818755</Sound>
+                            </Item>
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item>
+                                <Sound>203994</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item>
+                                <Sound>200141</Sound>
+                            </Item>
+                        </BuildMoveEnd>
+                        <BuildUpgrade>
+                            <Item>
+                                <Sound>9818760</Sound>
+                            </Item>
+                        </BuildUpgrade>
+                    </ConstructionSounds>
+                    <ProductionSounds>
+                        <UI>
+                            <Item>
+                                <Sound>9818752</Sound>
+                            </Item>
+                        </UI>
+                    </ProductionSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                        <ExplosionOneShots>
+                            <Item>
+                                <Sound>203849</Sound>
+                            </Item>
+                        </ExplosionOneShots>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <PublicService>
+                    <FullSatisfactionDistance>35</FullSatisfactionDistance>
+                    <NoSatisfactionDistance>50</NoSatisfactionDistance>
+                    <PublicServiceOutputs>
+                        <Item>
+                            <Product>1337502796</Product>
+                        </Item>
+                    </PublicServiceOutputs>
+                </PublicService>
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                    <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>15</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2850</MaximumHitPoints>
+                    <SelfHealPerHealTick>3</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Townhall product -->
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502798</GUID>
+                    <Name>Farmers_Townhall</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_townhall.png</IconFilename>
+                </Standard>
+                <Locked />
+                <Product>
+                    <ProductColor>-11415604</ProductColor>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11708</ProductCategory>
+                    <IsAbstract>1</IsAbstract>
+                    <AssociatedRegion>Moderate</AssociatedRegion>
+                </Product>
+                <ExpeditionAttribute />
+            </Values>
+        </Asset>
+        <!-- Townhall Building -->
+        <Asset>
+            <Template>PublicServiceBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502797</GUID>
+                    <Name>service_03 (Townhall)</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_townhall.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>800</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>16</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\townhall\old_townhall_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\townhall\old_townhall_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502797</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\townhall\townhall_skin_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502863</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502864</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502865</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502866</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>PublicService</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Townhall</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>3730</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <PublicService>
+                    <FullSatisfactionDistance>37</FullSatisfactionDistance>
+                    <NoSatisfactionDistance>65</NoSatisfactionDistance>
+                    <PublicServiceOutputs>
+                        <Item>
+                            <Product>1337502798</Product>
+                        </Item>
+                    </PublicServiceOutputs>
+                </PublicService>
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                    <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>3050</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- TownGate product -->
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502800</GUID>
+                    <Name>Farmers_Town_Gate</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_town_gate.png</IconFilename>
+                </Standard>
+                <Locked />
+                <Product>
+                    <ProductColor>-11415604</ProductColor>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11708</ProductCategory>
+                    <IsAbstract>1</IsAbstract>
+                    <AssociatedRegion>Moderate</AssociatedRegion>
+                </Product>
+                <ExpeditionAttribute />
+            </Values>
+        </Asset>
+        <!-- TownGate Building -->
+        <Asset>
+            <Template>PublicServiceBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502799</GUID>
+                    <Name>service_04 (Towngate)</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_town_gate.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\towngate\old_church.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\towngate\old_church_no_cross.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\towngate\old_church_no_cross_no_greenery.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\towngate\old_church_no_cross_canopy.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\towngate\old_church_fenced_canopy.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\towngate\old_church_fenced_canopy_no_cross.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502799</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\towngate\towngate_skin_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502867</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502868</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502869</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502870</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>PublicService</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Town Gate</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>3730</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>227033</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200851</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <SelectionSounds>
+                        <Item>
+                            <Sound>9818389</Sound>
+                        </Item>
+                    </SelectionSounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>214786</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildFailed>
+                            <Item>
+                                <Sound>9818387</Sound>
+                            </Item>
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item>
+                                <Sound>9818755</Sound>
+                            </Item>
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item>
+                                <Sound>203994</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item>
+                                <Sound>200141</Sound>
+                            </Item>
+                        </BuildMoveEnd>
+                        <BuildUpgrade>
+                            <Item>
+                                <Sound>9818760</Sound>
+                            </Item>
+                        </BuildUpgrade>
+                    </ConstructionSounds>
+                    <ProductionSounds>
+                        <UI>
+                            <Item>
+                                <Sound>9818752</Sound>
+                            </Item>
+                        </UI>
+                    </ProductionSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                        <ExplosionOneShots>
+                            <Item>
+                                <Sound>203849</Sound>
+                            </Item>
+                        </ExplosionOneShots>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <PublicService>
+                    <FullSatisfactionDistance>45</FullSatisfactionDistance>
+                    <NoSatisfactionDistance>70</NoSatisfactionDistance>
+                    <PublicServiceOutputs>
+                        <Item>
+                            <Product>1337502800</Product>
+                        </Item>
+                    </PublicServiceOutputs>
+                </PublicService>
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                    <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>3450</MaximumHitPoints>
+                    <SelfHealPerHealTick>5</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                        </Fire>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Culture />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Wirtshaus adding to pools -->
+    <ModOp GUID="130042" Type="add" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337502793</Asset>
+        </Item>
+    </ModOp>
+    <ModOp GUID="142672,142784,2001089,142747,142309,142576" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1337502793</Building>
+        </Item>
+    </ModOp>
+    <ModOp GUID="190136,191501,190782,193868,193868,192418,190611,368" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337502793</GUID>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" Path="//ItemEffect/EffectTargets[Item/GUID='1010358']">
+        <Item>
+            <GUID>1337502793</GUID>
+        </Item>
+    </ModOp>
+    <!-- Chapel adding to pools -->
+    <ModOp GUID="130043" Type="add" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337502795</Asset>
+        </Item>
+    </ModOp>
+    <ModOp GUID="2001089,142747,142309,142576,142784" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1337502795</Building>
+        </Item>
+    </ModOp>
+    <ModOp GUID="141703" Type="add" Path="/Values/CharacterInteractionConfig/BuildBuildingWhitelist">
+        <Item>
+            <Building>1337502795</Building>
+        </Item>
+        <Item>
+            <Building>1337502793</Building>
+        </Item>
+    </ModOp>
+    <ModOp GUID="190136,191501,190784,190611,368" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337502795</GUID>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" Path="//ItemEffect/EffectTargets[Item/GUID='1010359']">
+        <Item>
+            <GUID>1337502795</GUID>
+        </Item>
+    </ModOp>
+    <!-- Townhall adding to pools -->
+    <ModOp GUID="142784,2001089,142747,142309,142576" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1337502797</Building>
+        </Item>
+    </ModOp>
+    <ModOp GUID="190781,368" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337502797</GUID>
+        </Item>
+    </ModOp>
+    <!-- TownGate adding to pools -->
+    <ModOp GUID="368" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337502799</GUID>
+        </Item>
+    </ModOp>
+    <ModOp GUID="2001089,142747,142309,142576,142784" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1337502799</Building>
+        </Item>
+    </ModOp>
+    <!-- TownGate adding to pools -->
+    <ModOp GUID="142747,142309" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1337502819</Building>
+        </Item>
+        <Item>
+            <Building>1337502820</Building>
+        </Item>
+        <Item>
+            <Building>1337502821</Building>
+        </Item>
+        <Item>
+            <Building>1337502822</Building>
+        </Item>
+    </ModOp>
+    <!-- the following code was copied from jakob and used in places,thx jakob -->
+    <!-- population group -->
+    <ModOp GUID="15000004" Type="addNextSibling">
+        <Asset>
+            <Template>PopulationGroup7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502815</GUID>
+                    <!-- Einwanderer -->
+                    <Name>Imigrants Population</Name>
+                </Standard>
+                <PopulationGroup7>
+                    <PopulationLevels>
+                        <Item>
+                            <Level>601381</Level>
+                        </Item>
+                    </PopulationLevels>
+                    <Regional>Moderate</Regional>
+                </PopulationGroup7>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ItemEffectTargetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502816</GUID>
+                    <Name>all_immigrant_residences</Name>
+                </Standard>
+                <ItemEffectTargetPool>
+                    <EffectTargetGUIDs>
+                        <Item>
+                            <GUID>1337502810</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1337502812</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1337502813</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1337502817</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1337502818</GUID>
+                        </Item>
+                    </EffectTargetGUIDs>
+                </ItemEffectTargetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- # Buff Targets Residences -->
+    <ModOp Type="add" Path="//ItemEffect/EffectTargets[Item/GUID='1010343']">
+        <Item>
+            <GUID>1337502816</GUID>
+        </Item>
+    </ModOp>
+    <!-- global population -->
+    <ModOp Type="addPrevSibling" GUID="2001271" Path="/Values/GUIConfig/PopulationLevelList/Item[1]">
+        <Item>
+            <PopulationLevel>601381</PopulationLevel>
+        </Item>
+    </ModOp>
+    <!-- add to FeedbackBuildingGroup -->
+    <ModOp Type="add" GUID="142785,2001013" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>601381</Building>
+        </Item>
+    </ModOp>
+    <!-- residence UI: append -->
+    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/HappinessConfigs">
+        <Item>
+            <PopulationLevel>601381</PopulationLevel>
+            <AssignedConfig>502287</AssignedConfig>
+        </Item>
+    </ModOp>
+    <!-- city population level: insert TODO -->
+    <ModOp Type="addNextSibling" GUID="141576" Path="/Values/HappinessFeature/AttractivenessConfig/Region/Moderate/CitySizes/Item[Population='15000000' and not(Amount)]">
+        <Item>
+            <Population>601381</Population>
+            <RequiredAttractivenessLevel>Quaint</RequiredAttractivenessLevel>
+        </Item>
+        <Item>
+            <Population>601381</Population>
+            <RequiredAttractivenessLevel>Quaint</RequiredAttractivenessLevel>
+            <Amount>5</Amount>
+        </Item>
+        <Item>
+            <Population>601381</Population>
+            <RequiredAttractivenessLevel>Quaint</RequiredAttractivenessLevel>
+            <Amount>10</Amount>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="141576" Path="/Values/HappinessFeature/AttractivenessConfig/Region/Moderate/CitySizes/Item[Population='15000000' and Amount='150']">
+        <Item>
+            <Population>601381</Population>
+            <RequiredAttractivenessLevel>Quaint</RequiredAttractivenessLevel>
+            <Amount>20</Amount>
+        </Item>
+    </ModOp>
+    <!-- # Unlocks, notifications -->
+    <ModOp Type="add" GUID="700068" Path="/Values/PlayerCounterContextPool/Contexts">
+        <Item>
+            <Asset>601381</Asset>
+        </Item>
+    </ModOp>
+    <!-- Bauernhäuser 2x2 -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>ResidenceBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502810</GUID>
+                    <Name>Farmers_Residences</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_residence.png</IconFilename>
+                    <InfoDescription>163059</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502810</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337502810</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <BuildingBlockPool>
+                        <Single>
+                            <Pool>
+                                <Item>
+                                    <Variation>0</Variation>
+                                </Item>
+                            </Pool>
+                        </Single>
+                        <DontCare />
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>3</DirectionOffet>
+                                    <Variation>8</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>3</DirectionOffet>
+                                    <Variation>9</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>0</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>1</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>2</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>3</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>4</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>5</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>6</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>7</Variation>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>10</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>11</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                        <TCrossing />
+                        <!--<Pool>
+									<Item>
+										<DirectionOffet>2</DirectionOffet>
+										<Variation>14</Variation>
+									</Item>
+								</Pool>
+							</TCrossing>-->
+                        <Crossing />
+                        <!--<Pool>
+									<Item>
+										<DirectionOffet>2</DirectionOffet>
+										<Variation>15</Variation>
+									</Item>
+									<Item>
+										<DirectionOffet>0</DirectionOffet>
+										<Variation>16</Variation>
+									</Item>
+								</Pool>
+							</Crossing>-->
+                    </BuildingBlockPool>
+                    <InfluencedVariationDirection>
+                        <Item>
+                            <!-- single -->
+                            <Direction>0</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, south-west -->
+                            <Direction>1</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, south-east -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, south -->
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-east -->
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, south-west to north-east -->
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, east -->
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-east -->
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-west -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, west -->
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, north-west to south-east -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-west  -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, north -->
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-west -->
+                            <Direction>3</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-east -->
+                            <Direction>2</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- crossing -->
+                        </Item>
+                    </InfluencedVariationDirection>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_small_big_hay_hay_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_big_small_hay_hay_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_big_big_hay_hay_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_small_small_hay_hay_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_big_small_hay_hay_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_hay_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_small_big_hay_hay_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_small_big_hay_hay_delay_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\corner_smooth_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\corner_sharp_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_small_big_hay_hay_end_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x2\2x2_small_big_hay_hay_end_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502810</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\houses_2x2\houses_2x2_skin_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502871</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502872</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502873</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502874</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <SoundEmitter />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Residence7>
+                    <ResidenceStorage>
+                        <InputStorageMax>1</InputStorageMax>
+                    </ResidenceStorage>
+                    <PopulationLevel7>601381</PopulationLevel7>
+                    <ResidentMax>15</ResidentMax>
+                    <IsBaseResidence>1</IsBaseResidence>
+                </Residence7>
+                <LogisticNode />
+                <AmbientMoodProvider />
+                <UpgradeList />
+                <Attackable />
+                <IncidentInfectable />
+                <Pausable />
+                <Culture />
+                <StreetActivation />
+                <InfluenceSource />
+                <FloorStackOwner />
+                <Maintenance>
+                    <IncomeCategory>Skyscrapers</IncomeCategory>
+                </Maintenance>
+                <Audio />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Bauernhäuser 2x1 -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>ResidenceBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502812</GUID>
+                    <Name>Farmers_Residences</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_residence_2x1.png</IconFilename>
+                    <InfoDescription>163059</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502812</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x1\wood_building_1x1_01b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x1\wood_building_1x1_01c.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x1\wood_building_1x1_01d.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_2x1\wood_building_1x1_01e.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502812</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\houses_2x1\houses_2x1_skin_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502875</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502876</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502877</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502878</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <SoundEmitter />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Residence7>
+                    <ResidenceStorage>
+                        <InputStorageMax>1</InputStorageMax>
+                    </ResidenceStorage>
+                    <PopulationLevel7>601381</PopulationLevel7>
+                    <ResidentMax>8</ResidentMax>
+                    <IsBaseResidence>1</IsBaseResidence>
+                </Residence7>
+                <LogisticNode />
+                <AmbientMoodProvider />
+                <UpgradeList />
+                <Attackable />
+                <IncidentInfectable />
+                <Pausable />
+                <Culture />
+                <StreetActivation />
+                <InfluenceSource />
+                <FloorStackOwner />
+                <Maintenance>
+                    <IncomeCategory>Skyscrapers</IncomeCategory>
+                </Maintenance>
+                <Audio />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Bauernhäuser 1x1 -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>ResidenceBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502813</GUID>
+                    <Name>Farmers_Residences</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_residence_1x1.png</IconFilename>
+                    <InfoDescription>163059</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502813</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>5</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x1\farmers_1x1_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x1\farmers_1x1_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x1\farmers_1x1_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x1\farmers_1x1_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x1\farmers_1x1_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x1\farmers_1x1_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x1\farmers_1x1_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x1\farmers_1x1_08.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502813</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\houses_1x1\houses_1x1_skin_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502883</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502884</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502885</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502886</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <SoundEmitter />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Residence7>
+                    <ResidenceStorage>
+                        <InputStorageMax>1</InputStorageMax>
+                    </ResidenceStorage>
+                    <PopulationLevel7>601381</PopulationLevel7>
+                    <ResidentMax>8</ResidentMax>
+                    <IsBaseResidence>1</IsBaseResidence>
+                </Residence7>
+                <LogisticNode />
+                <AmbientMoodProvider />
+                <UpgradeList />
+                <Attackable />
+                <IncidentInfectable />
+                <Pausable />
+                <Culture />
+                <StreetActivation />
+                <InfluenceSource />
+                <FloorStackOwner />
+                <Maintenance>
+                    <IncomeCategory>Skyscrapers</IncomeCategory>
+                </Maintenance>
+                <Audio />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Bauernhäuser 1x2 -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>ResidenceBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502817</GUID>
+                    <Name>Farmers_Residences</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_residence_1x2.png</IconFilename>
+                    <InfoDescription>163059</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502817</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x2\farmers_1x2_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x2\farmers_1x2_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x2\farmers_1x2_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x2\farmers_1x2_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502817</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\houses_1x2\houses_1x2_skin_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502887</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502888</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502889</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502890</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <SoundEmitter />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Residence7>
+                    <ResidenceStorage>
+                        <InputStorageMax>1</InputStorageMax>
+                    </ResidenceStorage>
+                    <PopulationLevel7>601381</PopulationLevel7>
+                    <ResidentMax>15</ResidentMax>
+                    <IsBaseResidence>1</IsBaseResidence>
+                </Residence7>
+                <LogisticNode />
+                <AmbientMoodProvider />
+                <UpgradeList />
+                <Attackable />
+                <IncidentInfectable />
+                <Pausable />
+                <Culture />
+                <StreetActivation />
+                <InfluenceSource />
+                <FloorStackOwner />
+                <Maintenance>
+                    <IncomeCategory>Skyscrapers</IncomeCategory>
+                </Maintenance>
+                <Audio />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Bauernhäuser 1x3 -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>ResidenceBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502818</GUID>
+                    <Name>Farmers_Residences</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\farmers_residence_1x3.png</IconFilename>
+                    <InfoDescription>163059</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502818</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x3\farmers_1x3_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\houses_1x3\farmers_1x3_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502818</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\houses_1x3\houses_1x3_skin_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502879</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502880</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502881</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502882</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <SoundEmitter />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Residence7>
+                    <ResidenceStorage>
+                        <InputStorageMax>1</InputStorageMax>
+                    </ResidenceStorage>
+                    <PopulationLevel7>601381</PopulationLevel7>
+                    <ResidentMax>15</ResidentMax>
+                    <IsBaseResidence>1</IsBaseResidence>
+                </Residence7>
+                <LogisticNode />
+                <AmbientMoodProvider />
+                <UpgradeList />
+                <Attackable />
+                <IncidentInfectable />
+                <Pausable />
+                <Culture />
+                <StreetActivation />
+                <InfluenceSource />
+                <FloorStackOwner />
+                <Maintenance>
+                    <IncomeCategory>Skyscrapers</IncomeCategory>
+                </Maintenance>
+                <Audio />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- add Farmers_Residences to Pools -->
+    <ModOp GUID="2001089" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1337502810</Building>
+        </Item>
+        <Item>
+            <Building>1337502812</Building>
+        </Item>
+        <Item>
+            <Building>1337502813</Building>
+        </Item>
+        <Item>
+            <Building>1337502817</Building>
+        </Item>
+        <Item>
+            <Building>1337502818</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="130118,103094" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337502810</Asset>
+        </Item>
+        <Item>
+            <Asset>1337502812</Asset>
+        </Item>
+        <Item>
+            <Asset>1337502813</Asset>
+        </Item>
+        <Item>
+            <Asset>1337502817</Asset>
+        </Item>
+        <Item>
+            <Asset>1337502818</Asset>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="191132,111161,111175,111177,111180,269409,269120,269406,269232,269451" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1337502810</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502812</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502813</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502817</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502818</GUID>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="194015,190041,193957,190762,192445" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337502810</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502812</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502813</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502817</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502818</GUID>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="700055,700153,700010" Path="/Values/PlayerCounterContextPool/Contexts">
+        <Item>
+            <Asset>1337502810</Asset>
+        </Item>
+        <Item>
+            <Asset>1337502812</Asset>
+        </Item>
+        <Item>
+            <Asset>1337502813</Asset>
+        </Item>
+        <Item>
+            <Asset>1337502817</Asset>
+        </Item>
+        <Item>
+            <Asset>1337502818</Asset>
+        </Item>
+    </ModOp>
+    <!-- Warehouse Cattle -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>Warehouse</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502819</GUID>
+                    <Name>Warehouse Cattle</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\warehouse_cattle.png</IconFilename>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Text />
+                <Blocking />
+                <Building>
+                    <BuildingType>Logistic</BuildingType>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502819</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Warehouse</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\warehouse_cattle\animal_barn_cattle_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502819</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502823</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502824</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502825</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502826</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502827</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502828</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502829</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502830</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200834</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>3</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <UpgradeList />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>10</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <StorageBase />
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2000</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <Pausable />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Warehouse Horse -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>Warehouse</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502820</GUID>
+                    <Name>Warehouse Horse</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\warehouse_horse.png</IconFilename>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Text />
+                <Blocking />
+                <Building>
+                    <BuildingType>Logistic</BuildingType>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502820</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Warehouse</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\warehouse_horse\animal_barn_horse_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502820</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502831</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502832</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502833</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502834</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502835</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502836</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502837</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502838</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200834</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>3</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <UpgradeList />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>10</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <StorageBase />
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2000</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <Pausable />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Warehouse Pig -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>Warehouse</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502821</GUID>
+                    <Name>Warehouse Pig</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\warehouse_pig.png</IconFilename>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Text />
+                <Blocking />
+                <Building>
+                    <BuildingType>Logistic</BuildingType>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502821</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Warehouse</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\warehouse_pig\animal_barn_pig_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502821</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502839</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502840</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502841</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502842</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502843</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502844</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502845</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502846</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200834</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>3</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <UpgradeList />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>10</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <StorageBase />
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2000</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <Pausable />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Warehouse Sheep -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>Warehouse</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502822</GUID>
+                    <Name>Warehouse Sheep</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers\warehouse_sheep.png</IconFilename>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Text />
+                <Blocking />
+                <Building>
+                    <BuildingType>Logistic</BuildingType>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502822</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Warehouse</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\modgraphics\buildings\ornamental\horse_farm\wood_buildings\warehouse_sheep\animal_barn_sheep_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337502822</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502847</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502848</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502849</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502850</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502851</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502852</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502853</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502854</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200834</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>3</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <UpgradeList />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>10</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <StorageBase />
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2000</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <Pausable />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Farmers Marktplatz skin -->
+    <ModOp Type="addNextSibling" GUID="80160">
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500238</GUID>
+                    <Name>Skin Marketplace MU03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\farmers_market\farmers_market.png</IconFilename>
+                    <ID>SkinMarketplace_MU03</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>1337500238</SkinName>
+                    <SkinDescription>759</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\modgraphics\buildings\public\marketplace_skins\farmers\logistic_01_farmer.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                    <SkinCategoryDescription>5757</SkinCategoryDescription>
+                </Skin>
+                <Locked />
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Marktplatz skins hinzufügen -->
+    <ModOp Type="add" GUID="1010372" Path="/Values/Object/Skins/SkinList">
+        <Item>
+            <SkinAssetGuid>1337500238</SkinAssetGuid>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU Moderate xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="add" GUID="1337506017" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337502810</Building>
+        </Item>
+        <Item>
+            <Building>1337502793</Building>
+        </Item>
+        <Item>
+            <Building>1337502795</Building>
+        </Item>
+        <Item>
+            <Building>1337502797</Building>
+        </Item>
+        <Item>
+            <Building>1337502799</Building>
+        </Item>
+        <Item>
+            <Building>1337502812</Building>
+        </Item>
+        <Item>
+            <Building>1337502813</Building>
+        </Item>
+        <Item>
+            <Building>1337502817</Building>
+        </Item>
+        <Item>
+            <Building>1337502818</Building>
+        </Item>
+        <Item>
+            <Building>1337502819</Building>
+        </Item>
+        <Item>
+            <Building>1337502820</Building>
+        </Item>
+        <Item>
+            <Building>1337502821</Building>
+        </Item>
+        <Item>
+            <Building>1337502822</Building>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Freischaltung -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502814</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+                </Standard>
+                <Text />
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000000</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337502810</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500238</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502793</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502794</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502795</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502796</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502797</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502798</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502799</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502800</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502812</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502813</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502817</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502818</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502819</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502820</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502821</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502822</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337502810</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500238</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502793</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502794</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502795</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502796</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502797</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502798</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502799</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502800</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502812</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502813</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502817</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502818</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502819</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502820</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502821</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502822</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+<!-- 2023-05-18 05:58:12 -->

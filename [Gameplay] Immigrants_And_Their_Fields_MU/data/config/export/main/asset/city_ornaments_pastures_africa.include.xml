@@ -1,0 +1,1259 @@
+<ModOps>
+
+
+<!--
+
+1337502763 Schaafsweide
+1337502764 Schweineweide
+1337502765 KuhweideOW
+1337502766 KuhweideNW
+1337502767 Alpacaweide
+1337502768 Gänse Gehege
+1337502769 Huskys Gehege
+1337502770 Pferde Gehege
+1337502771 Pferdekoppeln
+1337502772 Ziegen Gehege
+1337502773 Ochsen Gehege
+1337502774 Bison Gehege
+1337502775 Wasserbüffel Gehege
+1337502776 Sanga Gehege
+1337502777 Ziegen Gehege
+
+1337502778 Trigger
+
+-->
+
+	<!-- Schaafsweide 3x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502763</GUID>
+                    <Name>SchaafsWeide</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_sheep.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>1010275</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502763</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>102508</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_06\agriculture_06_field_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_06\agriculture_06_field_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_06\agriculture_06_field_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_06\agriculture_06_field_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_06\agriculture_06_field_05.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Schweineweide 3x2 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502764</GUID>
+                    <Name>SchweineWeide</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_pig.png</IconFilename>
+					<InfoDescription>115400</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>1010277</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502764</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>102509</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_08\agriculture_08_field_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_08\agriculture_08_field_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_08\agriculture_08_field_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_08\agriculture_08_field_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_08\agriculture_08_field_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_08\agriculture_08_field_06.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- KuhweideOW 4x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502765</GUID>
+                    <Name>KuhWeideOW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_cattle.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>1010271</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502765</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>117650</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_02\agriculture_02_field_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_02\agriculture_02_field_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_02\agriculture_02_field_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- KuhweideNW 4x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502766</GUID>
+                    <Name>KuhWeideNW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_cattle_02.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>101281</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502766</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>117650</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_colony01_09_module\agriculture_colony01_09_module_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_colony01_09_module\agriculture_colony01_09_module_02.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Alpacaweide 3x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502767</GUID>
+                    <Name>AlpacaWeide</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_alpacca.png</IconFilename>
+					<InfoDescription>105066</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>101283</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502767</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>102508</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_colony01_11\agriculture_colony01_11_field_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_colony01_11\agriculture_colony01_11_field_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_colony01_11\agriculture_colony01_11_field_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_colony01_11\agriculture_colony01_11_field_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\agriculture_colony01_11\agriculture_colony01_11_field_05.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Gänse Gehege 3x2 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502768</GUID>
+                    <Name>GänseGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_goose.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>112677</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502768</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>117650</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony03_02\production_colony03_02_module_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony03_02\production_colony03_02_module_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony03_02\production_colony03_02_module_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Huskys Gehege 4x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502769</GUID>
+                    <Name>HuskysGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_husky.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>112683</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502769</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>117650</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony03_09\production_colony_03_09_module_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony03_09\production_colony_03_09_module_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony03_09\production_colony_03_09_module_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Pferde Gehege 3x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502770</GUID>
+                    <Name>PferdeGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_horse.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>17221</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502770</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>117650</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses\horse_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses\horse_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses\horse_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses\horse_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Pferdekoppeln 4x4 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502771</GUID>
+                    <Name>Pferdekoppeln</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_horse_round.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>17221</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502771</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses_round\reitkoppel_01.cfg</Filename>
+                        </Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses_round\reitkoppel_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses_round\reitkoppel_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses_round\reitkoppel_03_a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses_round\reitkoppel_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\horses_round\reitkoppel_04_a.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Ziegen Gehege 3x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502772</GUID>
+                    <Name>ZiegenGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_goat_02.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>114498</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502772</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>117650</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\goats\goats_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\goats\goats_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\goats\goats_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\goats\goats_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Ochsen Gehege 3x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502773</GUID>
+                    <Name>OchsenGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_ox.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>191064</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502773</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>101201</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\oxen\oxen_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\oxen\oxen_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\oxen\oxen_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\oxen\oxen_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Bison Gehege 3x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502774</GUID>
+                    <Name>BisonGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_wisent.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>23073</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502774</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>101201</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\bison\bison_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\bison\bison_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\bison\bison_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\bison\bison_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Wasserbüffel Gehege 3x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502775</GUID>
+                    <Name>WasserbüffelGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_buffalo.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>193190</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502775</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>102508</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\water_buffalo\water_buffalo_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\water_buffalo\water_buffalo_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\water_buffalo\water_buffalo_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\water_buffalo\water_buffalo_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Sanga Gehege 4x4 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502776</GUID>
+                    <Name>SangaGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_watusi.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>114357</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502776</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>101201</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony02_07\production_colony02_07_module_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony02_07\production_colony02_07_module_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony02_07\production_colony02_07_module_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony02_07\production_colony02_07_module_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Ziegen Gehege 4x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502777</GUID>
+                    <Name>ZiegenGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_goat.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>114498</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502777</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>117680</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony02_03\production_colony02_03_field_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony02_03\production_colony02_03_field_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony02_03\production_colony02_03_field_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_africa\production_colony02_03\production_colony02_03_field_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="add" GUID='1337506006' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502763</Building>
+		</Item>
+		<Item>
+			<Building>1337502764</Building>
+		</Item>
+		<Item>
+			<Building>1337502765</Building>
+		</Item>
+		<Item>
+			<Building>1337502766</Building>
+		</Item>
+		<Item>
+			<Building>1337502767</Building>
+		</Item>
+		<Item>
+			<Building>1337502768</Building>
+		</Item>
+		<Item>
+			<Building>1337502769</Building>
+		</Item>
+		<Item>
+			<Building>1337502770</Building>
+		</Item>
+		<Item>
+			<Building>1337502771</Building>
+		</Item>
+		<Item>
+			<Building>1337502772</Building>
+		</Item>
+		<Item>
+			<Building>1337502773</Building>
+		</Item>
+		<Item>
+			<Building>1337502774</Building>
+		</Item>
+		<Item>
+			<Building>1337502775</Building>
+		</Item>
+		<Item>
+			<Building>1337502776</Building>
+		</Item>
+		<Item>
+			<Building>1337502777</Building>
+		</Item>
+	</ModOp>	
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>FeatureUnlock</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502778</GUID>
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+                <Text />
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337502763</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502764</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502765</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502766</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502767</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502768</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502769</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502770</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502771</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502772</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502773</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502774</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502775</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502776</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502777</Asset>
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>1337502763</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502764</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502765</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502766</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502767</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502768</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502769</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502770</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502771</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502772</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502773</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502774</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502775</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502776</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502777</Asset>
+											</Item>
+											
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>
+
+<!-- 2023-05-18 05:57:42 -->

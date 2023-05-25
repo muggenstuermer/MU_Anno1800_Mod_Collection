@@ -18,9 +18,15 @@ xxxxxxxxxx
 1337502684 Original Kopfsteinpflaster Kopie
 1337502685 Original Helles Kopfsteinpflaster Kopie
 
+
 Decals ALL update 1.1
 xxxxxxxxxxxxxxxxxxxxx
 1337501340 Original Hacienda Pflaster Kopie
+
+Decals ALL update 1.3
+xxxxxxxxxxxxxxxxxxxxx
+1337502906 Original Traditioneller Weg Kopie
+1337502907 Original Traditionelles Terracotta-Pflaster Kopie
 
 
 Decals OW
@@ -86,7 +92,7 @@ Decals AFRICA update 1.1
 xxxxxxxxxxxxxxxxxxxxx
 1337502785 Grass
 
-1337502782 Trigger
+1337502907 Trigger
 
 -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -1943,6 +1949,166 @@ xxxxxxxxxxxxxxxxxxxxx
 					<Ornament>
 						<OrnamentUnit>1</OrnamentUnit>
 						<OrnamentDescription>114583</OrnamentDescription>
+					</Ornament>
+					<AmbientMoodProvider />
+					<Pausable />
+					<Infolayer />
+					<Culture />
+				</Values>
+			</Asset>
+		</ModOp>
+	
+	<!-- Original Traditioneller Weg Kopie -->
+		<ModOp Type="addNextSibling" GUID='1010035'>
+			<Asset>
+				<Template>OrnamentalBuilding</Template>
+				<Values>
+					<Standard>
+						<GUID>1337502906</GUID>
+						<Name>CDLC11 Culture Path (Ornament)</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc11/icon_path_01.png</IconFilename>
+					</Standard>
+					<Text>
+						<TextOverride>20888</TextOverride>
+					</Text>
+					 <Blocking>
+						<HidePropsRadius>0</HidePropsRadius>
+						<DeletePropsRadius>0</DeletePropsRadius>
+						<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+						<BlocksBuilding>0</BlocksBuilding>
+					</Blocking>
+					<Building>
+						<BuildingCategoryName>11149</BuildingCategoryName>
+						<SecondPartyRelevant>0</SecondPartyRelevant>
+						<BuildModeRandomRotation>90</BuildModeRandomRotation>
+						<PickingAsset>1337502906</PickingAsset>
+						<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+						<VariationIcons>
+							<Item>
+								<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc11/icon_path_01.png</IconFilename>
+							</Item>
+							<Item>
+								<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc11/icon_path_02.png</IconFilename>
+							</Item>
+							<Item>
+								<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc11/icon_path_03.png</IconFilename>
+							</Item>
+						</VariationIcons>
+					</Building>
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>25</Amount>
+							</Item>
+						</Costs>
+					</Cost>
+					<Selection>
+						<Colors>
+							<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+						</Colors>
+					</Selection>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\culture_path\culture_path_01.cfg</Filename>
+							</Item>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\culture_path\culture_path_02.cfg</Filename>
+							</Item>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\culture_path\culture_path_03.cfg</Filename>
+							</Item>
+						</Variations>
+					</Object>
+					<Constructable />
+					<Mesh />
+					<SoundEmitter />
+					<Locked />
+					<FeedbackController />
+					<Ornament>
+						<OrnamentUnit>1</OrnamentUnit>
+						<OrnamentDescription>20889</OrnamentDescription>
+					</Ornament>
+					<AmbientMoodProvider />
+					<Pausable />
+					<Infolayer />
+					<Culture />
+				</Values>
+			</Asset>
+		</ModOp>
+		
+	<!-- Original Traditionelles Terracotta-Pflaster Kopie -->
+		<ModOp Type="addNextSibling" GUID='1010035'>
+			<Asset>
+				<Template>OrnamentalBuilding</Template>
+				<Values>
+					<Standard>
+						<GUID>1337502907</GUID>
+						<Name>CDLC11 Culture Pavement (Ornament)</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc11/icon_terracotta_01.png</IconFilename>
+					</Standard>
+					<Text>
+						<TextOverride>20890</TextOverride>
+					</Text>
+					 <Blocking>
+						<HidePropsRadius>0</HidePropsRadius>
+						<DeletePropsRadius>0</DeletePropsRadius>
+						<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+						<BlocksBuilding>0</BlocksBuilding>
+					</Blocking>
+					<Building>
+						<BuildingCategoryName>11149</BuildingCategoryName>
+						<SecondPartyRelevant>0</SecondPartyRelevant>
+						<BuildModeRandomRotation>90</BuildModeRandomRotation>
+						<PickingAsset>1337502907</PickingAsset>
+						<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+						<VariationIcons>
+							<Item>
+								<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc11/icon_terracotta_01.png</IconFilename>
+							</Item>
+							<Item>
+								<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc11/icon_terracotta_02.png</IconFilename>
+							</Item>
+							<Item>
+								<IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc11/icon_terracotta_03.png</IconFilename>
+							</Item>
+						</VariationIcons>
+					</Building>
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>25</Amount>
+							</Item>
+						</Costs>
+					</Cost>
+					<Selection>
+						<Colors>
+							<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+						</Colors>
+					</Selection>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\culture_pavement\culture_pavement_01.cfg</Filename>
+							</Item>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\culture_pavement\culture_pavement_02.cfg</Filename>
+							</Item>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\culture_pavement\culture_pavement_03.cfg</Filename>
+							</Item>
+						</Variations>
+					</Object>
+					<Constructable />
+					<Mesh />
+					<SoundEmitter />
+					<Locked />
+					<FeedbackController />
+					<Ornament>
+						<OrnamentUnit>1</OrnamentUnit>
+						<OrnamentDescription>20891</OrnamentDescription>
 					</Ornament>
 					<AmbientMoodProvider />
 					<Pausable />
@@ -5070,6 +5236,12 @@ xxxxxxxxxxxxxxxxxxxxx
 		<Item>
 			<Building>1337502783</Building><!-- Original Gras Kopie OW -->
 		</Item>
+		<Item>
+			<Building>1337502906</Building><!-- Original Traditioneller Weg Kopie -->
+		</Item>
+		<Item>
+			<Building>1337502907</Building><!-- Original Traditionelles Terracotta-Pflaster Kopie -->
+		</Item>
 
 	</ModOp>
 	
@@ -5156,6 +5328,12 @@ xxxxxxxxxxxxxxxxxxxxx
 		</Item>
 		<Item>
 			<Building>1337502784</Building><!-- Original Gras Kopie NW -->
+		</Item>
+		<Item>
+			<Building>1337502906</Building><!-- Original Traditioneller Weg Kopie -->
+		</Item>
+		<Item>
+			<Building>1337502907</Building><!-- Original Traditionelles Terracotta-Pflaster Kopie -->
 		</Item>
 		
 	</ModOp>
@@ -5270,10 +5448,27 @@ xxxxxxxxxxxxxxxxxxxxx
 		<Item>
 			<Building>1337502785</Building><!-- Original Gras Kopie AFRICA -->
 		</Item>
-		
-		
 	</ModOp>
 	
+	<ModOp Type="add" GUID='1337502909' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502906</Building><!-- Original Traditioneller Weg Kopie -->
+		</Item>
+		<Item>
+			<Building>1337502907</Building><!-- Original Traditionelles Terracotta-Pflaster Kopie -->
+		</Item>
+		
+		<Item>
+			<Building>1337502679</Building><!-- Original Friedhofspflaster -->
+		</Item>
+		
+		<Item>
+			<Building>1337502645</Building><!--  Überdachter Platz -->
+		</Item>
+		<Item>
+			<Building>1337502646</Building><!-- Einfacher Platz -->
+		</Item>
+	</ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- Freischaltung -->
 	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
@@ -5281,7 +5476,7 @@ xxxxxxxxxxxxxxxxxxxxx
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502782</GUID>
+					<GUID>1337502908</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -5486,6 +5681,13 @@ xxxxxxxxxxxxxxxxxxxxx
 											<Item>
 												<Asset>1337502785</Asset>
 											</Item>
+											<!-- update 1.3 -->
+											<Item>
+												<Asset>1337502906</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502907</Asset>
+											</Item>
 											
 										</UnlockAssets>
 										<UnhideAssets>
@@ -5666,6 +5868,13 @@ xxxxxxxxxxxxxxxxxxxxx
 											</Item>
 											<Item>
 												<Asset>1337502785</Asset>
+											</Item>
+											<!-- update 1.3 -->
+											<Item>
+												<Asset>1337502906</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502907</Asset>
 											</Item>
 											
 										</UnhideAssets>

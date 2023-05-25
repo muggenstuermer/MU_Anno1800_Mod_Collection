@@ -1,0 +1,216 @@
+<ModOps>
+
+
+<!--
+
+1337502779 Gänse Gehege
+1337502780 Huskys Gehege
+
+1337502781 Trigger
+
+-->
+
+	<!-- Gänse Gehege 3x2 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502779</GUID>
+                    <Name>GänseGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_goose.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>112677</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502779</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>116631</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_arctic\production_colony03_02\production_colony03_02_module_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_arctic\production_colony03_02\production_colony03_02_module_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_arctic\production_colony03_02\production_colony03_02_module_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+	<!-- Huskys Gehege 4x3 -->
+	<ModOp Type="addNextSibling" GUID='1010270'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502780</GUID>
+                    <Name>HuskysGehege</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pastures\icon_husky.png</IconFilename>
+					<InfoDescription>15222</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>112683</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<PickingAsset>1337502780</PickingAsset>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<GroundDecalAsset>116631</GroundDecalAsset>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_arctic\production_colony03_09\production_colony_03_09_module_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_arctic\production_colony03_09\production_colony_03_09_module_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\modgraphics\buildings\ornamental\pastures_arctic\production_colony03_09\production_colony_03_09_module_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="add" GUID='1337506007' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502779</Building>
+		</Item>
+		<Item>
+			<Building>1337502780</Building>
+		</Item>
+	</ModOp>	
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>FeatureUnlock</Template>
+			<Values>
+				<Standard>
+					<GUID>1337502781</GUID>
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+                <Text />
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337502779</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502780</Asset>
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>1337502779</Asset>
+											</Item>
+											<Item>
+												<Asset>1337502780</Asset>
+											</Item>
+											
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>
+
+<!-- 2023-05-18 05:57:52 -->
