@@ -2,8 +2,8 @@
   <!-- Description -->
   <ImyaTweaks Title="Adjustments to the Quay Street OW" />
   <!-- Original Kaistrasse mit neuer Textur wie kai OW -->
-  <ModOp Type="replace" GUID="601443" Path="/Values/Street/CfgFileName" ModOpID="UseNewTextureModelForQuayStreetOWMU" Skip="1">
-    <CfgFileName>data/modgraphics/streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
+  <ModOp Type="replace" GUID="601443" Path="/Values/Street/CfgFileName" ModOpID="UseNewTextureModelForQuayStreetOWMU">
+    <CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
   </ModOp>
   <ImyaExpose Path="self::CfgFileName" ModOpID="UseNewTextureModelForQuayStreetOWMU" ExposeID="Use New Texture and Model For Quay Street OW MU" Description="Determines whether the mod Quay Street with new texture and changed model or the vanilla Quay Street should be used in the OW (default = ON = Mod default settings)" Kind="Toggle">
     <AltValue>
@@ -13,8 +13,8 @@
   <!-- Description -->
   <ImyaTweaks Title="Adjustments to the Quay Street NW" />
   <!-- Original Kaistrasse mit neuer Textur wie kai NW -->
-  <ModOp Type="replace" GUID="131865" Path="/Values/Street/CfgFileName" ModOpID="UseNewTextureModelForQuayStreetNWMU" Skip="1">
-    <CfgFileName>data/modgraphics/streets/quay_street_nw/quay_system_01.cfg</CfgFileName>
+  <ModOp Type="replace" GUID="131865" Path="/Values/Street/CfgFileName" ModOpID="UseNewTextureModelForQuayStreetNWMU">
+    <CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_nw/quay_system_01.cfg</CfgFileName>
   </ModOp>
   <ImyaExpose Path="self::CfgFileName" ModOpID="UseNewTextureModelForQuayStreetNWMU" ExposeID="Use New Texture and Model For Quay Street NW MU" Description="Determines whether the mod Quay Street with new texture and changed model or the vanilla Quay Street should be used in the NW (default = ON = Mod default settings)" Kind="Toggle">
     <AltValue>
