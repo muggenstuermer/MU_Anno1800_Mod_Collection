@@ -4,7 +4,7 @@ muggenstuermers mod collection-all up to date in one place
 
 # Fire_Station_MU
 
-![image](https://github.com/muggenstuermer/Fire_Station_MU/blob/master/69-1604249843-347029700.webp)
+![](./doc/firestation_banner.jpg)
 
 This mod adds 2 more fire stations.
 
@@ -29,6 +29,8 @@ This mod adds 2 more fire stations.
 
 
 The buildings were integrated into the original building menu of the fire station.
+
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 Have fun with it: your muggenstuermer ;)
 

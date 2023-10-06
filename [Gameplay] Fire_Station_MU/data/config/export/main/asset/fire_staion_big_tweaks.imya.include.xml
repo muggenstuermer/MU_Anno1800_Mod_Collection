@@ -1,0 +1,20 @@
+<ModOps>
+    <!-- Description -->
+    <ImyaTweaks Title="Change the Range of the Big Firestation." Description="You can Increase or Decrease the Ranges of the Big Firestation" />
+    
+	<!-- Change Fire Distance of the Big Firestation -->
+    <ModOp GUID="1337500011" Type="replace" Path="/Values/IncidentInfluencer/Influence/Fire/Distance" ModOpID="BigFireStationFireDistanceMU">
+        <Distance>24</Distance>
+    </ModOp>
+    <ImyaExpose Path="self::Distance" ModOpID="BigFireStationFireDistanceMU" ExposeID="Custom Fire Distance for the Big Firestation" Description="Sets the Fire Distance for the Big Firestation ( Mod default settings = 24 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="50" Stepping="1" />
+    </ImyaExpose>
+    
+	<!-- Change Explosion Distance of the Big Firestation -->
+    <ModOp GUID="1337500011" Type="replace" Path="/Values/IncidentInfluencer/Influence/Explosion/Distance" ModOpID="BigFireStationExplosionDistanceMU">
+        <Distance>15</Distance>
+    </ModOp>
+    <ImyaExpose Path="self::Distance" ModOpID="BigFireStationExplosionDistanceMU" ExposeID="Custom Explosion Distance for the Big Firestation" Description="Sets the Explosion Distance for the Big Firestation ( Mod default settings = 15 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="50" Stepping="1" />
+    </ImyaExpose>
+</ModOps>
