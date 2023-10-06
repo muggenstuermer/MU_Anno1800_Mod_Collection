@@ -1,5 +1,7 @@
 # Fire_Station_MU
 
+![](../doc/firestation_banner.jpg)
+
 This mod adds 2 more fire stations.
 
 ### The Fire Brigade Institute:
