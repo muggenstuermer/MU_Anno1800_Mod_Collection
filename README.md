@@ -2,14 +2,14 @@
 
 muggenstuermers mod collection-all up to date in one place
 
-# `Fire_Station_MU`
+## `Fire_Station_MU`
 
 ![](./doc/firestation_banner.jpg)
 
 This mod adds 2 more fire stations.
 
-## The Fire Brigade Institute:
-------------------------------
+### The Fire Brigade Institute:
+
 - Reach of the emergency forces (compared to the original) : +8%.
 - Emergency forces ( compared to the original ) : +300% (4 units)
 - Emergency forces Movement rate (compared to the original) : +30%.
@@ -18,8 +18,8 @@ This mod adds 2 more fire stations.
 - Range of fire reduction (compared to the original) : +60%.
 
 
-## The Volunteer Firefighter:
------------------------------
+### The Volunteer Firefighter:
+
 - Reach of the emergency forces (compared to the original) : -16%.
 - Emergency forces ( compared to the original ) : +100% (2 units)
 - Emergency forces Movement rate (compared to the original) : +15%.
