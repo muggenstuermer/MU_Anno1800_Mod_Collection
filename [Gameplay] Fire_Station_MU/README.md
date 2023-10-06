@@ -28,7 +28,7 @@ The buildings were integrated into the original building menu of the fire statio
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
-[Download latest](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+[Download latest Fire_Station_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
 
 ## Changelogs
