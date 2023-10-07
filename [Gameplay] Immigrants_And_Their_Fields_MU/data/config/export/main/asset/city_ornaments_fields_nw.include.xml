@@ -1,6 +1,4 @@
 <ModOps>
-
-
 <!--
 
 1337502697 Weizen Felder OW+NW
@@ -28,1914 +26,1883 @@
 1337502718 Trigger
 
 -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIELDS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
-	
-	<!-- Weizen Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIELDS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Weizen Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502697</GUID>
                     <Name>Getreide</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_grain.png</IconFilename>
-					<InfoDescription>25287</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1010270</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502697</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_grain.png</IconFilename>
+                    <InfoDescription>25287</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1010270</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502697</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101200</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_01\agriculture_01_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_01\agriculture_01_field_08.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_09.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_10.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101200</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_01\agriculture_01_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_01\agriculture_01_field_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_09.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_01\agriculture_01_field_10.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Hopfen Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Hopfen Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502698</GUID>
                     <Name>HopfenFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_hop.png</IconFilename>
-					<InfoDescription>132846</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1010272</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502698</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_hop.png</IconFilename>
+                    <InfoDescription>132846</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1010272</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502698</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_03\agriculture_03_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_03\agriculture_03_field_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_08.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_09.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_10.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_03\agriculture_03_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_03\agriculture_03_field_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_09.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_03\agriculture_03_field_10.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Kartoffel Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Kartoffel Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502699</GUID>
                     <Name>KartoffelFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_potato.png</IconFilename>
-					<InfoDescription>14039</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1010273</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502699</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_potato.png</IconFilename>
+                    <InfoDescription>14039</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1010273</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502699</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>102507</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_04\agriculture_04_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_04\agriculture_04_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_04\agriculture_04_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_08.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_09.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_04\agriculture_04_field_10.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>102507</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_04\agriculture_04_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_04\agriculture_04_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_04\agriculture_04_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_04\agriculture_04_field_09.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_04\agriculture_04_field_10.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Trauben Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Trauben Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502700</GUID>
                     <Name>TraubenFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_vine.png</IconFilename>
-					<InfoDescription>133451</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>100657</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502700</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_vine.png</IconFilename>
+                    <InfoDescription>133451</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>100657</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502700</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>102510</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_10\agriculture_10_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_10\agriculture_10_field_07.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>102510</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_10\agriculture_10_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_10\agriculture_10_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_10\agriculture_10_field_07.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Paprika Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Paprika Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502701</GUID>
                     <Name>PaprikaFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_pepper.png</IconFilename>
-					<InfoDescription>12628</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>100656</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502701</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_pepper.png</IconFilename>
+                    <InfoDescription>12628</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>100656</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502701</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					 <GroundDecalAsset>102511</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_11\agriculture_11_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_11\agriculture_11_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_11\agriculture_11_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_11\agriculture_11_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_11\agriculture_11_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_11\agriculture_11_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_11\agriculture_11_field_07.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>102511</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_11\agriculture_11_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_11\agriculture_11_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_11\agriculture_11_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_11\agriculture_11_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_11\agriculture_11_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_11\agriculture_11_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_11\agriculture_11_field_07.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Zuckerrohr Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Zuckerrohr Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502702</GUID>
                     <Name>ZuckerrohrFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_sugar_cane.png</IconFilename>
-					<InfoDescription>15922</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1010334</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502702</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_sugar_cane.png</IconFilename>
+                    <InfoDescription>15922</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1010334</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502702</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_01\agriculture_colony01_01_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_08.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_01\agriculture_colony01_01_field_09.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_01\agriculture_colony01_01_field_10.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_01\agriculture_colony01_01_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_01\agriculture_colony01_01_field_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_01\agriculture_colony01_01_field_09.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_01\agriculture_colony01_01_field_10.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Tabak Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Tabak Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502703</GUID>
                     <Name>TabakFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_tobacco.png</IconFilename>
-					<InfoDescription>116219</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1010335</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502703</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_tobacco.png</IconFilename>
+                    <InfoDescription>116219</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1010335</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502703</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_02\agriculture_colony01_02_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_02\agriculture_colony01_02_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_02\agriculture_colony01_02_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_02\agriculture_colony01_02_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_02\agriculture_colony01_02_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_02\agriculture_colony01_02_field_06.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_02\agriculture_colony01_02_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_02\agriculture_colony01_02_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_02\agriculture_colony01_02_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_02\agriculture_colony01_02_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_02\agriculture_colony01_02_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_02\agriculture_colony01_02_field_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Baumwolle Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Baumwolle Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502704</GUID>
                     <Name>BaumwolleFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_cotton.png</IconFilename>
-					<InfoDescription>15928</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1010336</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502704</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_cotton.png</IconFilename>
+                    <InfoDescription>15928</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1010336</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502704</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_03\agriculture_colony01_03_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_03\agriculture_colony01_03_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data/graphics/buildings/production/agriculture_colony01_03/agriculture_colony01_03_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_03\agriculture_colony01_03_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data/graphics/buildings/production/agriculture_colony01_03/agriculture_colony01_03_field_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data/graphics/buildings/production/agriculture_colony01_03/agriculture_colony01_03_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data/graphics/buildings/production/agriculture_colony01_03/agriculture_colony01_03_field_05.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_03\agriculture_colony01_03_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_03\agriculture_colony01_03_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/production/agriculture_colony01_03/agriculture_colony01_03_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_03\agriculture_colony01_03_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/production/agriculture_colony01_03/agriculture_colony01_03_field_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/production/agriculture_colony01_03/agriculture_colony01_03_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/production/agriculture_colony01_03/agriculture_colony01_03_field_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Kakao Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Kakao Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502705</GUID>
                     <Name>KakaoFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_cocoa.png</IconFilename>
-					<InfoDescription>15931</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1010337</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502705</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_cocoa.png</IconFilename>
+                    <InfoDescription>15931</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1010337</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502705</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_04\agriculture_colony01_04_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_04\agriculture_colony01_04_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_04\agriculture_colony01_04_field_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_04\agriculture_colony01_04_field_08.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_09.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_10.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_04\agriculture_colony01_04_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_04\agriculture_colony01_04_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_04\agriculture_colony01_04_field_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_04\agriculture_colony01_04_field_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_09.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_04\agriculture_colony01_04_field_10.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Kautschuk Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Kautschuk Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502706</GUID>
                     <Name>KautschukFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_caoutchouc.png</IconFilename>
-					<InfoDescription>15934</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1010338</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502706</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_caoutchouc.png</IconFilename>
+                    <InfoDescription>15934</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1010338</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502706</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_05\agriculture_colony01_05_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_05\agriculture_colony01_05_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_05\agriculture_colony01_05_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_05\agriculture_colony01_05_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_05\agriculture_colony01_05_field_05.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_05\agriculture_colony01_05_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_05\agriculture_colony01_05_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_05\agriculture_colony01_05_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_05\agriculture_colony01_05_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_05\agriculture_colony01_05_field_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Kaffee Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Kaffee Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502707</GUID>
                     <Name>KaffeeFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_coffee.png</IconFilename>
-					<InfoDescription>122455</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>101253</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502707</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_coffee.png</IconFilename>
+                    <InfoDescription>122455</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>101253</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502707</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_07\agriculture_colony01_07_field.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_07\agriculture_colony01_07_field02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_07\agriculture_colony01_07_field03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_07\agriculture_colony01_07_field04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_07\agriculture_colony01_07_field05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_07\agriculture_colony01_07_field06.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_07\agriculture_colony01_07_field.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_07\agriculture_colony01_07_field02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_07\agriculture_colony01_07_field03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_07\agriculture_colony01_07_field04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_07\agriculture_colony01_07_field05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_07\agriculture_colony01_07_field06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Bananen Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Bananen Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502708</GUID>
                     <Name>BananenFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_banana.png</IconFilename>
-					<InfoDescription>138703</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>101280</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502708</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_banana.png</IconFilename>
+                    <InfoDescription>138703</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>101280</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502708</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_08\agriculture_colony01_08_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_08\agriculture_colony01_08_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_08\agriculture_colony01_08_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_08\agriculture_colony01_08_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_08\agriculture_colony01_08_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_08\agriculture_colony01_08_field_06.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_08\agriculture_colony01_08_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_08\agriculture_colony01_08_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_08\agriculture_colony01_08_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_08\agriculture_colony01_08_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_08\agriculture_colony01_08_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_08\agriculture_colony01_08_field_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Mais Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Mais Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502709</GUID>
                     <Name>MaisFeld</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_corn.png</IconFilename>
-					<InfoDescription>25278</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>101282</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502709</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_corn.png</IconFilename>
+                    <InfoDescription>25278</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>101282</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502709</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101200</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_10\agriculture_colony01_10_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_10\agriculture_colony01_10_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\agriculture_colony01_10\agriculture_colony01_10_field_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_08.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_09.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_10.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_11.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101200</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_10\agriculture_colony01_10_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_10\agriculture_colony01_10_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\agriculture_colony01_10\agriculture_colony01_10_field_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_09.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_10.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_ow\agriculture_colony01_10\agriculture_colony01_10_field_11.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Wanza Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Wanza Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502710</GUID>
                     <Name>WanzaFelder</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_teak.png</IconFilename>
-					<InfoDescription>122147</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>114489</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502710</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_teak.png</IconFilename>
+                    <InfoDescription>122147</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>114489</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502710</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>117680</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_12\production_colony02_12_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_12\production_colony02_12_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_12\production_colony02_12_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_12\production_colony02_12_field_04.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>117680</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_12\production_colony02_12_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_12\production_colony02_12_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_12\production_colony02_12_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_12\production_colony02_12_field_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Hibiskus Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Hibiskus Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502711</GUID>
                     <Name>HibiskusFelder</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_hibiscus.png</IconFilename>
-					<InfoDescription>114589</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>114488</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502711</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_hibiscus.png</IconFilename>
+                    <InfoDescription>114589</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>114488</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502711</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101200</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_01\production_colony02_01_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_01\production_colony02_01_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_01\production_colony02_01_field_03.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101200</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_01\production_colony02_01_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_01\production_colony02_01_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_01\production_colony02_01_field_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Flachs Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Flachs Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502712</GUID>
                     <Name>FlachsFelder</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_linen.png</IconFilename>
-					<InfoDescription>119599</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>114490</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502712</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_linen.png</IconFilename>
+                    <InfoDescription>119599</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>114490</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502712</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_13\production_colony02_13_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_13\production_colony02_13_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_13\production_colony02_13_field_03.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_13\production_colony02_13_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_13\production_colony02_13_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_13\production_colony02_13_field_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Tef Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Tef Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502713</GUID>
                     <Name>TefFelder</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_teff.png</IconFilename>
-					<InfoDescription>122343</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>114492</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502713</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_teff.png</IconFilename>
+                    <InfoDescription>122343</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>114492</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502713</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_08.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_27\production_colony02_27_field_08.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Indigo Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Indigo Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502714</GUID>
                     <Name>IndigoFelder</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_indigo.png</IconFilename>
-					<InfoDescription>130803</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>114494</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502714</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_indigo.png</IconFilename>
+                    <InfoDescription>130803</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>114494</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502714</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101200</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_06.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101200</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_05\production_colony02_05_field_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Gewuerz Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Gewuerz Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502715</GUID>
                     <Name>GewuerzFelder</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_spice.png</IconFilename>
-					<InfoDescription>116196</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>114495</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502715</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_spice.png</IconFilename>
+                    <InfoDescription>116196</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>114495</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502715</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101200</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_05.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101200</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\production_colony02_06\production_colony02_06_field_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Kraeuter Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Kraeuter Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502716</GUID>
                     <Name>KraeuterFelder</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_herb.png</IconFilename>
-					<InfoDescription>138296</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>5464</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502716</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_herb.png</IconFilename>
+                    <InfoDescription>138296</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>5464</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502716</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101058</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\herbs_farm\herb_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\herbs_farm\herb_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\herbs_farm\herb_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\herbs_farm\herb_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data/dlc12/graphics/buildings/production/herbs_farm/herb_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\herbs_farm\herb_field_06.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data/dlc12/graphics/buildings/production/herbs_farm/herb_field_07.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101058</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\herbs_farm\herb_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\herbs_farm\herb_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\herbs_farm\herb_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\herbs_farm\herb_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/dlc12/graphics/buildings/production/herbs_farm/herb_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\herbs_farm\herb_field_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/dlc12/graphics/buildings/production/herbs_farm/herb_field_07.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	<!-- Orchideen Felder -->
-	<ModOp Type="addNextSibling" GUID='1010270'>
-		<Asset>
+    </ModOp>
+    <!-- Orchideen Felder -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1337502717</GUID>
                     <Name>OrchideenFelder</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\fields\icon_orchid.png</IconFilename>
-					<InfoDescription>252326</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>5815</TextOverride>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<PickingAsset>1337502717</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fields\icon_orchid.png</IconFilename>
+                    <InfoDescription>252326</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>5815</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337502717</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
-				<Blocking>
-					<GroundDecalAsset>101200</GroundDecalAsset>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>15</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection />
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\orchid_farm\orchid_field_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\orchid_farm\orchid_field_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\orchid_farm\orchid_field_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\orchid_farm\orchid_field_04.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\orchid_farm\orchid_field_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\fields_nw\orchid_farm\orchid_field_06.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<OrnamentUnit>1</OrnamentUnit>
+                <Blocking>
+                    <GroundDecalAsset>101200</GroundDecalAsset>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\orchid_farm\orchid_field_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\orchid_farm\orchid_field_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\orchid_farm\orchid_field_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\orchid_farm\orchid_field_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\orchid_farm\orchid_field_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\fields_nw\orchid_farm\orchid_field_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
                 </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
         </Asset>
-	</ModOp>
-	
-	
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-	<ModOp Type="add" GUID='1337506001' Path="/Values/ConstructionCategory/BuildingList">
-		<Item>
-			<Building>1337502697</Building>
-		</Item>
-		<Item>
-			<Building>1337502699</Building>
-		</Item>
-		<Item>
-			<Building>1337502701</Building>
-		</Item>
-		<Item>
-			<Building>1337502702</Building>
-		</Item>
-		<Item>
-			<Building>1337502703</Building>
-		</Item>
-		<Item>
-			<Building>1337502704</Building>
-		</Item>
-		<Item>
-			<Building>1337502705</Building>
-		</Item>
-		<Item>
-			<Building>1337502706</Building>
-		</Item>
-		<Item>
-			<Building>1337502707</Building>
-		</Item>
-		<Item>
-			<Building>1337502708</Building>
-		</Item>
-		<Item>
-			<Building>1337502709</Building>
-		</Item>
-		<Item>
-			<Building>1337502715</Building>
-		</Item>
-		<Item>
-			<Building>1337502716</Building>
-		</Item>
-		<Item>
-			<Building>1337502717</Building>
-		</Item>
-		
-		<Item>
-			<Building>1337502710</Building>
-		</Item>
-		<Item>
-			<Building>1337502711</Building>
-		</Item>
-		<Item>
-			<Building>1337502712</Building>
-		</Item>
-		<Item>
-			<Building>1337502713</Building>
-		</Item>
-		<Item>
-			<Building>1337502714</Building>
-		</Item>
-
-		<Item>
-			<Building>1337502698</Building>
-		</Item>
-		<Item>
-			<Building>1337502700</Building>
-		</Item>
-		<Item>
-			<Building>1337502743</Building>
-		</Item>
-	</ModOp>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-	<!-- Freischaltung -->
-	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
-		<Asset>
-			<Template>FeatureUnlock</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502718</GUID>
-					<Name>intermediate moderate 2.0</Name>
-					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
-				</Standard>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="add" GUID="1337506001" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337502697</Building>
+        </Item>
+        <Item>
+            <Building>1337502699</Building>
+        </Item>
+        <Item>
+            <Building>1337502701</Building>
+        </Item>
+        <Item>
+            <Building>1337502702</Building>
+        </Item>
+        <Item>
+            <Building>1337502703</Building>
+        </Item>
+        <Item>
+            <Building>1337502704</Building>
+        </Item>
+        <Item>
+            <Building>1337502705</Building>
+        </Item>
+        <Item>
+            <Building>1337502706</Building>
+        </Item>
+        <Item>
+            <Building>1337502707</Building>
+        </Item>
+        <Item>
+            <Building>1337502708</Building>
+        </Item>
+        <Item>
+            <Building>1337502709</Building>
+        </Item>
+        <Item>
+            <Building>1337502715</Building>
+        </Item>
+        <Item>
+            <Building>1337502716</Building>
+        </Item>
+        <Item>
+            <Building>1337502717</Building>
+        </Item>
+        <Item>
+            <Building>1337502710</Building>
+        </Item>
+        <Item>
+            <Building>1337502711</Building>
+        </Item>
+        <Item>
+            <Building>1337502712</Building>
+        </Item>
+        <Item>
+            <Building>1337502713</Building>
+        </Item>
+        <Item>
+            <Building>1337502714</Building>
+        </Item>
+        <Item>
+            <Building>1337502698</Building>
+        </Item>
+        <Item>
+            <Building>1337502700</Building>
+        </Item>
+        <Item>
+            <Building>1337502743</Building>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Freischaltung -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502718</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+                </Standard>
                 <Text />
-				<Trigger>
-					<TriggerCondition>
-						<Template>ConditionPlayerCounter</Template>
-						<Values>
-							<ConditionPlayerCounter>
-								<PlayerCounter>PopulationByLevel</PlayerCounter>
-								<Context>15000001</Context>
-								<CounterAmount>1</CounterAmount>
-							</ConditionPlayerCounter>
-						</Values>
-					</TriggerCondition>
-					<TriggerActions>
-						<Item>
-							<TriggerAction>
-								<Template>ActionUnlockAsset</Template>
-								<Values>
-									<Action />
-									<ActionUnlockAsset>
-										<UnlockAssets>
-											<Item>
-												<Asset>1337502697</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502698</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502699</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502700</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502701</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502702</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502703</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502704</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502705</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502706</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502707</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502708</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502709</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502710</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502711</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502712</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502713</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502714</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502715</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502716</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502717</Asset>
-											</Item>
-											
-											
-										</UnlockAssets>
-										<UnhideAssets>
-											<Item>
-												<Asset>1337502697</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502698</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502699</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502700</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502701</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502702</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502703</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502704</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502705</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502706</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502707</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502708</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502709</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502710</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502711</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502712</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502713</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502714</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502715</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502716</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502717</Asset>
-											</Item>
-											
-										</UnhideAssets>
-									</ActionUnlockAsset>
-								</Values>
-							</TriggerAction>
-						</Item>
-					</TriggerActions>
-				</Trigger>
-				<TriggerSetup />
-			</Values>
-		</Asset>
-	</ModOp>
-
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000001</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337502697</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502698</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502699</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502700</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502701</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502702</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502703</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502704</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502705</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502706</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502707</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502708</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502709</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502710</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502711</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502712</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502713</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502714</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502715</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502716</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502717</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337502697</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502698</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502699</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502700</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502701</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502702</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502703</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502704</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502705</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502706</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502707</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502708</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502709</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502710</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502711</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502712</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502713</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502714</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502715</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502716</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337502717</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
 </ModOps>
-
-<!-- 2023-05-18 05:56:55 -->

@@ -1,8 +1,7 @@
-<ModOps>	
+<ModOps>
 <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+<!--
 
-	
-<!-- ID's are used for this mod: 
 fields_and_pastures_buildmenu.include.xml
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 fields_buildmenu:
@@ -392,41 +391,46 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 1337502928 Wooden_Horse_Farm_03_09
 
 -->
-	
-<!-- #1 - Fields_And_Pastures_MU : Buildmenu -->
+    <!-- #1 - Fields_And_Pastures_MU : Buildmenu -->
     <Include File="fields_and_pastures_buildmenu.include.xml" />
-
-<!-- #2 - CO2: All Farmfields OW -->
+	
+    <!-- #2 - CO2: All Farmfields OW -->
     <Include File="city_ornaments_fields_ow.include.xml" />
 	
-<!-- #3 - CO2: All Farmfields NW -->
+    <!-- #3 - CO2: All Farmfields NW -->
     <Include File="city_ornaments_fields_nw.include.xml" />
 	
-<!-- #4 - CO2: All Farmfields AFRICA -->
+    <!-- #4 - CO2: All Farmfields AFRICA -->
     <Include File="city_ornaments_fields_africa.include.xml" />
 	
-<!-- #5- CO2: All Farm Pastures OW -->
+    <!-- #5- CO2: All Farm Pastures OW -->
     <Include File="city_ornaments_pastures_ow.include.xml" />
 	
-<!-- #6- CO2: All Farm Pastures NW -->
+    <!-- #6- CO2: All Farm Pastures NW -->
     <Include File="city_ornaments_pastures_nw.include.xml" />
 	
-<!-- #7- CO2: All Farm Pastures AFRICA -->
+    <!-- #7- CO2: All Farm Pastures AFRICA -->
     <Include File="city_ornaments_pastures_africa.include.xml" />
 	
-<!-- #8- CO2: All Farm Pastures ARCTIC -->
+    <!-- #8- CO2: All Farm Pastures ARCTIC -->
     <Include File="city_ornaments_pastures_arctic.include.xml" />
 	
-<!-- #9- Immigrants functional -->
+    <!-- #9- Immigrants functional -->
     <Include File="immigrants_functional.include.xml" />
 	
-<!-- #10 - Ornamental Bauernhäuser -->
+    <!-- #10 - Ornamental Bauernhäuser -->
     <Include File="immigrants_ornamental.include.xml" />
 	
-<!-- #11- Immigrants functional: IMYA settings -->
-    <Include File="immigrants_functional_imya.include.xml" />
-
-
+    <!-- #11- Immigrants functional Chapel: IMYA settings -->
+    <Include File="immigrants_functional_chapel_imya.include.xml" />
+	
+    <!-- #12- Immigrants functional Pub: IMYA settings -->
+    <Include File="immigrants_functional_pub_imya.include.xml" />
+	
+    <!-- #13- Immigrants functional Towngate: IMYA settings -->
+    <Include File="immigrants_functional_towngate_imya.include.xml" />
+	
+    <!-- #14- Immigrants functional Townhall: IMYA settings -->
+    <Include File="immigrants_functional_townhall_imya.include.xml" />
 </ModOps>
-
-<!-- 2023-05-25 02:30:36 -->
+<!-- 2023-10-07 15:40:45 -->

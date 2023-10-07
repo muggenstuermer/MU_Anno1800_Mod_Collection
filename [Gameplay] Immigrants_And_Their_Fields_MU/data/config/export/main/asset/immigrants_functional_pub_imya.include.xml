@@ -1,0 +1,20 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Adjustments to range of Immigrants Pub Building" Description="You can Increase or Decrease the Ranges of the Immigrants Pub Building" />
+  
+  <!-- FullSatisfactionDistance -->
+  <ModOp Type="replace" GUID="1337502793" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="PubNewFullDistance">
+    <FullSatisfactionDistance>25</FullSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="PubNewFullDistance" ExposeID="Adjust the Pub FullSatisfactionDistance to your needs" Description="Adjust the FullSatisfactionDistance of the Pub ( Mod default settings = 25 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="50" Stepping="1" />
+  </ImyaExpose>
+  
+  <!-- NoSatisfactionDistance -->
+  <ModOp Type="replace" GUID="1337502793" Path="/Values/PublicService/NoSatisfactionDistance" ModOpID="PubNewNoSatisfactionDistance">
+    <NoSatisfactionDistance>40</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="PubNewNoSatisfactionDistance" ExposeID="Adjust the Pub NoSatisfactionDistance to your needs" Description="Adjust the NoSatisfactionDistance of the Pub ( Mod default settings = 40 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+</ModOps>

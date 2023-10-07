@@ -1,0 +1,20 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Adjustments to range of Immigrants Townhall Building" Description="You can Increase or Decrease the Ranges of the Immigrants Townhall Building" />
+  
+  <!-- FullSatisfactionDistance -->
+  <ModOp Type="replace" GUID="1337502797" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="TownhallNewFullDistance">
+    <FullSatisfactionDistance>37</FullSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="TownhallNewFullDistance" ExposeID="Adjust the Townhall FullSatisfactionDistance to your needs" Description="Adjust the FullSatisfactionDistance of the Townhall ( Mod default settings = 37 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="50" Stepping="1" />
+  </ImyaExpose>
+  
+  <!-- NoSatisfactionDistance -->
+  <ModOp Type="replace" GUID="1337502797" Path="/Values/PublicService/NoSatisfactionDistance" ModOpID="TownhallNewNoSatisfactionDistance">
+    <NoSatisfactionDistance>65</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="TownhallNewNoSatisfactionDistance" ExposeID="Adjust the Townhall NoSatisfactionDistance to your needs" Description="Adjust the NoSatisfactionDistance of the Townhall ( Mod default settings = 65 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+</ModOps>
