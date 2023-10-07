@@ -1,0 +1,12 @@
+<ModOps>
+    <!-- Description -->
+    <ImyaTweaks Title="Change the Range of the Big Hospital." Description="You can Increase or Decrease the Ranges of the Big Hospital" />
+    
+	<!-- Change Illness Distance of the Big Hospital -->
+    <ModOp GUID="1337500018" Type="replace" Path="/Values/IncidentInfluencer/Influence/Illness/Distance" ModOpID="BigHospitalIllnessDistanceMU">
+        <Distance>24</Distance>
+    </ModOp>
+    <ImyaExpose Path="self::Distance" ModOpID="BigHospitalIllnessDistanceMU" ExposeID="Custom Illness Distance for the Big Hospital" Description="Sets the Illness Distance for the Big Hospital ( Mod default settings = 24 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="50" Stepping="1" />
+    </ImyaExpose>
+</ModOps>

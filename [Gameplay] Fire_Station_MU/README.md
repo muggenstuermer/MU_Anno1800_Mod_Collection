@@ -7,9 +7,9 @@ This mod adds 2 more fire stations.
 ### The Fire Brigade Institute:
 
 - Reach of the emergency forces (compared to the original) : +8%.
-- Emergency forces ( compared to the original ) : +300% (4 units)
+- Emergency forces ( compared to the original ) : +300% (4 units).
 - Emergency forces Movement rate (compared to the original) : +30%.
-- Emergency forces Execution speed (compared to the original) : +100%
+- Emergency forces Execution speed (compared to the original) : +100%.
 - Reduces the risk of fire (compared to the original) : +45%.
 - Range of fire reduction (compared to the original) : +60%.
 
@@ -17,9 +17,9 @@ This mod adds 2 more fire stations.
 ### The Volunteer Firefighter:
 
 - Reach of the emergency forces (compared to the original) : -16%.
-- Emergency forces ( compared to the original ) : +100% (2 units)
+- Emergency forces ( compared to the original ) : +100% (2 units).
 - Emergency forces Movement rate (compared to the original) : +15%.
-- Emergency forces Execution speed (compared to the original) : +50%
+- Emergency forces Execution speed (compared to the original) : +50%.
 - Reduces the risk of fire  (compared to the original) : -3%.
 - Range of fire reduction (compared to the original): -15%.
 
@@ -73,7 +73,7 @@ Changelog - 1.25
 
 	- correction ifo files.
 	- IMYA tweaks added to be able to set limited custom ranges.
-	- of the folder structure to adapt to the desired structures.
+	- correction of the folder structure to adapt to the desired structures.
 	- chinese translation added. Big thx to @darknesswei for this translation
 	- reduce content.txt files to english only.
 	

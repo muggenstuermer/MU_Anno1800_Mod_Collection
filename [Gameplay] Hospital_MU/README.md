@@ -1,8 +1,10 @@
 # Hospital_MU
 
+![](../doc/hospital_banner.jpg)
+
 This mod adds 2 more hospitals / doctors.
 
-## The Sanatorium::
+### The Sanatorium::
 
 - Deployed forces range ( compared to the original ) : +8%.
 - Task forces ( compared to the original ) : +100% (4 units).
@@ -12,7 +14,7 @@ This mod adds 2 more hospitals / doctors.
 - Range disease reduction ( compared to original ) : +60%.
 
 
-## The alternative Practitioners:
+### The alternative Practitioners:
 
 - Task force range ( compared to the original ) : -16%.
 - Task forces ( compared to original ) : +50% (3 units).
@@ -25,6 +27,8 @@ This mod adds 2 more hospitals / doctors.
 The buildings have been integrated into the original tree menu of the hospital.
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Hospital_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
 
 ## Changelogs
@@ -58,7 +62,7 @@ Changelog - 1.23
 Changelog - 1.24
 ---------------------------
 	- modinfo.json correction.
-	
+
 ---------------------------
 Changelog - 1.25
 ---------------------------
