@@ -32,7 +32,7 @@ Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 ## Changelogs
 
 ---------------------------
-Release - 1.0
+#### Release - 1.0
 ---------------------------
 
 	- Create functional immigrant population
