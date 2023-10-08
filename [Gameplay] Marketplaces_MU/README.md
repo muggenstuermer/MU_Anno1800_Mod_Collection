@@ -1,0 +1,38 @@
+# Marketplaces_MU
+
+![](../doc/markets_banner.jpg)
+
+This mod contains all Markets from City and Harbour Ornaments 
+and adds some skins to the original Market and also for the Harborlife Market.
+
+They are available as functional and ornamental buildings,
+have diffrent sizes and diffrent ranges and are adapted to the respective regions.
+
+### Necessary active mods :
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+- ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
+
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Marketplaces_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+## Changelogs
+
+---------------------------
+Release - 1.0
+---------------------------
+
+	- Created diffrent small Markets with diffrent sizes and diffrent ranges for all regions.
+	- Added some skins for the originals and the Harborlife Market,for all regions.
+	- IMYA tweaks added to be able to set limited custom ranges for the mod Markets.
+	- all functional small Markets and all Skins where available as buildable ornaments.
+	
+	
+	
+[Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
