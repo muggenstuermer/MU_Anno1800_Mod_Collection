@@ -1,0 +1,443 @@
+<ModOps>
+<!--
+
+1337502934 Markets OW functional
+1337502935 Markets NW functional
+1337502936 Markets Enbesa functional
+1337502980 Markets Arctic functional
+
+1337502991 Markets OW ornamental
+1337502992 Markets NW ornamental
+1337502993 Markets Enbesa ornamental
+1337502994 Markets Arctic ornamental
+
+1337502937 Markets OW Harbor functional
+1337502938 Markets NW Harbor functional
+1337502939 Markets Enbesa Harbor functional
+1337502981 Markets Arctic Harbor functional
+
+1337504149 Markets Harbor OW ornamental
+1337504150 Markets Harbor NW ornamental
+1337504151 Markets Harbor ENBESA ornamental
+1337504152 Markets Harbor ARCTIC ornamental
+
+-->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Marketplaces Land functional xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502934</GUID>
+                    <Name>MarketsOW</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_ow_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125355</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502935</GUID>
+                    <Name>MarketsNW</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_nw_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125355</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502936</GUID>
+                    <Name>MarketsEnbesa</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_enbesa_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125355</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502980</GUID>
+                    <Name>MarketsArctic</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_arctic_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125355</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Marketplaces Land ornamental xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502991</GUID>
+                    <Name>MarketsOW</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_ow_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120479</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502992</GUID>
+                    <Name>MarketsNW</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_nw_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120479</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502993</GUID>
+                    <Name>MarketsEnbesa</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_enbesa_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120479</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502994</GUID>
+                    <Name>MarketsArctic</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_arctic_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120479</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Marketplaces Harbor functional xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502937</GUID>
+                    <Name>MarketsOWHarbor</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_ow_menu_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125356</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502938</GUID>
+                    <Name>MarketsNWHarbor</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_nw_menu_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125356</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502939</GUID>
+                    <Name>MarketsEnbesaHarbor</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_enbesa_menu_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125356</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502981</GUID>
+                    <Name>MarketsArcticHarbor</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_arctic_menu_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125356</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Marketplaces Harbor ornamental xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504149</GUID>
+                    <Name>MarketsOWHarbor</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_ow_menu_ornamental_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120985</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504150</GUID>
+                    <Name>MarketsNWHarbor</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_nw_menu_ornamental_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120985</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504151</GUID>
+                    <Name>MarketsEnbesaHarbor</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_enbesa_menu_ornamental_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120985</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504152</GUID>
+                    <Name>MarketsArcticHarbor</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\marketplaces_arctic_menu_ornamental_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120985</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Add functional Buildmenus to Constructionmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Add functional Marketplaces Land OW Buildmenu to OW Farmers Buildmenue -->
+    <ModOp Type="addNextSibling" GUID="25000189" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1010372' or (not(../Item/Building='1010372'))][last()]">
+        <Item>
+            <Building>1337502934</Building>
+        </Item>
+    </ModOp>
+    <!-- Add functional Marketplaces Land OW Buildmenu to OW Public Services -->
+    <ModOp Type="addNextSibling" GUID="500094" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1010372' or (not(../Item/Building='1010372'))][last()]">
+        <Item>
+            <Building>1337502934</Building>
+        </Item>
+    </ModOp>
+    <!-- Add functional Marketplaces Land NW Buildmenu to NW Jornaleros Buildmenue -->
+    <ModOp Type="addNextSibling" GUID="25000193" Path="Values/ConstructionCategory/BuildingList/Item[Building = '101257' or (not(../Item/Building='101257'))][last()]">
+        <Item>
+            <Building>1337502935</Building>
+        </Item>
+    </ModOp>
+    <!-- Add functional Marketplaces Land NW Buildmenu to NW Public Services -->
+    <ModOp Type="addNextSibling" GUID="500138" Path="Values/ConstructionCategory/BuildingList/Item[Building = '101257' or (not(../Item/Building='101257'))][last()]">
+        <Item>
+            <Building>1337502935</Building>
+        </Item>
+    </ModOp>
+    <!-- Add functional Marketplaces Land ENBESA Buildmenu to ENBESA Shepherds Buildmenue -->
+    <ModOp Type="addNextSibling" GUID="114553" Path="Values/ConstructionCategory/BuildingList/Item[Building = '114518' or (not(../Item/Building='114518'))][last()]">
+        <Item>
+            <Building>1337502936</Building>
+        </Item>
+    </ModOp>
+    <!-- Add functional Marketplaces Land ENBESA Buildmenu to ENBESA City -->
+    <ModOp Type="addNextSibling" GUID="119012" Path="Values/ConstructionCategory/BuildingList/Item[Building = '114518' or (not(../Item/Building='114518'))][last()]">
+        <Item>
+            <Building>1337502936</Building>
+        </Item>
+    </ModOp>
+    <!-- Add functional Marketplaces Land ARCTIC Buildmenu to ARCTIC Explorers Buildmenue -->
+    <ModOp Type="addNextSibling" GUID="112790" Path="Values/ConstructionCategory/BuildingList/Item[Building = '114889' or (not(../Item/Building='114889'))][last()]">
+        <Item>
+            <Building>1337502980</Building>
+        </Item>
+    </ModOp>
+    <!-- Add functional Marketplaces Land ARCTIC Buildmenu to ARCTIC City -->
+    <ModOp Type="addNextSibling" GUID="116343" Path="Values/ConstructionCategory/BuildingList/Item[Building = '114889' or (not(../Item/Building='114889'))][last()]">
+        <Item>
+            <Building>1337502980</Building>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Add ornamental Buildmenus to Constructionmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Add ornamental Marketplaces Land OW Buildmenu to Ornamentsmenu -->
+    <ModOp Type="addNextSibling" GUID="1337505000" Path="Values/ConstructionCategory/BuildingList/Item[7]">
+        <Item>
+            <Building>1337502991</Building>
+        </Item>
+    </ModOp>
+    <!-- Add ornamental Marketplaces Land NW Buildmenu to Ornamentsmenu -->
+    <ModOp Type="addNextSibling" GUID="1337505001" Path="Values/ConstructionCategory/BuildingList/Item[7]">
+        <Item>
+            <Building>1337502992</Building>
+        </Item>
+    </ModOp>
+    <!-- Add ornamental Marketplaces Land ENBESA Buildmenu to Ornamentsmenu -->
+    <ModOp Type="addNextSibling" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList/Item[8]">
+        <Item>
+            <Building>1337502993</Building>
+        </Item>
+    </ModOp>
+    <!-- Add ornamental Marketplaces Land ARCTIC Buildmenu to Ornamentsmenu -->
+    <ModOp Type="addNextSibling" GUID="1337505006" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+        <Item>
+            <Building>1337502994</Building>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Add HARBOR functional Buildmenus to Constructionmenu after Harborlife harbor-city menu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Add fuctional Markets Harbor Buildmenu to Constructionmenu OW -->
+    <ModOp Type="addNextSibling" GUID="25000191" Path="Values/ConstructionCategory/BuildingList/Item[Building = '8855888' or (not(../Item/Building='8855888'))][last()]">
+        <Item>
+            <Building>1337502937</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500092" Path="Values/ConstructionCategory/BuildingList/Item[Building = '8855888' or (not(../Item/Building='8855888'))][last()]">
+        <Item>
+            <Building>1337502937</Building>
+        </Item>
+    </ModOp>
+    <!-- Add fuctional Markets Harbor Buildmenu to Constructionmenu NW -->
+    <ModOp Type="addNextSibling" GUID="25000194" Path="Values/ConstructionCategory/BuildingList/Item[Building = '8855889' or (not(../Item/Building='8855889'))][last()]">
+        <Item>
+            <Building>1337502938</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500137" Path="Values/ConstructionCategory/BuildingList/Item[Building = '8855889' or (not(../Item/Building='8855889'))][last()]">
+        <Item>
+            <Building>1337502938</Building>
+        </Item>
+    </ModOp>
+    <!-- Add fuctional Markets Harbor Buildmenu to Constructionmenu ENBESA -->
+    <!-- Add fuctional Markets Harbor Buildmenu to Constructionmenu ARCTIC -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Add HARBOR ornamental Buildmenus to Constructionmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Add ornamental Marketplaces Harbor OW Buildmenu to Ornamentsmenu -->
+    <ModOp Type="addNextSibling" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList/Item[3]">
+        <Item>
+            <Building>1337504149</Building>
+        </Item>
+    </ModOp>
+    <!-- Add ornamental Marketplaces Harbor NW Buildmenu to Ornamentsmenu -->
+    <ModOp Type="addNextSibling" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList/Item[3]">
+        <Item>
+            <Building>1337504150</Building>
+        </Item>
+    </ModOp>
+    <!-- Add ornamental Marketplaces Harbor ENBESA Buildmenu to Ornamentsmenu -->
+    <ModOp Type="addNextSibling" GUID="1337505021" Path="Values/ConstructionCategory/BuildingList/Item[3]">
+        <Item>
+            <Building>1337504151</Building>
+        </Item>
+    </ModOp>
+    <!-- Add ornamental Marketplaces Harbor ARCTIC Buildmenu to Ornamentsmenu -->
+    <ModOp Type="addNextSibling" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList/Item[2]">
+        <Item>
+            <Building>1337504152</Building>
+        </Item>
+    </ModOp>
+</ModOps>

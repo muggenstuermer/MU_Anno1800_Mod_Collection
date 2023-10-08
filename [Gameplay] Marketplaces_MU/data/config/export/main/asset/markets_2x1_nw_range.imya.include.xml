@@ -1,0 +1,20 @@
+<ModOps>
+    <!-- Description -->
+    <ImyaTweaks Title="Change the Range of all NW 2x1 Markets." Description="You can Increase or Decrease the Ranges of all NW 2x1 Markets on Land and Water" />
+    
+	<!-- Change FullSatisfactionDistance of 2x1 Markets NW-->
+    <ModOp Type="replace" GUID="1337502969,1337502970,1337502971,1337502972,1337504099,1337504100,1337504101,1337504102" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="FullSatisfactionDistance2x1AllMarketsNWMU" Skip="1">
+        <FullSatisfactionDistance>20</FullSatisfactionDistance>
+    </ModOp>
+    <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="FullSatisfactionDistance2x1AllMarketsNWMU" ExposeID="Custom FullSatisfactionDistance for 2x1 Markets NW" Description="Sets the FullSatisfactionDistance for the 2x1 Markets in the NW ( Mod default settings = 20 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="50" Stepping="1" />
+    </ImyaExpose>
+    
+	<!-- Change NoSatisfactionDistance of 2x1 Markets NW-->
+    <ModOp Type="replace" GUID="1337502969,1337502970,1337502971,1337502972,1337504099,1337504100,1337504101,1337504102" Path="/Values/PublicService/NoSatisfactionDistance" ModOpID="NoSatisfactionDistance2x1AllMarketsNWMU" Skip="1">
+        <NoSatisfactionDistance>45</NoSatisfactionDistance>
+    </ModOp>
+    <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="NoSatisfactionDistance2x1AllMarketsNWMU" ExposeID="Custom NoSatisfactionDistance for 2x1 Markets NW" Description="Sets the NoSatisfactionDistance for the 2x1 Markets in the NW ( Mod default settings = 45 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="100" Stepping="1" />
+    </ImyaExpose>
+</ModOps>

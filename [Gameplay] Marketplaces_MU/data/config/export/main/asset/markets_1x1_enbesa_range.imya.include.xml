@@ -1,0 +1,20 @@
+<ModOps>
+    <!-- Description -->
+    <ImyaTweaks Title="Change the Range of all ENBESA 1x1 Markets." Description="You can Increase or Decrease the Ranges of all ENBESA 1x1 Markets on Land" />
+    
+	<!-- Change FullSatisfactionDistance of 1x1 Markets ENBESA-->
+    <ModOp Type="replace" GUID="1337502956,1337502957,1337502958,1337502959,1337502960,1337502961,1337502962,1337502963" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="FullSatisfactionDistance1x1AllMarketsENBESAMU">
+        <FullSatisfactionDistance>13</FullSatisfactionDistance>
+    </ModOp>
+    <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="FullSatisfactionDistance1x1AllMarketsENBESAMU" ExposeID="Custom FullSatisfactionDistance for 1x1 Markets ENBESA" Description="Sets the FullSatisfactionDistance for the 1x1 Markets in the ENBESA ( Mod default settings = 13 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="50" Stepping="1" />
+    </ImyaExpose>
+    
+	<!-- Change NoSatisfactionDistance of 1x1 Markets ENBESA-->
+    <ModOp Type="replace" GUID="1337502956,1337502957,1337502958,1337502959,1337502960,1337502961,1337502962,1337502963" Path="/Values/PublicService/NoSatisfactionDistance" ModOpID="NoSatisfactionDistance1x1AllMarketsENBESAMU">
+        <NoSatisfactionDistance>25</NoSatisfactionDistance>
+    </ModOp>
+    <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="NoSatisfactionDistance1x1AllMarketsENBESAMU" ExposeID="Custom NoSatisfactionDistance for 1x1 Markets ENBESA" Description="Sets the NoSatisfactionDistance for the 1x1 Markets in the ENBESA ( Mod default settings = 25 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="100" Stepping="1" />
+    </ImyaExpose>
+</ModOps>

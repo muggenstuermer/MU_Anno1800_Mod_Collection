@@ -1,0 +1,2614 @@
+<ModOps>
+<!--
+
+1337504127 1x1 Marktplatz 01
+1337504167 1x1 Marktplatz 02
+1337504129 1x1 Marktplatz 03
+1337504130 1x1 Marktplatz 04
+1337504131 1x1 Marktplatz 05
+1337504132 1x1 Marktplatz 06
+1337504133 1x1 Marktplatz 07
+1337504134 1x1 Marktplatz 08
+1337504135 1x1 Marktplatz 09
+1337504136 1x1 Marktplatz 10
+1337504137 1x1 Marktplatz 11
+1337504138 1x1 Marktplatz 12
+1337504139 1x1 Marktplatz 13
+1337504140 1x1 Marktplatz 14
+
+1337504141 2x1 Marktplatz 01
+1337504142 2x1 Marktplatz 02
+1337504143 2x1 Marktplatz 03
+1337504144 2x1 Marktplatz 04
+
+1337504145 3x2 Corner Marktplatz 01
+1337504146 3x2 Corner Marktplatz 02
+
+1337504147 3x2 Z Marktplatz 01
+
+1337504166 bauernskin
+1337504153 arbeiterskin
+1337504154 investorenskin
+
+1337504155 Original Market - skins as buildable Ornament
+1337504156 Original Market - skins as buildable Ornament
+1337504157 Original Market - skins as buildable Ornament
+1337504158 Original Market - skins as buildable Ornament
+1337504159 Original Market - skins as buildable Ornament
+
+1337504148 Trigger
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 1x1 OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- 1x1 Marktplatz 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504127</GUID>
+                    <Name>1x1_ow_01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_01.png</IconFilename>
+                    <ID>Market_1x1_ow_01</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80040</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504127</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_01_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 02 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504167</GUID>
+                    <Name>1x1_ow_02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_02.png</IconFilename>
+                    <ID>Market_1x1_ow_02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80041</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504167</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 03 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504129</GUID>
+                    <Name>1x1_ow_03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_03.png</IconFilename>
+                    <ID>Market_1x1_ow_03</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80042</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504129</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 04 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504130</GUID>
+                    <Name>1x1_ow_04</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_04.png</IconFilename>
+                    <ID>Market_1x1_ow_04</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80043</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504130</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 05 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504131</GUID>
+                    <Name>1x1_ow_05</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_05.png</IconFilename>
+                    <ID>Market_1x1_ow_05</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80044</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504131</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 06 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504132</GUID>
+                    <Name>1x1_ow_06</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_06.png</IconFilename>
+                    <ID>Market_1x1_ow_06</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>144041</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504132</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_07.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 07 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504133</GUID>
+                    <Name>1x1_ow_07</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_14.png</IconFilename>
+                    <ID>Market_1x1_ow_07</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>20906</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504133</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_14.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_14_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 08 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504134</GUID>
+                    <Name>1x1_ow_08</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_15.png</IconFilename>
+                    <ID>Market_1x1_ow_08</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>20906</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504134</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_15.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_15_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 09 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504135</GUID>
+                    <Name>1x1_ow_09</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_16.png</IconFilename>
+                    <ID>Market_1x1_ow_09</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80042</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504135</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_16.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_16_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_17.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_17_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 10 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504136</GUID>
+                    <Name>1x1_ow_10</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_18.png</IconFilename>
+                    <ID>Market_1x1_ow_10</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80040</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504136</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_18.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_18_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 11 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504137</GUID>
+                    <Name>1x1_ow_11</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_19.png</IconFilename>
+                    <ID>Market_1x1_ow_11</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80042</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504137</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_19.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_19_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 12 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504138</GUID>
+                    <Name>1x1_ow_12</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_20.png</IconFilename>
+                    <ID>Market_1x1_ow_12</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80040</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504138</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_20.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_20_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 13 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504139</GUID>
+                    <Name>1x1_ow_13</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_21.png</IconFilename>
+                    <ID>Market_1x1_ow_13</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>120020</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504139</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_21.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_21_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 14 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504140</GUID>
+                    <Name>1x1_ow_14</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\1x1_markets_ow_nw\market_22.png</IconFilename>
+                    <ID>Market_1x1_ow_14</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80041</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504140</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_22.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\market_22_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 1x1 OW End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 2x1 OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- 2x1 Marktplatz 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504141</GUID>
+                    <Name>2x1_ow_01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\2x1_markets_ow_nw\market_2x1_01.png</IconFilename>
+                    <ID>Market_2x1_ow_01</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80042</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504141</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\2x1\market_2x1_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Infolayer />
+                <Maintenance />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 2x1 Marktplatz 02 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504142</GUID>
+                    <Name>2x1_ow_02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\2x1_markets_ow_nw\market_2x1_02.png</IconFilename>
+                    <ID>Market_2x1_ow_02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80040</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504142</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\2x1\market_2x1_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Infolayer />
+                <Maintenance />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 2x1 Marktplatz 03 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504143</GUID>
+                    <Name>2x1_ow_03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\2x1_markets_ow_nw\market_2x1_03.png</IconFilename>
+                    <ID>Market_2x1_ow_03</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80042</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504143</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\2x1\market_2x1_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Infolayer />
+                <Maintenance />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 2x1 Marktplatz 04 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504144</GUID>
+                    <Name>2x1_ow_04</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\2x1_markets_ow_nw\market_2x1_04.png</IconFilename>
+                    <ID>Market_2x1_ow_04</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80040</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504144</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\2x1\market_2x1_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Infolayer />
+                <Maintenance />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 2x1 OW End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 3x2 Corner OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- 3x2 Corner Marktplatz 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504145</GUID>
+                    <Name>3x2_ow_01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\3x2_corner_markets_ow_nw\market_3x2_corner_01.png</IconFilename>
+                    <ID>Market_3x2_ow_01</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80042</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504145</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\3x2_corner\market_3x2_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Infolayer />
+                <Maintenance />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 3x2 Corner Marktplatz 02 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504146</GUID>
+                    <Name>3x2_ow_02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\3x2_corner_markets_ow_nw\market_3x2_corner_02.png</IconFilename>
+                    <ID>Market_3x2_ow_02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>80042</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504145</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\3x2_corner\market_3x2_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Infolayer />
+                <Maintenance />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 3x2 Corner OW End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 3x2 Z OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- 3x2 Z Marktplatz 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504147</GUID>
+                    <Name>3x2_ow_z_01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\3x2_z_markets_ow_nw\market_3x2_z_01.png</IconFilename>
+                    <ID>Market_3x2_ow_z_01</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>120020</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504147</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\3x2_z_form\market_3x2_z_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\3x2_z_form\market_3x2_z_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\3x2_z_form\market_3x2_z_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Constructable />
+                <Infolayer />
+                <Maintenance />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 3x2 Z OW End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Original Market - skins as buildable Ornament xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- arbeiterskin -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504153</GUID>
+                    <Name>Skin Marketplace MU01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\market_skins_all\logistic_01_worker.png</IconFilename>
+                    <ID>SkinMarketplace_MU01</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337500225</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504153</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplace_skins\harbor\workers\logistic_01_worker.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- investorenskin -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504154</GUID>
+                    <Name>Skin Marketplace MU02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\market_skins_all\logistic_01_investor.png</IconFilename>
+                    <ID>SkinMarketplace_MU02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337500226</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504154</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplace_skins\harbor\investors\logistic_01_investor.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- ChristmasSkin -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504155</GUID>
+                    <Name>Skin Marketplace MU02</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/icon_market_christmas.png</IconFilename>
+                    <ID>SkinMarketplace_MU02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>143057</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504155</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\logistic_01_christmas\logistic_01_christmas.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- Skin Marketplace S01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504156</GUID>
+                    <Name>Skin Marketplace MU02</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_market_01.png</IconFilename>
+                    <ID>SkinMarketplace_MU02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>758</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504156</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\logistic_01_01\logistic_01_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- Skin Marketplace S02 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504157</GUID>
+                    <Name>Skin Marketplace MU02</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_market_02.png</IconFilename>
+                    <ID>SkinMarketplace_MU02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>760</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504157</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\logistic_01_02\logistic_01_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- Skin Marketplace S03 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504158</GUID>
+                    <Name>Skin Marketplace MU02</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_market_03.png</IconFilename>
+                    <ID>SkinMarketplace_MU02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>762</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504158</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\logistic_01_03\logistic_01_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- Skin CDLC11 Marketplace -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504159</GUID>
+                    <Name>Skin Marketplace MU02</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc11/icon_market_01.png</IconFilename>
+                    <ID>SkinMarketplace_MU02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>20923</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504159</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\service_colony01_01_v1\service_colony01_01_v1.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- bauernskin -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504166</GUID>
+                    <Name>Skin Marketplace MU02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\market_skins_all\logistic_01_farmer.png</IconFilename>
+                    <ID>SkinMarketplace_MU02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337500238</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504166</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplace_skins\harbor\farmers\logistic_01_farmer.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Add OW 1x1 Markets to OW Markets Buildmenu -->
+    <ModOp Type="add" GUID="1337504149" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337504155</Building>
+        </Item>
+        <Item>
+            <Building>1337504156</Building>
+        </Item>
+        <Item>
+            <Building>1337504157</Building>
+        </Item>
+        <Item>
+            <Building>1337504158</Building>
+        </Item>
+        <Item>
+            <Building>1337504159</Building>
+        </Item>
+        <Item>
+            <Building>1337504166</Building>
+        </Item>
+        <Item>
+            <Building>1337504153</Building>
+        </Item>
+        <Item>
+            <Building>1337504154</Building>
+        </Item>
+        <Item>
+            <Building>1337504127</Building>
+        </Item>
+        <Item>
+            <Building>1337504167</Building>
+        </Item>
+        <Item>
+            <Building>1337504129</Building>
+        </Item>
+        <Item>
+            <Building>1337504130</Building>
+        </Item>
+        <Item>
+            <Building>1337504131</Building>
+        </Item>
+        <Item>
+            <Building>1337504132</Building>
+        </Item>
+        <Item>
+            <Building>1337504133</Building>
+        </Item>
+        <Item>
+            <Building>1337504134</Building>
+        </Item>
+        <Item>
+            <Building>1337504135</Building>
+        </Item>
+        <Item>
+            <Building>1337504136</Building>
+        </Item>
+        <Item>
+            <Building>1337504137</Building>
+        </Item>
+        <Item>
+            <Building>1337504138</Building>
+        </Item>
+        <Item>
+            <Building>1337504139</Building>
+        </Item>
+        <Item>
+            <Building>1337504140</Building>
+        </Item>
+        <Item>
+            <Building>1337504141</Building>
+        </Item>
+        <Item>
+            <Building>1337504142</Building>
+        </Item>
+        <Item>
+            <Building>1337504143</Building>
+        </Item>
+        <Item>
+            <Building>1337504144</Building>
+        </Item>
+        <Item>
+            <Building>1337504145</Building>
+        </Item>
+        <Item>
+            <Building>1337504146</Building>
+        </Item>
+        <Item>
+            <Building>1337504147</Building>
+        </Item>
+    </ModOp>
+    <!-- Trigger OW Markets -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504148</GUID>
+                    <Name>intermediate moderate 1.2</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000000</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337504127</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504167</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504129</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504130</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504131</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504132</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504133</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504134</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504135</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504136</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504137</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504138</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504139</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504140</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504141</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504142</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504143</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504144</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504145</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504146</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504147</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504153</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504154</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504155</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504156</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504157</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504158</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504159</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504166</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337504127</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504167</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504129</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504130</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504131</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504132</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504133</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504134</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504135</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504136</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504137</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504138</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504139</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504140</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504141</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504142</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504143</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504144</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504145</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504146</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504147</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504153</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504154</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504155</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504156</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504157</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504158</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504159</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504166</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
