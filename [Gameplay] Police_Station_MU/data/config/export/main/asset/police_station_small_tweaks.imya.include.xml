@@ -1,0 +1,12 @@
+<ModOps>
+    <!-- Description -->
+    <ImyaTweaks Title="Change the Range of the Small Police Station." Description="You can Increase or Decrease the Ranges of the Small Police Station" />
+    
+	<!-- Change Riot Distance of the Small Police Station -->
+    <ModOp GUID="1337500002" Type="replace" Path="/Values/IncidentInfluencer/Influence/Riot/Distance" ModOpID="SmallPoliceStationRiotDistanceMU">
+        <Distance>12</Distance>
+    </ModOp>
+    <ImyaExpose Path="self::Distance" ModOpID="SmallPoliceStationRiotDistanceMU" ExposeID="Custom Riot Distance for the Small Police Station" Description="Sets the Riot Distance for the Small Police Station ( Mod default settings = 12 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="50" Stepping="1" />
+    </ImyaExpose>
+</ModOps>
