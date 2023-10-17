@@ -1,12 +1,12 @@
 <ModOps>
-    <!-- Description -->
-    <ImyaTweaks Title="Change the Range of the Big Police Station." Description="You can Increase or Decrease the Ranges of the Big Police Station" />
-    
-	<!-- Change Riot Distance of the Big Police Station -->
-    <ModOp GUID="1337500001" Type="replace" Path="/Values/IncidentInfluencer/Influence/Riot/Distance" ModOpID="BigPoliceStationRiotDistanceMU">
-        <Distance>24</Distance>
-    </ModOp>
-    <ImyaExpose Path="self::Distance" ModOpID="BigPoliceStationRiotDistanceMU" ExposeID="Custom Riot Distance for the Big Police Station" Description="Sets the Riot Distance for the Big Police Station ( Mod default settings = 24 )" Kind="Slider">
-        <SliderDefinition Min="0" Max="50" Stepping="1" />
-    </ImyaExpose>
+  <!-- Description -->
+  <ImyaTweaks Title="Change the Range of the Big Police Station." Description="You can Increase or Decrease the Ranges of the Big Police Station" />
+  
+  <!-- Change Riot Distance of the Big Police Station -->
+  <ModOp GUID="1337500001" Type="replace" Path="/Values/IncidentInfluencer/Influence/Riot/Distance" ModOpID="BigPoliceStationRiotDistanceMU">
+    <Distance>24</Distance>
+  </ModOp>
+  <ImyaExpose Path="self::Distance" ModOpID="BigPoliceStationRiotDistanceMU" ExposeID="Custom Riot Distance for the Big Police Station" Description="Sets the Riot Distance for the Big Police Station ( Mod default settings = 24 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="50" Stepping="1" />
+  </ImyaExpose>
 </ModOps>

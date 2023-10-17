@@ -1,0 +1,883 @@
+<ModOps>
+<!--
+ 
+1337504198 1x1 Marktplatz 01
+1337504199 1x1 Marktplatz 02
+1337504200 1x1 Marktplatz 03
+1337504201 1x1 Marktplatz 04
+1337504202 1x1 Marktplatz 05
+1337504203 1x1 Marktplatz 06
+1337504204 1x1 Marktplatz 07
+1337504205 1x1 Marktplatz 08
+
+1337504206 2x1 Marktplatz 01
+
+1337504207 Marktplatz enbesaskin
+
+1337504208 Trigger
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 1x1 ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- 1x1 Marktplatz 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504198</GUID>
+                    <Name>1x1_enbesa_01</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_enbesa\market_enbesa_01.png</IconFilename>
+                    <ID>Market_1x1_enbesa_01</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502956</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504198</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_01_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 02 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504199</GUID>
+                    <Name>1x1_enbesa_02</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_enbesa\market_enbesa_02.png</IconFilename>
+                    <ID>Market_1x1_enbesa_02</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502957</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504199</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_02_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 03 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504200</GUID>
+                    <Name>1x1_enbesa_03</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_enbesa\market_enbesa_03.png</IconFilename>
+                    <ID>Market_1x1_enbesa_03</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502958</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504200</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_03_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 04 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504201</GUID>
+                    <Name>1x1_enbesa_04</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_enbesa\market_enbesa_04.png</IconFilename>
+                    <ID>Market_1x1_enbesa_04</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502959</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504201</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_04_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 05 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504202</GUID>
+                    <Name>1x1_enbesa_05</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_enbesa\market_enbesa_05.png</IconFilename>
+                    <ID>Market_1x1_enbesa_05</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502960</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504202</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_05_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 06 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504203</GUID>
+                    <Name>1x1_enbesa_06</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_enbesa\market_enbesa_06.png</IconFilename>
+                    <ID>Market_1x1_enbesa_06</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502961</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504203</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_06_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 07 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504204</GUID>
+                    <Name>1x1_enbesa_07</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_enbesa\market_enbesa_07.png</IconFilename>
+                    <ID>Market_1x1_enbesa_07</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502962</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504204</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_07_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 08 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504205</GUID>
+                    <Name>1x1_enbesa_08</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_enbesa\market_enbesa_08.png</IconFilename>
+                    <ID>Market_1x1_enbesa_08</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502963</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504205</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_09.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\enbesa\market_enbesa_10.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 1x1 ENBESA End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 2x1 ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- 2x1 Marktplatz 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504206</GUID>
+                    <Name>2x1_enbesa_01</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\2x1_markets_enbesa\market_2x1_enbesa_01.png</IconFilename>
+                    <ID>Market_2x1_enbesa_01</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502977</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504206</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\2x1\enbesa\market_2x1_enbesa_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 2x1 ENBESA End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Original Market - skins as buildable Ornament xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Marktplatzskins ENBESA-->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- Marktplatz enbesaskin -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504207</GUID>
+                    <Name>Skin Marketplace MU01</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\market_skins_all\logistic_01_enbesa.png</IconFilename>
+                    <ID>SkinMarketplace_MU01</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337504062</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504207</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplace_skins\harbor\enbesa\logistic_01_enbesa.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Add ENBESA 1x1 Markets to ENBESA Markets Buildmenu -->
+    <ModOp Type="add" GUID="1337504151" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337504207</Building>
+        </Item>
+        <Item>
+            <Building>1337504198</Building>
+        </Item>
+        <Item>
+            <Building>1337504199</Building>
+        </Item>
+        <Item>
+            <Building>1337504200</Building>
+        </Item>
+        <Item>
+            <Building>1337504201</Building>
+        </Item>
+        <Item>
+            <Building>1337504202</Building>
+        </Item>
+        <Item>
+            <Building>1337504203</Building>
+        </Item>
+        <Item>
+            <Building>1337504204</Building>
+        </Item>
+        <Item>
+            <Building>1337504205</Building>
+        </Item>
+        <Item>
+            <Building>1337504206</Building>
+        </Item>
+    </ModOp>
+    <!-- Trigger ENBESA Markets -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504208</GUID>
+                    <Name>intermediate moderate 1.2</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000000</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337504207</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504198</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504199</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504201</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504202</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504203</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504204</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504205</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504206</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337504207</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504198</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504199</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504201</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504202</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504203</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504204</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504205</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504206</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+				<TriggerSetup>
+					<UsedBySecondParties>0</UsedBySecondParties>
+				</TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

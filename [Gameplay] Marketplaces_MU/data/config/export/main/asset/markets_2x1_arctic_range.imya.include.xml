@@ -1,0 +1,20 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Change the Range of all ARCTIC 2x1 Markets." Description="You can Increase or Decrease the Ranges of all ARCTIC 2x1 Markets on Land" />
+  
+  <!-- Change FullSatisfactionDistance of 2x1 Markets ARCTIC-->
+  <ModOp Type="replace" GUID="1337502988,1337502989" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="FullSatisfactionDistance2x1AllMarketsARCTICMU">
+    <FullSatisfactionDistance>12</FullSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="FullSatisfactionDistance2x1AllMarketsARCTICMU" ExposeID="Custom FullSatisfactionDistance for 2x1 Markets ARCTIC" Description="Sets the FullSatisfactionDistance for the 2x1 Markets in the ARCTIC ( Mod default settings = 12 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="50" Stepping="1" />
+  </ImyaExpose>
+  
+  <!-- Change NoSatisfactionDistance of 2x1 Markets ARCTIC-->
+  <ModOp Type="replace" GUID="1337502988,1337502989" Path="/Values/PublicService/NoSatisfactionDistance" ModOpID="NoSatisfactionDistance2x1AllMarketsARCTICMU">
+    <NoSatisfactionDistance>24</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="NoSatisfactionDistance2x1AllMarketsARCTICMU" ExposeID="Custom NoSatisfactionDistance for 2x1 Markets ARCTIC" Description="Sets the NoSatisfactionDistance for the 2x1 Markets in the ARCTIC ( Mod default settings = 24 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+</ModOps>

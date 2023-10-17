@@ -1,0 +1,625 @@
+<ModOps>
+<!--
+ 
+1337504209 1x1 Marktplatz 01
+1337504210 1x1 Marktplatz 02
+1337504211 1x1 Marktplatz 03
+1337504212 1x1 Marktplatz 04
+
+1337504213 2x1 Marktplatz 01
+1337504214 2x1 Marktplatz 02
+
+1337504215 3x1 Marktplatz 01
+
+1337504216 Trigger
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 1x1 ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- 1x1 Marktplatz 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504209</GUID>
+                    <Name>1x1_arctic_01</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_arctic\market_01.png</IconFilename>
+                    <ID>Market_1x1_arctic_01</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502983</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>114826</GroundDecalAsset>
+                    <GroundDecalInvisible>113478</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504209</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\arctic\market_arctic_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 02 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504210</GUID>
+                    <Name>1x1_arctic_02</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_arctic\market_02.png</IconFilename>
+                    <ID>Market_1x1_arctic_02</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502984</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>114826</GroundDecalAsset>
+                    <GroundDecalInvisible>113478</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504210</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\arctic\market_arctic_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\arctic\market_arctic_02_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 03 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504211</GUID>
+                    <Name>1x1_arctic_03</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_arctic\market_03.png</IconFilename>
+                    <ID>Market_1x1_arctic_03</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502985</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>114826</GroundDecalAsset>
+                    <GroundDecalInvisible>113478</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504211</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\arctic\market_arctic_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 1x1 Marktplatz 04 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504212</GUID>
+                    <Name>1x1_arctic_04</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\1x1_markets_arctic\market_04.png</IconFilename>
+                    <ID>Market_1x1_arctic_04</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502986</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>114826</GroundDecalAsset>
+                    <GroundDecalInvisible>113478</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504212</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\1x1\arctic\market_arctic_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 1x1 ARCTIC End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 2x1 ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- 2x1 Marktplatz 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504213</GUID>
+                    <Name>2x1_arctic_01</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\2x1_markets_arctic\market_2x1_arctic_01.png</IconFilename>
+                    <ID>Market_2x1_arctic_01</ID>
+                    <InfoDescription>2976</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502988</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>114826</GroundDecalAsset>
+                    <GroundDecalInvisible>113478</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildingCategoryName>100003</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504213</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\2x1\arctic\market_2x1_arctic_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+        <!-- 2x1 Marktplatz 02 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504214</GUID>
+                    <Name>2x1_arctic_02</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\2x1_markets_arctic\market_2x1_arctic_02.png</IconFilename>
+                    <ID>Market_2x1_arctic_02</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502989</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>114826</GroundDecalAsset>
+                    <GroundDecalInvisible>113478</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504214</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\2x1\arctic\market_2x1_arctic_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 2x1 ARCTIC End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 3x1 ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- 3x1 Marktplatz 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504215</GUID>
+                    <Name>3x1_arctic_01</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\3x1_markets_arctic\market_3x1_arctic_01.png</IconFilename>
+                    <ID>Market_3x1_arctic_01</ID>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502990</TextOverride>
+                </Text>
+                <Blocking>
+                    <GroundDecalAsset>114826</GroundDecalAsset>
+                    <GroundDecalInvisible>113478</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <!--<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <PickingAsset>1337504215</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\buildings\public\marketplaces\harbor\3x1\arctic\market_3x1_arctic_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <AmbientMoodProvider />
+                <Attackable />
+                <Maintenance />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <Culture>
+                    <Attractiveness>2</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Markets 3x1 ARCTIC End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Add ARCTIC 1x1 Markets to ARCTIC Markets Buildmenu -->
+    <ModOp Type="add" GUID="1337504152" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337504209</Building>
+        </Item>
+        <Item>
+            <Building>1337504210</Building>
+        </Item>
+        <Item>
+            <Building>1337504211</Building>
+        </Item>
+        <Item>
+            <Building>1337504212</Building>
+        </Item>
+        <Item>
+            <Building>1337504213</Building>
+        </Item>
+        <Item>
+            <Building>1337504214</Building>
+        </Item>
+        <Item>
+            <Building>1337504215</Building>
+        </Item>
+    </ModOp>
+    <!-- Trigger ARCTIC Markets -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504216</GUID>
+                    <Name>intermediate moderate 1.2</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000000</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337504209</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504210</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504211</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504212</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504213</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504214</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504215</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337504209</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504210</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504211</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504212</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504213</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504214</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504215</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+				<TriggerSetup>
+					<UsedBySecondParties>0</UsedBySecondParties>
+				</TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

@@ -2,10 +2,12 @@
 <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
 <!--
 
-1337500022 - Trigger
+1337504398 - Trigger
 
 1337500007 - New Buildmenu for OLD WORLD
+1337504396 - New Buildmenu for OLD WORLD Harbor
 1337500008 - New Buildmenu for NEW WORLD
+1337504397 - New Buildmenu for NEW WORLD Harbor
 1337500013 - New Buildmenu for AFRICA
 
 1337500009 - Feuerwache / big  resolverunit ResolverUnitFire01MU
@@ -15,7 +17,11 @@
 1337500010 - Feuerwache / small resolverunit
 
 1337500011 - Feuerwache / big
+1337504394 - Feuerwache / big Harbor OW
+1337504399 - Feuerwache / big Harbor NW
 1337500012 - Feuerwache / small
+1337504395 - Feuerwache / small Harbor OW
+1337504400 - Feuerwache / small Harbor NW
 
 -->
     <!-- Freischaltung / Trigger -->
@@ -24,7 +30,7 @@
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1337500022</GUID>
+                    <GUID>1337504398</GUID>
                     <Name>intermediate moderate 1.2</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier01.png</IconFilename>
                 </Standard>
@@ -54,6 +60,22 @@
                                                 <Asset>1337500012</Asset>
                                                 <!-- Feuerwache / small -->
                                             </Item>
+											<Item>
+                                                <Asset>1337504394</Asset>
+                                                <!-- Feuerwache / big Harbor OW-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504395</Asset>
+                                                <!-- Feuerwache / small Harbor OW-->
+                                            </Item>
+											<Item>
+                                                <Asset>1337504399</Asset>
+                                                <!-- Feuerwache / big Harbor OW-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504400</Asset>
+                                                <!-- Feuerwache / small Harbor OW-->
+                                            </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
@@ -64,6 +86,22 @@
                                                 <Asset>1337500012</Asset>
                                                 <!-- Feuerwache / small -->
                                             </Item>
+											<Item>
+                                                <Asset>1337504394</Asset>
+                                                <!-- Feuerwache / big Harbor OW-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504395</Asset>
+                                                <!-- Feuerwache / small Harbor OW-->
+                                            </Item>
+											<Item>
+                                                <Asset>1337504399</Asset>
+                                                <!-- Feuerwache / big Harbor OW-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504400</Asset>
+                                                <!-- Feuerwache / small Harbor OW-->
+                                            </Item>
                                         </UnhideAssets>
                                         <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
                                     </ActionUnlockAsset>
@@ -72,6 +110,9 @@
                         </Item>
                     </TriggerActions>
                 </Trigger>
+				<TriggerSetup>
+					<UsedBySecondParties>0</UsedBySecondParties>
+				</TriggerSetup>
             </Values>
         </Asset>
     </ModOp>
@@ -82,7 +123,7 @@
             <Values>
                 <Standard>
                     <GUID>1337500007</GUID>
-                    <Name>FireOW</Name>
+                    <Name>Buildmenu Fire Station OW</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
@@ -105,7 +146,49 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>FireStation</Text>
+                            <Text>Buildmenu Fire Station OW</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- New Buildmenu for OLD WORLD Harbor-->
+    <ModOp Type="addNextSibling" GUID="500505">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504396</GUID>
+                    <Name>Buildmenu Fire Station OW Harbor</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/icon_fire_house_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>8855050</Building>
+                            <!-- Fire SPIU Harborlife OW-->
+                        </Item>
+                        <Item>
+                            <Building>1337504394</Building>
+                            <!-- Feuerwache / big -->
+                        </Item>
+                        <Item>
+                            <Building>1337504395</Building>
+                            <!-- Feuerwache / small -->
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>6608</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+					<TextOverride>22368</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Buildmenu Fire Station OW Harbor</Text>
                             <Status>Exported</Status>
                             <ExportCount>1</ExportCount>
                         </English>
@@ -123,7 +206,7 @@
             <Values>
                 <Standard>
                     <GUID>1337500008</GUID>
-                    <Name>FireNW</Name>
+                    <Name>Buildmenu Fire Station NW</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
@@ -144,9 +227,52 @@
                     <CategoryDescription>118032</CategoryDescription>
                 </ConstructionCategory>
                 <Text>
+					<TextOverride>1337500007</TextOverride>
                     <LocaText>
                         <English>
-                            <Text>FireStation</Text>
+                            <Text>Buildmenu Fire Station NW</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- New Buildmenu for NEW WORLD Harbor-->
+    <ModOp Type="addNextSibling" GUID="101033">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504397</GUID>
+                    <Name>Buildmenu Fire Station NW Harrbor</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/icon_fire_house_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>8855051</Building>
+                            <!-- Fire SPIU Harborlife NW-->
+                        </Item>
+                        <Item>
+                            <Building>1337504399</Building>
+                            <!-- Feuerwache / big -->
+                        </Item>
+                        <Item>
+                            <Building>1337504400</Building>
+                            <!-- Feuerwache / small -->
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>6608</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+					<TextOverride>22368</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Buildmenu Fire Station NW Harbor</Text>
                             <Status>Exported</Status>
                             <ExportCount>1</ExportCount>
                         </English>
@@ -164,7 +290,7 @@
             <Values>
                 <Standard>
                     <GUID>1337500013</GUID>
-                    <Name>FireNW</Name>
+                    <Name>Buildmenu Fire Station Enbesa</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
@@ -187,7 +313,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>FireStation</Text>
+                            <Text>Buildmenu Fire Station Enbesa</Text>
                             <Status>Exported</Status>
                             <ExportCount>1</ExportCount>
                         </English>
@@ -216,6 +342,31 @@
             <Building>1337500013</Building>
         </Item>
     </ModOp>
+	
+	<!-- Add fuctional Fire Station Harbor Buildmenu to Constructionmenu OW -->
+    <ModOp Type="addNextSibling" GUID="25000191" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337502937' or Building = '8855888' or (not(../Item/Building='1337502937')) or (not(../Item/Building='8855888'))][last()]">
+        <Item>
+            <Building>1337504396</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500092" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337502937' or Building = '8855888' or (not(../Item/Building='1337502937')) or (not(../Item/Building='8855888'))][last()]">
+        <Item>
+            <Building>1337504396</Building>
+        </Item>
+    </ModOp>
+	
+    <!-- Add fuctional Fire Station Harbor Buildmenu to Constructionmenu NW -->
+    <ModOp Type="addNextSibling" GUID="25000194" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337502938' or Building = '8855889' or (not(../Item/Building='1337502938')) or (not(../Item/Building='8855889'))][last()]">
+        <Item>
+            <Building>1337504397</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500137" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337502938' or Building = '8855889' or (not(../Item/Building='1337502938')) or (not(../Item/Building='8855889'))][last()]">
+        <Item>
+            <Building>1337504397</Building>
+        </Item>
+    </ModOp>
+	
     <!-- Feuerwache / big  resolverunit -->
     <ModOp Type="addNextSibling" GUID="1010463">
         <Asset>
@@ -325,7 +476,7 @@
                 <Standard>
                     <GUID>1337500011</GUID>
                     <Name>institution_02 (Fire Department)</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/fire_big.png</IconFilename>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/fire_big.png</IconFilename>
                     <InfoDescription>118032</InfoDescription>
                 </Standard>
                 <Building>
@@ -452,7 +603,290 @@
             </Values>
         </Asset>
     </ModOp>
-    <!-- AI-blocking building -> Feuerwache / big + small -->
+	
+	<!-- Feuerwache / big  Harbor OW-->
+    <ModOp Type="addNextSibling" GUID="1010462">
+        <Asset>
+            <Template>CityInstitutionBuildingFireMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504394</GUID>
+                    <Name>institution_02 (Fire Department)</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/fire_big.png</IconFilename>
+                    <InfoDescription>118032</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+					<GroundDecalAsset>601492</GroundDecalAsset>
+					<GroundDecalInvisible>601493</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>3500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>14</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>34</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\fire_station\buildings\public\fire_station_harbor\fire_station.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>CityInstitution</GUIType>
+                </Selection>
+                <Text>
+					<TextOverride>1337500011</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Fire Station</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>3736</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>202400</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <IncidentResolver>
+                    <ResolverUnit>1337500009</ResolverUnit>
+                    <ResolverUnitCount>4</ResolverUnitCount>
+                    <SpecialUnit>100580</SpecialUnit>
+                    <ResolvableIncidents>Fire</ResolvableIncidents>
+                    <DuringConstructionText>17463</DuringConstructionText>
+                    <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+                    <ActionButtonText>3690</ActionButtonText>
+                    <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+                </IncidentResolver>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>45</Amount>
+                            <InactiveAmount>35</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>HarbourBuilding</AttackableType>
+                    <MaximumHitPoints>5500</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfluencer>
+                    <Influence>
+                        <Fire>
+                            <Influence>-10.18</Influence>
+                            <Distance>24</Distance>
+                        </Fire>
+                        <Explosion>
+                            <Influence>-10.18</Influence>
+                            <Distance>15</Distance>
+                        </Explosion>
+                    </Influence>
+                </IncidentInfluencer>
+                <DelayedConstruction />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Culture />
+                <Upgradable />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- Feuerwache / big  Harbor NW-->
+    <ModOp Type="addNextSibling" GUID="1010462">
+        <Asset>
+            <Template>CityInstitutionBuildingFireMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504399</GUID>
+                    <Name>institution_02 (Fire Department)</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/fire_big.png</IconFilename>
+                    <InfoDescription>118032</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>3500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>14</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>34</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\fire_station\buildings\public\fire_station_harbor\fire_station.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>CityInstitution</GUIType>
+                </Selection>
+                <Text>
+					<TextOverride>1337500011</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Fire Station</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>3736</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>202400</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <IncidentResolver>
+                    <ResolverUnit>1337500009</ResolverUnit>
+                    <ResolverUnitCount>4</ResolverUnitCount>
+                    <SpecialUnit>100580</SpecialUnit>
+                    <ResolvableIncidents>Fire</ResolvableIncidents>
+                    <DuringConstructionText>17463</DuringConstructionText>
+                    <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+                    <ActionButtonText>3690</ActionButtonText>
+                    <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+                </IncidentResolver>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>45</Amount>
+                            <InactiveAmount>35</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>HarbourBuilding</AttackableType>
+                    <MaximumHitPoints>5500</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfluencer>
+                    <Influence>
+                        <Fire>
+                            <Influence>-10.18</Influence>
+                            <Distance>24</Distance>
+                        </Fire>
+                        <Explosion>
+                            <Influence>-10.18</Influence>
+                            <Distance>15</Distance>
+                        </Explosion>
+                    </Influence>
+                </IncidentInfluencer>
+                <DelayedConstruction />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Culture />
+                <Upgradable />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- AI-blocking building -> Feuerwache / big + small 
     <ModOp Type="add" GUID="220" Path="/Values/ConstructionAI/BuildingReplacements">
         <Item>
             <Building>1337500011</Building>
@@ -491,7 +925,7 @@
             <Building>1337500012</Building>
             <Replacement>101275</Replacement>
         </Item>
-    </ModOp>
+    </ModOp>-->
     <!-- add big + small to the buff and logistic pool -->
     <ModOp Type="add" GUID="141703" Path="/Values/CharacterInteractionConfig/BuildBuildingWhitelist">
         <Item>
@@ -499,6 +933,20 @@
         </Item>
         <Item>
             <Building>1337500012</Building>
+        </Item>
+		
+		<Item>
+            <Building>1337504394</Building>
+        </Item>
+		<Item>
+            <Building>1337504395</Building>
+        </Item>
+		
+		<Item>
+            <Building>1337504399</Building>
+        </Item>
+		<Item>
+            <Building>1337504400</Building>
         </Item>
     </ModOp>
     <ModOp Type="add" GUID="190611" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
@@ -508,6 +956,20 @@
         <Item>
             <GUID>1337500012</GUID>
         </Item>
+		
+		<Item>
+            <GUID>1337504394</GUID>
+        </Item>
+		<Item>
+            <GUID>1337504395</GUID>
+        </Item>
+		
+		<Item>
+            <GUID>1337504399</GUID>
+        </Item>
+		<Item>
+            <GUID>1337504400</GUID>
+        </Item>
     </ModOp>
     <ModOp Type="add" GUID="193879" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
@@ -516,6 +978,20 @@
         <Item>
             <GUID>1337500012</GUID>
         </Item>
+		
+		<Item>
+            <GUID>1337504394</GUID>
+        </Item>
+		<Item>
+            <GUID>1337504395</GUID>
+        </Item>
+		
+		<Item>
+            <GUID>1337504399</GUID>
+        </Item>
+		<Item>
+            <GUID>1337504400</GUID>
+        </Item>
     </ModOp>
     <ModOp Type="add" GUID="190775" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
@@ -523,6 +999,20 @@
         </Item>
         <Item>
             <GUID>1337500012</GUID>
+        </Item>
+		
+		<Item>
+            <GUID>1337504394</GUID>
+        </Item>
+		<Item>
+            <GUID>1337504395</GUID>
+        </Item>
+		
+		<Item>
+            <GUID>1337504399</GUID>
+        </Item>
+		<Item>
+            <GUID>1337504400</GUID>
         </Item>
     </ModOp>
     <!-- Feuerwache big + small Feedbackunits-->
@@ -533,6 +1023,20 @@
         <Item>
             <Building>1337500011</Building>
         </Item>
+		
+		<Item>
+            <Building>1337504394</Building>
+        </Item>
+		<Item>
+            <Building>1337504395</Building>
+        </Item>
+		
+		<Item>
+            <Building>1337504399</Building>
+        </Item>
+		<Item>
+            <Building>1337504400</Building>
+        </Item>
     </ModOp>
     <!-- Feuerwache / small -->
     <ModOp Type="addNextSibling" GUID="1010463">
@@ -542,7 +1046,7 @@
                 <Standard>
                     <GUID>1337500012</GUID>
                     <Name>institution_02 (Fire Department)</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/fire_small.png</IconFilename>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/fire_small.png</IconFilename>
                     <InfoDescription>118032</InfoDescription>
                 </Standard>
                 <Building>
@@ -665,6 +1169,280 @@
             </Values>
         </Asset>
     </ModOp>
+	<!-- Feuerwache / small Harbor OW-->
+    <ModOp Type="addNextSibling" GUID="1010463">
+        <Asset>
+            <Template>CityInstitutionBuildingFireMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504395</GUID>
+                    <Name>institution_02 (Fire Department)</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/fire_small.png</IconFilename>
+                    <InfoDescription>118032</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+					<GroundDecalAsset>601492</GroundDecalAsset>
+					<GroundDecalInvisible>601493</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>5</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\fire_station\buildings\public\fire_station_harbor\fire_station_small_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\fire_station\buildings\public\fire_station_harbor\fire_station_small_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>CityInstitution</GUIType>
+                </Selection>
+                <Text>
+					<TextOverride>1337500012</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Fire Station</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>3736</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>202400</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <IncidentResolver>
+                    <ResolverUnit>1337500010</ResolverUnit>
+                    <ResolverUnitCount>2</ResolverUnitCount>
+                    <SpecialUnit>100580</SpecialUnit>
+                    <ResolvableIncidents>Fire</ResolvableIncidents>
+                    <DuringConstructionText>17463</DuringConstructionText>
+                    <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+                    <ActionButtonText>3690</ActionButtonText>
+                    <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+                </IncidentResolver>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>15</Amount>
+                            <InactiveAmount>15</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>HarbourBuilding</AttackableType>
+                    <MaximumHitPoints>2500</MaximumHitPoints>
+                    <SelfHealPerHealTick>2</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfluencer>
+                    <Influence>
+                        <Fire>
+                            <Influence>-6.79</Influence>
+                            <Distance>12</Distance>
+                        </Fire>
+                        <Explosion>
+                            <Influence>-6.79</Influence>
+                            <Distance>12</Distance>
+                        </Explosion>
+                    </Influence>
+                </IncidentInfluencer>
+                <DelayedConstruction />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Culture />
+                <Upgradable />
+            </Values>
+        </Asset>
+	</ModOp>
+	<!-- Feuerwache / small Harbor NW-->
+    <ModOp Type="addNextSibling" GUID="1010463">
+        <Asset>
+            <Template>CityInstitutionBuildingFireMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504400</GUID>
+                    <Name>institution_02 (Fire Department)</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/fire_small.png</IconFilename>
+                    <InfoDescription>118032</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>5</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\fire_station\buildings\public\fire_station_harbor\fire_station_small_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\fire_station\buildings\public\fire_station_harbor\fire_station_small_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>CityInstitution</GUIType>
+                </Selection>
+                <Text>
+					<TextOverride>1337500012</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Fire Station</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>3736</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>202400</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <IncidentResolver>
+                    <ResolverUnit>1337500010</ResolverUnit>
+                    <ResolverUnitCount>2</ResolverUnitCount>
+                    <SpecialUnit>100580</SpecialUnit>
+                    <ResolvableIncidents>Fire</ResolvableIncidents>
+                    <DuringConstructionText>17463</DuringConstructionText>
+                    <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+                    <ActionButtonText>3690</ActionButtonText>
+                    <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+                </IncidentResolver>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>15</Amount>
+                            <InactiveAmount>15</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>HarbourBuilding</AttackableType>
+                    <MaximumHitPoints>2500</MaximumHitPoints>
+                    <SelfHealPerHealTick>2</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfluencer>
+                    <Influence>
+                        <Fire>
+                            <Influence>-6.79</Influence>
+                            <Distance>12</Distance>
+                        </Fire>
+                        <Explosion>
+                            <Influence>-6.79</Influence>
+                            <Distance>12</Distance>
+                        </Explosion>
+                    </Influence>
+                </IncidentInfluencer>
+                <DelayedConstruction />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Culture />
+                <Upgradable />
+            </Values>
+        </Asset>
+	</ModOp>
     <Include File="./fire_staion_big_tweaks.imya.include.xml" />
     <Include File="./fire_staion_small_tweaks.imya.include.xml" />
 </ModOps>

@@ -1,0 +1,20 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Change the Range of all NW 1x1 Markets." Description="You can Increase or Decrease the Ranges of all NW 1x1 Markets on Land and Water" />
+  
+  <!-- Change FullSatisfactionDistance of 1x1 Markets NW-->
+  <ModOp Type="replace" GUID="1337502941,1337502942,1337502943,1337502944,1337502945,1337502946,1337502947,1337502948,1337502949,1337502950,1337502951,1337502952,1337502953,1337502954,1337504085,1337504086,1337504087,1337504088,1337504089,1337504090,1337504091,1337504092,1337504093,1337504094,1337504095,1337504096,1337504097,1337504098" Path="/Values/PublicService/FullSatisfactionDistance" ModOpID="FullSatisfactionDistance1x1AllMarketsNWMU">
+    <FullSatisfactionDistance>15</FullSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="FullSatisfactionDistance1x1AllMarketsNWMU" ExposeID="Custom FullSatisfactionDistance for 1x1 Markets NW" Description="Sets the FullSatisfactionDistance for the 1x1 Markets in the NW ( Mod default settings = 15 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="50" Stepping="1" />
+  </ImyaExpose>
+  
+  <!-- Change NoSatisfactionDistance of 1x1 Markets NW-->
+  <ModOp Type="replace" GUID="1337502941,1337502942,1337502943,1337502944,1337502945,1337502946,1337502947,1337502948,1337502949,1337502950,1337502951,1337502952,1337502953,1337502954,1337504085,1337504086,1337504087,1337504088,1337504089,1337504090,1337504091,1337504092,1337504093,1337504094,1337504095,1337504096,1337504097,1337504098" Path="/Values/PublicService/NoSatisfactionDistance" ModOpID="NoSatisfactionDistance1x1AllMarketsNWMU">
+    <NoSatisfactionDistance>40</NoSatisfactionDistance>
+  </ModOp>
+  <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="NoSatisfactionDistance1x1AllMarketsNWMU" ExposeID="Custom NoSatisfactionDistance for 1x1 Markets NW" Description="Sets the NoSatisfactionDistance for the 1x1 Markets in the NW ( Mod default settings = 40 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+</ModOps>

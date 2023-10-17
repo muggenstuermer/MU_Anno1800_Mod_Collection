@@ -3,7 +3,7 @@
 ![](../doc/markets_banner.jpg)
 
 This mod contains all Markets from City and Harbour Ornaments 
-and adds some skins to the original Market and also for the Harborlife Market.
+and adds some skins to the original Market and also for the Harborlife Markets.
 
 They are available as functional and ornamental buildings,
 have diffrent sizes and diffrent ranges and are adapted to the respective regions.

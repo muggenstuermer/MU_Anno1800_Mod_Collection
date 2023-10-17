@@ -2,7 +2,7 @@
 
 muggenstuermers mod collection-all up to date in one place
 
-## `Fire_Station_MU`
+# Fire_Station_MU
 
 ![](./doc/firestation_banner.jpg)
 
@@ -11,9 +11,9 @@ This mod adds 2 more fire stations.
 ### The Fire Brigade Institute:
 
 - Reach of the emergency forces (compared to the original) : +8%.
-- Emergency forces ( compared to the original ) : +300% (4 units)
+- Emergency forces ( compared to the original ) : +300% (4 units).
 - Emergency forces Movement rate (compared to the original) : +30%.
-- Emergency forces Execution speed (compared to the original) : +100%
+- Emergency forces Execution speed (compared to the original) : +100%.
 - Reduces the risk of fire (compared to the original) : +45%.
 - Range of fire reduction (compared to the original) : +60%.
 
@@ -21,89 +21,225 @@ This mod adds 2 more fire stations.
 ### The Volunteer Firefighter:
 
 - Reach of the emergency forces (compared to the original) : -16%.
-- Emergency forces ( compared to the original ) : +100% (2 units)
+- Emergency forces ( compared to the original ) : +100% (2 units).
 - Emergency forces Movement rate (compared to the original) : +15%.
-- Emergency forces Execution speed (compared to the original) : +50%
+- Emergency forces Execution speed (compared to the original) : +50%.
 - Reduces the risk of fire  (compared to the original) : -3%.
 - Range of fire reduction (compared to the original): -15%.
 
 
 The buildings were integrated into the original building menu of the fire station.
 
+For the Harbor a seperated menu is created,straight after SPIU-Harborlife.
+
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
-Have fun with it: your muggenstuermer ;)
-
-	
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+[Download latest Fire_Station_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
 
-# Police_Station_MU
+## `Hospital_MU`
 
-![image](https://github.com/muggenstuermer/Police_Station_MU/blob/master/70-1604251169-2062417092.webp)
-
-This mod adds 2 more police stations.
-
-## The state prison:
---------------------
-- Reach of the emergency forces (compared to the original) : +400%.
-- Emergency forces ( compared to the original ) : +400% (5 units)
-- Emergency forces Movement rate (compared to the original) : +30%.
-- Emergency forces Execution speed (compared to the original) : +100%
-- Reduces riots (compared to the original) : +4%.
-- Range insurgency reduction (compared to the original) : +400%.
-
-
-## The mobile task force:
--------------------------
-- Reach of the emergency forces (compared to the original) : -16%.
-- Emergency forces ( compared to the original ) : +100% (2 units)
-- Emergency forces Movement rate (compared to the original) : +15%.
-- Emergency forces Execution speed (compared to the original) : +50%
-- Reduces riots (compared to the original) : -3%.
-- Range insurgency reduction (compared to the original): -15%.
-
-
-The buildings were integrated into the original building menu of the police station.
-
-Have fun with it: your muggenstuermer ;)
-
-	
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
-
-
-# Hospital_MU
-
-![image](https://github.com/muggenstuermer/Hospital_MU/blob/main/71-1604253336-951215647.png)
+![](./doc/hospital_banner.jpg)
 
 This mod adds 2 more hospitals / doctors.
 
-## The sanatorium:
-------------------
-- Deployed forces range ( compared to the original ) : +8%
-- Task forces ( compared to the original ) : +100% (4 units)
-- Force movement rate ( compared to original ) : +30%
-- Deployment rate ( compared to the original ) : +100%
-- Reduced sickness ( compared to original ) : +45%
-- Range disease reduction ( compared to original ) : +60%
+### The Sanatorium::
+
+- Deployed forces range ( compared to the original ) : +8%.
+- Task forces ( compared to the original ) : +100% (4 units).
+- Force movement rate ( compared to original ) : +30%.
+- Deployment rate ( compared to the original ) : +100%.
+- Reduced sickness ( compared to original ) : +45%.
+- Range disease reduction ( compared to original ) : +60%.
 
 
-## The alternative practitioners:
----------------------------------
-- Task force range ( compared to the original ) : -16%
-- Task forces ( compared to original ) : +50% (3 units)
-- Force movement rate ( compared to original ) : +15%
-- Deployment rate ( compared to the original ) : +50%
-- Reduced sickness ( compared to original ) : -3%
-- Range disease reduction ( compared to original ) : -15%
+### The alternative Practitioners:
+
+- Task force range ( compared to the original ) : -16%.
+- Task forces ( compared to original ) : +50% (3 units).
+- Force movement rate ( compared to original ) : +15%.
+- Deployment rate ( compared to the original ) : +50%.
+- Reduced sickness ( compared to original ) : -3%.
+- Range disease reduction ( compared to original ) : -15%.
 
 
-The buildings have been integrated into the original tree menu of the hospital, available in Enbesa.
+The buildings have been integrated into the original tree menu of the hospital.
 
-Have fun with it: your muggenstuermer ;)
+For the Harbor a seperated menu is created,straight after SPIU-Harborlife.
 
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Hospital_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+## `Immigrants_And_Their_Fields_MU`
+
+![](./doc/immigrants_banner.jpg)
+
+This mod brings a new population into the game, the "immigrants".
+
+They have no great demands and are mostly self-supporters.
+They grow what they need to survive themselves with the ornamental fields they bring with them.
+
+They are warmly welcomed and gladly offer their "peasant" labour.
+
+There is room for up to 36 family members in their small huts. after all, they know each other :) .
+
+They designed and built their public buildings themselves, and they are particularly proud of that.
+
+Who knows, but maybe one or the other immigrant will discover his talent for the economy and open a place of work, who knows?
+
+### Necessary active mods :
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+- ["Streets_Related_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Immigrants_And_Their_Fields_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+## `Marketplaces_MU`
+
+![](./doc/markets_banner.jpg)
+
+This mod contains all Markets from City and Harbour Ornaments 
+and adds some skins to the original Market and also for the Harborlife Markets.
+
+They are available as functional and ornamental buildings,
+have diffrent sizes and diffrent ranges and are adapted to the respective regions.
+
+### Necessary active mods :
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+- ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
+
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Marketplaces_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+## `Police_Station_MU`
+
+![](./doc/policestation_banner.jpg)
+
+This mod adds 2 more police stations.
+
+### The State Prison:
+
+- Force range ( compared to the original ) : +8%.
+- Force ( compared to the original ) : +300% (4 units).
+- Force movement rate ( compared to original ) : +30%.
+- Force execution speed ( compared to the original ) : +100%.
+- Reduces riots ( compared to original ) : +45%
+- Range Insurgency Reduction ( compared to original ) : +60%.
+
+
+### The Mobile Task Force:
+
+- Task force range ( compared to the original ) : -16%.
+- Task Force ( compared to the original ) : +100% (2 units).
+- Force movement rate ( compared to original ) : +15%.
+- Force execution speed ( compared to the original ) : +50%.
+- Reduces riots ( compared to original ) : -3%
+- Range Insurgency Reduction ( compared to original ) : -15%.
+
+
+
+The buildings have been integrated into the original building menu of the police station.
+
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Police_Station_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+# Rockefellers_Dream_MU
+
+![](./doc/rockefeller_banner.jpg)
+
+This mod provides a complete shopping mall which can be covered with glass roofs.
+All department stores as underground buildings are also available for the OW.
+For SPIU-Harborlife Lovers : they are also available for the water and as an ornament.
+
+### Existing functional buildings:
+
+- Underground department store / with and without roof / with and without open passage inclusive 3 skins
+- Underground furniture store / with and without roof / with and without open passage inclusive 3 skins
+- Underground drug store / with and without roof / with and without open passage inclusive 3 skins
+
+- Palace style department store inclusive 2 skins inclusive ornamental variant
+- Palace style furniture store inclusive 2 skins inclusive ornamental variant
+- Palace style drug store inclusive 2 skins inclusive ornamental variant
+
+- Palace style Restaurant inclusive 2 skins inclusive ornamental variant
+- Palace style Cafe inclusive 2 skins inclusive ornamental variant
+- Palace style Bar inclusive 2 skins inclusive ornamental variant
+- Palace style Hotel inclusive 2 Skins inclusive ornamental Variant
+- Palace style Investors inclusive 2 skins inclusive ornamental variant
+
+- Palace style warehouse inclusive 2 skins
+
+- Complete glass roof set to create a canopy. Optionally with supports, pillars or both.
+
+- Where no skin symbol appears in the UI, the skins can also be changed with the brush from the building menu.
 	
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+
+## Building aid using the example of a cross:
+
+![](./doc/cross.png)
+
+
+## Preface :
+
+- The buildings connect to each other automatically,except for the warehouses !
+- In order to be able to place a glass roof, the buildings have a free area in the middle that can be built over. ( 3x3 building area )
+- The glass roofs have different numbers of 1x1 building areas, depending on size and shape.
+  These can be built over to support all possible building variations.
+- We have tried to cover all possible building variations with the glass roofs.
+  Should a possibility arise during the game that cannot be covered with glass roofs, please send me a screenshot of it, thank you.
+- Because of the roofing,the construction method with terrain adjustment was chosen.
+
+
+## Building description :
+
+- In order to be able to place a glass roof, the opposite buildings need a distance of "3" fields to each other.
+  This creates a "tunnel" that is 3 fields wide.
+  This is the width that is covered by the glass roofs.
+- This 3-field rule must also be observed at corners and intersections!
+- Crossings are not possible with the functional buildings because of the road connection.
+  These can only be created with an additional ornamental building!
+- The ends of the "cross" can also be completely designed with the different warehouses.
+  These all have a double passageway.
+- It is recommended that the "tunnel" be completely finished (roads, ornaments, etc.) before the glass roof is placed as the final element.
+  Exceptions are the glass roofs which place a construction area exactly at a passage.
+  In these cases, please build the glass roof first, because this construction area can be built over.
+
+
+### Necessary active mods :
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+	  
+	  
+### Recommended active mods :
+
+- ["Streets_Related_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+  The roundabouts look really good in a shopping centre ;)
+
+- ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Rockefellers_Dream_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
 
 # MuggenTours_MU
@@ -359,110 +495,6 @@ https://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest
 
 	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
-
-
-# Rockefellers_Dream_MU
-
-![image](https://github.com/muggenstuermer/Rockefellers_Dream_MU/blob/main/sample.png)
-
-This mod provides a complete shopping mall which can be covered with glass roofs.
-All department stores as underground buildings are also available.
-
-## Existing functional buildings:
-
-- Underground department store / with and without roof / with and without open passage + `3` skins
-- Underground furniture store / with and without roof / with and without open passage + `3` skins
-- Underground drugstore / with and without roof / with and without open passage + `3` skins
-
-- Palace style department store + `2` skins + ornamental variant
-- Palace style furniture store + `2` skins
-- Palace style drugstore + `2` skins
-
-- Palace style Restaurant + `2` skins + ornamental variant
-- Palace style Cafe + `2` skins + ornamental variant
-- Palace style Bar + `2` skins + ornamental variant
-- Palace style Hotel + `2` Skins + Ornamental Variant
-- Palace style Investors + `2` skins
-
-- Palace style warehouse + `2` skins
-
-- Complete glass roof set to create a canopy. Optionally with supports, pillars or both.
-
-- Where no skin symbol appears in the UI, the skins can also be changed with the brush from the building menu.
-	
-	
-## Building aid using the example of a cross:
-
-![image](https://github.com/muggenstuermer/Rockefellers_Dream_MU/blob/main/cross.png)
-
-## Preface :
-------------
-
-- The buildings connect to each other automatically,except for the warehouses !
-
-- In order to be able to place a glass roof, the buildings have a free area in the middle that can be built over. ( 3x3 building area )
-
-- The glass roofs have different numbers of 1x1 building areas, depending on size and shape.
-  These can be built over to support all possible building variations.
-  
-- We have tried to cover all possible building variations with the glass roofs.
-  Should a possibility arise during the game that cannot be covered with glass roofs, please send me a screenshot of it, thank you.
-  
-- Because of the roofing,the construction method with terrain adjustment was chosen.
-	
-	
-## Building description :
--------------------------
-
-- In order to be able to place a glass roof, the opposite buildings need a distance of "3" fields to each other.
-  This creates a "tunnel" that is 3 fields wide.
-  This is the width that is covered by the glass roofs.
-  
-- This 3-field rule must also be observed at corners and intersections!
-
-- Building intersections are not possible with the functional buildings, because of the road connection.
-  These can only be created with an additional ornamental building !
-
-- The front sides of the "cross" can also be designed completely with the different warehouses.
-  These all have a double passageway.
-  
-- It is recommended that the "tunnel" be completely finished beforehand (roads, ornaments, etc.) before the glass roof is placed as the finale.
-  Exceptions are the glass roofs which place a construction area exactly at a passage.
-  There please build the glass roof first, because this building field can be built over.
-
-
-## Required active mods :
--------------------------
-
-"Shared_Objects_MU" by @muggenstuermer
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
-https://www.nexusmods.com/anno1800/mods/468
-	  
-	  
-## Recommended active mods :
-----------------------------
-
-"Streets_Related_MU" by @muggenstuermer
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
-
-
-## Note :
----------
-
-Textures of the modder @jje1000 were used for skin variants.originally they should not be integrated into this mod,
-but only refer to the two mods.
-since at the time of creation these mods were not yet checked for GU16,they were added as a transitional solution for now and will be later,
-later, when the mods are up to date again, they will be removed and the necessity of these two mods will be pointed out.
-
-The mods are as follows:
-White City - Palace-Museum Expansion : https://www.nexusmods.com/anno1800/mods/433
-Red Tile Roof Building Variations : https://www.nexusmods.com/anno1800/mods/186
-
-A big thank you goes to @jje1000 !
-
-
-Have fun with it: your muggenstuermer ;)
-
 
 
 # Green_Mile_MU

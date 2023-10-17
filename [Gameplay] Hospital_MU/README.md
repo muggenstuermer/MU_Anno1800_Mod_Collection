@@ -26,6 +26,8 @@ This mod adds 2 more hospitals / doctors.
 
 The buildings have been integrated into the original tree menu of the hospital.
 
+For the Harbor a seperated menu is created,straight after SPIU-Harborlife.
+
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 [Download latest Hospital_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
@@ -70,8 +72,10 @@ Changelog - 1.25
 	- correction ifo files.
 	- IMYA tweaks added to be able to set limited custom ranges.
 	- correction of the folder structure to adapt to the desired structures.
-	- chinese translation added. Big thx to @darknesswei for this translation
+	- chinese translation file added. Big thx to @darknesswei for this translation
+	- korean translation file added. Big thx to @modpark817 for this translation
 	- reduce content.txt files to english only.
+	- SPIU-Harborlife support added
 	
 	
 	
