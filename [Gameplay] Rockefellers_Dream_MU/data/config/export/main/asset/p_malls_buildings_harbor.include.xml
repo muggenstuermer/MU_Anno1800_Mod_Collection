@@ -1,0 +1,3262 @@
+<ModOps>
+
+<!--
+
+1337504258 Palace Departmenstore Blank
+1337504259 Palace Departmenstore Toaster
+1337504260 Palace Departmenstore VacuumCleaner
+1337504261 Palace Departmenstore TableWare
+1337504262 Palace Departmenstore Fridge
+1337504263 Palace Departmenstore Bags
+
+1337504264 Palace Furniturestore Blank
+1337504265 Palace Furniturestore BankersLamp
+1337504266 Palace Furniturestore Paravent
+1337504267 Palace Furniturestore Desk
+1337504268 Palace Furniturestore Bed
+1337504269 Palace Furniturestore Chair
+
+1337504270 Palace Drugstore Blank
+1337504271 Palace Drugstore Toothpaste
+1337504272 Palace Drugstore Detergent
+1337504273 Palace Drugstore Lipstick
+1337504274 Palace Drugstore FaceCream
+1337504275 Palace Drugstore Pomade
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Department Store Malls Buildings START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="135100">
+        <!-- Palace-Kaufhaus blank -->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504258</GUID>
+                    <Name>Palace Departmenstore Blank</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_mall.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504258</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502169</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter />
+                <Maintenance />
+                <FactoryBase>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Homeware</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable>
+                    <CanPauseManually>0</CanPauseManually>
+                </Pausable>
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProvidesPublicServiceNeed>0</ProvidesPublicServiceNeed>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504304</RecipeList>
+                    <IsBlank>1</IsBlank>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace-Kaufhaus Toaster 1337504259-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504259</GUID>
+                    <Name>Palace Departmenstore Toaster</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_toaster.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504259</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502159</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter />
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010243</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010219</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010229</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Homeware</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>135115</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135114</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135111</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135108</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135816</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504304</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace-Kaufhaus Vacuum Cleaner 1337504260-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504260</GUID>
+                    <Name>Palace Departmenstore VacuumCleaner</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_vacuumcleaner.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504260</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502161</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter />
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010197</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135150</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010219</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Homeware</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>137639</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>137638</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135196</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135108</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135877</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504304</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace-Kaufhaus Crockery 1337504261-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504261</GUID>
+                    <Name>Palace Departmenstore TableWare</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_dishes.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504261</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502163</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter />
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010201</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010228</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135129</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Homeware</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>137637</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>137636</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135195</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135108</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135876</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504304</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace-Kaufhaus Kühlschrank 1337504262-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504262</GUID>
+                    <Name>Palace Departmenstore Fridge</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_refrigerator.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504262</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502165</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter />
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>112706</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010219</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010255</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Homeware</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>137641</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>137640</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135197</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135108</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135878</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504304</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace-Kaufhaus Briefcase 1337504263-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504263</GUID>
+                    <Name>Palace Departmenstore Bags</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_suitcase.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504263</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502167</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter />
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>114357</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010204</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135150</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Homeware</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>660</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>659</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>658</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135108</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135879</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504304</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Department Store Malls Buildings END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Furniture Store Malls Buildings START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="135100">
+        <!-- Palace Furniture Store blank -->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504264</GUID>
+                    <Name>Palace Furniturestore Blank</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_furniture.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504264</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Text>
+				<TextOverride>1337502181</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter />
+                <Maintenance />
+                <FactoryBase>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Furniture</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable>
+                    <CanPauseManually>0</CanPauseManually>
+                </Pausable>
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProvidesPublicServiceNeed>0</ProvidesPublicServiceNeed>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504310</RecipeList>
+                    <IsBlank>1</IsBlank>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Furniture Store Banker's Lamps 1337504265-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504265</GUID>
+                    <Name>Palace Furniturestore BankersLamp</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_bankerlamp.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504265</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Text>
+				<TextOverride>1337502171</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280022</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010208</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010204</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010241</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Furniture</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>135117</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135116</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135112</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135107</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135880</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504310</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Furniture Store Vanity Screens 1337504266-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504266</GUID>
+                    <Name>Palace Furniturestore Paravent</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_paravent.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504266</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Text>
+				<TextOverride>1337502173</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280022</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010240</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135087</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135129</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Furniture</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>135156</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135155</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135151</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135107</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135881</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504310</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Furniture Store Writing Desks 1337504267-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504267</GUID>
+                    <Name>Palace Furniturestore Desk</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_secretary.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504267</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Text>
+				<TextOverride>1337502175</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280022</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010242</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135129</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010204</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Furniture</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>135158</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135157</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135152</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135107</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135882</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504310</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Furniture Store Four-Poster Beds 1337504268-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504268</GUID>
+                    <Name>Palace Furniturestore Bed</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_canopy.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504268</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Text>
+				<TextOverride>1337502177</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280022</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>135087</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>112695</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>112697</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Furniture</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>135160</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135159</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135153</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135107</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135883</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504310</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Furniture Store Lounge Seating 1337504269-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504269</GUID>
+                    <Name>Palace Furniturestore Chair</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_chesterfield.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504269</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Text>
+				<TextOverride>1337502179</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280022</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010197</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>114357</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>114356</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Furniture</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>663</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>662</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>661</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135107</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135884</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504310</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Furniture Store Malls Buildings END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Drug Store Malls Buildings START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="135100">
+        <!-- Palace Drug Store blank -->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504270</GUID>
+                    <Name>Palace Drugstore Blank</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_drugstore.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504270</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502193</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter />
+                <FactoryBase>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Drugstore</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable>
+                    <CanPauseManually>0</CanPauseManually>
+                </Pausable>
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProvidesPublicServiceNeed>0</ProvidesPublicServiceNeed>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504316</RecipeList>
+                    <IsBlank>1</IsBlank>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Drug Store Toothpaste 1337504271-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504271</GUID>
+                    <Name>Palace Drugstore Toothpaste</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_toothpaste.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504271</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502183</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280056</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010226</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010203</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010239</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Drugstore</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>135119</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135118</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135113</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135109</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135885</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504316</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Drug Store Detergent 1337504272-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504272</GUID>
+                    <Name>Palace Drugstore Detergent</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_detergent.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504272</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502185</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280056</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>133097</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135130</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010232</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Drugstore</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>137645</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>137644</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135199</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135109</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135886</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504316</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Drug Store Lipstick 1337504273-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504273</GUID>
+                    <Name>Palace Drugstore Lipstick</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_lipstick.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504273</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502187</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280056</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>133095</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>120042</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>135129</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Drugstore</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>137647</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>137646</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135200</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135109</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135887</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504316</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Drug Store Face Cream 1337504274-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504274</GUID>
+                    <Name>Palace Drugstore FaceCream</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_facecreme.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504274</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502189</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280056</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>112699</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>133095</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>133097</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Drugstore</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>137649</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>137648</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>135201</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135109</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135888</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504316</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Palace Drug Store Pomade 1337504275-->
+        <Asset>
+            <Template>PalaceMallMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504275</GUID>
+                    <Name>Palace Drugstore Pomade</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/goods_highlife/icon_pomade.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504275</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_straight_rotated_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02_doors.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_arch_dome_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_corner_02.cfg</Filename>
+                        </Item>
+                        <!--<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_tcross_01.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_dome_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall\palace_mall_cross_01.cfg</Filename>
+						</Item>-->
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504238</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504239</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Cost />
+                <Mesh />
+                <Selection />
+                <Text>
+				<TextOverride>1337502191</TextOverride>
+				</Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>410085</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>280056</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Maintenance />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>114370</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>134616</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                        <Item>
+                            <Product>114364</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>7</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>280</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>45</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                </LogisticNode>
+                <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+                <IncidentInfectable />
+                <Electrifiable />
+                <AmbientMoodProvider>
+                    <Murmur>HighLife_Mall_Drugstore</Murmur>
+                </AmbientMoodProvider>
+                <Attackable />
+                <UpgradeList />
+                <Pausable />
+                <FeedbackController />
+                <Infolayer />
+                <BuffFactory>
+                    <ProductionBuffs>
+                        <Item>
+                            <ProductivityBuff>666</ProductivityBuff>
+                            <ProductivityThresholdUp>0.5</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.1</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>665</ProductivityBuff>
+                            <ProductivityThresholdUp>1.6</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>0.51</ProductivityThresholdDown>
+                        </Item>
+                        <Item>
+                            <ProductivityBuff>664</ProductivityBuff>
+                            <ProductivityThresholdUp>1.99</ProductivityThresholdUp>
+                            <ProductivityThresholdDown>1.61</ProductivityThresholdDown>
+                        </Item>
+                    </ProductionBuffs>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>25</ProductionBuffDistance>
+                    <PublicServiceData>
+                        <PublicServices>
+                            <Item>
+                                <PublicService>135109</PublicService>
+                            </Item>
+                            <Item>
+                                <PublicService>135889</PublicService>
+                                <IsAreaWidePublicService>1</IsAreaWidePublicService>
+                            </Item>
+                        </PublicServices>
+                        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+                        <NoSatisfactionDistance>35</NoSatisfactionDistance>
+                    </PublicServiceData>
+                </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1337504316</RecipeList>
+                </RecipeBuilding>
+                <Ornament />
+                <Culture />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Drug Store Malls Buildings END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+</ModOps>

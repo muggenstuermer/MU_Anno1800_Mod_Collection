@@ -1,0 +1,1391 @@
+<ModOps>
+
+<!--
+
+1337504377 Roof End
+1337504378 Roof Straight
+1337504379 Roof Corner No Dome
+1337504380 Roof Corner with Dome
+1337504381 Roof X-Cross No Dome
+1337504382 Roof X-Cross with Dome
+1337504383 Roof T-Cross NO Dome
+1337504384 Roof T-Cross with Dome
+1337504385 Roof Square
+1337504386 Roof Small T-Cross
+1337504387 Roof Small Corner
+1337504388 Roof Small Straight
+1337504389 Roof Combination Right
+1337504390 Roof Combination Left
+1337504391 Roof Spezial End
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamental Roof Parts START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010347">
+        <!-- Promenade Roof end-->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504377</GUID>
+                    <Name>Roof End</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_end_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504377</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_end_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502207</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof straight-->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504378</GUID>
+                    <Name>Roof Straight</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_straight_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504378</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>300</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_straight.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502208</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof corner no dome-->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504379</GUID>
+                    <Name>Roof Corner No Dome</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_big_corner_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504379</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_cap.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502209</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof corner with dome-->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504380</GUID>
+                    <Name>Roof Corner with Dome</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_big_corner_dome_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504380</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_dome_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_dome_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_dome_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_dome.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502210</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof xcross no dome-->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504381</GUID>
+                    <Name>Roof X-Cross No Dome</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_big_cross_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504381</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>800</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross_cap.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502211</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof xcross with dome-->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504382</GUID>
+                    <Name>Roof X-Cross with Dome</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_big_cross_dome_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504382</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>800</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross_dome_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross_dome_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross_dome_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross_dome.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_xcross_big_dome.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502212</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof tcross no dome-->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504383</GUID>
+                    <Name>Roof T-Cross NO Dome</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_big_tcross_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504383</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>700</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_cap.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502213</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof tcross with dome-->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504384</GUID>
+                    <Name>Roof T-Cross with Dome</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_big_tcross_dome_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504384</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>700</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_dome_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_dome_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_dome_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_dome.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502214</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof square -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504385</GUID>
+                    <Name>Roof Square</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_square_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504385</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_small_square.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_small_square_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502215</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof small tcross -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504386</GUID>
+                    <Name>Roof Small T-Cross</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_small_tcross_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504386</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_small_dome_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_small_dome_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_small_dome_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_small_dome_cap.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_small_dome.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502216</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof small corner -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504387</GUID>
+                    <Name>Roof Small Corner</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_small_corner_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504387</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>200</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_small_dome_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_small_dome_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_small_dome_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_small_dome_cap.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_corner_small_dome.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502217</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof small straight -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504388</GUID>
+                    <Name>Roof Small Straight</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_small_straight_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504388</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_end_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502218</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof tcross-corner combination right -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504389</GUID>
+                    <Name>Roof Combination Right</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_special_right_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504389</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1000</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_right_comb_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_right_comb_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_right_comb_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_right_comb_cap.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_right_comb.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502219</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof tcross-corner combination left -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504390</GUID>
+                    <Name>Roof Combination Left</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_special_left_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504390</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1000</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_left_comb_carrier_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_left_comb_pole.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_left_comb_carrier.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_left_comb_cap.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_tcross_corner_left_comb.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502220</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+        <!-- Promenade Roof spezial end-->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504391</GUID>
+                    <Name>Roof Spezial End</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/roof_straight_piece.png</IconFilename>
+                    <InfoDescription>262016</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337504391</PickingAsset>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+				<Mesh />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Culture>
+                    <Attractiveness>3</Attractiveness>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_end_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\harbor\palace_mall_canopy\canopy_palace_mall_end_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Text>
+					<TextOverride>1337502221</TextOverride>
+				</Text>
+				<Attackable />
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<FeedbackController />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamental Roof Parts END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+</ModOps>

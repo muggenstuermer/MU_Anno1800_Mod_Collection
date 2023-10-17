@@ -1,0 +1,548 @@
+<ModOps>
+
+<!--
+
+1337502329 Departmentstore Ornamental
+1337502330 Departmentstore Ornamental
+1337502331 Departmentstore Ornamental
+1337502332 Departmentstore Ornamental
+
+-->
+    <ModOp Type="addNextSibling" GUID="135100">
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Underground all Ornamental Malls NO-ROOF with OPEN-PASSAGE Buildings START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Underground all Ornamental Malls NO-ROOF with OPEN-PASSAGE -->
+        <Asset>
+            <Template>OrnamentalMallsMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502329</GUID>
+                    <Name>Departmentstore Ornamental</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/underground_mall_without_roof.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337502329</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\end_mall_no_roof_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\end_mall_no_roof_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_tree_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_statue_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_tree_no_door_bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_statue_no_door_bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_tree_no_door_2bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_walktrough_mall_no_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_no_roof_tree_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_no_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_no_roof_statue_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\t_cross_mall_no_roof_tree_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\t_cross_mall_no_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\x_cross_mall_no_roof_tree_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\x_cross_mall_no_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/underground_mall_skin_ice.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502012</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502013</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502014</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Underground all Ornamental Malls NO-ROOF with OPEN-PASSAGE Buildings END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Underground all Ornamental Malls WITH-ROOF with OPEN-PASSAGE Buildings START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Underground all Ornamental Malls WITH-ROOF with OPEN-PASSAGE -->
+        <Asset>
+            <Template>OrnamentalMallsMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502330</GUID>
+                    <Name>Departmentstore Ornamental</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/underground_mall_with_roof.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337502330</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\end_mall_roof_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\end_mall_roof_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_tree_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_statue_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_tree_no_door_bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_statue_no_door_bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_tree_no_door_2bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_walktrough_mall_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_roof_tree_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_roof_statue_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\t_cross_mall_roof_tree_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\t_cross_mall_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\x_cross_mall_roof_tree_no_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\x_cross_mall_roof_fountain_no_door_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/underground_mall_skin_ice.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502039</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502040</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502041</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Underground all Ornamental Malls WITH-ROOF with OPEN-PASSAGE Buildings END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Underground all Ornamental Malls NO-ROOF with DOOR-PASSAGE Buildings START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Underground all Ornamental Malls NO-ROOF with DOOR-PASSAGE -->
+        <Asset>
+            <Template>OrnamentalMallsMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502331</GUID>
+                    <Name>Departmentstore Ornamental</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/underground_mall_without_roof.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337502331</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\end_mall_no_roof_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\end_mall_no_roof_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_tree_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_statue_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_tree_door_bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_statue_door_bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_no_roof_tree_door_2bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_walktrough_mall_no_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_no_roof_tree_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_no_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_no_roof_statue_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\t_cross_mall_no_roof_tree_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\t_cross_mall_no_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\x_cross_mall_no_roof_tree_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\x_cross_mall_no_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/underground_mall_skin_ice.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502078</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502079</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502080</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Underground all Ornamental Malls NO-ROOF with DOOR-PASSAGE Buildings END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Underground all Ornamental Malls WITH-ROOF with DOOR-PASSAGE Buildings START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Underground all Ornamental Malls WITH-ROOF with DOOR-PASSAGE -->
+        <Asset>
+            <Template>OrnamentalMallsMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502332</GUID>
+                    <Name>Departmentstore Ornamental</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/underground_mall_with_roof.png</IconFilename>
+                    <InfoDescription>137243</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <PickingAsset>1337502332</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\end_mall_roof_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\end_mall_roof_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_tree_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_statue_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_tree_door_bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_statue_door_bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_mall_roof_tree_door_2bridge_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\straight_walktrough_mall_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_roof_tree_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\corner_mall_roof_statue_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\t_cross_mall_roof_tree_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\t_cross_mall_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\x_cross_mall_roof_tree_door_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rockefellers_dream\buildings\ornamental\underground_mall_ornamental\x_cross_mall_roof_fountain_door_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data/muggenstuermer/ui/2kimages/main/3dicons/underground_mall_skin_ice.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337502117</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502118</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337502119</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked />
+                <FeedbackController />
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Underground all Ornamental Malls WITH-ROOF with DOOR-PASSAGE Buildings END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </ModOp>
+</ModOps>

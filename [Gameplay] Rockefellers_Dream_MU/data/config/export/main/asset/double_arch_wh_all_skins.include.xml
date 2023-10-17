@@ -1,0 +1,438 @@
+<ModOps>
+
+<!--
+
+1337502194 palace_doublearch_corner_01_skin_01
+1337502195 palace_doublearch_corner_01_skin_02
+
+1337502197 palace_doublearch_corner_02_skin_01
+1337502198 palace_doublearch_corner_02_skin_02
+
+1337502200 palace_doublearch_straight_01_skin_01
+1337502201 palace_doublearch_straight_01_skin_02
+
+1337502203 palace_doublearch_straight_02_skin_01
+1337502204 palace_doublearch_straight_02_skin_02
+
+1337502224 palace_doublearch_t_cross_01_skin_01
+1337502225 palace_doublearch_t_cross_01_skin_02
+
+1337502227 palace_doublearch_t_cross_02_skin_01
+1337502228 palace_doublearch_t_cross_02_skin_02
+
+-->
+
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch Corner Warehouse LVL 1 Skins START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="701">
+        <!-- Palace-DoubleArch corner lvl1 Skin 01 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502194</GUID>
+                    <Name>palace_doublearch_corner_01_skin_01</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</IconFilename>
+                    <ID>palace_doublearch_corner_01_skin_01</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7377</SkinName>
+                    <SkinDescription>7378</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_dome_01.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Palace-DoubleArch corner lvl1 Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502195</GUID>
+                    <Name>palace_doublearch_corner_01_skin_02</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+                    <ID>palace_doublearch_corner_01_skin_02</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7375</SkinName>
+                    <SkinDescription>7376</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_dome_01.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch Corner Warehouse LVL 1 Skins END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch Corner Warehouse LVL 2 Skins START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="701">
+        <!-- Palace-DoubleArch corner lvl2 Skin 01 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502197</GUID>
+                    <Name>palace_doublearch_corner_02_skin_01</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</IconFilename>
+                    <ID>palace_doublearch_corner_02_skin_01</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7377</SkinName>
+                    <SkinDescription>7378</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_02.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_dome_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Palace-DoubleArchcorner lvl2 Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502198</GUID>
+                    <Name>palace_doublearch_corner_02_skin_02</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+                    <ID>palace_doublearch_corner_02_skin_02</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7375</SkinName>
+                    <SkinDescription>7376</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_02.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_dome_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch Corner Warehouse LVL 2 Skins END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch Straight Warehouse LVL 1 Skins START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="701">
+        <!-- Palace-DoubleArch straight lvl1 Skin 01 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502200</GUID>
+                    <Name>palace_doublearch_straight_01_skin_01</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</IconFilename>
+                    <ID>palace_doublearch_straight_01_skin_01</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7377</SkinName>
+                    <SkinDescription>7378</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_01_straight_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_01_straight_01_dome.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_01_straight_02.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_01_straight_02_dome.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Palace-DoubleArch straight lvl1 Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502201</GUID>
+                    <Name>palace_doublearch_straight_01_skin_02</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+                    <ID>palace_doublearch_straight_01_skin_02</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7375</SkinName>
+                    <SkinDescription>7376</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_01_straight_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_01_straight_01_dome.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_01_straight_02.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_01_straight_02_dome.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch Straight Warehouse LVL 1 Skins END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch Straight Warehouse LVL 2 Skins START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="701">
+        <!-- Palace-DoubleArch straight lvl2 Skin 01 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502203</GUID>
+                    <Name>palace_doublearch_straight_02_skin_01</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</IconFilename>
+                    <ID>palace_doublearch_straight_02_skin_01</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7377</SkinName>
+                    <SkinDescription>7378</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_02_straight_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_02_straight_01_dome.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_02_straight_02.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_02_straight_02_dome.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Palace-DoubleArch straight lvl2 Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502204</GUID>
+                    <Name>palace_doublearch_straight_02_skin_02</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+                    <ID>palace_doublearch_straight_02_skin_02</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7375</SkinName>
+                    <SkinDescription>7376</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_02_straight_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_02_straight_01_dome.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_02_straight_02.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_02_straight_02_dome.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch Straight Warehouse LVL 2 Skins END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch T-Cross Warehouse LVL 1 Skins START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="701">
+        <!-- Palace-DoubleArch tcross lvl1 Skin 01 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502224</GUID>
+                    <Name>palace_doublearch_t_cross_01_skin_01</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</IconFilename>
+                    <ID>palace_doublearch_t_cross_01_skin_01</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7377</SkinName>
+                    <SkinDescription>7378</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_01_tcross_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_01_tcross_01_dome.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Palace-DoubleArch tcross lvl1 Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502225</GUID>
+                    <Name>palace_doublearch_t_cross_01_skin_02</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+                    <ID>palace_doublearch_t_cross_01_skin_02</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7375</SkinName>
+                    <SkinDescription>7376</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_01_tcross_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_01_tcross_01_dome.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch T-Cross Warehouse LVL 1 Skins END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch T-Cross Warehouse LVL 2 Skins START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="701">
+        <!-- Palace-DoubleArch tcross lvl2 Skin 01 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502227</GUID>
+                    <Name>palace_doublearch_t_cross_02_skin_01</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_nature.png</IconFilename>
+                    <ID>palace_doublearch_t_cross_02_skin_01</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7377</SkinName>
+                    <SkinDescription>7378</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_02_tcross_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_01\palace_mall_double_arch_02_tcross_01_dome.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Palace-DoubleArch tcross lvl2 Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502228</GUID>
+                    <Name>palace_doublearch_t_cross_02_skin_02</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/palace_skin_venecian.png</IconFilename>
+                    <ID>palace_doublearch_t_cross_02_skin_02</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>7375</SkinName>
+                    <SkinDescription>7376</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_02_tcross_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rockefellers_dream\buildings\public\palace_mall_skin_02\palace_mall_double_arch_02_tcross_01_dome.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Palace all Double Arch T-Cross Warehouse LVL 2 Skins END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+</ModOps>

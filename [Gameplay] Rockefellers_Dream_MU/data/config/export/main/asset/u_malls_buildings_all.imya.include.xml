@@ -1,0 +1,20 @@
+<ModOps>
+    <!-- Description -->
+    <ImyaTweaks Title="Change the Supply Range of all Underground Malls." Description="You can Increase or Decrease the Ranges of all all Underground Malls on Land" />
+    
+	<!-- Change FullSatisfactionDistance of all Underground Malls  -->
+    <ModOp Type="replace" GUID="1337502082,1337502084,1337502086,1337502088,1337502090,1337502094,1337502096,1337502098,1337502100,1337502102,1337502106,1337502108,1337502110,1337502112,1337502114,1337502001,1337502003,1337502005,1337502007,1337502009,1337502016,1337502018,1337502020,1337502022,1337502024,1337502028,1337502030,1337502032,1337502034,1337502036,1337502121,1337502123,1337502125,1337502127,1337502129,1337502133,1337502135,1337502137,1337502139,1337502141,1337502145,1337502147,1337502149,1337502151,1337502153,1337502043,1337502045,1337502047,1337502049,1337502051,1337502055,1337502057,1337502059,1337502061,1337502063,1337502067,1337502069,1337502071,1337502073,1337502075" Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" ModOpID="FullSatisfactionDistanceAllUndergroundMallsMU">
+        <FullSatisfactionDistance>40</FullSatisfactionDistance>
+    </ModOp>
+    <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="FullSatisfactionDistanceAllUndergroundMallsMU" ExposeID="Custom FullSatisfactionDistance for all Underground Malls" Description="Sets the FullSatisfactionDistance for all Underground Malls ( Mod default settings = 40 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="100" Stepping="1" />
+    </ImyaExpose>
+    
+	<!-- Change NoSatisfactionDistance of all Underground Malls -->
+    <ModOp Type="replace" GUID="1337502082,1337502084,1337502086,1337502088,1337502090,1337502094,1337502096,1337502098,1337502100,1337502102,1337502106,1337502108,1337502110,1337502112,1337502114,1337502001,1337502003,1337502005,1337502007,1337502009,1337502016,1337502018,1337502020,1337502022,1337502024,1337502028,1337502030,1337502032,1337502034,1337502036,1337502121,1337502123,1337502125,1337502127,1337502129,1337502133,1337502135,1337502137,1337502139,1337502141,1337502145,1337502147,1337502149,1337502151,1337502153,1337502043,1337502045,1337502047,1337502049,1337502051,1337502055,1337502057,1337502059,1337502061,1337502063,1337502067,1337502069,1337502071,1337502073,1337502075" Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" ModOpID="NoSatisfactionDistanceAllUndergroundMallsMU">
+        <NoSatisfactionDistance>41</NoSatisfactionDistance>
+    </ModOp>
+    <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="NoSatisfactionDistanceAllUndergroundMallsMU" ExposeID="Custom NoSatisfactionDistance for all Underground Malls" Description="Sets the NoSatisfactionDistance for all Underground Malls ( Mod default settings = 41 )" Kind="Slider">
+        <SliderDefinition Min="0" Max="100" Stepping="1" />
+    </ImyaExpose>
+</ModOps>
