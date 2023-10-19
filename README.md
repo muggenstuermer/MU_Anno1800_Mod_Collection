@@ -249,7 +249,7 @@ For SPIU-Harborlife Lovers : they are also available for the water and as an orn
 ### Recommended active mods :
 
 - ["Streets_Related_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
-  The roundabouts look really good in a shopping centre ;)
+  - The roundabouts look really good in a shopping centre ;)
 
 - ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
 
