@@ -274,6 +274,22 @@ Hospital / small resolverunit
         </Item>
     </ModOp>
 	
+	<!-- Add NW Hospitals to Buildmenu NW-Institutions from Fire_Station_MU -->
+    <ModOp Type="addNextSibling" GUID="1337504397" Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+        <Item>
+            <Building>8855055</Building>
+			<!-- Hospital SPIU Harborlife NW-->
+        </Item>
+		<Item>
+            <Building>1337504402</Building>
+			<!-- Hospital / big Harbor NW-->
+        </Item>
+		<Item>
+            <Building>1337504404</Building>
+			<!-- Hospital / small Harbor NW -->
+        </Item>
+    </ModOp>
+	
     <!-- Hospital / big  resolverunit -->
     <ModOp Type="addNextSibling" GUID="1010464">
         <Asset>
@@ -681,7 +697,7 @@ Hospital / small resolverunit
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data\muggenstuermer\hospital\buildings\public\hospital_harbor\hospital_wolf.cfg</Filename>
+                            <Filename>data\muggenstuermer\hospital\buildings\public\hospital_harbor\hospital_nw.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>

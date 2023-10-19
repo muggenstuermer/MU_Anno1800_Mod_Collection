@@ -27,6 +27,8 @@ This mod adds 2 more police stations.
 
 The buildings have been integrated into the original building menu of the police station.
 
+For the Harbor a seperated menu is created,straight after SPIU-Harborlife.
+
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 [Download latest Police_Station_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
@@ -84,7 +86,9 @@ Changelog - 1.27
 	- IMYA tweaks added to be able to set limited custom ranges.
 	- correction of the folder structure to adapt to the desired structures.
 	- chinese translation added. Big thx to @darknesswei for this translation
+	- korean translation file added. Big thx to @modpark817 for this translation
 	- reduce content.txt files to english only.
+	- SPIU-Harborlife support added.
 	
 	
 	
