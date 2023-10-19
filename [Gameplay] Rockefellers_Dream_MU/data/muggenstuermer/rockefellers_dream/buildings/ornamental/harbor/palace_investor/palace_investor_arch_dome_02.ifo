@@ -19,42 +19,6 @@
 			<zf>2.740574</zf>
 		</Extents>
 	</BoundingBox>
-	<BuildBlocker>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>1.500000</zf>
-		</Position>
-	</BuildBlocker>
-	<BuildBlocker>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>-0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>-0.500000</zf>
-		</Position>
-	</BuildBlocker>
 	<FeedbackBlocker>
 		<Position>
 			<xf>1.250000</xf>
@@ -73,6 +37,42 @@
 			<zf>-1.500000</zf>
 		</Position>
 	</FeedbackBlocker>
+	<BuildBlocker>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>1.500000</zf>
+		</Position>
+	</BuildBlocker>
+	<BuildBlocker>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+	</BuildBlocker>
 	<FeedbackBlocker>
 		<Position>
 			<xf>-1.250000</xf>
@@ -167,6 +167,42 @@
 			<zf>0.467302</zf>
 		</Extents>
 	</IntersectBox>
+	<InvisibleQuayArea>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>1.500000</zf>
+		</Position>
+	</InvisibleQuayArea>
+	<InvisibleQuayArea>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+	</InvisibleQuayArea>
 	<MeshBoundingBox>
 		<Name>MeshBoundingBox</Name>
 		<Position>
@@ -186,86 +222,84 @@
 			<zf>1.532978</zf>
 		</Extents>
 	</MeshBoundingBox>
+	<PriorityFeedbackBlocker>
+		<Position>
+			<xf>-1.250000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.250000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.250000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.250000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+	</PriorityFeedbackBlocker>
+	<PriorityFeedbackBlocker>
+		<Position>
+			<xf>-1.250000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.250000</xf>
+			<zf>1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.250000</xf>
+			<zf>1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.250000</xf>
+			<zf>0.500000</zf>
+		</Position>
+	</PriorityFeedbackBlocker>
+	<QuayArea>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>1.500000</zf>
+		</Position>
+	</QuayArea>
+	<QuayArea>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+		<Position>
+			<xf>-1.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>-1.500000</zf>
+		</Position>
+		<Position>
+			<xf>1.500000</xf>
+			<zf>-0.500000</zf>
+		</Position>
+	</QuayArea>
 	<Sequence>
 		<Duration>1666</Duration>
 		<Looped>1</Looped>
 		<Speed>1</Speed>
 		<Id>0</Id>
 	</Sequence>
-	<InvisibleQuayArea>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>1.500000</zf>
-		</Position>
-	</InvisibleQuayArea>
-	<InvisibleQuayArea>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>-0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>-0.500000</zf>
-		</Position>
-	</InvisibleQuayArea>
-	
-	<QuayArea>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>1.500000</zf>
-		</Position>
-	</QuayArea>
-	<QuayArea>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>-0.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.500000</xf>
-			<zf>-0.500000</zf>
-		</Position>
-	</QuayArea>
-	
 	<WaterBlocker>
 		<Position>
 			<xf>1.500000</xf>
