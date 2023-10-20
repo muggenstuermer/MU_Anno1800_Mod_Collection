@@ -1,20 +1,12 @@
 <ModOps>
     <!-- Description -->
-    <ImyaTweaks Title="Change the Supply Range of all Palace Malls." Description="You can Increase or Decrease the Ranges of all all Palace Malls on Land and Water" />
+    <ImyaTweaks Title="Change the Supply Range of all Palace Malls." Description="You can Increase or Decrease the Ranges of all Palace Malls on Land and Water" />
     
-	<!-- Change FullSatisfactionDistance of all Palace Malls  -->
-    <ModOp Type="replace" GUID="1337502159,1337502161,1337502163,1337502165,1337502167,1337502171,1337502173,1337502175,1337502177,1337502179,1337502183,1337502185,1337502187,1337502189,1337502191,1337504259,1337504260,1337504261,1337504262,1337504263,1337504265,1337504266,1337504267,1337504268,1337504269,1337504271,1337504272,1337504273,1337504274,1337504275" Path="/Values/BuffFactory/PublicServiceData/FullSatisfactionDistance" ModOpID="FullSatisfactionDistanceAllPalaceMallsMU">
-        <FullSatisfactionDistance>34</FullSatisfactionDistance>
+	<!-- Change ProductionBuffDistance of all Palace Malls  -->
+    <ModOp Type="replace" GUID="1337502159,1337502161,1337502163,1337502165,1337502167,1337502171,1337502173,1337502175,1337502177,1337502179,1337502183,1337502185,1337502187,1337502189,1337502191,1337504259,1337504260,1337504261,1337504262,1337504263,1337504265,1337504266,1337504267,1337504268,1337504269,1337504271,1337504272,1337504273,1337504274,1337504275" Path="/Values/BuffFactory/ProductionBuffDistance" ModOpID="ProductionBuffDistanceAllPalaceMallsMU">
+        <ProductionBuffDistance>25</ProductionBuffDistance>
     </ModOp>
-    <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="FullSatisfactionDistanceAllPalaceMallsMU" ExposeID="Custom FullSatisfactionDistance for all Palace Malls" Description="Sets the FullSatisfactionDistance for all Palace Malls ( Mod default settings = 34 )" Kind="Slider">
-        <SliderDefinition Min="0" Max="100" Stepping="1" />
-    </ImyaExpose>
-    
-	<!-- Change NoSatisfactionDistance of all Palace Malls -->
-    <ModOp Type="replace" GUID="1337502159,1337502161,1337502163,1337502165,1337502167,1337502171,1337502173,1337502175,1337502177,1337502179,1337502183,1337502185,1337502187,1337502189,1337502191,1337504259,1337504260,1337504261,1337504262,1337504263,1337504265,1337504266,1337504267,1337504268,1337504269,1337504271,1337504272,1337504273,1337504274,1337504275" Path="/Values/BuffFactory/PublicServiceData/NoSatisfactionDistance" ModOpID="NoSatisfactionDistanceAllPalaceMallsMU">
-        <NoSatisfactionDistance>35</NoSatisfactionDistance>
-    </ModOp>
-    <ImyaExpose Path="self::NoSatisfactionDistance" ModOpID="NoSatisfactionDistanceAllPalaceMallsMU" ExposeID="Custom NoSatisfactionDistance for all Palace Malls" Description="Sets the NoSatisfactionDistance for all Palace Malls ( Mod default settings = 35 )" Kind="Slider">
+    <ImyaExpose Path="self::ProductionBuffDistance" ModOpID="ProductionBuffDistanceAllPalaceMallsMU" ExposeID="Custom ProductionBuffDistance for all Palace Malls" Description="Sets the ProductionBuffDistance for all Palace Malls ( Mod default settings = 25 )" Kind="Slider">
         <SliderDefinition Min="0" Max="100" Stepping="1" />
     </ImyaExpose>
 </ModOps>
