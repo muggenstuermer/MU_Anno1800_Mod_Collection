@@ -15,6 +15,8 @@ still in rework process,pls be patient,thx
 
 [Rockefellers_Dream_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#rockefellers_dream_mu)
 
+[Skyline_New_Era_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#skyline_new_era_mu)
+
 
 ## `Fire_Station_MU`
 
