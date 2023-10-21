@@ -1,0 +1,41 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!--
+
+-->
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  AB HIER Lagerhaus Targetpools XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <!-- add warehouses to ItemEffectTargetPool -->
+    <ModOp Type="add" GUID="193879" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337500733</GUID>
+        </Item>
+        <Item>
+            <GUID>1337500734</GUID>
+        </Item>
+        <Item>
+            <GUID>1337500735</GUID>
+        </Item>
+        <Item>
+            <GUID>1337500736</GUID>
+        </Item>
+        <Item>
+            <GUID>1337500737</GUID>
+        </Item>
+        <!-- Harbor Buildings -->
+        <Item>
+            <GUID>1337504735</GUID>
+        </Item>
+        <Item>
+            <GUID>1337504736</GUID>
+        </Item>
+        <Item>
+            <GUID>1337504737</GUID>
+        </Item>
+        <Item>
+            <GUID>1337504738</GUID>
+        </Item>
+        <Item>
+            <GUID>1337504739</GUID>
+        </Item>
+    </ModOp>
+</ModOps>

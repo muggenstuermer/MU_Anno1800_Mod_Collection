@@ -1,0 +1,278 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!--
+
+1337500387 Skyline New Era Buildmenu
+1337504808 Skyline New Era Ornament Buildmenu
+1337504771 Skyline New Era Buildmenu Harbor
+1337504809 Skyline New Era Ornament Buildmenu Harbor
+
+-->
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  AB HIER Buildmenu XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500387</GUID>
+                    <Name>Skyline New Era Buildmenu</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/icon_housemall.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337500375</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337500594</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337500696</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337500733</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>13108</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Skyline New Era Buildmenu</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504808</GUID>
+                    <Name>Skyline New Era Ornament Buildmenu</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/icon_ornament_housemall.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337504772</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504773</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504774</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504775</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504776</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504777</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504785</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504786</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504787</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504788</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504789</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504797</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504798</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504799</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504800</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504801</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>11149</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Skyline New Era Ornament Buildmenu</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  AB HIER Buildmenu Harbor XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504771</GUID>
+                    <Name>Skyline New Era Buildmenu Harbor</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/icon_housemall_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337504411</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504628</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504521</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504735</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>13108</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337500387</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Skyline New Era Buildmenu Harbor</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504809</GUID>
+                    <Name>Skyline New Era Ornament Buildmenu Harbor</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/icon_ornament_housemall_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337504778</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504779</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504780</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504781</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504782</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504783</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504791</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504792</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504793</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504794</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504795</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504803</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504804</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504805</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504806</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504807</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>11149</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337500387</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Skyline New Era Ornament Buildmenu Harbor</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  AB HIER MENÜ POSITIONIERUNG  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <ModOp Type="addNextSibling" Path="//*[self::BuildingList]/Item[Building = '135100']">
+        <Item>
+            <Building>1337500387</Building>
+        </Item>
+    </ModOp>
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  AB HIER MENÜ POSITIONIERUNG Harbor XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <!-- Add Functional Harbor Buildings Buildmenu to Constructionmenu OW -->
+    <ModOp Type="addNextSibling" GUID="25000191" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337504393' or (not(../Item/Building='1337504393'))][last()]">
+        <Item>
+            <Building>1337504771</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500092" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337504393' or (not(../Item/Building='1337504393'))][last()]">
+        <Item>
+            <Building>1337504771</Building>
+        </Item>
+    </ModOp>
+	
+    <!-- Add Ornamental Buildmenu to Ornamentsmenu-->
+    <ModOp Type="addNextSibling" GUID="1337505000" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1337502222' or (not(../Item/Building='1337502222'))][last()]">
+        <Item>
+            <Building>1337504808</Building>
+        </Item>
+    </ModOp>
+    <!-- Add Ornamental Harbor Buildmenu to Harbor Ornamentsmenu -->
+    <ModOp Type="addNextSibling" GUID="1337505018" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1337504376' or (not(../Item/Building='1337504376'))][last()]">
+        <Item>
+            <Building>1337504809</Building>
+        </Item>
+    </ModOp>
+</ModOps>

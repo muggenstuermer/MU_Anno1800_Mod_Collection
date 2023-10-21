@@ -4,7 +4,7 @@
 
 This mod adds 2 more hospitals / doctors.
 
-### The Sanatorium::
+### The Sanatorium:
 
 - Deployed forces range ( compared to the original ) : +8%.
 - Task forces ( compared to the original ) : +100% (4 units).
@@ -26,7 +26,13 @@ This mod adds 2 more hospitals / doctors.
 
 The buildings have been integrated into the original tree menu of the hospital.
 
+
+### Recommended active mods :
+
+- ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
 For the Harbor a seperated menu is created,straight after SPIU-Harborlife.
+
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
@@ -44,6 +50,7 @@ Changelog - 1.1
 ---------------------------
 Changelog - 1.2
 ---------------------------
+
 	- GU16 Bugfixing and adjustment of various values.
 	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
 	- various values can be changed by a controller.
@@ -53,16 +60,19 @@ Changelog - 1.2
 ---------------------------
 changelog - 1.22
 ---------------------------
+
 	- added missing translations of single objects
 	
 ---------------------------
 Changelog - 1.23
 ---------------------------
+
 	- GU17 modinfo.json correction.
 	
 ---------------------------
 Changelog - 1.24
 ---------------------------
+
 	- modinfo.json correction.
 
 ---------------------------

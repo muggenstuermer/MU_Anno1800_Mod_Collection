@@ -1,0 +1,1422 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!--
+
+1337504755 -Trigger
+1337504756 -Trigger
+1337504757 -Trigger
+1337504758 -Trigger
+1337504759 -Trigger
+1337504760 -Trigger
+1337504761 -Trigger
+1337504762 -Trigger
+1337504763 -Trigger
+1337504764 -Trigger
+1337504765 -Trigger
+1337504766 -Trigger
+1337504767 -Trigger
+1337504768 -Trigger
+1337504769 -Trigger
+1337504770 -Trigger
+
+
+-->
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  AB HIER DER/DIE TRIGGER  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <!-- Freischaltung Rezept Toaster -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504755</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000004</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337500375</Asset>
+                                                <!-- departmentstore blank -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504411</Asset>
+                                                <!-- departmentstore blank Harbor -->
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Rezepte Toaster/Staubsauger etc Unhide -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504756</GUID>
+                    <Name>HomeGoods_01_Unlock_Toaster</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135100</UnlockNeeded>
+                                <!-- departmentstore blank original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500375</Asset>
+                                                <!-- departmentstore blank -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500377</Asset>
+                                                <!-- toaster -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500378</Asset>
+                                                <!-- recipe toaster -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500733</Asset>
+                                                <!-- warehouse 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500734</Asset>
+                                                <!-- warehouse 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500735</Asset>
+                                                <!-- warehouse 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500736</Asset>
+                                                <!-- warehouse 4-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500737</Asset>
+                                                <!-- warehouse 5-->
+                                            </Item>
+                                            <!-- Harbor Buildings -->
+                                            <Item>
+                                                <Asset>1337504411</Asset>
+                                                <!-- departmentstore blank -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504412</Asset>
+                                                <!-- toaster -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504417</Asset>
+                                                <!-- recipe toaster -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504735</Asset>
+                                                <!-- warehouse 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504736</Asset>
+                                                <!-- warehouse 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504737</Asset>
+                                                <!-- warehouse 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504738</Asset>
+                                                <!-- warehouse 4-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504739</Asset>
+                                                <!-- warehouse 5-->
+                                            </Item>
+                                            <!-- Ornamental Mall Buildings Land + Water -->
+                                            <Item>
+                                                <Asset>1337504772</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504773</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504774</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504775</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504776</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504777</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504778</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504779</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504780</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504781</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504782</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504783</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504784</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504785</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504786</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504787</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504788</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504789</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504790</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504791</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504792</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504793</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504794</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504795</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504796</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504797</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504798</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504799</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504800</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504801</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504802</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504803</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504804</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504805</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504806</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504807</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <!--<Item>
+												<Asset>1337500375</Asset> departmentstore blank 
+											</Item>-->
+                                            <Item>
+                                                <Asset>1337500377</Asset>
+                                                <!-- toaster -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500378</Asset>
+                                                <!-- recipe toaster -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500380</Asset>
+                                                <!-- recipe cleaner -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500382</Asset>
+                                                <!-- recipe dishes -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500384</Asset>
+                                                <!-- recipe refrigirator -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500386</Asset>
+                                                <!-- recipe bag -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500594</Asset>
+                                                <!-- einrichtungshaus blank -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500696</Asset>
+                                                <!-- drogerie blank -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500733</Asset>
+                                                <!-- warehouse 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500734</Asset>
+                                                <!-- warehouse 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500735</Asset>
+                                                <!-- warehouse 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500736</Asset>
+                                                <!-- warehouse 4-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500737</Asset>
+                                                <!-- warehouse 5-->
+                                            </Item>
+                                            <!-- Harbor Buildings -->
+                                            <Item>
+                                                <Asset>1337504412</Asset>
+                                                <!-- toaster -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504417</Asset>
+                                                <!-- recipe toaster -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504418</Asset>
+                                                <!-- recipe cleaner -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504419</Asset>
+                                                <!-- recipe dishes -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504420</Asset>
+                                                <!-- recipe refrigirator -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504421</Asset>
+                                                <!-- recipe bag -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504628</Asset>
+                                                <!-- einrichtungshaus blank -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504521</Asset>
+                                                <!-- drogerie blank -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504735</Asset>
+                                                <!-- warehouse 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504736</Asset>
+                                                <!-- warehouse 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504737</Asset>
+                                                <!-- warehouse 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504738</Asset>
+                                                <!-- warehouse 4-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504739</Asset>
+                                                <!-- warehouse 5-->
+                                            </Item>
+                                            <!-- Ornamental Mall Buildings Land + Water -->
+                                            <Item>
+                                                <Asset>1337504772</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504773</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504774</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504775</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504776</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504777</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504778</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504779</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504780</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504781</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504782</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504783</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504784</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504785</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504786</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504787</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504788</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504789</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504790</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504791</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504792</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504793</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504794</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504795</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504796</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504797</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504798</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504799</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504800</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504801</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504802</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504803</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504804</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504805</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504806</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504807</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Rezept Staubsauger -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504757</GUID>
+                    <Name>HomeGoods_03_Unlock_VacuumCleaner</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135204</UnlockNeeded>
+                                <!-- recipe cleaner original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500379</Asset>
+                                                <!-- cleaner -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500380</Asset>
+                                                <!-- recipe cleaner -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504413</Asset>
+                                                <!-- cleaner Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504418</Asset>
+                                                <!-- recipe cleaner Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Rezept Geschirr -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504758</GUID>
+                    <Name>HomeGoods_02_Unlock_Tableware</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135203</UnlockNeeded>
+                                <!-- recipe dishes original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500381</Asset>
+                                                <!-- dishes -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500382</Asset>
+                                                <!-- recipe dishes -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504414</Asset>
+                                                <!-- dishes Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504419</Asset>
+                                                <!-- recipe dishes Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Rezept Kühlschränke -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504759</GUID>
+                    <Name>HomeGoods_04_Unlock_Refrigerator</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135205</UnlockNeeded>
+                                <!-- recipe refrigirator original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500383</Asset>
+                                                <!-- refrigirators -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500384</Asset>
+                                                <!-- recipe refrigirator -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504415</Asset>
+                                                <!-- refrigirators Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504420</Asset>
+                                                <!-- recipe refrigirator Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Rezept Aktenkoffer -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504760</GUID>
+                    <Name>HomeGoods_05_Unlock_Bag</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135206</UnlockNeeded>
+                                <!-- recipe bag original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500385</Asset>
+                                                <!-- bags -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500386</Asset>
+                                                <!-- recipe bag -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504416</Asset>
+                                                <!-- bags Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504421</Asset>
+                                                <!-- recipe bag Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Einrichtungshaus + Lampen -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504761</GUID>
+                    <Name>Furniture_06_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135106</UnlockNeeded>
+                                <!-- recipe Bankierslampen original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337500585</Asset>
+                                                <!-- recipe paravents -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500586</Asset>
+                                                <!-- recipe desks -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500587</Asset>
+                                                <!-- recipe bett -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500588</Asset>
+                                                <!-- recipe sofa -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504635</Asset>
+                                                <!-- recipe paravents Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504636</Asset>
+                                                <!-- recipe desks Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504637</Asset>
+                                                <!-- recipe bett Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504638</Asset>
+                                                <!-- recipe sofa Harbor -->
+                                            </Item>
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500594</Asset>
+                                                <!-- Einrichtungshaus -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500584</Asset>
+                                                <!-- recipe lamps -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500589</Asset>
+                                                <!-- Einrichtungshaus lamps -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504628</Asset>
+                                                <!-- Einrichtungshaus Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504634</Asset>
+                                                <!-- recipe lamps Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504629</Asset>
+                                                <!-- Einrichtungshaus lamps Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Paravents -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504762</GUID>
+                    <Name>Furniture_07_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135124</UnlockNeeded>
+                                <!-- recipe Paravents original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500585</Asset>
+                                                <!-- recipe paravents -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500590</Asset>
+                                                <!-- Einrichtungshaus paravents -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504635</Asset>
+                                                <!-- recipe paravents Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504630</Asset>
+                                                <!-- Einrichtungshaus paravents Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Sekretäre -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504763</GUID>
+                    <Name>Furniture_08_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135125</UnlockNeeded>
+                                <!-- recipe Sekretäre original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500586</Asset>
+                                                <!-- recipe Sekretäre -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500591</Asset>
+                                                <!-- Einrichtungshaus Sekretäre -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504636</Asset>
+                                                <!-- recipe Sekretäre Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504631</Asset>
+                                                <!-- Einrichtungshaus Sekretäre Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Betten -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504764</GUID>
+                    <Name>Furniture_09_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135126</UnlockNeeded>
+                                <!-- recipe Betten original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500587</Asset>
+                                                <!-- recipe Betten -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500592</Asset>
+                                                <!-- Einrichtungshaus Betten -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504637</Asset>
+                                                <!-- recipe Betten Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504632</Asset>
+                                                <!-- Einrichtungshaus Betten Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Sofas -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504765</GUID>
+                    <Name>Furniture_10_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135127</UnlockNeeded>
+                                <!-- recipe Sofas original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500588</Asset>
+                                                <!-- recipe Sofas -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500593</Asset>
+                                                <!-- Einrichtungshaus Sofas -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504638</Asset>
+                                                <!-- recipe Sofas Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504633</Asset>
+                                                <!-- Einrichtungshaus Sofas Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Toothpaste -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504766</GUID>
+                    <Name>Drugstore_11_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>134633</UnlockNeeded>
+                                <!-- recipe toothpaste original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500696</Asset>
+                                                <!-- Drogerie Leer -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500691</Asset>
+                                                <!-- Rezept Toothpaste -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500697</Asset>
+                                                <!-- Drogerie Toothpaste -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504521</Asset>
+                                                <!-- Drogerie Leer Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504527</Asset>
+                                                <!-- Rezept Toothpaste Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504522</Asset>
+                                                <!-- Drogerie Toothpaste Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>
+                                                    1337500692
+                                                    <!--rezept detergent -->
+                                                </Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>
+                                                    1337500693
+                                                    <!--rezept lipstick -->
+                                                </Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>
+                                                    1337500694
+                                                    <!--rezept facecream -->
+                                                </Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>
+                                                    1337500695
+                                                    <!--rezept pomade-->
+                                                </Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>
+                                                    1337504528
+                                                    <!--rezept detergent Harbor -->
+                                                </Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>
+                                                    1337504529
+                                                    <!--rezept lipstick Harbor -->
+                                                </Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>
+                                                    1337504530
+                                                    <!--rezept facecream Harbor -->
+                                                </Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>
+                                                    1337504531
+                                                    <!--rezept pomade Harbor -->
+                                                </Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Detergent -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504767</GUID>
+                    <Name>Drugstore_12_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135207</UnlockNeeded>
+                                <!-- recipe detergent original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500692</Asset>
+                                                <!-- recipe detergent -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500698</Asset>
+                                                <!-- Drogerie detergent -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504528</Asset>
+                                                <!-- recipe detergent Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504523</Asset>
+                                                <!-- Drogerie detergent Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Lipstick -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504768</GUID>
+                    <Name>Drugstore_13_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135208</UnlockNeeded>
+                                <!-- recipe lipstick original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500693</Asset>
+                                                <!-- recipe lipstick -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500699</Asset>
+                                                <!-- Drogerie lipstick -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504529</Asset>
+                                                <!-- recipe lipstick Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504524</Asset>
+                                                <!-- Drogerie lipstick Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung FaceCream -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504769</GUID>
+                    <Name>Drugstore_14_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135209</UnlockNeeded>
+                                <!-- recipe facecream original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500694</Asset>
+                                                <!-- recipe facecream -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500700</Asset>
+                                                <!-- Drogerie facecream -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504530</Asset>
+                                                <!-- recipe facecream Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504525</Asset>
+                                                <!-- Drogerie facecream Harbor-->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung Pomade -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504770</GUID>
+                    <Name>Drugstore_14_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>135210</UnlockNeeded>
+                                <!-- recipe pomade original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500695</Asset>
+                                                <!-- recipe pomade -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500701</Asset>
+                                                <!-- Drogerie pomade -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504531</Asset>
+                                                <!-- recipe pomade Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504526</Asset>
+                                                <!-- Drogerie pomade Harbor -->
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

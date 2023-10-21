@@ -24,10 +24,16 @@ This mod adds 2 more police stations.
 - Range Insurgency Reduction ( compared to original ) : -15%.
 
 
-
 The buildings have been integrated into the original building menu of the police station.
 
+
+### Recommended active mods :
+
+- ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
 For the Harbor a seperated menu is created,straight after SPIU-Harborlife.
+
+
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 

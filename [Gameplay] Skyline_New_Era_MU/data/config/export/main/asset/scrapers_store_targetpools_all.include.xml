@@ -1,0 +1,432 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!--
+
+-->
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  AB HIER Lagerhaus Targetpools XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <!-- Kaufhaus zum  ItemEffectTargetPool All Malls hinzufügen -->
+    <ModOp Type="add" GUID="194025" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <Asset>1337500375</Asset>
+            <!-- departmentstore blank -->
+        </Item>
+        <Item>
+            <Asset>1337500377</Asset>
+            <!-- departmentstore toaster -->
+        </Item>
+        <Item>
+            <Asset>1337500379</Asset>
+            <!-- departmentstore cleaner -->
+        </Item>
+        <Item>
+            <Asset>1337500381</Asset>
+            <!-- departmentstore dishes -->
+        </Item>
+        <Item>
+            <Asset>1337500383</Asset>
+            <!-- departmentstore refrigerator -->
+        </Item>
+        <Item>
+            <Asset>1337500385</Asset>
+            <!-- departmentstore bag -->
+        </Item>
+        <Item>
+            <Asset>1337500594</Asset>
+            <!-- einrichtungshaus blank -->
+        </Item>
+        <Item>
+            <Asset>1337500589</Asset>
+            <!-- Einrichtungshaus lamps -->
+        </Item>
+        <Item>
+            <Asset>1337500590</Asset>
+            <!-- Einrichtungshaus paravents -->
+        </Item>
+        <Item>
+            <Asset>1337500591</Asset>
+            <!-- Einrichtungshaus Sekretäre -->
+        </Item>
+        <Item>
+            <Asset>1337500592</Asset>
+            <!-- Einrichtungshaus Betten -->
+        </Item>
+        <Item>
+            <Asset>1337500593</Asset>
+            <!-- Einrichtungshaus Sofas -->
+        </Item>
+        <Item>
+            <Asset>1337500696</Asset>
+            <!-- drogerie blank -->
+        </Item>
+        <Item>
+            <Asset>1337500697</Asset>
+            <!-- drogerie toothpaste -->
+        </Item>
+        <Item>
+            <Asset>1337500698</Asset>
+            <!-- drogerie detergent -->
+        </Item>
+        <Item>
+            <Asset>1337500699</Asset>
+            <!-- drogerie lipstick -->
+        </Item>
+        <Item>
+            <Asset>1337500700</Asset>
+            <!-- drogerie facecream -->
+        </Item>
+        <Item>
+            <Asset>1337500701</Asset>
+            <!-- drogerie pomade -->
+        </Item>
+        <!-- Harbor Buildings -->
+        <Item>
+            <Asset>1337504411</Asset>
+            <!-- departmentstore blank -->
+        </Item>
+        <Item>
+            <Asset>1337504412</Asset>
+            <!-- departmentstore toaster -->
+        </Item>
+        <Item>
+            <Asset>1337504413</Asset>
+            <!-- departmentstore cleaner -->
+        </Item>
+        <Item>
+            <Asset>1337504414</Asset>
+            <!-- departmentstore dishes -->
+        </Item>
+        <Item>
+            <Asset>1337504415</Asset>
+            <!-- departmentstore refrigerator -->
+        </Item>
+        <Item>
+            <Asset>1337504416</Asset>
+            <!-- departmentstore bag -->
+        </Item>
+        <Item>
+            <Asset>1337504628</Asset>
+            <!-- einrichtungshaus blank -->
+        </Item>
+        <Item>
+            <Asset>1337504629</Asset>
+            <!-- Einrichtungshaus lamps -->
+        </Item>
+        <Item>
+            <Asset>1337504630</Asset>
+            <!-- Einrichtungshaus paravents -->
+        </Item>
+        <Item>
+            <Asset>1337504631</Asset>
+            <!-- Einrichtungshaus Sekretäre -->
+        </Item>
+        <Item>
+            <Asset>1337504632</Asset>
+            <!-- Einrichtungshaus Betten -->
+        </Item>
+        <Item>
+            <Asset>1337504633</Asset>
+            <!-- Einrichtungshaus Sofas -->
+        </Item>
+        <Item>
+            <Asset>1337504521</Asset>
+            <!-- drogerie blank -->
+        </Item>
+        <Item>
+            <Asset>1337504522</Asset>
+            <!-- drogerie toothpaste -->
+        </Item>
+        <Item>
+            <Asset>1337504523</Asset>
+            <!-- drogerie detergent -->
+        </Item>
+        <Item>
+            <Asset>1337504524</Asset>
+            <!-- drogerie lipstick -->
+        </Item>
+        <Item>
+            <Asset>1337504525</Asset>
+            <!-- drogerie facecream -->
+        </Item>
+        <Item>
+            <Asset>1337504526</Asset>
+            <!-- drogerie pomade -->
+        </Item>
+    </ModOp>
+    <!-- Kaufhaus zum FeedbackBuildingGroup Malls hinzufügen -->
+    <ModOp Type="add" GUID="143015" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1337500377</Building>
+            <!-- toaster -->
+        </Item>
+        <Item>
+            <Building>1337500379</Building>
+            <!-- cleaner -->
+        </Item>
+        <Item>
+            <Building>1337500381</Building>
+            <!-- dishes -->
+        </Item>
+        <Item>
+            <Building>1337500383</Building>
+            <!-- refrigirators -->
+        </Item>
+        <Item>
+            <Building>1337500385</Building>
+            <!-- bags -->
+        </Item>
+        <Item>
+            <Building>1337500589</Building>
+            <!-- Einrichtungshaus lamps -->
+        </Item>
+        <Item>
+            <Building>1337500590</Building>
+            <!-- Einrichtungshaus paravents -->
+        </Item>
+        <Item>
+            <Building>1337500591</Building>
+            <!-- Einrichtungshaus Sekretäre -->
+        </Item>
+        <Item>
+            <Building>1337500592</Building>
+            <!-- Einrichtungshaus Betten -->
+        </Item>
+        <Item>
+            <Building>1337500593</Building>
+            <!-- Einrichtungshaus Sofas -->
+        </Item>
+        <Item>
+            <Building>1337500697</Building>
+            <!-- drogerie toothpaste -->
+        </Item>
+        <Item>
+            <Building>1337500698</Building>
+            <!-- drogerie detergent -->
+        </Item>
+        <Item>
+            <Building>1337500699</Building>
+            <!-- drogerie lipstick -->
+        </Item>
+        <Item>
+            <Building>1337500700</Building>
+            <!-- drogerie facecream -->
+        </Item>
+        <Item>
+            <Building>1337500701</Building>
+            <!-- drogerie pomade -->
+        </Item>
+        <!-- Harbor Buildings -->
+        <Item>
+            <Building>1337504412</Building>
+            <!-- toaster -->
+        </Item>
+        <Item>
+            <Building>1337504413</Building>
+            <!-- cleaner -->
+        </Item>
+        <Item>
+            <Building>1337504414</Building>
+            <!-- dishes -->
+        </Item>
+        <Item>
+            <Building>1337504415</Building>
+            <!-- refrigirators -->
+        </Item>
+        <Item>
+            <Building>1337504416</Building>
+            <!-- bags -->
+        </Item>
+        <Item>
+            <Building>1337504629</Building>
+            <!-- Einrichtungshaus lamps -->
+        </Item>
+        <Item>
+            <Building>1337504630</Building>
+            <!-- Einrichtungshaus paravents -->
+        </Item>
+        <Item>
+            <Building>1337504631</Building>
+            <!-- Einrichtungshaus Sekretäre -->
+        </Item>
+        <Item>
+            <Building>1337504632</Building>
+            <!-- Einrichtungshaus Betten -->
+        </Item>
+        <Item>
+            <Building>1337504633</Building>
+            <!-- Einrichtungshaus Sofas -->
+        </Item>
+        <Item>
+            <Building>1337504522</Building>
+            <!-- drogerie toothpaste -->
+        </Item>
+        <Item>
+            <Building>1337504523</Building>
+            <!-- drogerie detergent -->
+        </Item>
+        <Item>
+            <Building>1337504524</Building>
+            <!-- drogerie lipstick -->
+        </Item>
+        <Item>
+            <Building>1337504525</Building>
+            <!-- drogerie facecream -->
+        </Item>
+        <Item>
+            <Building>1337504526</Building>
+            <!-- drogerie pomade -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="135729" Path="/Values/PlayerCounterContextPool/Contexts">
+        <Item>
+            <Asset>1337500375</Asset>
+            <!-- departmentstore blank -->
+        </Item>
+        <Item>
+            <Asset>1337500377</Asset>
+            <!-- departmentstore toaster -->
+        </Item>
+        <Item>
+            <Asset>1337500379</Asset>
+            <!-- departmentstore cleaner -->
+        </Item>
+        <Item>
+            <Asset>1337500381</Asset>
+            <!-- departmentstore dishes -->
+        </Item>
+        <Item>
+            <Asset>1337500383</Asset>
+            <!-- departmentstore refrigerator -->
+        </Item>
+        <Item>
+            <Asset>1337500385</Asset>
+            <!-- departmentstore bag -->
+        </Item>
+        <!-- Harbor Buildings -->
+        <Item>
+            <Asset>1337504411</Asset>
+            <!-- departmentstore blank -->
+        </Item>
+        <Item>
+            <Asset>1337504412</Asset>
+            <!-- departmentstore toaster -->
+        </Item>
+        <Item>
+            <Asset>1337504413</Asset>
+            <!-- departmentstore cleaner -->
+        </Item>
+        <Item>
+            <Asset>1337504414</Asset>
+            <!-- departmentstore dishes -->
+        </Item>
+        <Item>
+            <Asset>1337504415</Asset>
+            <!-- departmentstore refrigerator -->
+        </Item>
+        <Item>
+            <Asset>1337504416</Asset>
+            <!-- departmentstore bag -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="135730" Path="/Values/PlayerCounterContextPool/Contexts">
+        <Item>
+            <Asset>1337500594</Asset>
+            <!-- einrichtungshaus blank -->
+        </Item>
+        <Item>
+            <Asset>1337500589</Asset>
+            <!-- Einrichtungshaus lamps -->
+        </Item>
+        <Item>
+            <Asset>1337500590</Asset>
+            <!-- Einrichtungshaus paravents -->
+        </Item>
+        <Item>
+            <Asset>1337500591</Asset>
+            <!-- Einrichtungshaus Sekretäre -->
+        </Item>
+        <Item>
+            <Asset>1337500592</Asset>
+            <!-- Einrichtungshaus Betten -->
+        </Item>
+        <Item>
+            <Asset>1337500593</Asset>
+            <!-- Einrichtungshaus Sofas -->
+        </Item>
+        <!-- Harbor Buildings -->
+        <Item>
+            <Asset>1337504628</Asset>
+            <!-- einrichtungshaus blank -->
+        </Item>
+        <Item>
+            <Asset>1337504629</Asset>
+            <!-- Einrichtungshaus lamps -->
+        </Item>
+        <Item>
+            <Asset>1337504630</Asset>
+            <!-- Einrichtungshaus paravents -->
+        </Item>
+        <Item>
+            <Asset>1337504631</Asset>
+            <!-- Einrichtungshaus Sekretäre -->
+        </Item>
+        <Item>
+            <Asset>1337504632</Asset>
+            <!-- Einrichtungshaus Betten -->
+        </Item>
+        <Item>
+            <Asset>1337504633</Asset>
+            <!-- Einrichtungshaus Sofas -->
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="135731" Path="/Values/PlayerCounterContextPool/Contexts">
+        <Item>
+            <Asset>1337500696</Asset>
+            <!-- drogerie blank -->
+        </Item>
+        <Item>
+            <Asset>1337500697</Asset>
+            <!-- drogerie toothpaste -->
+        </Item>
+        <Item>
+            <Asset>1337500698</Asset>
+            <!-- drogerie detergent -->
+        </Item>
+        <Item>
+            <Asset>1337500699</Asset>
+            <!-- drogerie lipstick -->
+        </Item>
+        <Item>
+            <Asset>1337500700</Asset>
+            <!-- drogerie facecream -->
+        </Item>
+        <Item>
+            <Asset>1337500701</Asset>
+            <!-- drogerie pomade -->
+        </Item>
+        <!-- Harbor Buildings -->
+        <Item>
+            <Asset>1337504521</Asset>
+            <!-- drogerie blank -->
+        </Item>
+        <Item>
+            <Asset>1337504522</Asset>
+            <!-- drogerie toothpaste -->
+        </Item>
+        <Item>
+            <Asset>1337504523</Asset>
+            <!-- drogerie detergent -->
+        </Item>
+        <Item>
+            <Asset>1337504524</Asset>
+            <!-- drogerie lipstick -->
+        </Item>
+        <Item>
+            <Asset>1337504525</Asset>
+            <!-- drogerie facecream -->
+        </Item>
+        <Item>
+            <Asset>1337504526</Asset>
+            <!-- drogerie pomade -->
+        </Item>
+    </ModOp>
+</ModOps>
