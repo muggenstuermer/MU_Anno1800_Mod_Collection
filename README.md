@@ -289,7 +289,7 @@ For technical reasons, changing the skins of the skyscrapers is only possible as
 
 They always follow this pattern in the order:
 
-- first: Original building ( no matter what height and composition ).
+- first : Original building ( no matter what height and composition ).
 - second : "Brick" skin.
 - third : "Nightlife" skin.
 - last : "Colourful" skin.
