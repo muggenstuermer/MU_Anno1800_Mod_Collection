@@ -3,7 +3,7 @@
     <ImyaTweaks Title="Change the Supply Range of all House Malls." Description="You can Increase or Decrease the Ranges of all House Malls on Land and Water" />
     
 	<!-- Change ProductionBuffDistance of all House Malls  -->
-    <ModOp Type="replace" GUID="1337500375,1337500377,1337500379,1337500381,1337500383,1337500385,1337504411,1337504412,1337504413,1337504414,1337504415,1337504416,1337500696,1337500697,1337500698,1337500699,1337500700,1337500701,1337504521,1337504522,1337504523,1337504524,1337504525,1337504526,1337500594,1337500589,1337500590,1337500591,1337500592,1337500593,1337504628,1337504629,1337504630,1337504631,1337504632,1337504633" Path="/Values/BuffFactory/ProductionBuffDistance" ModOpID="ProductionBuffDistanceAllHouseMallsMU">
+    <ModOp Type="replace" GUID="1337500377,1337500379,1337500381,1337500383,1337500385,1337504412,1337504413,1337504414,1337504415,1337504416,1337500697,1337500698,1337500699,1337500700,1337500701,1337504522,1337504523,1337504524,1337504525,1337504526,1337500589,1337500590,1337500591,1337500592,1337500593,1337504629,1337504630,1337504631,1337504632,1337504633" Path="/Values/BuffFactory/ProductionBuffDistance" ModOpID="ProductionBuffDistanceAllHouseMallsMU">
         <ProductionBuffDistance>25</ProductionBuffDistance>
     </ModOp>
     <ImyaExpose Path="self::ProductionBuffDistance" ModOpID="ProductionBuffDistanceAllHouseMallsMU" ExposeID="Custom ProductionBuffDistance for all House Malls" Description="Sets the ProductionBuffDistance for all House Malls ( Mod default settings = 25 )" Kind="Slider">
