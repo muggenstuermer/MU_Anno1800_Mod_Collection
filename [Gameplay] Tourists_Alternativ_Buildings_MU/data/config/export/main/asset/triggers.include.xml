@@ -1,0 +1,125 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!-- ID's used for THIS MOD :   1337500352 to 1337500361 + 1337504810 to 1337504836 (free: 1337500357,1337500358) -->
+    <!-- InternalID's are used for this mod : none -->
+    <!--
+
+1337504835 - Trigger with 500 Engineers
+1337504836 - Trigger with 1 Tourist Mooring
+
+-->
+    <!-- Freischaltung / Trigger -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504835</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000003</Context>
+                                <CounterAmount>500</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets />
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337500355</Asset>
+                                                <!-- Baumenü Bahnhof -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500352</Asset>
+                                                <!-- Old Trainstation as Warehouse -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500354</Asset>
+                                                <!-- Triumphal Arch Double -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500360</Asset>
+                                                <!-- Triumphal Arch Single -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504818</Asset>
+                                                <!-- Baumenü Bus Stations -->
+                                            </Item>
+                                        </UnhideAssets>
+                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Freischaltung / Trigger -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504836</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <Context>133890</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500352</Asset>
+                                                <!-- Old Trainstation as Warehouse -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500354</Asset>
+                                                <!-- Triumphal Arch Double -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500360</Asset>
+                                                <!-- Triumphal Arch Single -->
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets />
+                                        <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2024-09-27 15:32:31 -->

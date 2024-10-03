@@ -17,6 +17,8 @@ still in rework process,pls be patient,thx
 
 [Skyline_New_Era_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#skyline_new_era_mu)
 
+[Tourists_Alternativ_Buildings_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#tourists_alternativ_buildings_mu)
+
 
 ## `Fire_Station_MU`
 
@@ -343,6 +345,58 @@ The functional buildmenus will follow Harborlife
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 [Download latest Skyline_New_Era_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+
+# Tourists_Alternativ_Buildings_MU
+
+![](./doc/tourists_banner.jpg)
+
+This mod adds alternative skins for the hotel ,bar and café.
+
+It also provides new bus stops and a pedestrian overpass with a spiral staircase.
+
+Furthermore, it adds a historic railway station, "Historic Station Warehouse", which takes over the function of a warehouse to improve the townscape a bit.
+
+And there are also 2 sort of passages.
+
+
+### Historic Station Warehouse Buff:
+
+- max. +105 more tourists
+- each +15 more through:
+	- Tourist harbour
+	- Restaurants
+	- Variety
+	- Café
+	- Bar
+	- Jam
+	- Shampoo
+	
+- Bars / restaurants / cafés / all shopping arcades / all chemical factories :
+	- +15% higher production
+	- -25% labour force
+
+### Historic Station Warehouse Building:
+
+- at the sides there is space for 3 rail entrances and exits (or roads, as you like)
+- in the middle of each of the main entrances for a street (or whatever you prefer)
+
+### Passages :
+
+- one for double roads
+- one for single streets
+
+
+
+### Necessary active mods :
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Tourists_Alternativ_Buildings_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
 
 
