@@ -343,6 +343,13 @@
 		<CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
     </ModOp>
 	
+	<!-- Original Kaistrasse mit neuer Textur wie kai OW
+	<ModOp Type="merge" GUID='601443' Path="/Values">
+		<Street>
+			<CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
+		</Street>
+    </ModOp> -->
+	
 	<!-- Original Kaistrasse mit neuer Textur wie kai NW -->
 	<ModOp Type="merge" GUID='131865' Path="/Values/Street/CfgFileName">
 		<CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_nw/quay_system_01.cfg</CfgFileName>

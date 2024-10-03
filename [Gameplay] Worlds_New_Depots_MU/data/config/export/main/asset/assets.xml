@@ -2,8 +2,7 @@
   <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
   <!-- ID's are used for this mod: 1337500738 to 1337500809 -->
   <!-- InternalID's are used for this mod : none -->
-  
-<!--
+  <!--
 1337500801 - Dockland - Main Arctic
 1337500801 - PierArctic
 1337500803 - ExportOfficeArctic
@@ -331,8 +330,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Text>
         <UpgradeList />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Culture />
         <AmbientMoodProvider>
           <Murmur>Harbor</Murmur>
@@ -666,13 +665,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         <Locked />
         <SoundEmitter />
         <Infolayer />
-		<BuildingModule>
-			<PlazaSize>1</PlazaSize>
-			<ModuleType>DocklandModulePier</ModuleType>
-		</BuildingModule>
+        <BuildingModule>
+          <PlazaSize>1</PlazaSize>
+          <ModuleType>DocklandModulePier</ModuleType>
+        </BuildingModule>
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <LoadingPier>
           <NumOfPiers>1</NumOfPiers>
           <LoadingSpeed>3</LoadingSpeed>
@@ -683,7 +682,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         <AmbientMoodProvider />
         <UpgradeList />
         <Attackable />
-		<StorageBase />
+        <StorageBase />
         <Pausable />
         <Culture />
         <Maintenance />
@@ -874,12 +873,12 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         <Locked />
         <SoundEmitter />
         <Infolayer />
-		<BuildingModule>
-			<PlazaSize>1</PlazaSize>
-		</BuildingModule>
+        <BuildingModule>
+          <PlazaSize>1</PlazaSize>
+        </BuildingModule>
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <AmbientMoodProvider />
         <UpgradeList />
         <Attackable />
@@ -1074,8 +1073,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         <SoundEmitter />
         <Infolayer />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <LogisticNode />
         <AmbientMoodProvider />
         <UpgradeList />
@@ -1250,8 +1249,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Building>
         <Cost />
         <Mesh>
-			<ChangeGUIDEffectDuration>0</ChangeGUIDEffectDuration>
-		</Mesh>
+          <ChangeGUIDEffectDuration>0</ChangeGUIDEffectDuration>
+        </Mesh>
         <Object>
           <Variations>
             <Item>
@@ -1273,21 +1272,21 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         <Constructable />
         <Locked />
         <SoundEmitter />
-		<FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Infolayer />
-		<BuildingModule>
-			<PlazaSize>1</PlazaSize>
-		</BuildingModule>
-		<Attackable />
-		<AmbientMoodProvider />
-		<Culture />
-		<Pausable />
-		<RepairCrane />
-		<DelayedConstruction />
-		<Maintenance />
-		<UpgradeList />
+        <BuildingModule>
+          <PlazaSize>1</PlazaSize>
+        </BuildingModule>
+        <Attackable />
+        <AmbientMoodProvider />
+        <Culture />
+        <Pausable />
+        <RepairCrane />
+        <DelayedConstruction />
+        <Maintenance />
+        <UpgradeList />
       </Values>
     </Asset>
   </ModOp>
@@ -1475,10 +1474,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         <Locked />
         <SoundEmitter />
         <Infolayer />
-		<BuildingModule />
+        <BuildingModule />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <AmbientMoodProvider />
         <UpgradeList />
         <Attackable />
@@ -1672,16 +1671,16 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         <Locked />
         <SoundEmitter />
         <Infolayer />
-		<BuildingModule />
+        <BuildingModule />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <AmbientMoodProvider />
         <UpgradeList />
         <Attackable />
         <Pausable />
         <Culture />
-		<LogisticNode />
+        <LogisticNode />
         <Maintenance />
       </Values>
     </Asset>
@@ -1752,15 +1751,15 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
             </Item>
           </Variations>
         </Object>
-       <Selection />
+        <Selection />
         <Text />
         <Constructable />
         <Locked />
         <SoundEmitter />
         <Infolayer />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <LogisticNode />
         <AmbientMoodProvider />
         <UpgradeList />
@@ -1770,7 +1769,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
             <StorageMax>75</StorageMax>
           </WarehouseStorage>
         </Warehouse>
-		<StorageBase />
+        <StorageBase />
         <Pausable />
         <Culture />
         <Maintenance />
@@ -2427,8 +2426,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         <Text />
       </Values>
     </Asset>
-  <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Dockland Depot Buildings START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
-  <!-- Depot LvL 0-->
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Dockland Depot Buildings START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <!-- Depot LvL 0-->
     <Asset>
       <Template>LandDepotMu</Template>
       <Values>
@@ -3934,8 +3933,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -4029,8 +4028,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -4128,8 +4127,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -4227,8 +4226,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -7475,8 +7474,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -7557,8 +7556,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -7643,8 +7642,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -7729,8 +7728,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -7815,8 +7814,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -7897,8 +7896,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -7983,8 +7982,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -8069,8 +8068,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -8155,8 +8154,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -8237,8 +8236,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -8323,8 +8322,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -8409,8 +8408,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         </Object>
         <Constructable />
         <FeedbackController>
-			<NightBehavior>HideNone</NightBehavior>
-		</FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
         <Warehouse>
           <WarehouseStorage>
             <StorageMax>0</StorageMax>
@@ -8445,7 +8444,6 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
       </Values>
     </Asset>
   </ModOp>
- 
   <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Adding GUID to the Target pools START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
   <ModOp Type="add" GUID="193879" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
     <Item>
@@ -9006,25 +9004,25 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     <Item>
       <Building>1337500801</Building>
     </Item>
-	<Item>
+    <Item>
       <Building>1337500802</Building>
     </Item>
-	<Item>
+    <Item>
       <Building>1337500803</Building>
     </Item>
-	<Item>
+    <Item>
       <Building>1337500804</Building>
     </Item>
-	<Item>
+    <Item>
       <Building>1337500805</Building>
     </Item>
-	<Item>
+    <Item>
       <Building>1337500806</Building>
     </Item>
-	<Item>
+    <Item>
       <Building>1337500807</Building>
     </Item>
-	<Item>
+    <Item>
       <Building>1337500808</Building>
     </Item>
   </ModOp>
@@ -9422,39 +9420,34 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
       </Values>
     </Asset>
   </ModOp>
-   <!-- DocklandMainArctic --> 
-  <ModOp GUID="1337500801" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DocklandMainArctic">
+  <!-- DocklandMainArctic -->
+  <ModOp GUID="1337500801" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DocklandMainArctic" Skip="1">
     <StorageMax>100</StorageMax>
   </ModOp>
-  
-   <ImyaExpose Path="self::StorageMax" ModOpID="DocklandMainArctic" ExposeID="DocklandMainArcticStorage" Description="The Arctic Dockland Mainbuildings max Storage" Kind="Slider">
+  <ImyaExpose Path="self::StorageMax" ModOpID="DocklandMainArctic" ExposeID="DocklandMainArcticStorage" Description="The Arctic Dockland Mainbuildings max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="5000" Stepping="10" />
   </ImyaExpose>
-  
   <!-- DocklandArchDepot -->
-  <ModOp GUID="1337500808" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DocklandArchDepot">
+  <ModOp GUID="1337500808" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DocklandArchDepot" Skip="1">
     <StorageMax>75</StorageMax>
   </ModOp>
-  
-   <ImyaExpose Path="self::StorageMax" ModOpID="DocklandArchDepot" ExposeID="DocklandArchDepotStorage" Description="The Arctic Dockland Arch Depot max Storage" Kind="Slider">
+  <ImyaExpose Path="self::StorageMax" ModOpID="DocklandArchDepot" ExposeID="DocklandArchDepotStorage" Description="The Arctic Dockland Arch Depot max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="1000" Stepping="5" />
   </ImyaExpose>
-  
   <!-- Depots OW -->
-   <ModOp GUID="1337500738" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DepotLvL0">
+  <ModOp GUID="1337500738" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DepotLvL0" Skip="1">
     <StorageMax>30</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500739" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DepotLvL1">
+  <ModOp GUID="1337500739" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DepotLvL1" Skip="1">
     <StorageMax>65</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500740" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DepotLvL2">
+  <ModOp GUID="1337500740" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DepotLvL2" Skip="1">
     <StorageMax>105</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500741" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DepotLvL3">
+  <ModOp GUID="1337500741" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="DepotLvL3" Skip="1">
     <StorageMax>150</StorageMax>
   </ModOp>
-  
-   <ImyaExpose Path="self::StorageMax" ModOpID="DepotLvL0" ExposeID="DepotLvL0Storage" Description="The Depot LvL 1 max Storage" Kind="Slider">
+  <ImyaExpose Path="self::StorageMax" ModOpID="DepotLvL0" ExposeID="DepotLvL0Storage" Description="The Depot LvL 1 max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="1000" Stepping="5" />
   </ImyaExpose>
   <ImyaExpose Path="self::StorageMax" ModOpID="DepotLvL1" ExposeID="DepotLvL1Storage" Description="The Depot LvL 2 max Storage" Kind="Slider">
@@ -9466,22 +9459,20 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   <ImyaExpose Path="self::StorageMax" ModOpID="DepotLvL3" ExposeID="DepotLvL3Storage" Description="The Depot LvL 4 max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="1000" Stepping="5" />
   </ImyaExpose>
-  
   <!-- Depots NW -->
-  <ModOp GUID="1337500770" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="NWDepotLvL0">
+  <ModOp GUID="1337500770" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="NWDepotLvL0" Skip="1">
     <StorageMax>30</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500771" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="NWDepotLvL1">
+  <ModOp GUID="1337500771" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="NWDepotLvL1" Skip="1">
     <StorageMax>65</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500772" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="NWDepotLvL2">
+  <ModOp GUID="1337500772" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="NWDepotLvL2" Skip="1">
     <StorageMax>105</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500773" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="NWDepotLvL3">
+  <ModOp GUID="1337500773" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="NWDepotLvL3" Skip="1">
     <StorageMax>150</StorageMax>
   </ModOp>
-  
-   <ImyaExpose Path="self::StorageMax" ModOpID="NWDepotLvL0" ExposeID="NWDepotLvL0Storage" Description="The NW Depot LvL 1 max Storage" Kind="Slider">
+  <ImyaExpose Path="self::StorageMax" ModOpID="NWDepotLvL0" ExposeID="NWDepotLvL0Storage" Description="The NW Depot LvL 1 max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="1000" Stepping="5" />
   </ImyaExpose>
   <ImyaExpose Path="self::StorageMax" ModOpID="NWDepotLvL1" ExposeID="NWDepotLvL1Storage" Description="The NW Depot LvL 2 max Storage" Kind="Slider">
@@ -9493,22 +9484,20 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   <ImyaExpose Path="self::StorageMax" ModOpID="NWDepotLvL3" ExposeID="NWDepotLvL3Storage" Description="The NW Depot LvL 4 max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="1000" Stepping="5" />
   </ImyaExpose>
-  
   <!-- Depots AFRICA -->
-  <ModOp GUID="1337500774" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AFRICADepotLvL0">
+  <ModOp GUID="1337500774" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AFRICADepotLvL0" Skip="1">
     <StorageMax>30</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500775" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AFRICADepotLvL1">
+  <ModOp GUID="1337500775" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AFRICADepotLvL1" Skip="1">
     <StorageMax>65</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500776" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AFRICADepotLvL2">
+  <ModOp GUID="1337500776" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AFRICADepotLvL2" Skip="1">
     <StorageMax>105</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500777" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AFRICADepotLvL3">
+  <ModOp GUID="1337500777" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AFRICADepotLvL3" Skip="1">
     <StorageMax>150</StorageMax>
   </ModOp>
-  
-   <ImyaExpose Path="self::StorageMax" ModOpID="AFRICADepotLvL0" ExposeID="AFRICADepotLvL0Storage" Description="The AFRICA Depot LvL 1 max Storage" Kind="Slider">
+  <ImyaExpose Path="self::StorageMax" ModOpID="AFRICADepotLvL0" ExposeID="AFRICADepotLvL0Storage" Description="The AFRICA Depot LvL 1 max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="1000" Stepping="5" />
   </ImyaExpose>
   <ImyaExpose Path="self::StorageMax" ModOpID="AFRICADepotLvL1" ExposeID="AFRICADepotLvL1Storage" Description="The AFRICA Depot LvL 2 max Storage" Kind="Slider">
@@ -9520,22 +9509,20 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   <ImyaExpose Path="self::StorageMax" ModOpID="AFRICADepotLvL3" ExposeID="AFRICADepotLvL3Storage" Description="The AFRICA Depot LvL 4 max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="1000" Stepping="5" />
   </ImyaExpose>
-  
   <!-- Depots ARCTIC -->
-  <ModOp GUID="1337500790" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="ARCTICDepotLvL0">
+  <ModOp GUID="1337500790" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="ARCTICDepotLvL0" Skip="1">
     <StorageMax>30</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500791" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="ARCTICDepotLvL1">
+  <ModOp GUID="1337500791" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="ARCTICDepotLvL1" Skip="1">
     <StorageMax>65</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500792" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="ARCTICDepotLvL2">
+  <ModOp GUID="1337500792" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="ARCTICDepotLvL2" Skip="1">
     <StorageMax>105</StorageMax>
   </ModOp>
-  <ModOp GUID="1337500793" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="ARCTICDepotLvL3">
+  <ModOp GUID="1337500793" Type="replace" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="ARCTICDepotLvL3" Skip="1">
     <StorageMax>150</StorageMax>
   </ModOp>
-  
-   <ImyaExpose Path="self::StorageMax" ModOpID="ARCTICDepotLvL0" ExposeID="ARCTICDepotLvL0Storage" Description="The ARCTIC Depot LvL 1 max Storage" Kind="Slider">
+  <ImyaExpose Path="self::StorageMax" ModOpID="ARCTICDepotLvL0" ExposeID="ARCTICDepotLvL0Storage" Description="The ARCTIC Depot LvL 1 max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="1000" Stepping="5" />
   </ImyaExpose>
   <ImyaExpose Path="self::StorageMax" ModOpID="ARCTICDepotLvL1" ExposeID="ARCTICDepotLvL1Storage" Description="The ARCTIC Depot LvL 2 max Storage" Kind="Slider">
@@ -9547,4 +9534,5 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   <ImyaExpose Path="self::StorageMax" ModOpID="ARCTICDepotLvL3" ExposeID="ARCTICDepotLvL3Storage" Description="The ARCTIC Depot LvL 4 max Storage" Kind="Slider">
     <SliderDefinition Min="0" Max="1000" Stepping="5" />
   </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
 </ModOps>

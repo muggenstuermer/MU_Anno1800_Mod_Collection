@@ -28,6 +28,10 @@ xxxxxxxxxxxxxxxxxxxxx
 1337502906 Original Traditioneller Weg Kopie
 1337502907 Original Traditionelles Terracotta-Pflaster Kopie
 
+Decals ALL update 1.4
+xxxxxxxxxxxxxxxxxxxxx
+1337502932 Agriculture Field
+
 
 Decals OW
 xxxxxxxxx
@@ -92,7 +96,7 @@ Decals AFRICA update 1.1
 xxxxxxxxxxxxxxxxxxxxx
 1337502785 Grass
 
-1337502907 Trigger
+1337502933 Trigger
 
 -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -2107,8 +2111,75 @@ xxxxxxxxxxxxxxxxxxxxx
 					<Locked />
 					<FeedbackController />
 					<Ornament>
-						<OrnamentUnit>1</OrnamentUnit>
+						<!--<OrnamentUnit>1</OrnamentUnit>-->
 						<OrnamentDescription>20891</OrnamentDescription>
+					</Ornament>
+					<AmbientMoodProvider />
+					<Pausable />
+					<Infolayer />
+					<Culture />
+				</Values>
+			</Asset>
+		</ModOp>
+		
+		<!-- Agriculture Field -->
+		<ModOp Type="addNextSibling" GUID='1010035'>
+			<Asset>
+				<Template>OrnamentalBuilding</Template>
+				<Values>
+					<Standard>
+						<GUID>1337502932</GUID>
+						<Name>Muddy_Field</Name>
+						<IconFilename>data/ui/2kimages/main/3dicons/ow_plaza_decals/muddy_field.png</IconFilename>
+					</Standard>
+					 <Blocking>
+						<HidePropsRadius>0</HidePropsRadius>
+						<DeletePropsRadius>0</DeletePropsRadius>
+						<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+						<BlocksBuilding>0</BlocksBuilding>
+					</Blocking>
+					<Building>
+						<BuildingCategoryName>11149</BuildingCategoryName>
+						<SecondPartyRelevant>0</SecondPartyRelevant>
+						<BuildModeStartVariation>0</BuildModeStartVariation>
+						<BuildModeRandomRotation>90</BuildModeRandomRotation>
+						<PickingAsset>1337502932</PickingAsset>
+						<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					</Building>
+					<Cost>
+						<Costs>
+							<Item>
+								<Ingredient>1010017</Ingredient>
+								<Amount>25</Amount>
+							</Item>
+						</Costs>
+					</Cost>
+					<Selection>
+						<Colors>
+							<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+						</Colors>
+					</Selection>
+					<Object>
+						<Variations>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\agriculture_field\agriculture_field_v01.cfg</Filename>
+							</Item>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\agriculture_field\agriculture_field_v02.cfg</Filename>
+							</Item>
+							<Item>
+								<Filename>data\modgraphics\buildings\ornamental\pavement\agriculture_field\agriculture_field_v03.cfg</Filename>
+							</Item>
+						</Variations>
+					</Object>
+					<Constructable />
+					<Mesh />
+					<SoundEmitter />
+					<Locked />
+					<FeedbackController />
+					<Ornament>
+						<OrnamentUnit>1</OrnamentUnit>
+						<OrnamentDescription>20889</OrnamentDescription>
 					</Ornament>
 					<AmbientMoodProvider />
 					<Pausable />
@@ -5242,6 +5313,9 @@ xxxxxxxxxxxxxxxxxxxxx
 		<Item>
 			<Building>1337502907</Building><!-- Original Traditionelles Terracotta-Pflaster Kopie -->
 		</Item>
+		<Item>
+			<Building>1337502932</Building><!-- Agriculture Field -->
+		</Item>
 
 	</ModOp>
 	
@@ -5334,6 +5408,9 @@ xxxxxxxxxxxxxxxxxxxxx
 		</Item>
 		<Item>
 			<Building>1337502907</Building><!-- Original Traditionelles Terracotta-Pflaster Kopie -->
+		</Item>
+		<Item>
+			<Building>1337502932</Building><!-- Agriculture Field -->
 		</Item>
 		
 	</ModOp>
@@ -5448,6 +5525,9 @@ xxxxxxxxxxxxxxxxxxxxx
 		<Item>
 			<Building>1337502785</Building><!-- Original Gras Kopie AFRICA -->
 		</Item>
+		<Item>
+			<Building>1337502932</Building><!-- Agriculture Field -->
+		</Item>
 	</ModOp>
 	
 	<ModOp Type="add" GUID='1337502909' Path="/Values/ConstructionCategory/BuildingList">
@@ -5476,7 +5556,7 @@ xxxxxxxxxxxxxxxxxxxxx
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502908</GUID>
+					<GUID>1337502933</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -5689,6 +5769,10 @@ xxxxxxxxxxxxxxxxxxxxx
 												<Asset>1337502907</Asset>
 											</Item>
 											
+											<Item>
+												<Asset>1337502932</Asset>
+											</Item>
+											
 										</UnlockAssets>
 										<UnhideAssets>
 											<Item>
@@ -5875,6 +5959,10 @@ xxxxxxxxxxxxxxxxxxxxx
 											</Item>
 											<Item>
 												<Asset>1337502907</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337502932</Asset>
 											</Item>
 											
 										</UnhideAssets>

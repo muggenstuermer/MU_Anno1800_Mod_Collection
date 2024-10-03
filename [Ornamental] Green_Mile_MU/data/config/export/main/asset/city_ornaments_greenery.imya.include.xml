@@ -1,28 +1,26 @@
 <ModOps>
-	<!-- Description -->
-	<ImyaTweaks Title="Attractiveness settings for the Green_Mile Tree Objects per Session" />
-	
-	 <!-- Change Attractiveness of the Mod Trees OW-->
-	<ModOp Type="replace" GUID="1337500103,1337503010,1337500105,1337503016,1337503022,1337503023,1337500104,1337503031,1337500310,1337503037,1337503146,1337503044,1337503045,1337503143,1337503052,1337500311,1337500106,1337503057,1337500107,1337503063,1337500109" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfTreesOW">
-		<Attractiveness>2</Attractiveness>
-	</ModOp>
-	<ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfTreesOW" ExposeID="Set Value For Attractiveness Of Trees in OW MU" Description="Determines how many attraction points the Trees in the OW gives ( Mod default settings = 2 )" Kind="Slider">
-		<SliderDefinition Min="0" Max="100" Stepping="1" />
-	</ImyaExpose>
-	
-	<!-- Change Attractiveness of the Mod Trees NW-->
-	<ModOp Type="replace" GUID="1337501386,1337503011,1337503012,1337501388,1337503017,1337503018,1337503024,1337503025,1337503026,1337503027,1337501387,1337503032,1337503033,1337503038,1337503039,1337503040,1337503147,1337503046,1337503047,1337503048,1337503144,1337503053,1337503055,1337501389,1337503058,1337503059,1337501390,1337503064,1337503065,1337501392,1337503070,1337503071" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfTreesNW">
-		<Attractiveness>2</Attractiveness>
-	</ModOp>
-	<ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfTreesNW" ExposeID="Set Value For Attractiveness Of Trees in NW MU" Description="Determines how many attraction points the Trees in the NW gives ( Mod default settings = 2 )" Kind="Slider">
-		<SliderDefinition Min="0" Max="100" Stepping="1" />
-	</ImyaExpose>
-	
-	<!-- Change Attractiveness of the Mod Trees Africa-->
-	<ModOp Type="replace" GUID="1337503013,1337503014,1337503015,1337503019,1337503020,1337503021,1337503028,1337503029,1337503030,1337503034,1337503035,1337503036,1337503041,1337503042,1337503043,1337503148,1337503049,1337503050,1337503051,1337503145,1337503054,1337503056,1337503060,1337503061,1337503062,1337503066,1337503067,1337503068,1337503072,1337503073,1337503074" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfTreesAfrica">
-		<Attractiveness>2</Attractiveness>
-	</ModOp>
-	<ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfTreesAfrica" ExposeID="Set Value For Attractiveness Of Trees in Africa MU" Description="Determines how many attraction points the Trees in Africa gives ( Mod default settings = 2 )" Kind="Slider">
-		<SliderDefinition Min="0" Max="100" Stepping="1" />
-	</ImyaExpose>
+  <!-- Description -->
+  <ImyaTweaks Title="Attractiveness settings for the Green_Mile Tree Objects per Session" />
+  <!-- Change Attractiveness of the Mod Trees OW-->
+  <ModOp Type="replace" GUID="1337500103,1337503010,1337500105,1337503016,1337503022,1337503023,1337500104,1337503031,1337500310,1337503037,1337503146,1337503044,1337503045,1337503143,1337503052,1337500311,1337500106,1337503057,1337500107,1337503063,1337500109" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfTreesOW" Skip="1">
+    <Attractiveness>2</Attractiveness>
+  </ModOp>
+  <ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfTreesOW" ExposeID="Set Value For Attractiveness Of Trees in OW MU" Description="Determines how many attraction points the Trees in the OW gives ( Mod default settings = 2 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- Change Attractiveness of the Mod Trees NW-->
+  <ModOp Type="replace" GUID="1337501386,1337503011,1337503012,1337501388,1337503017,1337503018,1337503024,1337503025,1337503026,1337503027,1337501387,1337503032,1337503033,1337503038,1337503039,1337503040,1337503147,1337503046,1337503047,1337503048,1337503144,1337503053,1337503055,1337501389,1337503058,1337503059,1337501390,1337503064,1337503065,1337501392,1337503070,1337503071" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfTreesNW" Skip="1">
+    <Attractiveness>2</Attractiveness>
+  </ModOp>
+  <ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfTreesNW" ExposeID="Set Value For Attractiveness Of Trees in NW MU" Description="Determines how many attraction points the Trees in the NW gives ( Mod default settings = 2 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <!-- Change Attractiveness of the Mod Trees Africa-->
+  <ModOp Type="replace" GUID="1337503013,1337503014,1337503015,1337503019,1337503020,1337503021,1337503028,1337503029,1337503030,1337503034,1337503035,1337503036,1337503041,1337503042,1337503043,1337503148,1337503049,1337503050,1337503051,1337503145,1337503054,1337503056,1337503060,1337503061,1337503062,1337503066,1337503067,1337503068,1337503072,1337503073,1337503074" Path="/Values/Culture/Attractiveness" ModOpID="SetValueForAttractivenessOfTreesAfrica" Skip="1">
+    <Attractiveness>2</Attractiveness>
+  </ModOp>
+  <ImyaExpose Path="self::Attractiveness" ModOpID="SetValueForAttractivenessOfTreesAfrica" ExposeID="Set Value For Attractiveness Of Trees in Africa MU" Description="Determines how many attraction points the Trees in Africa gives ( Mod default settings = 2 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  <Include File="./city_ornaments_greenery.imya.include.imyatweak.include.xml" />
 </ModOps>
