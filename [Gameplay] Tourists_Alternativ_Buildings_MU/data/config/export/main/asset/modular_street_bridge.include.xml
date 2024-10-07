@@ -1,8 +1,6 @@
 <ModOps>
     <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
-    <!-- ID's used for THIS MOD :   1337500352 to 1337500361 + 1337504810 to 1337504836 (free: 1337500357,1337500358) -->
-    <!-- InternalID's are used for this mod : none -->
-    <!--
+<!--
   
 1337504819 - Modular Road Bridge
 1337504820 - Modular endpieces for Road Bridge
@@ -35,10 +33,14 @@
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeStartVariation>0</BuildModeStartVariation>
+					<AllowChangeVariation>1</AllowChangeVariation>
                     <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337504819</Building>
+                        </Item>
+						<Item>
+                            <Building>1337504860</Building>
                         </Item>
                     </InfluencedByNeighbors>
                     <InfluencedVariationDirection>
@@ -252,6 +254,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeStartVariation>0</BuildModeStartVariation>
                     <PickingAsset>1337504820</PickingAsset>
+					<AllowChangeVariation>1</AllowChangeVariation>
                     <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
                 </Building>
                 <Cost>
@@ -305,4 +308,4 @@
     </ModOp>
 </ModOps>
 
-<!-- 2024-09-27 15:24:31 -->
+<!-- 2024-10-07 13:27:19 -->

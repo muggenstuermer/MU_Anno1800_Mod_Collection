@@ -1,11 +1,12 @@
 <ModOps>
     <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
-    <!-- ID's used for THIS MOD :   1337500352 to 1337500361 + 1337504810 to 1337504836 (free: 1337500357,1337500358) -->
-    <!-- InternalID's are used for this mod : none -->
-    <!--
+<!--
 
 1337500355 - Buildmenue Old Trainstation
+1337504859 - Buildmenue Old Trainstation Harbor
+
 1337504818 - Buildmenue BusStation
+1337504855 - Buildmenue BusStation Harbor
 
 -->
     <!-- Baumenü Bahnhof -->
@@ -52,6 +53,46 @@
                         </English>
                     </LocaText>
                     <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- Baumenü Bahnhof Hafen-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504859</GUID>
+                    <Name>WarehouseStation</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/big_station_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337504862</Building>
+                            <!-- Old Trainstation as Warehouse Harbor -->
+                        </Item>
+						 <Item>
+                            <Building>1337504865</Building>
+                            <!-- Triumphal Arch Doublestreet Harbor -->
+                        </Item>
+                        <Item>
+                            <Building>1337504866</Building>
+                            <!-- Triumphal Arch Singlestreet Harbor -->
+                        </Item>
+						<Item>
+                            <Building>1337504860</Building>
+                            <!-- Modular Road Bridge Harbor -->
+                        </Item>
+                        <Item>
+                            <Building>1337504861</Building>
+                            <!-- Modular endpieces for Road Bridge Harbor -->
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1337500356</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337500355</TextOverride>
                 </Text>
                 <Locked />
             </Values>
@@ -110,7 +151,7 @@
                             <Building>1337504834</Building>
                         </Item>
                     </BuildingList>
-                    <CategoryDescription>601326</CategoryDescription>
+                    <CategoryDescription>11151</CategoryDescription>
                 </ConstructionCategory>
                 <Text>
                     <LocaText>
@@ -125,19 +166,108 @@
                 <Locked />
             </Values>
         </Asset>
+		<!-- Baumenü Bus-Station Harbor -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504855</GUID>
+                    <Name>BusStationHarbor</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/icon_bus_station_harbor_mu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337504851</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504842</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504843</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504844</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504845</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504846</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504847</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504848</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504849</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504850</Building>
+                        </Item>
+						<Item>
+                            <Building>1337504841</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504852</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504853</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504854</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19173</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337504818</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
     </ModOp>
+	
     <!-- Baumenü Bahnhof nach hotel -->
     <ModOp Type="addNextSibling" Path="//*[self::BuildingList]/Item[Building = '601445']">
         <Item>
             <Building>1337500355</Building>
         </Item>
     </ModOp>
+	<!-- Baumenü Bahnhof Hafen nach Bahnhof -->
+    <ModOp Type="addNextSibling" GUID='132779' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1337500355']">
+        <Item>
+            <Building>1337504859</Building>
+        </Item>
+    </ModOp>
+	
     <!-- Baumenü bushaltestelle nach hotel -->
     <ModOp Type="addNextSibling" Path="//*[self::BuildingList]/Item[Building = '601445']">
         <Item>
             <Building>1337504818</Building>
         </Item>
     </ModOp>
+	 <!-- Baumenü bushaltestelle hafen nach bushaltestelle Touristen Menü-->
+    <ModOp Type="addNextSibling" GUID='132779' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1337504818']">
+        <Item>
+            <Building>1337504855</Building>
+        </Item>
+    </ModOp>
+	 <!-- Baumenü bushaltestelle hafen nach bushaltestelle Hafen Menü-->
+    <ModOp Type="addNextSibling" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='100429']">
+        <Item>
+            <Building>1337504855</Building>
+        </Item>
+    </ModOp>
+	
+	<!-- Baumenü Bahnhof Hafen nach bushaltestelle Hafen Menü-->
+    <ModOp Type="addNextSibling" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='100429']">
+        <Item>
+            <Building>1337504859</Building>
+        </Item>
+    </ModOp>
 </ModOps>
 
-<!-- 2024-09-27 15:31:43 -->
+<!-- 2024-10-07 13:19:35 -->

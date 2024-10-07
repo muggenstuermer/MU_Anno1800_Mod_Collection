@@ -49,6 +49,12 @@ Changelog - 1.1
 	- correction of the folder structure to adapt to the desired structures.
 	- reduce content.txt files to english only.
 	
+---------------------------
+Changelog - 1.2
+---------------------------
+
+	- after a long break, unfortunately lost the overview, therefore new version number 1.2
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

@@ -1,11 +1,9 @@
 <ModOps>
     <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
-    <!-- ID's used for THIS MOD :   1337500352 to 1337500361 + 1337504810 to 1337504836 (free: 1337500357,1337500358) -->
-    <!-- InternalID's are used for this mod : none -->
-    <!--
+<!--
 
-1337504835 - Trigger with 500 Engineers
-1337504836 - Trigger with 1 Tourist Mooring
+1337504863 - Trigger with 500 Engineers
+1337504864 - Trigger with 1 Tourist Mooring
 
 -->
     <!-- Freischaltung / Trigger -->
@@ -14,7 +12,7 @@
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1337504835</GUID>
+                    <GUID>1337504863</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
                 </Standard>
@@ -45,6 +43,10 @@
                                                 <Asset>1337500352</Asset>
                                                 <!-- Old Trainstation as Warehouse -->
                                             </Item>
+											<Item>
+                                                <Asset>1337504862</Asset>
+                                                <!-- Old Trainstation as Warehouse Harbor -->
+                                            </Item>
                                             <Item>
                                                 <Asset>1337500354</Asset>
                                                 <!-- Triumphal Arch Double -->
@@ -53,6 +55,16 @@
                                                 <Asset>1337500360</Asset>
                                                 <!-- Triumphal Arch Single -->
                                             </Item>
+											
+											<Item>
+                                                <Asset>1337504865</Asset>
+                                                <!-- Triumphal Arch Double Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504866</Asset>
+                                                <!-- Triumphal Arch Single Harbor -->
+                                            </Item>
+											
                                             <Item>
                                                 <Asset>1337504818</Asset>
                                                 <!-- Baumenü Bus Stations -->
@@ -74,7 +86,7 @@
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1337504836</GUID>
+                    <GUID>1337504864</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
                 </Standard>
@@ -100,6 +112,10 @@
                                                 <Asset>1337500352</Asset>
                                                 <!-- Old Trainstation as Warehouse -->
                                             </Item>
+											<Item>
+                                                <Asset>1337504862</Asset>
+                                                <!-- Old Trainstation as Warehouse Harbor -->
+                                            </Item>
                                             <Item>
                                                 <Asset>1337500354</Asset>
                                                 <!-- Triumphal Arch Double -->
@@ -107,6 +123,15 @@
                                             <Item>
                                                 <Asset>1337500360</Asset>
                                                 <!-- Triumphal Arch Single -->
+                                            </Item>
+											
+											<Item>
+                                                <Asset>1337504865</Asset>
+                                                <!-- Triumphal Arch Double Harbor -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504866</Asset>
+                                                <!-- Triumphal Arch Single Harbor -->
                                             </Item>
                                         </UnlockAssets>
                                         <UnhideAssets />
@@ -122,4 +147,4 @@
     </ModOp>
 </ModOps>
 
-<!-- 2024-09-27 15:32:31 -->
+<!-- 2024-10-07 13:30:44 -->
