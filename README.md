@@ -352,13 +352,13 @@ Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 ![](./doc/tourists_banner.jpg)
 
-This mod adds alternative skins for the hotel ,bar and café.
+This mod adds alternative skins for the hotel, bar and café.
 
-It also provides new bus stops and a pedestrian overpass with a spiral staircase.
+It also features new bus stops with and without passages, and a pedestrian overpass with a spiral staircase, also for the water.
 
-Furthermore, it adds a historic railway station, "Historic Station Warehouse", which takes over the function of a warehouse to improve the townscape a bit.
+It also adds a historic train station, “Historic Station Warehouse”, which takes on the function of a warehouse to improve the cityscape somewhat.also available on the water.
 
-And there are also 2 sort of passages.
+And there are also 2 types of passages....yes,also possible on the water :)
 
 
 ### Historic Station Warehouse Buff:
@@ -386,6 +386,13 @@ And there are also 2 sort of passages.
 
 - one for double roads
 - one for single streets
+
+### Bus Stations:
+
+- there are a large number of bus stops and many variants of them
+- some of them have passages for singel and double streets
+- the spiral staircases are accessible in first person mode
+- one variant fits well between non-updated investor apartments
 
 
 
@@ -429,60 +436,6 @@ https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 # Shared_Objects_MU
 
 This mod will provide shared objekts and files,that will used by diffrent mods and creators in the future.
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
-
-
-# Tourists_Alternativ_Buildings_MU
-
-![image](https://github.com/muggenstuermer/Tourists_Alternativ_Buildings_MU/blob/main/288-1641737932-1729552676.png)
-
-This mod adds alternative buildings for the hotel ,bar and café (shift+V)
-
-- with upcoming updates all multibuildings from the Tourist Season will get an alternative.
-
-
-Furthermore, it adds a historic railway station, "Historic Station Warehouse", which takes over the function of a warehouse to improve the townscape a bit.
-
-## This building buffs:
------------------------
-- hotels : max +105 more tourists
-
-- +15 more through :
-
-	- Tourist harbour
-	- Restaurants
-	- Variety
-	- Jam
-	- Café
-	- Shampoo
-	- Bar
-
-
-- Bars / restaurants / cafés / all shopping arcades / all chemical factories :
-
-	- +15% higher production
-	- -25% labour force
-
-
-at the sides there is space for 3 rail entrances and exits (or roads, as you like)
-and in the middle of each of the main entrances for a street (or whatever you prefer)
-
-
-
-In addition, there are also passages which have been created by chance.
-- one for double Streets
-- one for single Street
-
-
-## Required active mods :
--------------------------
-"Shared_Objects_MU" by @muggenstuermer
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
-
-
-Have fun with it: your muggenstuermer ;)
-
-	
 https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
