@@ -30,6 +30,8 @@
 
 1337501016 Kai metall ALL <InternalID>411</InternalID> -  modulo256 = 155
 
+1337501048 Unsichtbarer kai als grounddecal <InternalID>243</InternalID>-modulo256 = 243
+
 1337502687 Trigger
 -->
 
@@ -2190,6 +2192,93 @@
 			</Values>
 		</Asset>
 	</ModOp>
+	
+	<!-- Unsichtbarer Kai -->
+	<ModOp Type="addNextSibling" GUID='1010567'>
+		<Asset>
+			<Template>Street</Template>
+			<Values>
+				<Standard>
+					<GUID>1337504856</GUID>
+					<Name>InvisibleQuay</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\harbor_quays\ow\quay_red.png</IconFilename>
+					<ID>InvisibleQuay</ID>
+					<InfoDescription>132480</InfoDescription>
+				</Standard>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Street>
+					<CfgFileName>data\muggenstuermer\mixed_harbor\harbor_streets\invisible_street\quay_system_01.cfg</CfgFileName>
+					<InternalID>243</InternalID><!-- modulo256 = 243 -->
+					<DecalMapping>data/config/street/quay_new.txt.bin</DecalMapping>
+					<DecalVariation>data/config/street/quay_new_var.txt</DecalVariation>
+					<StyleRows>8</StyleRows>
+					<StyleCols>8</StyleCols>
+					<OverbuildRule>Harbour</OverbuildRule>
+					<CanBuildOnShore>1</CanBuildOnShore>
+					<IsLogicRoad>0</IsLogicRoad>
+					<IsHarbour>1</IsHarbour>
+					<IsPlazza>1</IsPlazza>
+					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+					<AdaptToNeighbors>
+						<AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+						<NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet</NeighborsThatMakeUsAdapt>
+					</AdaptToNeighbors>
+				</Street>
+				<Constructable />
+				<Locked />
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>215916</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+					<ConstructionStreetSounds>
+						<BuildAddWaypoint>
+							<Item>
+								<Sound>215918</Sound>
+							</Item>
+						</BuildAddWaypoint>
+					</ConstructionStreetSounds>
+				</SoundEmitter>
+				<Text />
+				<Building>
+					<BuildingCategoryName>11150</BuildingCategoryName>
+					<PickingAsset>1337504856</PickingAsset>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+			</Values>
+		</Asset>
+	</ModOp>
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -2309,7 +2398,7 @@
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502687</GUID>
+					<GUID>1337504857</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -2406,6 +2495,9 @@
 											<Item>
 												<Asset>1337501027</Asset>
 											</Item>
+											<Item>
+												<Asset>1337504856</Asset>
+											</Item>
 											
 										</UnlockAssets>
 										<UnhideAssets>
@@ -2481,6 +2573,9 @@
 											</Item>
 											<Item>
 												<Asset>1337501027</Asset>
+											</Item>
+											<Item>
+												<Asset>1337504856</Asset>
 											</Item>
 											
 										</UnhideAssets>
