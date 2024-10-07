@@ -4,6 +4,9 @@ This mod will provide shared objects and files that can be used by different mod
 
 and will be used by me for several mods.
 
+
+[Download latest Shared_Objects_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
 ---------------------------
 Changelog - 1.31
 ---------------------------
