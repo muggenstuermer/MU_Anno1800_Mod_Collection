@@ -412,7 +412,7 @@ Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 
 
-# Tourists_Alternativ_Buildings_MU
+## `Tourists_Alternativ_Buildings_MU`
 
 ![](./doc/tourists_banner.jpg)
 
@@ -498,102 +498,96 @@ https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
 
-# Worlds_New_Depots_MU
+## `Worlds_New_Depots_MU`
 
-![image](https://github.com/muggenstuermer/Worlds_New_Depots_MU/blob/main/Anno%201800%20Screenshot%202022.08.26%20-%2011.36.17.75.png)
+![](./doc/doc/depots_banner.jpg)
 
 Based on the industry dlc, this mod offers the possibility to build an upgradeable "storage" city with modified dockland modules.
 "Speicher"-city", and thus to create an "industrial district".
-It is possible to build depots on the land in the Old World, New World, Arctic and Enbesa, which can be upgraded in 3 steps.
-upgrade.
+It is possible to build depots on land and water in the Old World, New World, Arctic and Enbesa.
 
-However, the active mod "New World Docklands" by @Lrds xormenter is required for this:
-https://www.nexusmods.com/anno1800/mods/215
-
-Optically matching, 2 warehouses with a passage are included, which can also be upgraded in 3 steps.
-
+Optically matching, warehouses with a passage are included.
+(original model originally comes from @Jacob,and was modified and used with his permission,thanks for that) 
+	
 Everything is unlocked together with the storage city from the Docklands DLC.
 
-In the Old World you can select the desired skin with the brush from the building menu:
+### The Depots:
 
-- Docklands Original for the Old World
-- New World skin from the mod "New World Docklands".
-- Enbesa skin from the mod "New World Docklands".
+Possibility to upgrade them in 3 stages. They grow in height.
 
-Since you cannot change a skin in the other sessions, only the skins from the mod "New World Docklands" are available in these sessions.
+With the exception of the arctic, all regions contain a possible skin change :
+
+	- Docklands Original for the Old World
+	- New World skin from the mod "New World Docklands".
+	- Enbesa skin from the mod "New World Docklands".
 
 For the Arctic, the texture from the "Winter" mod by @Lirvan was used.
+
 https://www.nexusmods.com/anno1800/mods/311
+
 Since he also gave us the possibility to create them ourselves with his tools,
-to create them with his tools, I see no problem and thank him very much for that.
+I see no problem and thank him very much for that.
 I couldn't manage to create it myself :( .
 
-Furthermore, this mod brings with it an underground depot.
-Through the glass dome, you can observe what's happening underground.
-In the old world, you can select the desired skin from the building menu with the brush.
-You can choose from :
+The Depots have the following storage capacities:
+	- LvL 1 has 30t
+	- LvL 2 has 65t
+	- LvL 3 has 105t
+	- LvL 4 has 150t
 
-- Adapted to Docklands for the Old World
-- Adapted to the mod "New World Docklands" for the New World
-- Adapted to the mod "New World Docklands" for Enbesa
+### The Underground Depots:
 
-I have adapted the colours of the Arctic.
+This mod also comes with an underground depot.
+You can observe what is happening underground through the glass dome.
 
+You can select the desired skin :
+
+	- Adapted to Docklands for the Old World
+	- Adapted to the mod "New World Docklands" for the New World
+	- Adapted to the mod "New World Docklands" for Enbesa
+	- Adapted to the mod "New World Docklands" for Arctic
+	
+The underground depots have a storage capacity of 30t per object and are not upgradeable.
+	
+	
+### The Warehouses:
+
+Possibility to upgrade them in 3 stages. They grow in height.
 
 The warehouses are identical to the vanilla building when upgraded:
-- LvL 1 has 2 loading ramps
-- Lvl 2 has 3 loading ramps
-- Lvl 3 has 4 loading ramps
-- Lvl 4 has 6 loading ramps
 
-The "Dockland" depots have the following storage capacities:
-- LvL 1 has 30t
-- LvL 2 has 65t
-- LvL 3 has 105t
-- LvL 4 has 150t
+	- LvL 1 has 2 loading ramps
+	- Lvl 2 has 3 loading ramps
+	- Lvl 3 has 4 loading ramps
+	- Lvl 4 has 6 loading ramps
+	
+### The Warehouse and Depot Special:
 
-The underground depots have a storage capacity of 30t per object and are not upgradeable.
+This building was the result of a user's wish.
+it is possible to build a road x crossing under the building.
 
-These values will be changed in the future with the final release of the Anno 1800 Mod Manager :
-https://github.com/anno-mods/iModYourAnno/releases/latest
-freely changeable.
+Otherwise, the buildings are just like the warehouse or the depots.
 
-You can find the building menu :
 
--In the old world at the craftsmen, after the "middle harbour".
--in the New World at the Oberos, after the "Great Harbour
--In the Arctic, with the Technicians, after the "Harbour
--Enbesa with the Elders,after the "Great Port".
+### Necessary active mods:
 
-The mod is available for all languages this time ;)
+- ["New World Docklands" by @Kurila](https://mod.io/g/anno-1800/m/new-world-dockland-kurila)
 
-## Required active mods :
--------------------------
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 
-"New World Docklands" by @Lrds xormenter :
-https://www.nexusmods.com/anno1800/mods/215
 
-"Shared_Objects_MU" by @muggenstuermer
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+# Recommended active mods:
 
-# Recommended active mods :
----------------------------
+- ["Spice_Arctic Quay" by @Taubenangriff](https://mod.io/g/anno-1800/m/arctic-quay)
 
-"Arctic Quay" by Spice it Up,by @pigeonattack + @DaLexy
-https://www.nexusmods.com/anno1800/mods/5
-
-"Docklands Gate" from Jakob's Collection,by @Jakob
-https://www.nexusmods.com/anno1800/mods/281
-
-"Harbor_Ornaments_2.0_MU" by @muggenstuermer
-https://www.nexusmods.com/anno1800/mods/5
+- ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
 
 
 
-Have fun with it: your muggenstuermer ;)
 
-	  
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Worlds_New_Depots_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
 
 # Streets_Related_MU
