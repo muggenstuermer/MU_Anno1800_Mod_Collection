@@ -187,11 +187,11 @@ Who knows, but maybe one or the other immigrant will discover his talent for the
 
 ### Necessary active mods :
 
-- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
 
-- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 
-- ["Streets_Related_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
 
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
@@ -329,17 +329,18 @@ For SPIU-Harborlife Lovers : they are also available for the water and as an orn
 
 ### Necessary active mods :
 
-- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
 
-- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 	  
 	  
 ### Recommended active mods :
 
-- ["Streets_Related_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
   - The roundabouts look really good in a shopping centre ;)
 
 - ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
@@ -464,39 +465,12 @@ And there are also 2 types of passages....yes,also possible on the water :)
 
 ### Necessary active mods :
 
-- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 [Download latest Tourists_Alternativ_Buildings_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
-
-
-
-# MuggenTours_MU
-
-![image](https://github.com/muggenstuermer/MuggenTours_MU/blob/main/298-1643879468-718482811.png)
-
-This mod adds two trolleybus skins, a double decker bus and a convertible bus skin.
-
-Furthermore, this mod replaces the central power poles with poles placed at the roadside and power lines that have lighting with hanging lights.
-	
-
-don't take this mod too seriously ;)
-	
-	
-	
-## ATTENTION!!
-
-## NOT COMPATIBLE WITH SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.
-
-## This MUST be deactivated !
-
-	
-Have fun with it: your muggenstuermer ;)
-
-	
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
 
@@ -590,6 +564,33 @@ Otherwise, the buildings are just like the warehouse or the depots.
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 [Download latest Worlds_New_Depots_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+-----
+
+# MuggenTours_MU
+
+![image](https://github.com/muggenstuermer/MuggenTours_MU/blob/main/298-1643879468-718482811.png)
+
+This mod adds two trolleybus skins, a double decker bus and a convertible bus skin.
+
+Furthermore, this mod replaces the central power poles with poles placed at the roadside and power lines that have lighting with hanging lights.
+	
+
+don't take this mod too seriously ;)
+	
+	
+	
+## ATTENTION!!
+
+## NOT COMPATIBLE WITH SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.
+
+## This MUST be deactivated !
+
+	
+Have fun with it: your muggenstuermer ;)
+
+	
+https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 
 # Streets_Related_MU
