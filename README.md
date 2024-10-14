@@ -502,7 +502,7 @@ https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
 
 ## `Worlds_New_Depots_MU`
 
-![](./doc/doc/depots_banner.jpg)
+![](./doc/depots_banner.jpg)
 
 Based on the industry dlc, this mod offers the possibility to build an upgradeable "storage" city with modified dockland modules.
 "Speicher"-city", and thus to create an "industrial district".
