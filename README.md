@@ -519,9 +519,9 @@ Possibility to upgrade them in 3 stages. They grow in height.
 
 With the exception of the arctic, all regions contain a possible skin change :
 
-	- Docklands Original for the Old World
-	- New World skin from the mod "New World Docklands".
-	- Enbesa skin from the mod "New World Docklands".
+- Docklands Original for the Old World
+- New World skin from the mod "New World Docklands".
+- Enbesa skin from the mod "New World Docklands".
 
 For the Arctic, the texture from the "Winter" mod by @Lirvan was used.
 
@@ -532,10 +532,10 @@ I see no problem and thank him very much for that.
 I couldn't manage to create it myself :( .
 
 The Depots have the following storage capacities:
-	- LvL 1 has 30t
-	- LvL 2 has 65t
-	- LvL 3 has 105t
-	- LvL 4 has 150t
+- LvL 1 has 30t
+- LvL 2 has 65t
+- LvL 3 has 105t
+- LvL 4 has 150t
 
 ### The Underground Depots:
 
@@ -544,10 +544,10 @@ You can observe what is happening underground through the glass dome.
 
 You can select the desired skin :
 
-	- Adapted to Docklands for the Old World
-	- Adapted to the mod "New World Docklands" for the New World
-	- Adapted to the mod "New World Docklands" for Enbesa
-	- Adapted to the mod "New World Docklands" for Arctic
+- Adapted to Docklands for the Old World
+- Adapted to the mod "New World Docklands" for the New World
+- Adapted to the mod "New World Docklands" for Enbesa
+- Adapted to the mod "New World Docklands" for Arctic
 	
 The underground depots have a storage capacity of 30t per object and are not upgradeable.
 	
@@ -558,10 +558,10 @@ Possibility to upgrade them in 3 stages. They grow in height.
 
 The warehouses are identical to the vanilla building when upgraded:
 
-	- LvL 1 has 2 loading ramps
-	- Lvl 2 has 3 loading ramps
-	- Lvl 3 has 4 loading ramps
-	- Lvl 4 has 6 loading ramps
+- LvL 1 has 2 loading ramps
+- Lvl 2 has 3 loading ramps
+- Lvl 3 has 4 loading ramps
+- Lvl 4 has 6 loading ramps
 	
 ### The Warehouse and Depot Special:
 
