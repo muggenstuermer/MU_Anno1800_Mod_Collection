@@ -62,17 +62,18 @@ For SPIU-Harborlife Lovers : they are also available for the water and as an orn
 
 ### Necessary active mods :
 
-- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
 
-- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 	  
 	  
 ### Recommended active mods :
 
-- ["Streets_Related_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
   - The roundabouts look really good in a shopping centre ;)
 
 - ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
@@ -124,6 +125,13 @@ Changelog - 1.32
 	- main menu for the harbor is located behind the SPIU Harborlife menu,followed by the ornaments menus.
 	- IMYA tweaks added to all Malls,to be able to set limited custom ranges.
 	- reduce content.txt files to english only.
+	
+---------------------------
+Changelog - 1.33
+---------------------------
+
+	- correction of some modloader warnings and path corrections in some files.
+	- update README,modinfo.json and content_en.txt
 	
 	
 	

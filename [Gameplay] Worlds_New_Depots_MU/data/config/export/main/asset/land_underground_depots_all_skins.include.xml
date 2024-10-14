@@ -1,0 +1,194 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!--
+
+
+OW
+1337504871 - Land Underground Depot Skin OW
+
+NW
+1337500760 - Land Underground Depot Skin NW
+
+AFRICA
+1337500761 - Land Underground Depot Skin AFRICA
+
+ARCTIC
+1337504872 - Land Underground Depot Skin ARCTIC
+  
+  -->
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Underground Depot Skins START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <ModOp Type="addnextSibling" GUID="1010519">
+        <!-- Skin OW -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504871</GUID>
+                    <Name>Depot_Under_Skin_OW</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_ow_skin.png</IconFilename>
+                    <ID>Depot_Under_Skin_OW</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180023</SkinName>
+                    <!-- Die Alte Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\ow\depot_end_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\ow\depot_straight_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\ow\depot_straight2_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\ow\depot_corner_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\ow\depot_cross_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\ow\depot_t_cross_under.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Skin NW -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500760</GUID>
+                    <Name>Depot_Under_Skin_NW</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</IconFilename>
+                    <ID>Depot_Under_Skin_NW</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180025</SkinName>
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\nw\depot_end_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\nw\depot_straight_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\nw\depot_straight2_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\nw\depot_corner_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\nw\depot_cross_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\nw\depot_t_cross_under.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Skin AFRICA -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500761</GUID>
+                    <Name>Depot_Under_Skin_AFRICA</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_africa_skin.png</IconFilename>
+                    <ID>Depot_Under_Skin_AFRICA</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>112132</SkinName>
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\africa\depot_end_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\africa\depot_straight_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\africa\depot_straight2_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\africa\depot_corner_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\africa\depot_cross_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\africa\depot_t_cross_under.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Skin ARKTIC -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504872</GUID>
+                    <Name>Depot_Under_Skin_ARCTIC</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_arctic_skin.png</IconFilename>
+                    <ID>Depot_Under_Skin_ARCTIC</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180045</SkinName>
+                    <!-- Die Alte Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\arctic\depot_end_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\arctic\depot_straight_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\arctic\depot_straight2_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\arctic\depot_corner_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\arctic\depot_cross_under.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\depots_underground\arctic\depot_t_cross_under.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2024-10-13 15:10:18 -->

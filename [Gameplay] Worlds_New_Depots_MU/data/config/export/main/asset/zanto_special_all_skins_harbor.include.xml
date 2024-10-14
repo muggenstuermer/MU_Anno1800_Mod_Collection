@@ -1,0 +1,367 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!--
+
+
+OW
+1337504985 - Zanto Special Harbor Warehouse + Depot OW LvL_0 Skin
+1337504988 - Zanto Special Harbor Warehouse + Depot OW LvL_1 Skin
+1337504991 - Zanto Special Harbor Warehouse + Depot OW LvL_2 Skin
+1337504994 - Zanto Special Harbor Warehouse + Depot OW LvL_3 Skin
+
+NW
+1337504986 - Zanto Special Harbor Warehouse + Depot NW LvL_0 Skin
+1337504989 - Zanto Special Harbor Warehouse + Depot NW LvL_1 Skin
+1337504992 - Zanto Special Harbor Warehouse + Depot NW LvL_2 Skin
+1337504995 - Zanto Special Harbor Warehouse + Depot NW LvL_3 Skin
+
+AFRICA
+1337504987 - Zanto Special Harbor Warehouse + Depot AFRICA LvL_0 Skin
+1337504990 - Zanto Special Harbor Warehouse + Depot AFRICA LvL_1 Skin
+1337504993 - Zanto Special Harbor Warehouse + Depot AFRICA LvL_2 Skin
+1337504996 - Zanto Special Harbor Warehouse + Depot AFRICA LvL_3 Skin
+
+  
+  -->
+    <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Dockland Depot + Warehouse Skins START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <ModOp Type="addnextSibling" GUID="1010519">
+        <!-- Depot Skin OW LvL 0 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504985</GUID>
+                    <Name>Land_Depot_Skin_OW_LVL_0</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_ow_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_OW_LVL_0</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180023</SkinName>
+                    <!-- Die Alte Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\ow\dockland_arch_01_lvl_00.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin NW LvL 0 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504986</GUID>
+                    <Name>Land_Depot_Skin_NW_LVL_0</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_NW_LVL_0</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180025</SkinName>
+                    <!-- Die Neue Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\nw\dockland_arch_01_lvl_00.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin Africa LvL 0 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504987</GUID>
+                    <Name>Land_Depot_Skin_AFRICA_LVL_0</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_africa_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_AFRICA_LVL_0</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>112132</SkinName>
+                    <!-- Enbesa -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\africa\dockland_arch_01_lvl_00.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin OW LvL 1 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504988</GUID>
+                    <Name>Land_Depot_Skin_OW_LVL_1</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_ow_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_OW_LVL_1</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180023</SkinName>
+                    <!-- Die Alte Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\ow\dockland_arch_01_lvl_01.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin NW LvL 1 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504989</GUID>
+                    <Name>Land_Depot_Skin_NW_LVL_1</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_NW_LVL_1</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180025</SkinName>
+                    <!-- Die Neue Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\nw\dockland_arch_01_lvl_01.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin Africa LvL 1 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504990</GUID>
+                    <Name>Land_Depot_Skin_AFRICA_LVL_1</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_africa_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_AFRICA_LVL_1</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>112132</SkinName>
+                    <!-- Enbesa -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\africa\dockland_arch_01_lvl_01.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin OW LvL 2 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504991</GUID>
+                    <Name>Land_Depot_Skin_OW_LVL_2</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_ow_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_OW_LVL_2</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180023</SkinName>
+                    <!-- Die Alte Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\ow\dockland_arch_01_lvl_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin NW LvL 2 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504992</GUID>
+                    <Name>Land_Depot_Skin_NW_LVL_2</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_NW_LVL_2</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180025</SkinName>
+                    <!-- Die Neue Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\nw\dockland_arch_01_lvl_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin Africa LvL 2 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504993</GUID>
+                    <Name>Land_Depot_Skin_AFRICA_LVL_2</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_africa_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_AFRICA_LVL_2</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>112132</SkinName>
+                    <!-- Enbesa -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\africa\dockland_arch_01_lvl_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin OW LvL 3 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504994</GUID>
+                    <Name>Land_Depot_Skin_OW_LVL_3</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_ow_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_OW_LVL_3</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180023</SkinName>
+                    <!-- Die Alte Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\ow\dockland_arch_01_lvl_03.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin NW LvL 3 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504995</GUID>
+                    <Name>Land_Depot_Skin_NW_LVL_3</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_NW_LVL_3</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180025</SkinName>
+                    <!-- Die Neue Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\nw\dockland_arch_01_lvl_03.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Depot Skin Africa LvL 3 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504996</GUID>
+                    <Name>Land_Depot_Skin_AFRICA_LVL_3</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_africa_skin.png</IconFilename>
+                    <ID>Land_Depot_Skin_AFRICA_LVL_3</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>112132</SkinName>
+                    <!-- Enbesa -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\africa\dockland_arch_01_lvl_03.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2024-10-13 15:14:58 -->

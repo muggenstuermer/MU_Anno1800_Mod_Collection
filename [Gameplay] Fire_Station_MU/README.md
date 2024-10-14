@@ -26,12 +26,11 @@ This mod adds 2 more fire stations.
 
 The buildings were integrated into the original building menu of the fire station.
 
+For the Harbor a seperated menu is created,straight after SPIU-Harborlife.Main icon is taken from @Jakobs mod "Compact Build Menus" and modified.
 
 ### Recommended active mods :
 
 - ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
-
-For the Harbor a seperated menu is created,straight after SPIU-Harborlife.Main icon is taken from @Jakobs mod "Compact Build Menus" and modified.
 
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
@@ -86,6 +85,12 @@ Changelog - 1.25
 	- korean translation file added. Big thx to @modpark817 for this translation
 	- reduce content.txt files to english only.
 	- SPIU-Harborlife support added.
+	
+---------------------------
+Changelog - 1.26
+---------------------------
+
+	- update README,modinfo.json and content_en.txt
 	
 	
 	

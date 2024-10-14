@@ -112,6 +112,12 @@ Changelog - 1.33
 	- chinese translation file added. Big thx to @darknesswei for this translation
 	- reduce content.txt files to english only.
 	- SPIU-Harborlife support added
+	
+---------------------------
+Changelog - 1.34
+---------------------------
+
+	- update README,modinfo.json and content_en.txt
 
 	
 	

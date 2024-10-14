@@ -1,0 +1,128 @@
+# Worlds_New_Depots_MU
+
+![](../doc/depots_banner.jpg)
+
+Based on the industry dlc, this mod offers the possibility to build an upgradeable "storage" city with modified dockland modules.
+"Speicher"-city", and thus to create an "industrial district".
+It is possible to build depots on land and water in the Old World, New World, Arctic and Enbesa.
+
+Optically matching, warehouses with a passage are included.
+(original model originally comes from @Jacob,and was modified and used with his permission,thanks for that) 
+	
+Everything is unlocked together with the storage city from the Docklands DLC.
+
+### Depots
+
+Possibility to upgrade them in 3 stages. They grow in height.
+
+With the exception of the arctic, all regions contain a possible skin change :
+
+	- Docklands Original for the Old World
+	- New World skin from the mod "New World Docklands".
+	- Enbesa skin from the mod "New World Docklands".
+
+For the Arctic, the texture from the "Winter" mod by @Lirvan was used.
+
+https://www.nexusmods.com/anno1800/mods/311
+
+Since he also gave us the possibility to create them ourselves with his tools,
+I see no problem and thank him very much for that.
+I couldn't manage to create it myself :( .
+
+The Depots have the following storage capacities:
+	- LvL 1 has 30t
+	- LvL 2 has 65t
+	- LvL 3 has 105t
+	- LvL 4 has 150t
+
+### Underground Depots
+
+This mod also comes with an underground depot.
+You can observe what is happening underground through the glass dome.
+
+You can select the desired skin :
+
+	- Adapted to Docklands for the Old World
+	- Adapted to the mod "New World Docklands" for the New World
+	- Adapted to the mod "New World Docklands" for Enbesa
+	- Adapted to the mod "New World Docklands" for Arctic
+	
+The underground depots have a storage capacity of 30t per object and are not upgradeable.
+	
+	
+### Warehouses
+
+Possibility to upgrade them in 3 stages. They grow in height.
+
+The warehouses are identical to the vanilla building when upgraded:
+
+	- LvL 1 has 2 loading ramps
+	- Lvl 2 has 3 loading ramps
+	- Lvl 3 has 4 loading ramps
+	- Lvl 4 has 6 loading ramps
+	
+### Warehouse and Depot Special
+
+This building was the result of a user's wish.
+it is possible to build a road x crossing under the building.
+
+Otherwise, the buildings are just like the warehouse or the depots.
+
+### Necessary active mods :
+
+- ["New World Docklands" by @Kurila](https://mod.io/g/anno-1800/m/new-world-dockland-kurila)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
+
+
+### Recommended active mods:
+
+- ["Spice_Arctic Quay" by @Taubenangriff](https://mod.io/g/anno-1800/m/arctic-quay)
+
+- ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
+
+
+Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
+[Download latest Worlds_New_Depots_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+## Changelogs
+
+---------------------------
+Changelog - 1.1
+---------------------------
+	- Docklands now also available in the Arctic: Harbour building menu -> Technician
+
+---------------------------
+Changelog - 1.2
+---------------------------
+	- GU16 Bugfixing and adjustment of various values.
+	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
+	- various values can be changed as desired by a controller
+	
+---------------------------
+Changelog - 1.21
+---------------------------
+	- start restructuring the files to "[MuggeShared] Shared_Objects_MU " mod.
+	  the goal is to not have duplicates of files used in different mods in the mod folders all the time and to give other mod creators the possibility to use them if needed.
+	  
+---------------------------
+Changelog - 1.22
+---------------------------
+	- GU17 modinfo.json correction.
+
+---------------------------
+Changelog - 1.3
+---------------------------
+	
+	- correction of the folder structure to adapt to the desired structures.
+	- all icons revised.
+	- possibility to build on water created.
+	- added one special building - user's wish
+	- added tweakable imya settings for all Depots
+	- removed the Speicherstadt for arktic,because it was added to New World Docklands (Kurila) during the revision phase of this mod for compatibility reasons.
+	- reduce content.txt files to english only.
+	
+	
+[Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

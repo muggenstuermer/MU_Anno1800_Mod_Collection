@@ -33,6 +33,13 @@ Release - 1.0
 	- IMYA tweaks added to be able to set limited custom ranges for the mod Markets.
 	- all functional small Markets and all Skins where available as buildable ornaments.
 	
+---------------------------
+Release - 1.1
+---------------------------
+
+	- correction of the folder structure to adapt to the desired structures.
+	- correction of some files with typos.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

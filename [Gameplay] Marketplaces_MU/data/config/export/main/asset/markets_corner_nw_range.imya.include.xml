@@ -9,8 +9,8 @@
   <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="FullSatisfactionDistanceCornerAllMarketsNWMU" ExposeID="Custom FullSatisfactionDistance for Corner Markets NW" Description="Sets the FullSatisfactionDistance for the Corner Markets in the NW ( Mod default settings = 25 )" Kind="Slider">
     <SliderDefinition Min="0" Max="50" Stepping="1" />
   </ImyaExpose>
- 
- <!-- Change NoSatisfactionDistance of Corner Markets NW-->
+  
+  <!-- Change NoSatisfactionDistance of Corner Markets NW-->
   <ModOp Type="replace" GUID="1337502975,1337502976,1337502979,1337504103,1337504104,1337504105" Path="/Values/PublicService/NoSatisfactionDistance" ModOpID="NoSatisfactionDistanceCornerAllMarketsNWMU">
     <NoSatisfactionDistance>50</NoSatisfactionDistance>
   </ModOp>

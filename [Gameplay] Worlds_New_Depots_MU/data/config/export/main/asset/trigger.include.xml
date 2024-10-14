@@ -1,0 +1,1107 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!--
+
+1337505079 - Trigger 
+
+-->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505079</GUID>
+                    <Name>Warehouse_Depot_Unlock</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>601470</UnlockNeeded>
+                                <!-- Docklands original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337500738</Asset>
+                                                <!-- Depot 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500739</Asset>
+                                                <!-- Depot 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500740</Asset>
+                                                <!-- Depot 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500741</Asset>
+                                                <!-- Depot 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500770</Asset>
+                                                <!-- Depot NW 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500771</Asset>
+                                                <!-- Depot NW 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500772</Asset>
+                                                <!-- Depot NW 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500773</Asset>
+                                                <!-- Depot NW 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500774</Asset>
+                                                <!-- Depot AFRICA 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500775</Asset>
+                                                <!-- Depot AFRICA 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500776</Asset>
+                                                <!-- Depot AFRICA 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500777</Asset>
+                                                <!-- Depot AFRICA 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500790</Asset>
+                                                <!-- Depot ARCTIC 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500791</Asset>
+                                                <!-- Depot ARCTIC 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500792</Asset>
+                                                <!-- Depot ARCTIC 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500793</Asset>
+                                                <!-- Depot ARCTIC 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500754</Asset>
+                                                <!-- Depot Underground-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500778</Asset>
+                                                <!-- Depot Underground NW-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500779</Asset>
+                                                <!-- Depot Underground AFRICA-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500794</Asset>
+                                                <!-- Depot Underground ARCTIC-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500755</Asset>
+                                                <!-- warehouse 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500756</Asset>
+                                                <!-- warehouse 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500757</Asset>
+                                                <!-- warehouse 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500758</Asset>
+                                                <!-- warehouse 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500780</Asset>
+                                                <!-- warehouse NW 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500781</Asset>
+                                                <!-- warehouse NW 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500782</Asset>
+                                                <!-- warehouse NW 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500783</Asset>
+                                                <!-- warehouse NW 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500784</Asset>
+                                                <!-- warehouse AFRICA 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500785</Asset>
+                                                <!-- warehouse AFRICA 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500786</Asset>
+                                                <!-- warehouse AFRICA 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500787</Asset>
+                                                <!-- warehouse AFRICA 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500795</Asset>
+                                                <!-- warehouse ARCTIC 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500796</Asset>
+                                                <!-- warehouse ARCTIC 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500797</Asset>
+                                                <!-- warehouse ARCTIC 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500798</Asset>
+                                                <!-- warehouse ARCTIC 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504893</Asset>
+                                                <!-- Warehouse zanto OW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504897</Asset>
+                                                <!-- Warehouse zanto NW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504901</Asset>
+                                                <!-- Warehouse zanto AFRICA LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504905</Asset>
+                                                <!-- Warehouse zanto ARCTIC LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504894</Asset>
+                                                <!-- Warehouse zanto OW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504898</Asset>
+                                                <!-- Warehouse zanto NW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504902</Asset>
+                                                <!-- Warehouse zanto AFRICA LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504906</Asset>
+                                                <!-- Warehouse zanto ARCTIC LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504895</Asset>
+                                                <!-- Warehouse zanto OW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504899</Asset>
+                                                <!-- Warehouse zanto NW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504903</Asset>
+                                                <!-- Warehouse zanto AFRICA LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504907</Asset>
+                                                <!-- Warehouse zanto ARCTIC LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504896</Asset>
+                                                <!-- Warehouse zanto OW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504900</Asset>
+                                                <!-- Warehouse zanto NW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504904</Asset>
+                                                <!-- Warehouse zanto AFRICA LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504908</Asset>
+                                                <!-- Warehouse zanto ARCTIC LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504909</Asset>
+                                                <!-- Depot zanto OW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504913</Asset>
+                                                <!-- Depot zanto NW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504917</Asset>
+                                                <!-- Depot zanto AFRICA LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504921</Asset>
+                                                <!-- Depot zanto ARCTIC LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504910</Asset>
+                                                <!-- Depot zanto OW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504914</Asset>
+                                                <!-- Depot zanto NW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504918</Asset>
+                                                <!-- Depot zanto AFRICA LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504922</Asset>
+                                                <!-- Depot zanto ARCTIC LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504911</Asset>
+                                                <!-- Depot zanto OW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504915</Asset>
+                                                <!-- Depot zanto NW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504919</Asset>
+                                                <!-- Depot zanto AFRICA LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504923</Asset>
+                                                <!-- Depot zanto ARCTIC LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504912</Asset>
+                                                <!-- Depot zanto OW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504916</Asset>
+                                                <!-- Depot zanto NW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504920</Asset>
+                                                <!-- Depot zanto AFRICA LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504924</Asset>
+                                                <!-- Depot zanto ARCTIC LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504925</Asset>
+                                                <!-- Depot Harbor 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504926</Asset>
+                                                <!-- Depot Harbor 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504927</Asset>
+                                                <!-- Depot Harbor 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504928</Asset>
+                                                <!-- Depot Harbor 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504929</Asset>
+                                                <!-- Depot Harbor NW 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504930</Asset>
+                                                <!-- Depot Harbor NW 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504931</Asset>
+                                                <!-- Depot Harbor NW 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504932</Asset>
+                                                <!-- Depot Harbor NW 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504933</Asset>
+                                                <!-- Depot Harbor AFRICA 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504934</Asset>
+                                                <!-- Depot Harbor AFRICA 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504935</Asset>
+                                                <!-- Depot Harbor AFRICA 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504936</Asset>
+                                                <!-- Depot Harbor AFRICA 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504937</Asset>
+                                                <!-- Depot Harbor ARCTIC 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504938</Asset>
+                                                <!-- Depot Harbor ARCTIC 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504939</Asset>
+                                                <!-- Depot Harbor ARCTIC 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504940</Asset>
+                                                <!-- Depot Harbor ARCTIC 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504969</Asset>
+                                                <!-- harbor warehouse 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504970</Asset>
+                                                <!-- harbor warehouse 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504971</Asset>
+                                                <!-- harbor warehouse 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504972</Asset>
+                                                <!-- harbor warehouse 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504973</Asset>
+                                                <!-- harbor warehouse NW 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504974</Asset>
+                                                <!-- harbor warehouse NW 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504975</Asset>
+                                                <!-- harbor warehouse NW 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504976</Asset>
+                                                <!-- harbor warehouse NW 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504977</Asset>
+                                                <!-- harbor warehouse AFRICA 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504978</Asset>
+                                                <!-- harbor warehouse AFRICA 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504979</Asset>
+                                                <!-- harbor warehouse AFRICA 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504980</Asset>
+                                                <!-- harbor warehouse AFRICA 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504981</Asset>
+                                                <!-- harbor warehouse ARCTIC 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504982</Asset>
+                                                <!-- harbor warehouse ARCTIC 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504983</Asset>
+                                                <!-- harbor warehouse ARCTIC 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504984</Asset>
+                                                <!-- harbor warehouse ARCTIC 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504997</Asset>
+                                                <!-- harbor depot zanto OW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505062</Asset>
+                                                <!-- harbor depot zanto NW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505054</Asset>
+                                                <!-- harbor depot zanto AFRICA LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505058</Asset>
+                                                <!-- harbor depot zanto ARCTIC LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504998</Asset>
+                                                <!-- harbor depot zanto OW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505051</Asset>
+                                                <!-- harbor depot zanto NW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505055</Asset>
+                                                <!-- harbor depot zanto AFRICA LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505059</Asset>
+                                                <!-- harbor depot zanto ARCTIC LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504999</Asset>
+                                                <!-- harbor depot zanto OW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505052</Asset>
+                                                <!-- harbor depot zanto NW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505056</Asset>
+                                                <!-- harbor depot zanto AFRICA LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505060</Asset>
+                                                <!-- harbor depot zanto ARCTIC LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505050</Asset>
+                                                <!-- harbor depot zanto OW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505053</Asset>
+                                                <!-- harbor depot zanto NW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505057</Asset>
+                                                <!-- harbor depot zanto AFRICA LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505061</Asset>
+                                                <!-- harbor depot zanto ARCTIC LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505063</Asset>
+                                                <!-- harbor warehouse zanto OW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505067</Asset>
+                                                <!-- harbor warehouse zanto NW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505071</Asset>
+                                                <!-- harbor warehouse zanto AFRICA LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505075</Asset>
+                                                <!-- harbor warehouse zanto ARCTIC LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505064</Asset>
+                                                <!-- harbor warehouse zanto OW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505068</Asset>
+                                                <!-- harbor warehouse zanto NW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505072</Asset>
+                                                <!-- harbor warehouse zanto AFRICA LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505076</Asset>
+                                                <!-- harbor warehouse zanto ARCTIC LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505065</Asset>
+                                                <!-- harbor warehouse zanto OW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505069</Asset>
+                                                <!-- harbor warehouse zanto NW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505073</Asset>
+                                                <!-- harbor warehouse zanto AFRICA LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505077</Asset>
+                                                <!-- harbor warehouse zanto ARCTIC LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505066</Asset>
+                                                <!-- harbor warehouse zanto OW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505070</Asset>
+                                                <!-- harbor warehouse zanto NW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505074</Asset>
+                                                <!-- harbor warehouse zanto AFRICA LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505078</Asset>
+                                                <!-- harbor warehouse zanto ARCTIC LvL 3-->
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337500738</Asset>
+                                                <!-- Depot 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500739</Asset>
+                                                <!-- Depot 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500740</Asset>
+                                                <!-- Depot 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500741</Asset>
+                                                <!-- Depot 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500770</Asset>
+                                                <!-- Depot NW 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500771</Asset>
+                                                <!-- Depot NW 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500772</Asset>
+                                                <!-- Depot NW 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500773</Asset>
+                                                <!-- Depot NW 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500774</Asset>
+                                                <!-- Depot AFRICA 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500775</Asset>
+                                                <!-- Depot AFRICA 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500776</Asset>
+                                                <!-- Depot AFRICA 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500777</Asset>
+                                                <!-- Depot AFRICA 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500790</Asset>
+                                                <!-- Depot ARCTIC 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500791</Asset>
+                                                <!-- Depot ARCTIC 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500792</Asset>
+                                                <!-- Depot ARCTIC 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500793</Asset>
+                                                <!-- Depot ARCTIC 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500754</Asset>
+                                                <!-- Depot Underground-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500778</Asset>
+                                                <!-- Depot Underground NW-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500779</Asset>
+                                                <!-- Depot Underground AFRICA-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500794</Asset>
+                                                <!-- Depot Underground ARCTIC-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500755</Asset>
+                                                <!-- warehouse 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500756</Asset>
+                                                <!-- warehouse 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500757</Asset>
+                                                <!-- warehouse 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500758</Asset>
+                                                <!-- warehouse 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500780</Asset>
+                                                <!-- warehouse NW 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500781</Asset>
+                                                <!-- warehouse NW 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500782</Asset>
+                                                <!-- warehouse NW 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500783</Asset>
+                                                <!-- warehouse NW 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500784</Asset>
+                                                <!-- warehouse AFRICA 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500785</Asset>
+                                                <!-- warehouse AFRICA 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500786</Asset>
+                                                <!-- warehouse AFRICA 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500787</Asset>
+                                                <!-- warehouse AFRICA 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500795</Asset>
+                                                <!-- warehouse ARCTIC 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500796</Asset>
+                                                <!-- warehouse ARCTIC 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500797</Asset>
+                                                <!-- warehouse ARCTIC 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337500798</Asset>
+                                                <!-- warehouse ARCTIC 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504893</Asset>
+                                                <!-- Warehouse zanto OW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504897</Asset>
+                                                <!-- Warehouse zanto NW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504901</Asset>
+                                                <!-- Warehouse zanto AFRICA LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504905</Asset>
+                                                <!-- Warehouse zanto ARCTIC LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504894</Asset>
+                                                <!-- Warehouse zanto OW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504898</Asset>
+                                                <!-- Warehouse zanto NW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504902</Asset>
+                                                <!-- Warehouse zanto AFRICA LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504906</Asset>
+                                                <!-- Warehouse zanto ARCTIC LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504895</Asset>
+                                                <!-- Warehouse zanto OW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504899</Asset>
+                                                <!-- Warehouse zanto NW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504903</Asset>
+                                                <!-- Warehouse zanto AFRICA LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504907</Asset>
+                                                <!-- Warehouse zanto ARCTIC LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504896</Asset>
+                                                <!-- Warehouse zanto OW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504900</Asset>
+                                                <!-- Warehouse zanto NW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504904</Asset>
+                                                <!-- Warehouse zanto AFRICA LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504908</Asset>
+                                                <!-- Warehouse zanto ARCTIC LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504909</Asset>
+                                                <!-- Depot zanto OW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504913</Asset>
+                                                <!-- Depot zanto NW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504917</Asset>
+                                                <!-- Depot zanto AFRICA LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504921</Asset>
+                                                <!-- Depot zanto ARCTIC LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504910</Asset>
+                                                <!-- Depot zanto OW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504914</Asset>
+                                                <!-- Depot zanto NW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504918</Asset>
+                                                <!-- Depot zanto AFRICA LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504922</Asset>
+                                                <!-- Depot zanto ARCTIC LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504911</Asset>
+                                                <!-- Depot zanto OW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504915</Asset>
+                                                <!-- Depot zanto NW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504919</Asset>
+                                                <!-- Depot zanto AFRICA LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504923</Asset>
+                                                <!-- Depot zanto ARCTIC LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504912</Asset>
+                                                <!-- Depot zanto OW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504916</Asset>
+                                                <!-- Depot zanto NW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504920</Asset>
+                                                <!-- Depot zanto AFRICA LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504924</Asset>
+                                                <!-- Depot zanto ARCTIC LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504925</Asset>
+                                                <!-- Depot Harbor 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504926</Asset>
+                                                <!-- Depot Harbor 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504927</Asset>
+                                                <!-- Depot Harbor 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504928</Asset>
+                                                <!-- Depot Harbor 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504929</Asset>
+                                                <!-- Depot Harbor NW 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504930</Asset>
+                                                <!-- Depot Harbor NW 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504931</Asset>
+                                                <!-- Depot Harbor NW 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504932</Asset>
+                                                <!-- Depot Harbor NW 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504933</Asset>
+                                                <!-- Depot Harbor AFRICA 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504934</Asset>
+                                                <!-- Depot Harbor AFRICA 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504935</Asset>
+                                                <!-- Depot Harbor AFRICA 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504936</Asset>
+                                                <!-- Depot Harbor AFRICA 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504937</Asset>
+                                                <!-- Depot Harbor ARCTIC 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504938</Asset>
+                                                <!-- Depot Harbor ARCTIC 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504939</Asset>
+                                                <!-- Depot Harbor ARCTIC 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504940</Asset>
+                                                <!-- Depot Harbor ARCTIC 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504969</Asset>
+                                                <!-- harbor warehouse 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504970</Asset>
+                                                <!-- harbor warehouse 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504971</Asset>
+                                                <!-- harbor warehouse 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504972</Asset>
+                                                <!-- harbor warehouse 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504973</Asset>
+                                                <!-- harbor warehouse NW 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504974</Asset>
+                                                <!-- harbor warehouse NW 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504975</Asset>
+                                                <!-- harbor warehouse NW 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504976</Asset>
+                                                <!-- harbor warehouse NW 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504977</Asset>
+                                                <!-- harbor warehouse AFRICA 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504978</Asset>
+                                                <!-- harbor warehouse AFRICA 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504979</Asset>
+                                                <!-- harbor warehouse AFRICA 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504980</Asset>
+                                                <!-- harbor warehouse AFRICA 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504981</Asset>
+                                                <!-- harbor warehouse ARCTIC 0 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504982</Asset>
+                                                <!-- harbor warehouse ARCTIC 1 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504983</Asset>
+                                                <!-- harbor warehouse ARCTIC 2 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504984</Asset>
+                                                <!-- harbor warehouse ARCTIC 3 -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504997</Asset>
+                                                <!-- harbor depot zanto OW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505062</Asset>
+                                                <!-- harbor depot zanto NW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505054</Asset>
+                                                <!-- harbor depot zanto AFRICA LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505058</Asset>
+                                                <!-- harbor depot zanto ARCTIC LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504998</Asset>
+                                                <!-- harbor depot zanto OW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505051</Asset>
+                                                <!-- harbor depot zanto NW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505055</Asset>
+                                                <!-- harbor depot zanto AFRICA LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505059</Asset>
+                                                <!-- harbor depot zanto ARCTIC LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337504999</Asset>
+                                                <!-- harbor depot zanto OW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505052</Asset>
+                                                <!-- harbor depot zanto NW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505056</Asset>
+                                                <!-- harbor depot zanto AFRICA LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505060</Asset>
+                                                <!-- harbor depot zanto ARCTIC LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505050</Asset>
+                                                <!-- harbor depot zanto OW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505053</Asset>
+                                                <!-- harbor depot zanto NW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505057</Asset>
+                                                <!-- harbor depot zanto AFRICA LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505061</Asset>
+                                                <!-- harbor depot zanto ARCTIC LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505063</Asset>
+                                                <!-- harbor warehouse zanto OW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505067</Asset>
+                                                <!-- harbor warehouse zanto NW LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505071</Asset>
+                                                <!-- harbor warehouse zanto AFRICA LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505075</Asset>
+                                                <!-- harbor warehouse zanto ARCTIC LvL 0-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505064</Asset>
+                                                <!-- harbor warehouse zanto OW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505068</Asset>
+                                                <!-- harbor warehouse zanto NW LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505072</Asset>
+                                                <!-- harbor warehouse zanto AFRICA LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505076</Asset>
+                                                <!-- harbor warehouse zanto ARCTIC LvL 1-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505065</Asset>
+                                                <!-- harbor warehouse zanto OW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505069</Asset>
+                                                <!-- harbor warehouse zanto NW LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505073</Asset>
+                                                <!-- harbor warehouse zanto AFRICA LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505077</Asset>
+                                                <!-- harbor warehouse zanto ARCTIC LvL 2-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505066</Asset>
+                                                <!-- harbor warehouse zanto OW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505070</Asset>
+                                                <!-- harbor warehouse zanto NW LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505074</Asset>
+                                                <!-- harbor warehouse zanto AFRICA LvL 3-->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505078</Asset>
+                                                <!-- harbor warehouse zanto ARCTIC LvL 3-->
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2024-10-13 15:13:13 -->

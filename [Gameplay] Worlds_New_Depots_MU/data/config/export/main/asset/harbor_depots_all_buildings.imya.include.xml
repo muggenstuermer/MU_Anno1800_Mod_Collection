@@ -1,0 +1,38 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Change the Max Storage Capacity of all Harbor Depot Buildings per LvL." Description="You can Increase or Decrease the Max Storage Capacity of all Harbor Depot Buildings" />
+  
+  <!-- Change Max Storage Capacity of all LvL 0 Depot Buildings Harbor  -->
+  <ModOp Type="replace" GUID="1337504925,1337504929,1337504933,1337504937" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AllDepotsHarborLvL0MU">
+    <StorageMax>30</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="AllDepotsHarborLvL0MU" ExposeID="Custom Max Storage Capacity for all all LvL 0 Harbor Depot Buildings" Description="Sets the Max Storage Capacity of all Harbor Depot LvL 0 Buildings ( Mod default settings = 30 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="1" />
+  </ImyaExpose>
+ 
+ <!-- Change Max Storage Capacity of all LvL 1 Depot Buildings Harbor  -->
+  <ModOp Type="replace" GUID="1337504926,1337504930,1337504934,1337504938" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AllDepotsHarborLvL1MU">
+    <StorageMax>65</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="AllDepotsHarborLvL1MU" ExposeID="Custom Max Storage Capacity for all all LvL 1 Harbor Depot Buildings" Description="Sets the Max Storage Capacity of all Harbor Depot LvL 1 Buildings ( Mod default settings = 65 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="1" />
+  </ImyaExpose>
+ 
+ <!-- Change Max Storage Capacity of all LvL 2 Depot Buildings Harbor  -->
+  <ModOp Type="replace" GUID="1337504927,1337504931,1337504935,1337504939" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AllDepotsHarborLvL2MU">
+    <StorageMax>105</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="AllDepotsHarborLvL2MU" ExposeID="Custom Max Storage Capacity for all all LvL 2 Harbor Depot Buildings" Description="Sets the Max Storage Capacity of all Harbor Depot LvL 2 Buildings ( Mod default settings = 105 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  
+  <!-- Change Max Storage Capacity of all LvL 3 Depot Buildings Harbor  -->
+  <ModOp Type="replace" GUID="1337504928,1337504932,1337504936,1337504940" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AllDepotsHarborLvL3MU">
+    <StorageMax>150</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="AllDepotsHarborLvL3MU" ExposeID="Custom Max Storage Capacity for all all LvL 3 Harbor Depot Buildings" Description="Sets the Max Storage Capacity of all Harbor Depot LvL 3 Buildings ( Mod default settings = 150 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="1" />
+  </ImyaExpose>
+</ModOps>
+
+<!-- 2024-10-13 15:00:31 -->

@@ -1,10 +1,12 @@
 {
-  "Version": "1.22",
+  "Version": "1.3",
   "ModID": "Worlds_New_Depots_MU",
   "IncompatibleIds": [],
   "ModDependencies": [ 
 	"Shared_Objects_MU",
 	"NewWorldDocklands"
+  ],
+  "LoadAfterIds": [
   ],
   "Category": {
     "Chinese": "Gameplay",
@@ -36,7 +38,7 @@
     "Chinese": null,
     "English": "This mod provides upgradeable depots for the land in Dockland style.\nAlso 2 upgradeable warehouses with a passage in Dockland look and underground depots.\nOnly in the Old World everything can be changed with the skin system.",
     "French": "Ce mod fournit des dépôts améliorables pour la terre dans le style Dockland.\nEn outre, 2 entrepôts améliorables avec un passage dans le style Dockland et des dépôts souterrains.\nUniquement dans le Vieux Monde, tout peut être modifié avec le système de skin.",
-    "German": "Dieser Mod stell upgradebare Depots für das Land im Dockland style zur verfügung.\nAuch 2 upgradebare Lagerhäuser mit einem Durchgang in Docklands optik und unterirdische Depots.\nNur in der Alten Welt kann alles mit dem skinsystem verändert werden.",
+    "German": "Dieser Mod stell upgradebare Depots für das Land + Haden im Dockland style zur verfügung.\nAuch upgradebare Lagerhäuser mit einem Durchgang in Docklands optik und unterirdische Depots.\nEs kann alles mit dem skinsystem verändert werden.",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -67,6 +69,6 @@
     }
   ],
   "CreatorName": "muggenstuermer",
-  "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
+  "CreatorContact": "https://mod.io/g/anno-1800/u/muggenstuermer",
   "Image" : null
 }

@@ -1,0 +1,38 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Change the Max Storage Capacity of all Land Depot Buildings per LvL." Description="You can Increase or Decrease the Max Storage Capacity of all Land Depot Buildings" />
+  
+  <!-- Change Max Storage Capacity of all LvL 0 Depot Buildings Land  -->
+  <ModOp Type="replace" GUID="1337500738,1337500770,1337500774,1337500790" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AllDepotsLandLvL0MU">
+    <StorageMax>30</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="AllDepotsLandLvL0MU" ExposeID="Custom Max Storage Capacity for all all LvL 0 Land Depot Buildings" Description="Sets the Max Storage Capacity of all Land Depot LvL 0 Buildings ( Mod default settings = 30 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="1" />
+  </ImyaExpose>
+ 
+ <!-- Change Max Storage Capacity of all LvL 1 Depot Buildings Land  -->
+  <ModOp Type="replace" GUID="1337500739,1337500771,1337500775,1337500791" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AllDepotsLandLvL1MU">
+    <StorageMax>65</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="AllDepotsLandLvL1MU" ExposeID="Custom Max Storage Capacity for all all LvL 1 Land Depot Buildings" Description="Sets the Max Storage Capacity of all Land Depot LvL 1 Buildings ( Mod default settings = 65 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="1" />
+  </ImyaExpose>
+ 
+ <!-- Change Max Storage Capacity of all LvL 2 Depot Buildings Land  -->
+  <ModOp Type="replace" GUID="1337500740,1337500772,1337500776,1337500792" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AllDepotsLandLvL2MU">
+    <StorageMax>105</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="AllDepotsLandLvL2MU" ExposeID="Custom Max Storage Capacity for all all LvL 2 Land Depot Buildings" Description="Sets the Max Storage Capacity of all Land Depot LvL 2 Buildings ( Mod default settings = 105 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="1" />
+  </ImyaExpose>
+  
+  <!-- Change Max Storage Capacity of all LvL 3 Depot Buildings Land  -->
+  <ModOp Type="replace" GUID="1337500741,1337500773,1337500777,1337500793" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AllDepotsLandLvL3MU">
+    <StorageMax>150</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="AllDepotsLandLvL3MU" ExposeID="Custom Max Storage Capacity for all all LvL 3 Land Depot Buildings" Description="Sets the Max Storage Capacity of all Land Depot LvL 3 Buildings ( Mod default settings = 150 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="1" />
+  </ImyaExpose>
+</ModOps>
+
+<!-- 2024-10-13 15:05:18 -->

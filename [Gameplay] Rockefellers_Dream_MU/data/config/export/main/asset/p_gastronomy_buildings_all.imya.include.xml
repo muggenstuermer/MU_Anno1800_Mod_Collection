@@ -1,12 +1,12 @@
 <ModOps>
-    <!-- Description -->
-    <ImyaTweaks Title="Change the Supply Range of all Palace Gastronomy Buildings." Description="You can Increase or Decrease the Ranges of all Gastronomy Buildings on Land and Water" />
-    
-	<!-- Change ProductionBuffDistance of all Palace Gastronomy Buildings  -->
-    <ModOp Type="replace" GUID="1337502233,1337502235,1337502237,1337502239,1337502241,1337502243,1337502249,1337502251,1337502253,1337502255,1337502257,1337502259,1337502267,1337502269,1337502271,1337502273,1337502275,1337502277,1337504277,1337504278,1337504279,1337504280,1337504281,1337504282,1337504284,1337504285,1337504286,1337504287,1337504288,1337504289,1337504291,1337504292,1337504293,1337504294,1337504295,1337504296" Path="/Values/BuffFactory/ProductionBuffDistance" ModOpID="ProductionBuffDistanceAllPalaceGastronomyMU">
-        <ProductionBuffDistance>45</ProductionBuffDistance>
-    </ModOp>
-    <ImyaExpose Path="self::ProductionBuffDistance" ModOpID="ProductionBuffDistanceAllPalaceGastronomyMU" ExposeID="Custom ProductionBuffDistance for all Palace Gastronomy Buildings" Description="Sets the ProductionBuffDistance for all Palace Gastronomy Buildings ( Mod default settings = 45 )" Kind="Slider">
-        <SliderDefinition Min="0" Max="100" Stepping="1" />
-    </ImyaExpose>
+  <!-- Description -->
+  <ImyaTweaks Title="Change the Supply Range of all Palace Gastronomy Buildings." Description="You can Increase or Decrease the Ranges of all Gastronomy Buildings on Land and Water" />
+  
+  <!-- Change ProductionBuffDistance of all Palace Gastronomy Buildings  -->
+  <ModOp Type="replace" GUID="1337502233,1337502235,1337502237,1337502239,1337502241,1337502243,1337502249,1337502251,1337502253,1337502255,1337502257,1337502259,1337502267,1337502269,1337502271,1337502273,1337502275,1337502277,1337504277,1337504278,1337504279,1337504280,1337504281,1337504282,1337504284,1337504285,1337504286,1337504287,1337504288,1337504289,1337504291,1337504292,1337504293,1337504294,1337504295,1337504296" Path="/Values/BuffFactory/ProductionBuffDistance" ModOpID="ProductionBuffDistanceAllPalaceGastronomyMU">
+    <ProductionBuffDistance>45</ProductionBuffDistance>
+  </ModOp>
+  <ImyaExpose Path="self::ProductionBuffDistance" ModOpID="ProductionBuffDistanceAllPalaceGastronomyMU" ExposeID="Custom ProductionBuffDistance for all Palace Gastronomy Buildings" Description="Sets the ProductionBuffDistance for all Palace Gastronomy Buildings ( Mod default settings = 45 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
 </ModOps>

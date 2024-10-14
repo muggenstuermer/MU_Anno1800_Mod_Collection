@@ -23,6 +23,13 @@ Changelog - 1.33
 	- new objects added.
 	- reduce content.txt files to english only.
 	
+---------------------------
+Changelog - 1.34
+---------------------------
+
+	- new objects added.
+	- update README,modinfo.json and content_en.txt
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

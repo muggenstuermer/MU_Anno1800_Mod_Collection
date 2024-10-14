@@ -9,8 +9,8 @@
   <ImyaExpose Path="self::FullSatisfactionDistance" ModOpID="FullSatisfactionDistance1x1AllMarketsOWMU" ExposeID="Custom FullSatisfactionDistance for 1x1 Markets OW" Description="Sets the FullSatisfactionDistance for the 1x1 Markets in the OW ( Mod default settings = 15 )" Kind="Slider">
     <SliderDefinition Min="0" Max="50" Stepping="1" />
   </ImyaExpose>
-  
-  <!-- Change NoSatisfactionDistance of 1x1 Markets OW-->
+ 
+ <!-- Change NoSatisfactionDistance of 1x1 Markets OW-->
   <ModOp Type="replace" GUID="1337500210,1337500211,1337500212,1337500213,1337500214,1337500215,1337500216,1337500217,1337500218,1337500219,1337500220,1337500221,1337500222,1337500223,1337504063,1337504064,1337504065,1337504066,1337504067,1337504068,1337504069,1337504070,1337504071,1337504072,1337504073,1337504074,1337504075,1337504076" Path="/Values/PublicService/NoSatisfactionDistance" ModOpID="NoSatisfactionDistance1x1AllMarketsOWMU">
     <NoSatisfactionDistance>40</NoSatisfactionDistance>
   </ModOp>

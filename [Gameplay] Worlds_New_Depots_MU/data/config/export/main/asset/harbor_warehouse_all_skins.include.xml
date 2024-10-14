@@ -1,0 +1,402 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!--
+
+
+OW
+1337504957 - Harbor Warehouse_LvL_0 Skin
+1337504960 - Harbor Warehouse_LvL_1 Skin
+1337504963 - Harbor Warehouse_LvL_2 Skin
+1337504966 - Harbor Warehouse_LvL_3 Skin
+
+NW
+1337504958 - Harbor Warehouse_NW_LvL_0 Skin
+1337504961 - Harbor Warehouse_NW_LvL_1 Skin
+1337504964 - Harbor Warehouse_NW_LvL_2 Skin
+1337504967 - Harbor Warehouse_NW_LvL_3 Skin
+
+AFRICA
+1337504959 - Harbor Warehouse_AFRICA_LvL_0 Skin
+1337504962 - Harbor Warehouse_AFRICA_LvL_1 Skin
+1337504965 - Harbor Warehouse_AFRICA_LvL_2 Skin
+1337504968 - Harbor Warehouse_AFRICA_LvL_3 Skin
+
+  
+  -->
+    <ModOp Type="addnextSibling" GUID="1010519">
+        <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Dockland Warehouse Skins START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+        <!-- Warehouse_Skin_OW_LVL_0-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504957</GUID>
+                    <Name>Warehouse_Skin_OW_LVL_0</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_ow_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_OW_LVL_0</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180023</SkinName>
+                    <!-- Die Alte Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\ow\dockland_arch_01_lvl_00.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\ow\dockland_arch_02_lvl_00.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_NW_LVL_0-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504958</GUID>
+                    <Name>Warehouse_Skin_NW_LVL_0</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_NW_LVL_0</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180025</SkinName>
+                    <!-- Die Neue Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\nw\dockland_arch_01_lvl_00.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\nw\dockland_arch_02_lvl_00.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_AFRICA_LVL_0-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504959</GUID>
+                    <Name>Warehouse_Skin_AFRICA_LVL_0</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_africa_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_AFRICA_LVL_0</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>112132</SkinName>
+                    <!-- Enbesa -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\africa\dockland_arch_01_lvl_00.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\africa\dockland_arch_02_lvl_00.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_OW_LVL_1-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504960</GUID>
+                    <Name>Warehouse_Skin_OW_LVL_1</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_ow_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_OW_LVL_1</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>23852</SkinName>
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\ow\dockland_arch_01_lvl_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\ow\dockland_arch_02_lvl_01.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_NW_LVL_1-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504961</GUID>
+                    <Name>Warehouse_Skin_NW_LVL_1</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_NW_LVL_1</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180025</SkinName>
+                    <!-- Die Neue Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\nw\dockland_arch_01_lvl_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\nw\dockland_arch_02_lvl_01.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_AFRICA_LVL_1-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504962</GUID>
+                    <Name>Warehouse_Skin_AFRICA_LVL_1</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_africa_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_AFRICA_LVL_1</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>112132</SkinName>
+                    <!-- Enbesa -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\africa\dockland_arch_01_lvl_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\africa\dockland_arch_02_lvl_01.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_OW_LVL_2-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504963</GUID>
+                    <Name>Warehouse_Skin_OW_LVL_2</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_ow_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_OW_LVL_2</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180023</SkinName>
+                    <!-- Die Alte Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\ow\dockland_arch_01_lvl_02.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\ow\dockland_arch_02_lvl_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_NW_LVL_2-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504964</GUID>
+                    <Name>Warehouse_Skin_NW_LVL_2</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_NW_LVL_2</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180025</SkinName>
+                    <!-- Die Neue Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\nw\dockland_arch_01_lvl_02.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\nw\dockland_arch_02_lvl_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_AFRICA_LVL_2-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504965</GUID>
+                    <Name>Warehouse_Skin_AFRICA_LVL_2</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_africa_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_AFRICA_LVL_2</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>112132</SkinName>
+                    <!-- Enbesa -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\africa\dockland_arch_01_lvl_02.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\africa\dockland_arch_02_lvl_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_OW_LVL_3-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504966</GUID>
+                    <Name>Warehouse_Skin_OW_LVL_3</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_ow_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_OW_LVL_3</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180023</SkinName>
+                    <!-- Die Alte Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\ow\dockland_arch_01_lvl_03.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\ow\dockland_arch_02_lvl_03.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_NW_LVL_3-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504967</GUID>
+                    <Name>Warehouse_Skin_NW_LVL_3</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_NW_LVL_3</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>180025</SkinName>
+                    <!-- Die Neue Welt -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\nw\dockland_arch_01_lvl_03.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\nw\dockland_arch_02_lvl_03.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- Warehouse_Skin_AFRICA_LVL_3-->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504968</GUID>
+                    <Name>Warehouse_Skin_AFRICA_LVL_3</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_africa_skin.png</IconFilename>
+                    <ID>Warehouse_Skin_AFRICA_LVL_3</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>112132</SkinName>
+                    <!-- Enbesa -->
+                    <SkinDescription>23853</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\africa\dockland_arch_01_lvl_03.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\new_depots\buildings\special\harbor\docklands_arch_warehouse\africa\dockland_arch_02_lvl_03.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2024-10-13 15:03:23 -->

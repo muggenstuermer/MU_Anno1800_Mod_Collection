@@ -48,12 +48,14 @@ And there are also 2 types of passages....yes,also possible on the water :)
 
 ### Necessary active mods :
 
-- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
+
 
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 [Download latest Tourists_Alternativ_Buildings_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
 
 ## Changelogs
 
@@ -87,7 +89,13 @@ Changelog - 1.4
 	- change alternative buildings into skins !
 	- adding several bus stations.
 	- adding a pedestrian overpass with spiral staircase
-	- all are also available on the water except the skins
+	- all are also available on the water except the skins from Hotel,Bar etc
+	
+---------------------------
+Changelog - 1.41
+---------------------------
+
+- update README,modinfo.json and content_en.txt
 	
 	
 	

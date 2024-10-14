@@ -1,0 +1,14 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Change the Max Storage Capacity of all Land Underground Depot Buildings." Description="You can Increase or Decrease the Max Storage Capacity of all Land Underground Depot Buildings" />
+  
+  <!-- Change Max Storage Capacity of Land Underground Depots Buildings  -->
+  <ModOp Type="replace" GUID="1337500754,1337500778,1337500779,1337500794" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="AllDepotsLandUndergroundMU">
+    <StorageMax>30</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="AllDepotsLandUndergroundMU" ExposeID="Custom Max Storage Capacity for all Land Underground Depot Buildings" Description="Sets the Max Storage Capacity of all Land Underground Depot Buildings ( Mod default settings = 30 )" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="1" />
+  </ImyaExpose>
+</ModOps>
+
+<!-- 2024-10-13 15:08:29 -->

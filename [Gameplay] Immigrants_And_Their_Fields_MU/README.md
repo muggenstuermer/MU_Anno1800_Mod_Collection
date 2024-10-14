@@ -17,11 +17,11 @@ Who knows, but maybe one or the other immigrant will discover his talent for the
 
 ### Necessary active mods :
 
-- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
 
-- ["Shared_Objects_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 
-- ["Streets_Related_MU" by @muggenstuermer](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+- ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
 
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
@@ -54,6 +54,13 @@ Changelog - 1.2
 ---------------------------
 
 	- after a long break, unfortunately lost the overview, therefore new version number 1.2
+	
+---------------------------
+Changelog - 1.21
+---------------------------
+
+	- corrections of some files and paths,because of modloader warnings.
+	- update README,modinfo.json and content_en.txt
 	
 	
 	

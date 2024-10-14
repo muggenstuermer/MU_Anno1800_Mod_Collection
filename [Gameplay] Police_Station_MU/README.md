@@ -29,6 +29,11 @@ The buildings have been integrated into the original building menu of the police
 
 For the Harbor a seperated menu is created,straight after SPIU-Harborlife.
 
+### Recommended active mods :
+
+- ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
+
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 [Download latest Police_Station_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
@@ -89,6 +94,12 @@ Changelog - 1.27
 	- korean translation file added. Big thx to @modpark817 for this translation
 	- reduce content.txt files to english only.
 	- SPIU-Harborlife support added.
+	
+---------------------------
+Changelog - 1.28
+---------------------------
+
+	- update README,modinfo.json and content_en.txt
 	
 	
 	
