@@ -1,9 +1,8 @@
 <ModOps>
   <!-- Description -->
   <ImyaTweaks Title="Attractiveness settings for the Harbor Bridges OW + NW" />
-  
   <!-- Change Attractiveness of the Mod bridges -->
-  <ModOp Type="replace" GUID="1337502558,1337502559,1337502560,1337502561,1337502562,1337502563,1337502564,1337502565,1337502566,1337502568,1337502582,1337502583,1337501057,1337501058,1337501143,1337501144,1337502611,1337502612,1337502613" Path="/Values/Culture/Attractiveness" ModOpID="AttractivenessOfHarborBridges_OW_NW_MU">
+  <ModOp Type="replace" GUID="1337502558,1337502559,1337502560,1337502561,1337502562,1337502563,1337502566,1337502568,1337502582,1337502583,1337501057,1337501058,1337501143,1337501144,1337502611,1337502612,1337502613" Path="/Values/Culture/Attractiveness" ModOpID="AttractivenessOfHarborBridges_OW_NW_MU">
     <Attractiveness>5</Attractiveness>
   </ModOp>
   <ImyaExpose Path="self::Attractiveness" ModOpID="AttractivenessOfHarborBridges_OW_NW_MU" ExposeID="Set Value For Attractiveness Of Harbor Bridges OW + NW MU" Description="Determines how many attraction points the Harbor Bridges in OW + NW gives ( Mod default settings = 5 )" Kind="Slider">
@@ -11,9 +10,8 @@
   </ImyaExpose>
   <!-- Description -->
   <ImyaTweaks Title="Attractiveness settings for the Harbor Bridges Enbesa" />
- 
- <!-- Change Attractiveness of the Mod bridges -->
-  <ModOp Type="replace" GUID="1337502588,1337502589,1337502590,1337502591,1337502592,1337502593,1337502594,1337502595,1337502596,1337502597,1337502598,1337502599,1337501145,1337501146" Path="/Values/Culture/Attractiveness" ModOpID="AttractivenessOfHarborBridges_AFRICA_MU">
+  <!-- Change Attractiveness of the Mod bridges -->
+  <ModOp Type="replace" GUID="1337502588,1337502589,1337502590,1337502591,1337502592,1337502593,1337502596,1337502597,1337502598,1337502599,1337501145,1337501146" Path="/Values/Culture/Attractiveness" ModOpID="AttractivenessOfHarborBridges_AFRICA_MU">
     <Attractiveness>5</Attractiveness>
   </ModOp>
   <ImyaExpose Path="self::Attractiveness" ModOpID="AttractivenessOfHarborBridges_AFRICA_MU" ExposeID="Set Value For Attractiveness Of Harbor Bridges Enbesa MU" Description="Determines how many attraction points the Harbor Bridges in Enbesa gives ( Mod default settings = 5 )" Kind="Slider">

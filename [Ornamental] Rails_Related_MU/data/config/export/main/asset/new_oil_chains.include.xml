@@ -1,0 +1,285 @@
+<ModOps>
+    <!--
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN OW xxxxxxxxxxxxxxxxxxxxxxxx
+1337505206 OIL CHAIN FOR OW
+
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN NW xxxxxxxxxxxxxxxxxxxxxxxx
+1337505207 OIL CHAIN FOR NW
+
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
+1337505208 OIL CHAIN FOR AFRICA
+
+1337505209 Trigger
+
+-->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL CHAIN All xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- OIL CHAIN OW -->
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505206</GUID>
+                    <Name>electricity oil chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_oil_harbor.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1337505178</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1337505193</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1337502581</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1337505166</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                                <Item>
+                                    <Building>1337505189</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                    <InfoTipHeight>600</InfoTipHeight>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Electricity</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14900</LineID>
+                    <TextOverride>500506</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+        <!-- OIL CHAIN NW -->
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505207</GUID>
+                    <Name>electricity oil chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_oil_harbor.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1337505179</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1337505197</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1337505096</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1337505167</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                                <Item>
+                                    <Building>1337505190</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                    <InfoTipHeight>600</InfoTipHeight>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Electricity</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14900</LineID>
+                    <TextOverride>500506</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+        <!-- OIL CHAIN AFRICA -->
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505208</GUID>
+                    <Name>electricity oil chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_oil_harbor.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1337505180</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1337505201</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1337502603</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1337505168</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                                <Item>
+                                    <Building>1337505191</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                    <InfoTipHeight>600</InfoTipHeight>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Electricity</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14900</LineID>
+                    <TextOverride>500506</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+	
+    <!-- asset pool electricity oil -->
+    <ModOp Type="add" GUID="130047" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337505206</Asset>
+        </Item>
+        <Item>
+            <Asset>1337505207</Asset>
+        </Item>
+    </ModOp>
+    <!-- asset pool electricity oil -->
+    <ModOp Type="add" GUID="270173" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337505208</Asset>
+        </Item>
+    </ModOp>
+    <!-- OW -->
+    <ModOp Type="addNextSibling" GUID="25000192" Path="Values/ConstructionCategory/BuildingList/Item[Building='500506']">
+        <Item>
+            <Building>1337505206</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500111" Path="Values/ConstructionCategory/BuildingList/Item[Building='1010521']">
+        <Item>
+            <Building>1337505206</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500945" Path="Values/ConstructionCategory/BuildingList/Item[Building='269756']">
+        <Item>
+            <Building>1337505206</Building>
+        </Item>
+    </ModOp>
+    <!-- NW -->
+    <ModOp Type="addNextSibling" GUID="25000194" Path="Values/ConstructionCategory/BuildingList/Item[Building='500916']">
+        <Item>
+            <Building>1337505207</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500149" Path="Values/ConstructionCategory/BuildingList/Item[Building='101277']">
+        <Item>
+            <Building>1337505207</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500950" Path="Values/ConstructionCategory/BuildingList/Item[Building='269835']">
+        <Item>
+            <Building>1337505207</Building>
+        </Item>
+    </ModOp>
+    <!-- AFRICA -->
+    <ModOp Type="addNextSibling" GUID="114554" Path="Values/ConstructionCategory/BuildingList/Item[Building='119030']">
+        <Item>
+            <Building>1337505208</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119014" Path="Values/ConstructionCategory/BuildingList/Item[Building='117860']">
+        <Item>
+            <Building>1337505208</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="119024" Path="Values/ConstructionCategory/BuildingList/Item[Building='119030']">
+        <Item>
+            <Building>1337505208</Building>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Freischaltung -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505209</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>500506</UnlockNeeded>
+                                <!-- oil chain ow original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337505206</Asset>
+                                                <!-- OIL CHAIN FOR OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505207</Asset>
+                                                <!-- OIL CHAIN FOR NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505208</Asset>
+                                                <!-- OIL CHAIN FOR AFRICA -->
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337505206</Asset>
+                                                <!-- OIL CHAIN FOR OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505207</Asset>
+                                                <!-- OIL CHAIN FOR NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505208</Asset>
+                                                <!-- OIL CHAIN FOR AFRICA -->
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2025-01-02 15:46:23 -->

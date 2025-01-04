@@ -1,0 +1,883 @@
+<ModOps>
+    <!--
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE SKINS ALL xxxxxxxxxxxxxxxxxxxxxxxx
+1337505182 OIL STORAGE Skin 02
+1337505183 OIL STORAGE Skin 03
+1337505184 OIL STORAGE Skin 04
+1337505185 OIL STORAGE Skin 05
+1337505186 OIL STORAGE Skin 06
+1337505187 OIL STORAGE Skin 07
+1337505188 OIL STORAGE Skin 08
+
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE OW xxxxxxxxxxxxxxxxxxxxxxxx
+1337505189 OIL STORAGE FOR OW
+
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE NW xxxxxxxxxxxxxxxxxxxxxxxx
+1337505190 OIL STORAGE FOR NW
+
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
+1337505191 OIL STORAGE FOR AFRICA
+
+1337505192 Trigger
+
+-->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL STORAGE SKINS ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- OIL STORAGE Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505182</GUID>
+                    <Name>OilStorageSkin_02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_02.png</IconFilename>
+                    <InfoDescription>100784</InfoDescription>
+                    <ID>OilStorageSkin_02</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL STORAGE Skin 03 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505183</GUID>
+                    <Name>OilStorageSkin_03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_03.png</IconFilename>
+                    <InfoDescription>100784</InfoDescription>
+                    <ID>OilStorageSkin_03</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_03.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL STORAGE Skin 04 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505184</GUID>
+                    <Name>OilStorageSkin_04</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_04.png</IconFilename>
+                    <InfoDescription>100784</InfoDescription>
+                    <ID>OilStorageSkin_04</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_04.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL STORAGE Skin 05 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505185</GUID>
+                    <Name>OilStorageSkin_05</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_05.png</IconFilename>
+                    <InfoDescription>100784</InfoDescription>
+                    <ID>OilStorageSkin_05</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_05.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL STORAGE Skin 06 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505186</GUID>
+                    <Name>OilStorageSkin_06</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_06.png</IconFilename>
+                    <InfoDescription>100784</InfoDescription>
+                    <ID>OilStorageSkin_06</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_06.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL STORAGE Skin 07 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505187</GUID>
+                    <Name>OilStorageSkin_07</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_07.png</IconFilename>
+                    <InfoDescription>100784</InfoDescription>
+                    <ID>OilStorageSkin_07</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_07.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL STORAGE Skin 08 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505188</GUID>
+                    <Name>OilStorageSkin_08</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_08.png</IconFilename>
+                    <InfoDescription>100784</InfoDescription>
+                    <ID>OilStorageSkin_08</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_08.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL STORAGE All xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- OIL STORAGE OW -->
+        <Asset>
+            <BaseAssetGUID>100784</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337505189</GUID>
+                    <Name>HarborOilDepot_Big_OW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_oil_storage.png</IconFilename>
+                    <InfoDescription>10952</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11150</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>100784</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505182</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505183</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505184</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505185</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505186</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505187</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505188</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <AmbientMoodProvider>
+                    <Murmur>Harbor</Murmur>
+                </AmbientMoodProvider>
+                <Constructable />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <TextOverride>100784</TextOverride>
+                </Text>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <!-- Gold -->
+                            <Amount>20000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <!-- Bretter -->
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <!-- Ziegelsteine -->
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <!-- Stahlträger -->
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <!-- Stahlbeton -->
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Attackable>
+                    <MaximumHitPoints>6000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                    <DefenseByAIFactor>330</DefenseByAIFactor>
+                    <TakeOverEffect>OnDeath</TakeOverEffect>
+                    <MoralePower>70</MoralePower>
+                    <IslandWarFlag>102303</IslandWarFlag>
+                    <ExplosionEffectsMin>2</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>2</ExplosionEffectsMax>
+                </Attackable>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>600</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <StorageBase>
+                    <ProductStorageList>120056</ProductStorageList>
+                </StorageBase>
+                <Locked />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>100</Amount>
+                            <InactiveAmount>100</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200920</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+            </Values>
+        </Asset>
+        <!-- OIL STORAGE NW -->
+        <Asset>
+            <BaseAssetGUID>100784</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337505190</GUID>
+                    <Name>HarborOilDepot_Big_NW</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_oil_storage.png</IconFilename>
+                    <InfoDescription>10952</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11150</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>100784</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505182</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505183</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505184</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505185</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505186</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505187</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505188</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <AmbientMoodProvider>
+                    <Murmur>Harbor</Murmur>
+                </AmbientMoodProvider>
+                <Constructable />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <TextOverride>100784</TextOverride>
+                </Text>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <!-- Gold -->
+                            <Amount>20000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <!-- Bretter -->
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <!-- Ziegelsteine -->
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <!-- Stahlträger -->
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <!-- Stahlbeton -->
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Attackable>
+                    <MaximumHitPoints>6000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                    <DefenseByAIFactor>330</DefenseByAIFactor>
+                    <TakeOverEffect>OnDeath</TakeOverEffect>
+                    <MoralePower>70</MoralePower>
+                    <IslandWarFlag>102303</IslandWarFlag>
+                    <ExplosionEffectsMin>2</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>2</ExplosionEffectsMax>
+                </Attackable>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>600</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <StorageBase>
+                    <ProductStorageList>120056</ProductStorageList>
+                </StorageBase>
+                <Locked />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>100</Amount>
+                            <InactiveAmount>100</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200920</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+            </Values>
+        </Asset>
+        <!-- OIL STORAGE AFRICA -->
+        <Asset>
+            <BaseAssetGUID>100784</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337505191</GUID>
+                    <Name>HarborOilDepot_Big_AFRICA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_oil_storage.png</IconFilename>
+                    <InfoDescription>10952</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11150</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>100784</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505182</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505183</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505184</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505185</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505186</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505187</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505188</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <AmbientMoodProvider>
+                    <Murmur>Harbor</Murmur>
+                </AmbientMoodProvider>
+                <Constructable />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <TextOverride>100784</TextOverride>
+                </Text>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <!-- Gold -->
+                            <Amount>20000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114356</Ingredient>
+                            <!-- Bretter -->
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114402</Ingredient>
+                            <!-- Ziegelsteine -->
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <!-- Stahlträger -->
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <!-- Stahlbeton -->
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Attackable>
+                    <MaximumHitPoints>6000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                    <DefenseByAIFactor>330</DefenseByAIFactor>
+                    <TakeOverEffect>OnDeath</TakeOverEffect>
+                    <MoralePower>70</MoralePower>
+                    <IslandWarFlag>102303</IslandWarFlag>
+                    <ExplosionEffectsMin>2</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>2</ExplosionEffectsMax>
+                </Attackable>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>600</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <StorageBase>
+                    <ProductStorageList>120056</ProductStorageList>
+                </StorageBase>
+                <Locked />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>100</Amount>
+                            <InactiveAmount>100</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200920</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- asset pool electricity oil -->
+    <ModOp Type="add" GUID="130047,130124,270173" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337505189</Asset>
+        </Item>
+        <Item>
+            <Asset>1337505190</Asset>
+        </Item>
+        <Item>
+            <Asset>1337505191</Asset>
+        </Item>
+    </ModOp>
+    <!-- OW Feedback balancing OW -->
+    <ModOp Type="add" GUID="2001096" Path="/Values/FeedbackSessionDescription/HarborConfig/WorkPlaceAssets">
+        <Item>
+            <WorkPlace>1337505189</WorkPlace>
+        </Item>
+        <Item>
+            <WorkPlace>1337505190</WorkPlace>
+        </Item>
+        <Item>
+            <WorkPlace>1337505191</WorkPlace>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="2001096,141486,142872" Path="/Values/FeedbackSessionDescription/HarborConfig/SpawnBuildings">
+        <Item>
+            <BuildingAsset>1337505189</BuildingAsset>
+            <WorkerAmount>2</WorkerAmount>
+        </Item>
+        <Item>
+            <BuildingAsset>1337505190</BuildingAsset>
+            <WorkerAmount>2</WorkerAmount>
+        </Item>
+        <Item>
+            <BuildingAsset>1337505191</BuildingAsset>
+            <WorkerAmount>2</WorkerAmount>
+        </Item>
+    </ModOp>
+    <!-- ItemEffectTargetPool - all production except powerplant - all production boosted by electricity - all heavy production - all ironworks and foundry - all oil wells -->
+    <ModOp Type="add" GUID="368,191508,193867" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337505189</GUID>
+        </Item>
+        <Item>
+            <GUID>1337505190</GUID>
+        </Item>
+        <Item>
+            <GUID>1337505191</GUID>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Freischaltung -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505192</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>100784</UnlockNeeded>
+                                <!-- oil store original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337505189</Asset>
+                                                <!-- OIL STORAGE FOR OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505190</Asset>
+                                                <!-- OIL STORAGE FOR NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505191</Asset>
+                                                <!-- OIL STORAGE FOR AFRICA -->
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337505189</Asset>
+                                                <!-- OIL STORAGE FOR OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505190</Asset>
+                                                <!-- OIL STORAGE FOR NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505191</Asset>
+                                                <!-- OIL STORAGE FOR AFRICA -->
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2025-01-02 15:50:09 -->

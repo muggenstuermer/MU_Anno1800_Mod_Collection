@@ -1,0 +1,1845 @@
+<ModOps>
+    <!--
+	
+xxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
+1337505859 BH Ornament23 Clothes Line
+1337505860 BH Ornament01 Wall
+1337505861 BH Ornament01 Wall Gate
+1337505862 BH Ornament01 Wall Gate 02
+1337505863 BH Ornament02 Wall Large
+1337505864 BH Ornament02 Wall Gate Large
+1337505865 BH Ornament11 Pipes
+1337505866 BH Ornament12 Barrel Pile
+1337505867 BH Ornament13 WoddenBoxes
+1337505868 BH Ornament14 Tanks
+1337505869 BH Ornament15 Water Tower
+1337505870 BH Ornament17 Shed
+1337505871 BH Ornament18 Pile Iron Bars
+1337505872 BH Ornament19 Pile Boxes and Barrels
+1337505873 BH Ornament21 Large Boxes
+1337505874 BH Ornament22 Gangway
+
+1337505905 Trigger
+
+
+-->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW CLOTHESLINE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Clothesline -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505859</GUID>
+                    <Name>BH Ornament23 Clothes Line</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_clothesline.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269842</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>75</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\agriculture_props_system_1x2_clothline_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW LOW WALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Low Wall -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505860</GUID>
+                    <Name>BH Ornament01 Wall</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_low_wall_straight.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269772</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337505860</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337505861</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337505862</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Type>Crossing</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>1</DirectionOffet>
+                                    <Variation>2</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item />
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <TCrossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>4</Variation>
+                                </Item>
+                            </Pool>
+                        </TCrossing>
+                        <Crossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>3</Variation>
+                                </Item>
+                            </Pool>
+                        </Crossing>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>1</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_low_wall_straight.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_end.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_corner.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_cross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_low_wall_junction.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall02_1x1_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall02_1x1_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall02_1x1_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall02_1x1_cross_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall02_1x1_tee_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>269810</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW LOW WALL ARCHWAY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Low Wall Archway -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505861</GUID>
+                    <Name>BH Ornament01 Wall Gate</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_arch.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269777</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337505860</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <BuildingBlockPool>
+                        <Single>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </Single>
+                    </BuildingBlockPool>
+                    <KeepRotationInBlock>1</KeepRotationInBlock>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall02_1x1_gate_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>269810</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW LOW WALL ENTRANCE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Low Wall Entrance -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505862</GUID>
+                    <Name>BH Ornament01 Wall Gate 02</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_entrance.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269844</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337505860</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <BuildingBlockPool>
+                        <Single>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </Single>
+                    </BuildingBlockPool>
+                    <KeepRotationInBlock>1</KeepRotationInBlock>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall02_1x1_gate_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>269810</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW BRICK WALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Brick Wall -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505863</GUID>
+                    <Name>BH Ornament02 Wall Large</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_tall_straight.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269779</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337505863</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337505864</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Type>Crossing</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>1</DirectionOffet>
+                                    <Variation>2</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item />
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <TCrossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>4</Variation>
+                                </Item>
+                            </Pool>
+                        </TCrossing>
+                        <Crossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>3</Variation>
+                                </Item>
+                            </Pool>
+                        </Crossing>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>1</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_tall_straight.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_tall_end.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_tall_corner.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_tall_cross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_tall_junction.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>75</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall01_1x1_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall01_1x1_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall01_1x1_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall01_1x1_cross_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall01_1x1_tee_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>269811</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW BRICK WALL GATE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Brick Wall Gate -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505864</GUID>
+                    <Name>BH Ornament02 Wall Gate Large</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_industry_wall_tall_gate.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269784</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1</BelowArchBuildHeight>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337505863</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337505864</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                        <Item>
+                            <Type>Single</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <BuildingBlockPool>
+                        <Single>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </Single>
+                    </BuildingBlockPool>
+                    <KeepRotationInBlock>1</KeepRotationInBlock>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>75</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_wall01_1x3_gate_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>3</OrnamentUnit>
+                    <OrnamentDescription>269811</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW METAL PIPING xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Metal Piping -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505865</GUID>
+                    <Name>BH Ornament11 Pipes</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_pipes.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269798</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_pipes_big_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>269820</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW BARRELS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Barrels -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505866</GUID>
+                    <Name>BH Ornament12 Barrel Pile</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_barrels.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269799</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_cargo_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_cargo_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_cargo_01b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_cargo_01c.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_cargo_01d.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_cargo_01e.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>269821</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW CRATES xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Crates -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505867</GUID>
+                    <Name>BH Ornament13 WoddenBoxes</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_piles_of_crates.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269800</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_cargo_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_cargo_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_cargo_02b.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>269822</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW TANKS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Tanks -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505868</GUID>
+                    <Name>BH Ornament14 Tanks</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_tanks.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269801</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>75</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_tanks_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>269823</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW WATER TOWER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Water Tower -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505869</GUID>
+                    <Name>BH Ornament15 Water Tower</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_water_tower.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269802</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>300</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x1_watertower_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>203965</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>269824</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW Shed xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Shed -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505870</GUID>
+                    <Name>BH Ornament17 Shed</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_shed.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269804</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>150</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x2_hut_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>2</OrnamentUnit>
+                    <OrnamentDescription>269826</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW STEEL BARS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Steel Bars -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505871</GUID>
+                    <Name>BH Ornament18 Pile Iron Bars</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_ironbar.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269805</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x2_cargo_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x2_cargo_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x2_cargo_01b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_1x2_cargo_01c.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>2</OrnamentUnit>
+                    <OrnamentDescription>269827</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW CARGO STACK xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Cargo Stack -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505872</GUID>
+                    <Name>BH Ornament19 Pile Boxes and Barrels</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_pile_box_barrels.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269806</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>150</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_2x2_cargo_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>203973</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>4</OrnamentUnit>
+                    <OrnamentDescription>269828</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW CARGO CONTAINERS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Cargo Containers -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505873</GUID>
+                    <Name>BH Ornament21 Large Boxes</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_largebox.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269808</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>150</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_2x2_cargo_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>4</OrnamentUnit>
+                    <OrnamentDescription>269830</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Bright Harvest HARBOR OW FOOTBRIDGE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Bright Harvest Footbridge -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505874</GUID>
+                    <Name>BH Ornament22 Gangway</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/tractor_ornament/icon_gangway.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>269809</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>0.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>0.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>5995</BuildingCategoryName>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\harbor\bright_harvest\industrial_props_system_2x3_bridge_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>3</OrnamentUnit>
+                    <OrnamentDescription>269831</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenu hinzufügen  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Add OW Land Rails Stuff to Rails Related OW Land Menu -->
+    <ModOp Type="add" GUID="1337505852" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337505859</Building>
+        </Item>
+        <Item>
+            <Building>1337505860</Building>
+        </Item>
+        <Item>
+            <Building>1337505861</Building>
+        </Item>
+        <Item>
+            <Building>1337505862</Building>
+        </Item>
+        <Item>
+            <Building>1337505863</Building>
+        </Item>
+        <Item>
+            <Building>1337505864</Building>
+        </Item>
+        <Item>
+            <Building>1337505865</Building>
+        </Item>
+        <Item>
+            <Building>1337505866</Building>
+        </Item>
+        <Item>
+            <Building>1337505867</Building>
+        </Item>
+        <Item>
+            <Building>1337505868</Building>
+        </Item>
+        <Item>
+            <Building>1337505869</Building>
+        </Item>
+        <Item>
+            <Building>1337505870</Building>
+        </Item>
+        <Item>
+            <Building>1337505871</Building>
+        </Item>
+        <Item>
+            <Building>1337505872</Building>
+        </Item>
+        <Item>
+            <Building>1337505873</Building>
+        </Item>
+        <Item>
+            <Building>1337505874</Building>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Freischaltung -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505905</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>100780</UnlockNeeded>
+                                <!-- oil power plant original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337505859</Asset>
+                                                <!-- Bright Harvest Clothesline -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505860</Asset>
+                                                <!-- Bright Harvest Low Wall -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505861</Asset>
+                                                <!-- Bright Harvest Low Wall Archway -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505862</Asset>
+                                                <!-- Bright Harvest Low Wall Entrance -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505863</Asset>
+                                                <!-- Bright Harvest Brick Wall -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505864</Asset>
+                                                <!-- Bright Harvest Brick Wall Gate -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505865</Asset>
+                                                <!-- Bright Harvest Metal Piping -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505866</Asset>
+                                                <!-- Bright Harvest Barrels -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505867</Asset>
+                                                <!-- Bright Harvest Crates -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505868</Asset>
+                                                <!-- Bright Harvest Tanks -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505869</Asset>
+                                                <!-- Bright Harvest Water Tower -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505870</Asset>
+                                                <!-- Bright Harvest Shed -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505871</Asset>
+                                                <!-- Bright Harvest Steel Bars -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505872</Asset>
+                                                <!-- Bright Harvest Cargo Stack -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505873</Asset>
+                                                <!-- Bright Harvest Cargo Containers -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505874</Asset>
+                                                <!-- Bright Harvest Footbridge -->
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337505859</Asset>
+                                                <!-- Bright Harvest Clothesline -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505860</Asset>
+                                                <!-- Bright Harvest Low Wall -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505861</Asset>
+                                                <!-- Bright Harvest Low Wall Archway -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505862</Asset>
+                                                <!-- Bright Harvest Low Wall Entrance -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505863</Asset>
+                                                <!-- Bright Harvest Brick Wall -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505864</Asset>
+                                                <!-- Bright Harvest Brick Wall Gate -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505865</Asset>
+                                                <!-- Bright Harvest Metal Piping -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505866</Asset>
+                                                <!-- Bright Harvest Barrels -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505867</Asset>
+                                                <!-- Bright Harvest Crates -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505868</Asset>
+                                                <!-- Bright Harvest Tanks -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505869</Asset>
+                                                <!-- Bright Harvest Water Tower -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505870</Asset>
+                                                <!-- Bright Harvest Shed -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505871</Asset>
+                                                <!-- Bright Harvest Steel Bars -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505872</Asset>
+                                                <!-- Bright Harvest Cargo Stack -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505873</Asset>
+                                                <!-- Bright Harvest Cargo Containers -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505874</Asset>
+                                                <!-- Bright Harvest Footbridge -->
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2025-01-02 16:17:19 -->

@@ -1,0 +1,854 @@
+<ModOps>
+    <!--
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT SKINS ALL xxxxxxxxxxxxxxxxxxxxxxxx
+1337505173 POWER PLANT Skin 02
+1337505174 POWER PLANT Skin 03
+1337505175 POWER PLANT Skin 04
+1337505176 POWER PLANT Skin 05
+1337505177 POWER PLANT Skin 06
+
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT OW xxxxxxxxxxxxxxxxxxxxxxxx
+1337505178 POWER PLANT FOR OW
+
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT NW xxxxxxxxxxxxxxxxxxxxxxxx
+1337505179 POWER PLANT FOR NW
+
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
+1337505180 POWER PLANT FOR AFRICA
+
+1337505181 Trigger
+
+-->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL POWER PLANT SKINS ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- OIL POWER PLANT Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505173</GUID>
+                    <Name>PowerPlantSkin_02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_02.png</IconFilename>
+                    <InfoDescription>1010561</InfoDescription>
+                    <ID>PowerPlantSkin_02</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_power_plant\electricity_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL POWER PLANT Skin 03 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505174</GUID>
+                    <Name>PowerPlantSkin_03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_03.png</IconFilename>
+                    <InfoDescription>1010561</InfoDescription>
+                    <ID>PowerPlantSkin_03</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_power_plant\electricity_03.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL POWER PLANT Skin 04 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505175</GUID>
+                    <Name>PowerPlantSkin_04</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_04.png</IconFilename>
+                    <InfoDescription>1010561</InfoDescription>
+                    <ID>PowerPlantSkin_04</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_power_plant\electricity_04.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL POWER PLANT Skin 05 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505176</GUID>
+                    <Name>PowerPlantSkin_05</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_05.png</IconFilename>
+                    <InfoDescription>1010561</InfoDescription>
+                    <ID>PowerPlantSkin_05</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_power_plant\electricity_05.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- OIL POWER PLANT Skin 06 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505177</GUID>
+                    <Name>PowerPlantSkin_06</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_06.png</IconFilename>
+                    <InfoDescription>1010561</InfoDescription>
+                    <ID>PowerPlantSkin_06</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\new_oil_power_plant\electricity_06.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL POWER PLANT All xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- OIL POWER PLANT OW -->
+        <Asset>
+            <BaseAssetGUID>100780</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337505178</GUID>
+                    <Name>electricity_01_OW (Oil Power Plant)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/oil_power_plant_harbor.png</IconFilename>
+                    <ID>HarborOilPowerPlantOW</ID>
+                    <InfoDescription>10946</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11169</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <GroundDecalAssetExtra>100691</GroundDecalAssetExtra>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_power_plant\electricity_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>100780</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505173</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505174</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505175</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505176</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505177</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oil Power Plant</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>7000</LineID>
+                    <TextOverride>100780</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <AmbientMoodProvider />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>400</Amount>
+                            <InactiveAmount>200</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010117</Product>
+                            <Amount>150</Amount>
+                            <ShutdownThreshold>0.5</ShutdownThreshold>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>3500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <Explosion>
+                        <DamageExplosionChance>40</DamageExplosionChance>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>15</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Explosion>
+                            <BaseChance>4</BaseChance>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Powerplant>
+                    <IndustrializationDistance>35</IndustrializationDistance>
+                </Powerplant>
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010566</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>100</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>5</CycleTime>
+                    <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                    <ProductivityPoints>1</ProductivityPoints>
+                    <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <Culture />
+                <PublicService />
+            </Values>
+        </Asset>
+        <!-- OIL POWER PLANT NW -->
+        <Asset>
+            <BaseAssetGUID>100780</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337505179</GUID>
+                    <Name>electricity_01_NW (Oil Power Plant)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/oil_power_plant_harbor.png</IconFilename>
+                    <ID>HarborOilPowerPlantNW</ID>
+                    <InfoDescription>10946</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11169</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <GroundDecalAssetExtra>100691</GroundDecalAssetExtra>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_power_plant\electricity_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>100780</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505173</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505174</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505175</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505176</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505177</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oil Power Plant</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>7000</LineID>
+                    <TextOverride>100780</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <AmbientMoodProvider />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>400</Amount>
+                            <InactiveAmount>200</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010367</Product>
+                            <Amount>150</Amount>
+                            <ShutdownThreshold>0.5</ShutdownThreshold>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>3500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <Explosion>
+                        <DamageExplosionChance>40</DamageExplosionChance>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>15</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Explosion>
+                            <BaseChance>4</BaseChance>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Powerplant>
+                    <IndustrializationDistance>35</IndustrializationDistance>
+                </Powerplant>
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010566</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>100</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>5</CycleTime>
+                    <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                    <ProductivityPoints>1</ProductivityPoints>
+                    <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <Culture />
+                <PublicService />
+            </Values>
+        </Asset>
+        <!-- OIL POWER PLANT AFRICA -->
+        <Asset>
+            <BaseAssetGUID>100780</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337505180</GUID>
+                    <Name>electricity_01_AFRICA (Oil Power Plant)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/oil_power_plant_harbor.png</IconFilename>
+                    <ID>HarborOilPowerPlantAFRICA</ID>
+                    <InfoDescription>10946</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11169</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <GroundDecalAssetExtra>100691</GroundDecalAssetExtra>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114356</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_power_plant\electricity_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>100780</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505173</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505174</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505175</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505176</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505177</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oil Power Plant</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>7000</LineID>
+                    <TextOverride>100780</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <AmbientMoodProvider />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>400</Amount>
+                            <InactiveAmount>200</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>114341</Product>
+                            <Amount>150</Amount>
+                            <ShutdownThreshold>0.5</ShutdownThreshold>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>3500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <Explosion>
+                        <DamageExplosionChance>40</DamageExplosionChance>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>15</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Explosion>
+                            <BaseChance>4</BaseChance>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Powerplant>
+                    <IndustrializationDistance>35</IndustrializationDistance>
+                </Powerplant>
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010566</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>100</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>5</CycleTime>
+                    <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                    <ProductivityPoints>1</ProductivityPoints>
+                    <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <Culture />
+                <PublicService />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- asset pool electricity oil -->
+    <ModOp Type="add" GUID="130047" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337505178</Asset>
+        </Item>
+        <Item>
+            <Asset>1337505179</Asset>
+        </Item>
+        <Item>
+            <Asset>1337505180</Asset>
+        </Item>
+    </ModOp>
+    <!-- CharacterInteractionBalancing -->
+    <ModOp Type="add" GUID="141703" Path="/Values/CharacterInteractionConfig/BuildBuildingWhitelist">
+        <Item>
+            <Building>1337505178</Building>
+        </Item>
+        <Item>
+            <Building>1337505179</Building>
+        </Item>
+        <Item>
+            <Building>1337505180</Building>
+        </Item>
+    </ModOp>
+    <!-- ItemEffectTargetPool - all production except powerplant - all production boosted by electricity - all heavy production - all ironworks and foundry - all oil wells -->
+    <ModOp Type="add" GUID="6000018,192423,190136,368,193864" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337505178</GUID>
+        </Item>
+        <Item>
+            <GUID>1337505179</GUID>
+        </Item>
+        <Item>
+            <GUID>1337505180</GUID>
+        </Item>
+    </ModOp>
+    <!-- Public - Decree 4 Buff Forward_08 -->
+    <ModOp Type="add" GUID="191373,191375,191376,191377,269460" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1337505178</GUID>
+        </Item>
+        <Item>
+            <GUID>1337505179</GUID>
+        </Item>
+        <Item>
+            <GUID>1337505180</GUID>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Freischaltung -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505181</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>100780</UnlockNeeded>
+                                <!-- power plant original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337505178</Asset>
+                                                <!-- POWER PLANT FOR OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505179</Asset>
+                                                <!-- POWER PLANT FOR NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505180</Asset>
+                                                <!-- POWER PLANT FOR AFRICA -->
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337505178</Asset>
+                                                <!-- POWER PLANT FOR OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505179</Asset>
+                                                <!-- POWER PLANT FOR NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337505180</Asset>
+                                                <!-- POWER PLANT FOR AFRICA -->
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2025-01-02 15:48:11 -->

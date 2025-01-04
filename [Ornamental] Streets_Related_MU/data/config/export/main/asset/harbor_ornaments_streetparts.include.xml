@@ -4,7 +4,7 @@
 
 1337501046 ARKTIS KAISTRASSE <InternalID>441</InternalID>-modulo256 = 185
 1337501047 AFRICA KAISTRASSE <InternalID>442</InternalID>-modulo256 = 186
-1337500252 Schienenstraße Wasser <InternalID>460</InternalID>-modulo256 = 204
+1337500252 Schienenstraße Wasser <InternalID>460</InternalID>-modulo256 = 204 OBSOLET
 
 1337501028 Kai Strasse rot OW <InternalID>423</InternalID>-modulo256 = 167
 1337501029 Kai Strasse rot NW <InternalID>424</InternalID>-modulo256 = 168
@@ -237,101 +237,7 @@
 		</Asset>
 	</ModOp>
 	
-	<!-- Schienenstraße Wasser -->
-	<ModOp Type="addNextSibling" GUID='1010567'>
-		<Asset>
-			<Template>Street</Template>
-			<Values>
-				<Standard>
-					<GUID>1337500252</GUID>
-					<Name>Quayrails</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/icon_railway.png</IconFilename>
-					<ID>Quayrails</ID>
-					<InfoDescription>1337500290</InfoDescription>
-				</Standard>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>20</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Street>
-					<CfgFileName>data\modgraphics\streets\fake_rails_water\fake_rails_system_01.cfg</CfgFileName>
-					<InternalID>460</InternalID><!-- modulo256 = 204 -->
-					<DecalMapping>data/config/street/quay_street.txt.bin</DecalMapping>
-					<DecalVariation>data/config/street/no_var.txt</DecalVariation>
-					<StyleRows>8</StyleRows>
-					<StyleCols>8</StyleCols>
-					<Quality>3</Quality>
-					<OverbuildRule>Harbour</OverbuildRule>
-					<CanBuildOnShore>1</CanBuildOnShore>
-					<IsLogicRoad>0</IsLogicRoad>
-					<IsHarbour>1</IsHarbour>
-					<IsPlazza>0</IsPlazza>
-					<HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
-					<AdaptToNeighbors>
-						<AdaptGroups>QuayStreet;Rail_And_RailUnderBuilding</AdaptGroups>
-						<NeighborsThatMakeUsAdapt>Street;Crossing_Rail_Street;Rail_And_RailUnderBuilding;Bridge_Rail</NeighborsThatMakeUsAdapt>
-					</AdaptToNeighbors>
-					<ExecuteTransitionRule>64</ExecuteTransitionRule>
-					<WalkingBlocked>1</WalkingBlocked>
-				</Street>
-				<Constructable>
-					<DestructionCategory>StreetsAndBridges</DestructionCategory>
-				</Constructable>
-				<SoundEmitter>
-					<ConstructionSounds>
-						<BuildSuccessful>
-							<Item>
-								<Sound>215916</Sound>
-							</Item>
-						</BuildSuccessful>
-						<BuildMoveStart>
-							<Item>
-								<Sound>9818755</Sound>
-							</Item>
-						</BuildMoveStart>
-						<BuildMoveSuccess>
-							<Item>
-								<Sound>203995</Sound>
-							</Item>
-						</BuildMoveSuccess>
-						<BuildMoveEnd>
-							<Item>
-								<Sound>200141</Sound>
-							</Item>
-						</BuildMoveEnd>
-					</ConstructionSounds>
-					<ConstructionStreetSounds>
-						<BuildAddWaypoint>
-							<Item>
-								<Sound>215918</Sound>
-							</Item>
-						</BuildAddWaypoint>
-					</ConstructionStreetSounds>
-				</SoundEmitter>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Quay Street</Text>
-							<Status>Exported</Status>
-							<ExportCount>1</ExportCount>
-						</English>
-					</LocaText>
-					<LineID>48528</LineID>
-				</Text>
-				<Building>
-					<BuildingCategoryName>11150</BuildingCategoryName>
-					<PickingAsset>1337500252</PickingAsset>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-				</Building>
-				<Ornament />
-			</Values>
-		</Asset>
-	</ModOp>
+
 	
 	<!-- Holzpflöcke im hafenbereich entfernen -->
 	<ModOp Type="replace" GUID='100452' Path="/Values/Street/CfgFileName">
@@ -378,10 +284,6 @@
 			<OldGUID>1337500034</OldGUID><!-- Schotterweg -->
 			<NewGUID>601443</NewGUID>
 		</Item>
-		<Item>
-			<OldGUID>1337500251</OldGUID><!-- Schienenstraße -->
-			<NewGUID>1337500252</NewGUID><!-- Schienenstraße Wasser -->
-		</Item>
 		
 	</ModOp>
 	
@@ -407,10 +309,6 @@
 		<Item>
 			<OldGUID>1337500034</OldGUID><!-- Schotterweg -->
 			<NewGUID>131865</NewGUID>
-		</Item>
-		<Item>
-			<OldGUID>1337500251</OldGUID><!-- Schienenstraße -->
-			<NewGUID>1337500252</NewGUID><!-- Schienenstraße Wasser -->
 		</Item>
 		
 	</ModOp>
@@ -449,10 +347,6 @@
 		<Item>
 			<OldGUID>119029</OldGUID><!-- Gepflasterte Straße -->
 			<NewGUID>1337501047</NewGUID>
-		</Item>
-		<Item>
-			<OldGUID>1337500251</OldGUID><!-- Schienenstraße -->
-			<NewGUID>1337500252</NewGUID><!-- Schienenstraße Wasser -->
 		</Item>
 		
 	</ModOp>
@@ -2302,7 +2196,7 @@
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502571</GUID>
+					<GUID>1337505220</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -2382,12 +2276,6 @@
 											<Item>
 												<Asset>1337501048</Asset>
 											</Item>
-											<Item>
-												<Asset>1337501050</Asset>
-											</Item>
-											<Item>
-												<Asset>1337500252</Asset>
-											</Item>
 											
 										</UnlockAssets>
 										<UnhideAssets>
@@ -2448,12 +2336,6 @@
 											</Item>
 											<Item>
 												<Asset>1337501048</Asset>
-											</Item>
-											<Item>
-												<Asset>1337501050</Asset>
-											</Item>
-											<Item>
-												<Asset>1337500252</Asset>
 											</Item>
 											
 										</UnhideAssets>

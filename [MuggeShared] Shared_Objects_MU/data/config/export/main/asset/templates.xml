@@ -4237,7 +4237,7 @@
         <!-- Streets_Related_MU -->
         <!-- Template for harbor rails -->
         <Template>
-            <Name>OrnamentalBuilding_HarborRails_MU</Name>
+            <Name>HarborRails_MU</Name>
             <Properties>
                 <Standard>
                     <InfoDescription>163093</InfoDescription>
@@ -4246,6 +4246,7 @@
                 <Blocking />
                 <Building>
                     <AllowChangeVariation>1</AllowChangeVariation>
+					<AllowChangeDirection>1</AllowChangeDirection>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
                 </Building>
@@ -4311,12 +4312,13 @@
                 <Ornament>
                     <PlazzaSize>20</PlazzaSize>
                 </Ornament>
-                <AmbientMoodProvider />
+				<AmbientMoodProvider />
                 <Pausable />
                 <Culture />
                 <FactoryBase />
-                <LogisticNode />
-                <!--<BuffFactory />-->
+                <LogisticNode>
+					<TransporterCountMax>0</TransporterCountMax>
+				</LogisticNode>
             </Properties>
         </Template>
         <!-- Streets_Related_MU END -->

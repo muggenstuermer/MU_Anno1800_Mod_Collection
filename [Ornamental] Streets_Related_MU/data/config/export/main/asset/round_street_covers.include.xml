@@ -1,11 +1,11 @@
 <ModOps>
 
 <!--
-
-1337502500 Round StreetCover ONE-ONE-BUILDBLOCKER-V1
-1337502501 Round StreetCover ONE-ONE-BUILDBLOCKER-V2
-1337502502 Round StreetCover ONE-TWO
-1337502503 Round StreetCover TWO-TWO
+xxxxxxxxxxxxxxxxxxxxxxxx ROUND STREET COVERS xxxxxxxxxxxxxxxxxxxxxxxx
+1337502500 Round StreetCover ONE-ONE-BUILDBLOCKER-V1 OW
+1337502501 Round StreetCover ONE-ONE-BUILDBLOCKER-V2 OW
+1337502502 Round StreetCover ONE-TWO OW
+1337502503 Round StreetCover TWO-TWO OW
 
 1337502510 Round StreetCover ONE-ONE-BUILDBLOCKER-V1 NW
 1337502511 Round StreetCover ONE-ONE-BUILDBLOCKER-V2 NW
@@ -17,6 +17,7 @@
 1337502532 Round StreetCover ONE-TWO AFRICA
 1337502533 Round StreetCover TWO-TWO AFRICA
 
+xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES LAND xxxxxxxxxxxxxxxxxxxxxxxx
 1337502514 StreetBridges without Lamps OW + NW
 1337502515 StreetBridges with Lamps OW + NW
 1337502516 StreetBridges with Roof OW + NW
@@ -33,27 +34,21 @@
 1337502625 PedestriansBridges with Lamps AFRICA
 1337502626 PedestriansBridges with Roof AFRICA
 
-1337502523 RailBridges without Lamps OW + NW
-1337502524 RailBridges with Lamps OW + NW
+1337502525 Modular StreetBridge OW + NW
+1337502527 Modular Endpieces StreetBridge OW + NW
 
-1337502525 Modular Bridge OW + NW
-1337502526 Modular Rail Bridge OW + NW
-1337502527 Modular Endpieces OW + NW
+1337502629 Modular StreetBridge AFRICA
+1337502631 Modular Endpieces StreetBridge AFRICA
 
-1337502627 RailBridges without Lamps AFRICA
-1337502628 RailBridges with Lamps AFRICA
 
-1337502629 Modular Bridge AFRICA
-1337502630 Modular Rail Bridge AFRICA
-1337502631 Modular Endpieces AFRICA
-
-1337502572 Trigger
+1337505120 Trigger with one Worker
 
 -->
-
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCover Start OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ROUND STREET COVERS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 	<ModOp Type="addNextSibling" GUID='1010035'>
-	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCovers OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	
+	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1 OW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -95,75 +90,85 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01e.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_05a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_05b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_01e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_06.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_05.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_06a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_05a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_06b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_07a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_07b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_05b.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_adjust_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_06.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_adjust_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_06a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_adjust_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_06b.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_no_adjust_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_07.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_no_adjust_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_07a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_no_adjust_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_07b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_adjust_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_adjust_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_adjust_01b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_no_adjust_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_no_adjust_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_rondel_no_adjust_01b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -189,7 +194,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V2-->
+	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V2 OW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -231,42 +236,52 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02d.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_03a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_03b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_02d.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_04.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_03.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_04a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_03a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_04b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_03b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_04a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_one_04b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -292,7 +307,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Round StreetCover ONE-TWO -->
+	<!-- Round StreetCover ONE-TWO OW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -334,35 +349,45 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01e.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_01e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_02.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_02a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_02a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_02b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_one_two_02b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -388,7 +413,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Round StreetCover TWO-TWO -->
+	<!-- Round StreetCover TWO-TWO OW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -430,35 +455,45 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01e.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_01e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_02.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_02a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_02a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_02b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\ow\streetcover_5x5_two_two_02b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -483,11 +518,9 @@
                 </Ornament>
 			</Values>
         </Asset>
-	</ModOp>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCover OW Ende xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCover NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-	<ModOp Type="addNextSibling" GUID='1010035'>
-	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1-->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCovers NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1 NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -529,75 +562,85 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01e.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_05a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_05b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_01e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_06.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_05.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_06a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_05a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_06b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_07a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_07b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_05b.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_adjust_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_06.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_adjust_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_06a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_adjust_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_06b.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_no_adjust_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_07.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_no_adjust_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_07a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_no_adjust_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_07b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_adjust_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_adjust_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_adjust_01b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_no_adjust_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_no_adjust_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_rondel_no_adjust_01b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -623,7 +666,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V2-->
+	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V2 NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -665,45 +708,55 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02e.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_03a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_03b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_02e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_04.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_03.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_04a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_03a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_04b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_03b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_04a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_one_04b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -729,7 +782,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Round StreetCover ONE-TWO -->
+	<!-- Round StreetCover ONE-TWO NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -771,35 +824,45 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01e.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_01e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_02.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_02a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_02a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_02b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_one_two_02b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -825,7 +888,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Round StreetCover TWO-TWO -->
+	<!-- Round StreetCover TWO-TWO NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -867,35 +930,45 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01e.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_01e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_02.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_02a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_02a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_02b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\nw\streetcover_5x5_two_two_02b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -920,9 +993,9 @@
                 </Ornament>
 			</Values>
         </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCover NW Ende xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCover Start ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1-->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCovers AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1 AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -964,75 +1037,85 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01e.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_05.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_05a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_05b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_01e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_06.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_05.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_06a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_05a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_06b.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_07.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_07a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_07b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_05b.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_adjust_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_06.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_adjust_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_06a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_adjust_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_06b.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_no_adjust_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_07.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_no_adjust_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_07a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_no_adjust_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_07b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_adjust_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_adjust_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_adjust_01b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_no_adjust_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_no_adjust_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_rondel_no_adjust_01b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1058,7 +1141,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V2-->
+	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V2 AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1100,45 +1183,55 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02e.cfg</Filename>
-						</Item>
-						
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_03a.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_03b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_02e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_04.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_03.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_04a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_03a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_04b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_03b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_04a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_one_04b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1164,7 +1257,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Round StreetCover ONE-TWO -->
+	<!-- Round StreetCover ONE-TWO AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1206,35 +1299,45 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01e.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_01e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_02.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_02a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_02a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_02b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_one_two_02b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1260,7 +1363,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Round StreetCover TWO-TWO -->
+	<!-- Round StreetCover TWO-TWO AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1302,35 +1405,45 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01b.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01c.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01c.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01d.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01d.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01e.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_01e.cfg</Filename>
 						</Item>
 						
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_02.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_02a.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_02a.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_02b.cfg</Filename>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\africa\streetcover_5x5_two_two_02b.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1355,9 +1468,10 @@
                 </Ornament>
 			</Values>
         </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCover ENBESA Ende xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static StreetBridges OW + NW START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
-<!-- StreetBridges without Lamps -->
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX STREETS RELATED BRIDGES LAND XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Solo Bridges OW + NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
+<!-- StreetBridges without Lamps OW + NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1400,15 +1514,26 @@
 					</Colors>
 				</Selection>
                 <Object>
+				
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_no_lamps_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_no_light\bridge_solo_no_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_no_lamps_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_no_light\bridge_solo_no_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1434,7 +1559,7 @@
 			</Values>
         </Asset>
 		
-<!-- StreetBridges with Lamps -->
+<!-- StreetBridges with Lamps OW + NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1479,13 +1604,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_with_light\bridge_solo_with_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_with_light\bridge_solo_with_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1511,7 +1646,7 @@
 			</Values>
         </Asset>
 		
-<!-- StreetBridges with Roof -->
+<!-- StreetBridges with Roof OW + NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1556,13 +1691,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_roofed_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_roofed\bridge_solo_roofed_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_roofed_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_roofed\bridge_solo_roofed_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1588,9 +1733,8 @@
 			</Values>
         </Asset>
 	
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static StreetBridges OW + NW END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static StreetBridges AFRICA START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
-<!-- StreetBridges without Lamps -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  Streets Related Solo Bridges AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
+<!-- StreetBridges without Lamps AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1637,13 +1781,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_no_lamps_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_no_light\bridge_solo_no_light_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_no_lamps_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_no_light\bridge_solo_no_light_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1669,7 +1823,7 @@
 			</Values>
         </Asset>
 		
-<!-- StreetBridges with Lamps -->
+<!-- StreetBridges with Lamps AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1716,13 +1870,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_with_light\bridge_solo_with_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_with_light\bridge_solo_with_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1748,7 +1912,7 @@
 			</Values>
         </Asset>
 		
-<!-- StreetBridges with Roof -->
+<!-- StreetBridges with Roof AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1795,13 +1959,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_roofed_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_roofed\bridge_solo_roofed_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_roofed_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_roofed\bridge_solo_roofed_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1826,10 +2000,9 @@
                 </Ornament>
 			</Values>
         </Asset>
-	
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static StreetBridges AFRICA END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static PedestrianBridges OW + NW START  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
-<!-- PedestriansBridges without Lamps -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Solo Pedestrian Bridges OW + NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+<!-- PedestriansBridges without Lamps OW + NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1874,13 +2047,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_no_lamps_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_no_light\bridge_solo_no_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_no_lamps_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_no_light\bridge_solo_no_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1906,7 +2089,7 @@
 			</Values>
         </Asset>
 		
-<!-- PedestriansBridges with Lamps -->
+<!-- PedestriansBridges with Lamps OW + NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -1951,13 +2134,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_with_light\bridge_solo_with_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_with_light\bridge_solo_with_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -1983,7 +2176,7 @@
 			</Values>
         </Asset>
 		
-<!-- PedestriansBridges with Roof -->
+<!-- PedestriansBridges with Roof OW + NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -2028,13 +2221,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_roofed_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_roofed\bridge_solo_roofed_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_roofed_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\bridge_solo_roofed\bridge_solo_roofed_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -2059,9 +2262,9 @@
                 </Ornament>
 			</Values>
         </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static PedestrianBridges OW + NW END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static PedestrianBridges AFRICA START  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
-<!-- PedestriansBridges without Lamps -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Solo Pedestrian Bridges AFRICA  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+<!-- PedestriansBridges without Lamps AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -2108,13 +2311,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_no_lamps_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_no_light\bridge_solo_no_light_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_no_lamps_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_no_light\bridge_solo_no_light_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -2140,7 +2353,7 @@
 			</Values>
         </Asset>
 		
-<!-- PedestriansBridges with Lamps -->
+<!-- PedestriansBridges with Lamps AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -2187,13 +2400,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_with_light\bridge_solo_with_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_with_light\bridge_solo_with_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -2219,7 +2442,7 @@
 			</Values>
         </Asset>
 		
-<!-- PedestriansBridges with Roof -->
+<!-- PedestriansBridges with Roof AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -2266,13 +2489,23 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_roofed_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_roofed\bridge_solo_roofed_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_roofed_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\bridge_solo_roofed\bridge_solo_roofed_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
 				<SoundEmitter>
 					<DestroySounds>
 						<Item>
@@ -2297,166 +2530,14 @@
                 </Ornament>
 			</Values>
         </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static PedestrianBridges AFRICA END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static RailBridges All OW + NW START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
-<!-- RailBridges without Lamps -->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502523</GUID>
-                    <Name>BridgeNoLamps</Name>
-                    <IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_01.png</IconFilename>
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-                <Text />
-                <Building>
-					<BuildingCategoryName>5759</BuildingCategoryName>
-					<PickingAsset>1337502523</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>5500</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_rails_no_lamps_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_rails_no_lamps_02.cfg</Filename>
-						</Item>
-						
-					</Variations>
-                </Object>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-					</DestroySounds>
-				</SoundEmitter>
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-			</Values>
-        </Asset>
-		
-<!-- RailBridges with Lamps -->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502524</GUID>
-                    <Name>BridgeLamps</Name>
-                    <IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_01.png</IconFilename>
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-                <Text />
-                <Building>
-					<BuildingCategoryName>5759</BuildingCategoryName>
-					<PickingAsset>1337502524</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>5500</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_rails_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\canal_bridge_for_2x2_rails_02.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-					</DestroySounds>
-				</SoundEmitter>
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-			</Values>
-        </Asset>
-	</ModOp>
 	
-	<!-- Modulare StrassenBrücke -->
-	<ModOp Type="addNextSibling" GUID='1010035'>
+
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX STREETS RELATED MODULAR STREET BRIDGES LAND XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Modular Bridges OW + NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	
+	<!-- Modular StreetBridge OW + NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -2644,16 +2725,16 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_1x1_straight_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\1x1_modular\1x1_straight_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_1x1_corner_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\1x1_modular\1x1_corner_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_1x1_cross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\1x1_modular\1x1_cross_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_1x1_tcross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\1x1_modular\1x1_tcross_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -2675,232 +2756,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Modulare SchienenBrücke -->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502526</GUID>
-                    <Name>StraightCanalRiverNoPond</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_04.png</IconFilename>
-					<InfoDescription>163093</InfoDescription>
-				</Standard>
-                <Text />
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<BuildModeStartVariation>0</BuildModeStartVariation>
-					<PickingAsset>1337502526</PickingAsset>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502526</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-						  </Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>4</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-                </Building>
-				<Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>25</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_1x1_cross_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable>
-					<DestructionCategory>StreetsAndBridges</DestructionCategory>
-				</Constructable>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
-        </Asset>
-		
-		<!-- Modulare endstücke -->
+		<!-- Modular Endpieces StreetBridge OW + NW -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -2940,10 +2796,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_2x1_end_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\ow\1x1_modular\modular_2x1_end_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\ow_nw\1x1_modular\modular_end_land_street_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -2964,170 +2817,9 @@
 				<Culture />
 			</Values>
         </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static RailBridges All OW + NW END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static RailBridges AFRICA START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
-<!-- RailBridges without Lamps -->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502627</GUID>
-                    <Name>BridgeNoLamps</Name>
-                    <IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_01_africa.png</IconFilename>
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-                <Text>
-					<TextOverride>1337502523</TextOverride>
-				</Text>
-                <Building>
-					<BuildingCategoryName>5759</BuildingCategoryName>
-					<PickingAsset>1337502627</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>5500</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_rails_no_lamps_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_rails_no_lamps_02.cfg</Filename>
-						</Item>
-						
-					</Variations>
-                </Object>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-					</DestroySounds>
-				</SoundEmitter>
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-			</Values>
-        </Asset>
-		
-<!-- RailBridges with Lamps -->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502628</GUID>
-                    <Name>BridgeLamps</Name>
-                    <IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_01_africa.png</IconFilename>
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-                <Text>
-					<TextOverride>1337502524</TextOverride>
-				</Text>
-                <Building>
-					<BuildingCategoryName>5759</BuildingCategoryName>
-					<PickingAsset>1337502628</PickingAsset>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>5500</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_rails_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\canal_bridge_for_2x2_rails_02.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<SoundEmitter>
-					<DestroySounds>
-						<Item>
-							<Sound>9818756</Sound>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-					</DestroySounds>
-				</SoundEmitter>
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-			</Values>
-        </Asset>
-	</ModOp>
 	
-	<!-- Modulare StrassenBrücke -->
-	<ModOp Type="addNextSibling" GUID='1010035'>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Modular Bridges AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Modular StreetBridge AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -3317,16 +3009,16 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_1x1_straight_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\1x1_modular\1x1_straight_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_1x1_corner_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\1x1_modular\1x1_corner_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_1x1_cross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\1x1_modular\1x1_cross_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_1x1_tcross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\1x1_modular\1x1_tcross_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -3348,234 +3040,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Modulare SchienenBrücke -->
-		<Asset>
-            <Template>OrnamentalBuilding</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502630</GUID>
-                    <Name>StraightCanalRiverNoPond</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_04_africa.png</IconFilename>
-					<InfoDescription>163093</InfoDescription>
-				</Standard>
-                <Text>
-					<TextOverride>1337502526</TextOverride>
-				</Text>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>
-				</Blocking>
-				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<BuildModeStartVariation>0</BuildModeStartVariation>
-					<PickingAsset>1337502630</PickingAsset>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502630</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-						  </Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>4</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-                </Building>
-				<Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>25</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<Colors>
-						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
-					</Colors>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_1x1_cross_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable>
-					<DestructionCategory>StreetsAndBridges</DestructionCategory>
-				</Constructable>
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Infolayer />
-				<Culture />
-			</Values>
-        </Asset>
-		
-		<!-- Modulare endstücke -->
+		<!-- Modular Endpieces StreetBridge AFRICA -->
 		<Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -3617,10 +3082,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_2x1_end_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\land\africa\1x1_modular\modular_end_land_street_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge\africa\1x1_modular\modular_2x1_end_02.cfg</Filename>
+							<Filename>data\muggenstuermer\rails_related\bridges\land\africa\1x1_modular\1x1_bridge_rails_02\modular_end_land_rails_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -3641,8 +3106,9 @@
 				<Culture />
 			</Values>
         </Asset>
+				
 	</ModOp>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static RailBridges AFRICA END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenu hinzufügen  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Menü OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!--<ModOp Type="addNextSibling" GUID='1337502504' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1337502633']">-->
@@ -3683,16 +3149,7 @@
 		</Item>
 		
 		<Item>
-			<Building>1337502523</Building><!-- RailBridges without Lamps -->
-		</Item>
-		<Item>
-			<Building>1337502524</Building><!-- RailBridges with Lamps -->
-		</Item>
-		<Item>
 			<Building>1337502525</Building><!-- Modulare StrassenBrücke -->
-		</Item>
-		<Item>
-			<Building>1337502526</Building><!-- Modulare SchienenBrücke -->
 		</Item>
 		<Item>
 			<Building>1337502527</Building><!-- Modulare Endstücke -->
@@ -3738,16 +3195,7 @@
 		</Item>
 		
 		<Item>
-			<Building>1337502523</Building><!-- RailBridges without Lamps -->
-		</Item>
-		<Item>
-			<Building>1337502524</Building><!-- RailBridges with Lamps -->
-		</Item>
-		<Item>
 			<Building>1337502525</Building><!-- Modulare StrassenBrücke -->
-		</Item>
-		<Item>
-			<Building>1337502526</Building><!-- Modulare SchienenBrücke -->
 		</Item>
 		<Item>
 			<Building>1337502527</Building><!-- Modulare Endstücke -->
@@ -3792,16 +3240,7 @@
 		</Item>
 		
 		<Item>
-			<Building>1337502627</Building><!-- RailBridges without Lamps -->
-		</Item>
-		<Item>
-			<Building>1337502628</Building><!-- RailBridges with Lamps -->
-		</Item>
-		<Item>
 			<Building>1337502629</Building><!-- Modulare StrassenBrücke -->
-		</Item>
-		<Item>
-			<Building>1337502630</Building><!-- Modulare SchienenBrücke -->
 		</Item>
 		<Item>
 			<Building>1337502631</Building><!-- Modulare Endstücke -->
@@ -3814,7 +3253,7 @@
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502572</GUID>
+					<GUID>1337505120</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -3903,34 +3342,14 @@
 											</Item>
 											
 											<Item>
-												<Asset>1337502523</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502524</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502525</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502526</Asset>
 											</Item>
 											<Item>
 												<Asset>1337502527</Asset>
 											</Item>
 											
 											<Item>
-												<Asset>1337502627</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502628</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502629</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502630</Asset>
 											</Item>
 											<Item>
 												<Asset>1337502631</Asset>
@@ -4017,34 +3436,14 @@
 											</Item>
 											
 											<Item>
-												<Asset>1337502523</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502524</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502525</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502526</Asset>
 											</Item>
 											<Item>
 												<Asset>1337502527</Asset>
 											</Item>
 											
 											<Item>
-												<Asset>1337502627</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502628</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502629</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502630</Asset>
 											</Item>
 											<Item>
 												<Asset>1337502631</Asset>

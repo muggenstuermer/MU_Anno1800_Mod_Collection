@@ -30,6 +30,12 @@ Changelog - 1.34
 	- new objects added.
 	- update README,modinfo.json and content_en.txt
 	
+---------------------------
+Changelog - 1.35
+---------------------------
+
+	- new objects added.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

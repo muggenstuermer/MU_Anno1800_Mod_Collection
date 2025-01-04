@@ -1,81 +1,60 @@
 <ModOps>
 
 <!--
-
-1337502558 StreetBridges without Lamps OW + NW
+xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES HARBOR xxxxxxxxxxxxxxxxxxxxxxxx
+1337502558 StreetBridges without Lamps OW + NW 
 1337502559 StreetBridges with Lamps OW + NW
 1337502560 StreetBridges with Roof OW + NW
 
-1337502588 StreetBridges without Lamps Africa
-1337502589 StreetBridges with Lamps Africa
-1337502590 StreetBridges with Roof Africa
+1337502588 StreetBridges without Lamps AFRICA
+1337502589 StreetBridges with Lamps AFRICA
+1337502590 StreetBridges with Roof AFRICA
 
-
+xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES PEDESTRIAN BRIDGES HARBOR xxxxxxxxxxxxxxxxxxxxxxxx
 1337502561 PedestriansBridges without Lamps OW + NW
 1337502562 PedestriansBridges with Lamps OW + NW
 1337502563 PedestriansBridges with Roof OW + NW
 
-1337502591 PedestriansBridges without Lamps Africa
-1337502592 PedestriansBridges with Lamps Africa
-1337502593 PedestriansBridges with Roof Africa
+1337502591 PedestriansBridges without Lamps AFRICA
+1337502592 PedestriansBridges with Lamps AFRICA
+1337502593 PedestriansBridges with Roof AFRICA						
 
-
-1337502564 RailBridges without Lamps OW + NW
-1337502565 RailBridges with Lamps OW + NW
-
-1337502594 RailBridges without Lamps Africa
-1337502595 RailBridges with Lamps Africa
-
-
-1337502566 Modular StreetBridge OW + NW
+xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED MODULAR STREET + PEDESTRIAN BRIDGES HARBOR xxxxxxxxxxxxxxxxxxxxxxxx
+1337502566 Modular StreetBridge OW + NW						
 1337502568 Modular Endpieces StreetBridge OW + NW
 
 1337502582 Modular PedestrianBridge OW + NW
 1337502583 Modular Endpieces PedestrianBridge OW + NW
 
-1337502587 Modular RailBridge 01 OW + NW
-1337502567 Modular RailBridge 02 OW + NW
-1337502569 Modular Endpieces RailBridge - 01 + 02 OW + NW
+1337502596 Modular StreetBridge AFRICA						
+1337502597 Modular Endpieces StreetBridge AFRICA						
 
-1337502581 Modular Harbor Rails 01 OW + NW
-1337502584 Modular Harbor Rails 02 OW + NW
-1337502585 Modular Harbor Rails 03 OW + NW
-1337502586 Modular Harbor Rails 04 OW + NW
+1337502598 Modular PedestrianBridge AFRICA
+1337502599 Modular Endpieces PedestrianBridge AFRICA
 
-1337502596 Modular StreetBridge Africa
-1337502597 Modular Endpieces StreetBridge Africa
-
-1337502598 Modular PedestrianBridge Africa
-1337502599 Modular Endpieces PedestrianBridge Africa
-
-1337502607 Modular RailBridge 01 Africa
-1337502608 Modular RailBridge 02 Africa
-1337502609 Modular Endpieces RailBridge - 01 + 02 Africa
-
-1337502603 Modular Harbor Rails 01 Africa
-1337502604 Modular Harbor Rails 02 Africa
-1337502605 Modular Harbor Rails 03 Africa
-1337502606 Modular Harbor Rails 04 Africa
-
+xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES STREET BRIDGES HARBOR xxxxxxxxxxxxxxxxxxxxxxxx
 1337501057 Wooden StreetBridges 2x1 OW
 1337501058 Wooden StreetBridges 3x1 OW
 
 1337501143 Wooden StreetBridges 2x1 NW
 1337501144 Wooden StreetBridges 3x1 NW
 
-1337501145 Wooden StreetBridges 2x1 Africa
-1337501146 Wooden StreetBridges 3x1 Africa
+1337501145 Wooden StreetBridges 2x1 AFRICA
+1337501146 Wooden StreetBridges 3x1 AFRICA
 
 1337502611 Metalic StreetBridges 2x1 ALL
 1337502612 Metalic StreetBridges 3x1 ALL
-1337502613 Metalic StreetBridges 4x1 ALL
+1337502613 Metalic StreetBridges 4x1 ALL		
 
-1337502570 Trigger
+
+1337505121 Trigger
 
 -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static StreetBridges OW + NW START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX STREETS RELATED BRIDGES HARBOR XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
 	<ModOp Type="addNextSibling" GUID='1010035'>
-<!-- StreetBridges without Lamps -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Solo Bridges HARBOR OW + NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- StreetBridges without Lamps OW + NW -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -115,10 +94,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\street_bridge\canal_bridge_for_2x2_no_lamps_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_no_light\bridge_solo_no_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\street_bridge\canal_bridge_for_2x2_no_lamps_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_no_light\bridge_solo_no_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -163,7 +142,7 @@
 			</Values>
         </Asset>
 		
-<!-- StreetBridges with Lamps -->
+<!-- StreetBridges with Lamps OW + NW -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -202,10 +181,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\street_bridge\canal_bridge_for_2x2_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_with_light\bridge_solo_with_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\street_bridge\canal_bridge_for_2x2_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_with_light\bridge_solo_with_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -250,7 +229,7 @@
 			</Values>
         </Asset>
 		
-<!-- StreetBridges with Roof -->
+<!-- StreetBridges with Roof OW + NW -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -289,10 +268,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\street_bridge\canal_bridge_for_2x2_roofed_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_roofed\bridge_solo_roofed_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\street_bridge\canal_bridge_for_2x2_roofed_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_roofed\bridge_solo_roofed_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -336,9 +315,9 @@
 				</Culture>
 			</Values>
         </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static StreetBridges OW + NW END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static StreetBridges AFRICA START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
-<!-- StreetBridges without Lamps -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Solo Bridges HARBOR AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- StreetBridges without Lamps AFRICA -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -384,10 +363,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\street_bridge\canal_bridge_for_2x2_no_lamps_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_no_light\bridge_solo_no_light_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\street_bridge\canal_bridge_for_2x2_no_lamps_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_no_light\bridge_solo_no_light_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -432,7 +411,7 @@
 			</Values>
         </Asset>
 		
-<!-- StreetBridges with Lamps -->
+<!-- StreetBridges with Lamps AFRICA -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -477,10 +456,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\street_bridge\canal_bridge_for_2x2_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_with_light\bridge_solo_with_light_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\street_bridge\canal_bridge_for_2x2_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_with_light\bridge_solo_with_light_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -525,7 +504,7 @@
 			</Values>
         </Asset>
 		
-<!-- StreetBridges with Roof -->
+<!-- StreetBridges with Roof AFRICA -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -570,10 +549,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\street_bridge\canal_bridge_for_2x2_roofed_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_roofed\bridge_solo_roofed_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\street_bridge\canal_bridge_for_2x2_roofed_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_roofed\bridge_solo_roofed_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -617,9 +596,11 @@
 				</Culture>
 			</Values>
         </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static StreetBridges AFRICA END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static PedestrianBridges OW + NW START  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
-<!-- PedestriansBridges without Lamps -->
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX STREETS RELATED BRIDGES PEDESTRIAN BRIDGES HARBOR XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Solo Pedestrian Bridges HARBOR OW + NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- PedestriansBridges without Lamps OW + NW -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -662,10 +643,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\pedestrian_bridge\canal_bridge_for_2x2_no_lamps_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_no_light\bridge_solo_no_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\pedestrian_bridge\canal_bridge_for_2x2_no_lamps_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_no_light\bridge_solo_no_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -710,7 +691,7 @@
 			</Values>
         </Asset>
 		
-<!-- PedestriansBridges with Lamps -->
+<!-- PedestriansBridges with Lamps OW + NW -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -753,10 +734,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\pedestrian_bridge\canal_bridge_for_2x2_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_with_light\bridge_solo_with_light_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\pedestrian_bridge\canal_bridge_for_2x2_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_with_light\bridge_solo_with_light_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -801,7 +782,7 @@
 			</Values>
         </Asset>
 		
-<!-- PedestriansBridges with Roof -->
+<!-- PedestriansBridges with Roof OW + NW -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -844,13 +825,13 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\pedestrian_bridge\canal_bridge_for_2x2_roofed_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_roofed\bridge_solo_roofed_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\pedestrian_bridge\canal_bridge_for_2x2_roofed_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\bridge_solo_roofed\bridge_solo_roofed_02.cfg</Filename>
 						</Item>
 					</Variations>
-                </Object>
+               </Object>
 				<Constructable />
                 <Mesh />
 				<SoundEmitter>
@@ -891,9 +872,9 @@
 				</Culture>
 			</Values>
         </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static PedestrianBridges OW + NW END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static PedestrianBridges AFRICA START  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
-<!-- PedestriansBridges without Lamps -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Solo Pedestrian Bridges HARBOR AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- PedestriansBridges without Lamps AFRICA -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -940,10 +921,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\pedestrian_bridge\canal_bridge_for_2x2_no_lamps_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_no_light\bridge_solo_no_light_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\pedestrian_bridge\canal_bridge_for_2x2_no_lamps_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_no_light\bridge_solo_no_light_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -988,7 +969,7 @@
 			</Values>
         </Asset>
 		
-<!-- PedestriansBridges with Lamps -->
+<!-- PedestriansBridges with Lamps AFRICA -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -1035,10 +1016,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\pedestrian_bridge\canal_bridge_for_2x2_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_with_light\bridge_solo_with_light_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\pedestrian_bridge\canal_bridge_for_2x2_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_with_light\bridge_solo_with_light_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -1083,7 +1064,7 @@
 			</Values>
         </Asset>
 		
-<!-- PedestriansBridges with Roof -->
+<!-- PedestriansBridges with Roof AFRICA -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -1130,10 +1111,10 @@
                 <Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\pedestrian_bridge\canal_bridge_for_2x2_roofed_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_roofed\bridge_solo_roofed_africa_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\pedestrian_bridge\canal_bridge_for_2x2_roofed_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\bridge_solo_roofed\bridge_solo_roofed_africa_02.cfg</Filename>
 						</Item>
 					</Variations>
                 </Object>
@@ -1177,389 +1158,14 @@
 				</Culture>
 			</Values>
         </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static PedestrianBridges AFRICA END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static RailBridges OW + NW START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
-<!-- RailBridges without Lamps -->
-		<Asset>
-            <Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502564</GUID>
-                    <Name>BridgeNoLamps</Name>
-                    <IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_01.png</IconFilename>
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-				<Text />
-                <Building>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>-->
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>5500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>12</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>8</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\rail_bridge\canal_bridge_for_2x2_rails_no_lamps_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\rail_bridge\canal_bridge_for_2x2_rails_no_lamps_02.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode> 
-			</Values>
-        </Asset>
-		
-<!-- RailBridges with Lamps -->
-		<Asset>
-            <Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502565</GUID>
-                    <Name>BridgeLamps</Name>
-                    <IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_01.png</IconFilename>
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-				<Text />
-                <Building>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>-->
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>5500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>12</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>8</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\rail_bridge\canal_bridge_for_2x2_rails_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\rail_bridge\canal_bridge_for_2x2_rails_02.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode> 
-			</Values>
-        </Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static RailBridges OW + NW END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static RailBridges AFRICA START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
-<!-- RailBridges without Lamps -->
-		<Asset>
-            <Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502594</GUID>
-                    <Name>BridgeNoLamps</Name>
-                    <IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_01.png</IconFilename>
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-				<Text>
-					<TextOverride>1337502564</TextOverride>
-				</Text>
-                <Building>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<TerrainType>Water_Including_Coast</TerrainType>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>-->
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>5500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>12</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>8</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\rail_bridge\canal_bridge_for_2x2_rails_no_lamps_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\rail_bridge\canal_bridge_for_2x2_rails_no_lamps_02.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode> 
-			</Values>
-        </Asset>
-		
-<!-- RailBridges with Lamps -->
-		<Asset>
-            <Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502595</GUID>
-                    <Name>BridgeLamps</Name>
-                    <IconFilename>data\ui\2kimages\main\3dicons\bridges\canal_bridge_01.png</IconFilename>
-					<InfoDescription>257109</InfoDescription>
-                </Standard>
-				<Text>
-					<TextOverride>1337502565</TextOverride>
-				</Text>
-                <Building>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<TerrainType>Water_Including_Coast</TerrainType>
-                </Building>
-				<Blocking>
-					<HidePropsRadius>0</HidePropsRadius>
-					<DeletePropsRadius>0</DeletePropsRadius>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-					<!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
-					<BlocksBuilding>0</BlocksBuilding>-->
-				</Blocking>
-                <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>5500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>10</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>12</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>8</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-                <Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\rail_bridge\canal_bridge_for_2x2_rails_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\rail_bridge\canal_bridge_for_2x2_rails_02.cfg</Filename>
-						</Item>
-					</Variations>
-                </Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture>
-					<Attractiveness>5</Attractiveness>
-					<CultureType>Culture</CultureType>
-				</Culture>
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode> 
-			</Values>
-        </Asset>
-	</ModOp>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Static RailBridges AFRICA END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Modular Bridges + Rails OW + NW START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
-	<!-- Modulare StrassenBrücke -->
+</ModOp>
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX STREETS RELATED MODULAR STREET BRIDGES HARBOR XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
 	<ModOp Type="addNextSibling" GUID='1010035'>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Modular Street Bridges OW + NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Modulare StrassenBrücke OW + NW -->
+
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -1749,16 +1355,16 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_straight_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\1x1_straight_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_corner_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\1x1_corner_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_cross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\1x1_cross_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_tcross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\1x1_tcross_harbor_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -1803,7 +1409,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Modulares endstück StrassenBrücke -->
+	<!-- Modulares endstück StrassenBrücke OW + NW -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -1841,7 +1447,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_2x1_end_street_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\modular_end_harbor_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -1885,8 +1491,8 @@
 				</Culture>
 			</Values>
         </Asset>
-		
-	<!-- Modulare FußgängerBrücke -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Modular Pedestrian Bridges OW + NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
+	<!-- Modulare FußgängerBrücke OW + NW -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -2078,16 +1684,16 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_straight_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\1x1_straight_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_corner_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\1x1_corner_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_cross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\1x1_cross_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_tcross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\1x1_tcross_harbor_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -2132,7 +1738,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Modulares endstück FußgängerBrücke -->
+	<!-- Modulares endstück FußgängerBrücke OW + NW -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -2173,11 +1779,8 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_2x1_end_pedestrian_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_straight_pedestrian_01.cfg</Filename>
-						</Item>
+						<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\1x1_modular\modular_end_harbor_01.cfg</Filename>
+					</Item>
 					</Variations>
 				</Object>
 				<Constructable />
@@ -2220,1599 +1823,11 @@
 				</Culture>
 			</Values>
         </Asset>
-		
-	<!-- Modulare SchienenBrücke 01-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502587</GUID>
-                    <Name>ModularRailBridge</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_bridge_01.png</IconFilename>
-					<InfoDescription>163093</InfoDescription>
-				</Standard>
-				<Text />
-				<!--<Text>
-					<TextOverride>5188</TextOverride>
-				</Text>-->
-				<Blocking>
-						<GroundDecalAsset>132528</GroundDecalAsset>
-						<GroundDecalInvisible>132529</GroundDecalInvisible>
-						<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-						<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502587</Building>
-						</Item>
-						<Item>
-							<Building>1337502569</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-						  </Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-                </Building>
-				<Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>1500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>3</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>1</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-                        </Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_straight_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_corner_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_cross_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_tcross_03.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>        
-			</Values>
-        </Asset>
 	
-	<!-- Modulare SchienenBrücke 02-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502567</GUID>
-                    <Name>ModularRailBridge</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_bridge_02.png</IconFilename>
-					<InfoDescription>163093</InfoDescription>
-				</Standard>
-				<Text />
-				<!--<Text>
-					<TextOverride>5188</TextOverride>
-				</Text>-->
-				<Blocking>
-						<GroundDecalAsset>132528</GroundDecalAsset>
-						<GroundDecalInvisible>132529</GroundDecalInvisible>
-						<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-						<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502567</Building>
-						</Item>
-						<Item>
-							<Building>1337502569</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-						  </Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-                </Building>
-				<Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>1500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>3</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>1</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-                        </Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>        
-			</Values>
-        </Asset>
-		
-	<!-- Modulares endstück rails -->
-		<Asset>
-            <Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502569</GUID>
-                    <Name>ModularRailBridgeEND</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_end_02.png</IconFilename>
-					<InfoDescription>163093</InfoDescription>
-				</Standard>
-				<Text />
-				<!--<Text>
-					<TextOverride>5188</TextOverride>
-				</Text>-->
-				<Blocking>
-						<GroundDecalAsset>132528</GroundDecalAsset>
-						<GroundDecalInvisible>132529</GroundDecalInvisible>
-						<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-						<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502587</Building>
-						</Item>
-						<Item>
-							<Building>1337502567</Building>
-						</Item>
-						<Item>
-							<Building>1337502569</Building>
-						</Item>
-						<Item>
-							<Building>1337502581</Building>
-						</Item>
-						<Item>
-							<Building>1337502584</Building>
-						</Item>
-						<Item>
-							<Building>1337502585</Building>
-						</Item>
-						<Item>
-							<Building>1337502586</Building>
-						</Item>
-					</InfluencedByNeighbors>
-                </Building>
-				<Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>2500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>4</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>4</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>6</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-                        </Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_2x1_end_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_modular_01\modular_2x1_end_03.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-			</Values>
-        </Asset>
-		
-	<!-- Modular Harbor Rails 01-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502581</GUID>
-					<Name>HarborRails01</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_01.png</IconFilename>
-				</Standard>
-				<Text />
-				<Blocking>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502581</Building>
-						</Item>
-						<Item>
-							<Building>1337502569</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-							</Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-				</Building>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>2500</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>50</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>40</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>25</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-				</Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-				<!--<BuffFactory />-->
-			</Values>
-		</Asset>
-		
-	<!-- Modular Harbor Rails 02-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502584</GUID>
-					<Name>HarborRails02</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_02.png</IconFilename>
-				</Standard>
-				<Text />
-				<Blocking>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502584</Building>
-						</Item>
-						<Item>
-							<Building>1337502569</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-							</Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-				</Building>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>2500</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>50</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>40</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>25</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_02\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_02\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_02\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_02\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-				</Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-				<!--<BuffFactory />-->
-			</Values>
-		</Asset>
-		
-	<!-- Modular Harbor Rails 03-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502585</GUID>
-					<Name>HarborRails03</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_03.png</IconFilename>
-				</Standard>
-				<Text />
-				<Blocking>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502585</Building>
-						</Item>
-						<Item>
-							<Building>1337502569</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-							</Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-				</Building>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>2500</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>50</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>40</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>25</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_03\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_03\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_03\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_03\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-				</Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-				<!--<BuffFactory />-->
-			</Values>
-		</Asset>
-		
-	<!-- Modular Harbor Rails 04-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502586</GUID>
-					<Name>HarborRails03</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_04.png</IconFilename>
-				</Standard>
-				<Text />
-				<Blocking>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502586</Building>
-						</Item>
-						<Item>
-							<Building>1337502569</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-							</Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-				</Building>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>2500</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>50</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>40</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>25</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_04\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_04\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_04\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\1x1_rails_04\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-				</Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-				<!--<BuffFactory />-->
-			</Values>
-		</Asset>
 	</ModOp>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Modular Bridges + Rails OW + NW END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Modular Bridges + Rails AFRICA START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
-	<!-- Modulare StrassenBrücke -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Modular Street Bridges AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->		
+	<!-- Modulare StrassenBrücke AFRICA -->
 	<ModOp Type="addNextSibling" GUID='1010035'>
 		<Asset>
             <Template>HarborOrnamentMU</Template>
@@ -4005,16 +2020,16 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_straight_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\1x1_straight_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_corner_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\1x1_corner_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_cross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\1x1_cross_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_tcross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\1x1_tcross_harbor_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -4059,7 +2074,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Modulares endstück StrassenBrücke -->
+	<!-- Modulares endstück StrassenBrücke AFRICA -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -4099,7 +2114,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_2x1_end_street_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\modular_end_harbor_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -4143,8 +2158,9 @@
 				</Culture>
 			</Values>
         </Asset>
-		
-	<!-- Modulare FußgängerBrücke -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Streets Related Modular Pedestrian Bridges AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<!-- Modulare FußgängerBrücke AFRICA -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -4338,16 +2354,16 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_straight_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\1x1_straight_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_corner_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\1x1_corner_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_cross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\1x1_cross_harbor_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_tcross_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\1x1_tcross_harbor_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -4392,7 +2408,7 @@
 			</Values>
         </Asset>
 		
-	<!-- Modulares endstück FußgängerBrücke -->
+	<!-- Modulares endstück FußgängerBrücke AFRICA -->
 		<Asset>
             <Template>HarborOrnamentMU</Template>
             <Values>
@@ -4435,10 +2451,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_2x1_end_pedestrian_01.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_straight_pedestrian_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\1x1_modular\modular_end_harbor_01.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -4483,1650 +2496,10 @@
 			</Values>
         </Asset>
 		
-	<!-- Modulare SchienenBrücke 01-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502607</GUID>
-                    <Name>ModularRailBridge</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_bridge_01.png</IconFilename>
-					<InfoDescription>163093</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1337502587</TextOverride>
-				</Text>
-				<Blocking>
-						<GroundDecalAsset>132528</GroundDecalAsset>
-						<GroundDecalInvisible>132529</GroundDecalInvisible>
-						<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-						<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502608</Building>
-						</Item>
-						<Item>
-							<Building>1337502607</Building>
-						</Item>
-						<Item>
-							<Building>1337502609</Building>
-						</Item>
-						<Item>
-							<Building>1337502603</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-						  </Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-                </Building>
-				<Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>1500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>3</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>1</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-                        </Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_straight_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_corner_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_cross_03.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_tcross_03.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>        
-			</Values>
-        </Asset>
-	
-	<!-- Modulare SchienenBrücke 02-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502608</GUID>
-                    <Name>ModularRailBridge</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_bridge_02.png</IconFilename>
-					<InfoDescription>163093</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1337502567</TextOverride>
-				</Text>
-				<Blocking>
-						<GroundDecalAsset>132528</GroundDecalAsset>
-						<GroundDecalInvisible>132529</GroundDecalInvisible>
-						<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-						<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502608</Building>
-						</Item>
-						<Item>
-							<Building>1337502609</Building>
-						</Item>
-						<Item>
-							<Building>1337502603</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-						  </Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-                </Building>
-				<Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>1500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>3</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>1</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-                        </Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>        
-			</Values>
-        </Asset>
-		
-	<!-- Modulares endstück rails -->
-		<Asset>
-            <Template>OrnamentalBuilding_HarborRails_MU</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502609</GUID>
-                    <Name>ModularRailBridgeEND</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_end_02.png</IconFilename>
-					<InfoDescription>163093</InfoDescription>
-				</Standard>
-				<Text>
-					<TextOverride>1337502569</TextOverride>
-				</Text>
-				<Blocking>
-						<GroundDecalAsset>132528</GroundDecalAsset>
-						<GroundDecalInvisible>132529</GroundDecalInvisible>
-						<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-						<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502608</Building>
-						</Item>
-						<Item>
-							<Building>1337502609</Building>
-						</Item>
-						<Item>
-							<Building>1337502603</Building>
-						</Item>
-						<Item>
-							<Building>1337502604</Building>
-						</Item>
-					</InfluencedByNeighbors>
-                </Building>
-				<Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>2500</Amount>
-                        </Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>4</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>4</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>6</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>2</Amount>
-						</Item>
-                    </Costs>
-                </Cost>
-				<Selection>
-					<OnSelection>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-                        </Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_2x1_end_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_modular_01\modular_2x1_end_03.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>0</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-			</Values>
-        </Asset>
-		
-	<!-- Modular Harbor Rails 01-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502603</GUID>
-					<Name>HarborRails01</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_01.png</IconFilename>
-				</Standard>
-				<Text>
-					<TextOverride>1337502581</TextOverride>
-				</Text>
-				<Blocking>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502608</Building>
-						</Item>
-						<Item>
-							<Building>1337502609</Building>
-						</Item>
-						<Item>
-							<Building>1337502603</Building>
-						</Item>
-						<Item>
-							<Building>1337502604</Building>
-						</Item>
-						<Item>
-							<Building>1337502605</Building>
-						</Item>
-						<Item>
-							<Building>1337502606</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-							</Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-				</Building>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>2500</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>50</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>40</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>25</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-				</Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-				<!--<BuffFactory />-->
-			</Values>
-		</Asset>
-		
-	<!-- Modular Harbor Rails 02-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502604</GUID>
-					<Name>HarborRails02</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_02.png</IconFilename>
-				</Standard>
-				<Text>
-					<TextOverride>1337502584</TextOverride>
-				</Text>
-				<Blocking>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502608</Building>
-						</Item>
-						<Item>
-							<Building>1337502609</Building>
-						</Item>
-						<Item>
-							<Building>1337502603</Building>
-						</Item>
-						<Item>
-							<Building>1337502604</Building>
-						</Item>
-						<Item>
-							<Building>1337502605</Building>
-						</Item>
-						<Item>
-							<Building>1337502606</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-							</Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-				</Building>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>2500</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>50</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>40</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>25</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_02\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_02\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_02\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_02\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-				</Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-				<!--<BuffFactory />-->
-			</Values>
-		</Asset>
-		
-	<!-- Modular Harbor Rails 03-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502605</GUID>
-					<Name>HarborRails03</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_03.png</IconFilename>
-				</Standard>
-				<Text>
-					<TextOverride>1337502585</TextOverride>
-				</Text>
-				<Blocking>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502608</Building>
-						</Item>
-						<Item>
-							<Building>1337502609</Building>
-						</Item>
-						<Item>
-							<Building>1337502603</Building>
-						</Item>
-						<Item>
-							<Building>1337502604</Building>
-						</Item>
-						<Item>
-							<Building>1337502605</Building>
-						</Item>
-						<Item>
-							<Building>1337502606</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-							</Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-				</Building>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>2500</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>50</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>40</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>25</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_03\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_03\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_03\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_03\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-				</Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-				<!--<BuffFactory />-->
-			</Values>
-		</Asset>
-		
-	<!-- Modular Harbor Rails 04-->
-		<Asset>
-			<Template>OrnamentalBuilding_HarborRails_MU</Template>
-			<Values>
-				<Standard>
-					<GUID>1337502606</GUID>
-					<Name>HarborRails03</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_rails_04.png</IconFilename>
-				</Standard>
-				<Text>
-					<TextOverride>1337502586</TextOverride>
-				</Text>
-				<Blocking>
-					<GroundDecalAsset>132528</GroundDecalAsset>
-					<GroundDecalInvisible>132529</GroundDecalInvisible>
-					<ProvideLocalHeightForStreetLayer>1</ProvideLocalHeightForStreetLayer>
-					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
-				</Blocking>
-				<Building>
-					<TerrainType>Water_Including_Coast</TerrainType>
-					<BuildingCategoryName>1010136</BuildingCategoryName>
-					<BuildModeRandomRotation>90</BuildModeRandomRotation>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
-					<AllowChangeVariation>1</AllowChangeVariation>
-					<SecondPartyRelevant>0</SecondPartyRelevant>
-					<InfluencedByNeighbors>
-						<Item>
-							<Building>1337502608</Building>
-						</Item>
-						<Item>
-							<Building>1337502609</Building>
-						</Item>
-						<Item>
-							<Building>1337502603</Building>
-						</Item>
-						<Item>
-							<Building>1337502604</Building>
-						</Item>
-						<Item>
-							<Building>1337502605</Building>
-						</Item>
-						<Item>
-							<Building>1337502606</Building>
-						</Item>
-					</InfluencedByNeighbors>
-					<InfluencedVariationDirection>
-						<Item>
-							<!-- single -->
-							<Direction>0</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-west -->
-							<Direction>1</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- end, south-east -->
-							<Direction>2</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, south -->
-							<Direction>3</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- end, north-east -->
-							<Direction>3</Direction>
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- mid, south-west to north-east -->
-							<Direction>1</Direction>
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- corner, east -->
-							<Direction>0</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-east -->
-							<Direction>0</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- end, north-west -->
-							<Type>End</Type>
-						</Item>
-						<Item>
-							<!-- corner, west -->
-							<Direction>2</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- mid, north-west to south-east -->
-							<Type>Mid</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing south-west  -->
-							<Direction>3</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- corner, north -->
-							<Direction>1</Direction>
-							<Type>Corner</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-west -->
-							<Direction>2</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- T, front facing north-east -->
-							<Direction>1</Direction>
-							<Type>TCrossing</Type>
-						</Item>
-						<Item>
-							<!-- crossing -->
-							<Type>Crossing</Type>
-						</Item>
-					</InfluencedVariationDirection>
-					<BuildingBlockPool>
-						<Single>
-							<Pool>
-								<Item>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Single>
-						<DontCare />
-						<Corner>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>1</Variation>
-								</Item>
-							</Pool>
-						</Corner>
-						<Mid>
-							<Pool>
-								<Item>
-									<DirectionOffet>1</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</Mid>
-						<End>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>0</Variation>
-								</Item>
-							</Pool>
-						</End>
-						<TCrossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>2</DirectionOffet>
-									<Variation>3</Variation>
-								</Item>
-							</Pool>
-						</TCrossing>
-						<Crossing>
-							<Pool>
-								<Item>
-									<DirectionOffet>3</DirectionOffet>
-									<Variation>2</Variation>
-								</Item>
-							</Pool>
-						</Crossing>
-					</BuildingBlockPool>
-					<VariationIcons>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
-						</Item>
-						<Item>
-							<IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
-						</Item>
-					</VariationIcons>
-				</Building>
-				<Cost>
-					<Costs>
-						<Item>
-							<Ingredient>1010017</Ingredient>
-							<Amount>2500</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010196</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010205</Ingredient>
-							<Amount>50</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010218</Ingredient>
-							<Amount>40</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010207</Ingredient>
-							<Amount>30</Amount>
-						</Item>
-						<Item>
-							<Ingredient>1010202</Ingredient>
-							<Amount>25</Amount>
-						</Item>
-					</Costs>
-				</Cost>
-				<Selection>
-					<OnSelection>
-						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-						<Values>
-							<ActionList />
-						</Values>
-					</OnSelection>
-				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_04\modular_1x1_straight_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_04\modular_1x1_corner_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_04\modular_1x1_cross_02.cfg</Filename>
-						</Item>
-						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\1x1_rails_04\modular_1x1_tcross_02.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
-				<Constructable />
-				<Mesh />
-				<SoundEmitter />
-				<Locked />
-				<FeedbackController />
-				<Ornament>
-					<PlazzaSize>1</PlazzaSize>
-					<OrnamentUnit>1</OrnamentUnit>
-				</Ornament>
-				<AmbientMoodProvider />
-				<Pausable />
-				<Culture />
-				<FactoryBase />
-				<LogisticNode>
-					<TransporterCountMax>0</TransporterCountMax>
-				</LogisticNode>
-				<!--<BuffFactory />-->
-			</Values>
-		</Asset>
-	</ModOp>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Modular Bridges + Rails AFRICA END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Wooden Street Bridges OW + NW START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+</ModOp>
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX STREETS RELATED BRIDGES STREET BRIDGES HARBOR XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Wooden Street Bridges OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID="132597">
 	<!-- Brücke Holz 2er OW -->
 		<Asset>
@@ -6164,10 +2537,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\wood_bridge\wood_bridge_2x1_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\wood_bridge_ow\wood_bridge_2x1_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\wood_bridge\wood_bridge_2x1_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\wood_bridge_ow\wood_bridge_2x1_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6248,10 +2621,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\wood_bridge\wood_bridge_3x1_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\wood_bridge_ow\wood_bridge_3x1_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\wood_bridge\wood_bridge_3x1_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\wood_bridge_ow\wood_bridge_3x1_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6295,7 +2668,8 @@
 				</Culture>
 			</Values>
 		</Asset>
-	
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Wooden Street Bridges N xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- Brücke Holz 2er NW -->
 		<Asset>
 			<Template>HarborOrnamentMU</Template>
@@ -6332,10 +2706,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\nw\wood_bridge\wood_bridge_2x1_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\wood_bridge_nw\wood_bridge_2x1_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\nw\wood_bridge\wood_bridge_2x1_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\wood_bridge_nw\wood_bridge_2x1_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6416,10 +2790,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\nw\wood_bridge\wood_bridge_3x1_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\wood_bridge_nw\wood_bridge_3x1_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\nw\wood_bridge\wood_bridge_3x1_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\ow_nw\wood_bridge_nw\wood_bridge_3x1_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6463,8 +2837,8 @@
 				</Culture>
 			</Values>
 		</Asset>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Wooden Street Bridges OW + NW END xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Wooden Street Bridges AFRICA START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Wooden Street Bridges AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- Brücke Holz 2er AFRICA -->
 		<Asset>
 			<Template>HarborOrnamentMU</Template>
@@ -6503,10 +2877,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\wood_bridge\wood_bridge_2x1_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\wood_bridge_africa\wood_bridge_2x1_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\wood_bridge\wood_bridge_2x1_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\wood_bridge_africa\wood_bridge_2x1_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6589,10 +2963,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\wood_bridge\wood_bridge_3x1_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\wood_bridge_africa\wood_bridge_3x1_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\africa\wood_bridge\wood_bridge_3x1_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\harbor\africa\wood_bridge_africa\wood_bridge_3x1_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6637,8 +3011,8 @@
 			</Values>
 		</Asset>
 	</ModOp>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Wooden Street Bridges AFRICA End xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Mtalic Street Bridges All START xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Metalic Street Bridges All xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID="132597">
 	<!-- Brücke Metall 2er All -->
 		<Asset>
@@ -6676,10 +3050,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\metal_bridge\metal_bridge_2x1_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\metal_bridge\metal_bridge_2x1_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\metal_bridge\metal_bridge_2x1_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\metal_bridge\metal_bridge_2x1_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6731,7 +3105,7 @@
 				<Standard>
 					<GUID>1337502612</GUID>
 					<Name>MetalBridge3</Name>
-					<IconFilename>data\ui\2kimages\main\3dicons\harbor_bridges\harbor_metal_bridge_02.png</IconFilename>
+					<IconFilename>data\ui\2kimages\main\3dicons\harbor_bridges\harbor_metal_bridge_01.png</IconFilename>
 					<InfoDescription>257109</InfoDescription>
 				</Standard>
 				<Building>
@@ -6760,10 +3134,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\metal_bridge\metal_bridge_3x1_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\metal_bridge\metal_bridge_3x1_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\metal_bridge\metal_bridge_3x1_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\metal_bridge\metal_bridge_3x1_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6808,7 +3182,7 @@
 			</Values>
 		</Asset>
 
-	<!-- Brücke Metall 4er OW -->
+	<!-- Brücke Metall 4er All -->
 		<Asset>
 			<Template>HarborOrnamentMU</Template>
 			<Values>
@@ -6844,10 +3218,10 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\metal_bridge\metal_bridge_4x1_01.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\metal_bridge\metal_bridge_4x1_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data\modgraphics\buildings\ornamental\canal_bridge_harbor\ow\metal_bridge\metal_bridge_4x1_02.cfg</Filename>
+							<Filename>data\muggenstuermer\streets_related\bridges\metal_bridge\metal_bridge_4x1_02.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>
@@ -6900,7 +3274,7 @@
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502570</GUID>
+					<GUID>1337505121</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -6946,28 +3320,11 @@
 											</Item>
 											
 											<Item>
-												<Asset>1337502564</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502565</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502566</Asset>
 											</Item>
 											
 											<Item>
-												<Asset>1337502567</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502587</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502568</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502569</Asset>
 											</Item>
 											
 											<Item>
@@ -6975,19 +3332,6 @@
 											</Item>
 											<Item>
 												<Asset>1337502583</Asset>
-											</Item>
-											
-											<Item>
-												<Asset>1337502581</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502584</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502585</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502586</Asset>
 											</Item>
 											
 											<Item>
@@ -7037,28 +3381,11 @@
 											</Item>
 											
 											<Item>
-												<Asset>1337502594</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502595</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502596</Asset>
 											</Item>
 											
 											<Item>
-												<Asset>1337502608</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502607</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502597</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502609</Asset>
 											</Item>
 											
 											<Item>
@@ -7066,19 +3393,6 @@
 											</Item>
 											<Item>
 												<Asset>1337502599</Asset>
-											</Item>
-											
-											<Item>
-												<Asset>1337502603</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502604</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502605</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502606</Asset>
 											</Item>
 											
 											<Item>
@@ -7113,28 +3427,11 @@
 											</Item>
 											
 											<Item>
-												<Asset>1337502564</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502565</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502566</Asset>
 											</Item>
 											
 											<Item>
-												<Asset>1337502567</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502587</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502568</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502569</Asset>
 											</Item>
 											
 											<Item>
@@ -7142,19 +3439,6 @@
 											</Item>
 											<Item>
 												<Asset>1337502583</Asset>
-											</Item>
-											
-											<Item>
-												<Asset>1337502581</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502584</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502585</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502586</Asset>
 											</Item>
 											
 											<Item>
@@ -7204,28 +3488,11 @@
 											</Item>
 											
 											<Item>
-												<Asset>1337502594</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502595</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502596</Asset>
 											</Item>
 											
 											<Item>
-												<Asset>1337502608</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502607</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337502597</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502609</Asset>
 											</Item>
 											
 											<Item>
@@ -7236,24 +3503,12 @@
 											</Item>
 											
 											<Item>
-												<Asset>1337502603</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502604</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502605</Asset>
-											</Item>
-											<Item>
-												<Asset>1337502606</Asset>
-											</Item>
-											
-											<Item>
 												<Asset>1337501145</Asset>
 											</Item>
 											<Item>
 												<Asset>1337501146</Asset>
 											</Item>
+											
 											
 										</UnhideAssets>
 									</ActionUnlockAsset>
@@ -7269,7 +3524,7 @@
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenu hinzufügen  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- Add OW Quaystreets to OW Streets_Relatet Harbor Quaystreets Buildmenu -->
-	<ModOp Type="add" GUID='1337502790' Path="/Values/ConstructionCategory/BuildingList">
+	<ModOp Type="add" GUID='1337502552' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337502558</Building>
 		</Item>
@@ -7289,14 +3544,6 @@
 			<Building>1337502563</Building>
 		</Item>
 		
-		<!-- Schienen bezogen Start
-		<Item>
-			<Building>1337502564</Building>
-		</Item>
-		<Item>
-			<Building>1337502565</Building>
-		</Item>
-		Schienen bezogen Ende -->
 		
 		<Item>
 			<Building>1337502566</Building>
@@ -7328,40 +3575,10 @@
 		<Item>
 			<Building>1337502613</Building>
 		</Item>
-		
-		<!-- Schienen bezogen Start
-		<Item>
-			<Building>1337502587</Building>
-		</Item>
-		<Item>
-			<Building>1337502567</Building>
-		</Item>
-		
-		<Item>
-			<Building>1337502569</Building>
-		</Item>
-		
-		<Item>
-			<Building>1337502581</Building>
-		</Item>
-		<Item>
-			<Building>1337502584</Building>
-		</Item>
-		<Item>
-			<Building>1337502585</Building>
-		</Item>
-		<Item>
-			<Building>1337502586</Building>
-		</Item>
-		
-		<Item>
-			<Building>1337500251</Building>
-		</Item>
-		Schienen bezogen Ende -->
 	</ModOp>
 	
 	<!-- Add NW Quaystreets to NW Streets_Relatet Harbor Quaystreets Buildmenu -->
-	<ModOp Type="add" GUID='1337502791' Path="/Values/ConstructionCategory/BuildingList">
+	<ModOp Type="add" GUID='1337502553' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337502558</Building>
 		</Item>
@@ -7381,14 +3598,6 @@
 			<Building>1337502563</Building>
 		</Item>
 		
-		<!-- Schienen bezogen Start
-		<Item>
-			<Building>1337502564</Building>
-		</Item>
-		<Item>
-			<Building>1337502565</Building>
-		</Item>
-		Schienen bezogen Ende -->
 		
 		<Item>
 			<Building>1337502566</Building>
@@ -7421,39 +3630,10 @@
 			<Building>1337502613</Building>
 		</Item>
 		
-		<!-- Schienen bezogen Start
-		<Item>
-			<Building>1337502587</Building>
-		</Item>
-		<Item>
-			<Building>1337502567</Building>
-		</Item>
-		
-		<Item>
-			<Building>1337502569</Building>
-		</Item>
-		
-		<Item>
-			<Building>1337502581</Building>
-		</Item>
-		<Item>
-			<Building>1337502584</Building>
-		</Item>
-		<Item>
-			<Building>1337502585</Building>
-		</Item>
-		<Item>
-			<Building>1337502586</Building>
-		</Item>
-		
-		<Item>
-			<Building>1337500251</Building>
-		</Item>
-		Schienen bezogen Ende -->
 	</ModOp>
 	
 	<!-- Add Africa Quaystreets to Africa Streets_Relatet Harbor Quaystreets Buildmenu -->
-	<ModOp Type="add" GUID='1337502792' Path="/Values/ConstructionCategory/BuildingList">
+	<ModOp Type="add" GUID='1337502554' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337502588</Building>
 		</Item>
@@ -7473,14 +3653,6 @@
 			<Building>1337502593</Building>
 		</Item>
 		
-		<!-- Schienen bezogen Start
-		<Item>
-			<Building>1337502594</Building>
-		</Item>
-		<Item>
-			<Building>1337502595</Building>
-		</Item>
-		 Schienen bezogen Ende -->
 		
 		<Item>
 			<Building>1337502596</Building>
@@ -7513,35 +3685,6 @@
 			<Building>1337502613</Building>
 		</Item>
 		
-		<!-- Schienen bezogen Start
-		<Item>
-			<Building>1337502608</Building>
-		</Item>
-		<Item>
-			<Building>1337502607</Building>
-		</Item>
-		
-		<Item>
-			<Building>1337502609</Building>
-		</Item>
-		
-		<Item>
-			<Building>1337502603</Building>
-		</Item>
-		<Item>
-			<Building>1337502604</Building>
-		</Item>
-		<Item>
-			<Building>1337502605</Building>
-		</Item>
-		<Item>
-			<Building>1337502606</Building>
-		</Item>
-
-		<Item>
-			<Building>1337500251</Building>
-		</Item>
-		Schienen bezogen Ende -->
 	</ModOp>
 
 </ModOps>
