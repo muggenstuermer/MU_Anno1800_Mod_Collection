@@ -2021,7 +2021,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx INDUSTRY RELATED ORNAMENTS HARBOR SHED DEPOTS xxxxxxxxx
                     <IconFilename>data\ui\2kimages\main\3dicons\industrial_buildings\cranes\4x4_crane_01.png</IconFilename>
                     <InfoDescription>1337506025</InfoDescription>
                 </Standard>
-                <Text />
+                <Text>
+                    <TextOverride>1337505843</TextOverride>
+                </Text>
                 <Building>
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
@@ -2300,41 +2302,59 @@ xxxxxxxxxxxxxxxxxxxxxxxx INDUSTRY RELATED ORNAMENTS HARBOR SHED DEPOTS xxxxxxxxx
         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx INDUSTRY RELATED ORNAMENTS HARBOR PIER WITH SHED xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
         <!-- Pier with Shed -->
         <Asset>
-            <Template>HarborOrnamentMU</Template>
+            <Template>HarborLandingStage7MU</Template>
             <Values>
                 <Standard>
                     <GUID>1337506029</GUID>
                     <Name>PierWithShed01</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\industrial_buildings\pier_with_shed_01.png</IconFilename>
-                    <InfoDescription>1337506029</InfoDescription>
+                    <InfoDescription>2980</InfoDescription>
                 </Standard>
-                <Text />
+                <Text>
+					<TextOverride>100519</TextOverride>
+				</Text>
                 <Building>
-                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <BuildingCategoryName>11150</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
+					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
                 <Blocking>
-                    <HidePropsRadius>0</HidePropsRadius>
-                    <DeletePropsRadius>0</DeletePropsRadius>
                     <GroundDecalAsset>102460</GroundDecalAsset>
                     <GroundDecalInvisible>102459</GroundDecalInvisible>
+					<GroundDecalAssetExtra>100691</GroundDecalAssetExtra>
                     <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HarbourAreaExpand>0</HarbourAreaExpand>
                 </Blocking>
                 <Cost>
-                    <Costs>
-                        <Item>
-                            <Ingredient>1010017</Ingredient>
-                            <Amount>100</Amount>
-                        </Item>
-                    </Costs>
-                </Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>100</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+					</Costs>
+				</Cost>
                 <Selection>
-                    <Colors>
-                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
-                    </Colors>
-                </Selection>
+					<GUIType>Pier</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
                 <Object>
                     <Variations>
                         <Item>
@@ -2354,23 +2374,96 @@ xxxxxxxxxxxxxxxxxxxxxxxx INDUSTRY RELATED ORNAMENTS HARBOR SHED DEPOTS xxxxxxxxx
                         </SkinList>
                     </Skins>
                 </Object>
-                <Constructable />
-                <Mesh />
-                <SoundEmitter />
-                <Locked />
-                <FeedbackController>
-                    <NightBehavior>HideNone</NightBehavior>
-                </FeedbackController>
-                <Ornament>
-                    <PlazzaSize>1</PlazzaSize>
-                    <OrnamentUnit>1</OrnamentUnit>
-                </Ornament>
-                <AmbientMoodProvider />
-                <Pausable />
-                <Infolayer />
-                <Culture />
-            </Values>
-        </Asset>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>200896</Sound>
+						</Item>
+					</ActiveSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>206544</Sound>
+							</Item>
+						</BuildSuccessful>
+					</ConstructionSounds>
+					<IncidentSounds>
+						<InfectedFire>
+							<Item>
+								<Sound>214659</Sound>
+							</Item>
+						</InfectedFire>
+					</IncidentSounds>
+					<BuildingRuined>
+						<Item>
+							<Sound>203848</Sound>
+						</Item>
+					</BuildingRuined>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<Locked />
+				<FeedbackController>
+					<NightBehavior>HideNone</NightBehavior>
+				</FeedbackController>
+				<MinimapToken />
+				<AmbientMoodProvider />
+				<LoadingPier>
+					<NumOfPiers>1</NumOfPiers>
+					<LoadingSpeed>2</LoadingSpeed>
+					<MinLoadingTime>5</MinLoadingTime>
+				</LoadingPier>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+					<MaximumHitPoints>2500</MaximumHitPoints>
+					<PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+					<HPBarOffset>5.5</HPBarOffset>
+					<MoralePower>50</MoralePower>
+					<IslandWarFlag>102303</IslandWarFlag>
+					<HasRuinState>1</HasRuinState>
+					<ExplosionEffects>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborLandingStage7MU</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_02.cfg</ExplosionEffectFilePath>
+						</Item>
+					</ExplosionEffects>
+					<ExplosionEffectsMin>2</ExplosionEffectsMin>
+					<ExplosionEffectsMax>2</ExplosionEffectsMax>
+					<SelfHealPerHealTick>5</SelfHealPerHealTick>
+				</Attackable>
+				<StorageBase>
+					<ProductStorageList>120060</ProductStorageList>
+				</StorageBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>30</Amount>
+							<InactiveAmount>20</InactiveAmount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<UpgradeList />
+				<LogisticNode>
+					<TransporterCountMax>0</TransporterCountMax>
+				</LogisticNode>
+				<Upgradable />
+				<Infolayer />
+			</Values>
+		</Asset>
         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx INDUSTRY RELATED ORNAMENTS HARBOR PIERS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
         <!-- Pier Stairs Left -->
         <Asset>
@@ -2382,7 +2475,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx INDUSTRY RELATED ORNAMENTS HARBOR SHED DEPOTS xxxxxxxxx
                     <IconFilename>data\ui\2kimages\main\3dicons\industrial_buildings\pier_left_with_quay.png</IconFilename>
                     <InfoDescription>1337506030</InfoDescription>
                 </Standard>
-                <Text />
+                <Text>
+                    <TextOverride>1337505845</TextOverride>
+                </Text>
                 <Building>
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
@@ -2446,7 +2541,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx INDUSTRY RELATED ORNAMENTS HARBOR SHED DEPOTS xxxxxxxxx
                     <IconFilename>data\ui\2kimages\main\3dicons\industrial_buildings\pier_right_with_quay.png</IconFilename>
                     <InfoDescription>1337506031</InfoDescription>
                 </Standard>
-                <Text />
+                <Text>
+                    <TextOverride>1337505846</TextOverride>
+                </Text>
                 <Building>
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
@@ -2510,7 +2607,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx INDUSTRY RELATED ORNAMENTS HARBOR SHED DEPOTS xxxxxxxxx
                     <IconFilename>data\ui\2kimages\main\3dicons\industrial_buildings\pier_turned_with_quay.png</IconFilename>
                     <InfoDescription>1337506032</InfoDescription>
                 </Standard>
-                <Text />
+                <Text>
+                    <TextOverride>1337505847</TextOverride>
+                </Text>
                 <Building>
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
