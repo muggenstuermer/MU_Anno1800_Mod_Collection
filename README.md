@@ -25,6 +25,8 @@ still in rework process,pls be patient,thx
 
 [Worlds_New_Depots_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#worlds_new_depots_mu)
 
+[Rails_Related_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#rails_related_mu)
+
 
 ## `A_Modified_Ornaments_Tab_MU`
 
@@ -564,6 +566,67 @@ Otherwise, the buildings are just like the warehouse or the depots.
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 [Download latest Worlds_New_Depots_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+## `Rails_Related_MU`
+
+![](./doc/rails_banner.jpg)
+
+This mod takes up the topic ‘rails’ and everything that has to do with it, it also allows the construction of rails on the water.
+Because this mod explicitly addresses the harbour,some harbour-relevant objects are included.
+Even if they do not directly fulfil the mod theme.
+
+
+### Preface:
+
+- The WaterRails building isnt 100% save.therefor they all have a quay as grounddecal.
+- A pefekt Rails connection disables this grounddecal,and a missconnect will shown bei the railing of the quay (grounddecal).
+- its also not 100% safe,but a continued connection,should always start in the dirction,the builded rails ends.
+- tcrosses and xcrosses always fails.delet this part an buil it new,or drag it once out and drag it back.
+- do not use the pickaxe to tear off individual rail parts, but select the part in question and use the remove button on your keyboard.
+- i have created a how-to in video format for this mod, and i recommend watching it.
+  it explains and illustrates the problems and some explanations on this topic . https://www.youtube.com/watch?v=ZY_o4fl3M7A
+- since the how-to, the build menu has been updated and additional build menus have been added.
+	
+- Some Words :
+  In february 2023 this all should be realised in a coop with @Valiiium.. but suddenly he disapeared and never answered to my mails again.
+  In October 2024 @Lion started a mod with same theme.after consulting him,we decided to make coop togheter with our stuff..
+  so i changed all my stuff and make new ones... but unfortunately @Lion is also missing at the moment, and is not responding to any of my contacts.
+  i hope he is in the best of health and doing well.
+  i would like to wait for him out of respect,but i've already built so much on it now, and involved other mods... i have to "pre" release that and hope nobody is upset about it.
+
+
+### Necessary active mods:
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
+
+- ["Green_Mile_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/greenmilemu)
+
+- ["Streets & Railways (Jakob)" by @Jakob](https://mod.io/g/anno-1800/m/jakob-improved-streets)
+
+- ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
+
+
+### Recommended active mods:
+
+- ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
+- ["Pavements_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/pavements-mu)
+
+- ["Worlds_New_Depots_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/worldsnewdepotsmu)
+
+- ["Marketplaces_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/marketplacesmu)
+
+- ["Marketplaces_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/marketplacesmu)
+
+
+A big thank you goes to @Finchen.
+she actively participated in the creation of the mod and checked it extensively for errors and improvements.
+thanks @Finchen
+
+[Download latest Rails_Related_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
 -----
 
