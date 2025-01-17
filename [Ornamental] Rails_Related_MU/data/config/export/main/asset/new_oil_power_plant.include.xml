@@ -269,7 +269,6 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                         </English>
                     </LocaText>
                     <LineID>7000</LineID>
-                    <TextOverride>100780</TextOverride>
                 </Text>
                 <Constructable />
                 <Locked />
@@ -352,7 +351,10 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                     <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
                 <Culture />
-                <PublicService />
+                <PublicService>
+					<FullSatisfactionDistance>35</FullSatisfactionDistance>
+					<NoSatisfactionDistance>35</NoSatisfactionDistance>
+				</PublicService>
             </Values>
         </Asset>
         <!-- OIL POWER PLANT NW -->
@@ -447,7 +449,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                             <ActionList />
                         </Values>
                     </OnSelection>
-                    <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                    <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
                 </Selection>
                 <Text>
                     <LocaText>
@@ -457,7 +459,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                         </English>
                     </LocaText>
                     <LineID>7000</LineID>
-                    <TextOverride>100780</TextOverride>
+                    <TextOverride>1337505178</TextOverride>
                 </Text>
                 <Constructable />
                 <Locked />
@@ -540,7 +542,10 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                     <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
                 <Culture />
-                <PublicService />
+                <PublicService>
+					<FullSatisfactionDistance>35</FullSatisfactionDistance>
+					<NoSatisfactionDistance>35</NoSatisfactionDistance>
+				</PublicService>
             </Values>
         </Asset>
         <!-- OIL POWER PLANT AFRICA -->
@@ -635,7 +640,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                             <ActionList />
                         </Values>
                     </OnSelection>
-                    <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                    <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
                 </Selection>
                 <Text>
                     <LocaText>
@@ -645,7 +650,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                         </English>
                     </LocaText>
                     <LineID>7000</LineID>
-                    <TextOverride>100780</TextOverride>
+                    <TextOverride>1337505178</TextOverride>
                 </Text>
                 <Constructable />
                 <Locked />
@@ -728,7 +733,10 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                     <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
                 <Culture />
-                <PublicService />
+                <PublicService>
+					<FullSatisfactionDistance>35</FullSatisfactionDistance>
+					<NoSatisfactionDistance>35</NoSatisfactionDistance>
+				</PublicService>
             </Values>
         </Asset>
     </ModOp>

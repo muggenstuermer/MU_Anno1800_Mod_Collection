@@ -7,17 +7,24 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
 1337505453 PowerPlantSkin_05
 1337505454 PowerPlantSkin_06
 1337505455 PowerPlantSkin_07
-1337505243 Coal Power Plant
 
-1337505240 Kohle Veredelung
+1337505243 Coke Power Plant OW
+1337506126 Coke Power Plant NW
+1337506127 Coke Power Plant AFRICA
+
+1337505240 Kohle Veredelung OW
+1337506128 Kohle Veredelung NW
+1337506129 Kohle Veredelung AFRICA
 
 1337505241 veredelte Steinkohle
 
-1337505242 ProductionChain_coal
+1337505242 NEW COKE POWER CHAIN OW
+1337506130 NEW COKE POWER CHAIN NW
+1337506131 NEW COKE POWER CHAIN AFRICA
 
 1337505244 Sicherheitsmanager Alfred
 
-1337505456 Trigger
+1337506132 Trigger
 
 
 -->
@@ -198,7 +205,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
             </Values>
         </Asset>
         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx COKE POWER PLANT ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <!-- COKE POWER PLANT 02 -->
+        <!-- COKE POWER PLANT 02 OW -->
         <Asset>
             <Template>PowerplantBuilding</Template>
             <Values>
@@ -363,11 +370,358 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
                     <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
                 </FactoryBase>
                 <LogisticNode />
-                <PublicService />
+                <PublicService>
+					<FullSatisfactionDistance>35</FullSatisfactionDistance>
+					<NoSatisfactionDistance>35</NoSatisfactionDistance>
+				</PublicService>
             </Values>
         </Asset>
+        <!-- COKE POWER PLANT 02 NW -->
+        <Asset>
+            <Template>PowerplantBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506126</GUID>
+                    <Name>Coal Power Plant</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\coal_power_chain\electric_coal.png</IconFilename>
+                    <ID>CoalPowerPlant</ID>
+                    <InfoDescription>10945</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11169</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>4000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>35</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_coal_power_plant\electricity_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337505243</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_04.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505450</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505451</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505452</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505453</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505454</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505455</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Coal Power Plant</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>6999</LineID>
+					<TextOverride>1337505243</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200832</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <AmbientMoodProvider />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>1500</Amount>
+                            <InactiveAmount>750</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010367</Product>
+                            <Amount>135</Amount>
+                            <ShutdownThreshold>0.5</ShutdownThreshold>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>3500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <Explosion>
+                        <DamageExplosionChance>40</DamageExplosionChance>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>15</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Explosion>
+                            <BaseChance>5</BaseChance>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Powerplant>
+                    <IndustrializationDistance>35</IndustrializationDistance>
+                </Powerplant>
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1337505241</Product>
+                            <Amount>2</Amount>
+                            <StorageAmount>30</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>25</CycleTime>
+                    <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                    <ProductivityPoints>1</ProductivityPoints>
+                    <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+                </FactoryBase>
+                <LogisticNode />
+                <PublicService>
+					<FullSatisfactionDistance>35</FullSatisfactionDistance>
+					<NoSatisfactionDistance>35</NoSatisfactionDistance>
+				</PublicService>
+            </Values>
+        </Asset>
+		<!-- COKE POWER PLANT 02 AFRICA -->
+        <Asset>
+            <Template>PowerplantBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506127</GUID>
+                    <Name>Coal Power Plant</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\coal_power_chain\electric_coal.png</IconFilename>
+                    <ID>CoalPowerPlant</ID>
+                    <InfoDescription>10945</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11169</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>4000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114356</Ingredient>
+                            <Amount>35</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_coal_power_plant\electricity_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337505243</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_04.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505450</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505451</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505452</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505453</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505454</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505455</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Coal Power Plant</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>6999</LineID>
+					<TextOverride>1337505243</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200832</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <AmbientMoodProvider />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>1500</Amount>
+                            <InactiveAmount>750</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>114341</Product>
+                            <Amount>135</Amount>
+                            <ShutdownThreshold>0.5</ShutdownThreshold>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>3500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <Explosion>
+                        <DamageExplosionChance>40</DamageExplosionChance>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>15</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Explosion>
+                            <BaseChance>5</BaseChance>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Powerplant>
+                    <IndustrializationDistance>35</IndustrializationDistance>
+                </Powerplant>
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1337505241</Product>
+                            <Amount>2</Amount>
+                            <StorageAmount>30</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>25</CycleTime>
+                    <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                    <ProductivityPoints>1</ProductivityPoints>
+                    <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+                </FactoryBase>
+                <LogisticNode />
+                <PublicService>
+					<FullSatisfactionDistance>35</FullSatisfactionDistance>
+					<NoSatisfactionDistance>35</NoSatisfactionDistance>
+				</PublicService>
+            </Values>
+        </Asset>		
         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx COAL REFINEMENT All xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <!-- COAL REFINEMENT -->
+        <!-- COAL REFINEMENT OW -->
         <Asset>
             <Template>FactoryBuilding7</Template>
             <Values>
@@ -392,18 +746,6 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
                         <Item>
                             <Ingredient>1010196</Ingredient>
                             <Amount>15</Amount>
-                        </Item>
-                        <Item>
-                            <Ingredient>1010205</Ingredient>
-                        </Item>
-                        <Item>
-                            <Ingredient>1010218</Ingredient>
-                        </Item>
-                        <Item>
-                            <Ingredient>1010207</Ingredient>
-                        </Item>
-                        <Item>
-                            <Ingredient>1010202</Ingredient>
                         </Item>
                     </Costs>
                 </Cost>
@@ -544,6 +886,338 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
                 <EcoSystemProvider />
             </Values>
         </Asset>
+        <!-- COAL REFINEMENT NW -->
+        <Asset>
+            <Template>FactoryBuilding7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506128</GUID>
+                    <Name>Kohle Veredelung</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\coal_power_chain\icon_coal_refinement.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Blocking>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>600</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\land\coal_station\new_coal_station.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1010283</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Coal refining</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>5253</LineID>
+					<TextOverride>1337505240</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>216871</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>206327</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <MaterialType>Soil</MaterialType>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010226</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1337505241</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>20</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>45</CycleTime>
+                    <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                    <PathLayers>Railway</PathLayers>
+                </LogisticNode>
+                <AmbientMoodProvider>
+                    <Murmur>Factory</Murmur>
+                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>200</Amount>
+                            <InactiveAmount>100</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1010367</Product>
+                            <Amount>35</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2500</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Explosion>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Explosion>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable />
+                <Culture>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <QuestObject />
+                <Electrifiable />
+                <EcoSystemProvider />
+            </Values>
+        </Asset>
+        <!-- COAL REFINEMENT AFRICA -->
+        <Asset>
+            <Template>FactoryBuilding7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506129</GUID>
+                    <Name>Kohle Veredelung</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\coal_power_chain\icon_coal_refinement.png</IconFilename>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                <Blocking>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>600</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114356</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\industrial_ornaments\land\coal_station\new_coal_station.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1010283</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Coal refining</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>5253</LineID>
+					<TextOverride>1337505240</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>216871</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>206327</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <MaterialType>Soil</MaterialType>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010226</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1337505241</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>20</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>45</CycleTime>
+                    <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>1</TransporterCountMax>
+                    <PathLayers>Railway</PathLayers>
+                </LogisticNode>
+                <AmbientMoodProvider>
+                    <Murmur>Factory</Murmur>
+                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>200</Amount>
+                            <InactiveAmount>100</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>114341</Product>
+                            <Amount>35</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2500</MaximumHitPoints>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Explosion>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Explosion>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable />
+                <Culture>
+                    <CultureType>Culture</CultureType>
+                </Culture>
+                <QuestObject />
+                <Electrifiable />
+                <EcoSystemProvider />
+            </Values>
+        </Asset>		
         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx NEW PRODUCT - COKE xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
         <!-- COKE PRODUCT -->
         <Asset>
@@ -552,7 +1226,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
                 <Standard>
                     <GUID>1337505241</GUID>
                     <Name>veredelte Steinkohle</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/icon_coal_burn.png</IconFilename>
+                    <IconFilename>data\ui\2kimages\main\3dicons\coal_power_chain\icon_coke.png</IconFilename>
                     <InfoDescription />
                 </Standard>
                 <Text>
@@ -593,7 +1267,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
             </Values>
         </Asset>
         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx NEW COKE POWERPLANT PORUCTION CHAIN xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <!-- NEW COKE POWER CHAIN -->
+        <!-- NEW COKE POWER CHAIN OW -->
         <Asset>
             <Template>ProductionChain</Template>
             <Values>
@@ -616,6 +1290,76 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
                             <Tier2>
                                 <Item>
                                     <Building>1010136</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                    <InfoTipHeight>450</InfoTipHeight>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <TextOverride>500506</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+		<!-- NEW COKE POWER CHAIN NW -->
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506130</GUID>
+                    <Name>ProductionChain_coal</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\coal_power_chain\electric_coal.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1337506126</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1010304</Building>
+                        </Item>
+                        <Item>
+                            <Building>1010298</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337506128</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010136</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                    <InfoTipHeight>450</InfoTipHeight>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <TextOverride>500506</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+		<!-- NEW COKE POWER CHAIN AFRICA -->
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506131</GUID>
+                    <Name>ProductionChain_coal</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\coal_power_chain\electric_coal.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1337506127</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1010304</Building>
+                        </Item>
+                        <Item>
+                            <Building>1010298</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337506129</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>119035</Building>
                                 </Item>
                             </Tier2>
                         </Item>
@@ -663,6 +1407,12 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
                     <EffectTargets>
                         <Item>
                             <GUID>1337505243</GUID>
+                        </Item>
+						<Item>
+                            <GUID>1337506126</GUID>
+                        </Item>
+						<Item>
+                            <GUID>1337506127</GUID>
                         </Item>
                     </EffectTargets>
                 </ItemEffect>
@@ -712,25 +1462,55 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
         <Item>
             <GUID>1337505240</GUID>
         </Item>
+		<Item>
+            <GUID>1337506128</GUID>
+        </Item>
+		<Item>
+            <GUID>1337506129</GUID>
+        </Item>
     </ModOp>
     <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
         <Item>
             <Factory>1337505240</Factory>
+        </Item>
+		<Item>
+            <Factory>1337506128</Factory>
+        </Item>
+		<Item>
+            <Factory>1337506129</Factory>
         </Item>
     </ModOp>
     <ModOp Type="add" GUID="142313" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>1337505240</Building>
         </Item>
+		<Item>
+            <Building>1337506128</Building>
+        </Item>
+		<Item>
+            <Building>1337506129</Building>
+        </Item>
     </ModOp>
     <ModOp Type="add" GUID="700143" Path="/Values/PlayerCounterContextPool/Contexts">
         <Item>
             <GUID>1337505240</GUID>
         </Item>
+		<Item>
+            <GUID>1337506128</GUID>
+        </Item>
+		<Item>
+            <GUID>1337506129</GUID>
+        </Item>
     </ModOp>
     <ModOp Type="add" GUID="140031" Path="/Values/AssetPool/AssetList">
         <Item>
             <Asset>1337505240</Asset>
+        </Item>
+		<Item>
+            <Asset>1337506128</Asset>
+        </Item>
+		<Item>
+            <Asset>1337506129</Asset>
         </Item>
     </ModOp>
     <!-- add new Product Coke to pools and lists -->
@@ -753,11 +1533,25 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
         <Item>
             <Asset>1337505241</Asset>
         </Item>
+		
         <Item>
             <Asset>1337505242</Asset>
         </Item>
+		<Item>
+            <Asset>1337506130</Asset>
+        </Item>
+		<Item>
+            <Asset>1337506131</Asset>
+        </Item>
+		
         <Item>
             <Asset>1337505243</Asset>
+        </Item>
+		 <Item>
+            <Asset>1337506126</Asset>
+        </Item>
+		 <Item>
+            <Asset>1337506127</Asset>
         </Item>
     </ModOp>
     <!-- Add Coke Chain to Buildmenus -->
@@ -775,23 +1569,23 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
     <!-- NW -->
     <ModOp Type="addNextSibling" GUID="25000194" Path="Values/ConstructionCategory/BuildingList/Item[Building='1337505207']">
         <Item>
-            <Building>1337505242</Building>
+            <Building>1337506130</Building>
         </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID="500950" Path="Values/ConstructionCategory/BuildingList/Item[Building='1337505207']">
         <Item>
-            <Building>1337505242</Building>
+            <Building>1337506130</Building>
         </Item>
     </ModOp>
     <!-- AFRICA -->
     <ModOp Type="addNextSibling" GUID="114554" Path="Values/ConstructionCategory/BuildingList/Item[Building='1337505208']">
         <Item>
-            <Building>1337505242</Building>
+            <Building>1337506131</Building>
         </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID="119024" Path="Values/ConstructionCategory/BuildingList/Item[Building='1337505208']">
         <Item>
-            <Building>1337505242</Building>
+            <Building>1337506131</Building>
         </Item>
     </ModOp>
     <!-- Specialist Reward Pools, AssetList -->
@@ -812,7 +1606,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
             <Template>FeatureUnlock</Template>
             <Values>
                 <Standard>
-                    <GUID>1337505456</GUID>
+                    <GUID>1337506132</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
                 </Standard>
@@ -837,37 +1631,89 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
                                         <UnlockAssets>
                                             <Item>
                                                 <Asset>1337505243</Asset>
-                                                <!-- COKE POWER PLANT 02 -->
+                                                <!-- COKE POWER PLANT 02 OW -->
                                             </Item>
+											 <Item>
+                                                <Asset>1337506126</Asset>
+                                                <!-- COKE POWER PLANT 02 NW -->
+                                            </Item>
+											 <Item>
+                                                <Asset>1337506127</Asset>
+                                                <!-- COKE POWER PLANT 02 AFRICA -->
+                                            </Item>
+											
                                             <Item>
                                                 <Asset>1337505240</Asset>
-                                                <!-- COAL REFINEMENT -->
+                                                <!-- COAL REFINEMENT OW -->
                                             </Item>
+											<Item>
+                                                <Asset>1337506128</Asset>
+                                                <!-- COAL REFINEMENT NW -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506129</Asset>
+                                                <!-- COAL REFINEMENT AFRICA -->
+                                            </Item>
+											
                                             <Item>
                                                 <Asset>1337505241</Asset>
                                                 <!-- COKE PRODUCT -->
                                             </Item>
                                             <Item>
                                                 <Asset>1337505242</Asset>
-                                                <!-- NEW COKE POWER CHAIN -->
+                                                <!-- NEW COKE POWER CHAIN OW -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506130</Asset>
+                                                <!-- NEW COKE POWER CHAIN NW -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506131</Asset>
+                                                <!-- NEW COKE POWER CHAIN AFRICA -->
                                             </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
                                                 <Asset>1337505243</Asset>
-                                                <!-- COKE POWER PLANT 02 -->
+                                                <!-- COKE POWER PLANT 02 OW -->
                                             </Item>
+											 <Item>
+                                                <Asset>1337506126</Asset>
+                                                <!-- COKE POWER PLANT 02 NW -->
+                                            </Item>
+											 <Item>
+                                                <Asset>1337506127</Asset>
+                                                <!-- COKE POWER PLANT 02 AFRICA -->
+                                            </Item>
+											
                                             <Item>
                                                 <Asset>1337505240</Asset>
-                                                <!-- COAL REFINEMENT -->
+                                                <!-- COAL REFINEMENT OW -->
                                             </Item>
+											<Item>
+                                                <Asset>1337506128</Asset>
+                                                <!-- COAL REFINEMENT NW -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506129</Asset>
+                                                <!-- COAL REFINEMENT AFRICA -->
+                                            </Item>
+											
                                             <Item>
                                                 <Asset>1337505241</Asset>
                                                 <!-- COKE PRODUCT -->
                                             </Item>
                                             <Item>
                                                 <Asset>1337505242</Asset>
-                                                <!-- NEW COKE POWER CHAIN -->
+                                                <!-- NEW COKE POWER CHAIN OW -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506130</Asset>
+                                                <!-- NEW COKE POWER CHAIN NW -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506131</Asset>
+                                                <!-- NEW COKE POWER CHAIN AFRICA -->
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

@@ -59,6 +59,9 @@
 1337506116 Kai Stege NW
 1337506117 Kai Stege AFRICA
 1337506118 Kai Stege ARCTIC
+
+1337506181 Kai rot ALL
+
 1337506119 Kai metall ALL
 1337506120 Kai OW
 1337506121 Kai NW
@@ -9815,6 +9818,290 @@
                 <Culture />
             </Values>
         </Asset>
+		
+		<!-- Kai rot ALL -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506181</GUID>
+                    <Name>Groundplane System</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\harbor_quays\ow\quay_red.png</IconFilename>
+                </Standard>
+                <Text>
+					<TextOverride>1337501013</TextOverride>
+				</Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <BuildModeStartVariation>2</BuildModeStartVariation>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337506181</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Type>Crossing</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>2</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>0</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>1</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>3</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid />
+                        <TCrossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>11</Variation>
+                                </Item>
+                                <Item>
+                                    <Variation>13</Variation>
+                                </Item>
+                                <Item>
+                                    <Variation>9</Variation>
+                                </Item>
+                                <Item>
+                                    <Variation>12</Variation>
+                                </Item>
+                                <Item>
+                                    <Variation>10</Variation>
+                                </Item>
+                            </Pool>
+                        </TCrossing>
+                        <Crossing>
+                            <Pool>
+                                <Item>
+									<DirectionOffet>0</DirectionOffet>
+                                    <Variation>6</Variation>
+                                </Item>
+                                <Item>
+									<DirectionOffet>1</DirectionOffet>
+                                    <Variation>8</Variation>
+                                </Item>
+                                <Item>
+									<DirectionOffet>2</DirectionOffet>
+                                    <Variation>5</Variation>
+                                </Item>
+                                <Item>
+									<DirectionOffet>3</DirectionOffet>
+                                    <Variation>7</Variation>
+                                </Item>
+                                <Item>
+									<DirectionOffet>0</DirectionOffet>
+                                    <Variation>4</Variation>
+                                </Item>
+                            </Pool>
+                        </Crossing>
+                        <End />
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_corner.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_corner.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_corner.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_corner.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_cross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_cross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_cross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_cross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_cross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_tcross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_tcross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_tcross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_tcross.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc05/icon_groundplane_tcross.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_corner_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_corner_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_corner_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_corner_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_xcross_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_xcross_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_xcross_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_xcross_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_xcross_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_tcross_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_tcross_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_tcross_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_tcross_beton_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\mixed_harbor\harbor_decals\red_quay_floor\quay_tcross_beton_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+		
 		<!-- Kai metall ALL -->
         <Asset>
             <Template>HarborOrnamentMU</Template>
@@ -11331,6 +11618,10 @@
 		</Item>
 		
 		<Item>
+			<Building>1337506181</Building><!-- Kai rot ALL -->
+		</Item>
+		
+		<Item>
 			<Building>1337506119</Building><!-- Kai metall ALL -->
 		</Item>
 		<Item>
@@ -11438,6 +11729,11 @@
 		<Item>
 			<Building>1337506116</Building><!-- Kai Stege NW -->
 		</Item>
+		
+		<Item>
+			<Building>1337506181</Building><!-- Kai rot ALL -->
+		</Item>
+		
 		<Item>
 			<Building>1337506119</Building><!-- Kai metall ALL -->
 		</Item>
@@ -11546,6 +11842,11 @@
 		<Item>
 			<Building>1337506117</Building><!-- Kai Stege AFRICA -->
 		</Item>
+		
+		<Item>
+			<Building>1337506181</Building><!-- Kai rot ALL -->
+		</Item>
+		
 		<Item>
 			<Building>1337506119</Building><!-- Kai metall ALL -->
 		</Item>

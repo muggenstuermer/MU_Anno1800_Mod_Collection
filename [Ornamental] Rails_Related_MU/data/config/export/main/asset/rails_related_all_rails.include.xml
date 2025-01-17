@@ -7,7 +7,10 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED BRIDGES LAND xxxxxxxxxxxxxxxxxxxxxxxx
 1337502627 RailBridges without Lamps AFRICA <TextOverride>1337502523</TextOverride>
 1337502628 RailBridges with Lamps AFRICA <TextOverride>1337502524</TextOverride>
 
+1337506134 Modular RailBridges - Jakobs Rails Skin 02
 1337502526 Modular RailBridges 01 - Jakobs Rails OW + NW
+
+1337506133 odular EndPiece RailBridges - Jakobs Rails Skin 02
 1337505118 Modular EndPiece RailBridges 01 - Jakobs Rails OW + NW <TextOverride>1337502569</TextOverride>
 
 1337502630 Modular RailBridges AFRICA <TextOverride>1337502526</TextOverride>
@@ -538,7 +541,48 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
             </Values>
         </Asset>
         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Rails Related modular Bridges LAND OW + NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <!-- Modular RailBridges 01 - Jakobs Rails OW + NW -->
+        <!-- Modular RailBridges - Jakobs Rails Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506134</GUID>
+                    <Name>Modular_RailBridges_Jakob_Skin</Name>
+                    <IconFileName>data\ui\2kimages\main\3dicons\land_rails\land_bridge_rails_02.png</IconFileName>
+                    <InfoDescription>10947</InfoDescription>
+                    <ID>Modular_RailBridges_Jakob_Skin</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_straight_rails_01.cfg</FileName>
+                        </Item>
+						<Item>
+                            <FileName>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_corner_rails_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_cross_rails_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_cross_rails_street_01.cfg</FileName>
+                        </Item>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_tcross_rails_01.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+		<!-- Modular RailBridges 01 - Mugge Rails OW + NW -->
         <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -729,21 +773,30 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_straight_rails_01.cfg</Filename>
+                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_01\1x1_straight_rails_01.cfg</Filename>
                         </Item>
                         <Item>
-                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_corner_rails_01.cfg</Filename>
+                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_01\1x1_corner_rails_01.cfg</Filename>
                         </Item>
                         <Item>
-                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_cross_rails_01.cfg</Filename>
+                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_01\1x1_cross_rails_01.cfg</Filename>
                         </Item>
                         <Item>
-                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_cross_rails_street_01.cfg</Filename>
+                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_01\1x1_cross_rails_street_01.cfg</Filename>
                         </Item>
                         <Item>
-                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_02\1x1_tcross_rails_01.cfg</Filename>
+                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_rails_01\1x1_tcross_rails_01.cfg</Filename>
                         </Item>
                     </Variations>
+					<Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337506134</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
                 </Object>
                 <Constructable>
                     <DestructionCategory>StreetsAndBridges</DestructionCategory>
@@ -763,7 +816,36 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
             </Values>
         </Asset>
         <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Rails Related modular Bridges END LAND OW + NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-        <!-- Modular EndPiece RailBridges 01 - Jakobs Rails OW + NW -->
+        <!-- Modular EndPiece RailBridges - Jakobs Rails Skin  -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506133</GUID>
+                    <Name>Modular_EndPiece_RailBridges_Jakob_Skin</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\land_rails\land_ramp_rails_02.png</IconFilename>
+                    <InfoDescription>10947</InfoDescription>
+                    <ID>Modular_EndPiece_RailBridges_Jakob_Skin</ID>
+                </Standard>
+                <Text />
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_end\modular_end_land_rails_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+		<!-- Modular EndPiece RailBridges 01 - Mugge OW + NW -->
         <Asset>
             <Template>OrnamentalBuilding</Template>
             <Values>
@@ -804,10 +886,19 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                 </Selection>
                 <Object>
                     <Variations>
-                        <Item>
-                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_end\modular_end_land_rails_02.cfg</Filename>
+						<Item>
+                            <Filename>data\muggenstuermer\rails_related\bridges\land\ow_nw\1x1_modular\1x1_bridge_end\modular_end_land_rails_01.cfg</Filename>
                         </Item>
                     </Variations>
+					<Skins>
+                        <DefaultSkinName>23852</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337506133</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
                 </Object>
                 <Constructable>
                     <DestructionCategory>StreetsAndBridges</DestructionCategory>
@@ -1127,7 +1218,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505089</GUID>
                     <Name>Fake_rail_Land_Jakob_Skin</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\fake_rails_02.png</IconFilename>
-                    <InfoDescription>1337500289</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                     <ID>Fake_rail_Land_Jakob_Skin</ID>
                 </Standard>
                 <Text />
@@ -1171,7 +1262,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505157</GUID>
                     <Name>Fake_rail_Land</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\fake_rails_01.png</IconFilename>
-                    <InfoDescription>1337500289</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                 </Standard>
                 <Text />
                 <Blocking>
@@ -1438,7 +1529,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505116</GUID>
                     <Name>Fake_rail_Land</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\fake_rails_01.png</IconFilename>
-                    <InfoDescription>1337500289</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                 </Standard>
                 <Text>
                     <TextOverride>1337500289</TextOverride>
@@ -1689,7 +1780,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505234</GUID>
                     <Name>3d_rail_Land</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\fake_rails_03.png</IconFilename>
-                    <InfoDescription>1337502581</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                 </Standard>
                 <Text>
                     <TextOverride>1337502581</TextOverride>
@@ -1963,7 +2054,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505235</GUID>
                     <Name>RailSkin_02</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\fake_rails_04.png</IconFilename>
-                    <InfoDescription>100784</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                     <ID>RailSkin_02</ID>
                 </Standard>
                 <Text />
@@ -2004,7 +2095,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505236</GUID>
                     <Name>3d_rail_Land</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\fake_rails_01.png</IconFilename>
-                    <InfoDescription>1337502581</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                 </Standard>
                 <Text />
                 <Blocking>
@@ -2276,7 +2367,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505251</GUID>
                     <Name>LandBridgeRailsSimulationGreen</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_green_02.png</IconFilename>
-                    <InfoDescription>802968</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                 </Standard>
                 <Text>
                     <TextOverride>1337505130</TextOverride>
@@ -2571,7 +2662,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505253</GUID>
                     <Name>BridgeSkin_02</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_red_01.png</IconFilename>
-                    <InfoDescription>100784</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                     <ID>BridgeSkin_02</ID>
                 </Standard>
                 <Text />
@@ -2615,7 +2706,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505254</GUID>
                     <Name>BridgeSkin_03</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_rusty_01.png</IconFilename>
-                    <InfoDescription>100784</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                     <ID>BridgeSkin_03</ID>
                 </Standard>
                 <Text />
@@ -2659,7 +2750,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505255</GUID>
                     <Name>BridgeSkin_02_01</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_green_01_copy.png</IconFilename>
-                    <InfoDescription>100784</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                     <ID>BridgeSkin_02_01</ID>
                 </Standard>
                 <Text />
@@ -2703,7 +2794,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505256</GUID>
                     <Name>BridgeSkin_02_02</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_red_01_copy.png</IconFilename>
-                    <InfoDescription>100784</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                     <ID>BridgeSkin_02_02</ID>
                 </Standard>
                 <Text />
@@ -2747,7 +2838,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505257</GUID>
                     <Name>BridgeSkin_02_03</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_rusty_01_copy.png</IconFilename>
-                    <InfoDescription>100784</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                     <ID>BridgeSkin_02_03</ID>
                 </Standard>
                 <Text />
@@ -2791,7 +2882,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505252</GUID>
                     <Name>LandBridgeRailsSimulationGreen</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_green_01_copy.png</IconFilename>
-                    <InfoDescription>802968</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                 </Standard>
                 <Text />
                 <Blocking>
@@ -3084,7 +3175,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505248</GUID>
                     <Name>BridgeSkin_02</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_red_01.png</IconFilename>
-                    <InfoDescription>100784</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                     <ID>BridgeSkin_02</ID>
                 </Standard>
                 <Text />
@@ -3125,7 +3216,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505249</GUID>
                     <Name>BridgeSkin_03</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_rusty_01.png</IconFilename>
-                    <InfoDescription>100784</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                     <ID>BridgeSkin_03</ID>
                 </Standard>
                 <Text />
@@ -3166,7 +3257,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505250</GUID>
                     <Name>LandBridgeSimulation</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\harbor_bridgerails_green_01.png</IconFilename>
-                    <InfoDescription>802968</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                 </Standard>
                 <Text>
                     <TextOverride>1337505130</TextOverride>
@@ -3404,7 +3495,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                     <GUID>1337505238</GUID>
                     <Name>Old_rail_Land</Name>
                     <IconFilename>data\ui\2kimages\main\3dicons\harbor_rails\fake_rails_03.png</IconFilename>
-                    <InfoDescription>1337502581</InfoDescription>
+                    <InfoDescription>10947</InfoDescription>
                 </Standard>
                 <Text />
                 <Blocking>

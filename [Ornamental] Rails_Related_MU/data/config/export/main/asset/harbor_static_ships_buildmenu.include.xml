@@ -1,0 +1,101 @@
+<ModOps>
+    <!--
+
+1337506179 Buildmenu Harbor Static_Ships 90°
+
+1337506180 Buildmenu Harbor Static_Ships 45°
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Rails Related Ornaments OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506179</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_static_ships_harbor_90_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>611</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Rails Related Ornaments NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506180</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_static_ships_harbor_45_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>611</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add OW Buildmenu HARBOR OW to Ornamentsmenu-->
+    <ModOp Type="addPrevSibling" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+        <Item>
+            <Building>1337506179</Building>
+        </Item>
+        <Item>
+            <Building>1337506180</Building>
+        </Item>
+    </ModOp>
+    <!-- Add NW Buildmenu HARBOR NW to Ornamentsmenu-->
+    <ModOp Type="addPrevSibling" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+        <Item>
+            <Building>1337506179</Building>
+        </Item>
+        <Item>
+            <Building>1337506180</Building>
+        </Item>
+    </ModOp>
+    <!-- Add Arctic Buildmenu HARBOR Arctic to Ornamentsmenu
+    <ModOp Type="addPrevSibling" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+        <Item>
+            <Building>1337502555</Building>
+        </Item>
+    </ModOp>-->
+    <!-- Add Africa Buildmenu HARBOR Africa to Ornamentsmenu-->
+    <ModOp Type="addPrevSibling" GUID="1337505021" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+        <Item>
+            <Building>1337506179</Building>
+        </Item>
+        <Item>
+            <Building>1337506180</Building>
+        </Item>
+    </ModOp>
+</ModOps>
+
+<!-- 2025-01-02 15:44:10 -->

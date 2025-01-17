@@ -413,7 +413,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                             <StorageAmount>200</StorageAmount>
                         </Item>
                     </FactoryOutputs>
-                    <CycleTime>15</CycleTime>
+                    <CycleTime>45</CycleTime>
                     <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
                     <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
@@ -423,14 +423,18 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                     <OilPumpsNeeded>1</OilPumpsNeeded>
                 </LogisticNode>
                 <ModuleOwner>
+					<!-- <ModuleLimits>
+						<Main>
+							<Limit>5</Limit>
+						</Main>
+					</ModuleLimits> -->
                     <ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
                     <ConstructionOptions>
                         <Item>
                             <ModuleGUID>1337505169</ModuleGUID>
-                            <!-- HIER DER ÖLTURM -->
                         </Item>
                     </ConstructionOptions>
-                    <ModuleBuildRadius>12</ModuleBuildRadius>
+                    <ModuleBuildRadius>6</ModuleBuildRadius>
                 </ModuleOwner>
                 <AmbientMoodProvider>
                     <AmbientMood>IndustryHeavy</AmbientMood>
@@ -618,7 +622,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                             <ActionList />
                         </Values>
                     </OnSelection>
-                    <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+                    <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
                     <Colors>
                         <WeakSelectionColorType>NoColor</WeakSelectionColorType>
                     </Colors>
@@ -700,7 +704,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                             <StorageAmount>200</StorageAmount>
                         </Item>
                     </FactoryOutputs>
-                    <CycleTime>15</CycleTime>
+                    <CycleTime>45</CycleTime>
                     <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
                     <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
@@ -717,7 +721,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                             <!-- HIER DER ÖLTURM -->
                         </Item>
                     </ConstructionOptions>
-                    <ModuleBuildRadius>12</ModuleBuildRadius>
+                    <ModuleBuildRadius>6</ModuleBuildRadius>
                 </ModuleOwner>
                 <AmbientMoodProvider>
                     <AmbientMood>IndustryHeavy</AmbientMood>
@@ -905,7 +909,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                             <ActionList />
                         </Values>
                     </OnSelection>
-                    <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+                    <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
                     <Colors>
                         <WeakSelectionColorType>NoColor</WeakSelectionColorType>
                     </Colors>
@@ -987,7 +991,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                             <StorageAmount>200</StorageAmount>
                         </Item>
                     </FactoryOutputs>
-                    <CycleTime>15</CycleTime>
+                    <CycleTime>45</CycleTime>
                     <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
                     <IsMainFactory>0</IsMainFactory>
                 </FactoryBase>
@@ -1004,7 +1008,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                             <!-- HIER DER ÖLTURM -->
                         </Item>
                     </ConstructionOptions>
-                    <ModuleBuildRadius>12</ModuleBuildRadius>
+                    <ModuleBuildRadius>6</ModuleBuildRadius>
                 </ModuleOwner>
                 <AmbientMoodProvider>
                     <AmbientMood>IndustryHeavy</AmbientMood>

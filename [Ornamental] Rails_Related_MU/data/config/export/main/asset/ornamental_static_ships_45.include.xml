@@ -1,0 +1,2435 @@
+<ModOps>
+    <!--
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR STATIC SHIPS 45° xxxxxxxxxxxxxxxxxxxxxxxx
+1337506156 1x1 OW
+1337506157 1x1 NW
+1337506158 2x1 All
+1337506159 3x1 All
+1337506160 4x2 All
+1337506161 5x1 All
+1337506162 6x1 All
+1337506163 6x2 All
+1337506164 7x2 All
+1337506165 8x2 All
+1337506167 9x2 All
+1337506168 9x2 All 2
+1337506169 10x2 All
+1337506170 10x3 All
+1337506171 11x2 All
+1337506172 11x2 All 2
+1337506173 12x2 All
+1337506174 12x3 All
+1337506175 14x3 All
+1337506176 14x4 All
+1337506177 15x3 All
+
+
+1337506178 Trigger
+
+-->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HARBOR STATIC SHIPS 45° xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- 1x1 OW -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506156</GUID>
+					<Name>1x1BoatsOW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\1x1_small_boat.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_07.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_09.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_10.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_11.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_12.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_13.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_14.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\ow\1x1_boat_15.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506135</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 1x1 NW -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506157</GUID>
+					<Name>1x1BoatsNW</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\1x1_small_boat.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_07.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_09.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\1x1\nw\1x1_boat_10.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506136</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 2x1 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506158</GUID>
+					<Name>2x1BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\2x1_small_ship.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\2x1\2x1_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\2x1\2x1_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\2x1\2x1_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506137</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 3x1 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506159</GUID>
+					<Name>3x1BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\3x1_small_ship.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\3x1_fishing_boat\fishing_boat_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\3x1_fishing_boat\fishing_boat_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\3x1_fishing_boat\fishing_boat_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\3x1_fishing_boat\fishing_boat_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\3x1_fishing_boat\fishing_boat_05.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506138</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 4x2 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506160</GUID>
+					<Name>4x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\4x2_barge.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\4x2\barge_small_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\4x2\barge_small_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\4x2\barge_small_01b.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\4x2\barge_small_01c.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\4x2\barge_small_01d.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\4x2\barge_small_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\4x2\barge_small_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\4x2\barge_small_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506139</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 5x1 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506161</GUID>
+					<Name>5x1BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\5x1_gunboat.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\5x1_gunboat\gunboat_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\5x1_gunboat\gunboat_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\5x1_gunboat\gunboat_03.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\5x1_gunboat\gunboat_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\5x1_gunboat\gunboat_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\5x1_gunboat\gunboat_06.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506140</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 6x1 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506162</GUID>
+					<Name>6x1BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\6x1_schooner.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\6x1_schooner\schooner_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\6x1_schooner\schooner_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\6x1_schooner\schooner_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\6x1_schooner\schooner_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\6x1_schooner\schooner_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\6x1_schooner\schooner_06.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506141</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 6x2 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506163</GUID>
+					<Name>6x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\6x2_barge_big.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\6x2\barge_big_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\6x2\workforce_ship_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506142</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 7x2 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506164</GUID>
+					<Name>7x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\7x2_monitor.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\7x2_monitor\monitor_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\7x2_monitor\monitor_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\7x2_monitor\monitor_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\7x2_monitor\monitor_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\7x2_monitor\monitor_05.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506143</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 8x2 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506165</GUID>
+					<Name>8x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\8x2_collier.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\8x2_collier\collier_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\8x2_collier\collier_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\8x2_collier\collier_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\8x2_collier\collier_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506166</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 9x2 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506167</GUID>
+					<Name>9x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\9x2_command_ship.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_07.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_09.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_10.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_11.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_12.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_13.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_14.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_15.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_16.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_17.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_18.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_19.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_command_ship\command_ship_20.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506144</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 9x2 All 2 -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506168</GUID>
+					<Name>9x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\9x2_frigate.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_06.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_07.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_09.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_10.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\9x2_frigate\frigate_11.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506145</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 10x2 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506169</GUID>
+					<Name>10x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\10x2_great_white.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\10x2\great_white_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\10x2\pyro_ship_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\10x2\gespann_01_activ.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\10x2\gespann_02_activ.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\10x2\gespann_01_inactiv.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\10x2\gespann_02_inactiv.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506146</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 10x3 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506170</GUID>
+					<Name>10x3BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\10x3_tourism_ship.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\10x3\prologue_tourism_ship.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506147</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 11x2 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506171</GUID>
+					<Name>11x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\11x2_huge_steam_ship.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_huge_steam_ship\huge_steam_ship_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_huge_steam_ship\huge_steam_ship_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_huge_steam_ship\huge_steam_ship_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506148</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 11x2 All 2 -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506172</GUID>
+					<Name>11x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\11x2_man_of_war.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_07.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_09.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_10.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_11.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_12.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_13.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_14.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_15.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_16.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_17.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_18.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_19.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_20.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_21.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_22.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_23.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\11x2_man_of_war\man_of_war_24.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506149</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 12x2 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506173</GUID>
+					<Name>12x2BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\12x2_clipper.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_06.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\gespann_big_01_activ.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\gespann_big_02_activ.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\gespann_big_01_inactiv.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\gespann_big_02_inactiv.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_07.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_09.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_10.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_11.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x2_clipper\clipper_12.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506150</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 12x3 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506174</GUID>
+					<Name>12x3BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\12x3_battle_cruiser.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x3_battle_cruiser\battle_cruiser_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x3_battle_cruiser\battle_cruiser_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x3_battle_cruiser\battle_cruiser_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x3_battle_cruiser\battle_cruiser_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x3_battle_cruiser\battle_cruiser_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x3_battle_cruiser\battle_cruiser_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\12x3_battle_cruiser\battle_cruiser_07.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506151</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 14x3 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506175</GUID>
+					<Name>14x3BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\14x3_anno_union.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\14x3_anno_union\anno_union_ship_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\14x3_anno_union\anno_union_ship_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\14x3_anno_union\anno_union_ship_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506152</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 14x4 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506176</GUID>
+					<Name>14x4BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\14x4_tourism_ship.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\14x4_tourism_ship\tourism_ship_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506153</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+		<!-- 15x3 All -->
+		<Asset>
+			<Template>HarborOrnament</Template>
+			<Values>
+				<Standard>
+					<GUID>1337506177</GUID>
+					<Name>15x3BoatsALL</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\ships\15x3_imperio.png</IconFilename>
+					<InfoDescription>132438</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<TerrainType>Water_Excluding_Coast</TerrainType>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>100691</GroundDecalAsset>
+					<GroundDecalInvisible>0</GroundDecalInvisible>
+				</Blocking>
+				<Mesh>
+					<ObjectPosition>Dynamic</ObjectPosition>
+					<MeshPlacement>OnWaterSlope</MeshPlacement>
+					<ConstructionEffectDuration>0</ConstructionEffectDuration>
+					<MoveEffectDuration>0</MoveEffectDuration>
+					<ConstructionEffectScale>0</ConstructionEffectScale>
+				</Mesh>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\15x3_imperio\imperio_liner_01.cfg</Filename>
+						</Item>
+						<!--<Item>
+							<Filename>data\muggenstuermer\harbor_static_ships\45_degree\15x3_imperio\imperio_liner_02.cfg</Filename>
+						</Item>-->
+					</Variations>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+				</Selection>
+				<Text>
+                    <TextOverride>1337506154</TextOverride>
+                </Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable>
+					<AttackableType>HarbourBuilding</AttackableType>
+				</Attackable>
+				<Infolayer />
+				<Maintenance />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>132550</OrnamentDescription>
+				</Ornament>
+				<FeedbackController />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>279472</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+			</Values>
+		</Asset>
+    </ModOp>
+	
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenu hinzufügen  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	 <!-- Add Harbor Static Ships 90° to Harbor Menu -->
+    <ModOp Type="add" GUID="1337506180" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506156</Building>
+        </Item>
+        <Item>
+            <Building>1337506157</Building>
+        </Item>
+        <Item>
+            <Building>1337506158</Building>
+        </Item>
+        <Item>
+            <Building>1337506159</Building>
+        </Item>
+        <Item>
+            <Building>1337506160</Building>
+        </Item>
+        <Item>
+            <Building>1337506161</Building>
+        </Item>
+        <Item>
+            <Building>1337506162</Building>
+        </Item>
+        <Item>
+            <Building>1337506163</Building>
+        </Item>
+        <Item>
+            <Building>1337506164</Building>
+        </Item>
+        <Item>
+            <Building>1337506165</Building>
+        </Item>
+        <Item>
+            <Building>1337506167</Building>
+        </Item>
+        <Item>
+            <Building>1337506168</Building>
+        </Item>
+        <Item>
+            <Building>1337506169</Building>
+        </Item>
+        <Item>
+            <Building>1337506170</Building>
+        </Item>
+        <Item>
+            <Building>1337506171</Building>
+        </Item>
+        <Item>
+            <Building>1337506172</Building>
+        </Item>
+        <Item>
+            <Building>1337506173</Building>
+        </Item>
+        <Item>
+            <Building>1337506174</Building>
+        </Item>
+        <Item>
+            <Building>1337506175</Building>
+        </Item>
+        <Item>
+            <Building>1337506176</Building>
+        </Item>
+        <Item>
+            <Building>1337506177</Building>
+        </Item>
+    </ModOp>
+
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Freischaltung -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506178</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionUnlocked>
+                                <UnlockNeeded>101331</UnlockNeeded>
+                                <!-- oil refinery original -->
+                            </ConditionUnlocked>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337506156</Asset>
+                                                <!-- 1x1 OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506157</Asset>
+                                                <!-- 1x1 NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506158</Asset>
+                                                <!-- 2x1 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506159</Asset>
+                                                <!-- 3x1 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506160</Asset>
+                                                <!-- 4x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506161</Asset>
+                                                <!-- 5x1 All -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506162</Asset>
+                                                <!-- 6x1 OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506163</Asset>
+                                                <!-- 6x2 NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506164</Asset>
+                                                <!-- 7x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506165</Asset>
+                                                <!-- 8x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506167</Asset>
+                                                <!-- 9x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506168</Asset>
+                                                <!-- 9x2 All -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506169</Asset>
+                                                <!-- 10x2 OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506170</Asset>
+                                                <!-- 10x3 NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506171</Asset>
+                                                <!-- 11x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506172</Asset>
+                                                <!-- 11x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506173</Asset>
+                                                <!-- 12x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506174</Asset>
+                                                <!-- 12x3 All -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506175</Asset>
+                                                <!-- 10x2 OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506176</Asset>
+                                                <!-- 10x3 NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506177</Asset>
+                                                <!-- 11x2 All -->
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337506156</Asset>
+                                                <!-- 1x1 OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506157</Asset>
+                                                <!-- 1x1 NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506158</Asset>
+                                                <!-- 2x1 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506159</Asset>
+                                                <!-- 3x1 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506160</Asset>
+                                                <!-- 4x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506161</Asset>
+                                                <!-- 5x1 All -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506162</Asset>
+                                                <!-- 6x1 OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506163</Asset>
+                                                <!-- 6x2 NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506164</Asset>
+                                                <!-- 7x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506165</Asset>
+                                                <!-- 8x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506167</Asset>
+                                                <!-- 9x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506168</Asset>
+                                                <!-- 9x2 All -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506169</Asset>
+                                                <!-- 10x2 OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506170</Asset>
+                                                <!-- 10x3 NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506171</Asset>
+                                                <!-- 11x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506172</Asset>
+                                                <!-- 11x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506173</Asset>
+                                                <!-- 12x2 All -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506174</Asset>
+                                                <!-- 12x3 All -->
+                                            </Item>
+											<Item>
+                                                <Asset>1337506175</Asset>
+                                                <!-- 10x2 OW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506176</Asset>
+                                                <!-- 10x3 NW -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506177</Asset>
+                                                <!-- 11x2 All -->
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2025-01-02 15:49:11 -->
