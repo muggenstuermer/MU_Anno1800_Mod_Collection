@@ -50,8 +50,6 @@ Even if they do not directly fulfil the mod theme.
 
 - ["Marketplaces_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/marketplacesmu)
 
-- ["Marketplaces_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/marketplacesmu)
-
 
 ## Changelogs
 
