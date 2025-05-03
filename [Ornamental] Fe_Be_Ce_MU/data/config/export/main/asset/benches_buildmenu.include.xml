@@ -1,0 +1,234 @@
+<ModOps>
+
+<!--
+Land
+
+1337506500 Buildmenu Benches OW
+1337506501 Buildmenu Benches NW
+1337506502 Buildmenu Benches ENBESA
+1337506503 Buildmenu Benches ARCTIC
+
+Harbor
+
+1337506504 Buildmenu Benches HARBOR OW
+1337506505 Buildmenu Benches HARBOR NW
+1337506506 Buildmenu Benches HARBOR ENBESA
+1337506507 Buildmenu Benches HARBOR ARCTIC
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506500</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_ow.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text />
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506501</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506500</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506502</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_africa.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506500</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506503</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_arctic.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506500</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenüs in Mods Ornaments Tap xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- OW -->
+    <ModOp Type="add" GUID="1337505000" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506500</Building>
+        </Item>
+    </ModOp>
+    <!-- NW -->
+    <ModOp Type="add" GUID="1337505001" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506501</Building>
+        </Item>
+    </ModOp>
+    <!-- ENBESA -->
+    <ModOp Type="add" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506502</Building>
+        </Item>
+    </ModOp>
+    <!-- ARCTIC -->
+    <ModOp Type="add" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506503</Building>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506504</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_harbor_ow.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text />
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches HARBOR NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506505</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_harbor_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506504</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506506</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_harbor_africa.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506504</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches HARBOR ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506507</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_harbor_arctic.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506504</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenüs in Mods Ornaments HARBOR Tap xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Add OW Buildmenu HARBOR OW to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506504</Building>
+        </Item>
+    </ModOp>
+    <!-- Add NW Buildmenu HARBOR NW to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506505</Building>
+        </Item>
+    </ModOp>
+    <!-- Add Africa Buildmenu HARBOR Africa to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505021" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506506</Building>
+        </Item>
+    </ModOp>
+    <!-- Add Arctic Buildmenu HARBOR Arctic to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506507</Building>
+        </Item>
+    </ModOp>
+</ModOps>
+<!-- 2025-05-01 17:50:18 -->

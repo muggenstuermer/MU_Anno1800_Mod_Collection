@@ -1,0 +1,21 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Change Activation Radius and Street Connection Range of the Bus Stations Harbor" Description="You can Increase or Decrease the Activation Radius and Street Connection Range" />
+  
+  <!-- Change Activation Radius  -->
+  <ModOp Type="replace" GUID="1337504841,1337504842,1337504843,1337504844,1337504845,1337504846,1337504847,1337504848,1337504849,1337504850,1337504851,1337504852,1337504853,1337504854" Path="/Values/BusStop/ActivationRadius" ModOpID="BusStopRadiusHarbor">
+    <ActivationRadius>28</ActivationRadius>
+  </ModOp>
+  <ImyaExpose Path="self::ActivationRadius" ModOpID="BusStopRadiusHarbor" ExposeID="BusStopActivationRadiusHarbor" Description="The BusStations Harbor Activation Radius Value" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  
+  <!-- Change Street Connection Range  -->
+  <ModOp Type="replace" GUID="1337504841,1337504842,1337504843,1337504844,1337504845,1337504846,1337504847,1337504848,1337504849,1337504850,1337504851,1337504852,1337504853,1337504854" Path="/Values/BusStop/StreetConnectionRange" ModOpID="BusStopConnectionRangeHarbor">
+    <StreetConnectionRange>72</StreetConnectionRange>
+  </ModOp>
+  <ImyaExpose Path="self::StreetConnectionRange" ModOpID="BusStopConnectionRangeHarbor" ExposeID="BusStopStreetConnectionRangeHarbor" Description="The BusStations Harbor Street Connection Range Value" Kind="Slider">
+    <SliderDefinition Min="0" Max="200" Stepping="1" />
+  </ImyaExpose>
+</ModOps>
+<!-- 2024-10-07 13:20:14 -->

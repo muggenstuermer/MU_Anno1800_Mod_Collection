@@ -1,0 +1,233 @@
+<ModOps>
+    <!--
+Land
+
+1337506601 Buildmenu Fences OW
+1337506602 Buildmenu Fences NW
+1337506603 Buildmenu Fences ENBESA
+1337506604 Buildmenu Fences ARCTIC
+
+Harbor
+
+1337506605 Buildmenu Fences HARBOR OW
+1337506606 Buildmenu Fences HARBOR NW
+1337506607 Buildmenu Fences HARBOR ENBESA
+1337506608 Buildmenu Fences HARBOR ARCTIC
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506601</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_ow.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text />
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506602</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506601</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506603</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_africa.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506601</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506604</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_arctic.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506601</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenüs in Mods Ornaments Tap xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- OW -->
+    <ModOp Type="addNextSibling" GUID="1337505000" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506500']">
+        <Item>
+            <Building>1337506601</Building>
+        </Item>
+    </ModOp>
+    <!-- NW -->
+    <ModOp Type="addNextSibling" GUID="1337505001" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506501']">
+        <Item>
+            <Building>1337506602</Building>
+        </Item>
+    </ModOp>
+    <!-- ENBESA -->
+    <ModOp Type="addNextSibling" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506502']">
+        <Item>
+            <Building>1337506603</Building>
+        </Item>
+    </ModOp>
+    <!-- ARCTIC -->
+    <ModOp Type="addNextSibling" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506503']">
+        <Item>
+            <Building>1337506604</Building>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506605</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_harbor_ow.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text />
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences HARBOR NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506606</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_harbor_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506605</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506607</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_harbor_africa.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506605</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences HARBOR ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506608</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_harbor_arctic.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506605</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenüs in Mods Ornaments HARBOR Tap xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Add OW Buildmenu HARBOR OW to Ornamentsmenu-->
+    <ModOp Type="addNextSibling" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506504']">
+        <Item>
+            <Building>1337506605</Building>
+        </Item>
+    </ModOp>
+    <!-- Add NW Buildmenu HARBOR NW to Ornamentsmenu-->
+    <ModOp Type="addNextSibling" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506505']">
+        <Item>
+            <Building>1337506606</Building>
+        </Item>
+    </ModOp>
+    <!-- Add Africa Buildmenu HARBOR Africa to Ornamentsmenu-->
+    <ModOp Type="addNextSibling" GUID="1337505021" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506506']">
+        <Item>
+            <Building>1337506607</Building>
+        </Item>
+    </ModOp>
+    <!-- Add Arctic Buildmenu HARBOR Arctic to Ornamentsmenu-->
+    <ModOp Type="addNextSibling" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506507']">
+        <Item>
+            <Building>1337506608</Building>
+        </Item>
+    </ModOp>
+</ModOps>
+<!-- 2025-05-01 18:02:12 -->

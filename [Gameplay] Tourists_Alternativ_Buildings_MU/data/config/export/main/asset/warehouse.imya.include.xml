@@ -1,0 +1,29 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Change some values from the TrainStation Warehouse." Description="You can Increase or Decrease the Max Storage,the Buff Radius and the Attractiveness Points" />
+  
+  <!-- Change Max Storage  -->
+  <ModOp Type="replace" GUID="1337500352" Path="/Values/Warehouse/WarehouseStorage/StorageMax" ModOpID="OldTrainstation">
+    <StorageMax>100</StorageMax>
+  </ModOp>
+  <ImyaExpose Path="self::StorageMax" ModOpID="OldTrainstation" ExposeID="OldTrainstationStorage" Description="The Old Trainstation Warehouse max Storage" Kind="Slider">
+    <SliderDefinition Min="0" Max="5000" Stepping="10" />
+  </ImyaExpose>
+  
+  <!-- Change Buff Radius  -->
+  <ModOp GUID="1337500352" Type="replace" Path="/Values/ItemContainer/SocketScopeRadius" ModOpID="OldTrainstationRadius">
+    <SocketScopeRadius>50</SocketScopeRadius>
+  </ModOp>
+  <ImyaExpose Path="self::SocketScopeRadius" ModOpID="OldTrainstationRadius" ExposeID="OldTrainstationRadiusValue" Description="The Old Trainstation Warehouse Radius Value" Kind="Slider">
+    <SliderDefinition Min="0" Max="150" Stepping="5" />
+  </ImyaExpose>
+  
+  <!-- Change Attractiveness Points  -->
+  <ModOp GUID="1337500352" Type="replace" Path="/Values/Culture/Attractiveness" ModOpID="OldTrainstationAttractiveness">
+    <Attractiveness>230</Attractiveness>
+  </ModOp>
+  <ImyaExpose Path="self::Attractiveness" ModOpID="OldTrainstationAttractiveness" ExposeID="OldTrainstationAttractivenessValue" Description="The Old Trainstation Warehouse Attractiveness Value" Kind="Slider">
+    <SliderDefinition Min="0" Max="1000" Stepping="5" />
+  </ImyaExpose>
+</ModOps>
+<!-- 2024-10-07 13:32:56 -->

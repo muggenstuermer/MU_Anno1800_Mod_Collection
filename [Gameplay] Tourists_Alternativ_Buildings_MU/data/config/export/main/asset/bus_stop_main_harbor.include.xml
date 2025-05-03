@@ -1,0 +1,1901 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+<!--
+
+1337504841 - Bus Stop 3x2 passage Harbor
+1337504842 - Bus Stop 3x1 singel sided underground 02 Harbor
+1337504843 - Bus Stop 3x1 singel sided underground 03 Harbor
+1337504844 - Bus Stop 3x1 singel sided underground 04 Harbor
+1337504845 - Bus Stop 3x1 singel sided underground 05 Harbor
+1337504846 - Bus Stop 3x1 singel sided underground 06 Harbor
+1337504847 - Bus Stop 3x1 singel sided underground 07 Harbor
+1337504848 - Bus Stop 3x1 singel sided underground 08 Harbor
+1337504849 - Bus Stop singel between house Harbor
+1337504850 - Bus Stop 2x2 passage 01 Harbor
+1337504851 - Bus Stop 3x1 singel sided Harbor
+1337504852 - Bus Stop 3x1 passage 01 Harbor
+1337504853 - Bus Stop 3x1 passage 02 Harbor
+1337504854 - Bus Stop 4x2 passage Harbor
+
+-->
+	
+	<ModOp Type="addNextSibling" GUID="601326">
+        <!-- Bus Stop 3x2 passage -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504841</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_singel_gabel_01.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504841</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_gabel_01\bus_station_singel_gabel_green_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_gabel_01\bus_station_singel_gabel_gold_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_gabel_01\bus_station_singel_gabel_rust_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_gabel_01\bus_station_singel_gabel_red_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_gabel_01\bus_station_singel_gabel_blue_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_gabel_01\bus_station_singel_gabel_dark_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 singel sided underground 02  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504842</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_3x1_02.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504842</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>1337504856</GroundDecalAsset>
+                    <GroundDecalInvisible>1337504856</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02\bus_station_3x1_green_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02_sub2\bus_station_3x1_green_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02\bus_station_3x1_gold_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02_sub2\bus_station_3x1_gold_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02\bus_station_3x1_rust_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02_sub2\bus_station_3x1_rust_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02\bus_station_3x1_red_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02_sub2\bus_station_3x1_red_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02\bus_station_3x1_blue_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02_sub2\bus_station_3x1_blue_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02\bus_station_3x1_dark_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_02_sub2\bus_station_3x1_dark_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 singel sided underground 03  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504843</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_3x1_03.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504843</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>1337504856</GroundDecalAsset>
+                    <GroundDecalInvisible>1337504856</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03\bus_station_3x1_green_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03_sub2\bus_station_3x1_green_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03\bus_station_3x1_gold_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03_sub2\bus_station_3x1_gold_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03\bus_station_3x1_rust_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03_sub2\bus_station_3x1_rust_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03\bus_station_3x1_red_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03_sub2\bus_station_3x1_red_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03\bus_station_3x1_blue_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03_sub2\bus_station_3x1_blue_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03\bus_station_3x1_dark_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_03_sub2\bus_station_3x1_dark_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 singel sided underground 04  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504844</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_3x1_02.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504844</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>1337504856</GroundDecalAsset>
+                    <GroundDecalInvisible>1337504856</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04\bus_station_3x1_green_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04_sub2\bus_station_3x1_green_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04\bus_station_3x1_gold_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04_sub2\bus_station_3x1_gold_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04\bus_station_3x1_rust_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04_sub2\bus_station_3x1_rust_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04\bus_station_3x1_red_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04_sub2\bus_station_3x1_red_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04\bus_station_3x1_blue_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04_sub2\bus_station_3x1_blue_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04\bus_station_3x1_dark_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_04_sub2\bus_station_3x1_dark_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 singel sided underground 05  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504845</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_3x1_03.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504845</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>1337504856</GroundDecalAsset>
+                    <GroundDecalInvisible>1337504856</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05\bus_station_3x1_green_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05_sub2\bus_station_3x1_green_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05\bus_station_3x1_gold_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05_sub2\bus_station_3x1_gold_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05\bus_station_3x1_rust_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05_sub2\bus_station_3x1_rust_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05\bus_station_3x1_red_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05_sub2\bus_station_3x1_red_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05\bus_station_3x1_blue_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05_sub2\bus_station_3x1_blue_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05\bus_station_3x1_dark_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_05_sub2\bus_station_3x1_dark_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 singel sided underground 06  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504846</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_3x1_02.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504846</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>1337504856</GroundDecalAsset>
+                    <GroundDecalInvisible>1337504856</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06\bus_station_3x1_green_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06_sub2\bus_station_3x1_green_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06\bus_station_3x1_gold_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06_sub2\bus_station_3x1_gold_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06\bus_station_3x1_rust_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06_sub2\bus_station_3x1_rust_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06\bus_station_3x1_red_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06_sub2\bus_station_3x1_red_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06\bus_station_3x1_blue_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06_sub2\bus_station_3x1_blue_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06\bus_station_3x1_dark_06.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_06_sub2\bus_station_3x1_dark_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 singel sided underground 07  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504847</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_3x1_03.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504847</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>1337504856</GroundDecalAsset>
+                    <GroundDecalInvisible>1337504856</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07\bus_station_3x1_green_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07_sub2\bus_station_3x1_green_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07\bus_station_3x1_gold_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07_sub2\bus_station_3x1_gold_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07\bus_station_3x1_rust_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07_sub2\bus_station_3x1_rust_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07\bus_station_3x1_red_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07_sub2\bus_station_3x1_red_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07\bus_station_3x1_blue_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07_sub2\bus_station_3x1_blue_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07\bus_station_3x1_dark_07.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_07_sub2\bus_station_3x1_dark_07.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 singel sided underground 08  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504848</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_3x1_02.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504848</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>1337504856</GroundDecalAsset>
+                    <GroundDecalInvisible>1337504856</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08\bus_station_3x1_green_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08_sub2\bus_station_3x1_green_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08\bus_station_3x1_gold_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08_sub2\bus_station_3x1_gold_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08\bus_station_3x1_rust_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08_sub2\bus_station_3x1_rust_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08\bus_station_3x1_red_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08_sub2\bus_station_3x1_red_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08\bus_station_3x1_blue_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08_sub2\bus_station_3x1_blue_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08\bus_station_3x1_dark_08.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_08_sub2\bus_station_3x1_dark_08.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop singel between house  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504849</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_singel_between_house_01.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504849</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_between_house_01\bus_station_singel_between_house_green_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_between_house_01\bus_station_singel_between_house_gold_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_between_house_01\bus_station_singel_between_house_rust_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_between_house_01\bus_station_singel_between_house_red_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_between_house_01\bus_station_singel_between_house_blue_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_between_house_01\bus_station_singel_between_house_dark_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 2x2 passage 01  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504850</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_singel_2x2_01.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504850</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_2x2_01\bus_station_singel_2x2_green_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_2x2_01\bus_station_singel_2x2_gold_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_2x2_01\bus_station_singel_2x2_rust_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_2x2_01\bus_station_singel_2x2_red_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_2x2_01\bus_station_singel_2x2_blue_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_singel_2x2_01\bus_station_singel_2x2_dark_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 singel sided  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504851</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_3x1_01.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504851</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_01\bus_station_3x1_green_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_01\bus_station_3x1_gold_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_01\bus_station_3x1_rust_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_01\bus_station_3x1_red_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_01\bus_station_3x1_blue_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_3x1_01\bus_station_3x1_dark_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 passage 01 -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504852</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_double_gabel_01.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504852</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_01\bus_station_double_gabel_green_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_01\bus_station_double_gabel_gold_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_01\bus_station_double_gabel_rust_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_01\bus_station_double_gabel_red_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_01\bus_station_double_gabel_blue_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_01\bus_station_double_gabel_dark_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 3x1 passage 02 -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504853</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_double_gabel_02.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504853</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_02\bus_station_double_gabel_green_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_02\bus_station_double_gabel_gold_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_02\bus_station_double_gabel_rust_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_02\bus_station_double_gabel_red_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_02\bus_station_double_gabel_blue_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_02\bus_station_double_gabel_dark_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+        <!-- Bus Stop 4x2 passage  -->
+        <Asset>
+            <BaseAssetGUID>601326</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337504854</GUID>
+                    <Name>Bus Stop</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/bus_station_double_gabel_stairs_01.png</IconFilename>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337504854</PickingAsset>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                </Building>
+                <Blocking>
+                    <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+                    <ArchHeight>1.75</ArchHeight>
+                    <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+                    <BelowArchBuildHeight>1.75</BelowArchBuildHeight>
+                    <ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+                	<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>400</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>134623</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_stairs_01\bus_station_double_gabel_stairs_green_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_stairs_01\bus_station_double_gabel_stairs_gold_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_stairs_01\bus_station_double_gabel_stairs_rust_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_stairs_01\bus_station_double_gabel_stairs_red_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_stairs_01\bus_station_double_gabel_stairs_blue_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\harbor\bus_station\bus_station_double_gabel_stairs_01\bus_station_double_gabel_stairs_dark_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>601326</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection />
+                <Text>
+                    <TextOverride>601326</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410084</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <AmbientMoodProvider />
+                <BusStop>
+                    <ActivationRadius>28</ActivationRadius>
+                    <StreetConnectionRange>72</StreetConnectionRange>
+                </BusStop>
+                <Pausable />
+                <Culture />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>120</Amount>
+                            <InactiveAmount>120</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Nameable />
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	<!-- AssetPool harbor01 -->
+	<ModOp Type="addNextSibling" GUID='130121' Path="/Values/AssetPool/AssetList/Item[Asset = '1010519']">
+		<Item>
+			<GUID>1337504841</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504842</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504843</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504844</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504845</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504846</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504847</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504848</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504849</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504850</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504851</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504852</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504853</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504854</GUID>
+		</Item>
+	</ModOp>
+
+
+	<!-- all harbour buildings -->
+	<ModOp Type="addNextSibling" GUID='191508' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010519']">
+		<Item>
+			<GUID>2077030001</GUID>
+		</Item>
+		<Item>
+			<GUID>2077030002</GUID>
+		</Item>
+		<Item>
+			<GUID>2077030003</GUID>
+		</Item>
+		<Item>
+			<GUID>2077030006</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504841</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504842</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504843</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504844</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504845</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504846</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504847</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504848</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504849</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504850</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504851</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504852</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504853</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504854</GUID>
+		</Item>
+  </ModOp>
+
+
+	<!-- all buildings with maintenance DLC11 -->
+	<ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>1337504841</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504842</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504843</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504844</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504845</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504846</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504847</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504848</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504849</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504850</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504851</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504852</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504853</GUID>
+		</Item>
+		<Item>
+			<GUID>1337504854</GUID>
+		</Item>
+	</ModOp>
+  
+</ModOps>
+
+<!-- 2024-10-07 13:23:07 -->

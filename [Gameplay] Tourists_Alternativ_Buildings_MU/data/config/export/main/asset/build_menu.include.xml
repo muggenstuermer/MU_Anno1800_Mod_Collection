@@ -1,0 +1,273 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+<!--
+
+1337500355 - Buildmenue Old Trainstation
+1337504859 - Buildmenue Old Trainstation Harbor
+
+1337504818 - Buildmenue BusStation
+1337504855 - Buildmenue BusStation Harbor
+
+-->
+    <!-- Baumenü Bahnhof -->
+    <ModOp Type="addNextSibling" GUID="1010347">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500355</GUID>
+                    <Name>WarehouseStation</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/big_station.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337500352</Building>
+                            <!-- Old Trainstation as Warehouse -->
+                        </Item>
+                        <Item>
+                            <Building>1337500354</Building>
+                            <!-- Triumphal Arch Double-->
+                        </Item>
+                        <Item>
+                            <Building>1337500360</Building>
+                            <!-- Triumphal Arch Single-->
+                        </Item>
+                        <Item>
+                            <Building>1337504819</Building>
+                            <!-- brücke -->
+                        </Item>
+                        <Item>
+                            <Building>1337504820</Building>
+                            <!-- brücke -->
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1337500356</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- Baumenü Bahnhof Hafen-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504859</GUID>
+                    <Name>WarehouseStation</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/big_station_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337504862</Building>
+                            <!-- Old Trainstation as Warehouse Harbor -->
+                        </Item>
+						 <Item>
+                            <Building>1337504865</Building>
+                            <!-- Triumphal Arch Doublestreet Harbor -->
+                        </Item>
+                        <Item>
+                            <Building>1337504866</Building>
+                            <!-- Triumphal Arch Singlestreet Harbor -->
+                        </Item>
+						<Item>
+                            <Building>1337504860</Building>
+                            <!-- Modular Road Bridge Harbor -->
+                        </Item>
+                        <Item>
+                            <Building>1337504861</Building>
+                            <!-- Modular endpieces for Road Bridge Harbor -->
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1337500356</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337500355</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!-- Baumenü Bus-Station -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504818</GUID>
+                    <Name>BusStation</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/icon_bus_station_mu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337504831</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504822</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504823</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504824</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504825</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504826</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504827</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504828</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504829</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504830</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504821</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504832</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504833</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504834</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>11151</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- Baumenü Bus-Station Harbor -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337504855</GUID>
+                    <Name>BusStationHarbor</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/bus_station/icon_bus_station_harbor_mu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337504851</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504842</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504843</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504844</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504845</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504846</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504847</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504848</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504849</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504850</Building>
+                        </Item>
+						<Item>
+                            <Building>1337504841</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504852</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504853</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504854</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19173</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337504818</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
+    <!-- Baumenü Bahnhof nach hotel -->
+    <ModOp Type="addNextSibling" Path="//*[self::BuildingList]/Item[Building = '601445']">
+        <Item>
+            <Building>1337500355</Building>
+        </Item>
+    </ModOp>
+	<!-- Baumenü Bahnhof Hafen nach Bahnhof -->
+    <ModOp Type="addNextSibling" GUID='132779' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1337500355']">
+        <Item>
+            <Building>1337504859</Building>
+        </Item>
+    </ModOp>
+	
+    <!-- Baumenü bushaltestelle nach hotel -->
+    <ModOp Type="addNextSibling" Path="//*[self::BuildingList]/Item[Building = '601445']">
+        <Item>
+            <Building>1337504818</Building>
+        </Item>
+    </ModOp>
+	 <!-- Baumenü bushaltestelle hafen nach bushaltestelle Touristen Menü-->
+    <ModOp Type="addNextSibling" GUID='132779' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1337504818']">
+        <Item>
+            <Building>1337504855</Building>
+        </Item>
+    </ModOp>
+	 <!-- Baumenü bushaltestelle hafen nach bushaltestelle Hafen Menü-->
+    <ModOp Type="addNextSibling" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='100429']">
+        <Item>
+            <Building>1337504855</Building>
+        </Item>
+    </ModOp>
+	
+	<!-- Baumenü Bahnhof Hafen nach bushaltestelle Hafen Menü-->
+    <ModOp Type="addNextSibling" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='100429']">
+        <Item>
+            <Building>1337504859</Building>
+        </Item>
+    </ModOp>
+</ModOps>
+
+<!-- 2024-10-07 13:19:35 -->

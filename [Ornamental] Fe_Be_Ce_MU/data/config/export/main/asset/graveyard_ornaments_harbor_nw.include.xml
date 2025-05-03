@@ -1,0 +1,2894 @@
+<ModOps>
+    <!--
+1337506850 Graveyard 1x1 Grass
+1337506851 Graveyard 1x1 Trees
+
+1337506852 Graveyard 1x1 Sculpture 01
+1337506853 Graveyard 1x1 Sculpture 02
+1337506854 Graveyard 1x1 Sculpture 03
+1337506855 Graveyard 1x1 Sculpture 04
+1337506856 Graveyard 1x1 Sculpture 05
+1337506857 Graveyard 1x1 Sculpture 06
+1337506858 Graveyard 1x1 Sculpture 07
+1337506859 Graveyard 1x1 Sculpture 08
+1337506860 Graveyard 1x1 Sculpture 09
+1337506861 Graveyard 1x1 Sculpture 10
+1337506862 Graveyard 1x1 Sculpture 11
+1337506863 Graveyard 1x1 Sculpture 12
+1337506864 Graveyard 1x1 Sculpture 13
+1337506865 Graveyard 1x1 Sculpture 14
+1337506866 Graveyard 1x1 Sculpture 15
+1337506867 Graveyard 1x1 Sculpture 16
+1337506868 Graveyard 1x1 Sculpture 17
+1337506869 Graveyard 1x1 Sculpture 18
+1337506870 Graveyard 1x1 Sculpture 19
+1337506871 Graveyard 1x1 Sculpture 20
+1337506872 Graveyard 1x1 Sculpture 21
+1337506873 Graveyard 1x1 Sculpture 22
+1337506874 Graveyard 1x1 Sculpture 23
+1337506875 Graveyard 1x1 Sculpture 24
+1337506876 Graveyard 1x1 Sculpture 25
+1337506877 Graveyard 1x1 Sculpture 26
+1337506878 Graveyard 1x1 Sculpture 27
+1337506879 Graveyard 1x1 Sculpture 28
+
+1337506880 Graveyard 3x3 Pillarpark
+
+1337506881 Graveyard 3x3 Chapel
+1337506882 Graveyard 6x6 Church Small
+1337506883 Graveyard 8x6 Church Big
+
+1337506884 Trigger
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Graveyard Ornaments LAND ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010035">
+        <!-- Graveyard 1x1 Grass -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506850</GUID>
+                    <Name>GraveyardGrass</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_grass\graveyard_grass_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506748</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_grass\graveyard_grass_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_grass\graveyard_grass_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Trees -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506851</GUID>
+                    <Name>GraveyardTrees</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_trees\graveyard_tree_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506753</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_trees\graveyard_tree_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_trees\graveyard_tree_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_trees\graveyard_tree_03.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_trees\graveyard_tree_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_trees\graveyard_tree_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_trees\graveyard_tree_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 01 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506852</GUID>
+                    <Name>GraveyardSculpture01</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506754</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 02 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506853</GUID>
+                    <Name>GraveyardSculpture02</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_02.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506755</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_02.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 03 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506854</GUID>
+                    <Name>GraveyardSculpture03</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_03.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506756</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_03.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 04 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506855</GUID>
+                    <Name>GraveyardSculpture04</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_04.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506757</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_04.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 05 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506856</GUID>
+                    <Name>GraveyardSculpture05</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_05.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506758</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_05.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 06 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506857</GUID>
+                    <Name>GraveyardSculpture06</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_06.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506759</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_06.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 07 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506858</GUID>
+                    <Name>GraveyardSculpture07</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_07.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506760</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_07.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_07.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 08 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506859</GUID>
+                    <Name>GraveyardSculpture08</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_08.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506761</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_08.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_08.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 09 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506860</GUID>
+                    <Name>GraveyardSculpture09</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_09.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506762</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_09.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_09.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 10 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506861</GUID>
+                    <Name>GraveyardSculpture10</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_10.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506763</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_10.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_10.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 11 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506862</GUID>
+                    <Name>GraveyardSculpture11</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_11.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506764</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_11.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_11.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 12 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506863</GUID>
+                    <Name>GraveyardSculpture12</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_12.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506765</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_12.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_12.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 13 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506864</GUID>
+                    <Name>GraveyardSculpture13</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_13.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506766</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_13.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_13.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 14 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506865</GUID>
+                    <Name>GraveyardSculpture14</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_14.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506767</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_14.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_14.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 15 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506866</GUID>
+                    <Name>GraveyardSculpture15</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_15.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506768</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_15.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_15.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 16 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506867</GUID>
+                    <Name>GraveyardSculpture16</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_16.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506769</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_16.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_16.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 17 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506868</GUID>
+                    <Name>GraveyardSculpture17</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_17.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506770</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_17.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_17.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 18 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506869</GUID>
+                    <Name>GraveyardSculpture18</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_18.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506771</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_18.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_18.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 19 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506870</GUID>
+                    <Name>GraveyardSculpture19</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_19.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506772</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_19.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_19.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 20 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506871</GUID>
+                    <Name>GraveyardSculpture20</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_20.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506773</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_20.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_20.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 21 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506872</GUID>
+                    <Name>GraveyardSculpture21</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_21.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506774</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_21.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_21.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 22 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506873</GUID>
+                    <Name>GraveyardSculpture22</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_22.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506775</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_22.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_22.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 23 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506874</GUID>
+                    <Name>GraveyardSculpture23</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_23.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506776</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_23.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_23.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 24 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506875</GUID>
+                    <Name>GraveyardSculpture24</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_24.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506777</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_24.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_24.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 25 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506876</GUID>
+                    <Name>GraveyardSculpture25</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_25.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506778</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_25.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_25.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 26 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506877</GUID>
+                    <Name>GraveyardSculpture26</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_26.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506779</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_26.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_26.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 27 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506878</GUID>
+                    <Name>GraveyardSculpture27</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_27.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506780</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_27.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_27.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 1x1 Sculpture 28 -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506879</GUID>
+                    <Name>GraveyardSculpture28</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_28.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506781</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_ornament_28.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_ornament_28.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 3x3 Pillarpark -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506880</GUID>
+                    <Name>GraveyardPillarpark</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506782</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_01a.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_01b.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_02a.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_02b.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_03.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_03a.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\graveyard_ornaments\graveyard_pillar_park_03b.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_pillar_park_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_pillar_park_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_pillar_park_01b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_pillar_park_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_pillar_park_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_pillar_park_02b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_pillar_park_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_pillar_park_03a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_ornaments\graveyard_pillar_park_03b.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 3x3 Chapel -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506881</GUID>
+                    <Name>GraveyardChapel</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\chapel\chapel_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506783</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\chapel\chapel_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\chapel\chapel_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\chapel\chapel_03.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\chapel\chapel_04.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\chapel\chapel_05.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>300</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\chapel_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\chapel_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\chapel_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\chapel_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\chapel_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 6x6 Church Small -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506882</GUID>
+                    <Name>GraveyardChurchSmall</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_small\church_small_brick_face_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506784</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_small\church_small_brick_face_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_small\church_small_brickmortar_face_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_small\church_small_brickmortar_face_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_small\church_small_mortar_face_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_small\church_small_mortar_face_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_small\church_small_mortar_mix_face_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_small_brick_face_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_small_brickmortar_face_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_small_brickmortar_face_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_small_mortar_face_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_small_mortar_face_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_small_mortar_mix_face_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- Graveyard 8x6 Church Big -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506883</GUID>
+                    <Name>GraveyardChurchBig</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_big\church_brick_face_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506785</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_big\church_brick_face_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_big\church_brickmortar_face_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_big\church_brickmortar_face_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_big\church_mortar_face_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_big\church_mortar_face_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\graveyard\church_big\church_mortar_mix_face_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_brick_face_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_brickmortar_face_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_brickmortar_face_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_mortar_face_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_mortar_face_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\graveyard\harbor\graveyard_church\church_mortar_mix_face_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>0</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="add" GUID="1337506745" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337506850</Building>
+        </Item>
+        <Item>
+            <Building>1337506851</Building>
+        </Item>
+        <Item>
+            <Building>1337506880</Building>
+        </Item>
+        <Item>
+            <Building>1337506852</Building>
+        </Item>
+        <Item>
+            <Building>1337506853</Building>
+        </Item>
+        <Item>
+            <Building>1337506854</Building>
+        </Item>
+        <Item>
+            <Building>1337506855</Building>
+        </Item>
+        <Item>
+            <Building>1337506856</Building>
+        </Item>
+        <Item>
+            <Building>1337506857</Building>
+        </Item>
+        <Item>
+            <Building>1337506858</Building>
+        </Item>
+        <Item>
+            <Building>1337506859</Building>
+        </Item>
+        <Item>
+            <Building>1337506860</Building>
+        </Item>
+        <Item>
+            <Building>1337506861</Building>
+        </Item>
+        <Item>
+            <Building>1337506862</Building>
+        </Item>
+        <Item>
+            <Building>1337506863</Building>
+        </Item>
+        <Item>
+            <Building>1337506864</Building>
+        </Item>
+        <Item>
+            <Building>1337506865</Building>
+        </Item>
+        <Item>
+            <Building>1337506866</Building>
+        </Item>
+        <Item>
+            <Building>1337506867</Building>
+        </Item>
+        <Item>
+            <Building>1337506868</Building>
+        </Item>
+        <Item>
+            <Building>1337506869</Building>
+        </Item>
+        <Item>
+            <Building>1337506870</Building>
+        </Item>
+        <Item>
+            <Building>1337506871</Building>
+        </Item>
+        <Item>
+            <Building>1337506872</Building>
+        </Item>
+        <Item>
+            <Building>1337506873</Building>
+        </Item>
+        <Item>
+            <Building>1337506874</Building>
+        </Item>
+        <Item>
+            <Building>1337506875</Building>
+        </Item>
+        <Item>
+            <Building>1337506876</Building>
+        </Item>
+        <Item>
+            <Building>1337506877</Building>
+        </Item>
+        <Item>
+            <Building>1337506878</Building>
+        </Item>
+        <Item>
+            <Building>1337506879</Building>
+        </Item>
+        <Item>
+            <Building>1337506881</Building>
+        </Item>
+        <Item>
+            <Building>1337506882</Building>
+        </Item>
+        <Item>
+            <Building>1337506883</Building>
+        </Item>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Freischaltung -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506884</GUID>
+                    <Name>intermediate moderate 2.0</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+                </Standard>
+                <Text />
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000001</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1337506850</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506851</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506852</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506853</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506854</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506855</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506856</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506857</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506858</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506859</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506860</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506861</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506862</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506863</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506864</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506865</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506866</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506867</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506868</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506869</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506870</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506871</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506872</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506873</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506874</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506875</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506876</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506877</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506878</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506879</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506880</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506881</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506882</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506883</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1337506850</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506851</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506852</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506853</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506854</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506855</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506856</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506857</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506858</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506859</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506860</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506861</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506862</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506863</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506864</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506865</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506866</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506867</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506868</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506869</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506870</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506871</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506872</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506873</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506874</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506875</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506876</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506877</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506878</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506879</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506880</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506881</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506882</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337506883</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+<!-- 2025-05-01 18:17:58 -->

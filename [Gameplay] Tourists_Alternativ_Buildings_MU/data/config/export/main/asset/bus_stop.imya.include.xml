@@ -1,0 +1,21 @@
+<ModOps>
+  <!-- Description -->
+  <ImyaTweaks Title="Change Activation Radius and Street Connection Range of the Bus Stations" Description="You can Increase or Decrease the Activation Radius and Street Connection Range" />
+  
+  <!-- Change Activation Radius  -->
+  <ModOp Type="replace" GUID="1337504821,1337504822,1337504823,1337504824,1337504825,1337504826,1337504827,1337504828,1337504829,1337504830,1337504831,1337504832,1337504833,1337504834" Path="/Values/BusStop/ActivationRadius" ModOpID="BusStopRadius">
+    <ActivationRadius>28</ActivationRadius>
+  </ModOp>
+  <ImyaExpose Path="self::ActivationRadius" ModOpID="BusStopRadius" ExposeID="BusStopActivationRadius" Description="The BusStations Activation Radius Value" Kind="Slider">
+    <SliderDefinition Min="0" Max="100" Stepping="1" />
+  </ImyaExpose>
+  
+  <!-- Change Street Connection Range  -->
+  <ModOp Type="replace" GUID="1337504821,1337504822,1337504823,1337504824,1337504825,1337504826,1337504827,1337504828,1337504829,1337504830,1337504831,1337504832,1337504833,1337504834" Path="/Values/BusStop/StreetConnectionRange" ModOpID="BusStopConnectionRange">
+    <StreetConnectionRange>72</StreetConnectionRange>
+  </ModOp>
+  <ImyaExpose Path="self::StreetConnectionRange" ModOpID="BusStopConnectionRange" ExposeID="BusStopStreetConnectionRange" Description="The BusStations Street Connection Range Value" Kind="Slider">
+    <SliderDefinition Min="0" Max="200" Stepping="1" />
+  </ImyaExpose>
+</ModOps>
+<!-- 2024-10-07 13:20:03 -->

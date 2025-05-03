@@ -1226,7 +1226,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
                 <Standard>
                     <GUID>1337505241</GUID>
                     <Name>veredelte Steinkohle</Name>
-                    <IconFilename>data\ui\2kimages\main\3dicons\coal_power_chain\icon_coke.png</IconFilename>
+                    <IconFilename>data\ui\2kimages\main\3dicons\coal_power_chain\icon_coke_0.png</IconFilename>
                     <InfoDescription />
                 </Standard>
                 <Text>
@@ -1513,26 +1513,28 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
             <Asset>1337506129</Asset>
         </Item>
     </ModOp>
-    <!-- add new Product Coke to pools and lists -->
-    <ModOp Type="add" GUID="120055,120057" Path="/Values/ProductStorageList/ProductList/">
-        <Item>
-            <Product>1337505241</Product>
-        </Item>
-    </ModOp>
-    <ModOp Type="add" GUID="502007,502020,502066,501998" Path="/Values/ProductList/List/">
-        <Item>
-            <Product>1337505241</Product>
-        </Item>
-    </ModOp>
-    <ModOp Type="add" GUID="700017,700018,700139" Path="/Values/PlayerCounterContextPool/Contexts">
-        <Item>
-            <GUID>1337505241</GUID>
-        </Item>
-    </ModOp>
+     <!-- add new Product Coke to pools and lists -->
+	<ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010226']">
+		<Item>
+			<Product>1337505241</Product>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='502016,502065' Path="/Values/ProductList/List">
+		<Item>
+			<Product>1337505241</Product>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='502046' Path="/Values/ProductList/List">
+		<Item>
+			<Product>1337505241</Product>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID="502020,502007" Path="/Values/ProductList/List/">
+		<Item>
+			<Product>1337505241</Product>
+		</Item>
+	</ModOp> 
     <ModOp Type="add" GUID="130047" Path="/Values/AssetPool/AssetList">
-        <Item>
-            <Asset>1337505241</Asset>
-        </Item>
 		
         <Item>
             <Asset>1337505242</Asset>

@@ -1,0 +1,117 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+    <!-- ID's used for THIS MOD :   1337500352 to 1337500361 + 1337504810 to 1337504866 (free: 1337500357,1337500358) -->
+    <!-- InternalID's are used for this mod : none -->
+<!--
+1337500352 - Old Trainstation as Warehouse
+1337504862 - Old Trainstation as Warehouse Harbor
+1337500353 - BUFF for Old Trainstations
+
+1337500354 - Triumphal Arch Doublestreet
+1337500360 - Triumphal Arch Singlestreet
+
+1337504865 - Triumphal Arch Doublestreet Harbor
+1337504866 - Triumphal Arch Singlestreet Harbor
+
+1337500355 - Buildmenue Old Trainstation
+1337504859 - Buildmenue Old Trainstation Harbor
+
+1337504818 - Buildmenue BusStation
+1337504855 - Buildmenue BusStation Harbor
+
+1337504819 - Modular Road Bridge
+1337504820 - Modular endpieces for Road Bridge
+
+1337504860 - Modular Road Bridge Harbor
+1337504861 - Modular endpieces for Road Bridge Harbor
+
+1337504810 - Bar Skin 01
+1337504811 - Bar Skin 02
+1337504837 - Bar Skin 03
+1337504838 - Bar Skin 04
+
+1337504812 - Cafe Skin 01
+1337504813 - Cafe Skin 02
+1337504814 - Cafe Skin 03
+1337504815 - Cafe Skin 04
+
+1337504816 - Hotel Skin 01
+1337504817 - Hotel Skin 02
+1337504839 - Hotel Skin 03
+1337504840 - Hotel Skin 04
+
+1337504821 - Bus Stop 3x2 passage
+1337504822 - Bus Stop 3x1 singel sided underground 02
+1337504823 - Bus Stop 3x1 singel sided underground 03
+1337504824 - Bus Stop 3x1 singel sided underground 04
+1337504825 - Bus Stop 3x1 singel sided underground 05
+1337504826 - Bus Stop 3x1 singel sided underground 06
+1337504827 - Bus Stop 3x1 singel sided underground 07
+1337504828 - Bus Stop 3x1 singel sided underground 08
+1337504829 - Bus Stop singel between house
+1337504830 - Bus Stop 2x2 passage 01
+1337504831 - Bus Stop 3x1 singel sided
+1337504832 - Bus Stop 3x1 passage 01
+1337504833 - Bus Stop 3x1 passage 02
+1337504834 - Bus Stop 4x2 passage
+
+1337504841 - Bus Stop 3x2 passage Harbor
+1337504842 - Bus Stop 3x1 singel sided underground 02 Harbor
+1337504843 - Bus Stop 3x1 singel sided underground 03 Harbor
+1337504844 - Bus Stop 3x1 singel sided underground 04 Harbor
+1337504845 - Bus Stop 3x1 singel sided underground 05 Harbor
+1337504846 - Bus Stop 3x1 singel sided underground 06 Harbor
+1337504847 - Bus Stop 3x1 singel sided underground 07 Harbor
+1337504848 - Bus Stop 3x1 singel sided underground 08 Harbor
+1337504849 - Bus Stop singel between house Harbor
+1337504850 - Bus Stop 2x2 passage 01 Harbor
+1337504851 - Bus Stop 3x1 singel sided Harbor
+1337504852 - Bus Stop 3x1 passage 01 Harbor
+1337504853 - Bus Stop 3x1 passage 02 Harbor
+1337504854 - Bus Stop 4x2 passage Harbor
+
+1337500356 - CategoryDescription Buildmenue Old Trainstation
+1337500359 - InfoDescription Triumphal Arch Doublestreet
+1337500361 - InfoDescription Triumphal Arch Singlestreet
+
+1337504863 - Trigger with 500 Engineers
+1337504864 - Trigger with 1 Tourist Mooring
+
+-->
+
+
+    <Include File="trainstation_warehouse.include.xml" />
+	<Include File="trainstation_warehouse_harbor.include.xml" />
+	
+    <Include File="triumphal_arch.include.xml" />
+	<Include File="triumphal_arch_harbor.include.xml" />
+	
+    <Include File="modular_street_bridge.include.xml" />
+	<Include File="modular_street_bridge_harbor.include.xml" />
+	
+    <Include File="bar_skins.include.xml" />
+    <Include File="cafe_skins.include.xml" />
+    <Include File="hotel_skins.include.xml" />
+	
+    <Include File="bus_stop_main.include.xml" />
+	<Include File="bus_stop_main_harbor.include.xml" />
+	
+    <Include File="build_menu.include.xml" />
+    <Include File="triggers.include.xml" />
+	
+    <Include File="warehouse.imya.include.xml" />
+	<Include File="warehouse_harbor.imya.include.xml" />
+	
+    <Include File="bus_stop.imya.include.xml" />
+	<Include File="bus_stop_harbor.imya.include.xml" />
+	
+	
+    <!-- set feedback controllers to hide none -->
+    <ModOp Type="add" GUID="601445,132781,132752,133342,133343,133345,133346,6137,132782,132753,133347,133348,133349,133350,6138,601326" Path="/Values">
+        <FeedbackController>
+            <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+    </ModOp>
+</ModOps>
+
+<!-- 2024-09-27 15:19:11 -->

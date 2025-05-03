@@ -1,0 +1,255 @@
+<ModOps>
+    <!-- muggenstuermer GUID-Range  1337500000 - 1337510000  -->
+<!--
+  
+1337500352 - Old Trainstation as Warehouse
+1337500353 - BUFF for Old Trainstation
+
+-->
+    <!-- Old Trainstation as Warehouse -->
+    <ModOp Type="addNextSibling" GUID="1010347">
+        <Asset>
+            <Template>TrainStationWarehouseMu</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500352</GUID>
+                    <Name>monument_01_06</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/big_station.png</IconFilename>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Building>
+                    <PickingAsset>1337500352</PickingAsset>
+                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>550000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>478</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>625</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>213</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>534</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>265</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\public\logistic/station_warehouse_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\tourists\buildings\public\logistic/station_warehouse_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <Infolayer />
+                <FeedbackController />
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>100</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>6</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <Ornament>
+                    <OrnamentUnit>4</OrnamentUnit>
+                    <OrnamentDescription>2975</OrnamentDescription>
+                </Ornament>
+                <UpgradeList />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>750</Amount>
+                            <InactiveAmount>100</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <StorageBase />
+                <Attackable>
+                    <MaximumHitPoints>8500</MaximumHitPoints>
+                    <SelfHealPerHealTick>5</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable />
+                <Culture>
+                    <Attractiveness>230</Attractiveness>
+                    <CultureSpawnGroup>1</CultureSpawnGroup>
+                </Culture>
+                <Pausable />
+                <ItemContainer>
+                    <SocketCount>1</SocketCount>
+                    <SocketAllocation>RadiusBuilding;TownHall</SocketAllocation>
+                    <SocketScope>Radius</SocketScope>
+                    <SocketScopeRadius>50</SocketScopeRadius>
+                    <InitSocketItems>
+                        <Item>
+                            <Item>1337500353</Item>
+                            <StackSize>1</StackSize>
+                        </Item>
+                    </InitSocketItems>
+                </ItemContainer>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- BUFF for Old Trainstation -->
+    <ModOp Type="addNextSibling" GUID="17742">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337500353</GUID>
+                    <Name>TowerBuff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/big_station.png</IconFilename>
+                    <InfoDescription>19478</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>TowerBuff</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>26928</LineID>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ExclusiveGroup>EducationAct</ExclusiveGroup>
+                    <TradePrice>178000</TradePrice>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>194022</GUID>
+                            <!-- all restaurants,bars etc -->
+                        </Item>
+                        <Item>
+                            <GUID>194025</GUID>
+                            <!-- all malls -->
+                        </Item>
+                        <Item>
+                            <GUID>601445</GUID>
+                            <!-- hotel vanilla-->
+                        </Item>
+						 <Item>
+                            <GUID>1337504297</GUID>
+                            <!-- Palace Hotel Harbor -->
+                        </Item>
+						<Item>
+                            <GUID>1337502282</GUID>
+                            <!-- Palace Hotel -->
+                        </Item>
+                        <Item>
+                            <GUID>194011</GUID>
+                            <!-- all chemical plants -->
+                        </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-25</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+                <PopulationUpgrade>
+                    <ResidentsUpgrade>
+                        <Value>105</Value>
+                    </ResidentsUpgrade>
+                    <InputBenefitModifier>
+                        <Item>
+                            <Product>133891</Product>
+                            <!-- TOURIHAFEN mehr besucher -->
+                            <AdditionalSupply>15</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>132751</Product>
+                            <!-- Restaurant mehr besucher -->
+                            <AdditionalSupply>15</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>133573</Product>
+                            <!-- Variete mehr besucher -->
+                            <AdditionalSupply>15</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>133183</Product>
+                            <!-- konfitüre mehr besucher -->
+                            <AdditionalSupply>15</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>132755</Product>
+                            <!-- Cafe mehr besucher -->
+                            <AdditionalSupply>15</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>133181</Product>
+                            <!-- Shampoo mehr besucher -->
+                            <AdditionalSupply>15</AdditionalSupply>
+                        </Item>
+                        <Item>
+                            <Product>132754</Product>
+                            <!-- Bar mehr besucher -->
+                            <AdditionalSupply>15</AdditionalSupply>
+                        </Item>
+                    </InputBenefitModifier>
+                </PopulationUpgrade>
+                <ItemAction />
+                <ExpeditionAttribute>
+                    <ItemDifficulties>Easy;Average</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ResidenceUpgrade />
+                <VisitorHarborUpgrade />
+                <CultureUpgrade />
+                <IncidentInfectableUpgrade />
+                <IncidentInfluencerUpgrade />
+                <Locked />
+                <Buff />
+                <CraftableItem />
+                <VisualEffectWhenActive />
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>15</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
+
+<!-- 2024-10-07 13:28:57 -->

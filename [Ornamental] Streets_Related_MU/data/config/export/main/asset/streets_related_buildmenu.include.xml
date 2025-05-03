@@ -255,7 +255,7 @@
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG : Ersetzt JEDE ORIGINAL STRASSE mit BAUMENÜ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenüs in City und Mods Ornaments Tap xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- OW -->
-    <ModOp Type="addPrevSibling" GUID="1337505000" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+    <ModOp Type="add" GUID="1337505000" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502504</Building>
         </Item>
@@ -267,7 +267,7 @@
         </Item>
     </ModOp>
     <!-- NW -->
-    <ModOp Type="addPrevSibling" GUID="1337505001" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+    <ModOp Type="add" GUID="1337505001" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502507</Building>
         </Item>
@@ -276,7 +276,7 @@
         </Item>
     </ModOp>
     <!-- ENBESA -->
-    <ModOp Type="addPrevSibling" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+    <ModOp Type="add" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502508</Building>
         </Item>
@@ -497,7 +497,7 @@
 	
 	
     <!-- Add OW Buildmenu HARBOR OW to Ornamentsmenu-->
-    <ModOp Type="addPrevSibling" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+    <ModOp Type="add" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502552</Building>
         </Item>
@@ -506,7 +506,7 @@
         </Item>
     </ModOp>
     <!-- Add NW Buildmenu HARBOR NW to Ornamentsmenu-->
-    <ModOp Type="addPrevSibling" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+    <ModOp Type="add" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502553</Building>
         </Item>
@@ -515,13 +515,13 @@
         </Item>
     </ModOp>
     <!-- Add Arctic Buildmenu HARBOR Arctic to Ornamentsmenu-->
-    <ModOp Type="addPrevSibling" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+    <ModOp Type="add" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502555</Building>
         </Item>
     </ModOp>
     <!-- Add Africa Buildmenu HARBOR Africa to Ornamentsmenu-->
-    <ModOp Type="addPrevSibling" GUID="1337505021" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+    <ModOp Type="add" GUID="1337505021" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502554</Building>
         </Item>
