@@ -231,7 +231,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501047</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Africa</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -311,6 +311,31 @@
 			<NewGUID>131865</NewGUID>
 		</Item>
 		
+	</ModOp>
+	
+	<!-- Zusätzliche Strassen dem Übergang Land zu Wasser hinzufügen NEW HORIZONS -->
+	<ModOp Type="add" GUID='133700001' Path="/Values/Region/CoastGUIDReplacements">
+		
+		<Item>
+			<OldGUID>1337501370</OldGUID><!-- Hacienda Pflaster (Echte) Straße -->
+			<NewGUID>1446005</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337501372</OldGUID><!-- Hacienda Wege (Echte) Straße -->
+			<NewGUID>1446005</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500030</OldGUID><!-- Noble Straße -->
+			<NewGUID>1446005</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500032</OldGUID><!-- Edle Straße -->
+			<NewGUID>1446005</NewGUID>
+		</Item>
+		<Item>
+			<OldGUID>1337500034</OldGUID><!-- Schotterweg -->
+			<NewGUID>1446005</NewGUID>
+		</Item>
 	</ModOp>
 	
 	<!-- Zusätzliche Strassen dem Übergang Land zu Wasser hinzufügen AFRICA -->
@@ -474,7 +499,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501028</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Moderate</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -569,7 +594,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501029</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -664,14 +689,14 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501030</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Africa</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
 	</ModOp>
 	
 	<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Kaistrasse metall XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
-	<!-- Metall Strasse ALL -->
+	<!-- Mod2ll Strasse ALL -->
 	<ModOp Type="addNextSibling" GUID='1010567'>
 		<Asset>
 			<Template>Street</Template>
@@ -759,7 +784,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501031</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -854,7 +879,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501032</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Moderate</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -949,7 +974,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501033</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -1139,7 +1164,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501035</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Africa</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -1234,7 +1259,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501036</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Moderate</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -1329,7 +1354,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501037</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -1424,7 +1449,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501038</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Africa</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -1519,7 +1544,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501039</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Moderate</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -1614,7 +1639,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501040</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -1709,7 +1734,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501041</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Africa</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -1804,7 +1829,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501042</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Moderate</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -1899,7 +1924,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501042</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -2089,7 +2114,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501042</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Africa</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -2183,7 +2208,7 @@
 					<BuildingCategoryName>11150</BuildingCategoryName>
 					<PickingAsset>1337501048</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
-					<AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -2374,7 +2399,7 @@
 	</ModOp>
 	
 <!-- Add NW Quaystreets to NW Streets_Relatet Harbor Quaystreets Buildmenu -->
-	<ModOp Type="add" GUID='1337502553' Path="/Values/ConstructionCategory/BuildingList">
+	<ModOp Type="add" GUID='1337502553,1337507290' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337501029</Building>
 		</Item>

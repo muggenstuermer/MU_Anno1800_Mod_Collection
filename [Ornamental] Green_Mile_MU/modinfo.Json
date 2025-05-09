@@ -1,17 +1,18 @@
 {
-  "Version": "1.22",
+  "Version": "1.3",
   "ModID": "Green_Mile_MU",
-  "LoadAfterIds": [
-    "A_Modified_Ornaments_Tab",
-	"Shared_Objects_MU",
-	"Streets_Related_MU",
-	"Pavements_MU"
-  ],
-  "IncompatibleIds": [],
   "ModDependencies": [ 
     "A_Modified_Ornaments_Tab",
 	"Shared_Objects_MU"
   ],
+  "LoadAfterIds": [
+    "A_Modified_Ornaments_Tab",
+	"Shared_Objects_MU",
+	"Streets_Related_MU",
+	"Pavements_MU",
+	"new_horizons_buildmenu"
+  ],
+  "IncompatibleIds": [],
   "Category": {
     "Chinese": "Ornamental",
     "English": "Ornamental",

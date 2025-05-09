@@ -86,7 +86,6 @@ Changelog - 1.26
 ---------------------------
 Changelog - 1.27
 ---------------------------
-
 	- correction ifo files.
 	- IMYA tweaks added to be able to set limited custom ranges.
 	- correction of the folder structure to adapt to the desired structures.
@@ -98,8 +97,12 @@ Changelog - 1.27
 ---------------------------
 Changelog - 1.28
 ---------------------------
-
 	- update README,modinfo.json and content_en.txt
+	
+---------------------------
+Changelog - 1.3
+---------------------------
+	- added New Horizons support.
 	
 	
 	

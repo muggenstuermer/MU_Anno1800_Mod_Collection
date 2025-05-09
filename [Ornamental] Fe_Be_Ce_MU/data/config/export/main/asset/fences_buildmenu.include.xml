@@ -4,6 +4,9 @@ Land
 
 1337506601 Buildmenu Fences OW
 1337506602 Buildmenu Fences NW
+
+1337507024 Buildmenu Fences NEW HORIZONS
+
 1337506603 Buildmenu Fences ENBESA
 1337506604 Buildmenu Fences ARCTIC
 
@@ -11,6 +14,9 @@ Harbor
 
 1337506605 Buildmenu Fences HARBOR OW
 1337506606 Buildmenu Fences HARBOR NW
+
+1337507025 Buildmenu Fences HARBOR NEW HORIZONS
+
 1337506607 Buildmenu Fences HARBOR ENBESA
 1337506608 Buildmenu Fences HARBOR ARCTIC
 
@@ -41,6 +47,27 @@ Harbor
             <Values>
                 <Standard>
                     <GUID>1337506602</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506601</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507024</GUID>
                     <Name>GroundPlacements</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_nw.png</IconFilename>
                 </Standard>
@@ -110,6 +137,12 @@ Harbor
             <Building>1337506602</Building>
         </Item>
     </ModOp>
+	<!-- NEW HORIZONS -->
+    <ModOp Type="addNextSibling" GUID="1337505022" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337507022']">
+        <Item>
+            <Building>1337507024</Building>
+        </Item>
+    </ModOp>
     <!-- ENBESA -->
     <ModOp Type="addNextSibling" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506502']">
         <Item>
@@ -148,6 +181,27 @@ Harbor
             <Values>
                 <Standard>
                     <GUID>1337506606</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_harbor_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506605</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Fences HARBOR NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507025</GUID>
                     <Name>GroundPlacements</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/fences_menu/icon_fences_menu_harbor_nw.png</IconFilename>
                 </Standard>
@@ -215,6 +269,12 @@ Harbor
     <ModOp Type="addNextSibling" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506505']">
         <Item>
             <Building>1337506606</Building>
+        </Item>
+    </ModOp>
+	<!-- Add NEW HORIZONS Buildmenu HARBOR NEW HORIZONS to Ornamentsmenu-->
+    <ModOp Type="addNextSibling" GUID="1337505023" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337507023']">
+        <Item>
+            <Building>1337507025</Building>
         </Item>
     </ModOp>
     <!-- Add Africa Buildmenu HARBOR Africa to Ornamentsmenu-->

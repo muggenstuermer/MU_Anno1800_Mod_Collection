@@ -1,147 +1,144 @@
 #Streets_Related_MU
 
-Dieser Mod wird in Zukunft alle meine Modifikationen enthalten,welche direkt mit dem Thema "Strassen" zu tun haben.
-Strassen mods aus City_Ornaments oder Harbour_Ornaments,werden folgen.
+This mod will contain all my modifications in the future, which are directly related to the topic “streets”.
+Street mods from City_Ornaments or Harbour_Ornaments will follow.
 
-Notwendige aktive mods :
+### Necessary active mods :
 
-	"A_Modified_Ornaments_Tab" von @muggenstuermer
-	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
-	
-	"Shared_Objects_MU" von @muggenstuermer
-	https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
-	
-	"Improved Streets" von @Jakob mit aktivierter schienen modifikation
-	https://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest
-	
-	- ["Green_Mile_MU" by @muggenstuermer]
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
 
-- ["Pavements_MU" by @muggenstuermer]
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
+
 
 
 ---------------------------
 Release - 1.0
 ---------------------------
-	- Dieser Mod Stellt verschiedene runde Strassen-Kreuzungs-Cover zur verfügung !
-	- Kreuzung Eins-Eins Buildblocker abdruck V1
-	- Kreuzung Eins-Eins Buildblocker abdruck V2
-	- Kreuzung Eins-Zwei
-	- Kreuzung Zwei-Zwei
+	- This mod provides different round road intersection covers !
+	- Crossroads One-One Buildblocker print V1
+	- Intersection One-One Buildblocker print V2
+	- Intersection One-Two
+	- Intersection Two-Two
 	
 ---------------------------
 Changelog - 1.1
 ---------------------------
-	- Original Strassen mit in das baumenü übernommen
-	- bekannte Strassen und Strassenbezogene teile aus City_Ornaments_MU_2 hinzugefügt
-	- InternalID Kollissionen zu New Horizons behoben,dadurch auch eine umstrukturierung einiger Objekte vollzogen
-	- Brücken für verschiedene möglichkeiten erschaffen - strassenbrücken - fußgängerbrücken - eisenbahnbrücken
-	- bekannte Wasserkanäle überarbeitet - brücken und optik - umbau wegen hinzugefügten brücken
-		- Der Feldweg hat für den Natürlichen Wasserkanal eine neue Brücke erhalten,anlehnend an das nächste cdlc " Drachengarten "
-		- Die Pflasterstrasse hat bei allen Mod und Vanilla Kanälen " KEINE " Brücke mehr.
-		- Die Eisenbahnschienen haben bekannte Natürlichen Wasserkanal Eisenbahnbrücke behalten 
-	- einen modularen see hinzugefügt,der unter allen brücken ,Fußgängerbrücken ausgeschlossen ( behindert das nutzen der brücke durch feedback ), eingesetzt werden kann.
-		- Systembedingt und je nach bauweise,können kleinere " löcher " entstehen weil ein falsches objekt gesetzt wurde.der See enthält alle teile,um diese lücken korrekt zu schließen.Objekt anklicken und mit den Pfeiltasten in der UI das passene stück suchen !
-	- nicht sichtbare Harbour_Ornaments_MU_2 content hinzugefügt - betrifft den bau der strassen von land zu wasser
-	- Original Wasserkanäle so modifiziert,daß originalbrücke NUR noch mit dem Feldweg erscheint. mit der Steinstrasse wird der brückenteil durch kanalteile ersetzt um eine der Modbrücken nutzen zu können ! Nur in  Enbesa wurde nichts verändert.
-	- Runde Strassen Cover in der NW wurden farblich an Jakobs Improved Streets Mod angepasst
-	- Die Regionen haben alle ihre eigenen Kreisverkehre erhalten
-	- tweak möglichkeiten erstellt,welche zwar im mod als standart genutzt werden,aber bei benuzung von iModYourAnno neu gesetzt werden müssen.
+	- Original streets included in the construction menu
+	- added known streets and street-related parts from City_Ornaments_MU_2
+	- Fixed InternalID collisions with New Horizons, thereby also restructuring some objects
+	- created bridges for different possibilities - road bridges - pedestrian bridges - railway bridges
+	- reworked known water channels - bridges and optics - remodelling due to added bridges
+		- The dirt road has received a new bridge for the natural water channel, based on the next cdlc ‘ dragon garden ’
+		- The cobblestone road has ‘ NO ’ bridge for all mod and vanilla channels.
+		- The railway tracks have kept known natural water channel railway bridge 
+	- added a modular lake that can be used under all bridges, excluding pedestrian bridges (hinders the use of the bridge through feedback).
+		- Due to the system and depending on the construction method, small ‘ holes ’ can occur because a wrong object was placed.the lake contains all parts to close these gaps correctly.click on the object and search for the matching piece with the arrow keys in the UI !
+	- added not visible Harbour_Ornaments_MU_2 content - concerns the construction of the roads from land to water
+	- Original water canals modified so that original bridge ONLY appears with the dirt road. with the stone road the bridge part is replaced by canal parts to be able to use one of the mod bridges ! Only in Enbesa nothing was changed.
+	- Round road covers in the NW have been colour matched to Jakob's Improved Streets mod
+	- The regions have all received their own roundabouts
+	- tweak options created, which are used as standard in the mod, but have to be reset when using iModYourAnno.
 	
 	--------------------------
-	Brücken Gebrauchsanleitung
+	Bridges Instruction manual
 	--------------------------
-		- Strassenbrücken :
+		- Road bridges :
 		-------------------
-			damit alles auch über die brücke fährt:
-				- immer zuerst brücke bauen
-				- danach unter die brücke nach wahl : Natürlicher Wasserkanal oder eines der Überbaubarern Kanäle aus dieser Mod oder Vanilla Kanal (kein Abwasserkanal,keine Straßen !)
-				- zuletzt eine Strasse durch die Brücke / entlang der Brücke bauen
+			so that everything crosses the bridge:
+				- always build the bridge first
+				- then under the bridge as desired: natural water channel or one of the overbuildable channels from this mod or vanilla channel (no sewer, no roads!)
+				- finally build a road through the bridge / along the bridge
 				
-		- Fußgängerbrücken :
+		- Pedestrian bridges :
 		--------------------
-				- immer zuerst brücke bauen
-				- danach unter die brücke nach wahl : Natürlicher Wasserkanal  oder Vanilla Kanal  oder ein blumenbeet etc. WICHTIG ! (kein Abwasserkanal,keine Straßen,keinen überbaubaren kanal - Ornamental !)
-				- an die enden der brücke die strasse verbinden
+				- always build a bridge first
+				- then under the bridge as desired: natural water channel or vanilla channel or a flower bed etc. IMPORTANT ! (no sewer, no roads, no overbuildable canal - ornamental !)
+				- connect the road to the ends of the bridge
 				
-		- Eisenbahnbrücken :
+		- Railway bridges :
 		--------------------
-			damit der Zug über die brücke fährt:
-				- immer zuerst brücke bauen
-				- danach unter die brücke nach wahl : Natürlicher Wasserkanal oder eines der Überbaubarern Kanäle aus dieser Mod.
-				- zuletzt die Schienen durch die Brücke / entlang der Brücke bauen
-					- die modulare strassenbrücke und die modulare eisenbahnbrücke,lassen sich kreuzen.dafür ist in der modularen eisenbahnbrücke nach der kreuzung extra ein objekt dafür integriert (shift+V oder pfeiltasten in der ui nutzen)
+			so that the train crosses the bridge:
+				- always build the bridge first
+				- then under the bridge, you can choose between a natural water channel or one of the overbuild channels from this mod.
+				- finally build the tracks through the bridge / along the bridge
+					- the modular road bridge and the modular railway bridge can be crossed. there is an extra object integrated in the modular railway bridge after the crossing (use shift+V or arrow keys in the ui).
 				
-		- Modulare Brücken :
+		- Modular bridges :
 		--------------------
-			damit alles funktioniert:
-				- immer zuerst brücke bauen
-				- dann das passende endstück platzieren,strasse oder schienen.
-				- danach unter die brücke : eines der Überbaubarern Kanäle aus dieser Mod
-				- dann die Strassen/Schienen durch die Brücke / entlang der Brücke bauen - bei einer Kreuzung der modularen strassenbrücke und der modularen eisenbahnbrücke,gibt es nach dem regulären kreu objekt bei den schienen,ein übergangs objekt.mit shift+V oder den Pfeiltasten im UI weiterschalten
+			so that everything works:
+				- always build the bridge first
+				- then place the appropriate end piece, road or rails.
+				- then under the bridge : one of the overbuilding channels from this mod
+				- then build the roads/rails through the bridge/along the bridge - at a crossing of the modular road bridge and the modular railway bridge, there is a transition object after the regular cross object at the rails, switch to the next object with shift+V or the arrow keys in the UI.
 				
 				
 ---------------------------
 Changelog - 1.2
 ---------------------------
-	- Ein Seperates Hafen Baumenü erstellt
-	- bekannte Hafenstrassen aus Harbour_Ornaments_MU_2 hinzugefügt
-	- funktionale Brücken für den Hafen hinzugefügt.
-	- auf Wunsch,eine Sandstrasse für das Land hinzugefügt
-	- mehrere Enbesa Fakestrassen erstellt
-	- auf Wunsch,Schwäne für den Überbaubaren Kanal hinzugefügt ( niedrige wahrscheinlichkeit )
-	- Enbesa Wasserkanal als Ornament verfügbar 
-	- vorbereitungen für kommendes Update getroffen
+	- Created a separate harbour construction menu
+	- added known harbour roads from Harbour_Ornaments_MU_2
+	- added functional bridges for the harbour
+	- added a sand road for the land on request
+	- created several Enbesa fake roads
+	- added swans for the overbuildable canal on request (low probability)
+	- Enbesa water channel available as ornament 
+	- preparations made for upcoming update
 	
 	--------------------------------
-	Hafen Brücken Gebrauchsanleitung
+	Harbour bridges instruction manual
 	--------------------------------
-		- Strassenbrücken :
+		- Road bridges :
 		-------------------
-			im gegensatz zu den brücken an Land,muss man hier nichts weiter tun als das Objekt zu bauen.
+			in contrast to the bridges on land, you don't have to do anything more than build the object.
 			
-		- Fußgängerbrücken :
+		- Pedestrian bridges :
 		--------------------
-			im gegensatz zu den brücken an Land,muss man hier nichts weiter tun als das Objekt zu bauen,und die Kaistrasse oder den Kai an den Brückenenden etwas in die brücke hinein ziehen.
+			in contrast to the bridges on land, you don't have to do anything more than build the object and pull the quay road or the quay at the ends of the bridge slightly into the bridge.
 			
-		- Modulare Brücken :
+		- Modular bridges :
 		--------------------
-			im gegensatz zu den brücken an Land,muss man hier nichts weiter tun als das Objekt zu bauen,und die Kaistrasse oder den Kai an den Brückenenden etwas in die brücke hinein ziehen.
-				- die Modulare Fußgängerbrücke ist überbaubar.damit kann man eine kaistrasse unter dieser brücke hindurchziehen ( parallel auch möglich!).dann wird die Strasse von den Marktkarren genutzt,während die fußgänger auf der brücke laufen.
-				  nur bei höheren fahrzeugen,sieht das etwas seltsam aus.dieses Feature ist ein Zufallsprodukt,weswegen es nicht ausgeschlossen ist,daß in der zukunft eventuell die brückenhöhe angepasst wird.
+			in contrast to the bridges on land, all you have to do here is build the object and pull the quay road or the quay at the ends of the bridge a little into the bridge.
+				- the modular pedestrian bridge can be built over. this means that you can pull a quay road under this bridge (also possible in parallel!). the road is then used by the market trolleys while the pedestrians walk on the bridge.
+				  only with higher vehicles does it look a bit strange. this feature is a random product, which is why it cannot be ruled out that the bridge height may be adjusted in the future.
 				  
-				- das endstück der modularen Fußgängerbrücke,enthält als Variation ein gerades Teilstück.Bei diesem Teilstück wurde der <WaterBlocker> entfernt,so daß die kleinen Feedback Boote,darunter durch fahren können.
-				  die einsatz möglichkeit dafür,erklärt sich von selbst.
+				- the end section of the modular pedestrian bridge contains a variation of a straight section, where the <WaterBlocker> has been removed so that the small feedback boats can pass underneath.
+				  the possibility of using it is self-explanatory.
 		
 				
 ---------------------------
 Changelog - 1.3
 ---------------------------
-	- GU17 modinfo.json korrektur.
-	- Das Baumenü ist durch einen Bug in GU17 nichmehr scrollbar,deswegen wurde das Baumenü gesplittet.
-	  Bug deswegen,weil UBI selbst menüs besitzt die mehr als 32 einträge haben !
+	- GU17 modinfo.json correction.
+	- The build menu is no longer scrollable due to a bug in GU17, so the build menu has been split.
+	  Bug because UBI itself has menus with more than 32 entries !
 	  
 ---------------------------
 Changelog - 1.4
 ---------------------------
-	- diverse objekte korrektur.
-	- Schotterstrasse überarbeitet
-	- Traditionelles Terracotta-Pflaster aus CDLC 11 "Fiesta" als Fakestrasse hinzugefügt
+	- various objects corrected.
+	- Gravel road revised
+	- Traditional terracotta paving from CDLC 11 ‘Fiesta’ added as fake road
 	
 ---------------------------
 Changelog - 1.41
 ---------------------------
-	- diverse Objekte ausgelagert in eine neue Mod
+	- Various objects moved to a new mod
 	
 ---------------------------
 Changelog - 1.42
 ---------------------------
-	- wegen Rails_Related_MU einige strukturelle veränderungen vorgenommen.Schienenelemnte wurden komplett ausgelagert in Rails_Related_MU.Mod ist immernoch in der rework phase.
-	  
-	  
+	- because of Rails_Related_MU some structural changes were made.rail elements were completely outsourced to Rails_Related_MU.mod is still in the rework phase.
+	
+	---------------------------
+Changelog - 1.5
 ---------------------------
-Changelog - 1.43
----------------------------
-	- modinfo.json correction
+	- added New Horizons support.
+	- mods that are in an InternalID conflict prevented from loading
 	  
-Besonderer Dank geht an @darknesswei#2951 für die chinesische Übersetzung und Tonton Yip#8766 für die französische Übersetzung. Außerdem ein großes Dankeschön an @Aveneger432 von Nexus für seine polnische Übersetzung und an @Ionovia#8097 fürs ständige austesten und vorstellen der mods.
-Vielen Dank euch allen !!!
+	  
+Special thanks to @darknesswei#2951 for the Chinese translation and Tonton Yip#8766 for the French translation. Also a big thank you to @Aveneger432 from Nexus for his Polish translation and to @Ionovia#8097 for constantly testing and introducing the mods.
+Thank you all very much !!!
+	
+	
+	
+[Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

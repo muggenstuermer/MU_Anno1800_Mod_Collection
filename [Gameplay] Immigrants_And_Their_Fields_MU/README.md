@@ -34,7 +34,6 @@ Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 ---------------------------
 Release - 1.0
 ---------------------------
-
 	- Create functional immigrant population
 	- Constructed their public buildings
 	- Ornamental fields and pastures added
@@ -43,7 +42,6 @@ Release - 1.0
 ---------------------------
 Changelog - 1.1
 ---------------------------
-
 	- reduce the spawning feedback upon request
 	- IMYA tweaks reworked to be able to set limited custom ranges.
 	- correction of the folder structure to adapt to the desired structures.
@@ -52,15 +50,18 @@ Changelog - 1.1
 ---------------------------
 Changelog - 1.2
 ---------------------------
-
 	- after a long break, unfortunately lost the overview, therefore new version number 1.2
 	
 ---------------------------
 Changelog - 1.21
 ---------------------------
-
 	- corrections of some files and paths,because of modloader warnings.
 	- update README,modinfo.json and content_en.txt
+	
+---------------------------
+Changelog - 1.3
+---------------------------
+	- added only for the ornamental part,New Horizons support.
 	
 	
 	

@@ -1,17 +1,18 @@
 {
-  "Version": "1.1",
+  "Version": "1.2",
   "ModID": "Marketplaces_MU",
-  "LoadAfterIds": [
-    "A_Modified_Ornaments_Tab",
-	"Shared_Objects_MU",
-	"Spice_Harborlife"
-  ],
-  "IncompatibleIds": [],
   "ModDependencies": [ 
     "A_Modified_Ornaments_Tab",
 	"Shared_Objects_MU",
 	"Spice_Harborlife"
   ],
+  "LoadAfterIds": [
+    "A_Modified_Ornaments_Tab",
+	"Shared_Objects_MU",
+	"Spice_Harborlife",
+	"new_horizons_buildmenu"
+  ],
+  "IncompatibleIds": [],
   "Category": {
     "Chinese": "Gameplay",
     "English": "Gameplay",

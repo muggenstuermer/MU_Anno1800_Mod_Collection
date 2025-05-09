@@ -1,8 +1,12 @@
 {
-  "Version": "1.26",
+  "Version": "1.3",
   "ModID": "Hospital_MU",
   "IncompatibleIds": [],
   "ModDependencies": [],
+  "LoadAfterIds": [
+    "new_horizons_buildmenu",
+	"Spice_Harborlife"
+  ],
   "Category": {
     "Chinese": "Gameplay",
     "English": "Gameplay",

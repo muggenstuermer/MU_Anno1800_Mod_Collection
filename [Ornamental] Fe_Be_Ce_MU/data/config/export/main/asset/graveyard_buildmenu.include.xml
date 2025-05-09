@@ -4,6 +4,9 @@ Land
 
 1337506740 Buildmenu Graveyard OW
 1337506741 Buildmenu Graveyard NW
+
+1337507026 Buildmenu Graveyard NEW HORIZONS
+
 1337506742 Buildmenu Graveyard ENBESA
 1337506743 Buildmenu Graveyard ARCTIC
 
@@ -11,6 +14,9 @@ Harbor
 
 1337506744 Buildmenu Graveyard HARBOR OW
 1337506745 Buildmenu Graveyard HARBOR NW
+
+1337507027 Buildmenu Graveyard HARBOR NEW HORIZONS
+
 1337506746 Buildmenu Graveyard HARBOR ENBESA
 1337506747 Buildmenu Graveyard HARBOR ARCTIC
 
@@ -34,7 +40,7 @@ Harbor
             </Values>
         </Asset>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Graveyard NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -55,7 +61,28 @@ Harbor
             </Values>
         </Asset>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Graveyard NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507026</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/grave_ornaments_menu/icon_grave_ornaments_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506740</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Graveyard ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -76,7 +103,7 @@ Harbor
             </Values>
         </Asset>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Graveyard ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -110,6 +137,12 @@ Harbor
             <Building>1337506741</Building>
         </Item>
     </ModOp>
+	 <!-- NEW HORIZONS -->
+    <ModOp Type="addNextSibling" GUID="1337505022" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337507024']">
+        <Item>
+            <Building>1337507026</Building>
+        </Item>
+    </ModOp>
     <!-- ENBESA -->
     <ModOp Type="addNextSibling" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506603']">
         <Item>
@@ -122,7 +155,7 @@ Harbor
             <Building>1337506743</Building>
         </Item>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Graveyard HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -141,7 +174,7 @@ Harbor
             </Values>
         </Asset>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches HARBOR NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Graveyard HARBOR NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -162,7 +195,28 @@ Harbor
             </Values>
         </Asset>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Graveyard HARBOR NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507027</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/grave_ornaments_menu/icon_grave_ornaments_harbor_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506744</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Graveyard HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -183,7 +237,7 @@ Harbor
             </Values>
         </Asset>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches HARBOR ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Graveyard HARBOR ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -215,6 +269,12 @@ Harbor
     <ModOp Type="addNextSibling" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337506606']">
         <Item>
             <Building>1337506745</Building>
+        </Item>
+    </ModOp>
+	<!-- Add NEW HORIZONS Buildmenu HARBOR NEW HORIZONS to Ornamentsmenu-->
+    <ModOp Type="addNextSibling" GUID="1337505023" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337507025']">
+        <Item>
+            <Building>1337507027</Building>
         </Item>
     </ModOp>
     <!-- Add Africa Buildmenu HARBOR Africa to Ornamentsmenu-->

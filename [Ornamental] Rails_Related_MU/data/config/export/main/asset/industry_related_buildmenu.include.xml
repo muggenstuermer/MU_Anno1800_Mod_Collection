@@ -3,28 +3,47 @@
 
 1337505221 Buildmenu Rails Related Ornaments OW
 1337505222 Buildmenu Rails Related Ornaments NW
+
+1337507185 Buildmenu Rails Related Ornaments NEW HORIZONS +++
+
 1337505223 Buildmenu Rails Related Ornaments ENBESA
 
 1337505227 Buildmenu Industry Related Ornaments OW
 1337505228 Buildmenu Industry Related Ornaments NW
+
+
+1337507186 Buildmenu Industry Related Ornaments NEW HORIZONS +++
+
 1337505229 Buildmenu Industry Related Ornaments ENBESA
 
 
 1337505224 Buildmenu Rails Related Ornaments HARBOR OW
 1337505225 Buildmenu Rails Related Ornaments HARBOR NW
+
+1337507187 Buildmenu Rails Related Ornaments HARBOR NEW HORIZONS +++
+
 1337505226 Buildmenu Rails Related Ornaments HARBOR ENBESA
 
 1337505230 Buildmenu Industry Related Ornaments HARBOR OW
 1337505231 Buildmenu Industry Related Ornaments HARBOR NW
+
+1337507188 Buildmenu Industry Related Ornaments HARBOR HORIZONS +++
+
 1337505232 Buildmenu Industry Related Ornaments HARBOR ENBESA
 
 
 1337505852 Buildmenu Reiche Ernte Harbor OW
 1337505853 Buildmenu Reiche Ernte Harbor NW
+
+1337507189 Buildmenu Reiche Ernte Harbor HORIZONS +++
+
 1337505854 Buildmenu Reiche Ernte Harbor ENBESA
 
 1337505855 Buildmenu Industrie Zone Harbor OW
 1337505856 Buildmenu Industrie Zone Harbor NW
+
+1337507190 Buildmenu Industrie Zone Harbor HORIZONS +++
+
 1337505857 Buildmenu Industrie Zone Harbor ENBESA
 
 
@@ -64,6 +83,35 @@
             <Values>
                 <Standard>
                     <GUID>1337505222</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_rails_related_ornaments_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>1337505125</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                    <TextOverride>1337505221</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Rails Related Ornaments NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507185</GUID>
                     <Name>GroundPlacements</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_rails_related_ornaments_menu.png</IconFilename>
                 </Standard>
@@ -173,6 +221,35 @@
             </Values>
         </Asset>
     </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industry Related Ornaments NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507186</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_industry_related_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>163093</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                    <TextOverride>269964</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industry Related Ornaments ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
@@ -221,6 +298,15 @@
             <Building>1337505228</Building>
         </Item>
     </ModOp>
+	<!-- NEW HORIZON -->
+    <ModOp Type="addPrevSibling" GUID="1337505022" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+        <Item>
+            <Building>1337507185</Building>
+        </Item>
+        <Item>
+            <Building>1337507186</Building>
+        </Item>
+    </ModOp>
     <!-- ENBESA -->
     <ModOp Type="addPrevSibling" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList/Item[1]">
         <Item>
@@ -266,6 +352,35 @@
             <Values>
                 <Standard>
                     <GUID>1337505225</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_rails_related_ornaments_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>1337505125</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                    <TextOverride>1337505221</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Rails Related Ornaments HARBOR NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507187</GUID>
                     <Name>GroundPlacements</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_rails_related_ornaments_harbor_menu.png</IconFilename>
                 </Standard>
@@ -375,6 +490,35 @@
             </Values>
         </Asset>
     </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industry Related Ornaments HARBOR NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507188</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_industry_related_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>163093</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+					<TextOverride>269964</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industry Related Ornaments HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
@@ -432,6 +576,27 @@
             <Values>
                 <Standard>
                     <GUID>1337505853</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_dlc_bright_harvest_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>5994</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bright Harvest HARBOR NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507189</GUID>
                     <Name>GroundPlacements</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_dlc_bright_harvest_harbor.png</IconFilename>
                 </Standard>
@@ -509,6 +674,27 @@
             </Values>
         </Asset>
     </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507190</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_cdlc_08_industrial_zone_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>611</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>5748</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
@@ -560,6 +746,23 @@
             <Building>1337505856</Building>
         </Item>
     </ModOp>
+	
+	<!-- Add NEW HORIZON Buildmenu HARBOR NEW HORIZON to Ornamentsmenu-->
+    <ModOp Type="addPrevSibling" GUID="1337505023" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+        <Item>
+            <Building>1337507187</Building>
+        </Item>
+        <Item>
+            <Building>1337507188</Building>
+        </Item>
+        <Item>
+            <Building>1337507189</Building>
+        </Item>
+        <Item>
+            <Building>1337507190</Building>
+        </Item>
+    </ModOp>
+	
     <!-- Add Arctic Buildmenu HARBOR Arctic to Ornamentsmenu
     <ModOp Type="addPrevSibling" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList/Item[1]">
         <Item>

@@ -42,5 +42,10 @@ Release - 1.0
 	- Adds many singel and double graves,crypts and graveyard sculptures
 	- Adds 2 overbuildable graveyard decals
 	
+---------------------------
+Changelog - 1.1
+---------------------------
+	- added New Horizons support.
+	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

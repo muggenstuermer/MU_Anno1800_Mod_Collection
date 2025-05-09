@@ -3,21 +3,33 @@
 
 1337502934 Markets OW functional
 1337502935 Markets NW functional
+
+1337507102 Markets NEW HORIZONS functional
+
 1337502936 Markets Enbesa functional
 1337502980 Markets Arctic functional
 
 1337502991 Markets OW ornamental
 1337502992 Markets NW ornamental
+
+1337507125 Markets NEW HORIZONS ornamental
+
 1337502993 Markets Enbesa ornamental
 1337502994 Markets Arctic ornamental
 
 1337502937 Markets OW Harbor functional
 1337502938 Markets NW Harbor functional
+
+1337507126 Markets NEW HORIZONS Harbor functional
+
 1337502939 Markets Enbesa Harbor functional
 1337502981 Markets Arctic Harbor functional
 
 1337504149 Markets Harbor OW ornamental
 1337504150 Markets Harbor NW ornamental
+
+1337507149 Markets Harbor NEW HORIZONS ornamental
+
 1337504151 Markets Harbor ENBESA ornamental
 1337504152 Markets Harbor ARCTIC ornamental
 
@@ -60,6 +72,26 @@
                 <Locked />
             </Values>
         </Asset>
+		
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507102</GUID>
+                    <Name>Buildmenu Markets Functional NEW HORIZONS</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\marketplaces_nw_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125355</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		
         <Asset>
             <Template>ConstructionCategory</Template>
             <Values>
@@ -121,6 +153,24 @@
                 <Standard>
                     <GUID>1337502992</GUID>
                     <Name>Buildmenu Markets Ornamental NW</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\marketplaces_nw_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120479</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507125</GUID>
+                    <Name>Buildmenu Markets Ornamental NEW HORIZONS</Name>
                     <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\marketplaces_nw_menu.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
@@ -206,6 +256,24 @@
                 <Locked />
             </Values>
         </Asset>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507126</GUID>
+                    <Name>Buildmenu Markets Functional Harbor NEW HORIZONS</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\marketplaces_nw_menu_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>100003</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>125356</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
         <Asset>
             <Template>ConstructionCategory</Template>
             <Values>
@@ -279,6 +347,24 @@
                 <Locked />
             </Values>
         </Asset>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507149</GUID>
+                    <Name>Buildmenu Markets Ornamental Harbor NEW HORIZONS</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\marketplaces_nw_menu_ornamental_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>120985</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
         <Asset>
             <Template>ConstructionCategory</Template>
             <Values>
@@ -335,6 +421,12 @@
             <Building>1337502935</Building>
         </Item>
     </ModOp>
+	<!-- Add functional Marketplaces Land NEW HORIZONS Buildmenu to NEW HORIZONS Asia construction menu 1 Buildmenue -->
+    <ModOp Type="addNextSibling" GUID="1445602" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1442525' or (not(../Item/Building='1442525'))][last()]">
+        <Item>
+            <Building>1337507102</Building>
+        </Item>
+    </ModOp>
     <!-- Add functional Marketplaces Land NW Buildmenu to NW Public Services -->
     <ModOp Type="addNextSibling" GUID="500138" Path="Values/ConstructionCategory/BuildingList/Item[Building = '101257' or (not(../Item/Building='101257'))][last()]">
         <Item>
@@ -378,6 +470,14 @@
             <Building>1337502992</Building>
         </Item>
     </ModOp>
+	
+	<!-- Add ornamental Marketplaces Land NEW HORIZONS Buildmenu to Ornamentsmenu -->
+    <ModOp Type="add" GUID="1337505022" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337507125</Building>
+        </Item>
+    </ModOp>
+	
     <!-- Add ornamental Marketplaces Land ENBESA Buildmenu to Ornamentsmenu -->
     <ModOp Type="addNextSibling" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList/Item[8]">
         <Item>
@@ -413,6 +513,20 @@
             <Building>1337502938</Building>
         </Item>
     </ModOp>
+	
+	<!-- Add fuctional Markets Harbor Buildmenu to Constructionmenu NEW HORIZONS -->
+    <ModOp Type="addNextSibling" GUID="1445602" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1337507102' or (not(../Item/Building='1337507102'))][last()]">
+        <Item>
+            <Building>1337507126</Building>
+        </Item>
+    </ModOp>
+	<ModOp Type="addNextSibling" GUID="1445641" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1447912' or (not(../Item/Building='1447912'))][last()]">
+        <Item>
+            <Building>1337507126</Building>
+        </Item>
+    </ModOp>
+    
+	
     <!-- Add fuctional Markets Harbor Buildmenu to Constructionmenu ENBESA -->
     <!-- Add fuctional Markets Harbor Buildmenu to Constructionmenu ARCTIC -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Add HARBOR ornamental Buildmenus to Constructionmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -426,6 +540,12 @@
     <ModOp Type="addNextSibling" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList/Item[3]">
         <Item>
             <Building>1337504150</Building>
+        </Item>
+    </ModOp>
+	<!-- Add ornamental Marketplaces Harbor NEW HORIZONS Buildmenu to Ornamentsmenu -->
+    <ModOp Type="add" GUID="1337505023" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337507149</Building>
         </Item>
     </ModOp>
     <!-- Add ornamental Marketplaces Harbor ENBESA Buildmenu to Ornamentsmenu -->

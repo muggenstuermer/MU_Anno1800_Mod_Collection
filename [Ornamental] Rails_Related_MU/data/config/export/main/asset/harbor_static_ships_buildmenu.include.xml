@@ -81,6 +81,15 @@
             <Building>1337506180</Building>
         </Item>
     </ModOp>
+	 <!-- Add NEW HORIZONS Buildmenu HARBOR NEW HORIZONS to Ornamentsmenu-->
+    <ModOp Type="addPrevSibling" GUID="1337505023" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+        <Item>
+            <Building>1337506179</Building>
+        </Item>
+        <Item>
+            <Building>1337506180</Building>
+        </Item>
+    </ModOp>
     <!-- Add Arctic Buildmenu HARBOR Arctic to Ornamentsmenu
     <ModOp Type="addPrevSibling" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList/Item[1]">
         <Item>

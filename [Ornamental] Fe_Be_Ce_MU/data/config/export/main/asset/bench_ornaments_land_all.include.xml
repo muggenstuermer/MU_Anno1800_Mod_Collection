@@ -372,7 +372,7 @@
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506508</Building>
@@ -2059,7 +2059,7 @@
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506512</Building>
@@ -2742,7 +2742,7 @@
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506528</Building>
@@ -4309,7 +4309,7 @@
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506532</Building>
@@ -4680,8 +4680,8 @@
         </Asset>
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="add" GUID="1337506500,1337506501,1337506502" Path="/Values/ConstructionCategory/BuildingList">
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU All xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="add" GUID="1337506500,1337506501,1337506502,1337507022" Path="/Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337506508</Building>
         </Item>

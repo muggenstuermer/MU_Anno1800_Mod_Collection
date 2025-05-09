@@ -36,6 +36,8 @@ This new menu can be used by other modders, and is basically desirable, as long 
 - 1337505016 Ornaments Categorie Africa/City Tab
 - 1337505017 Ornaments Categorie Africa/Industrial Tab
 
+- 1337505022 Ornaments Categorie New Horizons/Mods Tab
+
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### New Harbor Tabs
@@ -44,6 +46,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - 1337505019 Harbor Tab NW
 - 1337505020 Harbor Tab Arctic
 - 1337505021 Harbor Tab Africa
+- 1337505023 Harbor Tab New Horizons/Mods Tab
 
 
 [Download latest A_Modified_Ornaments_Tab_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
@@ -54,7 +57,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ---------------------------
 Release - 1.0
 ---------------------------
-
 	- Integrated part release with Green_Mile_MU to get some feedback.
 
 ---------------------------
@@ -68,9 +70,14 @@ Changelog - 1.11
 	- GU17 modinfo.json correction.
 	
 ---------------------------
-Changelog - 1.12
+Changelog - 1.2
 ---------------------------
-	- update README,modinfo.json and content_en.txt
+	- added New Horizons support.
+	- WARNING : with the next upcomming mod from MU (rest Ornaments from CO2 and HO2), old mods 
+		- "ModID": "City_Ornaments_2.0_MU"
+		and
+		- [Ornamental] Harbour_Ornaments_2.0_MU
+		will be prevent from loading anymore
 	
 	
 Thanks to @Jakob who corrected the code in a user and modder friendly way !

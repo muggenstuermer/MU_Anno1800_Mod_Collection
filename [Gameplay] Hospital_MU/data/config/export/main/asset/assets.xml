@@ -8,6 +8,8 @@
 1337500015 - New Buildmenu for NEW WORLD
 1337500020 - New Buildmenu for AFRICA
 
+1337507001 - New Buildmenu for NEW HORIZONS
+
 Hospital / big resolverunit
 1337500016 - Resolver Unit Illness Normal / <Template>ResolverUnitHospitalMU</Template>
 1337509996 - Resolver Unit Illness Normal / <Template>FeedbackUnitClass</Template>
@@ -239,6 +241,47 @@ Hospital / small resolverunit
             </Values>
         </Asset>
     </ModOp>
+	<!-- New Buildmenu for NEW HORIZONS-->
+    <ModOp Type="addNextSibling" GUID="501429">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507001</GUID>
+                    <Name>Buildmenu Hospital NEW HORIZONS</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_hospital.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1442523</Building>
+                            <!-- Hospital Original NEW HORIZONS-->
+                        </Item>
+                        <Item>
+                            <Building>1337500018</Building>
+                            <!-- Hospital / big -->
+                        </Item>
+                        <Item>
+                            <Building>1337500019</Building>
+                            <!-- Hospital / small -->
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>3789</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Buildmenu Hospital NEW HORIZONS</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
     <!-- Replace Original Hospital from Constructionmenu OLD WORLD with new menu-->
     <ModOp Type="replace" GUID="25000191,500092" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010464']">
         <Item>
@@ -255,6 +298,13 @@ Hospital / small resolverunit
     <ModOp Type="replace" GUID="114554,119012" Path="/Values/ConstructionCategory/BuildingList/Item[Building='117668']">
         <Item>
             <Building>1337500020</Building>
+        </Item>
+    </ModOp>
+	
+	<!-- Replace Original Hospital from Constructionmenu NEW HORIZONS with new menu-->
+    <ModOp Type="replace" GUID="1445603,1445608" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1442523']">
+        <Item>
+            <Building>1337507001</Building>
         </Item>
     </ModOp>
 	
@@ -398,7 +448,7 @@ Hospital / small resolverunit
 					<SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                 </Building>
                 <Blocking />
                 <Cost>
@@ -527,7 +577,7 @@ Hospital / small resolverunit
 					<SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
                 <Blocking>
@@ -662,7 +712,7 @@ Hospital / small resolverunit
 					<SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
                 <Blocking>
@@ -959,7 +1009,7 @@ Hospital / small resolverunit
 					<SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
                 <Blocking />
@@ -1090,7 +1140,7 @@ Hospital / small resolverunit
 					<SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
@@ -1227,7 +1277,7 @@ Hospital / small resolverunit
 					<SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>

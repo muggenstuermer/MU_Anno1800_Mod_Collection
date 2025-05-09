@@ -8,6 +8,8 @@
 1337500003 - New Buildmenu for NEW WORLD
 1337500006 - New Buildmenu for Afrika
 
+1337507002 - New Buildmenu for NEW HORIZONS
+
 1337500004 - Polizeistation / big  resolverunit
 1337500024 - Polizeistation / big Resolver_Unit_Riot_Special
 1337500025 - Polizeistation / big Resolver_Unit_Riot_Special-TrafficFeedbackUnit
@@ -238,6 +240,48 @@
             </Values>
         </Asset>
     </ModOp>
+	<!-- New Buildmenu for NEW HORIZONS-->
+    <ModOp Type="addNextSibling" GUID="101258">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507002</GUID>
+                    <Name>Buildmenu Police Station NEW HORIZONS</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_police.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1442522</Building>
+                            <!-- Police Original NEW HORIZONS-->
+                        </Item>
+                        <Item>
+                            <Building>1337500001</Building>
+                            <!-- Polizeistation / big -->
+                        </Item>
+                        <Item>
+                            <Building>1337500002</Building>
+                            <!-- Polizeistation / small -->
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>3788</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Buildmenu Police Station NEW HORIZONS</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
     <!-- Replace Original Policestation from Constructionmenu OLD WORLD with new menu-->
     <ModOp Type="replace" GUID="25000190,500092" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010462']">
         <Item>
@@ -254,6 +298,13 @@
     <ModOp Type="replace" GUID="114554,119012" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114508']">
         <Item>
             <Building>1337500006</Building>
+        </Item>
+    </ModOp>
+	
+	<!-- Replace Original Policestation from Constructionmenu NEW HORIZONS with new menu-->
+    <ModOp Type="replace" GUID="1445602,1445608" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1442522']">
+        <Item>
+            <Building>1337507002</Building>
         </Item>
     </ModOp>
 	
@@ -398,7 +449,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                 </Building>
                 <Blocking />
                 <Cost>
@@ -533,7 +584,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
                 <Blocking>
@@ -674,7 +725,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
                 <Blocking>
@@ -965,7 +1016,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
                 <Blocking />
@@ -1092,7 +1143,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
@@ -1225,7 +1276,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>

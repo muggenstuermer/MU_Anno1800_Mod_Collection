@@ -6,10 +6,13 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN OW xxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN NW xxxxxxxxxxxxxxxxxxxxxxxx
 1337505207 OIL CHAIN FOR NW
 
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxx
+1337507286 OIL CHAIN FOR NEW HORIZONS
+
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
 1337505208 OIL CHAIN FOR AFRICA
 
-1337505209 Trigger
+1337507287 Trigger
 
 -->
     <ModOp Type="addNextSibling" GUID="1010035">
@@ -102,7 +105,51 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                 </Text>
             </Values>
         </Asset>
-        <!-- OIL CHAIN AFRICA -->
+        <!-- OIL CHAIN NEW HORIZONS -->
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507286</GUID>
+                    <Name>electricity oil chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_oil_harbor.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1337507284</Building><!--KW öl soll nur weg -->
+                    <Tier1>
+                        <Item>
+                            <Building>1337507274</Building><!--ölpier-->
+                            <Tier2>
+                                <Item>
+                                    <Building>1337505096</Building><!--RailsNW-->
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1337507279</Building><!--raffienerie hafen-->
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                                <Item>
+                                    <Building>1337507282</Building><!--depot-->
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                    <InfoTipHeight>600</InfoTipHeight>
+                </ProductionChain>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Electricity</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14900</LineID>
+                    <TextOverride>500506</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+		<!-- OIL CHAIN AFRICA -->
         <Asset>
             <Template>ProductionChain</Template>
             <Values>
@@ -148,6 +195,13 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
         </Asset>
     </ModOp>
 	
+	<!-- NEW HORIZONS -->
+	<ModOp Type="add" GUID="14440154" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337507286</Asset>
+        </Item>
+    </ModOp>
+	
     <!-- asset pool electricity oil -->
     <ModOp Type="add" GUID="130047" Path="/Values/AssetPool/AssetList">
         <Item>
@@ -185,6 +239,14 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
             <Building>1337505207</Building>
         </Item>
     </ModOp>
+	
+	<!-- NEW HORIZONS -->
+    <ModOp Type="addNextSibling" GUID="1445603" Path="Values/ConstructionCategory/BuildingList/Item[Building='1445038']">
+        <Item>
+            <Building>1337507286</Building>
+        </Item>
+    </ModOp>
+	
     <ModOp Type="addNextSibling" GUID="500149" Path="Values/ConstructionCategory/BuildingList/Item[Building='101277']">
         <Item>
             <Building>1337505207</Building>
@@ -218,7 +280,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
             <Template>FeatureUnlock</Template>
             <Values>
                 <Standard>
-                    <GUID>1337505209</GUID>
+                    <GUID>1337507287</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
                 </Standard>
@@ -253,6 +315,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                                                 <Asset>1337505208</Asset>
                                                 <!-- OIL CHAIN FOR AFRICA -->
                                             </Item>
+											
+											<Item>
+                                                <Asset>1337507286</Asset>
+                                                <!-- OIL CHAIN FOR NW -->
+                                            </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
@@ -266,6 +333,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL CHAIN AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                                             <Item>
                                                 <Asset>1337505208</Asset>
                                                 <!-- OIL CHAIN FOR AFRICA -->
+                                            </Item>
+											
+											<Item>
+                                                <Asset>1337507286</Asset>
+                                                <!-- OIL CHAIN FOR NW -->
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

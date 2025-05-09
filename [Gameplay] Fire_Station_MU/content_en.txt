@@ -43,13 +43,11 @@ Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 ---------------------------
 Changelog - 1.1
 ---------------------------
-
 	- correction of assets.xml for better compatibility with spice it up and availability in Enbesa upon request.
 
 ---------------------------
 Changelog - 1.2
 ---------------------------
-
 	- GU16 Bugfixing and adjustment of various values.
 	- preparations for value changes by iModYourAnno ModManager: https://github.com/anno-mods/iModYourAnno/releases
 	- various values can be changed by a slider.
@@ -59,25 +57,21 @@ Changelog - 1.2
 ---------------------------
 changelog - 1.22
 ---------------------------
-
 	- added missing translations of single objects.
 
 ---------------------------
 Changelog - 1.23
 ---------------------------
-
 	- GU17 modinfo.json correction.
 
 ---------------------------
 Changelog - 1.24
 ---------------------------
-
 	- modinfo.json correction.
 
 ---------------------------
 Changelog - 1.25
 ---------------------------
-
 	- correction ifo files.
 	- IMYA tweaks added to be able to set limited custom ranges.
 	- correction of the folder structure to adapt to the desired structures.
@@ -89,8 +83,12 @@ Changelog - 1.25
 ---------------------------
 Changelog - 1.26
 ---------------------------
-
 	- update README,modinfo.json and content_en.txt
+	
+---------------------------
+Changelog - 1.3
+---------------------------
+	- added New Horizons support.
 	
 	
 	

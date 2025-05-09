@@ -7,10 +7,14 @@
 1337500789 - Buildmenu AFRICA
 1337500799 - Buildmenu ARCTIC
 
+1337507003 - Buildmenu NEW HORIZONS
+
 1337504941 - Buildmenu OW Harbor
 1337504942 - Buildmenu NW Harbor
 1337504943 - Buildmenu AFRICA Harbor
 1337504944 - Buildmenu ARCTIC Harbor
+
+1337507004 - Buildmenu NEW HORIZONS Harbor
 
 -->
     <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Buildmenu OW START XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
@@ -189,6 +193,52 @@
             </Values>
         </Asset>
     </ModOp>
+	<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Buildmenu NEW HORIZONS START XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507003</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots\nw\dockland_depot.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337500770</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337500778</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337500780</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504913</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337504897</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>13108</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
+	
     <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Buildmenu OW Harbor START XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
@@ -325,6 +375,42 @@
             </Values>
         </Asset>
     </ModOp>
+	
+	<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Buildmenu NEW HORIZONS Harbor START XXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507004</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots\harbor\nw\dockland_depot.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1337507005</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337507010</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337507014</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337507018</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>13108</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337500788</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
     <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Buildmenu Positioning START  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
     <!-- OW -->
     <ModOp Type="addNextSibling" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList/Item[Building='7291']">
@@ -348,6 +434,19 @@
             <Building>1337500788</Building>
         </Item>
     </ModOp>
+	
+	<!-- NEW HORIZONS -->
+    <ModOp Type="addNextSibling" GUID='1445602' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1445604']">
+        <Item>
+            <Building>1337507003</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID='1445608' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '14683951']">
+        <Item>
+            <Building>1337507003</Building>
+        </Item>
+    </ModOp>
+	
     <!-- AFRICA -->
     <ModOp Type="addNextSibling" GUID="114554" Path="/Values/ConstructionCategory/BuildingList/Item[Building='117897']">
         <Item>
@@ -393,6 +492,19 @@
             <Building>1337504942</Building>
         </Item>
     </ModOp>
+	
+	<!-- NEW HORIZONS -->
+    <ModOp Type="addNextSibling" GUID="1445602" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1337507003']">
+        <Item>
+            <Building>1337507004</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1445608" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1337507003']">
+        <Item>
+            <Building>1337507004</Building>
+        </Item>
+    </ModOp>
+	
     <!-- AFRICA -->
     <ModOp Type="addNextSibling" GUID="114554" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1337500789']">
         <Item>

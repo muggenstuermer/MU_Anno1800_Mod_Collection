@@ -15,6 +15,12 @@ NW
 1337505069 - Zanto Special Harbor Warehouse NW LvL_2
 1337505070 - Zanto Special Harbor Warehouse NW LvL_3
 
+NEW HORIZONS
+1337507018 - Zanto Special Harbor Warehouse NW LvL_0
+1337507019 - Zanto Special Harbor Warehouse NW LvL_1
+1337507020 - Zanto Special Harbor Warehouse NW LvL_2
+1337507021 - Zanto Special Harbor Warehouse NW LvL_3
+
 AFRICA
 1337505071 - Zanto Special Harbor Warehouse AFRICA LvL_0
 1337505072 - Zanto Special Harbor Warehouse AFRICA LvL_1
@@ -897,7 +903,450 @@ ARCTIC
                 <Electric />
             </Values>
         </Asset>
-        <!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Dockland Warehouse Buildings AFRICA ONLY START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+        
+		<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Dockland Warehouse Buildings NEW HORIZONS ONLY START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+        <!-- Warehouse LvL 0-->
+        <Asset>
+            <Template>WarfWarehouseMu</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507018</GUID>
+                    <Name>Warf_Warehouse_NEW HORIZONS_LvL_0</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_warehouse\dockland_nw_zanto_warehouse.png</IconFilename>
+                    <ID>Warf_Warehouse_NEW HORIZONS_LvL_0</ID>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337504893</TextOverride>
+                </Text>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <PickingAsset>1337507018</PickingAsset>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Text>
+                    <TextOverride>1337505063</TextOverride>
+                </Text>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>8000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\nw\dockland_arch_01_lvl_00.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>180025</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504873</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504875</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode />
+                <Infolayer />
+                <FactoryBase />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>10</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>2000</MaximumHitPoints>
+                    <SelfHealPerHealTick>3</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable>
+                    <NextGUID>1337507019</NextGUID>
+                    <UpgradeCost>
+                        <Item>
+                            <Amount>2500</Amount>
+                            <Ingredient>1010017</Ingredient>
+                        </Item>
+                        <Item>
+                            <Amount>20</Amount>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Amount>20</Amount>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </UpgradeCost>
+                    <CurrentTier>1</CurrentTier>
+                </Upgradable>
+                <Pausable />
+                <UpgradeList />
+                <Electric />
+            </Values>
+        </Asset>
+        <!-- Warehouse LvL 1-->
+        <Asset>
+            <Template>WarfWarehouseMu</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507019</GUID>
+                    <Name>Warf_Warehouse_NEW HORIZONS_LvL_1</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_warehouse\dockland_nw_zanto_warehouse.png</IconFilename>
+                    <ID>Warf_Warehouse_NEW HORIZONS_LvL_1</ID>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337504894</TextOverride>
+                </Text>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <PickingAsset>1337507018</PickingAsset>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Text>
+                    <TextOverride>1337505064</TextOverride>
+                </Text>
+                <Cost />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\nw\dockland_arch_01_lvl_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>180025</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504876</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504878</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>3</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <Infolayer />
+                <FactoryBase />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>20</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>2200</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable>
+                    <NextGUID>1337507020</NextGUID>
+                    <UpgradeCost>
+                        <Item>
+                            <Amount>3000</Amount>
+                            <Ingredient>1010017</Ingredient>
+                        </Item>
+                        <Item>
+                            <Amount>22</Amount>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Amount>22</Amount>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </UpgradeCost>
+                    <CurrentTier>2</CurrentTier>
+                </Upgradable>
+                <Pausable />
+                <UpgradeList />
+                <Electric />
+            </Values>
+        </Asset>
+        <!-- Warehouse LvL 2-->
+        <Asset>
+            <Template>WarfWarehouseMu</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507020</GUID>
+                    <Name>Warf_Warehouse_NEW HORIZONS_LvL_2</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_warehouse\dockland_nw_zanto_warehouse.png</IconFilename>
+                    <ID>Warf_Warehouse_NEW HORIZONS_LvL_2</ID>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337504895</TextOverride>
+                </Text>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <PickingAsset>1337507018</PickingAsset>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Text>
+                    <TextOverride>1337505065</TextOverride>
+                </Text>
+                <Cost />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\nw\dockland_arch_01_lvl_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>180025</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504879</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504881</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>4</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <Infolayer />
+                <FactoryBase />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>30</Amount>
+                            <InactiveAmount>30</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>2400</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable>
+                    <NextGUID>1337507021</NextGUID>
+                    <UpgradeCost>
+                        <Item>
+                            <Amount>5000</Amount>
+                            <Ingredient>1010017</Ingredient>
+                        </Item>
+                        <Item>
+                            <Amount>24</Amount>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Amount>24</Amount>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </UpgradeCost>
+                    <CurrentTier>3</CurrentTier>
+                </Upgradable>
+                <Pausable />
+                <UpgradeList />
+                <Electric />
+            </Values>
+        </Asset>
+        <!-- Warehouse LvL 3-->
+        <Asset>
+            <Template>WarfWarehouseMu</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507021</GUID>
+                    <Name>Warf_Warehouse_NEW HORIZONS_LvL_3</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_warehouse\dockland_nw_zanto_warehouse.png</IconFilename>
+                    <ID>Warf_Warehouse_NEW HORIZONS_LvL_3</ID>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337504896</TextOverride>
+                </Text>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <PickingAsset>1337507018</PickingAsset>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Text>
+                    <TextOverride>1337505066</TextOverride>
+                </Text>
+                <Cost />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\new_depots\buildings\special\docklands_zanto_special\nw\dockland_arch_01_lvl_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>180025</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <OverrideDefaultIcon>data\muggenstuermer\ui\2kimages\main\3dicons\dockland_depots_skins\depot_nw_skin.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337504882</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337504884</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>6</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <Infolayer />
+                <FactoryBase />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>40</Amount>
+                            <InactiveAmount>40</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>2500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable>
+                    <CurrentTier>4</CurrentTier>
+                </Upgradable>
+                <Pausable />
+                <UpgradeList />
+                <Electric />
+            </Values>
+        </Asset>
+        
+		
+		<!--  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Dockland Warehouse Buildings AFRICA ONLY START XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
         <!-- Warehouse LvL 0-->
         <Asset>
             <Template>WarfWarehouseMu</Template>

@@ -53,6 +53,13 @@ NW
 1337506592 Benches 1x1 Middle Open White
 1337506593 Benches 1x1 Middle Closed OW White
 
+NEW HORIZONS
+
+1337507095 Benches 1x1 Open White
+1337507096 Benches 1x1 Closed OW White
+1337507097 Benches 1x1 Middle Open White
+1337507098 Benches 1x1 Middle Closed OW White
+
 AFRICA
 
 1337506595 Benches 1x1 Open White
@@ -387,7 +394,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506552</Building>
@@ -2079,7 +2086,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506568</Building>
@@ -2767,7 +2774,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506572</Building>
@@ -4339,7 +4346,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506588</Building>
@@ -4737,7 +4744,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506590</Building>
@@ -5169,7 +5176,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506591</Building>
@@ -5587,7 +5594,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506592</Building>
@@ -5989,7 +5996,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506593</Building>
@@ -6362,7 +6369,1660 @@ AFRICA
                 <Culture />
             </Values>
         </Asset>
-        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Benches HARBOR AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Benches HARBOR NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Benches 1x1 Open White -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507095</GUID>
+                    <Name>BnechesOpenWhite</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506508</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337507095</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337507096</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <!-- end, south-west -->
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, south-east -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, south -->
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-east -->
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, south-west to north-east -->
+                            <Direction>3</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, east -->
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-east -->
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-west -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, west -->
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, north-west to south-east -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-west  -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, north -->
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-west -->
+                            <Direction>3</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-east -->
+                            <Direction>2</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- crossing -->
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>10</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>11</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>12</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>13</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>14</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>15</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>16</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>17</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>18</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>19</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>20</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>21</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>22</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>23</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>24</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>0</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>1</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>2</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>3</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>4</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>5</Variation>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>6</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>7</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>8</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>2</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                        <TCrossing />
+                        <Crossing />
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\straight\white\1x1_straight_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\straight\white\1x1_straight_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\straight\white\1x1_straight_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\straight\white\1x1_straight_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\straight\white\1x1_straight_white_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\straight\white\1x1_straight_white_03a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\end\white\1x1_end_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\end\white\1x1_end_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\end\white\1x1_end_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\end\white\1x1_end_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_01b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_02b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_03a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_03b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_04a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_04b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_05a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\open\corner\white\1x1_corner_white_05b.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337506508</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337506549</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506550</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506551</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>20</PlazzaSize>
+                    <OrnamentUnit>4</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Benches 1x1 Closed OW White -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507096</GUID>
+                    <Name>BnechesClosedWhiteOW</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506512</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337507096</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337507095</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <!-- end, south-west -->
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, south-east -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, south -->
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-east -->
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, south-west to north-east -->
+                            <Direction>3</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, east -->
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-east -->
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-west -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, west -->
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, north-west to south-east -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-west  -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, north -->
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-west -->
+                            <Direction>3</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-east -->
+                            <Direction>2</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- crossing -->
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>10</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>11</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>12</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>13</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>14</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>15</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>16</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>17</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>18</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>19</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>0</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>1</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>2</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>3</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>4</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>5</Variation>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>6</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>7</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>8</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>9</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                        <TCrossing />
+                        <Crossing />
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\straight\white\1x1_straight_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\straight\white\1x1_straight_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\straight\white\1x1_straight_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\straight\white\1x1_straight_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\straight\white\1x1_straight_white_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\straight\white\1x1_straight_white_03a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\end\white\1x1_end_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\end\white\1x1_end_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\end\white\1x1_end_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\end\white\1x1_end_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_03a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_04.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_04a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1\closed\ow\corner\white\1x1_corner_white_05a.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337506512</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337506553</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506554</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506555</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506556</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506557</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506558</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506559</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506560</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506561</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506562</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506563</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506564</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506565</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506566</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506567</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>20</PlazzaSize>
+                    <OrnamentUnit>4</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Benches 1x1 Middle Open White -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507097</GUID>
+                    <Name>BnechesMiddleOpenWhite</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506528</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337507097</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337507098</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <!-- end, south-west -->
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, south-east -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, south -->
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-east -->
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, south-west to north-east -->
+                            <Direction>3</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, east -->
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-east -->
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-west -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, west -->
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, north-west to south-east -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-west  -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, north -->
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-west -->
+                            <Direction>3</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-east -->
+                            <Direction>2</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- crossing -->
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>18</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>19</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>20</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>21</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>0</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>1</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>2</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>3</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>4</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>5</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>6</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>7</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>8</Variation>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>9</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>10</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>11</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>12</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>13</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>14</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>15</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>16</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>17</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                        <TCrossing />
+                        <Crossing />
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\straight_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\end_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\white\corner_open_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\straight\white\1x1_straight_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\straight\white\1x1_straight_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\straight\white\1x1_straight_white_01b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\straight\white\1x1_straight_white_01c.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\straight\white\1x1_straight_white_01d.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\straight\white\1x1_straight_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\straight\white\1x1_straight_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\straight\white\1x1_straight_white_02b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\straight\white\1x1_straight_white_02c.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\end\white\1x1_end_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\end\white\1x1_end_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\end\white\1x1_end_white_01b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\end\white\1x1_end_white_01c.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\end\white\1x1_end_white_01d.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\end\white\1x1_end_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\end\white\1x1_end_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\end\white\1x1_end_white_02b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\end\white\1x1_end_white_02c.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\corner\white\1x1_corner_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\corner\white\1x1_corner_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\corner\white\1x1_corner_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\open\corner\white\1x1_corner_white_02a.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337506528</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337506569</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506570</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506571</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>20</PlazzaSize>
+                    <OrnamentUnit>4</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- Benches 1x1 Middle Closed OW White -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507098</GUID>
+                    <Name>BnechesMiddleClosedWhiteOW</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337506532</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337507098</Building>
+                        </Item>
+                        <Item>
+                            <Building>1337507097</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <!-- end, south-west -->
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, south-east -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, south -->
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-east -->
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, south-west to north-east -->
+                            <Direction>3</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, east -->
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-east -->
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- end, north-west -->
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, west -->
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- mid, north-west to south-east -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing south-west  -->
+                            <Direction>0</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- corner, north -->
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-west -->
+                            <Direction>3</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- T, front facing north-east -->
+                            <Direction>2</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <!-- crossing -->
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>14</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>15</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>16</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>17</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>0</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>1</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>2</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>3</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>4</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>5</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>0</DirectionOffet>
+                                    <Variation>6</Variation>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>7</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>8</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>9</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>10</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>11</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>12</Variation>
+                                </Item>
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                    <Variation>13</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                        <TCrossing />
+                        <Crossing />
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\straight_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\end_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\benches\ow\corner_closed_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\straight\white\1x1_straight_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\straight\white\1x1_straight_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\straight\white\1x1_straight_white_01b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\straight\white\1x1_straight_white_01c.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\straight\white\1x1_straight_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\straight\white\1x1_straight_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\straight\white\1x1_straight_white_02b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\end\white\1x1_end_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\end\white\1x1_end_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\end\white\1x1_end_white_01b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\end\white\1x1_end_white_01c.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\end\white\1x1_end_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\end\white\1x1_end_white_02a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\end\white\1x1_end_white_02b.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\corner\white\1x1_corner_white_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\corner\white\1x1_corner_white_01a.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\corner\white\1x1_corner_white_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\benches\harbor\1x1_middle\closed\ow\corner\white\1x1_corner_white_02a.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337506532</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337506573</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506574</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506575</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506576</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506577</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506578</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506579</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506580</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506581</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506582</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506583</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506584</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506585</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506586</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337506587</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>20</PlazzaSize>
+                    <OrnamentUnit>4</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+        
+		
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Benches HARBOR AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
         <!-- Benches 1x1 Open White -->
         <Asset>
             <Template>HarborOrnamentMU</Template>
@@ -6387,7 +8047,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506595</Building>
@@ -6819,7 +8479,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506596</Building>
@@ -7237,7 +8897,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506597</Building>
@@ -7639,7 +9299,7 @@ AFRICA
                     <BuildingCategoryName>11149</BuildingCategoryName>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <AllowChangeVariation>1</AllowChangeVariation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <InfluencedByNeighbors>
                         <Item>
                             <Building>1337506598</Building>
@@ -8044,6 +9704,21 @@ AFRICA
             <Building>1337506593</Building>
         </Item>
     </ModOp>
+	 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU HARBOR NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="add" GUID="1337507023" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337507095</Building>
+        </Item>
+        <Item>
+            <Building>1337507096</Building>
+        </Item>
+        <Item>
+            <Building>1337507097</Building>
+        </Item>
+        <Item>
+            <Building>1337507098</Building>
+        </Item>
+    </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU HARBOR AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="add" GUID="1337506506" Path="/Values/ConstructionCategory/BuildingList">
         <Item>
@@ -8066,7 +9741,7 @@ AFRICA
             <Template>FeatureUnlock</Template>
             <Values>
                 <Standard>
-                    <GUID>1337506600</GUID>
+                    <GUID>1337507099</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
                 </Standard>
@@ -8126,6 +9801,19 @@ AFRICA
                                             <Item>
                                                 <Asset>1337506598</Asset>
                                             </Item>
+											
+											<Item>
+                                                <Asset>1337507095</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337507096</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337507097</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337507098</Asset>
+                                            </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
@@ -8163,6 +9851,19 @@ AFRICA
                                             </Item>
                                             <Item>
                                                 <Asset>1337506598</Asset>
+                                            </Item>
+											
+											<Item>
+                                                <Asset>1337507095</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337507096</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337507097</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337507098</Asset>
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

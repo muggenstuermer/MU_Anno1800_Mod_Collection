@@ -5,13 +5,20 @@ Land
 
 1337506500 Buildmenu Benches OW
 1337506501 Buildmenu Benches NW
+
+1337507022 Buildmenu Benches NEW HORIZONS
+
 1337506502 Buildmenu Benches ENBESA
 1337506503 Buildmenu Benches ARCTIC
+
 
 Harbor
 
 1337506504 Buildmenu Benches HARBOR OW
 1337506505 Buildmenu Benches HARBOR NW
+
+1337507023 Buildmenu Benches HARBOR NEW HORIZONS
+
 1337506506 Buildmenu Benches HARBOR ENBESA
 1337506507 Buildmenu Benches HARBOR ARCTIC
 
@@ -42,6 +49,27 @@ Harbor
             <Values>
                 <Standard>
                     <GUID>1337506501</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506500</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507022</GUID>
                     <Name>GroundPlacements</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_nw.png</IconFilename>
                 </Standard>
@@ -111,6 +139,12 @@ Harbor
             <Building>1337506501</Building>
         </Item>
     </ModOp>
+	<!-- NEW HORIZONS -->
+    <ModOp Type="add" GUID="1337505022" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337507022</Building>
+        </Item>
+    </ModOp>
     <!-- ENBESA -->
     <ModOp Type="add" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList">
         <Item>
@@ -149,6 +183,27 @@ Harbor
             <Values>
                 <Standard>
                     <GUID>1337506505</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_harbor_nw.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337506504</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Benches HARBOR NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507023</GUID>
                     <Name>GroundPlacements</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/benches_menu/icon_benches_menu_harbor_nw.png</IconFilename>
                 </Standard>
@@ -216,6 +271,12 @@ Harbor
     <ModOp Type="add" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337506505</Building>
+        </Item>
+    </ModOp>
+	<!-- Add NEW HORIZONS Buildmenu HARBOR NEW HORIZONS to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505023" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337507023</Building>
         </Item>
     </ModOp>
     <!-- Add Africa Buildmenu HARBOR Africa to Ornamentsmenu-->

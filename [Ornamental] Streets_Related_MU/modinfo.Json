@@ -1,19 +1,22 @@
 {
-  "Version": "1.43",
+  "Version": "1.5",
   "ModID": "Streets_Related_MU",
+  "DeprecateIds": [
+   "JDG_06_quay_system_fc",
+   "JDG_10_quay_streets"
+   ],
+   "ModDependencies": [ 
+	"A_Modified_Ornaments_Tab",
+	"Shared_Objects_MU"
+  ],
   "LoadAfterIds": [
     "A_Modified_Ornaments_Tab",
 	"Shared_Objects_MU",
 	"Spice_ArcticQuay",
-	"jakob_street_skins"
+	"new_horizons_session",
+	"new_horizons_buildmenu"
   ],
   "IncompatibleIds": [],
-  "ModDependencies": [ 
-	"A_Modified_Ornaments_Tab",
-	"Shared_Objects_MU",
-	"Green_Mile_MU",
-	"jakob_street_skins"
-  ],
   "Category": {
     "Chinese": "Ornamental",
     "English": "Ornamental",

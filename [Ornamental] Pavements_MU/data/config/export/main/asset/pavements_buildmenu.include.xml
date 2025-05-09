@@ -3,12 +3,18 @@
 
 1337502634 Buildmenu OW
 1337502635 Buildmenu NW
+
+1337507181 Buildmenu NEW HORIZON
+
 1337502636 Buildmenu ENBESA
 1337502909 Buildmenu 2 ENBESA
 1337502637 Buildmenu ARCTIC
 
 1337502638 Buildmenu HARBOR OW
 1337502639 Buildmenu HARBOR NW
+
+1337507182 Buildmenu HARBOR NEW HORIZON
+
 1337502640 Buildmenu HARBOR ENBESA
 1337502641 Buildmenu HARBOR ARCTIC
 
@@ -51,6 +57,29 @@
 			<Values>
 				<Standard>
 					<GUID>1337502635</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 
+					</BuildingList>
+					<CategoryDescription>4285</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<TextOverride>1337502634</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337507181</GUID>
 					<Name>GroundPlacements</Name>
 					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_menu.png</IconFilename>>
 				</Standard>
@@ -189,6 +218,29 @@
 			</Values>
 		</Asset>
 	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU HARBOR NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337507182</GUID>
+					<Name>GroundPlacements</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_pavements_harbor_menu.png</IconFilename>>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList>
+						 
+					</BuildingList>
+					<CategoryDescription>132438</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<TextOverride>1337502638</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
 	<ModOp Type="addNextSibling" GUID='1010359'>
 		<Asset>
@@ -250,6 +302,13 @@
 		</Item>
 	</ModOp>
 	
+	<!-- Add NEW HORIZON Pavements Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505022' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337507181</Building>
+		</Item>
+	</ModOp>
+	
 	<!-- Add Africa Pavements Buildmenu to Ornamentsmenu-->
 	<ModOp Type="add" GUID='1337505014' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
@@ -278,6 +337,13 @@
 	<ModOp Type="add" GUID='1337505019' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337502639</Building>
+		</Item>
+	</ModOp>
+	
+	<!-- Add NEW HORIZON Pavements HARBOR Buildmenu to Ornamentsmenu-->
+	<ModOp Type="add" GUID='1337505023' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337507182</Building>
 		</Item>
 	</ModOp>
 	

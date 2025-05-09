@@ -1,22 +1,21 @@
 {
-  "Version": "1.1",
+  "Version": "1.2",
   "ModID": "Rails_Related_MU",
-  "LoadAfterIds": [
-    "A_Modified_Ornaments_Tab",
-	"Shared_Objects_MU",
-	"Pavements_MU",
-	"Spice_ArcticQuay",
-	"jakob_street_skins",
-	"Streets_Related_MU"
-  ],
-  "IncompatibleIds": [],
   "ModDependencies": [ 
 	"A_Modified_Ornaments_Tab",
 	"Shared_Objects_MU",
-	"Green_Mile_MU",
-	"jakob_street_skins",
 	"Streets_Related_MU"
   ],
+  "LoadAfterIds": [
+    "A_Modified_Ornaments_Tab",
+	"Shared_Objects_MU",
+	"Streets_Related_MU",
+	"Industrial_Ornaments_TurTur",
+	"jakob-railway-stations",
+	"new_horizons_vf",
+	"new_horizons_buildmenu"
+  ],
+  "IncompatibleIds": [],
   "Category": {
     "Chinese": "Ornamental",
     "English": "Ornamental",

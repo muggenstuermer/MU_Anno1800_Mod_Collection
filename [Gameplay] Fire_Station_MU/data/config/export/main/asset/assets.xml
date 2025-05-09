@@ -10,6 +10,9 @@
 1337504397 - New Buildmenu for NEW WORLD Harbor
 1337500013 - New Buildmenu for AFRICA
 
+1337506999 - New Buildmenu for NEW HORIZONS
+1337507000 - New Buildmenu for NEW HORIZONS Harbor
+
 1337500009 - Feuerwache / big  resolverunit ResolverUnitFire01MU
 1337509998 - Feuerwache / big  resolverunit FeedbackUnitClass
 1337509997 - Feuerwache / big  resolverunit TrafficFeedbackUnit
@@ -324,6 +327,92 @@
             </Values>
         </Asset>
     </ModOp>
+	
+	<!-- New Buildmenu for NEW HORIZONS-->
+    <ModOp Type="addNextSibling" GUID="101033">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337506999</GUID>
+                    <Name>Buildmenu Fire Station NEW HORIZONS</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_fire_house.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1442521</Building>
+                            <!-- Fire Original NEW HORIZONS-->
+                        </Item>
+                        <Item>
+                            <Building>1337500011</Building>
+                            <!-- Feuerwache / big -->
+                        </Item>
+                        <Item>
+                            <Building>1337500012</Building>
+                            <!-- Feuerwache / small -->
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>118032</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+					<TextOverride>1337500007</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Buildmenu Fire Station NEW HORIZONS</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- New Buildmenu for NEW HORIZONS Harbor-->
+    <ModOp Type="addNextSibling" GUID="101033">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507000</GUID>
+                    <Name>Buildmenu Fire Station NEW HORIZONS Harrbor</Name>
+                    <IconFilename>data/muggenstuermer/ui/2kimages/main/3dicons/icon_fire_house_harbor.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- <Item>
+                            <Building>8855051</Building>
+                            Fire SPIU Harborlife NEW HORIZONS
+                        </Item>-->
+                        <Item>
+                            <Building>1337504399</Building>
+                            <!-- Feuerwache / big -->
+                        </Item>
+                        <Item>
+                            <Building>1337504400</Building>
+                            <!-- Feuerwache / small -->
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>6608</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+					<TextOverride>22368</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Buildmenu Fire Station NEW HORIZONS Harbor</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	
     <!-- Replace Original Firestation from Constructionmenu OLD WORLD with new menu -->
     <ModOp Type="replace" GUID="25000189,500092" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010463']">
         <Item>
@@ -340,6 +429,13 @@
     <ModOp Type="replace" GUID="114553,119012" Path="/Values/ConstructionCategory/BuildingList/Item[Building='119892']">
         <Item>
             <Building>1337500013</Building>
+        </Item>
+    </ModOp>
+	
+	 <!-- Replace Original Firestation from Constructionmenu NEW HORIZONS with new menu-->
+    <ModOp Type="replace" GUID="1445602,1445608" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1442521']">
+        <Item>
+            <Building>1337506999</Building>
         </Item>
     </ModOp>
 	
@@ -483,7 +579,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
                     <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                 </Building>
                 <Blocking />
                 <Cost>
@@ -619,7 +715,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
                     <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
                 <Blocking>
@@ -760,7 +856,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
                     <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
                 <Blocking>
@@ -1053,7 +1149,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
                     <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                 </Building>
                 <Blocking />
@@ -1184,7 +1280,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
                     <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>
@@ -1321,7 +1417,7 @@
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
                     <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
-                    <AssociatedRegions>Moderate;Colony01;Arctic;Africa</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
 					<TerrainType>Water_Including_Coast</TerrainType>
                 </Building>

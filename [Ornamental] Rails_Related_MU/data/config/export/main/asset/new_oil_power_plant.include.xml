@@ -13,10 +13,13 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT OW xxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT NW xxxxxxxxxxxxxxxxxxxxxxxx
 1337505179 POWER PLANT FOR NW
 
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxx
+1337507284 POWER PLANT FOR NEW HORIZONS
+
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
 1337505180 POWER PLANT FOR AFRICA
 
-1337505181 Trigger
+1337507285 Trigger
 
 -->
     <ModOp Type="addNextSibling" GUID="1010035">
@@ -181,7 +184,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                 <Building>
                     <BuildingCategoryName>11169</BuildingCategoryName>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                     <AllowChangeDirection>1</AllowChangeDirection>
                     <TerrainType>Water_Including_Coast</TerrainType>
@@ -371,7 +374,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                 <Building>
                     <BuildingCategoryName>11169</BuildingCategoryName>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                     <AllowChangeDirection>1</AllowChangeDirection>
                     <TerrainType>Water_Including_Coast</TerrainType>
@@ -548,7 +551,198 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
 				</PublicService>
             </Values>
         </Asset>
-        <!-- OIL POWER PLANT AFRICA -->
+        <!-- OIL POWER PLANT NEW HORIZONS -->
+        <Asset>
+            <BaseAssetGUID>100780</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337507284</GUID>
+                    <Name>electricity_01_NEW HORIZONS (Oil Power Plant)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/oil_power_plant_harbor.png</IconFilename>
+                    <ID>HarborOilPowerPlantNEW HORIZONS</ID>
+                    <InfoDescription>10946</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11169</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>40</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_power_plant\electricity_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>100780</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_power_plant\oil_power_plant_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505173</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505174</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505175</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505176</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505177</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Mod1</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oil Power Plant</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>7000</LineID>
+                    <TextOverride>1337505178</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <AmbientMoodProvider />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>400</Amount>
+                            <InactiveAmount>200</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>15100003</Product>
+                            <Amount>150</Amount>
+                            <ShutdownThreshold>0.5</ShutdownThreshold>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>3500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Fire>
+                            <Base>1</Base>
+                        </Fire>
+                    </Infectable>
+                    <Explosion>
+                        <DamageExplosionChance>40</DamageExplosionChance>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityDistance>15</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Explosion>
+                            <BaseChance>4</BaseChance>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Powerplant>
+                    <IndustrializationDistance>35</IndustrializationDistance>
+                </Powerplant>
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1010566</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>100</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <CycleTime>5</CycleTime>
+                    <ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+                    <ProductivityPoints>1</ProductivityPoints>
+                    <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <Culture />
+                <PublicService>
+					<FullSatisfactionDistance>35</FullSatisfactionDistance>
+					<NoSatisfactionDistance>35</NoSatisfactionDistance>
+				</PublicService>
+            </Values>
+        </Asset>
+        
+		<!-- OIL POWER PLANT AFRICA -->
         <Asset>
             <BaseAssetGUID>100780</BaseAssetGUID>
             <Values>
@@ -562,7 +756,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                 <Building>
                     <BuildingCategoryName>11169</BuildingCategoryName>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                     <AllowChangeDirection>1</AllowChangeDirection>
                     <TerrainType>Water_Including_Coast</TerrainType>
@@ -751,6 +945,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
         <Item>
             <Asset>1337505180</Asset>
         </Item>
+		<Item>
+            <Asset>1337507284</Asset>
+        </Item>
     </ModOp>
     <!-- CharacterInteractionBalancing -->
     <ModOp Type="add" GUID="141703" Path="/Values/CharacterInteractionConfig/BuildBuildingWhitelist">
@@ -762,6 +959,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
         </Item>
         <Item>
             <Building>1337505180</Building>
+        </Item>
+		<Item>
+            <Building>1337507284</Building>
         </Item>
     </ModOp>
     <!-- ItemEffectTargetPool - all production except powerplant - all production boosted by electricity - all heavy production - all ironworks and foundry - all oil wells -->
@@ -775,6 +975,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
         <Item>
             <GUID>1337505180</GUID>
         </Item>
+		<Item>
+            <GUID>1337507284</GUID>
+        </Item>
     </ModOp>
     <!-- Public - Decree 4 Buff Forward_08 -->
     <ModOp Type="add" GUID="191373,191375,191376,191377,269460" Path="/Values/ItemEffect/EffectTargets">
@@ -787,6 +990,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
         <Item>
             <GUID>1337505180</GUID>
         </Item>
+		<Item>
+            <GUID>1337507284</GUID>
+        </Item>
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- Freischaltung -->
@@ -795,7 +1001,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
             <Template>FeatureUnlock</Template>
             <Values>
                 <Standard>
-                    <GUID>1337505181</GUID>
+                    <GUID>1337507285</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
                 </Standard>
@@ -830,6 +1036,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                                                 <Asset>1337505180</Asset>
                                                 <!-- POWER PLANT FOR AFRICA -->
                                             </Item>
+											
+											<Item>
+                                                <Asset>1337507284</Asset>
+                                                <!-- POWER PLANT FOR NEW HORIZONS -->
+                                            </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
@@ -843,6 +1054,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR POWER PLANT AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                                             <Item>
                                                 <Asset>1337505180</Asset>
                                                 <!-- POWER PLANT FOR AFRICA -->
+                                            </Item>
+											
+											<Item>
+                                                <Asset>1337507284</Asset>
+                                                <!-- POWER PLANT FOR NEW HORIZONS -->
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

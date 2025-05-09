@@ -15,10 +15,13 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE OW xxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE NW xxxxxxxxxxxxxxxxxxxxxxxx
 1337505190 OIL STORAGE FOR NW
 
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxx
+1337507282 OIL STORAGE FOR NEW HORIZONS
+
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
 1337505191 OIL STORAGE FOR AFRICA
 
-1337505192 Trigger
+1337507283 Trigger
 
 -->
     <ModOp Type="addNextSibling" GUID="1010035">
@@ -240,7 +243,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                 <Building>
                     <BuildingCategoryName>11150</BuildingCategoryName>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                 </Building>
                 <Blocking>
@@ -417,7 +420,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                 <Building>
                     <BuildingCategoryName>11150</BuildingCategoryName>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                 </Building>
                 <Blocking>
@@ -581,7 +584,185 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                 </FeedbackController>
             </Values>
         </Asset>
-        <!-- OIL STORAGE AFRICA -->
+        <!-- OIL STORAGE NEW HORIZONS -->
+        <Asset>
+            <BaseAssetGUID>100784</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337507282</GUID>
+                    <Name>HarborOilDepot_Big_NEW HORIZONS</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_oil_storage.png</IconFilename>
+                    <InfoDescription>10952</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>11150</BuildingCategoryName>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_depot\oil_depot_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>100784</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505182</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505183</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505184</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505185</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505186</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505187</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505188</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <AmbientMoodProvider>
+                    <Murmur>Harbor</Murmur>
+                </AmbientMoodProvider>
+                <Constructable />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <TextOverride>100784</TextOverride>
+                </Text>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <!-- Gold -->
+                            <Amount>20000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <!-- Bretter -->
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <!-- Ziegelsteine -->
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <!-- Stahlträger -->
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <!-- Stahlbeton -->
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Attackable>
+                    <MaximumHitPoints>6000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <SelfHealPerHealTick>6</SelfHealPerHealTick>
+                    <DefenseByAIFactor>330</DefenseByAIFactor>
+                    <TakeOverEffect>OnDeath</TakeOverEffect>
+                    <MoralePower>70</MoralePower>
+                    <IslandWarFlag>102303</IslandWarFlag>
+                    <ExplosionEffectsMin>2</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>2</ExplosionEffectsMax>
+                </Attackable>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>600</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <StorageBase>
+                    <ProductStorageList>120056</ProductStorageList>
+                </StorageBase>
+                <Locked />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>100</Amount>
+                            <InactiveAmount>100</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200896</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>200920</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                </LogisticNode>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+            </Values>
+        </Asset>
+        
+		<!-- OIL STORAGE AFRICA -->
         <Asset>
             <BaseAssetGUID>100784</BaseAssetGUID>
             <Values>
@@ -594,7 +775,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                 <Building>
                     <BuildingCategoryName>11150</BuildingCategoryName>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                 </Building>
                 <Blocking>
@@ -759,7 +940,14 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
             </Values>
         </Asset>
     </ModOp>
-    <!-- asset pool electricity oil -->
+    <!-- NEW HORIZONS -->
+	<ModOp Type="add" GUID="14440154" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337507282</Asset>
+        </Item>
+    </ModOp>
+	
+	 <!-- asset pool electricity oil -->
     <ModOp Type="add" GUID="130047,130124,270173" Path="/Values/AssetPool/AssetList">
         <Item>
             <Asset>1337505189</Asset>
@@ -816,7 +1004,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
             <Template>FeatureUnlock</Template>
             <Values>
                 <Standard>
-                    <GUID>1337505192</GUID>
+                    <GUID>1337507283</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
                 </Standard>
@@ -851,6 +1039,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                                                 <Asset>1337505191</Asset>
                                                 <!-- OIL STORAGE FOR AFRICA -->
                                             </Item>
+											
+											<Item>
+                                                <Asset>1337507282</Asset>
+                                                <!-- OIL STORAGE FOR NEW HORIZONS -->
+                                            </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
@@ -864,6 +1057,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL STORAGE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
                                             <Item>
                                                 <Asset>1337505191</Asset>
                                                 <!-- OIL STORAGE FOR AFRICA -->
+                                            </Item>
+											
+											<Item>
+                                                <Asset>1337507282</Asset>
+                                                <!-- OIL STORAGE FOR NEW HORIZONS -->
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

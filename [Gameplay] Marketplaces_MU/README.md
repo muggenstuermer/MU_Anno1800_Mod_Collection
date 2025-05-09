@@ -27,7 +27,6 @@ Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 ---------------------------
 Release - 1.0
 ---------------------------
-
 	- Created diffrent small Markets with diffrent sizes and diffrent ranges for all regions.
 	- Added some skins for the originals and the Harborlife Market,for all regions.
 	- IMYA tweaks added to be able to set limited custom ranges for the mod Markets.
@@ -36,9 +35,13 @@ Release - 1.0
 ---------------------------
 Release - 1.1
 ---------------------------
-
 	- correction of the folder structure to adapt to the desired structures.
 	- correction of some files with typos.
+	
+---------------------------
+Changelog - 1.2
+---------------------------
+	- added New Horizons support.
 	
 	
 	

@@ -4,22 +4,34 @@
 
 1337502504 Buildmenu OW
 1337502507 Buildmenu NW
+
+1337507288 Buildmenu NEW HORIZONS ++++
+
 1337502508 Buildmenu ENBESA
 1337502509 Buildmenu ARCTIC
 1337502505 CategoryDescription
 
 1337502787 Buildmenu Bridges OW
 1337502788 Buildmenu Bridges NW
+
+1337507289 Buildmenu Bridges NEW HORIZONS ++++
+
 1337502789 Buildmenu Bridges ENBESA
 
 
 1337502552 Buildmenu HARBOR OW
 1337502553 Buildmenu HARBOR NW
+
+1337507290 Buildmenu HARBOR NEW HORIZONS ++++
+
 1337502554 Buildmenu HARBOR ENBESA
 1337502555 Buildmenu HARBOR ARCTIC
 
 1337502790 Buildmenu Bridges HARBOR OW
 1337502791 Buildmenu Bridges HARBOR NW
+
+1337507291 Buildmenu Bridges HARBOR NEW HORIZONS ++++
+
 1337502792 Buildmenu Bridges HARBOR ENBESA
 
 -->
@@ -94,7 +106,43 @@
             </Values>
         </Asset>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507288</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_streets_related_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1446000</Building>
+                        </Item>
+                        <Item>
+                            <Building>1446001</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1337502505</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                    <TextOverride>1337502504</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -222,6 +270,36 @@
             </Values>
         </Asset>
     </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bridges NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507289</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_bridges_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>802968</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+					<TextOverride>1337502787</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bridges ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
@@ -273,6 +351,15 @@
         </Item>
 		<Item>
             <Building>1337502788</Building>
+        </Item>
+    </ModOp>
+	<!-- NEW HORIZONS -->
+    <ModOp Type="add" GUID="1337505022" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337507288</Building>
+        </Item>
+		<Item>
+            <Building>1337507289</Building>
         </Item>
     </ModOp>
     <!-- ENBESA -->
@@ -347,7 +434,36 @@
             </Values>
         </Asset>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu HARBOR NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507290</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_streets_related_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>1337502505</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+                    <TextOverride>1337502552</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -464,6 +580,36 @@
             </Values>
         </Asset>
     </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bridges HARBOR NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010359">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507291</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_bridges_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>802968</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>GroundPlacements</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>1</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID />
+					<TextOverride>1337502790</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bridges HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
@@ -512,6 +658,15 @@
         </Item>
 		<Item>
             <Building>1337502791</Building>
+        </Item>
+    </ModOp>
+	<!-- Add NEW HORIZONS Buildmenu HARBOR NW to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505023" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337507290</Building>
+        </Item>
+		<Item>
+            <Building>1337507291</Building>
         </Item>
     </ModOp>
     <!-- Add Arctic Buildmenu HARBOR Arctic to Ornamentsmenu-->

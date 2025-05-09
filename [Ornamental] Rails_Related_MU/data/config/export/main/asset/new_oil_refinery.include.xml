@@ -15,6 +15,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY OW xxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY NW xxxxxxxxxxxxxxxxxxxxxxxx
 1337505167 OIL REFINERY FOR NW
 
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxx
+1337507279 OIL REFINERY FOR NEW HORIZONS
+
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
 1337505168 OIL REFINERY FOR AFRICA
 
@@ -24,10 +27,13 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE OW xxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE NW xxxxxxxxxxxxxxxxxxxxxxxx
 1337505170 OIL REFINERY MODULE NW
 
+xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxx
+1337507280 OIL REFINERY MODULE NEW HORIZONS
+
 xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxxxxx
 1337505171 OIL REFINERY MODULE AFRICA
 
-1337505172 Trigger
+1337507281 Trigger
 
 -->
     <ModOp Type="addNextSibling" GUID="1010035">
@@ -247,7 +253,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                     <AllowChangeDirection>1</AllowChangeDirection>
                     <TerrainType>Water_Including_Coast</TerrainType>
@@ -538,7 +544,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                     <AllowChangeDirection>1</AllowChangeDirection>
                     <TerrainType>Water_Including_Coast</TerrainType>
@@ -813,7 +819,291 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                 <MonoCulture />
             </Values>
         </Asset>
-        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL REFINERY FOR AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL REFINERY FOR NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <BaseAssetGUID>101331</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337507279</GUID>
+                    <Name>OffshoreRefineryNEW HORIZONS</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_oil.png</IconFilename>
+                    <ID>OffshoreRefineryNEW HORIZONS</ID>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>12</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_refinery\oil_refinery_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>23853</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data\ui\2kimages\main\3dicons\oil_refinery\oil_refinery_01.png</OverrideDefaultIcon>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337505159</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505160</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505161</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505162</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505163</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505164</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337505165</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Mod1</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oil Refinery</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>11031</LineID>
+                    <TextOverride>101331</TextOverride>
+                    <!-- text Hafen zu 101331 hinzufügen = 101331 + Hafen -->
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>214813</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>239321</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>FarmBuilding</TemplateName>
+                                            <Index>0</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <Sound>203830</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                    </ConstructionSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>FarmBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                    <MaterialType>Metal</MaterialType>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1010566</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>200</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>45</CycleTime>
+                    <WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                    <PathLayers>Railway</PathLayers>
+                    <OilPumpsNeeded>1</OilPumpsNeeded>
+                </LogisticNode>
+                <ModuleOwner>
+                    <ModulesRequiredForFullProductivity>1</ModulesRequiredForFullProductivity>
+                    <ConstructionOptions>
+                        <Item>
+                            <ModuleGUID>1337507280</ModuleGUID>
+                            <!-- HIER DER ÖLTURM -->
+                        </Item>
+                    </ConstructionOptions>
+                    <ModuleBuildRadius>6</ModuleBuildRadius>
+                </ModuleOwner>
+                <AmbientMoodProvider>
+                    <AmbientMood>IndustryHeavy</AmbientMood>
+                    <Murmur>Factory</Murmur>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>250</Amount>
+                            <InactiveAmount>125</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>15100003</Product>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>HarbourBuilding</AttackableType>
+                    <MaximumHitPoints>5000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <HPBarOffset>5.5</HPBarOffset>
+                    <DefenseByAIFactor>400</DefenseByAIFactor>
+                    <MoralePower>100</MoralePower>
+                    <IslandWarFlag>102303</IslandWarFlag>
+                    <HasRuinState>1</HasRuinState>
+                    <ExplosionEffects>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouseStrategic</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_02.cfg</ExplosionEffectFilePath>
+                        </Item>
+                    </ExplosionEffects>
+                    <ExplosionEffectsMin>3</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>5</ExplosionEffectsMax>
+                    <SelfHealPerHealTick>5</SelfHealPerHealTick>
+                </Attackable>
+                <IncidentInfectable>
+                    <Infectable>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>2000</ExplosionCoreDamage>
+                        <DamageExplosionChance>38</DamageExplosionChance>
+                        <DamageExplosionCheckMax>40</DamageExplosionCheckMax>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <BaseChance>10</BaseChance>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.025</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                        <Explosion>
+                            <BaseChance>8</BaseChance>
+                            <FactoryProductivityFactor>0.025</FactoryProductivityFactor>
+                            <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Pausable />
+                <Culture />
+                <QuestObject />
+                <Industrializable />
+                <Motorizable />
+                <EcoSystemProvider />
+                <MonoCulture />
+            </Values>
+        </Asset>
+        
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL REFINERY FOR AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
         <Asset>
             <BaseAssetGUID>101331</BaseAssetGUID>
             <Values>
@@ -825,7 +1115,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                     <AllowChangeDirection>1</AllowChangeDirection>
                     <TerrainType>Water_Including_Coast</TerrainType>
@@ -1112,7 +1402,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                     <AllowChangeDirection>1</AllowChangeDirection>
                     <TerrainType>Water_Including_Coast</TerrainType>
@@ -1228,7 +1518,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                     <AllowChangeDirection>1</AllowChangeDirection>
                     <TerrainType>Water_Including_Coast</TerrainType>
@@ -1332,7 +1622,123 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                 <BuildingModule />
             </Values>
         </Asset>
-        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL REFINERY MODULE NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>OilPumpBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507280</GUID>
+                    <Name>OffshoreRefineryNEW HORIZONS (Oil Pump)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_oil_rig.png</IconFilename>
+                    <InfoDescription>12658</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                    <TerrainType>Water_Including_Coast</TerrainType>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>4000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>6</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_refinery\oil_modul_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_refinery\oil_modul_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_refinery\oil_modul_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\rails_related\new_oil_refinery\oil_modul_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>101332</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oil Well</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>11032</LineID>
+                    <TextOverride>101332</TextOverride>
+                    <!-- text Hafen zu 101332 hinzufügen = 101331 + Hafen -->
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>245758</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <Slot>
+                    <SnapsToSlot>0</SnapsToSlot>
+                    <SlotType>None</SlotType>
+                </Slot>
+                <AmbientMoodProvider />
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>500</MaximumHitPoints>
+                </Attackable>
+                <BuildingModule />
+            </Values>
+        </Asset>
+        
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
         <Asset>
             <Template>OilPumpBuilding</Template>
             <Values>
@@ -1344,7 +1750,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
-                    <AssociatedRegions>Moderate;Meta;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
                     <AllowChangeVariation>1</AllowChangeVariation>
                     <AllowChangeDirection>1</AllowChangeDirection>
                     <TerrainType>Water_Including_Coast</TerrainType>
@@ -1449,6 +1855,23 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
             </Values>
         </Asset>
     </ModOp>
+	 <!-- NEW HORIZONS -->
+	<ModOp Type="add" GUID="14443032" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337507279</GUID>
+        </Item>
+    </ModOp>
+	<ModOp Type="add" GUID="14440154" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337507279</Asset>
+        </Item>
+    </ModOp>
+	<ModOp Type="add" GUID="133700514" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+			<Building>1337507279</Building>
+		</Item>
+    </ModOp>
+	
     <!-- asset pool electricity oil -->
     <ModOp Type="add" GUID="130047,130124" Path="/Values/AssetPool/AssetList">
         <Item>
@@ -1516,7 +1939,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
             <Template>FeatureUnlock</Template>
             <Values>
                 <Standard>
-                    <GUID>1337505172</GUID>
+                    <GUID>1337507281</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
                 </Standard>
@@ -1563,6 +1986,15 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                                                 <Asset>1337505171</Asset>
                                                 <!-- OIL REFINERY MODULE FOR AFRICA -->
                                             </Item>
+											
+											<Item>
+                                                <Asset>1337507279</Asset>
+                                                <!-- OIL REFINERY FOR NEW HORIZONS -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337507280</Asset>
+                                                <!-- OIL REFINERY MODULE FOR NEW HORIZONS -->
+                                            </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
@@ -1588,6 +2020,15 @@ xxxxxxxxxxxxxxxxxxxxxxxx HARBOR OIL REFINERY MODULE AFRICA xxxxxxxxxxxxxxxxxxxxx
                                             <Item>
                                                 <Asset>1337505171</Asset>
                                                 <!-- OIL REFINERY MODULE FOR AFRICA -->
+                                            </Item>
+											
+											<Item>
+                                                <Asset>1337507279</Asset>
+                                                <!-- OIL REFINERY FOR NEW HORIZONS -->
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337507280</Asset>
+                                                <!-- OIL REFINERY MODULE FOR NEW HORIZONS -->
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

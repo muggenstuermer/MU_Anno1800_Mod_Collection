@@ -1,14 +1,6 @@
 {
-  "Version": "1.0",
+  "Version": "1.1",
   "ModID": "Fe_Be_Ce_MU",
-  "LoadAfterIds": [
-    "A_Modified_Ornaments_Tab",
-	"Shared_Objects_MU",
-	"Immigrants_And_Their_Fields_MU",
-	"Worlds_New_Depots_MU",
-	"Spice_Harborlife"
-  ],
-  "IncompatibleIds": [],
   "ModDependencies": [ 
 	"A_Modified_Ornaments_Tab",
 	"Shared_Objects_MU",
@@ -16,6 +8,15 @@
 	"Immigrants_And_Their_Fields_MU",
 	"Spice_Harborlife"
   ],
+  "LoadAfterIds": [
+    "A_Modified_Ornaments_Tab",
+	"Shared_Objects_MU",
+	"Immigrants_And_Their_Fields_MU",
+	"Worlds_New_Depots_MU",
+	"Spice_Harborlife",
+	"new_horizons_buildmenu"
+  ],
+  "IncompatibleIds": [],
   "Category": {
     "Chinese": "Ornamental",
     "English": "Ornamental",

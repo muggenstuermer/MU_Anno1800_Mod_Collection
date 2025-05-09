@@ -25,6 +25,9 @@ Ornaments Tab
 1337505016 Ornaments Categorie Africa/City Tab
 1337505017 Ornaments Categorie Africa/Industrial Tab
 
+
+1337505022 Ornaments Categorie New Horizons/Mods Tab
+
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Harbor Tab
@@ -33,6 +36,10 @@ Harbor Tab
 1337505020 Harbor Tab Arctic
 1337505021 Harbor Tab Africa
 
+
+1337505023 Harbor Tab New Horizons/Mods Tab
+
+bis incl. 1337505049 frei
 -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding Mods Tab Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -122,6 +129,47 @@ Harbor Tab
     </ModOp>
 	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
 	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505001'][position() < last()]"/>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien New Horizons xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID='1010035'>
+        <!-- NEW Mods tab -->
+        <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505022</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505022</GUID>
+                    <Name>New Horizons Modding Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\modding_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+					<TextOverride>1337505000</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505022'][position() < last()]"/>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien Arctic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID='1010359'>
         <!--Klassisch-->
@@ -705,6 +753,50 @@ Harbor Tab
     </ModOp>
 	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
 	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505019'][position() < last()]"/>
+	    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab New Horizons xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID='1010035'>
+        <!-- Harbor tab -->
+        <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505023</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505023</GUID>
+                    <Name>New Horizons Harbor Menu</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\harbor_menu_tab.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!--<Item>
+				  <Building>502338</Building>
+				</Item>-->
+                    </BuildingList>
+                    <CategoryDescription>11150</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+                    <TextOverride>11150</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505023'][position() < last()]"/>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Harbor Tab Arctic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID='1010035'>
         <!-- Harbor tab -->
@@ -828,6 +920,20 @@ Harbor Tab
             <!-- NW Harbor Menu -->
         </Item>
     </ModOp>
+	
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu New Horizons After Architecture Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Mod2/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '1445622'] | //Values[Standard/GUID='1500010221']">
+        <Item>
+            <Category>1337505022</Category>
+            <!-- NW Modding Menu -->
+        </Item>
+        <Item>
+            <Category>1337505023</Category>
+            <!-- NW Harbor Menu -->
+        </Item>
+    </ModOp>
+	
+	
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu OW After Industry Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!--<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories/Item[Category = '500059']">-->
 	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories[not(Item/Category='1337505000' or Item/Category='1337505018')]/Item[Category = '500059'] | //Values[Standard/GUID='1500010221']">
@@ -852,6 +958,20 @@ Harbor Tab
             <!-- NW Harbor Menu -->
         </Item>
     </ModOp>
+	
+	 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu New Horizons After Architecture Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Mod2/OrnamentsMode/OrnamentsCategory/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '1445622'] | //Values[Standard/GUID='1500010221']">
+        <Item>
+            <Category>1337505022</Category>
+            <!-- New Horizons Modding Menu -->
+        </Item>
+        <Item>
+            <Category>1337505023</Category>
+            <!-- New Horizons Harbor Menu -->
+        </Item>
+    </ModOp>
+	
+	
 	
     <!-- Remove Arctic forrest from vanilla buildmenu to include it into new Ornaments menu-->
     <ModOp Type="remove" GUID="112790" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '134880']" />

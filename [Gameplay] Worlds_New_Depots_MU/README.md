@@ -115,7 +115,6 @@ Changelog - 1.22
 ---------------------------
 Changelog - 1.3
 ---------------------------
-	
 	- correction of the folder structure to adapt to the desired structures.
 	- all icons revised.
 	- possibility to build on water created.
@@ -123,6 +122,11 @@ Changelog - 1.3
 	- added tweakable imya settings for all Depots
 	- removed the Speicherstadt for arktic,because it was added to New World Docklands (Kurila) during the revision phase of this mod for compatibility reasons.
 	- reduce content.txt files to english only.
+	
+---------------------------
+Changelog - 1.4
+---------------------------
+	- added New Horizons support.
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

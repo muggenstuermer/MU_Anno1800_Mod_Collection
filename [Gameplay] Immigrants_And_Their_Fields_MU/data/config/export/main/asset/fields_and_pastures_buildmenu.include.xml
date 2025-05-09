@@ -4,14 +4,14 @@
 fields_buildmenu:
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 1337506000 Fields Buildmenu OW
-1337506001 Fields Buildmenu NW
+1337506001 Fields Buildmenu NW + NEW HORIZONS
 1337506002 Fields Buildmenu ENBESA
 1337506003 Fields Buildmenu ARCTIC
 
 pastures_buildmenu:
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 1337506004 Pastures Buildmenu OW
-1337506005 Pastures Buildmenu NW
+1337506005 Pastures Buildmenu NW + NEW HORIZONS
 1337506006 Pastures Buildmenu ENBESA
 1337506007 Pastures Buildmenu ARCTIC
 
@@ -22,7 +22,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Immigrants_buildmenu:
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 1337506017 Immigrants OW functional only
-1337506018 Immigrants OW ornamental only
+1337506018 Immigrants All ornamental only
 
 
 
@@ -297,8 +297,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             <Building>1337506018</Building>
         </Item>
     </ModOp>
-    <!-- Add NW Buildmenu to Ornamentsmenu-->
-    <ModOp Type="add" GUID="1337505001" Path="/Values/ConstructionCategory/BuildingList">
+    <!-- Add NW + NEW HORIZONS Buildmenu to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505001,1337505022" Path="/Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337506001</Building>
         </Item>
