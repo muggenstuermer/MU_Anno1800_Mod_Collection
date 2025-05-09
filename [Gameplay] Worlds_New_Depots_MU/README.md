@@ -70,8 +70,6 @@ Otherwise, the buildings are just like the warehouse or the depots.
 
 ### Necessary active mods :
 
-- ["New World Docklands" by @Kurila](https://mod.io/g/anno-1800/m/new-world-dockland-kurila)
-
 - ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 
 
