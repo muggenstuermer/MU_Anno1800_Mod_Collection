@@ -5,6 +5,10 @@ Ornaments Tab
 1337505000 Ornaments Categorie OW/Mods Tab
 1337505001 Ornaments Categorie NW/Mods Tab
 
+1337505030 OW NEW SPECIAL TAB
+1337505031 NW NEW SPECIAL TAB
+
+
 1337505002 Ornaments Categorie Arctic/Classic Tab
 1337505003 Ornaments Categorie Arctic/Season Tab
 1337505004 Ornaments Categorie Arctic/Cosmetic Tab
@@ -27,6 +31,13 @@ Ornaments Tab
 
 
 1337505022 Ornaments Categorie New Horizons/Mods Tab
+1337505024 Ornaments Categorie New Horizons/Season Tab
+1337505025 Ornaments Categorie New Horizons/Cosmetic Tab
+1337505026 Ornaments Categorie New Horizons/Special Tab
+
+1337505027 Ornaments Categorie New Horizons/Park Tab
+1337505028 Ornaments Categorie New Horizons/City Tab
+1337505029 Ornaments Categorie New Horizons/Industrial Tab
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -35,11 +46,9 @@ Harbor Tab
 1337505019 Harbor Tab NW
 1337505020 Harbor Tab Arctic
 1337505021 Harbor Tab Africa
-
-
 1337505023 Harbor Tab New Horizons/Mods Tab
 
-bis incl. 1337505049 frei
+1337505032  bis incl. 1337505049 frei
 -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding Mods Tab Start xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -78,6 +87,7 @@ bis incl. 1337505049 frei
                         </English>
                     </LocaText>
                     <LineID>60353</LineID>
+					<TextOverride>16524</TextOverride>
                 </Text>
                 <Locked />
             </Values>
@@ -121,7 +131,7 @@ bis incl. 1337505049 frei
                         </English>
                     </LocaText>
                     <LineID>60353</LineID>
-					<TextOverride>1337505000</TextOverride>
+					<TextOverride>16524</TextOverride>
                 </Text>
                 <Locked />
             </Values>
@@ -129,6 +139,86 @@ bis incl. 1337505049 frei
     </ModOp>
 	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
 	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505001'][position() < last()]"/>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx NEW SPECIAL TAB OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID='1010035'>
+        <!-- NEW SPECIAL tab -->
+        <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505030</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505030</GUID>
+					<Name>Moderate Special Reward Menu</Name>
+					<IconFilename>data/ui/2kimages/main/icons/achievement/icon_achievement_category_items.png</IconFilename>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList />
+					<CategoryDescription>19564</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Special</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+					<LineID>60353</LineID>
+					<TextOverride>6577</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+    </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505030'][position() < last()]"/>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx NEW SPECIAL TAB NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID='1010035'>
+        <!-- NEW SPECIAL tab -->
+        <Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505031</GUID>
+					<Name>duplicate</Name>
+				</Standard>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ConstructionCategory</Template>
+			<Values>
+				<Standard>
+					<GUID>1337505031</GUID>
+					<Name>Moderate Special Reward Menu</Name>
+					<IconFilename>data/ui/2kimages/main/icons/achievement/icon_achievement_category_items.png</IconFilename>
+				</Standard>
+				<ConstructionCategory>
+					<BuildingList />
+					<CategoryDescription>19564</CategoryDescription>
+				</ConstructionCategory>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Special</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+					<LineID>60353</LineID>
+					<TextOverride>6577</TextOverride>
+				</Text>
+				<Locked />
+			</Values>
+		</Asset>
+    </ModOp>
+	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
+	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505031'][position() < last()]"/>
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien New Horizons xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID='1010035'>
         <!-- NEW Mods tab -->
@@ -162,7 +252,7 @@ bis incl. 1337505049 frei
                         </English>
                     </LocaText>
                     <LineID>60353</LineID>
-					<TextOverride>1337505000</TextOverride>
+					<TextOverride>16524</TextOverride>
                 </Text>
                 <Locked />
             </Values>
@@ -170,6 +260,191 @@ bis incl. 1337505049 frei
     </ModOp>
 	<!-- Duplikate (eigenes und Fremdmods) entfernen -->
 	<ModOp Type="remove" Path="//Asset[Values/Standard/GUID='1337505022'][position() < last()]"/>
+	
+	<ModOp Type="addNextSibling" GUID='1010359'>
+	<!--Seasons-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505024</GUID>
+                    <Name>New Horizons Ornament Menu DLCs</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_promo_plants_2d.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible
+                        <Item>
+                            <Building>134879</Building>
+                        </Item> -->
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Seasons</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60391</LineID>
+                    <TextOverride>500070</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+	<!--Kosmetisch-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505025</GUID>
+                    <Name>New Horizons Ornament Menu CDLCs</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_prestige.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible
+                        <Item>
+                            <Building>134879</Building>
+                        </Item> -->
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Cosmetic</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60352</LineID>
+                    <TextOverride>500078</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+	<!--Spezial-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505026</GUID>
+                    <Name>New Horizons Special Reward Menu</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/achievement/icon_achievement_category_items.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible
+                        <Item>
+                            <Building>134879</Building>
+                        </Item> -->
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Special</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60353</LineID>
+                    <TextOverride>6577</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!--Park-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505027</GUID>
+                    <Name>New Horizons Ornament Menu Park</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_tree_progress.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible
+                        <Item>
+                            <Building>134879</Building>
+                        </Item> -->
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Park</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60368</LineID>
+                    <TextOverride>500067</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Stadt-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505028</GUID>
+                    <Name>New Horizons Ornament Menu City</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_promo_ministries_2d.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible
+                        <Item>
+                            <Building>134879</Building>
+                        </Item> -->
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>City</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60370</LineID>
+                    <TextOverride>500068</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+        <!--Industrie-->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337505029</GUID>
+                    <Name>New Horizons Ornament Menu Industry&amp;Harbor</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_loading_bay.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Put this item into,so the tab is visible
+                        <Item>
+                            <Building>134879</Building>
+                        </Item> -->
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Industry</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>60377</LineID>
+                    <TextOverride>500059</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+	</ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Ornamenten Kategorien Arctic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <ModOp Type="addNextSibling" GUID='1010359'>
         <!--Klassisch-->
@@ -183,6 +458,7 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
+						<!-- Put this item into,so the tab is visible -->
                         <Item>
                             <Building>134880</Building>
                         </Item>
@@ -212,10 +488,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- Put this item into,so the tab is visible -->
+                        <!-- Put this item into,so the tab is visible
                         <Item>
                             <Building>134880</Building>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                 </ConstructionCategory>
                 <Text>
@@ -242,10 +518,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- Put this item into,so the tab is visible -->
+                        <!-- Put this item into,so the tab is visible
                         <Item>
                             <Building>134880</Building>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                 </ConstructionCategory>
                 <Text>
@@ -272,10 +548,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- Put this item into,so the tab is visible -->
+                        <!-- Put this item into,so the tab is visible
                         <Item>
                             <Building>134880</Building>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
                 </ConstructionCategory>
@@ -303,10 +579,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- Put this item into,so the tab is visible -->
+                        <!-- Put this item into,so the tab is visible
                         <Item>
                             <Building>134880</Building>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
                 </ConstructionCategory>
@@ -318,7 +594,7 @@ bis incl. 1337505049 frei
                         </English>
                     </LocaText>
                     <LineID>60353</LineID>
-					<TextOverride>1337505000</TextOverride>
+					<TextOverride>16524</TextOverride>
                 </Text>
                 <Locked />
             </Values>
@@ -363,9 +639,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
+                        <!-- Put this item into,so the tab is visible
                         <Item>
                             <Building>134880</Building>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                 </ConstructionCategory>
                 <Text>
@@ -376,7 +653,7 @@ bis incl. 1337505049 frei
                         </English>
                     </LocaText>
                     <LineID>60370</LineID>
-                    <TextOverride>500944</TextOverride>
+                    <TextOverride>500068</TextOverride>
                 </Text>
                 <Locked />
             </Values>
@@ -392,10 +669,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- Put this item into,so the tab is visible -->
+                        <!-- Put this item into,so the tab is visible
                         <Item>
                             <Building>134880</Building>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
                 </ConstructionCategory>
@@ -461,10 +738,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- Put this item into,so the tab is visible -->
+                        <!-- Put this item into,so the tab is visible
                         <Item>
                             <Building>134879</Building>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                 </ConstructionCategory>
                 <Text>
@@ -491,10 +768,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- Put this item into,so the tab is visible -->
+                        <!-- Put this item into,so the tab is visible
                         <Item>
                             <Building>134879</Building>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                 </ConstructionCategory>
                 <Text>
@@ -521,10 +798,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- Put this item into,so the tab is visible -->
+                        <!-- Put this item into,so the tab is visible 
                         <Item>
                             <Building>134879</Building>
-                        </Item>
+                        </Item>-->
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
                 </ConstructionCategory>
@@ -566,7 +843,7 @@ bis incl. 1337505049 frei
                         </English>
                     </LocaText>
                     <LineID>60353</LineID>
-					<TextOverride>1337505000</TextOverride>
+					<TextOverride>16524</TextOverride>
                 </Text>
                 <Locked />
             </Values>
@@ -627,7 +904,7 @@ bis incl. 1337505049 frei
                         </English>
                     </LocaText>
                     <LineID>60370</LineID>
-                    <TextOverride>500944</TextOverride>
+                    <TextOverride>500068</TextOverride>
                 </Text>
                 <Locked />
             </Values>
@@ -643,10 +920,10 @@ bis incl. 1337505049 frei
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- Put this item into,so the tab is visible -->
+                        <!-- Put this item into,so the tab is visible
                         <Item>
                             <Building>134879</Building>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
                 </ConstructionCategory>
@@ -898,8 +1175,12 @@ bis incl. 1337505049 frei
 			</Values>
 		</Asset>
 	</ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu OW After Special Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505000' or Item/Category='1337505018')]/Item[Category = '6577'] | //Values[Standard/GUID='1500010221']">
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu OW After NEW SPECIAL Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="merge" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsSource/Categories/Item[Category='6577']">
+        <Category>1337505030</Category>
+		 <!-- Moderate NEW SPECIAL TAB -->
+    </ModOp>
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505000' or Item/Category='1337505018')]/Item[Category = '1337505030'] | //Values[Standard/GUID='1500010221']">
         <Item>
             <Category>1337505000</Category>
             <!-- Moderate Modding Menu -->
@@ -909,8 +1190,17 @@ bis incl. 1337505049 frei
             <!-- Moderate Harbor Menu -->
         </Item>
     </ModOp>
+	<ModOp Type="add" GUID="1337505030" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>6577</Building>
+        </Item>
+    </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu NW After Special Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-    <ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '6621'] | //Values[Standard/GUID='1500010221']">
+    <ModOp Type="merge" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsSource/Categories/Item[Category='6621']">
+        <Category>1337505031</Category>
+		 <!-- NW NEW SPECIAL TAB -->
+    </ModOp>
+	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '1337505031'] | //Values[Standard/GUID='1500010221']">
         <Item>
             <Category>1337505001</Category>
             <!-- NW Modding Menu -->
@@ -920,10 +1210,26 @@ bis incl. 1337505049 frei
             <!-- NW Harbor Menu -->
         </Item>
     </ModOp>
-	
+	<ModOp Type="add" GUID="1337505031" Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>6621</Building>
+        </Item>
+    </ModOp>
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu New Horizons After Architecture Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Mod2/OrnamentsMode/OrnamentsSource/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '1445622'] | //Values[Standard/GUID='1500010221']">
         <Item>
+            <Category>1337505024</Category>
+            <!-- New Horizons/Season Tab -->
+        </Item>
+		<Item>
+            <Category>1337505025</Category>
+            <!-- New Horizons/Cosmetic Tab -->
+        </Item>
+		<Item>
+            <Category>1337505026</Category>
+            <!-- New Horizons/Special Tab -->
+        </Item>
+		<Item>
             <Category>1337505022</Category>
             <!-- NW Modding Menu -->
         </Item>
@@ -962,6 +1268,18 @@ bis incl. 1337505049 frei
 	 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Adding New tabs To the Ornaments Menu New Horizons After Architecture Tab xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID='25000035' Path="/Values/ConstructionMenu/RegionMenu/Mod2/OrnamentsMode/OrnamentsCategory/Categories[not(Item/Category='1337505001' or Item/Category='1337505019')]/Item[Category = '1445622'] | //Values[Standard/GUID='1500010221']">
         <Item>
+            <Category>1337505027</Category>
+            <!-- New New Horizons/Park Tab -->
+        </Item>
+		<Item>
+            <Category>1337505028</Category>
+            <!-- New Horizons/Cosmetic Tab -->
+        </Item>
+		<Item>
+            <Category>1337505029</Category>
+            <!-- New Horizons/Industrial Tab -->
+        </Item>
+		<Item>
             <Category>1337505022</Category>
             <!-- New Horizons Modding Menu -->
         </Item>

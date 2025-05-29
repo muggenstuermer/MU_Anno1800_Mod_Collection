@@ -16,6 +16,9 @@ This new menu can be used by other modders, and is basically desirable, as long 
 - 1337505000 Ornaments Categorie OW/Mods Tab
 - 1337505001 Ornaments Categorie NW/Mods Tab
 
+- 1337505030 OW NEW SPECIAL TAB
+- 1337505031 NW NEW SPECIAL TAB
+
 - 1337505002 Ornaments Categorie Arctic/Classic Tab
 - 1337505003 Ornaments Categorie Arctic/Season Tab
 - 1337505004 Ornaments Categorie Arctic/Cosmetic Tab
@@ -37,6 +40,13 @@ This new menu can be used by other modders, and is basically desirable, as long 
 - 1337505017 Ornaments Categorie Africa/Industrial Tab
 
 - 1337505022 Ornaments Categorie New Horizons/Mods Tab
+- 1337505024 Ornaments Categorie New Horizons/Season Tab
+- 1337505025 Ornaments Categorie New Horizons/Cosmetic Tab
+- 1337505026 Ornaments Categorie New Horizons/Special Tab
+
+- 1337505027 Ornaments Categorie New Horizons/Park Tab
+- 1337505028 Ornaments Categorie New Horizons/City Tab
+- 1337505029 Ornaments Categorie New Horizons/Industrial Tab
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -77,7 +87,14 @@ Changelog - 1.2
 		- "ModID": "City_Ornaments_2.0_MU"
 		and
 		- [Ornamental] Harbour_Ornaments_2.0_MU
-		will be prevent from loading anymore
+		will be prevent from loading anymore.
+		
+---------------------------
+Changelog - 1.21
+---------------------------
+	- Fixes for the "Ornament_Mania_MU" mod.
+	- In order to maintain a consistent appearance and structure, the Old World and the New World have been given a modified Special Tab.
+	- Loading of "City_Ornaments_2.0_MU" and "Harbour_Ornaments_2.0_MU" has been disabled.
 	
 	
 Thanks to @Jakob who corrected the code in a user and modder friendly way !
