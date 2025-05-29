@@ -28,7 +28,7 @@
 	<ModOp Type="replace" GUID='101393' Path="Values/Object/Variations">
         <Variations>
 			<Item>
-				<Filename>data\modgraphics\electric\electricity_post_01_straight.cfg</Filename><!-- straight post -->
+				<Filename>data\muggenstuermer\electric\electricity_post_01_straight.cfg</Filename><!-- straight post -->
             </Item>
 		</Variations>
     </ModOp>
@@ -36,7 +36,7 @@
 	<ModOp Type="replace" GUID='101396' Path="Values/Object/Variations">
         <Variations>
 			<Item>
-				<Filename>data\modgraphics\electric\electricity_post_03_tcross.cfg</Filename><!-- t-cross post -->
+				<Filename>data\muggenstuermer\electric\electricity_post_03_tcross.cfg</Filename><!-- t-cross post -->
             </Item>
 		</Variations>
     </ModOp>
@@ -44,7 +44,7 @@
 	<ModOp Type="replace" GUID='101394' Path="Values/Object/Variations">
         <Variations>
 			<Item>
-				<Filename>data\modgraphics\electric\electricity_post_02_crossing.cfg</Filename><!-- corner and cross post -->
+				<Filename>data\muggenstuermer\electric\electricity_post_02_crossing.cfg</Filename><!-- corner and cross post -->
             </Item>
 		</Variations>
     </ModOp>
@@ -52,7 +52,7 @@
 	<ModOp Type="replace" GUID='101401' Path="Values/Object/Variations">
         <Variations>
 			<Item>
-				<Filename>data\modgraphics\electric\electricity_post_01_straight.cfg</Filename><!-- railway cross post -->
+				<Filename>data\muggenstuermer\electric\electricity_post_01_straight.cfg</Filename><!-- railway cross post -->
             </Item>
 		</Variations>
     </ModOp>
@@ -62,7 +62,7 @@
 	<ModOp Type="replace" GUID='101388' Path="Values/Object/Variations">
         <Variations>
 			<Item>
-				<Filename>data\modgraphics\electric\electricity_line_01.cfg</Filename><!-- corner and cross line 1 tile -->
+				<Filename>data\muggenstuermer\electric\electricity_line_01.cfg</Filename><!-- corner and cross line 1 tile -->
             </Item>
 		</Variations>
     </ModOp>
@@ -70,7 +70,7 @@
 	<ModOp Type="replace" GUID='101389' Path="Values/Object/Variations">
         <Variations>
 			<Item>
-				<Filename>data\modgraphics\electric\electricity_line_02.cfg</Filename><!-- corner line -->
+				<Filename>data\muggenstuermer\electric\electricity_line_02.cfg</Filename><!-- corner line -->
             </Item>
 		</Variations>
     </ModOp>
@@ -78,7 +78,7 @@
 	<ModOp Type="replace" GUID='101390' Path="Values/Object/Variations">
         <Variations>
 			<Item>
-				<Filename>data\modgraphics\electric\electricity_line_03.cfg</Filename><!-- straight 2 tiles line (between posts)-->
+				<Filename>data\muggenstuermer\electric\electricity_line_03.cfg</Filename><!-- straight 2 tiles line (between posts)-->
             </Item>
 		</Variations>
     </ModOp>
@@ -86,7 +86,7 @@
 	<ModOp Type="replace" GUID='101391' Path="Values/Object/Variations">
         <Variations>
 			<Item>
-				<Filename>data\modgraphics\electric\electricity_line_04.cfg</Filename><!-- straight 3 tiles line (between posts)-->
+				<Filename>data\muggenstuermer\electric\electricity_line_04.cfg</Filename><!-- straight 3 tiles line (between posts)-->
             </Item>
 		</Variations>
     </ModOp>
@@ -94,7 +94,7 @@
 	<ModOp Type="replace" GUID='101392' Path="Values/Object/Variations">
         <Variations>
 			<Item>
-				<Filename>data\modgraphics\electric\electricity_line_05.cfg</Filename><!-- could not find it ingame ? -->
+				<Filename>data\muggenstuermer\electric\electricity_line_05.cfg</Filename><!-- could not find it ingame ? -->
             </Item>
 		</Variations>
     </ModOp>
@@ -114,7 +114,7 @@
 				</Standard>
 				<TrafficFeedbackUnit>
 					<UnitType>Bus</UnitType>
-					<CfgPath>data\modgraphics\electric\bus_01.cfg</CfgPath>
+					<CfgPath>data\muggenstuermer\electric\bus_01.cfg</CfgPath>
 					<SpeedSource>TakeFromAsset</SpeedSource>
 					<OverwriteSpeed>0.4</OverwriteSpeed>
 					<ResidentCamInteraction>Bus</ResidentCamInteraction>
@@ -123,7 +123,7 @@
 					<TrailerCount>1</TrailerCount>
 					<TrailerEndPartCfgVariations>
 						<Item>
-							<CfgVariation>data\modgraphics\electric\bus_trailer.cfg</CfgVariation>
+							<CfgVariation>data\muggenstuermer\electric\bus_trailer.cfg</CfgVariation>
 						</Item>
 					</TrailerEndPartCfgVariations>
 				</Trailer>
@@ -144,7 +144,7 @@
 				</Standard>
 				<TrafficFeedbackUnit>
 					<UnitType>Bus</UnitType>
-					<CfgPath>data\modgraphics\electric\bus_01.cfg</CfgPath>
+					<CfgPath>data\muggenstuermer\electric\bus_01.cfg</CfgPath>
 					<SpeedSource>TakeFromAsset</SpeedSource>
 					<OverwriteSpeed>0.4</OverwriteSpeed>
 					<ResidentCamInteraction>Bus</ResidentCamInteraction>
@@ -166,7 +166,7 @@
 				</Standard>
 				<TrafficFeedbackUnit>
 					<UnitType>Bus</UnitType>
-					<CfgPath>data\modgraphics\electric\bus_03.cfg</CfgPath>
+					<CfgPath>data\muggenstuermer\electric\bus_03.cfg</CfgPath>
 					<SpeedSource>TakeFromAsset</SpeedSource>
 					<OverwriteSpeed>0.4</OverwriteSpeed>
 					<ResidentCamInteraction>Bus</ResidentCamInteraction>
@@ -188,7 +188,7 @@
 				</Standard>
 				<TrafficFeedbackUnit>
 					<UnitType>Bus</UnitType>
-					<CfgPath>data\modgraphics\electric\bus_02.cfg</CfgPath>
+					<CfgPath>data\muggenstuermer\electric\bus_02.cfg</CfgPath>
 					<SpeedSource>TakeFromAsset</SpeedSource>
 					<OverwriteSpeed>0.4</OverwriteSpeed>
 					<ResidentCamInteraction>Bus</ResidentCamInteraction>

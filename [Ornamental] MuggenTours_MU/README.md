@@ -33,6 +33,11 @@ Changelog - 1.11
 ---------------------------
 	- GU17 modinfo.json correction.
 	
+---------------------------
+Changelog - 1.12
+---------------------------
+	- Changed mod folder structure.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
