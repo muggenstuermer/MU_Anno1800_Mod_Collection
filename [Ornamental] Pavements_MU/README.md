@@ -16,6 +16,11 @@ There may be a second version of this in the future, in which the blockers are d
 - ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
 
 
+### Recommended active mods :
+
+- ["New Horizons" by @Taubenangriff](https://mod.io/g/anno-1800/m/new-horizons)
+
+
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
 
 [Download latest Marketplaces_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
@@ -64,7 +69,13 @@ Changelog - 1.6
 Changelog - 1.7
 ---------------------------
 	- added New Horizons support.
-	- mods that are in an InternalID conflict prevented from loading
+	- mods that are in an InternalID conflict prevented from loading.
+	
+---------------------------
+Changelog - 1.71
+---------------------------
+	- more arctic decals added.
+	- added some decals from New Horizons mod (active NewHorizons is needed).
 	
 	
 	

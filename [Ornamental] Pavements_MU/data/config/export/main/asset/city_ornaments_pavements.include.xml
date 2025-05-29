@@ -100,6 +100,13 @@ Decals ARCTIC
 xxxxxxxxx
 1337506124 Arctic 1x1 Pavement-Snow
 
+Decals NEW HORIZONS
+xxxxxxxxx
+1337507297 Asian Paving
+1337507298 YinYang-Pflaster
+1337507299 gravel_chess_base
+1337507300 gravel_unraked_path xcross
+
 1337506125 Trigger
 
 -->
@@ -5271,6 +5278,51 @@ xxxxxxxxx
 						<Item>
 							<Filename>data\muggenstuermer\buildings\ornamental\pavement\arctic\decal_1x1_01.cfg</Filename>
 						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_07.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_09.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_10.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_11.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_12.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_13.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\arctic_decals\snow_14.cfg</Filename>
+						</Item>
 					</Variations>
                 </Object>
 				<Constructable />
@@ -5289,7 +5341,254 @@ xxxxxxxxx
 			</Values>
         </Asset>
 	</ModOp>
-	
+	<!-- Original Asian Paving Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507297</GUID>
+                    <Name>gravel_unraked_yinyang</Name>
+                   <IconFilename>data/graphics/ui/icons/ornament/asia_stone/icon_asia_stone_1x1.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>1414016025</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337507297</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\new_horizons\new_horizons_1x1_01.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>1414018325</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	<!-- Original YinYang-Pflaster Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507298</GUID>
+                    <Name>gravel_unraked_yinyang</Name>
+                    <IconFilename>data/graphics/ui/icons/ornament/gravel/yinyang.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>1414016008</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337507298</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\new_horizons\new_horizons_1x1_02.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>1414018318</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	<!-- Original gravel_chess_base-Pflaster Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507299</GUID>
+                    <Name>gravel_chess_base</Name>
+                    <IconFilename>data/graphics/ui/icons/ornament/gravel/chessboard.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>1414016006</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337507299</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\new_horizons\new_horizons_1x1_03.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>1414018317</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	<!-- Original gravel_unraked_path-Pflaster Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507300</GUID>
+                    <Name>gravel_unraked_path</Name>
+                    <IconFilename>data\graphics\ui\icons\ornament\gravel\pattern\x_01.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>1414016014</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337507300</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\new_horizons\new_horizons_1x1_04.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>1414018320</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="add" GUID='1337502634' Path="/Values/ConstructionCategory/BuildingList">
@@ -5387,11 +5686,25 @@ xxxxxxxxx
 		<Item>
 			<Building>1337506124</Building><!-- Arctic 1x1 Pavement -->
 		</Item>
+		
+		
+		<Item>
+			<Building>1337507297</Building><!--  Asian Paving -->
+		</Item>
+		<Item>
+			<Building>1337507298</Building><!--  YinYang-Pflaster -->
+		</Item>
+		<Item>
+			<Building>1337507299</Building><!--  gravel_chess_base -->
+		</Item>
+		<Item>
+			<Building>1337507300</Building><!--  gravel_unraked_path -->
+		</Item>
 
 	</ModOp>
 	
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-	<ModOp Type="add" GUID='1337502635,1337507181' Path="/Values/ConstructionCategory/BuildingList">
+	<ModOp Type="add" GUID='1337502635' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337502678</Building><!-- Original Pflaster -->
 		</Item>
@@ -5487,8 +5800,131 @@ xxxxxxxxx
 			<Building>1337506124</Building><!-- Arctic 1x1 Pavement -->
 		</Item>
 		
+		<Item>
+			<Building>1337507297</Building><!--  Asian Paving -->
+		</Item>
+		<Item>
+			<Building>1337507298</Building><!--  YinYang-Pflaster -->
+		</Item>
+		<Item>
+			<Building>1337507299</Building><!--  gravel_chess_base -->
+		</Item>
+		<Item>
+			<Building>1337507300</Building><!--  gravel_unraked_path -->
+		</Item>
+		
 	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="add" GUID='1337507181' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337502678</Building><!-- Original Pflaster -->
+		</Item>
+		<Item>
+			<Building>1337502679</Building><!-- Original Friedhofspflaster -->
+		</Item>
+		<Item>
+			<Building>1337502680</Building><!-- Original Mosaikpflaster -->
+		</Item>
+		<Item>
+			<Building>1337502681</Building><!-- Original Promenade -->
+		</Item>
+		<Item>
+			<Building>1337502682</Building><!-- Original Betonboden -->
+		</Item>
+		<Item>
+			<Building>1337502683</Building><!-- Original Gehweg -->
+		</Item>
+		<Item>
+			<Building>1337502684</Building><!-- Original Kopfsteinpflaster -->
+		</Item>
+		<Item>
+			<Building>1337502685</Building><!-- Original Helles Kopfsteinpflaster -->
+		</Item>
+		<Item>
+			<Building>1337501340</Building><!-- Original Hacienda Pflaster Kopie -->
+		</Item>
 	
+		<Item>
+			<Building>1337502643</Building><!-- Friedhofs Platz -->
+		</Item>
+		<Item>
+			<Building>1337502644</Building><!-- Alter Pflasterweg Platz -->
+		</Item>
+		<Item>
+			<Building>1337502645</Building><!-- Überdachter Platz -->
+		</Item>
+		<Item>
+			<Building>1337502646</Building><!-- Einfacher Platz -->
+		</Item>
+		<Item>
+			<Building>1337502648</Building><!-- NW Plaza 01 -->
+		</Item>
+		<Item>
+			<Building>1337502649</Building><!-- NW Plaza 02 -->
+		</Item>
+		<Item>
+			<Building>1337502650</Building><!-- NW Plaza 03 -->
+		</Item>
+		<Item>
+			<Building>1337502651</Building><!-- NW Plaza 04 -->
+		</Item>
+		<Item>
+			<Building>1337502652</Building><!-- NW Plaza 05 -->
+		</Item>
+		<Item>
+			<Building>1337502653</Building><!-- NW Plaza 06 -->
+		</Item>
+		<Item>
+			<Building>1337502654</Building><!-- NW Plaza 07 -->
+		</Item>
+		<Item>
+			<Building>1337502655</Building><!-- NW Plaza 08 -->
+		</Item>
+		<Item>
+			<Building>1337502656</Building><!-- NW Plaza 09 -->
+		</Item>
+		<Item>
+			<Building>1337502657</Building><!-- NW Plaza 10 -->
+		</Item>
+		<Item>
+			<Building>1337502658</Building><!-- NW Plaza 11 -->
+		</Item>
+		<Item>
+			<Building>1337502686</Building><!-- Sandfläche -->
+		</Item>
+		<Item>
+			<Building>1337502647</Building><!-- Sand Platz -->
+		</Item>
+		<Item>
+			<Building>1337502784</Building><!-- Original Gras Kopie NW -->
+		</Item>
+		<Item>
+			<Building>1337502906</Building><!-- Original Traditioneller Weg Kopie -->
+		</Item>
+		<Item>
+			<Building>1337502907</Building><!-- Original Traditionelles Terracotta-Pflaster Kopie -->
+		</Item>
+		<Item>
+			<Building>1337502932</Building><!-- Agriculture Field -->
+		</Item>
+		<Item>
+			<Building>1337506124</Building><!-- Arctic 1x1 Pavement -->
+		</Item>
+		
+		<Item>
+			<Building>1337507297</Building><!--  Asian Paving -->
+		</Item>
+		<Item>
+			<Building>1337507298</Building><!--  YinYang-Pflaster -->
+		</Item>
+		<Item>
+			<Building>1337507299</Building><!--  gravel_chess_base -->
+		</Item>
+		<Item>
+			<Building>1337507300</Building><!--  gravel_unraked_path -->
+		</Item>
+		
+	</ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU Africa xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="add" GUID='1337502636' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
@@ -5602,6 +6038,19 @@ xxxxxxxxx
 		<Item>
 			<Building>1337502932</Building><!-- Agriculture Field -->
 		</Item>
+		
+		<Item>
+			<Building>1337507297</Building><!--  Asian Paving -->
+		</Item>
+		<Item>
+			<Building>1337507298</Building><!--  YinYang-Pflaster -->
+		</Item>
+		<Item>
+			<Building>1337507299</Building><!--  gravel_chess_base -->
+		</Item>
+		<Item>
+			<Building>1337507300</Building><!--  gravel_unraked_path -->
+		</Item>
 	</ModOp>
 	
 	<ModOp Type="add" GUID='1337502909' Path="/Values/ConstructionCategory/BuildingList">
@@ -5638,7 +6087,7 @@ xxxxxxxxx
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337506125</GUID>
+					<GUID>1337507301</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -5859,6 +6308,21 @@ xxxxxxxxx
 												<Asset>1337506124</Asset>
 											</Item>
 											
+											<Item>
+												<Asset>1337507297</Asset>
+											</Item>
+											<Item>
+												<Asset>1337507298</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337507299</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337507300</Asset>
+											</Item>
+											
 										</UnlockAssets>
 										<UnhideAssets>
 											<Item>
@@ -6053,6 +6517,21 @@ xxxxxxxxx
 											
 											<Item>
 												<Asset>1337506124</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337507297</Asset>
+											</Item>
+											<Item>
+												<Asset>1337507298</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337507299</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337507300</Asset>
 											</Item>
 											
 										</UnhideAssets>
