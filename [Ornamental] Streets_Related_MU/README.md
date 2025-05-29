@@ -1,0 +1,155 @@
+# Streets_Related_MU
+
+![](../doc/streets_related_banner.jpg)
+
+This mod will contain all my modifications in the future, which are directly related to the topic “streets”.
+Street mods from City_Ornaments and Harbour_Ornaments.
+
+### Necessary active mods :
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
+
+
+
+
+## Changelogs
+
+---------------------------
+Release - 1.0
+---------------------------
+	- This mod provides different round road intersection covers !
+	- Crossroads One-One Buildblocker print V1
+	- Intersection One-One Buildblocker print V2
+	- Intersection One-Two
+	- Intersection Two-Two
+	
+---------------------------
+Changelog - 1.1
+---------------------------
+	- Original streets included in the construction menu
+	- added known streets and street-related parts from City_Ornaments_MU_2
+	- Fixed InternalID collisions with New Horizons, thereby also restructuring some objects
+	- created bridges for different possibilities - road bridges - pedestrian bridges - railway bridges
+	- reworked known water channels - bridges and optics - remodelling due to added bridges
+		- The dirt road has received a new bridge for the natural water channel, based on the next cdlc ‘ dragon garden ’
+		- The cobblestone road has ‘ NO ’ bridge for all mod and vanilla channels.
+		- The railway tracks have kept known natural water channel railway bridge 
+	- added a modular lake that can be used under all bridges, excluding pedestrian bridges (hinders the use of the bridge through feedback).
+		- Due to the system and depending on the construction method, small ‘ holes ’ can occur because a wrong object was placed.the lake contains all parts to close these gaps correctly.click on the object and search for the matching piece with the arrow keys in the UI !
+	- added not visible Harbour_Ornaments_MU_2 content - concerns the construction of the roads from land to water
+	- Original water canals modified so that original bridge ONLY appears with the dirt road. with the stone road the bridge part is replaced by canal parts to be able to use one of the mod bridges ! Only in Enbesa nothing was changed.
+	- Round road covers in the NW have been colour matched to Jakob's Improved Streets mod
+	- The regions have all received their own roundabouts
+	- tweak options created, which are used as standard in the mod, but have to be reset when using iModYourAnno.
+	
+	--------------------------
+	Bridges Instruction manual
+	--------------------------
+		- Road bridges :
+		-------------------
+			so that everything crosses the bridge:
+				- always build the bridge first
+				- then under the bridge as desired: natural water channel or one of the overbuildable channels from this mod or vanilla channel (no sewer, no roads!)
+				- finally build a road through the bridge / along the bridge
+				
+		- Pedestrian bridges :
+		--------------------
+				- always build a bridge first
+				- then under the bridge as desired: natural water channel or vanilla channel or a flower bed etc. IMPORTANT ! (no sewer, no roads, no overbuildable canal - ornamental !)
+				- connect the road to the ends of the bridge
+				
+		- Railway bridges :
+		--------------------
+			so that the train crosses the bridge:
+				- always build the bridge first
+				- then under the bridge, you can choose between a natural water channel or one of the overbuild channels from this mod.
+				- finally build the tracks through the bridge / along the bridge
+					- the modular road bridge and the modular railway bridge can be crossed. there is an extra object integrated in the modular railway bridge after the crossing (use shift+V or arrow keys in the ui).
+				
+		- Modular bridges :
+		--------------------
+			so that everything works:
+				- always build the bridge first
+				- then place the appropriate end piece, road or rails.
+				- then under the bridge : one of the overbuilding channels from this mod
+				- then build the roads/rails through the bridge/along the bridge - at a crossing of the modular road bridge and the modular railway bridge, there is a transition object after the regular cross object at the rails, switch to the next object with shift+V or the arrow keys in the UI.
+				
+				
+---------------------------
+Changelog - 1.2
+---------------------------
+	- Created a separate harbour construction menu
+	- added known harbour roads from Harbour_Ornaments_MU_2
+	- added functional bridges for the harbour
+	- added a sand road for the land on request
+	- created several Enbesa fake roads
+	- added swans for the overbuildable canal on request (low probability)
+	- Enbesa water channel available as ornament 
+	- preparations made for upcoming update
+	
+	--------------------------------
+	Harbour bridges instruction manual
+	--------------------------------
+		- Road bridges :
+		-------------------
+			in contrast to the bridges on land, you don't have to do anything more than build the object.
+			
+		- Pedestrian bridges :
+		--------------------
+			in contrast to the bridges on land, you don't have to do anything more than build the object and pull the quay road or the quay at the ends of the bridge slightly into the bridge.
+			
+		- Modular bridges :
+		--------------------
+			in contrast to the bridges on land, all you have to do here is build the object and pull the quay road or the quay at the ends of the bridge a little into the bridge.
+				- the modular pedestrian bridge can be built over. this means that you can pull a quay road under this bridge (also possible in parallel!). the road is then used by the market trolleys while the pedestrians walk on the bridge.
+				  only with higher vehicles does it look a bit strange. this feature is a random product, which is why it cannot be ruled out that the bridge height may be adjusted in the future.
+				  
+				- the end section of the modular pedestrian bridge contains a variation of a straight section, where the <WaterBlocker> has been removed so that the small feedback boats can pass underneath.
+				  the possibility of using it is self-explanatory.
+		
+				
+---------------------------
+Changelog - 1.3
+---------------------------
+	- GU17 modinfo.json correction.
+	- The build menu is no longer scrollable due to a bug in GU17, so the build menu has been split.
+	  Bug because UBI itself has menus with more than 32 entries !
+	  
+---------------------------
+Changelog - 1.4
+---------------------------
+	- various objects corrected.
+	- Gravel road revised
+	- Traditional terracotta paving from CDLC 11 ‘Fiesta’ added as fake road
+	
+---------------------------
+Changelog - 1.41
+---------------------------
+	- Various objects moved to a new mod
+	
+---------------------------
+Changelog - 1.42
+---------------------------
+	- because of Rails_Related_MU some structural changes were made.rail elements were completely outsourced to Rails_Related_MU.mod is still in the rework phase.
+
+---------------------------
+Changelog - 1.5
+---------------------------
+	- added New Horizons support.
+	- mods that are in an InternalID conflict prevented from loading
+	
+---------------------------
+Changelog - 1.6
+---------------------------
+	- 9 InternalID changed to avoid conflicts with other mods.
+	- Round Streetcovers for New Horizons edited.
+	  
+	  
+Special thanks to @darknesswei#2951 for the Chinese translation and Tonton Yip#8766 for the French translation. Also a big thank you to @Aveneger432 from Nexus for his Polish translation and to @Ionovia#8097 for constantly testing and introducing the mods.
+Thank you all very much !!!
+	
+	
+	
+[Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

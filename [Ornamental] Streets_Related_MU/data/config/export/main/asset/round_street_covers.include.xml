@@ -12,6 +12,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx ROUND STREET COVERS xxxxxxxxxxxxxxxxxxxxxxxx
 1337502512 Round StreetCover ONE-TWO NW
 1337502513 Round StreetCover TWO-TWO NW
 
+1337507292 Round StreetCover ONE-ONE-BUILDBLOCKER-V1 NEW HORIZONS
+1337507293 Round StreetCover ONE-ONE-BUILDBLOCKER-V2 NEW HORIZONS
+1337507294 Round StreetCover ONE-TWO NEW HORIZONS
+1337507295 Round StreetCover TWO-TWO NEW HORIZONS
+
 1337502530 Round StreetCover ONE-ONE-BUILDBLOCKER-V1 AFRICA
 1337502531 Round StreetCover ONE-ONE-BUILDBLOCKER-V2 AFRICA
 1337502532 Round StreetCover ONE-TWO AFRICA
@@ -993,6 +998,489 @@ xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES LAND xxxxxxxxxxxxxxxxxxxxxxxx
                 </Ornament>
 			</Values>
         </Asset>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCovers NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1 NEW HORIZONS -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507292</GUID>
+                    <Name>Round_Street_Cover</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/cover_one_one_v1.png</IconFilename>
+					<InfoDescription>257109</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502500</TextOverride>
+                </Text>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337507292</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Culture>
+					<Attractiveness>5</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_01b.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_01c.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_01d.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_01e.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_05a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_05b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_06a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_06b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_07.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_07a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_07b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_rondel_adjust_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_rondel_adjust_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_rondel_adjust_01b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_rondel_no_adjust_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_rondel_no_adjust_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_rondel_no_adjust_01b.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+			</Values>
+        </Asset>
+		
+	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V2 NEW HORIZONS -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507293</GUID>
+                    <Name>Round_Street_Cover</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/cover_one_one_v2.png</IconFilename>
+					<InfoDescription>257109</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502501</TextOverride>
+                </Text>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337507293</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Culture>
+					<Attractiveness>5</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_02a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_02b.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_02c.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_02d.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_02e.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_03a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_03b.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_04a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_one_04b.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+			</Values>
+        </Asset>
+		
+	<!-- Round StreetCover ONE-TWO NEW HORIZONS -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507294</GUID>
+                    <Name>Round_Street_Cover</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/cover_one_two.png</IconFilename>
+					<InfoDescription>257109</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502502</TextOverride>
+                </Text>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337507294</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Culture>
+					<Attractiveness>5</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_two_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_two_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_two_01b.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_two_01c.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_two_01d.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_two_01e.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_two_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_two_02a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_one_two_02b.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+			</Values>
+        </Asset>
+		
+	<!-- Round StreetCover TWO-TWO NEW HORIZONS -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337507295</GUID>
+                    <Name>Round_Street_Cover</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/cover_two_two.png</IconFilename>
+					<InfoDescription>257109</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337502503</TextOverride>
+                </Text>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<PickingAsset>1337507295</PickingAsset>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Culture>
+					<Attractiveness>5</Attractiveness>
+					<CultureType>Culture</CultureType>
+				</Culture>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_two_two_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_two_two_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_two_two_01b.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_two_two_01c.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_two_two_01d.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_two_two_01e.cfg</Filename>
+						</Item>
+						
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_two_two_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_two_two_02a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\street_covers\new_horizons\streetcover_5x5_two_two_02b.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				
+				<Constructable />
+				<Mesh />
+				<Locked />
+				<FeedbackController />
+				<AmbientMoodProvider />
+			<Pausable />
+			<Infolayer />
+			<Culture />
+				
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>OrnamentalBuilding</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</DestroySounds>
+				</SoundEmitter>
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+			</Values>
+        </Asset>
+
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Round StreetCovers AFRICA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1 AFRICA -->
@@ -3200,7 +3688,25 @@ xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES LAND xxxxxxxxxxxxxxxxxxxxxxxx
 		<Item>
 			<Building>1337502527</Building><!-- Modulare Endstücke -->
 		</Item>
-    </ModOp>	
+    </ModOp>
+
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Menü NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!--<ModOp Type="addNextSibling" GUID='1337502507' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1337502633']">-->
+	<ModOp Type="addNextSibling" GUID='1337507288' Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+        <Item>
+			<Building>1337507292</Building><!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V1 NW -->
+		</Item>
+		<Item>
+			<Building>1337507293</Building><!-- Round StreetCover ONE-ONE-BUILDBLOCKER-V2 NW -->
+		</Item>
+		<Item>
+			<Building>1337507294</Building><!-- Round StreetCover ONE-TWO NW -->
+		</Item>
+		<Item>
+			<Building>1337507295</Building><!-- Round StreetCover TWO-TWO NW -->
+		</Item>
+	</ModOp>	
+	
 	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Menü Enbesa xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!--<ModOp Type="addNextSibling" GUID='1337502508' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1337502633']">-->
 	<ModOp Type="addNextSibling" GUID='1337502508' Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
@@ -3253,7 +3759,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES LAND xxxxxxxxxxxxxxxxxxxxxxxx
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337505120</GUID>
+					<GUID>1337507296</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -3368,6 +3874,19 @@ xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES LAND xxxxxxxxxxxxxxxxxxxxxxxx
 												<Asset>1337502533</Asset>
 											</Item>
 											
+											<Item>
+												<Asset>1337507292</Asset>
+											</Item>
+											<Item>
+												<Asset>1337507293</Asset>
+											</Item>
+											<Item>
+												<Asset>1337507294</Asset>
+											</Item>
+											<Item>
+												<Asset>1337507295</Asset>
+											</Item>
+											
 										</UnlockAssets>
 										<UnhideAssets>
 										
@@ -3460,6 +3979,19 @@ xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES LAND xxxxxxxxxxxxxxxxxxxxxxxx
 											</Item>
 											<Item>
 												<Asset>1337502533</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337507292</Asset>
+											</Item>
+											<Item>
+												<Asset>1337507293</Asset>
+											</Item>
+											<Item>
+												<Asset>1337507294</Asset>
+											</Item>
+											<Item>
+												<Asset>1337507295</Asset>
 											</Item>
 										</UnhideAssets>
 									</ActionUnlockAsset>
