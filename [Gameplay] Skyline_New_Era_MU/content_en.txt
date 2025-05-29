@@ -118,6 +118,12 @@ Changelog - 1.34
 ---------------------------
 
 	- update README,modinfo.json and content_en.txt
+	
+---------------------------
+Changelog - 1.35
+---------------------------
+
+	- correction of AssociatedRegions
 
 	
 	

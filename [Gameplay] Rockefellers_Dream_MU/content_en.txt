@@ -133,6 +133,12 @@ Changelog - 1.33
 	- correction of some modloader warnings and path corrections in some files.
 	- update README,modinfo.json and content_en.txt
 	
+---------------------------
+Changelog - 1.34
+---------------------------
+
+	- correction of modinfo.json and AssociatedRegions
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

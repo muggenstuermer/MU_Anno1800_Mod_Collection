@@ -1,9 +1,13 @@
 {
-  "Version": "1.33",
+  "Version": "1.34",
   "ModID": "Rockefellers_Dream_MU",
   "IncompatibleIds": [],
   "ModDependencies": [ 
 	"A_Modified_Ornaments_Tab",
+	"Shared_Objects_MU"
+  ],
+  "LoadAfterIds": [
+    "A_Modified_Ornaments_Tab",
 	"Shared_Objects_MU"
   ],
   "Category": {
