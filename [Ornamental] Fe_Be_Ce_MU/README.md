@@ -47,5 +47,10 @@ Changelog - 1.1
 ---------------------------
 	- added New Horizons support.
 	
+---------------------------
+Changelog - 1.11
+---------------------------
+	- Some typos in paths where graphics were not loading have been corrected.
+	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
