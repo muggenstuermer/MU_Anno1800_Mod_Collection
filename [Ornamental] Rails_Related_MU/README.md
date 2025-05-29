@@ -77,6 +77,11 @@ Changelog - 1.2
 	- added New Horizons support.without "Coke" powerplant and the chain for it
 	- Makes Bright Harvest and Industrial Zone Pack Buildable on Land + Harbor for New Horizons
 	- dependence on third-party mods excluded.
+	
+---------------------------
+Changelog - 1.3
+---------------------------
+	- Bright Harvest and Industrial Zone Pack for Harbor moved to new mod "Ornament_Mania_MU".
 	  
 
 A big thank you goes to @Finchen.

@@ -31,21 +31,16 @@
 
 1337505232 Buildmenu Industry Related Ornaments HARBOR ENBESA
 
-
-1337505852 Buildmenu Reiche Ernte Harbor OW
-1337505853 Buildmenu Reiche Ernte Harbor NW
-
-1337507189 Buildmenu Reiche Ernte Harbor HORIZONS +++
-
-1337505854 Buildmenu Reiche Ernte Harbor ENBESA
-
-1337505855 Buildmenu Industrie Zone Harbor OW
-1337505856 Buildmenu Industrie Zone Harbor NW
-
-1337507190 Buildmenu Industrie Zone Harbor HORIZONS +++
-
-1337505857 Buildmenu Industrie Zone Harbor ENBESA
-
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+1337505852 Buildmenu Reiche Ernte Harbor OW                      x
+1337505853 Buildmenu Reiche Ernte Harbor NW                      x
+1337507189 Buildmenu Reiche Ernte Harbor HORIZONS +++            x
+1337505854 Buildmenu Reiche Ernte Harbor ENBESA                  x  <-- MOVED TO NEW MOD Ornament_Mania_MU
+1337505855 Buildmenu Industrie Zone Harbor OW                    x
+1337505856 Buildmenu Industrie Zone Harbor NW                    x
+1337507190 Buildmenu Industrie Zone Harbor HORIZONS +++          x
+1337505857 Buildmenu Industrie Zone Harbor ENBESA                x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Rails Related Ornaments OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -548,7 +543,7 @@
             </Values>
         </Asset>
     </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bright Harvest HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bright Harvest HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -568,8 +563,8 @@
                 <Locked />
             </Values>
         </Asset>
-    </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bright Harvest HARBOR NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </ModOp> -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bright Harvest HARBOR NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -589,8 +584,8 @@
                 <Locked />
             </Values>
         </Asset>
-    </ModOp>
-	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bright Harvest HARBOR NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </ModOp> -->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bright Harvest HARBOR NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -610,8 +605,8 @@
                 <Locked />
             </Values>
         </Asset>
-    </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bright Harvest HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </ModOp> -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Bright Harvest HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -631,8 +626,8 @@
                 <Locked />
             </Values>
         </Asset>
-    </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </ModOp> -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -652,8 +647,8 @@
                 <Locked />
             </Values>
         </Asset>
-    </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </ModOp> -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -673,8 +668,8 @@
                 <Locked />
             </Values>
         </Asset>
-    </ModOp>
-	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </ModOp> -->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR NEW HORIZON xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -694,8 +689,8 @@
                 <Locked />
             </Values>
         </Asset>
-    </ModOp>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    </ModOp> -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Buildmenu Industrial Zone Pack HARBOR ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     <ModOp Type="addNextSibling" GUID="1010359">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -715,7 +710,7 @@
                 <Locked />
             </Values>
         </Asset>
-    </ModOp>
+    </ModOp> -->
     <!-- Add OW Buildmenu HARBOR OW to Ornamentsmenu-->
     <ModOp Type="addPrevSibling" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList/Item[1]">
         <Item>
@@ -724,12 +719,12 @@
         <Item>
             <Building>1337505230</Building>
         </Item>
-        <Item>
+        <!--<Item>
             <Building>1337505852</Building>
         </Item>
         <Item>
             <Building>1337505855</Building>
-        </Item>
+        </Item>-->
     </ModOp>
     <!-- Add NW Buildmenu HARBOR NW to Ornamentsmenu-->
     <ModOp Type="addPrevSibling" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList/Item[1]">
@@ -739,12 +734,12 @@
         <Item>
             <Building>1337505231</Building>
         </Item>
-        <Item>
+        <!--<Item>
             <Building>1337505853</Building>
         </Item>
         <Item>
             <Building>1337505856</Building>
-        </Item>
+        </Item>-->
     </ModOp>
 	
 	<!-- Add NEW HORIZON Buildmenu HARBOR NEW HORIZON to Ornamentsmenu-->
@@ -755,12 +750,12 @@
         <Item>
             <Building>1337507188</Building>
         </Item>
-        <Item>
+        <!--<Item>
             <Building>1337507189</Building>
         </Item>
         <Item>
             <Building>1337507190</Building>
-        </Item>
+        </Item>-->
     </ModOp>
 	
     <!-- Add Arctic Buildmenu HARBOR Arctic to Ornamentsmenu
@@ -777,12 +772,12 @@
         <Item>
             <Building>1337505232</Building>
         </Item>
-        <Item>
+        <!--<Item>
             <Building>1337505854</Building>
         </Item>
         <Item>
             <Building>1337505857</Building>
-        </Item>
+        </Item>-->
     </ModOp>
 </ModOps>
 
