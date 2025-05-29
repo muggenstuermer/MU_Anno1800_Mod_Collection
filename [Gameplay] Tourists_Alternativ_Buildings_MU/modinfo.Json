@@ -1,9 +1,12 @@
 {
-  "Version": "1.41",
+  "Version": "1.42",
   "ModID": "Tourists_Alternativ_Buildings_MU",
   "IncompatibleIds": [],
   "ModDependencies": [ 
 	"Shared_Objects_MU"
+  ],
+  "LoadAfterIds": [
+    "Shared_Objects_MU"
   ],
   "Category": {
     "Chinese": "Building",

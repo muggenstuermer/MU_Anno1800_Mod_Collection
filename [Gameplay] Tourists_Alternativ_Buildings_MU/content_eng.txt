@@ -96,6 +96,12 @@ Changelog - 1.41
 ---------------------------
 
 - update README,modinfo.json and content_en.txt
+
+---------------------------
+Changelog - 1.42
+---------------------------
+
+	- correction of modinfo.json and AssociatedRegions
 	
 	
 	
