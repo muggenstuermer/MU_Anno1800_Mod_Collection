@@ -1,0 +1,906 @@
+<ModOps>
+	<!-- muggenstuermer GUID-Range  1337500000 - 1337519999  -->
+
+	<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx SEASON TAB xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+	<!-- Add Anno 1800 ULC - Imperial Pack - PreOrder Bonus to NEW HORIZON + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>6413</Building> -->
+	<ModOp Type="merge" GUID="118239,118240,118241,80128,80129,80130,25929,25930,25931" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - The Anarchist to NEW HORIZON + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>5987</Building> -->
+	<ModOp Type="merge" GUID="112133,111929,112299" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - Sunken Treasure to NEW HORIZON + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>6367</Building> -->
+	<ModOp Type="merge" GUID="112300,113324,113325,113326" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - Botanica to NEW HORIZON + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>501916</Building> -->
+	<ModOp Type="merge" GUID="114295,114299,114297,114296,114300,114293,114298,114294,114301,114302,114303,112301,114776,114777,114778" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - The Passage to NEW HORIZON + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>6368</Building> -->
+	<ModOp Type="merge" GUID="112302" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - Seat of Power to NEW HORIZON + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>6369</Building> -->
+	<ModOp Type="merge" GUID="118229,118230,269293,269294,269295,269296,269297,269298,269303" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - Bright Harvest to NEW HORIZON Ornaments + ENBESA Land Menu -->
+	<!-- Prepare AssociatedRegions Building>5993</Building> -->
+	<ModOp Type="merge" GUID="269785,269790,269791,269792,269793,269794,269795,269796,269797,269842,270038,269772,269777,269844,269779,269784,269798,269799,269800,269801,269802,269804,269805,269806,269807,269808,269809,118231,118232" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - Tourism to NEW HORIZON Ornaments + ENBESA Land Menu -->
+	<!-- Prepare AssociatedRegions Building>134740</Building> -->
+	<ModOp Type="merge" GUID="134721,134722,134723,134724,134725,134726,134727,134728,134729,134730,134731,134732,134733,134734,134735,134737,134738,134736,134764,134720,134741,134742,80134,80133" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - HighLife to NEW HORIZON Ornaments + ENBESA Land Menu -->
+	<!-- Prepare AssociatedRegions Building>136236</Building> -->
+	<ModOp Type="merge" GUID="136238,136239,136240,136410,136241,136242,416,136243,137563,137564,80132,80131" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - Seeds of Change to NEW HORIZON Ornaments + ENBESA Land Menu -->
+	<!-- Prepare AssociatedRegions Building>6410</Building> -->
+	<ModOp Type="merge" GUID="25194,25227,25168,25169,25172,25173,25174,25703,25704,25705,25706,80212,80215" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - Empire of the Skies to NEW HORIZON Ornaments + ENBESA Land Menu -->
+	<!-- Prepare AssociatedRegions Building>7229</Building> -->
+	<ModOp Type="merge" GUID="3356,3357,3358,3360,3361,3362,3363,3368,80213,80216" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 DLC - New World Rising to NEW HORIZON Ornaments + ENBESA Land Menu -->
+	<!-- Prepare AssociatedRegions Building>6412</Building> -->
+	<ModOp Type="merge" GUID="7895,7181,7879,7880,7179,7085,7178,7180,80214,80217" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Enbesa Season Tab -->
+	<ModOp Type="add" GUID="1337505011" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>6413</Building>
+		</Item>
+		<Item>
+			<Building>5987</Building>
+		</Item>
+		<Item>
+			<Building>6367</Building>
+		</Item>
+		<Item>
+			<Building>501916</Building>
+		</Item>
+		<Item>
+			<Building>6368</Building>
+		</Item>
+		<Item>
+			<Building>6369</Building>
+		</Item>
+		<Item>
+			<Building>5993</Building>
+		</Item>
+		<Item>
+			<Building>134740</Building>
+		</Item>
+		<Item>
+			<Building>1337507302</Building>
+		</Item>
+		<Item>
+			<Building>136236</Building>
+		</Item>
+		<Item>
+			<Building>6410</Building>
+		</Item>
+		<Item>
+			<Building>7229</Building>
+		</Item>
+		<Item>
+			<Building>6412</Building>
+		</Item>
+	</ModOp>
+	<!-- New Horizons Season Tab -->
+	<ModOp Type="add" GUID="1337505024" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>6413</Building>
+		</Item>
+		<Item>
+			<Building>5987</Building>
+		</Item>
+		<Item>
+			<Building>6367</Building>
+		</Item>
+		<Item>
+			<Building>501916</Building>
+		</Item>
+		<Item>
+			<Building>6368</Building>
+		</Item>
+		<Item>
+			<Building>6369</Building>
+		</Item>
+		<Item>
+			<Building>5993</Building>
+		</Item>
+		<Item>
+			<Building>134740</Building>
+		</Item>
+		<Item>
+			<Building>1337507358</Building>
+		</Item>
+		<Item>
+			<Building>136236</Building>
+		</Item>
+		<Item>
+			<Building>6410</Building>
+		</Item>
+		<Item>
+			<Building>7229</Building>
+		</Item>
+		<Item>
+			<Building>6412</Building>
+		</Item>
+	</ModOp>
+	<!-- Arctic Season Tab -->
+	<ModOp Type="add" GUID="1337505003" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>6413</Building>
+		</Item>
+		<Item>
+			<Building>5987</Building>
+		</Item>
+		<Item>
+			<Building>6367</Building>
+		</Item>
+		<Item>
+			<Building>501916</Building>
+		</Item>
+		<Item>
+			<Building>6368</Building>
+		</Item>
+		<Item>
+			<Building>6369</Building>
+		</Item>
+		<Item>
+			<Building>5993</Building>
+		</Item>
+		<Item>
+			<Building>134740</Building>
+		</Item>
+		<Item>
+			<Building>1337507358</Building>
+		</Item>
+		<Item>
+			<Building>136236</Building>
+		</Item>
+		<Item>
+			<Building>6410</Building>
+		</Item>
+		<Item>
+			<Building>7229</Building>
+		</Item>
+		<Item>
+			<Building>6412</Building>
+		</Item>
+	</ModOp>
+
+	<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Cosmetic TAB xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+	<!-- Add Anno 1800 CDLC 01 - Holiday to NEW HORIZON + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>501941</Building> -->
+	<ModOp Type="merge" GUID="116615,116614,116617,116618,116619,116621,116605,116610,116620,117514,117515,117516,117527,117528,117529,114435" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 02 - Amusement Park to NEW HORIZON Ornaments + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>502137</Building> -->
+	<ModOp Type="merge" GUID="80001,80002,80003,80004,80005,80006,80007,80008,80009,80010,80011,80012,80013,80014,80015,80017" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 City Lights Pack to NEW HORIZON Ornaments + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>502166</Building> -->
+	<ModOp Type="merge" GUID="80040,80041,80042,80043,80044,80045,80046,80047,80048,80049,80050,80051,80052,80057,80058,80059,80060,80061,80062,80063,80064" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 05 - Pedestrian Zone to NEW HORIZON Ornaments + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>502399</Building> -->
+	<ModOp Type="merge" GUID="601933,453,137772,137773,137774,454,137764,137765,137789,137790,137766,137767,137768,137771,137769,137770,137775,137776" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 07 - Seasonal Decorations to NEW HORIZON Ornaments + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>25141</Building> -->
+	<ModOp Type="merge" GUID="25083,25082,25081,25080,25079,25077,25089,25091,25092,25093,25094,25095,25101,25103,25105,25106,25107,25108,25134,25135,25136,25137,25138,25139" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 08 - Industrial Zone to NEW HORIZON Ornaments + ENBESA Land Menu -->
+	<!-- Prepare AssociatedRegions Building>5731</Building> -->
+	<ModOp Type="merge" GUID="388,389,390,391,392,393,394,395,396,679,681,690,691,398,402,405,407,408,409,417,418,1819,612,678,613,1820,1821,677" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- TurTur adds to the CDLC 08 - Industrial Zone menu -->
+	<ModOp Type="add" GUID="1500113075,1500113071,1500113072,1500113073" Path="/Values/Building">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Jakob adds to the CDLC 08 - Industrial Zone menu -->
+	<ModOp Type="merge" GUID="1500011082,1500011081,1500011080" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 09 - Old Town to NEW HORIZON Ornaments + ENBESA Land Menu -->
+	<!-- Prepare AssociatedRegions Building>5249</Building> -->
+	<ModOp Type="merge" GUID="5187,5191,5194,5199,5200,5203,5206,5207,5213,5208,5211,5212,6007,6009" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 10 - Dragon Garden to NEW HORIZON Ornaments + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>10108</Building> -->
+	<ModOp Type="merge" GUID="9259,9261,9262,9263,9264,9265,9266,9308,9267,9268,9270,9271,9334,9273,9274,9275" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 11 - Fiesta Time to NEW HORIZON Ornaments + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>20928</Building> -->
+	<ModOp Type="merge" GUID="20860,20861,20862,20863,20864,20865,20866,20867,20868,20869,20870,20871,20872,20873,20874,20875,20876,20877,20878,20918" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 12 - National Park to ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>25962</Building> -->
+	<ModOp Type="merge" GUID="25871,25888,25895,25896,25898,25899,25900,25901,25902,25903,25904,25905,25906,25907,25908,25909,25910,25911,25912,25913,25926,25927,25957,26059,25960" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 15 - Pirate to NEW HORIZON Ornaments + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>41518</Building> -->
+	<ModOp Type="merge" GUID="41505,41506,41507,41508,41509,41510,41511,41512,41513,41514,41515,41516,41517,41520,41521,41611" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Add Anno 1800 CDLC 16 - Celebration to NEW HORIZON Ornaments + ENBESA Ornaments Land Menu -->
+	<!-- Prepare AssociatedRegions Building>50354</Building> -->
+	<ModOp Type="merge" GUID="50324,50330,50331,50332,50333,50334,50335,50336,50337,50338,50339,50340,50341,50342,50343,50344,50345,50346,50347,50348,50349,50350,50351,50352,50353,50892" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Enbesa Cosmetic Tab -->
+	<ModOp Type="add" GUID="1337505012" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>501941</Building>
+		</Item>
+		<Item>
+			<Building>502137</Building>
+		</Item>
+		<Item>
+			<Building>502166</Building>
+		</Item>
+		<Item>
+			<Building>502399</Building>
+		</Item>
+		<Item>
+			<Building>25141</Building>
+		</Item>
+		<Item>
+			<Building>5731</Building>
+		</Item>
+		<Item>
+			<Building>5249</Building>
+		</Item>
+		<Item>
+			<Building>10108</Building>
+		</Item>
+		<Item>
+			<Building>20928</Building>
+		</Item>
+		<Item>
+			<Building>25962</Building>
+		</Item>
+		<Item>
+			<Building>41518</Building>
+		</Item>
+		<Item>
+			<Building>50354</Building>
+		</Item>
+		<Item>
+			<Building>1500113077</Building>
+		</Item>
+	</ModOp>
+	<!-- New Horizons Cosmetic Tab -->
+	<ModOp Type="add" GUID="1337505025" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>501941</Building>
+		</Item>
+		<Item>
+			<Building>502137</Building>
+		</Item>
+		<Item>
+			<Building>502166</Building>
+		</Item>
+		<Item>
+			<Building>502399</Building>
+		</Item>
+		<Item>
+			<Building>25141</Building>
+		</Item>
+		<Item>
+			<Building>5731</Building>
+		</Item>
+		<Item>
+			<Building>5249</Building>
+		</Item>
+		<Item>
+			<Building>10108</Building>
+		</Item>
+		<Item>
+			<Building>20928</Building>
+		</Item>
+		<!--<Item>
+            <Building>25962</Building>
+        </Item>-->
+		<Item>
+			<Building>41518</Building>
+		</Item>
+		<Item>
+			<Building>50354</Building>
+		</Item>
+		<Item>
+			<Building>1500113077</Building>
+		</Item>
+	</ModOp>
+	<!-- Arctic Cosmetic Tab -->
+	<ModOp Type="add" GUID="1337505004" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>501941</Building>
+		</Item>
+		<Item>
+			<Building>502137</Building>
+		</Item>
+		<Item>
+			<Building>502166</Building>
+		</Item>
+		<Item>
+			<Building>502399</Building>
+		</Item>
+		<Item>
+			<Building>25141</Building>
+		</Item>
+		<Item>
+			<Building>5731</Building>
+		</Item>
+		<Item>
+			<Building>5249</Building>
+		</Item>
+		<Item>
+			<Building>10108</Building>
+		</Item>
+		<Item>
+			<Building>20928</Building>
+		</Item>
+		<Item>
+			<Building>25962</Building>
+		</Item>
+		<Item>
+			<Building>41518</Building>
+		</Item>
+		<Item>
+			<Building>50354</Building>
+		</Item>
+		<Item>
+			<Building>1500113077</Building>
+		</Item>
+	</ModOp>
+
+	<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ENBESA + NEW HORIZONS Special TAB MU xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+	<!-- Add SA Special Reward Menu to ENBESA Special Menu -->
+	<!-- Prepare AssociatedRegions Building>6621</Building> -->
+	<ModOp Type="merge" GUID="102483,116706,117511,117736,118723,893,895,896,24589,112297,112298,112303,112304,112305,102229,102892,102383,7231,12948,10293,10306,10310,10336,30709,30710" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Enbesa Special Tab -->
+	<ModOp Type="add" GUID="1337505013" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>6621</Building>
+		</Item>
+	</ModOp>
+	<!-- New Horizons Special Tab -->
+	<ModOp Type="add" GUID="1337505026" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>6621</Building>
+		</Item>
+	</ModOp>
+	<!-- Arctic Special Tab -->
+	<ModOp Type="add" GUID="1337505005" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>6621</Building>
+		</Item>
+	</ModOp>
+
+	<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ENBESA + NEW HORIZONS Sorted buildings tabs CITY MU xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+	<!-- Add CITY to NEW HORIZON + ENBESA Menu -->
+	<!-- Prepare AssociatedRegions Building>501823</Building> -->
+	<ModOp Type="merge" GUID="114435,102466,102848,6871,30702,30721,33020,37188,37189" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>501497</Building> -->
+	<ModOp Type="merge" GUID="101513,103119,101498,101510,102461,102463,116615,116614,116605,116610,3340,3341,30705,30717" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>502337</Building>501582 -->
+	<ModOp Type="merge" GUID="116621,116620,30681,30684,103125,102812,102813,102814,102815,102816,102863,102864,102817,102818" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>502335</Building>8534 -->
+	<ModOp Type="merge" GUID="102472,102470,102471,102468,102469,30675,30678,33014" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>501576</Building>501692 -->
+	<ModOp Type="merge" GUID="101516,116619,30687,30690,33015" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>500025</Building> -->
+	<ModOp Type="merge" GUID="102482,117514,117515,117516,3327" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>6216</Building> -->
+	<ModOp Type="merge" GUID="117527,117528,117529,33017,33019" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>500007</Building> -->
+	<ModOp Type="merge" GUID="101497,116618,3330,3338,3339,30699" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>500011</Building> -->
+	<ModOp Type="merge" GUID="102464,80136,116617,3337,30693" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>500026</Building> -->
+	<ModOp Type="merge" GUID="102465,118234" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>500028</Building> -->
+	<ModOp Type="merge" GUID="102467,118233,80135" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>501496</Building> -->
+	<ModOp Type="merge" GUID="102473,102474,102475,3331,30672,30696,30671,33013,33021,33016,33018" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>8533</Building> -->
+	<!-- Enbesa City Tab -->
+	<ModOp Type="add" GUID="1337505016" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>501823</Building>
+		</Item>
+		<Item>
+			<Building>501497</Building>
+		</Item>
+		<Item>
+			<Building>501582</Building>
+		</Item>
+		<Item>
+			<Building>8533</Building>
+		</Item>
+		<Item>
+			<Building>8534</Building>
+		</Item>
+		<Item>
+			<Building>501692</Building>
+		</Item>
+		<Item>
+			<Building>500025</Building>
+		</Item>
+		<Item>
+			<Building>6216</Building>
+		</Item>
+		<Item>
+			<Building>500007</Building>
+		</Item>
+		<Item>
+			<Building>500011</Building>
+		</Item>
+		<Item>
+			<Building>500026</Building>
+		</Item>
+		<Item>
+			<Building>500028</Building>
+		</Item>
+		<Item>
+			<Building>501496</Building>
+		</Item>
+	</ModOp>
+	<!-- New Horizons City Tab -->
+	<ModOp Type="add" GUID="1337505028" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>501823</Building>
+		</Item>
+		<Item>
+			<Building>501497</Building>
+		</Item>
+		<Item>
+			<Building>501582</Building>
+		</Item>
+		<Item>
+			<Building>8533</Building>
+		</Item>
+		<Item>
+			<Building>8534</Building>
+		</Item>
+		<Item>
+			<Building>501692</Building>
+		</Item>
+		<Item>
+			<Building>500025</Building>
+		</Item>
+		<Item>
+			<Building>6216</Building>
+		</Item>
+		<Item>
+			<Building>500007</Building>
+		</Item>
+		<Item>
+			<Building>500011</Building>
+		</Item>
+		<Item>
+			<Building>500026</Building>
+		</Item>
+		<Item>
+			<Building>500028</Building>
+		</Item>
+		<Item>
+			<Building>501496</Building>
+		</Item>
+	</ModOp>
+	<!-- Arctic City Tab -->
+	<ModOp Type="add" GUID="1337505008" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>501823</Building>
+		</Item>
+		<Item>
+			<Building>501497</Building>
+		</Item>
+		<Item>
+			<Building>501582</Building>
+		</Item>
+		<Item>
+			<Building>8533</Building>
+		</Item>
+		<Item>
+			<Building>8534</Building>
+		</Item>
+		<Item>
+			<Building>501692</Building>
+		</Item>
+		<Item>
+			<Building>500025</Building>
+		</Item>
+		<Item>
+			<Building>6216</Building>
+		</Item>
+		<Item>
+			<Building>500007</Building>
+		</Item>
+		<Item>
+			<Building>500011</Building>
+		</Item>
+		<Item>
+			<Building>500026</Building>
+		</Item>
+		<Item>
+			<Building>500028</Building>
+		</Item>
+		<Item>
+			<Building>501496</Building>
+		</Item>
+	</ModOp>
+
+	<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ENBESA + NEW HORIZONS Sorted buildings tabs INDUSTRY MU xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+	<!-- Add INDUSTRY to NEW HORIZON + ENBESA Menu -->
+	<!-- Prepare AssociatedRegions Building>500174</Building> -->
+	<!-- Prepare AssociatedRegions Building>500154</Building> -->
+	<ModOp Type="merge" GUID="2478,2474" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>500153</Building> -->
+	<ModOp Type="merge" GUID="2470,2231,2233,2234,2465,2466,2467,2468" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Prepare AssociatedRegions Building>500166</Building> -->
+	<ModOp Type="merge" GUID="2235,2469" Path="/Values/Building/AssociatedRegions">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
+	<!-- Enbesa Industry Tab -->
+	<ModOp Type="add" GUID="1337505017" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>500174</Building>
+		</Item>
+		<Item>
+			<Building>500154</Building>
+		</Item>
+		<Item>
+			<Building>500153</Building>
+		</Item>
+		<Item>
+			<Building>500166</Building>
+		</Item>
+		<Item>
+			<Building>500164</Building>
+		</Item>
+		<Item>
+			<Building>1337507360</Building>
+		</Item>
+	</ModOp>
+	<!-- New Horizons Industry Tab -->
+	<ModOp Type="add" GUID="1337505029" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>500174</Building>
+		</Item>
+		<Item>
+			<Building>500154</Building>
+		</Item>
+		<Item>
+			<Building>500153</Building>
+		</Item>
+		<Item>
+			<Building>500166</Building>
+		</Item>
+		<Item>
+			<Building>500164</Building>
+		</Item>
+		<Item>
+			<Building>1337507361</Building>
+		</Item>
+	</ModOp>
+	<!-- Arctic Industry Tab -->
+	<ModOp Type="add" GUID="1337505009" Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>500174</Building>
+		</Item>
+		<Item>
+			<Building>500154</Building>
+		</Item>
+		<Item>
+			<Building>500153</Building>
+		</Item>
+		<Item>
+			<Building>500166</Building>
+		</Item>
+		<Item>
+			<Building>500164</Building>
+		</Item>
+		<Item>
+			<Building>1337507819</Building>
+		</Item>
+	</ModOp>
+
+
+	<!-- #1 - Docklands : Enbesa -->
+	<Include File="docklands_enbesa.include.xml"/>
+	<!-- #2 - Docklands : New Horizons -->
+	<Include File="docklands_new_horizons.include.xml"/>
+	<!-- #3 - Docklands : Arctic -->
+	<Include File="docklands_arctic.include.xml"/>
+
+	<!-- #4 - Industry tab : Enbesa + New Horizons + Arctic -->
+	<Include File="industry_tab_enbesa_new_horizons.include.xml"/>
+
+	<!-- #5 - CDLC 01 - Christmas Menu Harbor : OW -->
+	<Include File="christmas_decoration_harbor_ow.include.xml"/>
+	<!-- #6 - CDLC 01 - Christmas Menu Harbor : NW  replaced original Cosmetic Tab to get seperatet GUID from OW -->
+	<Include File="christmas_decoration_harbor_nw.include.xml"/>
+	<!-- #7 - CDLC 01 - Christmas Menu Harbor : AFRICA -->
+	<Include File="christmas_decoration_harbor_africa.include.xml"/>
+	<!-- #8 - CDLC 01 - Christmas Menu Harbor : NEW HORIZONS -->
+	<Include File="christmas_decoration_harbor_new_horizons.include.xml"/>
+	<!-- #9 - CDLC 01 - Christmas Menu Harbor : ARCTIC -->
+	<Include File="christmas_decoration_harbor_arctic.include.xml"/>
+
+	<!-- #10 - CDLC 02 - Amusement Park Harbor : OW -->
+	<Include File="amusements_park_harbor_ow.include.xml"/>
+	<!-- #11 - CDLC 02 - Amusement Park Harbor : NW -->
+	<Include File="amusements_park_harbor_nw.include.xml"/>
+	<!-- #12 - CDLC 02 - Amusement Park Harbor : AFRICA -->
+	<Include File="amusements_park_harbor_africa.include.xml"/>
+	<!-- #13 - CDLC 02 - Amusement Park Harbor : NEW HORIZONS -->
+	<Include File="amusements_park_harbor_new_horizons.include.xml"/>
+	<!-- #14 - CDLC 02 - Amusement Park Harbor : ARCTIC -->
+	<Include File="amusements_park_harbor_arctic.include.xml"/>
+
+	<!-- #15 - Moved from Rails_Related_MU : Bright Harvest Related Harbor Ornaments OW -->
+	<Include File="ornaments_bright_harvest_harbor_ow.include.xml"/>
+	<!-- #16 - Moved from Rails_Related_MU : Bright Harvest Related Harbor Ornaments NW -->
+	<Include File="ornaments_bright_harvest_harbor_nw.include.xml"/>
+	<!-- #17 - Moved from Rails_Related_MU : Bright Harvest Related Harbor Ornaments AFRICA -->
+	<Include File="ornaments_bright_harvest_harbor_africa.include.xml"/>
+	<!-- #18 - Moved from Rails_Related_MU : Bright Harvest Related Harbor Ornaments NEW HORIZONS -->
+	<Include File="ornaments_bright_harvest_harbor_new_horizons.include.xml"/>
+	<!-- #19 - NEW : Bright Harvest Related Harbor Ornaments ARCTIC -->
+	<Include File="ornaments_bright_harvest_harbor_arctic.include.xml"/>
+
+	<!-- #20 - Moved from Moved from Moved from Moved from Rails_Related_MU : Industrial Zone Pack Related Harbor Ornaments OW -->
+	<Include File="ornaments_industrial_zone_pack_harbor_ow.include.xml"/>
+	<!-- #21 - Moved from Moved from Moved from Rails_Related_MU : Industrial Zone Pack Related Harbor Ornaments NW -->
+	<Include File="ornaments_industrial_zone_pack_harbor_nw.include.xml"/>
+	<!-- #22 - Moved from Moved from Rails_Related_MU : Industrial Zone Pack Related Harbor Ornaments AFRICA -->
+	<Include File="ornaments_industrial_zone_pack_harbor_africa.include.xml"/>
+	<!-- #23 - Moved from Rails_Related_MU : Industrial Zone Pack Related Harbor Ornaments NEW HORIZONS -->
+	<Include File="ornaments_industrial_zone_pack_harbor_new_horizons.include.xml"/>
+	<!-- #24 - NEW : Industrial Zone Pack Related Harbor Ornaments ARCTIC -->
+	<Include File="ornaments_industrial_zone_pack_harbor_arctic.include.xml"/>
+
+	<!-- #25 - CDLC 03 - City Lights Harbor : OW -->
+	<Include File="city_lights_harbor_ow.include.xml"/>
+	<!-- #26 - CDLC 03 - City Lights Harbor : NW -->
+	<Include File="city_lights_harbor_nw.include.xml"/>
+	<!-- #27 - CDLC 03 - City Lights Harbor : AFRICA -->
+	<Include File="city_lights_harbor_africa.include.xml"/>
+	<!-- #28 - CDLC 03 - City Lights Harbor : NEW HORIZONS -->
+	<Include File="city_lights_harbor_new_horizons.include.xml"/>
+	<!-- #29 - CDLC 03 - City Lights Harbor : ARCTIC -->
+	<Include File="city_lights_harbor_arctic.include.xml"/>
+
+	<!-- #30 - CDLC 07 - Sesonal Decoration Harbor : OW -->
+	<Include File="seasonal_decorations_harbor_ow.include.xml"/>
+	<!-- #31 - CDLC 07 - Sesonal Decoration Harbor : NW -->
+	<Include File="seasonal_decorations_harbor_nw.include.xml"/>
+	<!-- #32 - CDLC 07 - Sesonal Decoration Harbor : AFRICA -->
+	<Include File="seasonal_decorations_harbor_africa.include.xml"/>
+	<!-- #33 - CDLC 07 - Sesonal Decoration Harbor : NEW HORIZONS -->
+	<Include File="seasonal_decorations_harbor_new_horizons.include.xml"/>
+	<!-- #34 - CDLC 07 - Sesonal Decoration Harbor : ARCTIC -->
+	<Include File="seasonal_decorations_harbor_arctic.include.xml"/>
+
+	<!-- #35 - CDLC 09 - Old Town Harbor : OW -->
+	<Include File="old_town_harbor_ow.include.xml"/>
+	<!-- #36 - CDLC 09 - Old Town Harbor : NW -->
+	<Include File="old_town_harbor_nw.include.xml"/>
+	<!-- #37 - CDLC 09 - Old Town Harbor : AFRICA -->
+	<Include File="old_town_harbor_africa.include.xml"/>
+	<!-- #38 - CDLC 09 - Old Town Harbor : NEW HORIZONS -->
+	<Include File="old_town_harbor_new_horizons.include.xml"/>
+	<!-- #39 - CDLC 09 - Old Town Harbor : ARCTIC -->
+	<Include File="old_town_harbor_arctic.include.xml"/>
+
+	<!-- #40 - CDLC 10 - Dragon Garden Harbor : OW -->
+	<Include File="dragon_garden_harbor_ow.include.xml"/>
+	<!-- #41 - CDLC 10 - Dragon Garden Harbor : NW -->
+	<Include File="dragon_garden_harbor_nw.include.xml"/>
+	<!-- #42 - CDLC 10 - Dragon Garden Harbor : AFRICA -->
+	<Include File="dragon_garden_harbor_africa.include.xml"/>
+	<!-- #43 - CDLC 10 - Dragon Garden Harbor : NEW HORIZONS -->
+	<Include File="dragon_garden_harbor_new_horizons.include.xml"/>
+	<!-- #44 - CDLC 10 - Dragon Garden Harbor : ARCTIC -->
+	<Include File="dragon_garden_harbor_arctic.include.xml"/>
+
+	<!-- #45 - CDLC 11 - Fiesta Time Harbor : OW -->
+	<Include File="fiesta_time_harbor_ow.include.xml"/>
+	<!-- #46 - CDLC 11 - Fiesta Time Harbor : NW -->
+	<Include File="fiesta_time_harbor_nw.include.xml"/>
+	<!-- #47 - CDLC 11 - Fiesta Time Harbor : AFRICA -->
+	<Include File="fiesta_time_harbor_africa.include.xml"/>
+	<!-- #48 - CDLC 11 - Fiesta Time Harbor : NEW HORIZONS -->
+	<Include File="fiesta_time_harbor_new_horizons.include.xml"/>
+	<!-- #49 - CDLC 11 - Fiesta Time Harbor : ARCTIC -->
+	<Include File="fiesta_time_harbor_arctic.include.xml"/>
+
+	<!-- #50 - CDLC 15 Pirate Cove Harbor : OW -->
+	<Include File="pirate_cove_harbor_ow.include.xml"/>
+	<!-- #51 - CDLC 15 Pirate Cove Harbor : NW -->
+	<Include File="pirate_cove_harbor_nw.include.xml"/>
+	<!-- #52 - CDLC 15 Pirate Cove Harbor : AFRICA -->
+	<Include File="pirate_cove_harbor_africa.include.xml"/>
+	<!-- #53 - CDLC 15 Pirate Cove Harbor : NEW HORIZONS -->
+	<Include File="pirate_cove_harbor_new_horizons.include.xml"/>
+	<!-- #54 - CDLC 15 Pirate Cove Harbor : ARCTIC -->
+	<Include File="pirate_cove_harbor_arctic.include.xml"/>
+
+	<!-- #55 - CDLC16 - Celebration Harbor : OW -->
+	<Include File="end_era_harbor_ow.include.xml"/>
+	<!-- #56 - CDLC16 - Celebration Harbor : NW -->
+	<Include File="end_era_harbor_nw.include.xml"/>
+	<!-- #57 - CDLC16 - Celebration Harbor : AFRICA -->
+	<Include File="end_era_harbor_africa.include.xml"/>
+	<!-- #58 - CDLC16 - Celebration Harbor : NEW HORIZONS -->
+	<Include File="end_era_harbor_new_horizons.include.xml"/>
+	<!-- #59 - CDLC16 - Celebration Harbor : ARCTIC -->
+	<Include File="end_era_harbor_arctic.include.xml"/>
+
+	<!-- #60 - Special Reward Menu Harbor : OW -->
+	<Include File="special_tab_harbor_ow.include.xml"/>
+	<!-- #61 - Special Reward Menu Harbor : NW -->
+	<Include File="special_tab_harbor_nw.include.xml"/>
+	<!-- #62 - Special Reward Menu Harbor : AFRICA -->
+	<Include File="special_tab_harbor_africa.include.xml"/>
+	<!-- #63 - Special Reward Menu Harbor : NEW HORIZONS -->
+	<Include File="special_tab_harbor_new_horizons.include.xml"/>
+	<!-- #64 - Special Reward Menu Harbor : ARCTIC -->
+	<Include File="special_tab_harbor_arctic.include.xml"/>
+
+	<!-- #65 - Preorder Bonus Menu Harbor : OW -->
+	<Include File="preorder_bonus_harbor_ow.include.xml"/>
+	<!-- #66 - Preorder Bonus Menu Harbor : NW -->
+	<Include File="preorder_bonus_harbor_nw.include.xml"/>
+	<!-- #67 - Preorder Bonus Menu Harbor : AFRICA -->
+	<Include File="preorder_bonus_harbor_africa.include.xml"/>
+	<!-- #68 - Preorder Bonus Menu Harbor : NEW HORIZONS -->
+	<Include File="preorder_bonus_harbor_new_horizons.include.xml"/>
+	<!-- #69 - Preorder Bonus Menu Harbor : ARCTIC -->
+	<Include File="preorder_bonus_harbor_arctic.include.xml"/>
+
+	<!-- #70 - DLC02 - Botanica Menu Harbor : OW -->
+	<Include File="botanica_harbor_ow.include.xml"/>
+	<!-- #71 - DLC02 - Botanica Menu Harbor : NW -->
+	<Include File="botanica_harbor_nw.include.xml"/>
+	<!-- #72 - DLC02 - Botanica Menu Harbor : AFRICA -->
+	<Include File="botanica_harbor_africa.include.xml"/>
+	<!-- #73 - DLC02 - Botanica Menu Harbor : NEW HORIZONS -->
+	<Include File="botanica_harbor_new_horizons.include.xml"/>
+	<!-- #74 - DLC02 - Botanica Menu Harbor : ARCTIC -->
+	<Include File="botanica_harbor_arctic.include.xml"/>
+
+	<!-- #75 - DLC 04 - Seat of Power Menu Harbor : OW -->
+	<Include File="seat_power_harbor_ow.include.xml"/>
+	<!-- #76 - DLC 04 - Seat of Power Menu Harbor : NW -->
+	<Include File="seat_power_harbor_nw.include.xml"/>
+	<!-- #77 - DLC 04 - Seat of Power Menu Harbor : AFRICA -->
+	<Include File="seat_power_harbor_africa.include.xml"/>
+	<!-- #78 - DLC 04 - Seat of Power Menu Harbor : NEW HORIZONS -->
+	<Include File="seat_power_harbor_new_horizons.include.xml"/>
+	<!-- #79 - DLC 04 - Seat of Power Menu Harbor : ARCTIC -->
+	<Include File="seat_power_harbor_arctic.include.xml"/>
+
+	<!-- #80 - DLC08 - Tourist Season Ornaments Menu Harbor : OW -->
+	<Include File="tourist_season_harbor_ow.include.xml"/>
+	<!-- #81 - DLC08 - Tourist Season Ornaments Menu Harbor : NW -->
+	<Include File="tourist_season_harbor_nw.include.xml"/>
+	<!-- #82 - DLC08 - Tourist Season Ornaments Menu Harbor : AFRICA -->
+	<Include File="tourist_season_harbor_africa.include.xml"/>
+	<!-- #83 - DLC08 - Tourist Season Ornaments Menu Harbor : NEW HORIZONS -->
+	<Include File="tourist_season_harbor_new_horizons.include.xml"/>
+	<!-- #84 - DLC08 - Tourist Season Ornaments Menu Harbor : ARCTIC -->
+	<Include File="tourist_season_harbor_arctic.include.xml"/>
+
+	<!-- #85 - DLC 09 - High Life Ornaments Menu Harbor : OW -->
+	<Include File="high_life_harbor_ow.include.xml"/>
+	<!-- #86 - DLC 09 - High Life Ornaments Menu Harbor : NW -->
+	<Include File="high_life_harbor_nw.include.xml"/>
+	<!-- #87 - DLC 09 - High Life Ornaments Menu Harbor : AFRICA -->
+	<Include File="high_life_harbor_africa.include.xml"/>
+	<!-- #88 - DLC 09 - High Life Ornaments Menu Harbor : NEW HORIZONS -->
+	<Include File="high_life_harbor_new_horizons.include.xml"/>
+	<!-- #89 - DLC 09 - High Life Ornaments Menu Harbor : ARCTIC -->
+	<Include File="high_life_harbor_arctic.include.xml"/>
+
+	<!-- #90 - DLC10 - Seeds of Change Menu Harbor : OW -->
+	<Include File="seeds_change_harbor_ow.include.xml"/>
+	<!-- #91 - DLC10 - Seeds of Change Menu Harbor : NW -->
+	<Include File="seeds_change_harbor_nw.include.xml"/>
+	<!-- #92 - DLC10 - Seeds of Change Menu Harbor : AFRICA -->
+	<Include File="seeds_change_harbor_africa.include.xml"/>
+	<!-- #93 - DLC10 - Seeds of Change Menu Harbor : NEW HORIZONS -->
+	<Include File="seeds_change_harbor_new_horizons.include.xml"/>
+	<!-- #94 - DLC10 - Seeds of Change Menu Harbor : ARCTIC -->
+	<Include File="seeds_change_harbor_arctic.include.xml"/>
+
+	<!-- #95 - DLC11 - Empire of the Skies Menu Harbor : OW -->
+	<Include File="empire_skies_harbor_ow.include.xml"/>
+	<!-- #96 - DLC11 - Empire of the Skies Menu Harbor : NW -->
+	<Include File="empire_skies_harbor_nw.include.xml"/>
+	<!-- #97 - DLC11 - Empire of the Skies Menu Harbor : AFRICA -->
+	<Include File="empire_skies_harbor_africa.include.xml"/>
+	<!-- #98 - DLC11 - Empire of the Skies Menu Harbor : NEW HORIZONS -->
+	<Include File="empire_skies_harbor_new_horizons.include.xml"/>
+	<!-- #99 - DLC11 - Empire of the Skies Menu Harbor : ARCTIC -->
+	<Include File="empire_skies_harbor_arctic.include.xml"/>
+
+	<!-- #100 - CDLC 05 - Pedestrian Zone Menu Harbor : OW -->
+	<Include File="pedestrian_zone_harbor_ow.include.xml"/>
+	<!-- #101 - CDLC 05 - Pedestrian Zone Menu Harbor : NW -->
+	<Include File="pedestrian_zone_harbor_nw.include.xml"/>
+	<!-- #102 - CDLC 05 - Pedestrian Zone Menu Harbor : AFRICA -->
+	<Include File="pedestrian_zone_harbor_africa.include.xml"/>
+	<!-- #103 - CDLC 05 - Pedestrian Zone Menu Harbor : NEW HORIZONS -->
+	<Include File="pedestrian_zone_harbor_new_horizons.include.xml"/>
+	<!-- #104 - CDLC 05 - Pedestrian Zone Menu Harbor : ARCTIC -->
+	<Include File="pedestrian_zone_harbor_arctic.include.xml"/>
+</ModOps>
+<!-- 2025-05-27 19:55:21 -->
