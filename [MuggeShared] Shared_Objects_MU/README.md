@@ -42,6 +42,13 @@ Changelog - 1.36
 
 	- new objects added.
 	
+---------------------------
+Changelog - 1.37
+---------------------------
+
+	- more arctic decals added.
+	- removed not needed files.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
