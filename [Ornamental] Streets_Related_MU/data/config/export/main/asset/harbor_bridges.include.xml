@@ -42,9 +42,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES STREET BRIDGES HARBOR xxxxxxxxx
 1337501145 Wooden StreetBridges 2x1 AFRICA
 1337501146 Wooden StreetBridges 3x1 AFRICA
 
-1337502611 Mod2lic StreetBridges 2x1 ALL
-1337502612 Mod2lic StreetBridges 3x1 ALL
-1337502613 Mod2lic StreetBridges 4x1 ALL		
+1337502611 Metalic StreetBridges 2x1 ALL
+1337502612 Metalic StreetBridges 3x1 ALL
+1337502613 Metalic StreetBridges 4x1 ALL		
 
 
 1337505121 Trigger
@@ -3012,15 +3012,15 @@ xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES STREET BRIDGES HARBOR xxxxxxxxx
 		</Asset>
 	</ModOp>
 
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Mod2lic Street Bridges All xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Metalic Street Bridges All xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID="132597">
-	<!-- Brücke Mod2ll 2er All -->
+	<!-- Brücke Metall 2er All -->
 		<Asset>
 			<Template>HarborOrnamentMU</Template>
 			<Values>
 				<Standard>
 					<GUID>1337502611</GUID>
-					<Name>Mod2lBridge2</Name>
+					<Name>MetalBridge2</Name>
 					<IconFilename>data\ui\2kimages\main\3dicons\harbor_bridges\harbor_metal_bridge_01.png</IconFilename>
 					<InfoDescription>257109</InfoDescription>
 				</Standard>
@@ -3098,13 +3098,13 @@ xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES STREET BRIDGES HARBOR xxxxxxxxx
 			</Values>
 		</Asset>
 		
-	<!-- Brücke Mod2ll 3er All -->
+	<!-- Brücke Metall 3er All -->
 		<Asset>
 			<Template>HarborOrnamentMU</Template>
 			<Values>
 				<Standard>
 					<GUID>1337502612</GUID>
-					<Name>Mod2lBridge3</Name>
+					<Name>MetalBridge3</Name>
 					<IconFilename>data\ui\2kimages\main\3dicons\harbor_bridges\harbor_metal_bridge_01.png</IconFilename>
 					<InfoDescription>257109</InfoDescription>
 				</Standard>
@@ -3182,13 +3182,13 @@ xxxxxxxxxxxxxxxxxxxxxxxx STREETS RELATED BRIDGES STREET BRIDGES HARBOR xxxxxxxxx
 			</Values>
 		</Asset>
 
-	<!-- Brücke Mod2ll 4er All -->
+	<!-- Brücke Metall 4er All -->
 		<Asset>
 			<Template>HarborOrnamentMU</Template>
 			<Values>
 				<Standard>
 					<GUID>1337502613</GUID>
-					<Name>Mod2lBridge3</Name>
+					<Name>MetalBridge3</Name>
 					<IconFilename>data\ui\2kimages\main\3dicons\harbor_bridges\harbor_metal_bridge_01.png</IconFilename>
 					<InfoDescription>257109</InfoDescription>
 				</Standard>

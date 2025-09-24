@@ -33,7 +33,35 @@
 1337501048 Unsichtbare kaistrasse für brückenbau als grounddecal <InternalID>443</InternalID>-modulo256 = 187
 1337501050 OBSOLETE
 
-1337502571 Trigger
+1337509201 Street Sign OW
+1337509202 Street Passages 01 OW
+1337509203 Street Passages 02 OW
+1337509204 Footbridge OW
+1337509205 Road Canopy OW
+1337509206 Canopy OW
+
+1337509208 Street Sign NW
+1337509209 Street Passages 01 NW
+1337509210 Street Passages 02 NW
+1337509211 Footbridge NW
+1337509212 Road Canopy NW
+1337509213 Canopy NW
+
+1337509214 Street Sign ENBESA
+1337509215 Street Passages 01 ENBESA
+1337509216 Street Passages 02 ENBESA
+1337509217 Footbridge ENBESA
+1337509218 Road Canopy ENBESA
+1337509219 Canopy ENBESA
+
+1337509220 Street Sign NH
+1337509221 Street Passages 01 NH
+1337509222 Street Passages 02 NH
+1337509223 Footbridge NH
+1337509224 Road Canopy NH
+1337509225 Canopy NH
+
+1337509207 Trigger
 -->
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Nicht sichtbare modifikationen Landstrassen übergang Meer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -248,13 +276,6 @@
 	<ModOp Type="merge" GUID='601443' Path="/Values/Street/CfgFileName">
 		<CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
     </ModOp>
-	
-	<!-- Original Kaistrasse mit neuer Textur wie kai OW
-	<ModOp Type="merge" GUID='601443' Path="/Values">
-		<Street>
-			<CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
-		</Street>
-    </ModOp> -->
 	
 	<!-- Original Kaistrasse mit neuer Textur wie kai NW -->
 	<ModOp Type="merge" GUID='131865' Path="/Values/Street/CfgFileName">
@@ -2213,7 +2234,1934 @@
 			</Values>
 		</Asset>
 	</ModOp>
-
+	
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<!-- Street Sign OW-->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509201</GUID>
+                    <Name>StreetSign</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509087</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02a.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_02a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Street Passages 01 OW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509202</GUID>
+                    <Name>StreetPassages01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509101</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_03.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Street Passages 02 OW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509203</GUID>
+                    <Name>StreetPassages02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x2x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509101</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x2x1_passage_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Footbridge OW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509204</GUID>
+                    <Name>Footbridge</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>269809</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+					<ArchHeight>0.75</ArchHeight>
+					<OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+					<BelowArchBuildHeight>0.75</BelowArchBuildHeight>
+					<ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>3</OrnamentUnit>
+					<OrnamentDescription>269831</OrnamentDescription>
+				</Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Road Canopy OW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509205</GUID>
+                    <Name>RoadCanopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\middle_roofing_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509186</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_03.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509186</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509673</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509674</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509675</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509676</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Canopy OW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509206</GUID>
+                    <Name>Canopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\side_roofing_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509187</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\side_roofing_01.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509186</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509677</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509678</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509679</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509680</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Street Sign NW-->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509208</GUID>
+                    <Name>StreetSign</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509087</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02a.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_02a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Street Passages 01 NW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509209</GUID>
+                    <Name>StreetPassages01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509101</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_03.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Street Passages 02 NW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509210</GUID>
+                    <Name>StreetPassages02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x2x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509101</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x2x1_passage_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Footbridge NW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509211</GUID>
+                    <Name>Footbridge</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>269809</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+					<ArchHeight>0.75</ArchHeight>
+					<OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+					<BelowArchBuildHeight>0.75</BelowArchBuildHeight>
+					<ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>3</OrnamentUnit>
+					<OrnamentDescription>269831</OrnamentDescription>
+				</Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Road Canopy NW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509212</GUID>
+                    <Name>RoadCanopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\middle_roofing_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509186</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_03.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509186</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509673</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509674</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509675</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509676</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Canopy NW -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509213</GUID>
+                    <Name>Canopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\side_roofing_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509187</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\side_roofing_01.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509186</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509677</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509678</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509679</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509680</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Street Sign ENBESA-->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509214</GUID>
+                    <Name>StreetSign</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509087</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02a.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_02a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Street Passages 01 ENBESA -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509215</GUID>
+                    <Name>StreetPassages01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509101</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_03.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Street Passages 02 ENBESA -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509216</GUID>
+                    <Name>StreetPassages02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x2x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509101</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x2x1_passage_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Footbridge ENBESA -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509217</GUID>
+                    <Name>Footbridge</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>269809</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+					<ArchHeight>0.75</ArchHeight>
+					<OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+					<BelowArchBuildHeight>0.75</BelowArchBuildHeight>
+					<ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>3</OrnamentUnit>
+					<OrnamentDescription>269831</OrnamentDescription>
+				</Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Road Canopy ENBESA -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509218</GUID>
+                    <Name>RoadCanopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\middle_roofing_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509186</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_03.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509186</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509673</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509674</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509675</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509676</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Canopy ENBESA -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509219</GUID>
+                    <Name>Canopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\side_roofing_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509187</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>117730</GroundDecalAsset>
+                    <GroundDecalInvisible>117731</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\side_roofing_01.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509186</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509677</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509678</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509679</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509680</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Street Sign NH-->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509220</GUID>
+                    <Name>StreetSign</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509087</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02a.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_02a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\street_sign\street_sign_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Street Passages 01 NH -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509221</GUID>
+                    <Name>StreetPassages01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509101</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_03.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x1x1_passage_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Street Passages 02 NH -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509222</GUID>
+                    <Name>StreetPassages02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x2x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509101</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\passage\2x2x1_passage_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Footbridge NH -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509223</GUID>
+                    <Name>Footbridge</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>269809</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+					<HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+					<ArchHeight>0.75</ArchHeight>
+					<OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+					<BelowArchBuildHeight>0.75</BelowArchBuildHeight>
+					<ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\pedestrian_bridge\2x3_pedestrian_bridge_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>3</OrnamentUnit>
+					<OrnamentDescription>269831</OrnamentDescription>
+				</Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Road Canopy NH -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509224</GUID>
+                    <Name>RoadCanopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\middle_roofing_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509186</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\middle_roofing_03.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509186</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509673</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509674</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509675</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509676</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Canopy NH -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509225</GUID>
+                    <Name>Canopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\side_roofing_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509187</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\roofings\side_roofing_01.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509186</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509677</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509678</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509679</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509680</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+	
+	</ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<!-- Freischaltung -->
 	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
@@ -2221,7 +4169,7 @@
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
-					<GUID>1337505220</GUID>
+					<GUID>1337509207</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -2302,6 +4250,82 @@
 												<Asset>1337501048</Asset>
 											</Item>
 											
+											<Item>
+												<Asset>1337509201</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509202</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509203</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509204</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509205</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509206</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509208</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509209</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509210</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509211</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509212</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509213</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509214</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509215</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509216</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509217</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509218</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509219</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509220</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509221</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509222</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509223</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509224</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509225</Asset>
+											</Item>
+											
 										</UnlockAssets>
 										<UnhideAssets>
 											
@@ -2363,6 +4387,82 @@
 												<Asset>1337501048</Asset>
 											</Item>
 											
+											<Item>
+												<Asset>1337509201</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509202</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509203</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509204</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509205</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509206</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509208</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509209</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509210</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509211</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509212</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509213</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509214</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509215</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509216</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509217</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509218</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509219</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509220</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509221</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509222</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509223</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509224</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509225</Asset>
+											</Item>
+											
 										</UnhideAssets>
 									</ActionUnlockAsset>
 								</Values>
@@ -2396,10 +4496,29 @@
 		<Item>
 			<Building>1337501042</Building>
 		</Item>
+		
+		<Item>
+			<Building>1337509201</Building>
+		</Item>
+		<Item>
+			<Building>1337509202</Building>
+		</Item>
+		<Item>
+			<Building>1337509203</Building>
+		</Item>
+		<Item>
+			<Building>1337509204</Building>
+		</Item>
+		<Item>
+			<Building>1337509205</Building>
+		</Item>
+		<Item>
+			<Building>1337509206</Building>
+		</Item>
 	</ModOp>
 	
 <!-- Add NW Quaystreets to NW Streets_Relatet Harbor Quaystreets Buildmenu -->
-	<ModOp Type="add" GUID='1337502553,1337507290' Path="/Values/ConstructionCategory/BuildingList">
+	<ModOp Type="add" GUID='1337502553' Path="/Values/ConstructionCategory/BuildingList">
 		<Item>
 			<Building>1337501029</Building>
 		</Item>
@@ -2418,7 +4537,29 @@
 		<Item>
 			<Building>1337501043</Building>
 		</Item>
+		
+		<Item>
+			<Building>1337509208</Building>
+		</Item>
+		<Item>
+			<Building>1337509209</Building>
+		</Item>
+		<Item>
+			<Building>1337509210</Building>
+		</Item>
+		<Item>
+			<Building>1337509211</Building>
+		</Item>
+		<Item>
+			<Building>1337509212</Building>
+		</Item>
+		<Item>
+			<Building>1337509213</Building>
+		</Item>
+		
+		
 	</ModOp>
+	
 
 <!-- Add Arctic Quaystreets to Arctic Streets_Relatet Harbor Quaystreets Buildmenu -->
 	<ModOp Type="add" GUID='1337502555' Path="/Values/ConstructionCategory/BuildingList">
@@ -2450,7 +4591,71 @@
 		<Item>
 			<Building>1337501045</Building>
 		</Item>
+		
+		<Item>
+			<Building>1337509214</Building>
+		</Item>
+		<Item>
+			<Building>1337509215</Building>
+		</Item>
+		<Item>
+			<Building>1337509216</Building>
+		</Item>
+		<Item>
+			<Building>1337509217</Building>
+		</Item>
+		<Item>
+			<Building>1337509218</Building>
+		</Item>
+		<Item>
+			<Building>1337509219</Building>
+		</Item>
+		
+		
+	</ModOp>
+	
+<!-- Add NH Quaystreets to NH Streets_Relatet Harbor Quaystreets Buildmenu -->
+	<ModOp Type="add" GUID='1337507290' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337501029</Building>
+		</Item>
+		<Item>
+			<Building>1337501031</Building>
+		</Item>
+		<Item>
+			<Building>1337501033</Building>
+		</Item>
+		<Item>
+			<Building>1337501037</Building>
+		</Item>
+		<Item>
+			<Building>1337501040</Building>
+		</Item>
+		<Item>
+			<Building>1337501043</Building>
+		</Item>
+		
+		<Item>
+			<Building>1337509220</Building>
+		</Item>
+		<Item>
+			<Building>1337509221</Building>
+		</Item>
+		<Item>
+			<Building>1337509222</Building>
+		</Item>
+		<Item>
+			<Building>1337509223</Building>
+		</Item>
+		<Item>
+			<Building>1337509224</Building>
+		</Item>
+		<Item>
+			<Building>1337509225</Building>
+		</Item>
+		
+		
 	</ModOp>
 </ModOps>
 
-<!-- 2023-03-09 09:35:38 -->
+<!-- 2025-09-24 09:22:37 -->

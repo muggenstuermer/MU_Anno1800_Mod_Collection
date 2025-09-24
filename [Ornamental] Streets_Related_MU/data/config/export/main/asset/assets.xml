@@ -283,29 +283,33 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 	
 <!-- #1 - Streets_Related_MU : Buildmenu -->
     <Include File="streets_related_buildmenu.include.xml" />
+	
+<!-- #2 - Streets_Related_MU : Roofing Skins -->
+    <Include File="roofing_skins.include.xml" />
+	<Include File="roofing_skins_harbor.include.xml" />
 
-<!-- #2 - CO2: All Streets and Fakestreets -->
+<!-- #3 - CO2: All Streets and Fakestreets -->
     <Include File="city_ornaments_streetparts.include.xml" />
 	
-<!-- #3 - Streets_Related_MU : Round Street Covers and Bridges -->
+<!-- #4 - Streets_Related_MU : Round Street Covers and Bridges -->
     <Include File="round_street_covers.include.xml" />	
 	
-<!-- #4 - HO2: All Quaystreets, all Regions -->
+<!-- #5 - HO2: All Quaystreets, all Regions -->
     <Include File="harbor_ornaments_streetparts.include.xml" />
 	
-<!-- #5 - Streets_Related_MU : Harbor Bridges -->
+<!-- #6 - Streets_Related_MU : Harbor Bridges -->
     <Include File="harbor_bridges.include.xml" />
 	
-<!-- #6 - CO2: IMYA TWEAKS -->
+<!-- #7 - CO2: IMYA TWEAKS -->
     <Include File="city_ornaments_streetparts_imya.include.xml" />
 	
-<!-- #7 - Streets_Related_MU: IMYA TWEAKS -->
+<!-- #8 - Streets_Related_MU: IMYA TWEAKS -->
     <Include File="round_street_covers_imya.include.xml" />
 	
-<!-- #8 - HO2: IMYA TWEAKS -->
+<!-- #9 - HO2: IMYA TWEAKS -->
     <Include File="harbor_ornaments_streetparts_imya.include.xml" />
 	
-<!-- #9 - Streets_Related_MU Harbor: IMYA TWEAKS -->
+<!-- #10 - Streets_Related_MU Harbor: IMYA TWEAKS -->
     <Include File="harbor_bridges_imya.include.xml" />
 
 </ModOps>

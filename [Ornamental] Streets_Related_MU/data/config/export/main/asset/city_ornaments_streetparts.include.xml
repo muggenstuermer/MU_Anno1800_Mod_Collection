@@ -63,9 +63,25 @@
 
 1337502633 Placeable Swans
 
+1337509082 Quatro Canal Fountains
+1337509084 Singel Canal Fountains
+
+1337509085 Covered Canal Fountained OW
+1337509086 Covered Canal Fountained NW
+
+1337509087 Street Sign
+
+1337509101 Street Passages 01
+1337509102 Street Passages 02
+
+1337509185 Footbridge
+
+1337509186 Road Canopy
+1337509187 Canopy
+
 1337500251 Schienenstraße <InternalID>459</InternalID>-modulo256 = 203 used in pavements
 
-1337502912 Trigger
+1337509083 Trigger
 
 -->
 
@@ -4640,6 +4656,18 @@
         </Asset>
 	</ModOp>
 	
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX modification of the Lakesystem to be able to overbuild with streets XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+	<ModOp Type="replace" GUID="25957,26059" Path="/Values/Street/IsLake">
+		<IsIrrigationPipe>1</IsIrrigationPipe>
+	</ModOp>
+	<ModOp Type="add" GUID="25957,26059" Path="/Values/Street">
+		<AdaptToNeighbors>
+			<AdaptGroups>Canal</AdaptGroups>
+			<NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+		</AdaptToNeighbors>
+	</ModOp>
+	
 	<!-- Ornamental Kanal Grün NW -->
 	<ModOp Type="addNextSibling" GUID="112842">
 		<Asset>
@@ -4837,6 +4865,9 @@
 		</Asset>
 	</ModOp>
 	
+
+
+	
 	<!-- Ornamental Kanal Grün AW -->
 	<ModOp Type="addNextSibling" GUID="112842">
 		<Asset>
@@ -4871,7 +4902,7 @@
 					<RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
 					<CfgAdditionAtlas>
 						<Item>
-						  <Cfg>data/muggenstuermer/buildings/ornamental/green_cannal_ow/irrigation_channel_end_01.cfg</Cfg>
+						  <Cfg>data/muggenstuermer/buildings/ornamental/green_cannal_nw_enbesa/irrigation_channel_single_01.cfg</Cfg>
 						</Item>
 						<Item>
 						  <Cfg>data/muggenstuermer/buildings/ornamental/green_cannal_ow/irrigation_channel_end_01.cfg</Cfg>
@@ -5087,10 +5118,10 @@
 						<Item />
 						<Item />
 						<Item>
-						  <Cfg>data\muggenstuermer\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02.cfg</Cfg>
+						  <Cfg>data\muggenstuermer\buildings\ornamental\green_cannal_ow\dirt_street_singel_bridge.cfg</Cfg>
 						</Item>
 						<Item>
-						  <Cfg>data\muggenstuermer\buildings\ornamental\green_cannal_ow\irrigation_channel_crossing_02_closed_open.cfg</Cfg>
+						  <Cfg>data\muggenstuermer\buildings\ornamental\green_cannal_ow\dirt_street_double_bridge.cfg</Cfg>
 						</Item>
 						<Item />
 						<Item />
@@ -5152,7 +5183,7 @@
 				<Building>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
 					<PickingAsset>1000178</PickingAsset>
-					<AssociatedRegions>Moderate;Arctic</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -5281,7 +5312,7 @@
 				<Building>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
 					<PickingAsset>1010035</PickingAsset>
-					<AssociatedRegions>Moderate</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -5340,10 +5371,10 @@
 						<Item />
 						<Item />
 						<Item>
-						  <Cfg>data\muggenstuermer\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02.cfg</Cfg>
+						  <Cfg>data\muggenstuermer\buildings\ornamental\green_cannal_nw_enbesa\dirt_street_singel_bridge.cfg</Cfg>
 						</Item>
 						<Item>
-						  <Cfg>data\muggenstuermer\buildings\ornamental\green_cannal_nw_enbesa\irrigation_channel_crossing_02_closed_open.cfg</Cfg>
+						  <Cfg>data\muggenstuermer\buildings\ornamental\green_cannal_nw_enbesa\dirt_street_double_bridge.cfg</Cfg>
 						</Item>
 						<Item />
 						<Item />
@@ -5405,7 +5436,7 @@
 				<Building>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
 					<PickingAsset>101308</PickingAsset>
-					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -5534,7 +5565,7 @@
 				<Building>
 					<SkipUnlockMessage>1</SkipUnlockMessage>
 					<PickingAsset>101309</PickingAsset>
-					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -5609,7 +5640,7 @@
 				<Building>
 					<BuildingCategoryName>11154</BuildingCategoryName>
 					<PickingAsset>1010136</PickingAsset>
-					<AssociatedRegions>Moderate</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -5683,7 +5714,7 @@
 				<Building>
 					<BuildingCategoryName>11154</BuildingCategoryName>
 					<PickingAsset>1010136</PickingAsset>
-					<AssociatedRegions>Colony01</AssociatedRegions>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 				</Building>
 			</Values>
 		</Asset>
@@ -5706,6 +5737,11 @@
 		<Crossing_Pipe_StreetFast>1337500058</Crossing_Pipe_StreetFast>
 	</ModOp>
 	
+	<ModOp Type="add" GUID="141032" Path="/Values/GlobalConstructionAIBalancing/RegionStreets/Mod2">
+		<IrrigationPipe>1337500055</IrrigationPipe>
+		<Crossing_Pipe_StreetNormal>1337500059</Crossing_Pipe_StreetNormal>
+		<Crossing_Pipe_StreetFast>1337500060</Crossing_Pipe_StreetFast>
+	</ModOp>
 
 <!-- Baubarer See Für Modulare StrassenBrücken -->
 	<ModOp Type="addNextSibling" GUID='1010035'>
@@ -6440,6 +6476,9 @@
 						<Item>
 							<Building>1337502528</Building>
 						</Item>
+						<Item>
+							<Building>1337502529</Building>
+						</Item>
 					</InfluencedByNeighbors>
 					<InfluencedVariationDirection>
 						<Item>
@@ -6778,6 +6817,9 @@
 					<PickingAsset>1337502529</PickingAsset>
 					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337502528</Building>
+						</Item>
 						<Item>
 							<Building>1337502529</Building>
 						</Item>
@@ -7178,18 +7220,1023 @@
                 </Ornament>
 			</Values>
         </Asset>
+		
+		<!-- Quatro Canal Fountains -->
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509082</GUID>
+                    <Name>Quatro_Canal_Fountain</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\canal_fountain\quattro_dolphin_fountain_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text />
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\canal_fountain\quattro_dolphin_fountain_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\canal_fountain\quattro_orca_fountain_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+							<Filename>data\muggenstuermer\ornaments\land\canal_fountain\quattro_dolphin_fountain_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\canal_fountain\quattro_orca_fountain_01.cfg</Filename>
+						</Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+		<!-- Singel Canal Fountains -->
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509084</GUID>
+                    <Name>Singel_Canal_Fountain</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\canal_fountain\singel_antelope_fountain_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text />
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\canal_fountain\singel_dolphin_fountain_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\canal_fountain\singel_orca_fountain_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\canal_fountain\singel_stork_fountain_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\canal_fountain\singel_antelope_fountain_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+							<Filename>data\muggenstuermer\ornaments\land\canal_fountain\singel_dolphin_fountain_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\canal_fountain\singel_orca_fountain_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\canal_fountain\singel_stork_fountain_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\canal_fountain\singel_antelope_fountain_01.cfg</Filename>
+						</Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+		
+		<!-- Covered Canal Fountained OW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509085</GUID>
+                    <Name>CoveredCanal</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\canals\kanal_beton_dach_ow.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337509085</Building>
+						</Item>
+						<Item>
+							<Building>1337509086</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+								<!--<Item>
+									<Variation>5</Variation>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>-->
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\ow\fountained\covered_straight_01.cfg</Filename><!-- StreetsRelated -->
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\ow\fountained\covered_end_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\ow\fountained\covered_corner_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\ow\fountained\covered_xcross_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\ow\fountained\covered_tcross_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\ow\without_fountain\covered_straight_bridged_01.cfg</Filename><!-- StreetsRelated -->
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+		<!-- Covered Canal Fountained NW -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509086</GUID>
+                    <Name>CoveredCanal</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\canals\kanal_beton_dach_nw.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337509086</Building>
+						</Item>
+						<Item>
+							<Building>1337509085</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item />
+						<Item>
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<DontCare>
+							<Pool>
+								<Item />
+							</Pool>
+						</DontCare>
+						<Corner>
+							<Pool>
+								<Item>
+									<Variation>2</Variation>
+								</Item>
+							</Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>
+								<!--<Item>
+									<Variation>5</Variation>
+									<DirectionOffet>2</DirectionOffet>
+								</Item>-->
+							</Pool>
+						</Mid>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+						<End>
+							<Pool>
+								<Item>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_end_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_02_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_corner_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_t_crossing_ground_diff.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\promenade\palace_hall_01_ground_diff.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\nw\fountained\covered_straight_01.cfg</Filename><!-- StreetsRelated -->
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\nw\fountained\covered_end_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\nw\fountained\covered_corner_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\nw\fountained\covered_xcross_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\nw\fountained\covered_tcross_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\covered_canal\nw\without_fountain\covered_straight_bridged_01.cfg</Filename><!-- StreetsRelated -->
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable>
+					<DestructionCategory>StreetsAndBridges</DestructionCategory>
+				</Constructable>
+				<Mesh />
+				<SoundEmitter />
+				<FeedbackController />
+				<Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+				</Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+		</Asset>
+		<!-- Street Sign -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509087</GUID>
+                    <Name>StreetSign</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_02a.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\street_signs\street_sign_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\street_sign\street_sign_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\street_sign\street_sign_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\street_sign\street_sign_02a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\street_sign\street_sign_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\street_sign\street_sign_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Street Passages 01 -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509101</GUID>
+                    <Name>StreetPassages01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\passage\2x1x1_passage_03.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\passage\2x1x1_passage_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\passage\2x1x1_passage_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\passage\2x1x1_passage_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Street Passages 02 -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509102</GUID>
+                    <Name>StreetPassages02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\passage\2x2x1_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509101</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\passage\2x2x1_passage_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Footbridge -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509185</GUID>
+                    <Name>Footbridge</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>269809</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+					<ArchHeight>0.75</ArchHeight>
+					<OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+					<BelowArchBuildHeight>0.75</BelowArchBuildHeight>
+					<ProvideLocalHeightForStreetLayer>0</ProvideLocalHeightForStreetLayer>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pedestrian_bridge\2x3_pedestrian_bridge_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\pedestrian_bridge\2x3_pedestrian_bridge_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\pedestrian_bridge\2x3_pedestrian_bridge_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\pedestrian_bridge\2x3_pedestrian_bridge_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\pedestrian_bridge\2x3_pedestrian_bridge_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+					<PlazzaSize>1</PlazzaSize>
+					<OrnamentUnit>3</OrnamentUnit>
+					<OrnamentDescription>269831</OrnamentDescription>
+				</Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Road Canopy -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509186</GUID>
+                    <Name>RoadCanopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\middle_roofing_01.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\roofings\middle_roofing_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\roofings\middle_roofing_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\roofings\middle_roofing_03.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509186</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509665</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509666</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509667</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509668</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Canopy -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509187</GUID>
+                    <Name>Canopy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\roofings\side_roofing_01.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\land\roofings\side_roofing_01.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+                        <DefaultSkinName>1337509187</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509669</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509670</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509671</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509672</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
 	</ModOp>
 	
-	<!-- TEST 
-	<ModOp Type="replace" GUID='1010066' Path="/Values/Object/Variations">
-        <Variations>
-		<Item>
-		  <Filename>data\muggenstuermer\buildings\ornamental\canal_swans\small_feedback_ship_02.cfg</Filename>
-		</Item>
-	  </Variations>
-    </ModOp>-->
-	
-
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW 25xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="addNextSibling" GUID='1337502504,1337502509' Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010035' or Building = '112113']">
@@ -7296,6 +8343,41 @@
 		</Item>
 		<Item>
 			<Building>1337502633</Building><!-- Placeable Swans -->
+		</Item>
+		
+		<Item>
+			<Building>1337509082</Building><!-- Quatro Canal Fountains -->
+		</Item>
+		<Item>
+			<Building>1337509084</Building><!-- Singel Canal Fountains -->
+		</Item>
+		
+		<Item>
+			<Building>1337509085</Building><!-- Covered Canal Fountained OW -->
+		</Item>
+		<Item>
+			<Building>1337509086</Building><!-- Covered Canal Fountained NW -->
+		</Item>
+		
+		<Item>
+			<Building>1337509087</Building><!-- Street Sign 01 -->
+		</Item>
+		
+		<Item>
+			<Building>1337509101</Building><!-- Street Passages 01 -->
+		</Item>
+		<Item>
+			<Building>1337509102</Building><!-- Street Passages 02 -->
+		</Item>
+		<Item>
+			<Building>1337509185</Building><!-- Footbridge -->
+		</Item>
+		
+		<Item>
+			<Building>1337509186</Building><!-- Road Canopy -->
+		</Item>
+		<Item>
+			<Building>1337509187</Building><!-- Canopy -->
 		</Item>
 		
 		
@@ -7414,6 +8496,41 @@
 			<Building>1337502633</Building><!-- Placeable Swans -->
 		</Item>
 		
+		<Item>
+			<Building>1337509082</Building><!-- Quatro Canal Fountains -->
+		</Item>
+		<Item>
+			<Building>1337509084</Building><!-- Singel Canal Fountains -->
+		</Item>
+		
+		<Item>
+			<Building>1337509085</Building><!-- Covered Canal Fountained OW -->
+		</Item>
+		<Item>
+			<Building>1337509086</Building><!-- Covered Canal Fountained NW -->
+		</Item>
+		
+		<Item>
+			<Building>1337509087</Building><!-- Street Sign 01 -->
+		</Item>
+		
+		<Item>
+			<Building>1337509101</Building><!-- Street Passages 01 -->
+		</Item>
+		<Item>
+			<Building>1337509102</Building><!-- Street Passages 02 -->
+		</Item>
+		<Item>
+			<Building>1337509185</Building><!-- Footbridge -->
+		</Item>
+		
+		<Item>
+			<Building>1337509186</Building><!-- Road Canopy -->
+		</Item>
+		<Item>
+			<Building>1337509187</Building><!-- Canopy -->
+		</Item>
+		
 		
     </ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU ENBESA 25 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
@@ -7529,6 +8646,41 @@
 			<Building>1337502633</Building><!-- Placeable Swans -->
 		</Item>
 		
+		<Item>
+			<Building>1337509082</Building><!-- Quatro Canal Fountains -->
+		</Item>
+		<Item>
+			<Building>1337509084</Building><!-- Singel Canal Fountains -->
+		</Item>
+		
+		<Item>
+			<Building>1337509085</Building><!-- Covered Canal Fountained OW -->
+		</Item>
+		<Item>
+			<Building>1337509086</Building><!-- Covered Canal Fountained NW -->
+		</Item>
+		
+		<Item>
+			<Building>1337509087</Building><!-- Street Sign 01 -->
+		</Item>
+		
+		<Item>
+			<Building>1337509101</Building><!-- Street Passages 01 -->
+		</Item>
+		<Item>
+			<Building>1337509102</Building><!-- Street Passages 02 -->
+		</Item>
+		<Item>
+			<Building>1337509185</Building><!-- Footbridge -->
+		</Item>
+		
+		<Item>
+			<Building>1337509186</Building><!-- Road Canopy -->
+		</Item>
+		<Item>
+			<Building>1337509187</Building><!-- Canopy -->
+		</Item>
+		
 		
     </ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU ARCTIC xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -7542,7 +8694,7 @@
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
-					<GUID>1337502912</GUID>
+					<GUID>1337509083</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -7676,6 +8828,42 @@
 												<Asset>1337502911</Asset>
 											</Item>
 											
+											<Item>
+												<Asset>1337509082</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509084</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509085</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509086</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509087</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509101</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509102</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509185</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509186</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509187</Asset>
+											</Item>
+											
 											
 										</UnlockAssets>
 										<UnhideAssets>
@@ -7791,6 +8979,42 @@
 											</Item>
 											<Item>
 												<Asset>1337502911</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509082</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509084</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509085</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509086</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509087</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509101</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509102</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509185</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509186</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509187</Asset>
 											</Item>
 											
 										</UnhideAssets>

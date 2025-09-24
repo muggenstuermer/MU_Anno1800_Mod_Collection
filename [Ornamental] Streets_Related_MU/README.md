@@ -145,6 +145,12 @@ Changelog - 1.6
 ---------------------------
 	- 9 InternalID changed to avoid conflicts with other mods.
 	- Round Streetcovers for New Horizons edited.
+	
+---------------------------
+Changelog - 1.7
+---------------------------
+	- added some stuff from old CO2 and Ho2 mods.
+	- some corrections in modfiles
 	  
 	  
 Special thanks to @darknesswei#2951 for the Chinese translation and Tonton Yip#8766 for the French translation. Also a big thank you to @Aveneger432 from Nexus for his Polish translation and to @Ionovia#8097 for constantly testing and introducing the mods.
