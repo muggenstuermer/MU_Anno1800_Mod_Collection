@@ -96,6 +96,11 @@ Changelog - 1.31
 ---------------------------
 	- correction of object path.
 	
+---------------------------
+Changelog - 1.32
+---------------------------
+	- a few code corrections.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

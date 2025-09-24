@@ -436,7 +436,8 @@ Hospital / small resolverunit
     <!-- Hospital / big  -->
     <ModOp Type="addNextSibling" GUID="1010464">
         <Asset>
-            <Template>InstitutionBuildingHospitalMU</Template>
+           <Template>InstitutionBuildingHospitalMU</Template>
+			 <!--<BaseAssetGUID>1010464</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337500018</GUID>
@@ -566,6 +567,7 @@ Hospital / small resolverunit
     <ModOp Type="addNextSibling" GUID="1010464">
         <Asset>
             <Template>InstitutionBuildingHospitalMU</Template>
+			 <!--<BaseAssetGUID>1010464</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337504401</GUID>
@@ -701,6 +703,7 @@ Hospital / small resolverunit
     <ModOp Type="addNextSibling" GUID="1010464">
         <Asset>
             <Template>InstitutionBuildingHospitalMU</Template>
+			 <!--<BaseAssetGUID>1010464</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337504402</GUID>
@@ -893,7 +896,7 @@ Hospital / small resolverunit
             <Building>1337504404</Building>
         </Item>
     </ModOp>
-    <ModOp Type="add" GUID="190611" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="190611,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>1337500018</GUID>
         </Item>
@@ -998,6 +1001,7 @@ Hospital / small resolverunit
     <ModOp Type="addNextSibling" GUID="1010464">
         <Asset>
             <Template>InstitutionBuildingHospitalMU</Template>
+			 <!--<BaseAssetGUID>1010464</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337500019</GUID>
@@ -1129,6 +1133,7 @@ Hospital / small resolverunit
     <ModOp Type="addNextSibling" GUID="1010464">
         <Asset>
             <Template>InstitutionBuildingHospitalMU</Template>
+			 <!--<BaseAssetGUID>1010464</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337504403</GUID>
@@ -1266,6 +1271,7 @@ Hospital / small resolverunit
     <ModOp Type="addNextSibling" GUID="1010464">
         <Asset>
             <Template>InstitutionBuildingHospitalMU</Template>
+			 <!--<BaseAssetGUID>1010464</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337504404</GUID>
