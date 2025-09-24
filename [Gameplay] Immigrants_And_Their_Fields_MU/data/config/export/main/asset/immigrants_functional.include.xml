@@ -3,10 +3,10 @@
 
 601381 unused Vanilla GUID for Immigrants Population
 
-1337502794 Pub need
+1337502794 Pub need > obsolet!
 1337502793 Pub Building
 
-1337502796 Chapel need
+1337502796 Chapel need > obsolet!
 1337502795 Chapel Building
 
 1337502798 Townhall need
@@ -14,6 +14,8 @@
 
 1337502800 TownGate need
 1337502799 TownGate Building
+
+1337509663 Fire Station
 
 1337502815 Immigrant Population
 
@@ -35,9 +37,11 @@ xxxxxxxxxxxxxxxxxxxxx
 1337502821 Warehouse Pig
 1337502822 Warehouse Sheep
 
+1337509686 2x2 Immigrants Warehouse
+
 1337500238 Farmers Markeplace Skin
 
-1337502814 Trigger
+1337509664 Trigger
 
 -->
     <!-- #1 - Skins Warehouse Cattle -->
@@ -66,6 +70,10 @@ xxxxxxxxxxxxxxxxxxxxx
     <Include File="houses_1x2_skins.include.xml" />
     <!-- #13 - Skins Bauernhäuser 1x3 -->
     <Include File="houses_1x3_skins.include.xml" />
+	<!-- #14 - Skins Fire-Station -->
+    <Include File="firestation_skins.include.xml" />
+	<!-- #15 - Skins 2x2 Warehouse -->
+    <Include File="warehouse_2x2_skins.include.xml" />
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Population: Immigrants (simple Farmers) xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- Population: Immigrants -->
     <ModOp GUID="15000004" Type="addNextSibling">
@@ -85,11 +93,11 @@ xxxxxxxxxxxxxxxxxxxxx
                             <SupplyWeight>5</SupplyWeight>
                         </Item>
                         <Item>
-                            <Product>1337502794</Product>
+                            <Product>1010349</Product> <!-- was 1337502794 before -->
                             <SupplyWeight>4</SupplyWeight>
                         </Item>
                         <Item>
-                            <Product>1337502796</Product>
+                            <Product>1010350</Product> <!-- was 1337502796 before -->
                             <SupplyWeight>6</SupplyWeight>
                             <FullWeightPopulationCount>100</FullWeightPopulationCount>
                         </Item>
@@ -222,7 +230,25 @@ xxxxxxxxxxxxxxxxxxxxx
                 <Locked />
             </Values>
         </Asset>
-        <!-- Wirtshaus product -->
+		<Asset>
+            <Template>PopulationGroup7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337502815</GUID>
+                    <!-- Einwanderer -->
+                    <Name>Imigrants Population</Name>
+                </Standard>
+                <PopulationGroup7>
+                    <PopulationLevels>
+                        <Item>
+                            <Level>601381</Level>
+                        </Item>
+                    </PopulationLevels>
+                    <Regional>Moderate</Regional>
+                </PopulationGroup7>
+            </Values>
+        </Asset>
+        <!-- Wirtshaus product OBSOLET
         <Asset>
             <Template>Product</Template>
             <Values>
@@ -241,7 +267,7 @@ xxxxxxxxxxxxxxxxxxxxx
                 </Product>
                 <ExpeditionAttribute />
             </Values>
-        </Asset>
+        </Asset> -->
         <!-- Wirtshaus Building -->
         <Asset>
             <Template>PublicServiceBuilding</Template>
@@ -368,7 +394,7 @@ xxxxxxxxxxxxxxxxxxxxx
                     <NoSatisfactionDistance>40</NoSatisfactionDistance>
                     <PublicServiceOutputs>
                         <Item>
-                            <Product>1337502794</Product>
+                            <Product>1010349</Product><!-- was 1337502794 before -->
                         </Item>
                     </PublicServiceOutputs>
                 </PublicService>
@@ -406,7 +432,7 @@ xxxxxxxxxxxxxxxxxxxxx
                 <Culture />
             </Values>
         </Asset>
-        <!-- Chapel product -->
+        <!-- Chapel product OBSOLET 
         <Asset>
             <Template>Product</Template>
             <Values>
@@ -425,7 +451,7 @@ xxxxxxxxxxxxxxxxxxxxx
                 </Product>
                 <ExpeditionAttribute />
             </Values>
-        </Asset>
+        </Asset>-->
         <!-- Chapel Building -->
         <Asset>
             <Template>PublicServiceBuildingWithMusicInfluencer</Template>
@@ -605,7 +631,7 @@ xxxxxxxxxxxxxxxxxxxxx
                     <NoSatisfactionDistance>50</NoSatisfactionDistance>
                     <PublicServiceOutputs>
                         <Item>
-                            <Product>1337502796</Product>
+                            <Product>1010350</Product><!-- was 1337502796 before -->
                         </Item>
                     </PublicServiceOutputs>
                 </PublicService>
@@ -1118,6 +1144,21 @@ xxxxxxxxxxxxxxxxxxxxx
         <Item>
             <GUID>1337502799</GUID>
         </Item>
+		<Item>
+            <GUID>1337502819</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502820</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502821</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502822</GUID>
+        </Item>
+		<Item>
+            <GUID>1337509686</GUID>
+        </Item>
     </ModOp>
     <ModOp GUID="142576,142784,142309" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
 	<!-- <ModOp GUID="2001089,142747,142309,142576,142784" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings"> -->
@@ -1125,7 +1166,7 @@ xxxxxxxxxxxxxxxxxxxxx
             <Building>1337502799</Building>
         </Item>
     </ModOp>
-    <!-- TownGate adding to pools -->
+    <!-- Warehouses adding to pools -->
     <ModOp GUID="142747,142309" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>1337502819</Building>
@@ -1139,28 +1180,31 @@ xxxxxxxxxxxxxxxxxxxxx
         <Item>
             <Building>1337502822</Building>
         </Item>
+		<Item>
+            <Building>1337509686</Building>
+        </Item>
+    </ModOp>
+	<!-- Warehouses adding to pools -->
+	<ModOp GUID="130040" Type="add" Path="/Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337502819</Asset>
+        </Item>
+		<Item>
+            <Asset>1337502820</Asset>
+        </Item>
+		<Item>
+            <Asset>1337502821</Asset>
+        </Item>
+		<Item>
+            <Asset>1337502822</Asset>
+        </Item>
+		<Item>
+            <Asset>1337509686</Asset>
+        </Item>
     </ModOp>
     <!-- the following code was copied from jakob and used in places,thx jakob -->
     <!-- population group -->
-    <ModOp GUID="15000004" Type="addNextSibling">
-        <Asset>
-            <Template>PopulationGroup7</Template>
-            <Values>
-                <Standard>
-                    <GUID>1337502815</GUID>
-                    <!-- Einwanderer -->
-                    <Name>Imigrants Population</Name>
-                </Standard>
-                <PopulationGroup7>
-                    <PopulationLevels>
-                        <Item>
-                            <Level>601381</Level>
-                        </Item>
-                    </PopulationLevels>
-                    <Regional>Moderate</Regional>
-                </PopulationGroup7>
-            </Values>
-        </Asset>
+    <ModOp GUID="15000000" Type="addNextSibling">
         <Asset>
             <Template>ItemEffectTargetPool</Template>
             <Values>
@@ -1190,6 +1234,18 @@ xxxxxxxxxxxxxxxxxxxxx
             </Values>
         </Asset>
     </ModOp>
+	
+	<ModOp GUID = '15000082' Type = "add" Path = "/Values/PopulationGroup7/PopulationLevels">
+        <Item>
+            <Level>601381</Level>
+        </Item>
+    </ModOp>
+	<ModOp Type="addNextSibling" GUID='2001271' Path="/Values/GUIConfig/PopulationLevelList/Item[1]">
+        <Item>
+            <PopulationLevel>601381</PopulationLevel>
+        </Item>
+    </ModOp>
+	
     <!-- # Buff Targets Residences -->
     <ModOp Type="add" Path="//ItemEffect/EffectTargets[Item/GUID='1010343']">
         <Item>
@@ -1206,6 +1262,21 @@ xxxxxxxxxxxxxxxxxxxxx
     <ModOp Type="add" GUID="142785,2001013" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>601381</Building>
+        </Item>
+		<Item>
+            <Building>1337502810</Building>
+        </Item>
+		<Item>
+            <Building>1337502812</Building>
+        </Item>
+		<Item>
+            <Building>1337502813</Building>
+        </Item>
+		<Item>
+            <Building>1337502817</Building>
+        </Item>
+		<Item>
+            <Building>1337502818</Building>
         </Item>
     </ModOp>
     <!-- residence UI: append -->
@@ -1245,8 +1316,212 @@ xxxxxxxxxxxxxxxxxxxxx
             <Asset>601381</Asset>
         </Item>
     </ModOp>
+	
+	<!-- Fire Station -->
+    <ModOp Type="addNextSibling" GUID="1010463">
+        <Asset>
+            <BaseAssetGUID>1010463</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337509663</GUID>
+                    <Name>Immigrants_FireStation</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\farmers\farmers_firestation.png</IconFilename>
+                    <InfoDescription>118032</InfoDescription>
+                </Standard>
+                <Building>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>1200</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\horse_farm\wood_buildings\firestation\immigrants_firestation_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+					<Skins>
+						<DefaultSkinName>1010463</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<OverrideDefaultIcon>data\muggenstuermer\ui\2kimages\main\3dicons\fire_station\immigrants_firestation_01.png</OverrideDefaultIcon>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509646</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509647</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509648</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509649</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509650</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509651</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509652</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509653</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509654</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509655</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509656</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509657</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509658</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509659</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509660</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509661</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509662</SkinAssetGuid>
+							</Item>
+						</SkinList>
+					</Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>CityInstitution</GUIType>
+                </Selection>
+               <Text />
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>202400</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Infolayer />
+                <UpgradeList />
+                <IncidentResolver>
+                    <ResolverUnit>100579</ResolverUnit>
+                    <ResolverUnitCount>2</ResolverUnitCount>
+                    <SpecialUnit>100580</SpecialUnit>
+                    <ResolvableIncidents>Fire</ResolvableIncidents>
+                    <DuringConstructionText>17463</DuringConstructionText>
+                    <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+                    <ActionButtonText>3690</ActionButtonText>
+                    <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+                </IncidentResolver>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>15</Amount>
+                            <InactiveAmount>15</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2500</MaximumHitPoints>
+                    <SelfHealPerHealTick>2</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfluencer>
+                    <Influence>
+                        <Fire>
+                            <Influence>-6.11</Influence>
+                            <Distance>10.8</Distance>
+                        </Fire>
+                        <Explosion>
+                            <Influence>-6.11</Influence>
+                            <Distance>10.8</Distance>
+                        </Explosion>
+                    </Influence>
+                </IncidentInfluencer>
+                <DelayedConstruction />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Culture />
+                <Upgradable />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- add Fire Station to the buff and logistic pool -->
+    <ModOp Type="add" GUID="141703" Path="/Values/CharacterInteractionConfig/BuildBuildingWhitelist">
+        <Item>
+            <Building>1337509663</Building>
+        </Item>
+    </ModOp>
+	<ModOp Type="add" GUID="190611,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337509663</GUID>
+        </Item>
+    </ModOp>
+	<ModOp Type="add" GUID="193879" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337509663</GUID>
+        </Item>
+    </ModOp>
+	<ModOp Type="add" GUID="190775" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1337509663</GUID>
+        </Item>
+    </ModOp>
+	<!-- Fire Station Feedbackunits-->
+    <ModOp Type="add" GUID="142785" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1337509663</Building>
+        </Item>
+    </ModOp>
+	
+	
     <!-- Bauernhäuser 2x2 -->
-    <ModOp Type="addNextSibling" GUID="1010270">
+    <ModOp Type="addNextSibling" GUID="1010343">
         <Asset>
             <Template>ResidenceBuilding</Template>
             <Values>
@@ -1562,7 +1837,7 @@ xxxxxxxxxxxxxxxxxxxxx
         </Asset>
     </ModOp>
     <!-- Bauernhäuser 2x1 -->
-    <ModOp Type="addNextSibling" GUID="1010270">
+    <ModOp Type="addNextSibling" GUID="1010343">
         <Asset>
             <Template>ResidenceBuilding</Template>
             <Values>
@@ -1680,7 +1955,7 @@ xxxxxxxxxxxxxxxxxxxxx
         </Asset>
     </ModOp>
     <!-- Bauernhäuser 1x1 -->
-    <ModOp Type="addNextSibling" GUID="1010270">
+    <ModOp Type="addNextSibling" GUID="1010343">
         <Asset>
             <Template>ResidenceBuilding</Template>
             <Values>
@@ -1810,7 +2085,7 @@ xxxxxxxxxxxxxxxxxxxxx
         </Asset>
     </ModOp>
     <!-- Bauernhäuser 1x2 -->
-    <ModOp Type="addNextSibling" GUID="1010270">
+    <ModOp Type="addNextSibling" GUID="1010343">
         <Asset>
             <Template>ResidenceBuilding</Template>
             <Values>
@@ -1928,7 +2203,7 @@ xxxxxxxxxxxxxxxxxxxxx
         </Asset>
     </ModOp>
     <!-- Bauernhäuser 1x3 -->
-    <ModOp Type="addNextSibling" GUID="1010270">
+    <ModOp Type="addNextSibling" GUID="1010343">
         <Asset>
             <Template>ResidenceBuilding</Template>
             <Values>
@@ -2040,6 +2315,25 @@ xxxxxxxxxxxxxxxxxxxxx
         </Asset>
     </ModOp>
     <!-- add Farmers_Residences to Pools -->
+	<!-- Farmer Residence -->
+	<ModOp Type="addNextSibling" Path="//*[self::EffectTargetGUIDs or self::EffectTargets]/Item[GUID = '1010343']">
+		<Item>
+            <GUID>1337502810</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502812</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502813</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502817</GUID>
+        </Item>
+        <Item>
+            <GUID>1337502818</GUID>
+        </Item>
+	</ModOp>
+	
     <ModOp GUID="2001089" Type="add" Path="/Values/FeedbackBuildingGroup/Buildings">
         <Item>
             <Building>1337502810</Building>
@@ -2108,7 +2402,7 @@ xxxxxxxxxxxxxxxxxxxxx
             <GUID>1337502818</GUID>
         </Item>
     </ModOp>
-    <ModOp Type="add" GUID="700055,700153,700010" Path="/Values/PlayerCounterContextPool/Contexts">
+    <ModOp Type="add" GUID="700055,700153,700010,700002" Path="/Values/PlayerCounterContextPool/Contexts">
         <Item>
             <Asset>1337502810</Asset>
         </Item>
@@ -2126,9 +2420,10 @@ xxxxxxxxxxxxxxxxxxxxx
         </Item>
     </ModOp>
     <!-- Warehouse Cattle -->
-    <ModOp Type="addNextSibling" GUID="1010270">
+    <ModOp Type="addNextSibling" GUID="1010371">
         <Asset>
             <Template>Warehouse</Template>
+			<!--<BaseAssetGUID>1010371</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337502819</GUID>
@@ -2278,11 +2573,10 @@ xxxxxxxxxxxxxxxxxxxxx
                 <Pausable />
             </Values>
         </Asset>
-    </ModOp>
     <!-- Warehouse Horse -->
-    <ModOp Type="addNextSibling" GUID="1010270">
         <Asset>
             <Template>Warehouse</Template>
+			<!--<BaseAssetGUID>1010371</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337502820</GUID>
@@ -2432,11 +2726,10 @@ xxxxxxxxxxxxxxxxxxxxx
                 <Pausable />
             </Values>
         </Asset>
-    </ModOp>
     <!-- Warehouse Pig -->
-    <ModOp Type="addNextSibling" GUID="1010270">
         <Asset>
             <Template>Warehouse</Template>
+			<!--<BaseAssetGUID>1010371</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337502821</GUID>
@@ -2586,11 +2879,10 @@ xxxxxxxxxxxxxxxxxxxxx
                 <Pausable />
             </Values>
         </Asset>
-    </ModOp>
     <!-- Warehouse Sheep -->
-    <ModOp Type="addNextSibling" GUID="1010270">
         <Asset>
             <Template>Warehouse</Template>
+			<!--<BaseAssetGUID>1010371</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337502822</GUID>
@@ -2740,6 +3032,147 @@ xxxxxxxxxxxxxxxxxxxxx
                 <Pausable />
             </Values>
         </Asset>
+<!-- 2x2 Immigrants Warehouse -->
+        <Asset>
+            <Template>Warehouse</Template>
+			<!--<BaseAssetGUID>1010371</BaseAssetGUID>-->
+            <Values>
+                <Standard>
+                    <GUID>1337509686</GUID>
+                    <Name>2x2_Warehouse</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\2x2_warehouse\2x2_warehouse_01.png</IconFilename>
+                    <InfoDescription>2975</InfoDescription>
+                </Standard>
+                <Text />
+                <Blocking />
+                <Building>
+                    <BuildingType>Logistic</BuildingType>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337509686</PickingAsset>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AllowCodeToControlRotation>1</AllowCodeToControlRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>8</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Warehouse</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageTrigger>ClickKontor</ParticipantMessageTrigger>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\horse_farm\wood_buildings\2x2_warehouse\2x2_warehouse_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1010371</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509682</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509683</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509684</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509685</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>200834</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Locked />
+                <Infolayer />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>0</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <UpgradeList />
+                <AmbientMoodProvider>
+                    <AmbientMood>ResidenceTier1</AmbientMood>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>10</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <StorageBase />
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>1500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <Pausable />
+            </Values>
+        </Asset>
     </ModOp>
     <!-- Farmers Marktplatz skin -->
     <ModOp Type="addNextSibling" GUID="80160">
@@ -2791,6 +3224,9 @@ xxxxxxxxxxxxxxxxxxxxx
         <Item>
             <Building>1337502799</Building>
         </Item>
+		<Item>
+            <Building>1337509663</Building>
+        </Item>
         <Item>
             <Building>1337502812</Building>
         </Item>
@@ -2815,6 +3251,9 @@ xxxxxxxxxxxxxxxxxxxxx
         <Item>
             <Building>1337502822</Building>
         </Item>
+		<Item>
+            <Building>1337509686</Building>
+        </Item>
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- Freischaltung -->
@@ -2823,7 +3262,7 @@ xxxxxxxxxxxxxxxxxxxxx
             <Template>FeatureUnlock</Template>
             <Values>
                 <Standard>
-                    <GUID>1337502814</GUID>
+                    <GUID>1337509664</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
                 </Standard>
@@ -2856,15 +3295,15 @@ xxxxxxxxxxxxxxxxxxxxx
                                             <Item>
                                                 <Asset>1337502793</Asset>
                                             </Item>
-                                            <Item>
+                                            <!--<Item>
                                                 <Asset>1337502794</Asset>
-                                            </Item>
+                                            </Item>-->
                                             <Item>
                                                 <Asset>1337502795</Asset>
                                             </Item>
-                                            <Item>
+                                            <!--<Item>
                                                 <Asset>1337502796</Asset>
-                                            </Item>
+                                            </Item>-->
                                             <Item>
                                                 <Asset>1337502797</Asset>
                                             </Item>
@@ -2873,6 +3312,9 @@ xxxxxxxxxxxxxxxxxxxxx
                                             </Item>
                                             <Item>
                                                 <Asset>1337502799</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337509663</Asset>
                                             </Item>
                                             <Item>
                                                 <Asset>1337502800</Asset>
@@ -2900,6 +3342,9 @@ xxxxxxxxxxxxxxxxxxxxx
                                             </Item>
                                             <Item>
                                                 <Asset>1337502822</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337509686</Asset>
                                             </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
@@ -2912,15 +3357,15 @@ xxxxxxxxxxxxxxxxxxxxx
                                             <Item>
                                                 <Asset>1337502793</Asset>
                                             </Item>
-                                            <Item>
+                                            <!--<Item>
                                                 <Asset>1337502794</Asset>
-                                            </Item>
+                                            </Item>-->
                                             <Item>
                                                 <Asset>1337502795</Asset>
                                             </Item>
-                                            <Item>
+                                            <!--<Item>
                                                 <Asset>1337502796</Asset>
-                                            </Item>
+                                            </Item>-->
                                             <Item>
                                                 <Asset>1337502797</Asset>
                                             </Item>
@@ -2929,6 +3374,9 @@ xxxxxxxxxxxxxxxxxxxxx
                                             </Item>
                                             <Item>
                                                 <Asset>1337502799</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337509663</Asset>
                                             </Item>
                                             <Item>
                                                 <Asset>1337502800</Asset>
@@ -2956,6 +3404,9 @@ xxxxxxxxxxxxxxxxxxxxx
                                             </Item>
                                             <Item>
                                                 <Asset>1337502822</Asset>
+                                            </Item>
+											<Item>
+                                                <Asset>1337509686</Asset>
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

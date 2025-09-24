@@ -63,6 +63,12 @@ Changelog - 1.3
 ---------------------------
 	- added only for the ornamental part,New Horizons support.
 	
+---------------------------
+Changelog - 1.31
+---------------------------
+	- added 2x2 warehouse and 2x3 Firestation.
+	- changed immigrants chapel and pub need to vanilla ones.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

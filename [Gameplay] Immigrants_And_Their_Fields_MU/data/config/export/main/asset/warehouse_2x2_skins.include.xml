@@ -1,0 +1,119 @@
+<ModOps>
+<!--
+
+1337509682 Warehouse_Skin_02
+1337509683 Warehouse_Skin_03
+1337509684 Warehouse_Skin_04
+1337509685 Warehouse_Skin_05
+
+-->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Skins Warehouse xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509682</GUID>
+                    <Name>Warehouse_Skin_02</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\2x2_warehouse\2x2_warehouse_02.png</IconFilename>
+                    <ID>Warehouse_Skin_02</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>1010371</SkinName>
+                    <SkinDescription>261926</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\immigrants\buildings\ornamental\horse_farm\wood_buildings\2x2_warehouse\2x2_warehouse_02.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+                <!--<TextOverride>1010371</TextOverride>
+				</Text>-->
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509683</GUID>
+                    <Name>Warehouse_Skin_03</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\2x2_warehouse\2x2_warehouse_03.png</IconFilename>
+                    <ID>Warehouse_Skin_03</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>1010371</SkinName>
+                    <SkinDescription>261897</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\immigrants\buildings\ornamental\horse_farm\wood_buildings\2x2_warehouse\2x2_warehouse_03.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509684</GUID>
+                    <Name>Warehouse_Skin_04</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\2x2_warehouse\2x2_warehouse_04.png</IconFilename>
+                    <ID>Warehouse_Skin_04</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>1010371</SkinName>
+                    <SkinDescription>261891</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\immigrants\buildings\ornamental\horse_farm\wood_buildings\2x2_warehouse\2x2_warehouse_04.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509685</GUID>
+                    <Name>Warehouse_Skin_05</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\2x2_warehouse\2x2_warehouse_05.png</IconFilename>
+                    <ID>Warehouse_Skin_05</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>1010371</SkinName>
+                    <SkinDescription>4287</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data\muggenstuermer\immigrants\buildings\ornamental\horse_farm\wood_buildings\2x2_warehouse\2x2_warehouse_05.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

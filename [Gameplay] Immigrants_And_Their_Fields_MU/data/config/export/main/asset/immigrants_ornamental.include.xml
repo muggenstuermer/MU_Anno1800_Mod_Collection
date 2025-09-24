@@ -13,6 +13,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 1337502898 Chapel Building
 1337502899 Townhall Building
 1337502900 TownGate Building
+1337509692 Fire Station
+1337509693 2x2 Immigrants Warehouse
+
+
 
 1337502901 Warehouse Cattle
 1337502902 Warehouse Horse
@@ -30,7 +34,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 1337500189 Horse Farm Outbuildings
 
-1337502931 Trigger
+1337509694 Trigger
 
 
 -->
@@ -1062,6 +1066,209 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             </Values>
         </Asset>
     </ModOp>
+	<!-- Fire Station -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509692</GUID>
+                    <Name>Immigrants_FireStation</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\fire_station\immigrants_firestation_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337509663</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337509692</PickingAsset>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\horse_farm\wood_buildings\firestation\immigrants_firestation_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337509663</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <!--<OverrideDefaultIcon>data\muggenstuermer\ui\2kimages\main\3dicons\towngate\towngate_skin_01.png</OverrideDefaultIcon>-->
+                        <SkinList>
+							<Item>
+								<SkinAssetGuid>1337509646</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509647</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509648</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509649</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509650</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509651</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509652</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509653</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509654</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509655</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509656</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509657</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509658</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509659</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509660</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509661</SkinAssetGuid>
+							</Item>
+							<Item>
+								<SkinAssetGuid>1337509662</SkinAssetGuid>
+							</Item>
+						</SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+    </ModOp>
+	<!-- 2x2 Immigrants Warehouse -->
+    <ModOp Type="addNextSibling" GUID="1010270">
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509693</GUID>
+                    <Name>2x2_Warehouse</Name>
+                    <IconFilename>data\muggenstuermer\ui\2kimages\main\3dicons\2x2_warehouse\2x2_warehouse_01.png</IconFilename>
+                    <InfoDescription>163093</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1337509686</TextOverride>
+                </Text>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337509693</PickingAsset>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>-->
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\immigrants\buildings\ornamental\horse_farm\wood_buildings\2x2_warehouse\2x2_warehouse_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1337509686</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <!--<OverrideDefaultIcon>data\muggenstuermer\ui\2kimages\main\3dicons\2x2_warehouse\2x2_warehouse_01.png</OverrideDefaultIcon>-->
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509682</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509683</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509684</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509685</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+    </ModOp>
     <!-- Warehouse Cattle -->
     <ModOp Type="addNextSibling" GUID="1010270">
         <Asset>
@@ -1935,6 +2142,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         <Item>
             <Building>1337502899</Building>
         </Item>
+		
+		<Item>
+            <Building>1337509692</Building>
+        </Item>
+		
         <Item>
             <Building>1337502900</Building>
         </Item>
@@ -1950,6 +2162,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         <Item>
             <Building>1337502904</Building>
         </Item>
+		
+		<Item>
+            <Building>1337509693</Building>
+        </Item>
+		
         <Item>
             <Building>1337502905</Building>
         </Item>
@@ -1979,7 +2196,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             <Template>FeatureUnlock</Template>
             <Values>
                 <Standard>
-                    <GUID>1337502931</GUID>
+                    <GUID>1337509694</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
                 </Standard>
@@ -2063,6 +2280,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                                             <Item>
                                                 <Asset>1337502930</Asset>
                                             </Item>
+											
+											<Item>
+                                                <Asset>1337509692</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337509693</Asset>
+                                            </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
@@ -2124,6 +2348,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                                             </Item>
                                             <Item>
                                                 <Asset>1337502930</Asset>
+                                            </Item>
+											
+											<Item>
+                                                <Asset>1337509692</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1337509693</Asset>
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>
