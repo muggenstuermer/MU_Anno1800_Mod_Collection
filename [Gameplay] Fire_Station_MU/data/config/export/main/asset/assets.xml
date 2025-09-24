@@ -565,9 +565,10 @@
         </Asset>
     </ModOp>
     <!-- Feuerwache / big  -->
-    <ModOp Type="addNextSibling" GUID="1010462">
+    <ModOp Type="addNextSibling" GUID="1010463">
         <Asset>
             <Template>CityInstitutionBuildingFireMU</Template>
+			<!--<BaseAssetGUID>1010463</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337500011</GUID>
@@ -673,7 +674,7 @@
                     </Maintenances>
                 </Maintenance>
                 <Attackable>
-                    <AttackableType>HarbourBuilding</AttackableType>
+                    <AttackableType>IslandBuilding</AttackableType>
                     <MaximumHitPoints>5500</MaximumHitPoints>
                     <SelfHealPerHealTick>6</SelfHealPerHealTick>
                 </Attackable>
@@ -701,9 +702,10 @@
     </ModOp>
 	
 	<!-- Feuerwache / big  Harbor OW-->
-    <ModOp Type="addNextSibling" GUID="1010462">
+    <ModOp Type="addNextSibling" GUID="1010463">
         <Asset>
             <Template>CityInstitutionBuildingFireMU</Template>
+			<!--<BaseAssetGUID>1010463</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337504394</GUID>
@@ -842,9 +844,10 @@
         </Asset>
     </ModOp>
 	<!-- Feuerwache / big  Harbor NW-->
-    <ModOp Type="addNextSibling" GUID="1010462">
+    <ModOp Type="addNextSibling" GUID="1010463">
         <Asset>
             <Template>CityInstitutionBuildingFireMU</Template>
+			<!--<BaseAssetGUID>1010463</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337504399</GUID>
@@ -1045,7 +1048,7 @@
             <Building>1337504400</Building>
         </Item>
     </ModOp>
-    <ModOp Type="add" GUID="190611" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="190611,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>1337500011</GUID>
         </Item>
@@ -1138,6 +1141,7 @@
     <ModOp Type="addNextSibling" GUID="1010463">
         <Asset>
             <Template>CityInstitutionBuildingFireMU</Template>
+			<!--<BaseAssetGUID>1010463</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337500012</GUID>
@@ -1269,6 +1273,7 @@
     <ModOp Type="addNextSibling" GUID="1010463">
         <Asset>
             <Template>CityInstitutionBuildingFireMU</Template>
+			<!--<BaseAssetGUID>1010463</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337504395</GUID>
@@ -1405,7 +1410,8 @@
 	<!-- Feuerwache / small Harbor NW-->
     <ModOp Type="addNextSibling" GUID="1010463">
         <Asset>
-            <Template>CityInstitutionBuildingFireMU</Template>
+           <Template>CityInstitutionBuildingFireMU</Template>
+			<!--<BaseAssetGUID>1010463</BaseAssetGUID>-->
             <Values>
                 <Standard>
                     <GUID>1337504400</GUID>

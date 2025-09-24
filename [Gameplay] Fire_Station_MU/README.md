@@ -90,6 +90,11 @@ Changelog - 1.3
 ---------------------------
 	- added New Horizons support.
 	
+---------------------------
+Changelog - 1.31
+---------------------------
+	- a few code corrections.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
