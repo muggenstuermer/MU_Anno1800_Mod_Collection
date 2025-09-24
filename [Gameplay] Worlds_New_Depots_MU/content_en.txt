@@ -131,5 +131,10 @@ Changelog - 1.41
 ---------------------------
 	- Variation number 15 of the buildable depots in the Arctic has been edited.An empty PropContainer caused a crash to the desktop.
 	
+---------------------------
+Changelog - 1.42
+---------------------------
+	- a few code corrections for pool integration.
+	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
