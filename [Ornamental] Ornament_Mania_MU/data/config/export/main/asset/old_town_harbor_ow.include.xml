@@ -3,6 +3,24 @@
 	
 xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 
+1337509069 Skin WallSystem A Harbor
+1337509070 Skin WallSystem B Harbor
+1337509071 Skin Tower Round A Harbor
+1337509072 Skin Tower Round B Harbor
+1337509073 Skin Tower Square A Harbor
+1337509074 Skin Tower Square B Harbor
+1337509075 Skin Wall A Small Gate Harbor
+1337509076 Skin Wall A Large Gate Harbor
+
+1337509061 Skin WallSystem A Land
+1337509062 Skin WallSystem B Land
+1337509063 Skin Tower Round A Land
+1337509064 Skin Tower Round B Land
+1337509065 Skin Tower Square A Land
+1337509066 Skin Tower Square B Land
+1337509067 Skin Wall A Small Gate Land
+1337509068 Skin Wall A Large Gate Land
+
 1337507820 CDLC09 TowerSquare Big
 1337507821 CDLC09 TowerSquare Small
 1337507822 CDLC09 TowerRound A
@@ -15,6 +33,10 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 1337507829 CDLC09 Wall A Small Gate
 1337507830 CDLC09 Wall A Large Gate
 
+1337509077 Skin OldTown Defense Tower Gun
+1337509078 Skin OldTown Defense Tower Flak
+1337509079 Skin OldTown Defense Tower Guntower
+
 1337507885 OldTown (Tower 01, Puckle Gun)
 1337507887 OldTown (Tower 05, FlaK)
 1337507889 OldTown (Tower 06, Armor Pierce Tower)
@@ -26,6 +48,469 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 
 -->
 	<ModOp Type="addNextSibling" GUID="1010035">
+		<!-- Skin WallSystem A Harbor -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509069</GUID>
+					<Name>Skin WallSystem A</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_citywall_covered_straight_01.png</IconFilename>
+					<ID>Skin_WallSystem_A</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_straight_v01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_end.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_corner_v01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_cross.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_tee.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_straight_v02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_straight_v03.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_corner_v02.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin WallSystem B -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509070</GUID>
+					<Name>Skin WallSystem B</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_citywall_open_straight_01.png</IconFilename>
+					<ID>Skin_WallSystem_B</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_b\wall_straight_v01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_b\wall_end.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_b\wall_corner_v01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_b\wall_cross.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_b\wall_tee.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_b\wall_straight_v02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_b\wall_straight_v03.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Tower Round A -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509071</GUID>
+					<Name>Skin Tower Round A</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_enchanting_tower.png</IconFilename>
+					<ID>Skin_Tower_Round_A</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\tower_round_a\tower_round_a.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Tower Round B -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509072</GUID>
+					<Name>Skin Tower Round B</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_guard_tower.png</IconFilename>
+					<ID>Skin_Tower_Round_B</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\tower_round_b\tower_round_b.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Tower Square A -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509073</GUID>
+					<Name>Skin Tower Square A</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_square_tower.png</IconFilename>
+					<ID>Skin_Tower_Square_A</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\tower_square_a\tower_square_a.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Tower Square B -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509074</GUID>
+					<Name>Skin Tower Square B</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_town_gatehouse.png</IconFilename>
+					<ID>Skin_Tower_Square_B</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\tower_square_b\tower_square_b.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Wall A Small Gate -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509075</GUID>
+					<Name>Skin Wall A Small Gate</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_archway.png</IconFilename>
+					<ID>Skin_Wall_A_Small_Gate</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_gate_v01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Wall A Large Gate -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509076</GUID>
+					<Name>Skin Wall A Large Gate</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_archway_large.png</IconFilename>
+					<ID>Skin_Wall_A_Large_Gate</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\wall_system_a\wall_gate_v02.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		
+		<!-- Skin WallSystem A Land -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509061</GUID>
+					<Name>Skin WallSystem A</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_citywall_covered_straight_01.png</IconFilename>
+					<ID>Skin_WallSystem_A</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_straight_v01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_end.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_corner_v01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_cross.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_tee.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_straight_v02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_straight_v03.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_corner_v02.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin WallSystem B -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509062</GUID>
+					<Name>Skin WallSystem B</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_citywall_open_straight_01.png</IconFilename>
+					<ID>Skin_WallSystem_B</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_b\wall_straight_v01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_b\wall_end.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_b\wall_corner_v01.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_b\wall_cross.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_b\wall_tee.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_b\wall_straight_v02.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_b\wall_straight_v03.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Tower Round A -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509063</GUID>
+					<Name>Skin Tower Round A</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_enchanting_tower.png</IconFilename>
+					<ID>Skin_Tower_Round_A</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\tower_round_a\tower_round_a.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Tower Round B -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509064</GUID>
+					<Name>Skin Tower Round B</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_guard_tower.png</IconFilename>
+					<ID>Skin_Tower_Round_B</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\tower_round_b\tower_round_b.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Tower Square A -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509065</GUID>
+					<Name>Skin Tower Square A</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_square_tower.png</IconFilename>
+					<ID>Skin_Tower_Square_A</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\tower_square_a\tower_square_a.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Tower Square B -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509066</GUID>
+					<Name>Skin Tower Square B</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_town_gatehouse.png</IconFilename>
+					<ID>Skin_Tower_Square_B</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\tower_square_b\tower_square_b.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Wall A Small Gate -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509067</GUID>
+					<Name>Skin Wall A Small Gate</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_archway.png</IconFilename>
+					<ID>Skin_Wall_A_Small_Gate</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_gate_v01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin Wall A Large Gate -->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509068</GUID>
+					<Name>Skin Wall A Large Gate</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_archway_large.png</IconFilename>
+					<ID>Skin_Wall_A_Large_Gate</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\land_skin\wall_system_a\wall_gate_v02.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
 		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW 5249 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 		<!-- CDLC09 TowerSquare Big -->
 		<Asset>
@@ -73,6 +558,16 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 							<Filename>data\muggenstuermer\old_town\harbor\tower_square_a\tower_square_a.cfg</Filename>
 						</Item>
 					</Variations>
+					<Skins>
+						<DefaultSkinName>5222</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509073</SkinAssetGuid>
+							</Item>
+						</SkinList>
+					</Skins>
 				</Object>
 				<Constructable/>
 				<Mesh/>
@@ -141,6 +636,16 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 							<Filename>data\muggenstuermer\old_town\harbor\tower_square_b\tower_square_b.cfg</Filename>
 						</Item>
 					</Variations>
+					<Skins>
+						<DefaultSkinName>5222</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509074</SkinAssetGuid>
+							</Item>
+						</SkinList>
+					</Skins>
 				</Object>
 				<Constructable/>
 				<Mesh/>
@@ -207,6 +712,16 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 							<Filename>data\muggenstuermer\old_town\harbor\tower_round_a\tower_round_a.cfg</Filename>
 						</Item>
 					</Variations>
+					<Skins>
+						<DefaultSkinName>5222</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509071</SkinAssetGuid>
+							</Item>
+						</SkinList>
+					</Skins>
 				</Object>
 				<Constructable/>
 				<Mesh/>
@@ -273,6 +788,16 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 							<Filename>data\muggenstuermer\old_town\harbor\tower_round_b\tower_round_b.cfg</Filename>
 						</Item>
 					</Variations>
+					<Skins>
+						<DefaultSkinName>5222</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509072</SkinAssetGuid>
+							</Item>
+						</SkinList>
+					</Skins>
 				</Object>
 				<Constructable/>
 				<Mesh/>
@@ -733,6 +1258,16 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 							<Filename>data\muggenstuermer\old_town\harbor\wall_system_a\wall_corner_v02.cfg</Filename>
 						</Item>
 					</Variations>
+					<Skins>
+						<DefaultSkinName>5222</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509069</SkinAssetGuid>
+							</Item>
+						</SkinList>
+					</Skins>
 				</Object>
 				<Constructable/>
 				<Mesh/>
@@ -989,6 +1524,16 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 							<Filename>data\muggenstuermer\old_town\harbor\wall_system_b\wall_straight_v03.cfg</Filename>
 						</Item>
 					</Variations>
+					<Skins>
+						<DefaultSkinName>5222</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509070</SkinAssetGuid>
+							</Item>
+						</SkinList>
+					</Skins>
 				</Object>
 				<Constructable/>
 				<Mesh/>
@@ -1060,6 +1605,16 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 							<Filename>data\muggenstuermer\old_town\harbor\wall_system_a\wall_gate_v01.cfg</Filename>
 						</Item>
 					</Variations>
+					<Skins>
+						<DefaultSkinName>5222</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509075</SkinAssetGuid>
+							</Item>
+						</SkinList>
+					</Skins>
 				</Object>
 				<Constructable/>
 				<Mesh/>
@@ -1128,6 +1683,16 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 							<Filename>data\muggenstuermer\old_town\harbor\wall_system_a\wall_gate_v02.cfg</Filename>
 						</Item>
 					</Variations>
+					<Skins>
+						<DefaultSkinName>5222</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509076</SkinAssetGuid>
+							</Item>
+						</SkinList>
+					</Skins>
 				</Object>
 				<Constructable/>
 				<Mesh/>
@@ -1148,7 +1713,81 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 				<Culture/>
 			</Values>
 		</Asset>
-
+		
+		
+		<!-- Skin OldTown Defense Tower Gun-->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509077</GUID>
+					<Name>Skin OldTown Defense Tower</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_defense_tower_pucklegun.png</IconFilename>
+					<ID>Skin_OldTown_Defense_Tower</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\harbor_04\tower_turret_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	<!-- Skin OldTown Defense Tower Flak-->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509078</GUID>
+					<Name>Skin OldTown Defense Tower</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_flack_tower.png</IconFilename>
+					<ID>Skin_OldTown_Defense_Tower</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\harbor_04\tower_turret_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		<!-- Skin OldTown Defense Tower Guntower-->
+		<Asset>
+			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509079</GUID>
+					<Name>Skin OldTown Defense Tower</Name>
+					<IconFilename>data\muggenstuermer\old_town\icon_he_guntower.png</IconFilename>
+					<ID>Skin_OldTown_Defense_Tower</ID>
+				</Standard>
+				<Skin>
+					<SkinName>7312</SkinName>
+					<SkinDescription>732</SkinDescription>
+					<SkinVariations>
+						<Item>
+							<FileName>data\muggenstuermer\old_town\harbor_skin\harbor_04\tower_turret_01.cfg</FileName>
+						</Item>
+					</SkinVariations>
+					<SkinCategoryDescription>5753</SkinCategoryDescription>
+				</Skin>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+		
 		<!-- OldTown (Tower 01, Puckle Gun) -->
 		<Asset>
 			<Template>HarborBuildingAttacker</Template>
@@ -1181,6 +1820,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 						<DefaultSkinName>1010522</DefaultSkinName>
 						<DefaultSkinDescription>23853</DefaultSkinDescription>
 						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509077</SkinAssetGuid>
+							</Item>
+						</SkinList>
 					</Skins>
 				</Object>
 				<AmbientMoodProvider/>
@@ -1417,6 +2061,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 						<DefaultSkinName>736</DefaultSkinName>
 						<DefaultSkinDescription>23853</DefaultSkinDescription>
 						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509078</SkinAssetGuid>
+							</Item>
+						</SkinList>
 					</Skins>
 				</Object>
 				<AmbientMoodProvider/>
@@ -1646,6 +2295,11 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 						<DefaultSkinName>3700</DefaultSkinName>
 						<DefaultSkinDescription>23853</DefaultSkinDescription>
 						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+						<SkinList>
+							<Item>
+								<SkinAssetGuid>1337509079</SkinAssetGuid>
+							</Item>
+						</SkinList>
 					</Skins>
 				</Object>
 				<AmbientMoodProvider/>
@@ -1877,6 +2531,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx Old Town HARBOR OW xxxxxxxxxxxxxxxxxxxxxxxx
 				<Locked/>
 			</Values>
 		</Asset>
+		
 	</ModOp>
 
 	<!-- asset pool harbor defenses -->

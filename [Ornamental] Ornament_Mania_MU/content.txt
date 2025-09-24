@@ -41,6 +41,11 @@ Everything is possible, but nothing is mandatory.
 Release - 1.0
 ---------------------------
 
+---------------------------
+Changelog - 1.1
+---------------------------
+	- added grey skin for old town walls.
+
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

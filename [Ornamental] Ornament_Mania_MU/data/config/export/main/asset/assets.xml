@@ -230,11 +230,111 @@
 	<ModOp Type="merge" GUID="1500011082,1500011081,1500011080" Path="/Values/Building/AssociatedRegions">
 		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 	</ModOp>
+	
+	
 	<!-- Add Anno 1800 CDLC 09 - Old Town to NEW HORIZON Ornaments + ENBESA Land Menu -->
 	<!-- Prepare AssociatedRegions Building>5249</Building> -->
 	<ModOp Type="merge" GUID="5187,5191,5194,5199,5200,5203,5206,5207,5213,5208,5211,5212,6007,6009" Path="/Values/Building/AssociatedRegions">
 		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
 	</ModOp>
+	<!-- Add Skin to Old Town Wall Systems Land Buildings-->
+	<ModOp Type="add" GUID="5211" Path="/Values/Object">
+		<Skins>
+			<DefaultSkinName>5222</DefaultSkinName>
+			<DefaultSkinDescription>23853</DefaultSkinDescription>
+			<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+			<SkinList>
+				<Item>
+					<SkinAssetGuid>1337509061</SkinAssetGuid>
+				</Item>
+			</SkinList>
+		</Skins>
+	</ModOp>
+	<ModOp Type="add" GUID="5212" Path="/Values/Object">
+		<Skins>
+			<DefaultSkinName>5222</DefaultSkinName>
+			<DefaultSkinDescription>23853</DefaultSkinDescription>
+			<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+			<SkinList>
+				<Item>
+					<SkinAssetGuid>1337509062</SkinAssetGuid>
+				</Item>
+			</SkinList>
+		</Skins>
+	</ModOp>
+	<ModOp Type="add" GUID="5194" Path="/Values/Object">
+		<Skins>
+			<DefaultSkinName>5222</DefaultSkinName>
+			<DefaultSkinDescription>23853</DefaultSkinDescription>
+			<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+			<SkinList>
+				<Item>
+					<SkinAssetGuid>1337509063</SkinAssetGuid>
+				</Item>
+			</SkinList>
+		</Skins>
+	</ModOp>
+	<ModOp Type="add" GUID="5199" Path="/Values/Object">
+		<Skins>
+			<DefaultSkinName>5222</DefaultSkinName>
+			<DefaultSkinDescription>23853</DefaultSkinDescription>
+			<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+			<SkinList>
+				<Item>
+					<SkinAssetGuid>1337509064</SkinAssetGuid>
+				</Item>
+			</SkinList>
+		</Skins>
+	</ModOp>
+	<ModOp Type="add" GUID="5187" Path="/Values/Object">
+		<Skins>
+			<DefaultSkinName>5222</DefaultSkinName>
+			<DefaultSkinDescription>23853</DefaultSkinDescription>
+			<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+			<SkinList>
+				<Item>
+					<SkinAssetGuid>1337509065</SkinAssetGuid>
+				</Item>
+			</SkinList>
+		</Skins>
+	</ModOp>
+	<ModOp Type="add" GUID="5191" Path="/Values/Object">
+		<Skins>
+			<DefaultSkinName>5222</DefaultSkinName>
+			<DefaultSkinDescription>23853</DefaultSkinDescription>
+			<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+			<SkinList>
+				<Item>
+					<SkinAssetGuid>1337509066</SkinAssetGuid>
+				</Item>
+			</SkinList>
+		</Skins>
+	</ModOp>
+	<ModOp Type="add" GUID="6007" Path="/Values/Object">
+		<Skins>
+			<DefaultSkinName>5222</DefaultSkinName>
+			<DefaultSkinDescription>23853</DefaultSkinDescription>
+			<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+			<SkinList>
+				<Item>
+					<SkinAssetGuid>1337509067</SkinAssetGuid>
+				</Item>
+			</SkinList>
+		</Skins>
+	</ModOp>
+	<ModOp Type="add" GUID="6009" Path="/Values/Object">
+		<Skins>
+			<DefaultSkinName>5222</DefaultSkinName>
+			<DefaultSkinDescription>23853</DefaultSkinDescription>
+			<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+			<SkinList>
+				<Item>
+					<SkinAssetGuid>1337509068</SkinAssetGuid>
+				</Item>
+			</SkinList>
+		</Skins>
+	</ModOp>
+	
 	<!-- Add Anno 1800 CDLC 10 - Dragon Garden to NEW HORIZON Ornaments + ENBESA Ornaments Land Menu -->
 	<!-- Prepare AssociatedRegions Building>10108</Building> -->
 	<ModOp Type="merge" GUID="9259,9261,9262,9263,9264,9265,9266,9308,9267,9268,9270,9271,9334,9273,9274,9275" Path="/Values/Building/AssociatedRegions">
@@ -671,7 +771,11 @@
 			<Building>1337507819</Building>
 		</Item>
 	</ModOp>
-
+	
+	<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Industrial_Ornaments_TurTur buildable in all regions xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+	<ModOp Type="add" GUID="1500113074,1500113076,1500113078,1500113079,1500113080,1500113081,1500113082,1500113083,1500113084,1500113085,1500113086,1500113087,1500113088,1500113089" Path="/Values/Building">
+		<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+	</ModOp>
 
 	<!-- #1 - Docklands : Enbesa -->
 	<Include File="docklands_enbesa.include.xml"/>
@@ -902,5 +1006,6 @@
 	<Include File="pedestrian_zone_harbor_new_horizons.include.xml"/>
 	<!-- #104 - CDLC 05 - Pedestrian Zone Menu Harbor : ARCTIC -->
 	<Include File="pedestrian_zone_harbor_arctic.include.xml"/>
+	
 </ModOps>
 <!-- 2025-05-27 19:55:21 -->
