@@ -1,0 +1,2347 @@
+<ModOps>
+
+
+<!--
+
+1337509497 Flag 01
+1337509498 Flag 02
+1337509499 Flag 03
+1337509500 Flag 04
+1337509501 Flag 05
+1337509502 Flag 06
+1337509503 Flag 07
+1337509504 Flag 08
+1337509505 Flag 09
+1337509506 Flag 10
+1337509507 Flag 11
+1337509508 Flag 12
+1337509509 Flag 13
+1337509510 Flag 14
+1337509511 Flag 15
+1337509512 Flag 16
+1337509513 Flag 17
+1337509514 Flag 18
+1337509515 Flag 19
+1337509516 Flag 20
+1337509517 Flag 21
+1337509518 Flag 22
+1337509519 Flag 23
+1337509520 Flag 24
+1337509521 Flag 25
+1337509522 Flag 26
+1337509523 Flag 27
+1337509524 Flag 28
+1337509525 Flag 29
+1337509526 Flag 30
+1337509527 Flag 31
+1337509528 Flag 32
+1337509529 Flag Mugge 01
+1337509530 Flag Mugge 02
+
+1337509531 Trigger
+
+-->
+
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<!-- Flag 01 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509497</GUID>
+                    <Name>Flag01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 02 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509498</GUID>
+                    <Name>Flag02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_02.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_02.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 03 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509499</GUID>
+                    <Name>Flag03</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_03.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_03.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 04 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509500</GUID>
+                    <Name>Flag04</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_04.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_04.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 05 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509501</GUID>
+                    <Name>Flag05</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_05.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_05.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 06 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509502</GUID>
+                    <Name>Flag06</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_06.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_06.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 07 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509503</GUID>
+                    <Name>Flag07</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_07.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_07.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 08 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509504</GUID>
+                    <Name>Flag08</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_08.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_08.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 09 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509505</GUID>
+                    <Name>Flag09</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_09.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_09.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 10 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509506</GUID>
+                    <Name>Flag10</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_10.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_10.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 11 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509507</GUID>
+                    <Name>Flag11</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_11.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_11.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 12 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509508</GUID>
+                    <Name>Flag12</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_12.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_12.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 13 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509509</GUID>
+                    <Name>Flag13</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_13.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_13.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                 <Mesh>
+					<ForbidCollapseEffect>1</ForbidCollapseEffect>
+					<LogoMode>CorporationLogoFromPlayer</LogoMode>
+					<SetCompanyLogo>1</SetCompanyLogo>
+				</Mesh>
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 14 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509510</GUID>
+                    <Name>Flag14</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_14.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_14.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 15 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509511</GUID>
+                    <Name>Flag15</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_15.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_15.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 16 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509512</GUID>
+                    <Name>Flag16</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_16.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_16.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 17 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509513</GUID>
+                    <Name>Flag17</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_17.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_17.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 18 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509514</GUID>
+                    <Name>Flag18</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_18.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_18.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 19 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509515</GUID>
+                    <Name>Flag19</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_19.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_19.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 20 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509516</GUID>
+                    <Name>Flag20</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_20.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_20.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 21 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509517</GUID>
+                    <Name>Flag21</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_21.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_21.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 22 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509518</GUID>
+                    <Name>Flag22</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_22.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_22.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 23 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509519</GUID>
+                    <Name>Flag23</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_23.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_23.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 24 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509520</GUID>
+                    <Name>Flag24</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_24.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_24.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 25 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509521</GUID>
+                    <Name>Flag25</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_25.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_25.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 26 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509522</GUID>
+                    <Name>Flag26</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_26.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_26.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 27 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509523</GUID>
+                    <Name>Flag27</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_27.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_27.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 28 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509524</GUID>
+                    <Name>Flag28</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_28.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_28.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 29 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509525</GUID>
+                    <Name>Flag29</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_29.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_29.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 30 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509526</GUID>
+                    <Name>Flag30</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_30.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_30.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 31 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509527</GUID>
+                    <Name>Flag31</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_31.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_31.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag 32 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509528</GUID>
+                    <Name>Flag32</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_32.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_32.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag Mugge 01 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509529</GUID>
+                    <Name>FlagMugge01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_mugge_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_mugge_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Flag Mugge 02 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509530</GUID>
+                    <Name>FlagMugge02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\flags\flag_mugge_02.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509150</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\flags\flag_mugge_02.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU Billboards xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="add" GUID='1337509240' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337509497</Building>
+		</Item>
+		<Item>
+			<Building>1337509498</Building>
+		</Item>
+		<Item>
+			<Building>1337509499</Building>
+		</Item>
+		<Item>
+			<Building>1337509500</Building>
+		</Item>
+		<Item>
+			<Building>1337509501</Building>
+		</Item>
+		<Item>
+			<Building>1337509502</Building>
+		</Item>
+		<Item>
+			<Building>1337509503</Building>
+		</Item>
+		<Item>
+			<Building>1337509504</Building>
+		</Item>
+		<Item>
+			<Building>1337509505</Building>
+		</Item>
+		<Item>
+			<Building>1337509506</Building>
+		</Item>
+		<Item>
+			<Building>1337509507</Building>
+		</Item>
+		<Item>
+			<Building>1337509508</Building>
+		</Item>
+		<Item>
+			<Building>1337509509</Building>
+		</Item>
+		<Item>
+			<Building>1337509510</Building>
+		</Item>
+		<Item>
+			<Building>1337509511</Building>
+		</Item>
+		<Item>
+			<Building>1337509512</Building>
+		</Item>
+		<Item>
+			<Building>1337509513</Building>
+		</Item>
+		<Item>
+			<Building>1337509514</Building>
+		</Item>
+		<Item>
+			<Building>1337509515</Building>
+		</Item>
+		<Item>
+			<Building>1337509516</Building>
+		</Item>
+		<Item>
+			<Building>1337509517</Building>
+		</Item>
+		<Item>
+			<Building>1337509518</Building>
+		</Item>
+		<Item>
+			<Building>1337509519</Building>
+		</Item>
+		<Item>
+			<Building>1337509520</Building>
+		</Item>
+		<Item>
+			<Building>1337509521</Building>
+		</Item>
+		<Item>
+			<Building>1337509522</Building>
+		</Item>
+		<Item>
+			<Building>1337509523</Building>
+		</Item>
+		<Item>
+			<Building>1337509524</Building>
+		</Item>
+		<Item>
+			<Building>1337509525</Building>
+		</Item>
+		<Item>
+			<Building>1337509526</Building>
+		</Item>
+		<Item>
+			<Building>1337509527</Building>
+		</Item>
+		<Item>
+			<Building>1337509528</Building>
+		</Item>
+		<Item>
+			<Building>1337509529</Building>
+		</Item>
+		<Item>
+			<Building>1337509530</Building>
+		</Item>
+		
+    </ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509531</GUID>
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337509497</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509498</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509499</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509500</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509501</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509502</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509503</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509504</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509505</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509506</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509507</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509508</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509509</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509510</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509511</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509512</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509513</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509514</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509515</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509516</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509517</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509518</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509519</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509520</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509521</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509522</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509523</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509524</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509525</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509526</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509527</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509528</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509529</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509530</Asset>
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>1337509497</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509498</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509499</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509500</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509501</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509502</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509503</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509504</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509505</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509506</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509507</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509508</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509509</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509510</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509511</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509512</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509513</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509514</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509515</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509516</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509517</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509518</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509519</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509520</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509521</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509522</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509523</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509524</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509525</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509526</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509527</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509528</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509529</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509530</Asset>
+											</Item>
+											
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>
+
+<!-- 2025-09-24 08:54:58 -->

@@ -1,0 +1,1736 @@
+<ModOps>
+
+
+<!--
+
+1337509422 Column Statue
+1337509423 Statues 1x1
+1337509424 Statues 2x2
+1337509425 Statues 4x5
+1337509426 Fountains 1x1
+1337509427 Fountains 2x2
+1337509428 Fountains 2x3
+1337509429 Fountains 4x4 01
+1337509430 Fountains 4x4 02
+1337509431 Fountains 4x5
+
+1337509432 Cafe by the lake
+
+1337509433 Victory Column 01
+1337509434 Victory Column 02
+1337509435 Victory Column 03
+1337509436 Victory Column 04
+1337509437 Victory Column 05
+
+1337509438 Victory Corner
+
+1337509439 Eiffel Tower
+1337509440 Eiffel Tower Buff
+
+
+1337509441 Trigger
+
+-->
+
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<!-- Column Statue -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509422</GUID>
+                    <Name>ColumnStatue</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\column_statues\column_statue_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102105</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\column_statues\column_statue_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\column_statues\column_statue_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\column_statues\column_statue_03.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\1x1\column_statue_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\1x1\column_statue_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\1x1\column_statue_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Statues 1x1 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509423</GUID>
+                    <Name>Statues1x1</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\statues_1x1\1x1_06.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102152</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_1x1\1x1_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_1x1\1x1_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_1x1\1x1_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_1x1\1x1_04.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_1x1\1x1_05.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_1x1\1x1_06.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\1x1\1x1_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\1x1\1x1_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\1x1\1x1_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\1x1\1x1_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\1x1\1x1_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\1x1\1x1_06.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Statues 2x2 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509424</GUID>
+                    <Name>Statues2x2</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\statues_2x2\2x2_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102152</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_2x2\2x2_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_2x2\2x2_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_2x2\2x2_03.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\2x2\2x2_01.cfg</Filename><!-- statues 2 -->
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\2x2\2x2_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\2x2\2x2_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Statues 4x5 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509425</GUID>
+                    <Name>Statues4x5</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\statues_4x5\4x5_02.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102152</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_4x5\4x5_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_4x5\4x5_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\statues_4x5\4x5_03.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\4x5\4x5_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\4x5\4x5_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\4x5\4x5_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Fountains 1x1 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509426</GUID>
+                    <Name>Fountains1x1</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\fountains_1x1\fountain_1x1_03.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102119</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_1x1\fountain_1x1_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_1x1\fountain_1x1_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_1x1\fountain_1x1_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_1x1\fountain_1x1_04.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_1x1\fountain_1x1_05.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_1x1\fountain_1x1_06.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\1x1\fountain_1x1_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\1x1\fountain_1x1_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\1x1\fountain_1x1_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\1x1\fountain_1x1_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\1x1\fountain_1x1_05.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\1x1\fountain_1x1_06.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Fountains 2x2 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509427</GUID>
+                    <Name>Fountains2x2</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\fountains_2x2\fountain_2x2_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102119</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\2x2\fountain_2x2_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Fountains 2x3 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509428</GUID>
+                    <Name>Fountains2x3</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\fountains_2x3\fountain_2x3_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102119</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_2x3\fountain_2x3_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_2x3\fountain_2x3_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_2x3\fountain_2x3_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_2x3\fountain_2x3_04.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_2x3\fountain_2x3_05.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\2x3\fountain_2x3_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\2x3\fountain_2x3_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\2x3\fountain_2x3_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\2x3\fountain_2x3_04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\2x3\fountain_2x3_05.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Fountains 4x4 01 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509429</GUID>
+                    <Name>Fountains4x4_01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102119</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_01a.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_01b.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x4\fountain_4x4_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x4\fountain_4x4_01a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x4\fountain_4x4_01b.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Fountains 4x4 02 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509430</GUID>
+                    <Name>Fountains4x4_02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_02d.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102119</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_02a.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_02b.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_02c.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x4\fountain_4x4_02d.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x4\fountain_4x4_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x4\fountain_4x4_02a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x4\fountain_4x4_02b.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x4\fountain_4x4_02c.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x4\fountain_4x4_02d.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Fountains 4x5 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509431</GUID>
+                    <Name>Fountains4x5</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\fountains_4x5\fountain_4x5_03.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102119</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x5\fountain_4x5_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x5\fountain_4x5_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x5\fountain_4x5_03.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x5\fountain_4x5_03a.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\fountains_4x5\fountain_4x5_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x5\fountain_4x5_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x5\fountain_4x5_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x5\fountain_4x5_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x5\fountain_4x5_03a.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\fountains\4x5\fountain_4x5_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Cafe by the lake -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509432</GUID>
+                    <Name>Cafe_by_the_lake</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\cafe\cafe_by_the_lake_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509100</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\cafe\cafe_by_the_lake_01.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\cafe\beach_bar.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Victory Column 01 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509433</GUID>
+                    <Name>VictoryColumn01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509103</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_03.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Victory Column 02 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509434</GUID>
+                    <Name>VictoryColumn02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_02.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509103</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_02.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_04.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_04.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Victory Column 03 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509435</GUID>
+                    <Name>VictoryColumn03</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_06.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509103</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_08.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_06.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_06.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Victory Column 04 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509436</GUID>
+                    <Name>VictoryColumn04</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_09.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509103</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_09.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_07.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_09.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_07.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Victory Column 05 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509437</GUID>
+                    <Name>VictoryColumn05</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_10.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509103</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_10.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillars\siegessaule_11.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_10.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar\siegessaule_11.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Victory Corner -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509438</GUID>
+                    <Name>VictoryCorner</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pillar_corner\siegessaule_corner_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509108</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillar_corner\siegessaule_corner_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\pillar_corner\siegessaule_corner_01.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar_corner\siegessaule_corner_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\statues\pillar_corner\siegessaule_corner_02.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		
+		<!-- Eiffel Tower -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509439</GUID>
+                    <Name>EiffelTower</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\eiffel_tower\eiffel_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509109</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>1447910</GroundDecalAsset>
+                    <GroundDecalInvisible>1447911</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\eiffel_tower\eiffel_01.png</IconFilename>
+						</Item>
+						<Item>
+						  <IconFilename>data\ui\2kimages\main\3dicons\eiffel_tower\eiffel_02.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>500</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\eiffel_tower\eiffel_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\ornaments\harbor\eiffel_tower\eiffel_02.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh>
+					<ForbidCollapseEffect>1</ForbidCollapseEffect>
+					<LogoMode>CorporationLogoFromPlayer</LogoMode>
+					<SetCompanyLogo>1</SetCompanyLogo>
+				</Mesh>
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+				<ItemContainer>
+					<SocketCount>1</SocketCount>
+					<SocketAllocation>RadiusBuilding;TownHall</SocketAllocation>
+					<SocketScope>Radius</SocketScope>
+					<SocketScopeRadius>150</SocketScopeRadius>
+					<InitSocketItems>
+						<Item>
+							<Item>1337509440</Item>
+							<StackSize>1</StackSize>
+						</Item>
+					</InitSocketItems>
+				</ItemContainer>
+            </Values>
+		</Asset>
+		<!-- Eiffel Tower Buff AdditionalHappiness +10/TaxModifierInPercent +5 -->
+		<Asset>
+			<Template>TownhallItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509440</GUID>
+					<Name>Eiffel buff</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\eiffel_tower\Eiffel_01.png</IconFilename>
+					<InfoDescription>19478</InfoDescription>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509110</TextOverride>
+                </Text>
+				<Item>
+					<MaxStackSize>1</MaxStackSize>
+					<Rarity>Epic</Rarity>
+					<ExclusiveGroup>EducationAct</ExclusiveGroup>
+					<TradePrice>178000</TradePrice>
+				</Item>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<GUID>190762</GUID>
+						</Item>
+					</EffectTargets>
+					<AllowStacking>0</AllowStacking>
+				</ItemEffect>
+				<ItemAction />
+				<ExpeditionAttribute>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+				</ExpeditionAttribute>
+				<ResidenceUpgrade>
+					<AdditionalHappiness>10</AdditionalHappiness>
+					<TaxModifierInPercent>5</TaxModifierInPercent>
+				</ResidenceUpgrade>		
+				<VisitorHarborUpgrade />
+				<CultureUpgrade />
+				<IncidentInfluencerUpgrade />
+				<Locked />
+				<Buff />
+			</Values>
+		</Asset>
+	</ModOp>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU Statues and Fountains xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="add" GUID='1337509242' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337509422</Building><!-- Column Statue -->
+		</Item>
+		<Item>
+			<Building>1337509423</Building><!-- Statues 1x1 -->
+		</Item>
+		<Item>
+			<Building>1337509424</Building><!-- Statues 2x2 -->
+		</Item>
+		<Item>
+			<Building>1337509425</Building><!-- Statues 4x5 -->
+		</Item>
+		
+		<Item>
+			<Building>1337509426</Building><!-- Fountains 1x1 -->
+		</Item>
+		<Item>
+			<Building>1337509427</Building><!-- Fountains 2x2 -->
+		</Item>
+		<Item>
+			<Building>1337509428</Building><!-- Fountains 2x3 -->
+		</Item>
+		<Item>
+			<Building>1337509429</Building><!-- Fountains 4x4 01 -->
+		</Item>
+		<Item>
+			<Building>1337509430</Building><!-- Fountains 4x4 02 -->
+		</Item>
+		<Item>
+			<Building>1337509431</Building><!-- Fountains 4x5 -->
+		</Item>
+		
+		<Item>
+			<Building>1337509432</Building><!-- Cafe by the lake -->
+		</Item>
+		
+		<Item>
+			<Building>1337509433</Building><!-- Victory Column 01 -->
+		</Item>
+		<Item>
+			<Building>1337509434</Building><!-- Victory Column 02 -->
+		</Item>
+		<Item>
+			<Building>1337509435</Building><!-- Victory Column 03 -->
+		</Item>
+		<Item>
+			<Building>1337509436</Building><!-- Victory Column 04 -->
+		</Item>
+		<Item>
+			<Building>1337509437</Building><!-- Victory Column 05 -->
+		</Item>
+		
+		<Item>
+			<Building>1337509438</Building><!-- Victory Corner -->
+		</Item>
+		
+		<Item>
+			<Building>1337509439</Building><!-- Eiffel Tower -->
+		</Item>
+		
+    </ModOp>
+	
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509441</GUID>
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337509422</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509423</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509424</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509425</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509426</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509427</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509428</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509429</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509430</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509431</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509432</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509433</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509434</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509435</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509436</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509437</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509438</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509439</Asset>
+											</Item>
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>1337509422</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509423</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509424</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509425</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509426</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509427</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509428</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509429</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509430</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509431</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509432</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509433</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509434</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509435</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509436</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509437</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509438</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509439</Asset>
+											</Item>
+											
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>
+
+<!-- 2025-09-24 08:56:59 -->

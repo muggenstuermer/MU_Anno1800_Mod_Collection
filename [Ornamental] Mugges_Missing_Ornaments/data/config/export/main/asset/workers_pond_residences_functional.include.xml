@@ -1,0 +1,530 @@
+<ModOps>	
+<!-- 
+
+1337509145 Workers Pond Residence Buildmenu
+
+1337509041 Workers Pond Residence Skin 01
+1337509042 Workers Pond Residence Skin 02
+1337509043 Workers Pond Residence Skin 03
+1337509044 Workers Pond Residence Skin 04
+
+1337509047 Workers Pond Residences Townhall Buff
+1337509045 Workers Pond Residences
+
+1337509146 Pond Connecting Pipes 01
+1337509147 Pond Connecting Pipes 02
+
+1337509184 Trigger
+
+-->
+
+    <ModOp Type="addNextSibling" GUID="698">
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Workers Pond Residence Buildmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509145</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\pond_worker_residences\icon_pond_worker_residences_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>163059</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1010344</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Workers Pond Residence Skins xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->	
+        <!-- Workers Pond Residence Skin 01 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509041</GUID>
+                    <Name>WorkersPondResidenceSkin01</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_tier02_colourful.png</IconFilename>
+                    <ID>WorkersPondResidenceSkin01</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>730</SkinName>
+                    <SkinDescription>731</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_01a.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_02a.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_03a.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_04a.cfg</FileName>
+						</Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+		<!-- Workers Pond Residence Skin 02 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509042</GUID>
+                    <Name>WorkersPondResidenceSkin02</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_tier02_inverted.png</IconFilename>
+                    <ID>WorkersPondResidenceSkin02</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>732</SkinName>
+                    <SkinDescription>733</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_01b.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_02b.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_03b.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_04b.cfg</FileName>
+						</Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+		<!-- Workers Pond Residence Skin 03 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509043</GUID>
+                    <Name>WorkersPondResidenceSkin03</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_tier02_oldtown.png</IconFilename>
+                    <ID>WorkersPondResidenceSkin03</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>5246</SkinName>
+                    <SkinDescription>5247</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_01c.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_02c.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_03c.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_04c.cfg</FileName>
+						</Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+		<!-- Workers Pond Residence Skin 04 -->
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509044</GUID>
+                    <Name>WorkersPondResidenceSkin04</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc13/icon_tier02_victorian.png</IconFilename>
+                    <ID>WorkersPondResidenceSkin04</ID>
+                </Standard>
+                <Skin>
+                    <SkinName>30489</SkinName>
+                    <SkinDescription>30490</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_01d.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_02d.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_03d.cfg</FileName>
+						</Item>
+						<Item>
+							<FileName>data\muggenstuermer\pond_residences\pond_residence_04d.cfg</FileName>
+						</Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <Scope>Account</Scope>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text />
+            </Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Workers Pond Residences xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="addNextSibling" GUID="1010344">
+        
+		<Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509047</GUID>
+                    <Name>Pond Bless</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\achievement\icon_achievement_population_gold.png</IconFilename>
+                    <InfoDescription>136435</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1337509045</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>121652</TextOverride>
+                </Text>
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade>
+                          <ResidentsUpgrade>
+                            <Value>10</Value>
+                            <Percental>1</Percental>
+                          </ResidentsUpgrade>
+                          <InputBenefitModifier>
+                            <Item>
+                              <Product>120020</Product><!-- markt -->
+                              <AdditionalSupply>140</AdditionalSupply>
+                            </Item>
+							<Item>
+                              <Product>1010213</Product><!-- brot -->
+                              <AdditionalSupply>20</AdditionalSupply>
+                            </Item>
+                          </InputBenefitModifier>
+                        </PopulationUpgrade>
+                <CultureUpgrade>
+                    <HideBuff>1</HideBuff>
+                </CultureUpgrade>
+            </Values>
+        </Asset>
+		
+		<Asset>
+            <BaseAssetGUID>1010344</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1337509045</GUID>
+                    <Name>WorkersPondResidencesOW</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\pond_worker_residences\pond_worker_residences.png</IconFilename>
+                    <InfoDescription>163059</InfoDescription>
+                </Standard>
+				<Text>
+                    <TextOverride>1010344</TextOverride>
+                </Text>
+                <Constructable>
+                    <!-- overwrites IconFilename in construction menus -->
+                    <ConstructionMenuIcon>1337509045</ConstructionMenuIcon>
+                </Constructable>
+                <Building>
+				<SecondPartyRelevant>0</SecondPartyRelevant>
+                    <PickingAsset>1337509045</PickingAsset>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+                <Blocking>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <HidePropsRadius>0</HidePropsRadius>
+					 <IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+                    <BlocksBuilding>0</BlocksBuilding>
+                </Blocking>
+                <Object>
+                    <Variations>
+                        <Item>
+							<Filename>data\muggenstuermer\pond_residences\pond_residence_01.cfg</Filename>
+						</Item>
+                        <Item>
+							<Filename>data\muggenstuermer\pond_residences\pond_residence_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\pond_residences\pond_residence_03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\pond_residences\pond_residence_04.cfg</Filename>
+						</Item>
+                    </Variations>
+                    <Skins>
+                        <SkinList>
+                            <Item>
+                                <SkinAssetGuid>1337509041</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509042</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>1337509043</SkinAssetGuid>
+                            </Item>
+							<Item>
+                                <SkinAssetGuid>1337509044</SkinAssetGuid>
+                            </Item>
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Upgradable>
+                    <NextGUID>0</NextGUID>
+                    <UpgradeCost />
+                </Upgradable>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+                <Residence7>
+                    <ResidenceStorage>
+                        <InputStorageMax>1</InputStorageMax>
+                    </ResidenceStorage>
+                    <PopulationLevel7>15000001</PopulationLevel7>
+                    <ResidentMax>20</ResidentMax>
+					<IsBaseResidence>0</IsBaseResidence>
+					<MoveInMs>5000</MoveInMs>
+                </Residence7>
+                <FloorStackOwner>
+                    <UpgradeTargetGUID>0</UpgradeTargetGUID>
+                </FloorStackOwner>
+                <UpgradeList>
+                    <DefaultBuff>1337509047</DefaultBuff>
+                </UpgradeList>
+                <Audio />
+            </Values>
+        </Asset>
+		<!-- Pond Connecting Pipes 01 -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509146</GUID>
+                    <Name>PondConnectingPipes01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pond_worker_residences\pond_pipes_01.png</IconFilename>
+				</Standard>
+				<Text />
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\pond_residences\pond_pipes_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Pond Connecting Pipes 02 -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509147</GUID>
+                    <Name>PondConnectingPipes02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\pond_worker_residences\pond_pipes_02.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>1337509146</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\pond_residences\pond_pipes_02.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+    </ModOp>
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509184</GUID>
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337509045</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509146</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509147</Asset>
+											</Item>
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>1337509045</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509146</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509147</Asset>
+											</Item>
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	
+	<!-- Add Workers Pond Residences to pools -->
+	<ModOp Type="addNextSibling" Path="//*[self::EffectTargetGUIDs or self::EffectTargets]/Item[GUID = '1010344']">
+		<Item>
+			<GUID>1337509045</GUID>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID="142785" Path="/Values/FeedbackBuildingGroup/Buildings">
+		<Item>
+			<Building>1337509045</Building>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID="2001089" Path="/Values/FeedbackBuildingGroup/Buildings">
+		<Item>
+			<Building>1337509045</Building>
+		</Item>
+	</ModOp>
+	
+	<!-- Add functional Workers Pond Residence to Buildmenue -->
+	<ModOp Type="add" GUID='1337509145' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337509045</Building>
+		</Item>
+		<Item>
+			<Building>1337509146</Building>
+		</Item>
+		<Item>
+			<Building>1337509147</Building>
+		</Item>
+		
+    </ModOp>
+	
+	<!-- Add functional Workers Pond Residence OW Buildmenu to OW Workers Buildmenue -->
+    <ModOp Type="addNextSibling" GUID="25000190" Path="Values/ConstructionCategory/BuildingList/Item[Building = '1010035' or (not(../Item/Building='1010035'))][last()]">
+        <Item>
+            <Building>1337509145</Building>
+        </Item>
+    </ModOp>
+</ModOps>
+
+<!-- 2025-09-24 08:57:30 -->

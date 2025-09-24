@@ -1,0 +1,2211 @@
+<ModOps>
+
+
+<!--
+
+1337509283 Billboard Empty
+1337509284 Billboard Annoholic
+1337509285 Billboard Announion
+1337509286 Billboard Anarchy
+1337509287 Billboard Sunkentrasure
+1337509288 Billboard Botanica
+1337509289 Billboard Passage
+1337509290 Billboard Citybeach
+1337509291 Billboard Southamerica
+1337509292 Billboard Crossocean
+1337509293 Billboard Milk
+1337509294 Billboard Tasty Tuna
+1337509295 Billboard Company
+1337509296 Billboard Clean Streets
+1337509297 Billboard Pub
+1337509298 Billboard Cook
+1337509299 Billboard Beer
+1337509300 Billboard Gala
+1337509301 Billboard Illusionist
+1337509302 Billboard Wanted
+1337509303 Billboard Bakery
+1337509304 Billboard Concert
+1337509305 Billboard Zoo
+1337509306 Billboard Sewing
+1337509307 Billboard Nate 01
+1337509308 Billboard Nate 02
+1337509309 Billboard Nate 03
+1337509310 Billboard Spice
+1337509311 illboard Horizons
+1337509312 Billboard Seat Power
+1337509313 Billboard Harvest
+1337509314 Billboard Lions
+
+1337509315 Trigger
+
+-->
+
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<!-- Billboard Empty -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509283</GUID>
+                    <Name>BillboardEmpty</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_empty_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_empty_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Annoholic -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509284</GUID>
+                    <Name>BillboardAnnoholic</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_annoholic_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_annoholic_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Announion -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509285</GUID>
+                    <Name>BillboardAnnounion</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_announion_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_announion_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Anarchy -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509286</GUID>
+                    <Name>BillboardAnarchy</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_anarchy_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_anarchy_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Sunkentrasure -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509287</GUID>
+                    <Name>BillboardSunkentrasure</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_sunkentrasure_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_sunkentrasure_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Botanica -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509288</GUID>
+                    <Name>BillboardBotanica</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_botanica_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_botanica_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Passage -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509289</GUID>
+                    <Name>BillboardPassage</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_passage_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_passage_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Citybeach -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509290</GUID>
+                    <Name>BillboardCitybeach</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_citybeach_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_citybeach_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Southamerica -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509291</GUID>
+                    <Name>BillboardSouthamerica</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_southamerica_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_southamerica_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Crossocean -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509292</GUID>
+                    <Name>BillboardCrossocean</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_crossocean_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_crossocean_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Milk -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509293</GUID>
+                    <Name>BillboardMilk</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_milk_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_milk_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Tasty Tuna -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509294</GUID>
+                    <Name>BillboardTastyTuna</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_tastytuna_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_tastytuna_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Company -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509295</GUID>
+                    <Name>BillboardCompany</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_company_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_company_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Clean Streets -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509296</GUID>
+                    <Name>BillboardCleanStreets</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_cleanstreets_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_cleanstreets_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Pub -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509297</GUID>
+                    <Name>BillboardPub</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_pub_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_pub_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Cook -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509298</GUID>
+                    <Name>BillboardCook</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_cook_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_cook_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Beer -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509299</GUID>
+                    <Name>BillboardBeer</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_beer_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_beer_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Gala -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509300</GUID>
+                    <Name>BillboardGala</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_gala_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_gala_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Illusionist -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509301</GUID>
+                    <Name>BillboardIllusionist</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_illusionist_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_illusionist_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Wanted -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509302</GUID>
+                    <Name>BillboardWanted</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_wanted_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_wanted_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Bakery -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509303</GUID>
+                    <Name>BillboardBakery</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_bakery_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_bakery_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Concert -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509304</GUID>
+                    <Name>BillboardConcert</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_concert_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_concert_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Zoo -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509305</GUID>
+                    <Name>BillboardZoo</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_zoo_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_zoo_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Sewing -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509306</GUID>
+                    <Name>BillboardSewing</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_sewing_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_sewing_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Nate 01 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509307</GUID>
+                    <Name>BillboardNate01</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_nate_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_nate_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Nate 02 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509308</GUID>
+                    <Name>BillboardNate02</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_nate_02.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_nate_02.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Nate 03 -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509309</GUID>
+                    <Name>BillboardNate03</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_nate_03.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_nate_03.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Spice -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509310</GUID>
+                    <Name>BillboardSpice</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_spice_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_spice_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Horizons -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509311</GUID>
+                    <Name>BillboardHorizons</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_horizons_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_horizons_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Seat Power -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509312</GUID>
+                    <Name>BillboardSeatPower</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_seatpower_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_seatpower_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Harvest -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509313</GUID>
+                    <Name>BillboardHarvest</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_harvest_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_harvest_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+		<!-- Billboard Lions -->
+		<Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509314</GUID>
+                    <Name>BillboardLions</Name>
+					<IconFilename>data\ui\2kimages\main\3dicons\billboards\advertiser_lions_01.png</IconFilename>
+				</Standard>
+				<Text>
+                    <TextOverride>102465</TextOverride>
+                </Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+                </Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>25</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\advertisers\advertiser_lions_01.cfg</Filename>
+                        </Item>
+					</Variations>
+				</Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+		</Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU Billboards xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<ModOp Type="add" GUID='1337509239' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>1337509283</Building><!-- Billboard Empty -->
+		</Item>
+		<Item>
+			<Building>1337509284</Building><!-- Billboard Annoholic -->
+		</Item>
+		<Item>
+			<Building>1337509285</Building><!-- Billboard Announion -->
+		</Item>
+		<Item>
+			<Building>1337509286</Building><!-- Billboard Anarchy -->
+		</Item>
+		<Item>
+			<Building>1337509287</Building><!-- Billboard Sunkentrasure -->
+		</Item>
+		<Item>
+			<Building>1337509288</Building><!-- Billboard Botanica -->
+		</Item>
+		<Item>
+			<Building>1337509289</Building><!-- Billboard Passage -->
+		</Item>
+		<Item>
+			<Building>1337509290</Building><!-- Billboard Citybeach -->
+		</Item>
+		<Item>
+			<Building>1337509291</Building><!-- Billboard Southamerica -->
+		</Item>
+		<Item>
+			<Building>1337509292</Building><!-- Billboard Crossocean -->
+		</Item>
+		<Item>
+			<Building>1337509293</Building><!-- Billboard Milk -->
+		</Item>
+		<Item>
+			<Building>1337509294</Building><!-- Billboard Tasty Tuna -->
+		</Item>
+		<Item>
+			<Building>1337509295</Building><!-- Billboard Company -->
+		</Item>
+		<Item>
+			<Building>1337509296</Building><!-- Billboard Clean Streets -->
+		</Item>
+		<Item>
+			<Building>1337509297</Building><!-- Billboard Pub -->
+		</Item>
+		<Item>
+			<Building>1337509298</Building><!-- Billboard Cook -->
+		</Item>
+		<Item>
+			<Building>1337509299</Building><!-- Billboard Beer -->
+		</Item>
+		<Item>
+			<Building>1337509300</Building><!-- Billboard Gala -->
+		</Item>
+		<Item>
+			<Building>1337509301</Building><!-- Billboard Illusionist -->
+		</Item>
+		<Item>
+			<Building>1337509302</Building><!-- Billboard Wanted -->
+		</Item>
+		<Item>
+			<Building>1337509303</Building><!-- Billboard Bakery -->
+		</Item>
+		<Item>
+			<Building>1337509304</Building><!-- Billboard Concert -->
+		</Item>
+		<Item>
+			<Building>1337509305</Building><!-- Billboard Zoo -->
+		</Item>
+		<Item>
+			<Building>1337509306</Building><!-- Billboard Sewing -->
+		</Item>
+		<Item>
+			<Building>1337509307</Building><!-- Billboard Nate 01 -->
+		</Item>
+		<Item>
+			<Building>1337509308</Building><!-- Billboard Nate 02 -->
+		</Item>
+		<Item>
+			<Building>1337509309</Building><!-- Billboard Nate 03 -->
+		</Item>
+		<Item>
+			<Building>1337509310</Building><!-- Billboard Spice -->
+		</Item>
+		<Item>
+			<Building>1337509311</Building><!-- Billboard Horizons -->
+		</Item>
+		<Item>
+			<Building>1337509312</Building><!-- Billboard Seat Power -->
+		</Item>
+		<Item>
+			<Building>1337509313</Building><!-- Billboard Harvest -->
+		</Item>
+		<Item>
+			<Building>1337509314</Building><!-- Billboard Lions -->
+		</Item>
+		
+    </ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Freischaltung -->
+	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1337509315</GUID>
+					<Name>intermediate moderate 2.0</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000001</Context>
+								<CounterAmount>1</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1337509283</Asset><!-- Billboard Empty -->
+											</Item>
+											<Item>
+												<Asset>1337509284</Asset><!-- Billboard Annoholic -->
+											</Item>
+											<Item>
+												<Asset>1337509285</Asset><!-- Billboard Announion -->
+											</Item>
+											<Item>
+												<Asset>1337509286</Asset><!-- Billboard Anarchy -->
+											</Item>
+											<Item>
+												<Asset>1337509287</Asset><!-- Billboard Sunkentrasure -->
+											</Item>
+											<Item>
+												<Asset>1337509288</Asset><!-- Billboard Botanica -->
+											</Item>
+											<Item>
+												<Asset>1337509289</Asset><!-- Billboard Passage -->
+											</Item>
+											<Item>
+												<Asset>1337509290</Asset><!-- Billboard Citybeach -->
+											</Item>
+											<Item>
+												<Asset>1337509291</Asset><!-- Billboard Southamerica -->
+											</Item>
+											<Item>
+												<Asset>1337509292</Asset><!-- Billboard Crossocean -->
+											</Item>
+											<Item>
+												<Asset>1337509293</Asset><!-- Billboard Milk -->
+											</Item>
+											<Item>
+												<Asset>1337509294</Asset><!-- Billboard Tasty Tuna -->
+											</Item>
+											<Item>
+												<Asset>1337509295</Asset><!-- Billboard Company -->
+											</Item>
+											<Item>
+												<Asset>1337509296</Asset><!-- Billboard Clean Streets -->
+											</Item>
+											<Item>
+												<Asset>1337509297</Asset><!-- Billboard Pub -->
+											</Item>
+											<Item>
+												<Asset>1337509298</Asset><!-- Billboard Cook -->
+											</Item>
+											<Item>
+												<Asset>1337509299</Asset><!-- Billboard Beer -->
+											</Item>
+											<Item>
+												<Asset>1337509300</Asset><!-- Billboard Gala -->
+											</Item>
+											<Item>
+												<Asset>1337509301</Asset><!-- Billboard Illusionist -->
+											</Item>
+											<Item>
+												<Asset>1337509302</Asset><!-- Billboard Wanted -->
+											</Item>
+											<Item>
+												<Asset>1337509303</Asset><!-- Billboard Bakery -->
+											</Item>
+											<Item>
+												<Asset>1337509304</Asset><!-- Billboard Concert -->
+											</Item>
+											<Item>
+												<Asset>1337509305</Asset><!-- Billboard Zoo -->
+											</Item>
+											<Item>
+												<Asset>1337509306</Asset><!-- Billboard Sewing -->
+											</Item>
+											<Item>
+												<Asset>1337509307</Asset><!-- Billboard Nate 01 -->
+											</Item>
+											<Item>
+												<Asset>1337509308</Asset><!-- Billboard Nate 02 -->
+											</Item>
+											<Item>
+												<Asset>1337509309</Asset><!-- Billboard Nate 03 -->
+											</Item>
+											<Item>
+												<Asset>1337509310</Asset><!-- Billboard Spice -->
+											</Item>
+											<Item>
+												<Asset>1337509311</Asset><!-- Billboard Horizons -->
+											</Item>
+											<Item>
+												<Asset>1337509312</Asset><!-- Billboard Seat Power -->
+											</Item>
+											<Item>
+												<Asset>1337509313</Asset><!-- Billboard Harvest -->
+											</Item>
+											<Item>
+												<Asset>1337509314</Asset><!-- Billboard Lions -->
+											</Item>
+											
+											
+										</UnlockAssets>
+										<UnhideAssets>
+											<Item>
+												<Asset>1337509283</Asset><!-- Billboard Empty -->
+											</Item>
+											<Item>
+												<Asset>1337509284</Asset><!-- Billboard Annoholic -->
+											</Item>
+											<Item>
+												<Asset>1337509285</Asset><!-- Billboard Announion -->
+											</Item>
+											<Item>
+												<Asset>1337509286</Asset><!-- Billboard Anarchy -->
+											</Item>
+											<Item>
+												<Asset>1337509287</Asset><!-- Billboard Sunkentrasure -->
+											</Item>
+											<Item>
+												<Asset>1337509288</Asset><!-- Billboard Botanica -->
+											</Item>
+											<Item>
+												<Asset>1337509289</Asset><!-- Billboard Passage -->
+											</Item>
+											<Item>
+												<Asset>1337509290</Asset><!-- Billboard Citybeach -->
+											</Item>
+											<Item>
+												<Asset>1337509291</Asset><!-- Billboard Southamerica -->
+											</Item>
+											<Item>
+												<Asset>1337509292</Asset><!-- Billboard Crossocean -->
+											</Item>
+											<Item>
+												<Asset>1337509293</Asset><!-- Billboard Milk -->
+											</Item>
+											<Item>
+												<Asset>1337509294</Asset><!-- Billboard Tasty Tuna -->
+											</Item>
+											<Item>
+												<Asset>1337509295</Asset><!-- Billboard Company -->
+											</Item>
+											<Item>
+												<Asset>1337509296</Asset><!-- Billboard Clean Streets -->
+											</Item>
+											<Item>
+												<Asset>1337509297</Asset><!-- Billboard Pub -->
+											</Item>
+											<Item>
+												<Asset>1337509298</Asset><!-- Billboard Cook -->
+											</Item>
+											<Item>
+												<Asset>1337509299</Asset><!-- Billboard Beer -->
+											</Item>
+											<Item>
+												<Asset>1337509300</Asset><!-- Billboard Gala -->
+											</Item>
+											<Item>
+												<Asset>1337509301</Asset><!-- Billboard Illusionist -->
+											</Item>
+											<Item>
+												<Asset>1337509302</Asset><!-- Billboard Wanted -->
+											</Item>
+											<Item>
+												<Asset>1337509303</Asset><!-- Billboard Bakery -->
+											</Item>
+											<Item>
+												<Asset>1337509304</Asset><!-- Billboard Concert -->
+											</Item>
+											<Item>
+												<Asset>1337509305</Asset><!-- Billboard Zoo -->
+											</Item>
+											<Item>
+												<Asset>1337509306</Asset><!-- Billboard Sewing -->
+											</Item>
+											<Item>
+												<Asset>1337509307</Asset><!-- Billboard Nate 01 -->
+											</Item>
+											<Item>
+												<Asset>1337509308</Asset><!-- Billboard Nate 02 -->
+											</Item>
+											<Item>
+												<Asset>1337509309</Asset><!-- Billboard Nate 03 -->
+											</Item>
+											<Item>
+												<Asset>1337509310</Asset><!-- Billboard Spice -->
+											</Item>
+											<Item>
+												<Asset>1337509311</Asset><!-- Billboard Horizons -->
+											</Item>
+											<Item>
+												<Asset>1337509312</Asset><!-- Billboard Seat Power -->
+											</Item>
+											<Item>
+												<Asset>1337509313</Asset><!-- Billboard Harvest -->
+											</Item>
+											<Item>
+												<Asset>1337509314</Asset><!-- Billboard Lions -->
+											</Item>
+											
+											
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>
+
+<!-- 2025-09-24 08:52:58 -->

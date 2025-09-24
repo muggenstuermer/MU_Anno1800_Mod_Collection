@@ -1,0 +1,545 @@
+<ModOps>	
+<!-- 
+
+1337509089 Statues and Fountains Buildmenu
+1337509111 Advertisers Buildmenu
+1337509148 Flags Buildmenu
+1337509199 Persons Buildmenu
+
+1337509234 Statues and Fountains Buildmenu Harbor OW
+1337509235 Advertisers Buildmenu Harbor OW
+1337509236 Flags Buildmenu Harbor OW
+1337509237 Persons Buildmenu Harbor OW
+
+1337509238 Statues and Fountains Buildmenu Harbor NW
+1337509239 Advertisers Buildmenu Harbor NW
+1337509240 Flags Buildmenu Harbor NW
+1337509241 Persons Buildmenu Harbor NW
+
+1337509242 Statues and Fountains Buildmenu Harbor NH
+1337509243 Advertisers Buildmenu Harbor NH
+1337509244 Flags Buildmenu Harbor NH
+1337509245 Persons Buildmenu Harbor NH
+
+1337509246 Statues and Fountains Buildmenu Harbor ENBESA
+1337509247 Advertisers Buildmenu Harbor ENBESA
+1337509248 Flags Buildmenu Harbor ENBESA
+1337509249 Persons Buildmenu Harbor ENBESA
+
+1337509705  Defense Towers Buildmenu
+-->
+
+	
+    <ModOp Type="addNextSibling" GUID="1010359">
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Statues and Fountains Buildmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509089</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_statues_and_fountains_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text />
+                <Locked />
+            </Values>
+        </Asset>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Advertisers Buildmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509111</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_billboards_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>500026</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flags Buildmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509148</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_flags_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text />
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Persons Buildmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509199</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_peoples_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text />
+                <Locked />
+            </Values>
+        </Asset>
+		
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Statues and Fountains Buildmenu Harbor OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509234</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_statues_and_fountains_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509089</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Advertisers Buildmenu Harbor OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509235</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_billboards_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>500026</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flags Buildmenu Harbor OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509236</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_flags_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509148</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Persons Buildmenu Harbor OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509237</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_peoples_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509199</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Statues and Fountains Buildmenu Harbor NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509238</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_statues_and_fountains_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509089</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Advertisers Buildmenu Harbor NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509239</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_billboards_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>500026</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flags Buildmenu Harbor NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509240</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_flags_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509148</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Persons Buildmenu Harbor NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509241</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_peoples_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509199</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Statues and Fountains Buildmenu Harbor NH xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509242</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_statues_and_fountains_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509089</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Advertisers Buildmenu Harbor NH xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509243</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_billboards_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>500026</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flags Buildmenu Harbor NH xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509244</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_flags_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509148</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Persons Buildmenu Harbor NH xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509245</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_peoples_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509199</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Statues and Fountains Buildmenu Harbor ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509246</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_statues_and_fountains_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509089</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Advertisers Buildmenu Harbor ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509247</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_billboards_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>500026</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Flags Buildmenu Harbor ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509248</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_flags_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509148</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Persons Buildmenu Harbor ENBESA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509249</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_peoples_harbor_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1337509199</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Defense Towers Buildmenu Harbor xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509705</GUID>
+                    <Name>GroundPlacements</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\defense_towers\icon_defense_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                    </BuildingList>
+                    <CategoryDescription>119929</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>4220</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+		
+    </ModOp>
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenüs in Mods Ornaments Tap xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <ModOp Type="add" GUID="1337505000,1337505001,1337505022,1337505014" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337509089</Building>
+        </Item>
+		<Item>
+            <Building>1337509111</Building>
+        </Item>
+		<Item>
+            <Building>1337509148</Building>
+        </Item>
+		<Item>
+            <Building>1337509199</Building>
+        </Item>
+    </ModOp>
+	
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Baumenüs in Mods Ornaments HARBOR Tap xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Add OW Buildmenu HARBOR OW to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337509234</Building>
+        </Item>
+		<Item>
+            <Building>1337509235</Building>
+        </Item>
+		<Item>
+            <Building>1337509236</Building>
+        </Item>
+		<Item>
+            <Building>1337509237</Building>
+        </Item>
+		<Item>
+            <Building>1337509705</Building>
+        </Item>
+    </ModOp>
+    <!-- Add NW Buildmenu HARBOR NW to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337509238</Building>
+        </Item>
+		<Item>
+            <Building>1337509239</Building>
+        </Item>
+		<Item>
+            <Building>1337509240</Building>
+        </Item>
+		<Item>
+            <Building>1337509241</Building>
+        </Item>
+		<Item>
+            <Building>1337509705</Building>
+        </Item>
+    </ModOp>
+	<!-- Add NEW HORIZONS Buildmenu HARBOR NEW HORIZONS to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505023" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337509242</Building>
+        </Item>
+		<Item>
+            <Building>1337509243</Building>
+        </Item>
+		<Item>
+            <Building>1337509244</Building>
+        </Item>
+		<Item>
+            <Building>1337509245</Building>
+        </Item>
+		<Item>
+            <Building>1337509705</Building>
+        </Item>
+    </ModOp>
+    <!-- Add Africa Buildmenu HARBOR Africa to Ornamentsmenu-->
+    <ModOp Type="add" GUID="1337505021" Path="Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>1337509246</Building>
+        </Item>
+		<Item>
+            <Building>1337509247</Building>
+        </Item>
+		<Item>
+            <Building>1337509248</Building>
+        </Item>
+		<Item>
+            <Building>1337509249</Building>
+        </Item>
+		<Item>
+            <Building>1337509705</Building>
+        </Item>
+    </ModOp>
+</ModOps>
+
+<!-- 2025-09-24 08:55:21 -->
