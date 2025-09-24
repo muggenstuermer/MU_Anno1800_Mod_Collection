@@ -139,6 +139,12 @@ Changelog - 1.34
 
 	- correction of modinfo.json and AssociatedRegions
 	
+---------------------------
+Changelog - 1.35
+---------------------------
+
+	- a few code and path corrections for pool integration.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
