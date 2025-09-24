@@ -43,6 +43,11 @@ Changelog - 1.2
 ---------------------------
 	- added New Horizons support.
 	
+---------------------------
+Changelog - 1.21
+---------------------------
+	- correct some code for menu position.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

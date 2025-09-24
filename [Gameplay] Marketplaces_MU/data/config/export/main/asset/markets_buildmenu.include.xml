@@ -459,13 +459,13 @@
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Add ornamental Buildmenus to Constructionmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- Add ornamental Marketplaces Land OW Buildmenu to Ornamentsmenu -->
-    <ModOp Type="addNextSibling" GUID="1337505000" Path="Values/ConstructionCategory/BuildingList/Item[7]">
+    <ModOp Type="add" GUID="1337505000" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502991</Building>
         </Item>
     </ModOp>
     <!-- Add ornamental Marketplaces Land NW Buildmenu to Ornamentsmenu -->
-    <ModOp Type="addNextSibling" GUID="1337505001" Path="Values/ConstructionCategory/BuildingList/Item[7]">
+    <ModOp Type="add" GUID="1337505001" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502992</Building>
         </Item>
@@ -479,13 +479,13 @@
     </ModOp>
 	
     <!-- Add ornamental Marketplaces Land ENBESA Buildmenu to Ornamentsmenu -->
-    <ModOp Type="addNextSibling" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList/Item[8]">
+    <ModOp Type="add" GUID="1337505014" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502993</Building>
         </Item>
     </ModOp>
     <!-- Add ornamental Marketplaces Land ARCTIC Buildmenu to Ornamentsmenu -->
-    <ModOp Type="addNextSibling" GUID="1337505006" Path="Values/ConstructionCategory/BuildingList/Item[1]">
+    <ModOp Type="add" GUID="1337505006" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337502994</Building>
         </Item>
@@ -531,13 +531,13 @@
     <!-- Add fuctional Markets Harbor Buildmenu to Constructionmenu ARCTIC -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Add HARBOR ornamental Buildmenus to Constructionmenu xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- Add ornamental Marketplaces Harbor OW Buildmenu to Ornamentsmenu -->
-    <ModOp Type="addNextSibling" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList/Item[3]">
+    <ModOp Type="add" GUID="1337505018" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337504149</Building>
         </Item>
     </ModOp>
     <!-- Add ornamental Marketplaces Harbor NW Buildmenu to Ornamentsmenu -->
-    <ModOp Type="addNextSibling" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList/Item[3]">
+    <ModOp Type="add" GUID="1337505019" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337504150</Building>
         </Item>
@@ -549,13 +549,13 @@
         </Item>
     </ModOp>
     <!-- Add ornamental Marketplaces Harbor ENBESA Buildmenu to Ornamentsmenu -->
-    <ModOp Type="addNextSibling" GUID="1337505021" Path="Values/ConstructionCategory/BuildingList/Item[3]">
+    <ModOp Type="add" GUID="1337505021" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337504151</Building>
         </Item>
     </ModOp>
     <!-- Add ornamental Marketplaces Harbor ARCTIC Buildmenu to Ornamentsmenu -->
-    <ModOp Type="addNextSibling" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList/Item[2]">
+    <ModOp Type="add" GUID="1337505020" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1337504152</Building>
         </Item>
