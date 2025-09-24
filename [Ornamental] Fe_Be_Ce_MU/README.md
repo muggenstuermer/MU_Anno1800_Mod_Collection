@@ -52,5 +52,11 @@ Changelog - 1.11
 ---------------------------
 	- Some typos in paths where graphics were not loading have been corrected.
 	
+---------------------------
+Changelog - 1.2
+---------------------------
+	- new fence added for land and harbor.
+	- added NW chapel to pools
+	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

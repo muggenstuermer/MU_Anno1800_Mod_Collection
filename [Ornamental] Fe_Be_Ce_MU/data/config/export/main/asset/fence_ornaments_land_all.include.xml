@@ -61,11 +61,15 @@ Concrete Fence
 1337506635 Concrete Fence NW
 1337506636 Concrete Fence ENBESA
 
+Fountain Fence
+
+1337509080 Fountain Fence All
+
 Vanilla Gates
 
 1337506637 Vanilla Fence Gate
 
-1337506638 Trigger
+1337509081 Trigger
 
 -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Fences and Gates LAND ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -5650,6 +5654,218 @@ Vanilla Gates
                 <Culture />
             </Values>
         </Asset>
+		<!-- Fountain Fence All -->
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509080</GUID>
+                    <Name>FountainFenceAll</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\fences\fountain_fence\brick_fence_straight_01.png</IconFilename>
+                </Standard>
+                <Text />
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337509080</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Type>Crossing</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <Variation>4</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item />
+                                <Item>
+                                    <DirectionOffet>2</DirectionOffet>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <TCrossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>6</Variation>
+                                </Item>
+                            </Pool>
+                        </TCrossing>
+                        <Crossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>5</Variation>
+                                </Item>
+                            </Pool>
+                        </Crossing>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <Variation>1</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\fences\fountain_fence\brick_fence_straight_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\fences\fountain_fence\brick_fence_end_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\fences\fountain_fence\brick_fence_end_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\fences\fountain_fence\brick_fence_end_03.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\fences\fountain_fence\brick_fence_corner_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\fences\fountain_fence\brick_fence_xcross_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\fences\fountain_fence\brick_fence_tcross_01.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\fences\land\fountain_fence\brick_fence_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\fences\land\fountain_fence\brick_fence_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\fences\land\fountain_fence\brick_fence_end_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\fences\land\fountain_fence\brick_fence_end_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\fences\land\fountain_fence\brick_fence_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\fences\land\fountain_fence\brick_fence_xcross_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\fences\land\fountain_fence\brick_fence_tcross_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <ForbidCollapseEffect>1</ForbidCollapseEffect>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>256117</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
         <!-- Vanilla Fence Gate -->
         <Asset>
             <Template>OrnamentalBuilding</Template>
@@ -6103,6 +6319,12 @@ Vanilla Gates
         <Item>
             <Building>1337506637</Building>
         </Item>
+		<Item>
+            <Building>1337509080</Building>
+        </Item>
+		
+		
+		
     </ModOp>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER DER/DIE TRIGGER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
     <!-- Freischaltung -->
@@ -6111,7 +6333,7 @@ Vanilla Gates
             <Template>FeatureUnlock</Template>
             <Values>
                 <Standard>
-                    <GUID>1337506638</GUID>
+                    <GUID>1337509081</GUID>
                     <Name>intermediate moderate 2.0</Name>
                     <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
                 </Standard>
@@ -6237,6 +6459,10 @@ Vanilla Gates
                                             <Item>
                                                 <Asset>1337506730</Asset>
                                             </Item>
+											
+											<Item>
+                                                <Asset>1337509080</Asset>
+                                            </Item>
                                         </UnlockAssets>
                                         <UnhideAssets>
                                             <Item>
@@ -6341,6 +6567,10 @@ Vanilla Gates
                                             <Item>
                                                 <Asset>1337506730</Asset>
                                             </Item>
+											
+											<Item>
+                                                <Asset>1337509080</Asset>
+                                            </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>
                                 </Values>
@@ -6353,4 +6583,4 @@ Vanilla Gates
         </Asset>
     </ModOp>
 </ModOps>
-<!-- 2025-05-01 18:05:00 -->
+<!-- 2025-09-24 09:22:08 -->

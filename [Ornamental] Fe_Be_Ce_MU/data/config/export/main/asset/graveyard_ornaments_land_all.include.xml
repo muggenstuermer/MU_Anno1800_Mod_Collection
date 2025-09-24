@@ -3539,6 +3539,21 @@
             <Building>1337506993</Building>
         </Item>
     </ModOp>
+	<ModOp Type="add" GUID="130099" Path="Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1337506993</Asset>
+        </Item>
+    </ModOp>
+	<ModOp Type="add" GUID="141703" Path="Values/CharacterInteractionConfig/BuildBuildingWhitelist">
+        <Item>
+            <Building>1337506993</Building>
+        </Item>
+    </ModOp>
+	<ModOp Type="addNextSibling" Path="//*[self::EffectTargetGUIDs or self::EffectTargets]/Item[GUID = '101258']">
+		<Item>
+            <GUID>1337506993</GUID>
+        </Item>
+	</ModOp>
     <!-- Add Chapel Immigrants Skins to Immigrants Chapel -->
     <ModOp Type="add" GUID="1337502795,1337502898" Path="/Values/Object/Skins/SkinList">
         <Item>
@@ -3969,4 +3984,4 @@
         </Asset>
     </ModOp>
 </ModOps>
-<!-- 2025-05-01 18:15:50 -->
+<!-- 2025-09-24 09:23:14 -->
