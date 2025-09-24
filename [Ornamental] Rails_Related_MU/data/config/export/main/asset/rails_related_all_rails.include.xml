@@ -172,7 +172,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
 
 1337505117 oil produktion chain ow
 
-1337505129 Trigger
+1337506183 Trigger
 
 -->
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AFRICA Preparations - changing for rails_related modifications the original AFRICA rail "map" and OW+NW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -197,7 +197,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
         <!--alle kais mit rein nehmen-->
         <AdaptToNeighbors>
             <AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences;Rail_And_RailUnderBuilding</AdaptGroups>
-            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Crossing_Rail_Street;Rail_And_RailUnderBuilding;Bridge_Rail</NeighborsThatMakeUsAdapt>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Crossing_Rail_Street;Rail_And_RailUnderBuilding;Bridge_Rail;Street</NeighborsThatMakeUsAdapt>
         </AdaptToNeighbors>
     </ModOp>
     <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX RAILS RELATED BRIDGES LAND XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
@@ -548,7 +548,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx RAILS RELATED RAILROAD FAKE RAIL CROSSINGS HARBOR xxxxx
                 <Standard>
                     <GUID>1337506134</GUID>
                     <Name>Modular_RailBridges_Jakob_Skin</Name>
-                    <IconFileName>data\ui\2kimages\main\3dicons\land_rails\land_bridge_rails_02.png</IconFileName>
+                    <IconFilename>data\ui\2kimages\main\3dicons\land_rails\land_bridge_rails_02.png</IconFilename>
                     <InfoDescription>10947</InfoDescription>
                     <ID>Modular_RailBridges_Jakob_Skin</ID>
                 </Standard>

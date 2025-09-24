@@ -82,6 +82,11 @@ Changelog - 1.2
 Changelog - 1.3
 ---------------------------
 	- Bright Harvest and Industrial Zone Pack for Harbor moved to new mod "Ornament_Mania_MU".
+	
+---------------------------
+Changelog - 1.4
+---------------------------
+	- some code corrections on adding to pools.
 	  
 
 A big thank you goes to @Finchen.

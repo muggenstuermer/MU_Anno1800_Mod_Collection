@@ -1556,6 +1556,29 @@ xxxxxxxxxxxxxxxxxxxxxxxx Coal Refinement xxxxxxxxxxxxxxxxxxxxxxxx
             <Asset>1337506127</Asset>
         </Item>
     </ModOp>
+	 <ModOp Type="add" GUID="141703" Path="/Values/CharacterInteractionConfig/BuildBuildingWhitelist">
+		
+        <Item>
+            <Building>1337505243</Building>
+        </Item>
+		<Item>
+            <Building>1337506126</Building>
+        </Item>
+		<Item>
+            <Building>1337506127</Building>
+        </Item>
+    </ModOp>
+	<ModOp Type="addNextSibling" Path="//*[self::EffectTargetGUIDs or self::EffectTargets]/Item[GUID = '100780']">
+		<Item>
+            <GUID>1337505243</GUID>
+        </Item>
+        <Item>
+            <GUID>1337506126</GUID>
+        </Item>
+        <Item>
+            <GUID>1337506127</GUID>
+        </Item>
+	</ModOp>
     <!-- Add Coke Chain to Buildmenus -->
     <!-- OW -->
     <ModOp Type="addNextSibling" GUID="25000192" Path="Values/ConstructionCategory/BuildingList/Item[Building='1337505206']">
