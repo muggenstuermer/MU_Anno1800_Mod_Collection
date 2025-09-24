@@ -124,6 +124,12 @@ Changelog - 1.35
 ---------------------------
 
 	- correction of AssociatedRegions
+	
+---------------------------
+Changelog - 1.36
+---------------------------
+
+	- a few code and path corrections for pool integration.
 
 	
 	
