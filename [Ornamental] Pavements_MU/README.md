@@ -77,6 +77,12 @@ Changelog - 1.71
 	- more arctic decals added.
 	- added some decals from New Horizons mod (active NewHorizons is needed).
 	
+---------------------------
+Changelog - 1.8
+---------------------------
+	- more decals from old CO2 added.
+	- added walkable boardwalk for all regions.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

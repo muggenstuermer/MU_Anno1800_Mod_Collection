@@ -70,7 +70,12 @@
 
 1337507183 Kai NEW HORIZONS
 
-1337507184 Trigger
+1337509687 Boardwalk OW
+1337509688 Boardwalk NW
+1337509689 Boardwalk ENBESA
+1337509690 Boardwalk ARCTIC
+
+1337509691 Trigger
 -->
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx some adjustments on original assets xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -11798,6 +11803,953 @@
             </Values>
         </Asset>
 		
+		<!-- Boardwalk OW -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509687</GUID>
+                    <Name>BoardwalkOW</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>26048</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>-->
+                    <HasBuildingBaseTiles>0</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337509687</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Type>Crossing</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <Variation>3</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item>
+									<Variation>0</Variation>
+                                    <DirectionOffet>2</DirectionOffet>
+                                </Item>
+								<Item>
+									<Variation>6</Variation>
+                                    <DirectionOffet>0</DirectionOffet>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <TCrossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>5</Variation>
+                                </Item>
+                            </Pool>
+                        </TCrossing>
+                        <Crossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>4</Variation>
+                                </Item>
+								<Item>
+                                    <Variation>7</Variation>
+                                </Item>
+                            </Pool>
+                        </Crossing>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <Variation>1</Variation>
+                                </Item>
+								<Item>
+                                    <Variation>2</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\corner_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\xcross_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\tcross_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\xcross_02.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_03.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\ow\boardwalk_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\ow\boardwalk_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\ow\boardwalk_end_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\ow\boardwalk_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\ow\boardwalk_xcross_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\ow\boardwalk_tcross_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\ow\boardwalk_straight_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\ow\boardwalk_xcross_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\ow\boardwalk_end_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <ForbidCollapseEffect>1</ForbidCollapseEffect>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>804056</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+		<!-- Boardwalk NW -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509688</GUID>
+                    <Name>BoardwalkNW</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>26048</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>-->
+                    <HasBuildingBaseTiles>0</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337509688</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Type>Crossing</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <Variation>3</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item>
+									<Variation>0</Variation>
+                                    <DirectionOffet>2</DirectionOffet>
+                                </Item>
+								<Item>
+									<Variation>6</Variation>
+                                    <DirectionOffet>0</DirectionOffet>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <TCrossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>5</Variation>
+                                </Item>
+                            </Pool>
+                        </TCrossing>
+                        <Crossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>4</Variation>
+                                </Item>
+                            </Pool>
+                        </Crossing>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <Variation>1</Variation>
+                                </Item>
+								<Item>
+                                    <Variation>2</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\corner_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\xcross_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\tcross_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\xcross_02.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_03.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\nw\boardwalk_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\nw\boardwalk_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\nw\boardwalk_end_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\nw\boardwalk_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\nw\boardwalk_xcross_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\nw\boardwalk_tcross_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\nw\boardwalk_straight_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\nw\boardwalk_xcross_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\nw\boardwalk_end_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <ForbidCollapseEffect>1</ForbidCollapseEffect>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>804056</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+		<!-- Boardwalk ENBESA -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509689</GUID>
+                    <Name>BoardwalkENBESA</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>26048</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>-->
+                    <HasBuildingBaseTiles>0</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337509689</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Type>Crossing</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <Variation>3</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item>
+									<Variation>0</Variation>
+                                    <DirectionOffet>2</DirectionOffet>
+                                </Item>
+								<Item>
+									<Variation>6</Variation>
+                                    <DirectionOffet>0</DirectionOffet>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <TCrossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>5</Variation>
+                                </Item>
+                            </Pool>
+                        </TCrossing>
+                        <Crossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>4</Variation>
+                                </Item>
+                            </Pool>
+                        </Crossing>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <Variation>1</Variation>
+                                </Item>
+								<Item>
+                                    <Variation>2</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\corner_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\xcross_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\tcross_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\xcross_02.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_03.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\enbesa\boardwalk_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\enbesa\boardwalk_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\enbesa\boardwalk_end_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\enbesa\boardwalk_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\enbesa\boardwalk_xcross_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\enbesa\boardwalk_tcross_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\enbesa\boardwalk_straight_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\enbesa\boardwalk_xcross_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\enbesa\boardwalk_end_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <ForbidCollapseEffect>1</ForbidCollapseEffect>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>804056</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
+		<!-- Boardwalk ARCTIC -->
+        <Asset>
+            <Template>HarborOrnamentMU</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509690</GUID>
+                    <Name>BoardwalkARCTIC</Name>
+                    <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>26048</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                    <!--<GroundDecalAsset>601492</GroundDecalAsset>
+                    <GroundDecalInvisible>601493</GroundDecalInvisible>-->
+                    <HasBuildingBaseTiles>0</HasBuildingBaseTiles>
+                </Blocking>
+                <Building>
+                    <BuildingCategoryName>11149</BuildingCategoryName>
+                    <AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <InfluencedByNeighbors>
+                        <Item>
+                            <Building>1337509690</Building>
+                        </Item>
+                    </InfluencedByNeighbors>
+                    <InfluencedVariationDirection>
+                        <Item />
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>2</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>End</Type>
+                        </Item>
+                        <Item>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>Mid</Type>
+                        </Item>
+                        <Item>
+                            <Direction>1</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>Corner</Type>
+                        </Item>
+                        <Item>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Direction>3</Direction>
+                            <Type>TCrossing</Type>
+                        </Item>
+                        <Item>
+                            <Type>Crossing</Type>
+                        </Item>
+                    </InfluencedVariationDirection>
+                    <BuildingBlockPool>
+                        <DontCare>
+                            <Pool>
+                                <Item />
+                            </Pool>
+                        </DontCare>
+                        <Corner>
+                            <Pool>
+                                <Item>
+                                    <Variation>3</Variation>
+                                </Item>
+                            </Pool>
+                        </Corner>
+                        <Mid>
+                            <Pool>
+                                <Item>
+									<Variation>0</Variation>
+                                    <DirectionOffet>2</DirectionOffet>
+                                </Item>
+								<Item>
+									<Variation>6</Variation>
+                                    <DirectionOffet>0</DirectionOffet>
+                                </Item>
+                            </Pool>
+                        </Mid>
+                        <TCrossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>5</Variation>
+                                </Item>
+                            </Pool>
+                        </TCrossing>
+                        <Crossing>
+                            <Pool>
+                                <Item>
+                                    <Variation>4</Variation>
+                                </Item>
+                            </Pool>
+                        </Crossing>
+                        <End>
+                            <Pool>
+                                <Item>
+                                    <Variation>1</Variation>
+                                </Item>
+								<Item>
+                                    <Variation>2</Variation>
+                                </Item>
+                            </Pool>
+                        </End>
+                    </BuildingBlockPool>
+                    <VariationIcons>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_02.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\corner_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\xcross_01.png</IconFilename>
+                        </Item>
+                        <Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\tcross_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\straight_01.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\xcross_02.png</IconFilename>
+                        </Item>
+						<Item>
+                            <IconFilename>data\ui\2kimages\main\3dicons\boardwalk\end_03.png</IconFilename>
+                        </Item>
+                    </VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\arctic\boardwalk_straight_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\arctic\boardwalk_end_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\arctic\boardwalk_end_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\arctic\boardwalk_corner_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\arctic\boardwalk_xcross_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\arctic\boardwalk_tcross_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\arctic\boardwalk_straight_01.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\arctic\boardwalk_xcross_02.cfg</Filename>
+                        </Item>
+						<Item>
+                            <Filename>data\muggenstuermer\ornaments\harbor\boardwalk\arctic\boardwalk_end_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <ForbidCollapseEffect>1</ForbidCollapseEffect>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter />
+                <Locked />
+                <FeedbackController>
+                    <NightBehavior>HideNone</NightBehavior>
+                </FeedbackController>
+                <Ornament>
+                    <PlazzaSize>1</PlazzaSize>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentDescription>804056</OrnamentDescription>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+                <Culture />
+            </Values>
+        </Asset>
 		
     </ModOp>
 
@@ -11827,6 +12779,10 @@
 		</Item>
 		<Item>
 			<Building>1337501024</Building><!-- Kai Stege OW -->
+		</Item>
+		
+		<Item>
+			<Building>1337509687</Building><!-- Boardwalk OW -->
 		</Item>
 		
 		<Item>
@@ -11940,6 +12896,10 @@
 		</Item>
 		<Item>
 			<Building>1337501025</Building><!-- Kai Stege NW -->
+		</Item>
+		
+		<Item>
+			<Building>1337509688</Building><!-- Boardwalk NW -->
 		</Item>
 		
 		<Item>
@@ -12057,6 +13017,10 @@
 		</Item>
 		
 		<Item>
+			<Building>1337509688</Building><!-- Boardwalk NW -->
+		</Item>
+		
+		<Item>
 			<Building>1337506092</Building><!-- Original Pflaster Kopie -->
 		</Item>
 		<Item>
@@ -12170,6 +13134,10 @@
 		</Item>
 		
 		<Item>
+			<Building>1337509689</Building><!-- Boardwalk ENBESA -->
+		</Item>
+		
+		<Item>
 			<Building>1337506092</Building><!-- Original Pflaster Kopie -->
 		</Item>
 		<Item>
@@ -12278,6 +13246,10 @@
 		<Item>
 			<Building>1337506123</Building><!-- Kai ARCTIC -->
 		</Item>
+		
+		<Item>
+			<Building>1337509690</Building><!-- Boardwalk NW -->
+		</Item>
 
 	</ModOp>
 
@@ -12291,7 +13263,7 @@
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337507184</GUID>
+					<GUID>1337509691</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -12395,6 +13367,19 @@
 												<Asset>1337507183</Asset>
 											</Item>
 											
+											<Item>
+												<Asset>1337509687</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509688</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509689</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509690</Asset>
+											</Item>
+											
 										</UnlockAssets>
 										<UnhideAssets>
 											<Item>
@@ -12477,6 +13462,19 @@
 												<Asset>1337507183</Asset>
 											</Item>
 											
+											<Item>
+												<Asset>1337509687</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509688</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509689</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509690</Asset>
+											</Item>
+											
 										</UnhideAssets>
 									</ActionUnlockAsset>
 								</Values>
@@ -12490,4 +13488,4 @@
 	</ModOp>
 </ModOps>
 
-<!-- 2023-03-16 17:59:00 -->
+<!-- 2025-09-24 09:22:21 -->

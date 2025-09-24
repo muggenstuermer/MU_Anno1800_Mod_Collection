@@ -106,8 +106,24 @@ xxxxxxxxx
 1337507298 YinYang-Pflaster
 1337507299 gravel_chess_base
 1337507300 gravel_unraked_path xcross
+1337509039 gravel_unraked_empty
 
-1337506125 Trigger
+Decals CO2 Rest
+xxxxxxxxx
+1337509048 CO2_01_Plaza
+1337509050 CO2_02_Plaza
+1337509051 CO2_03_Plaza
+1337509052 CO2_04_Plaza
+1337509053 CO2_05_Plaza
+1337509054 CO2_06_Plaza
+1337509055 CO2_07_Plaza
+1337509056 CO2_08_Plaza
+1337509057 CO2_09_Plaza
+1337509058 CO2_10_Plaza
+1337509059 CO2_11_Plaza
+1337509060 CO2_12_Plaza
+
+1337509049 Trigger
 
 -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Decals ALL xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -2916,6 +2932,9 @@ xxxxxxxxx
 							<Item>
 								<Filename>data\muggenstuermer\buildings\ornamental\pavement\ow\natural_1x1_decal_01.cfg</Filename>
 							</Item>
+							<Item>
+								<Filename>data\muggenstuermer\buildings\ornamental\pavement\ow\natural_1x1_decal_02.cfg</Filename>
+							</Item>
 						</Variations>
 					</Object>
 					<Constructable />
@@ -3651,6 +3670,9 @@ xxxxxxxxx
 						<Variations>
 							<Item>
 								<Filename>data\muggenstuermer\buildings\ornamental\pavement\nw\natural_1x1_decal_01.cfg</Filename>
+							</Item>
+							<Item>
+								<Filename>data\muggenstuermer\buildings\ornamental\pavement\nw\natural_1x1_decal_02.cfg</Filename>
 							</Item>
 						</Variations>
 					</Object>
@@ -5589,6 +5611,957 @@ xxxxxxxxx
 			</Values>
         </Asset>
 	</ModOp>
+	<!-- Original gravel_unraked_empty-Pflaster Kopie -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509039</GUID>
+                    <Name>gravel_unraked_empty</Name>
+                    <IconFilename>data/graphics/ui/icons/ornament/gravel/gravel_base.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>1414016000</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509039</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\new_horizons\new_horizons_1x1_05.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>1414018320</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER Restliche CO2 Pflaster xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- CO2_01_Plaza -->
+	<ModOp Type="addNextSibling" GUID='1010035'>
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509048</GUID>
+                    <Name>CO2_01_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_01.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509048</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_01.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_02_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509050</GUID>
+                    <Name>CO2_02_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_02.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509050</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_02.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_03_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509051</GUID>
+                    <Name>CO2_03_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_03.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509051</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_03.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_04_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509052</GUID>
+                    <Name>CO2_04_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_04.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509052</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_04.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_05_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509053</GUID>
+                    <Name>CO2_05_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_05.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509053</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_05.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_06_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509054</GUID>
+                    <Name>CO2_06_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_06.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509054</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_06.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_07_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509055</GUID>
+                    <Name>CO2_07_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_07.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509055</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_07.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_08_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509056</GUID>
+                    <Name>CO2_08_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_08.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509056</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_08.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_09_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509057</GUID>
+                    <Name>CO2_09_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_09.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509057</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_09.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_10_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509058</GUID>
+                    <Name>CO2_10_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_10.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509058</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_10.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_11_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509059</GUID>
+                    <Name>CO2_11_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_11.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<PickingAsset>1337509059</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+                </Building>
+                 <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_11.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	<!-- CO2_12_Plaza -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1337509060</GUID>
+                    <Name>CO2_12_PLAZA</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_12_straight.png</IconFilename>
+                </Standard>
+				<Text>
+					<TextOverride>114435</TextOverride>
+				</Text>
+				<Blocking>
+					<HidePropsRadius>0</HidePropsRadius>
+					<DeletePropsRadius>0</DeletePropsRadius>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+                <Building>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<PickingAsset>1337509060</PickingAsset>
+					<AssociatedRegions>Moderate;Mod2;Africa;Arctic;Colony01</AssociatedRegions>
+					<InfluencedByNeighbors>
+						<Item>
+							<Building>1337509060</Building>
+						</Item>
+					</InfluencedByNeighbors>
+					<InfluencedVariationDirection>
+						<Item>
+							<!-- single -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-west -->
+							<Direction>0</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- end, south-east -->
+							<Direction>1</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, south -->
+							<Direction>1</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- end, north-east -->
+							<Direction>2</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- mid, south-west to north-east -->
+							<Direction>0</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- corner, east -->
+							<Direction>2</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-east -->
+							<Direction>3</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- end, north-west -->
+							<Direction>3</Direction>
+							<Type>End</Type>
+						</Item>
+						<Item>
+							<!-- corner, west -->
+							<Direction>0</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- mid, north-west to south-east -->
+							<Direction>1</Direction>
+							<Type>Mid</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing south-west  -->
+							<Direction>2</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- corner, north -->
+							<Direction>3</Direction>
+							<Type>Corner</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-west -->
+							<Direction>1</Direction>
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- T, front facing north-east -->
+							<Type>TCrossing</Type>
+						</Item>
+						<Item>
+							<!-- crossing -->
+							<Type>Crossing</Type>
+						</Item>
+					</InfluencedVariationDirection>
+					<BuildingBlockPool>
+						<Single>
+							<Pool>
+								<Item>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Single>
+						<DontCare />
+						<Corner>
+							<Pool>
+								<Item>
+									<DirectionOffet>1</DirectionOffet>
+									<Variation>2</Variation>
+								</Item>
+						  </Pool>
+						</Corner>
+						<Mid>
+							<Pool>
+								<Item>
+									<DirectionOffet>0</DirectionOffet>
+									<Variation>0</Variation>
+								</Item>
+							</Pool>
+						</Mid>
+						<End>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>1</Variation>
+								</Item>
+							</Pool>
+						</End>
+						<TCrossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>3</DirectionOffet>
+									<Variation>4</Variation>
+								</Item>
+							</Pool>
+						</TCrossing>
+						<Crossing>
+							<Pool>
+								<Item>
+									<DirectionOffet>2</DirectionOffet>
+									<Variation>3</Variation>
+								</Item>
+							</Pool>
+						</Crossing>
+					</BuildingBlockPool>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_12_straight.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_12_end.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_12_corner.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_12_xcross.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/ui/2kimages/main/3dicons/co2_all_rest/co2_12_tcross.png</IconFilename>
+						</Item>
+					</VariationIcons>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Selection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+                <Object>
+					<Variations>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_12_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_12_end.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_12_corner.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_12_xcross.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data\muggenstuermer\buildings\ornamental\pavement\co2_all_rest\co2_12_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+                </Object>
+				<Constructable />
+				<Mesh />
+				<SoundEmitter />
+				<Locked />
+				<FeedbackController />
+				<Ornament>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>114583</OrnamentDescription>
+                </Ornament>
+				<AmbientMoodProvider />
+				<Pausable />
+				<Infolayer />
+				<Culture />
+			</Values>
+        </Asset>
+	</ModOp>
+	
+
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx AB HIER MENÜ POSITIONIERUNG xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU OW xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 	<ModOp Type="add" GUID='1337502634' Path="/Values/ConstructionCategory/BuildingList">
@@ -5699,6 +6672,46 @@ xxxxxxxxx
 		</Item>
 		<Item>
 			<Building>1337507300</Building><!--  gravel_unraked_path -->
+		</Item>
+		<Item>
+			<Building>1337509039</Building><!--  gravel_unraked_empty -->
+		</Item>
+		
+		<Item>
+			<Building>1337509048</Building><!--  CO2_01_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509050</Building><!--  CO2_02_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509051</Building><!--  CO2_03_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509052</Building><!--  CO2_04_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509053</Building><!--  CO2_05_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509054</Building><!--  CO2_06_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509055</Building><!--  CO2_07_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509056</Building><!--  CO2_08_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509057</Building><!--  CO2_09_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509058</Building><!--  CO2_10_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509059</Building><!--  CO2_11_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509060</Building><!--  CO2_12_Plaza -->
 		</Item>
 
 	</ModOp>
@@ -5812,6 +6825,46 @@ xxxxxxxxx
 		<Item>
 			<Building>1337507300</Building><!--  gravel_unraked_path -->
 		</Item>
+		<Item>
+			<Building>1337509039</Building><!--  gravel_unraked_empty -->
+		</Item>
+		
+		<Item>
+			<Building>1337509048</Building><!--  CO2_01_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509050</Building><!--  CO2_02_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509051</Building><!--  CO2_03_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509052</Building><!--  CO2_04_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509053</Building><!--  CO2_05_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509054</Building><!--  CO2_06_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509055</Building><!--  CO2_07_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509056</Building><!--  CO2_08_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509057</Building><!--  CO2_09_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509058</Building><!--  CO2_10_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509059</Building><!--  CO2_11_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509060</Building><!--  CO2_12_Plaza -->
+		</Item>
 		
 	</ModOp>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU NEW HORIZONS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -5922,6 +6975,46 @@ xxxxxxxxx
 		</Item>
 		<Item>
 			<Building>1337507300</Building><!--  gravel_unraked_path -->
+		</Item>
+		<Item>
+			<Building>1337509039</Building><!--  gravel_unraked_empty -->
+		</Item>
+		
+		<Item>
+			<Building>1337509048</Building><!--  CO2_01_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509050</Building><!--  CO2_02_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509051</Building><!--  CO2_03_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509052</Building><!--  CO2_04_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509053</Building><!--  CO2_05_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509054</Building><!--  CO2_06_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509055</Building><!--  CO2_07_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509056</Building><!--  CO2_08_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509057</Building><!--  CO2_09_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509058</Building><!--  CO2_10_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509059</Building><!--  CO2_11_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509060</Building><!--  CO2_12_Plaza -->
 		</Item>
 		
 	</ModOp>
@@ -6051,6 +7144,11 @@ xxxxxxxxx
 		<Item>
 			<Building>1337507300</Building><!--  gravel_unraked_path -->
 		</Item>
+		<Item>
+			<Building>1337509039</Building><!--  gravel_unraked_empty -->
+		</Item>
+		
+		
 	</ModOp>
 	
 	<ModOp Type="add" GUID='1337502909' Path="/Values/ConstructionCategory/BuildingList">
@@ -6071,6 +7169,43 @@ xxxxxxxxx
 		<Item>
 			<Building>1337502646</Building><!-- Einfacher Platz -->
 		</Item>
+		
+		<Item>
+			<Building>1337509048</Building><!--  CO2_01_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509050</Building><!--  CO2_02_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509051</Building><!--  CO2_03_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509052</Building><!--  CO2_04_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509053</Building><!--  CO2_05_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509054</Building><!--  CO2_06_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509055</Building><!--  CO2_07_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509056</Building><!--  CO2_08_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509057</Building><!--  CO2_09_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509058</Building><!--  CO2_10_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509059</Building><!--  CO2_11_Plaza -->
+		</Item>
+		<Item>
+			<Building>1337509060</Building><!--  CO2_12_Plaza -->
+		</Item>
 	</ModOp>
 
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx BAUMENU Arctic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -6087,7 +7222,7 @@ xxxxxxxxx
 			<Template>FeatureUnlock</Template>
 			<Values>
 				<Standard>
-					<GUID>1337507301</GUID>
+					<GUID>1337509049</GUID>
 					<Name>intermediate moderate 2.0</Name>
 					<IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
 				</Standard>
@@ -6322,6 +7457,46 @@ xxxxxxxxx
 											<Item>
 												<Asset>1337507300</Asset>
 											</Item>
+											<Item>
+												<Asset>1337509039</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509048</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509050</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509051</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509052</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509053</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509054</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509055</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509056</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509057</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509058</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509059</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509060</Asset>
+											</Item>
 											
 										</UnlockAssets>
 										<UnhideAssets>
@@ -6532,6 +7707,46 @@ xxxxxxxxx
 											
 											<Item>
 												<Asset>1337507300</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509039</Asset>
+											</Item>
+											
+											<Item>
+												<Asset>1337509048</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509050</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509051</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509052</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509053</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509054</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509055</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509056</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509057</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509058</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509059</Asset>
+											</Item>
+											<Item>
+												<Asset>1337509060</Asset>
 											</Item>
 											
 										</UnhideAssets>
