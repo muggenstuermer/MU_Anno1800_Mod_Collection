@@ -27,8 +27,20 @@ still in rework process,pls be patient,thx
 
 [Rails_Related_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#rails_related_mu)
 
+[MuggenTours_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#muggentours_mu)
 
-## `A_Modified_Ornaments_Tab_MU`
+[Streets_Related_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#streets_related_mu)
+
+[Green_Mile_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#green_mile_mu)
+
+[Fe_Be_Ce_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#fe_be_ce_mu)
+
+[Ornament_Mania_MU](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#ornament_mania_mu)
+
+[Mugges_Missing_Ornaments](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/tree/main#mugges_missing_ornaments)
+
+
+##  A_Modified_Ornaments_Tab_MU`
 
 ![](./doc/tab_banner.jpg)
 
@@ -41,7 +53,7 @@ I was also missing the possibility of sorting port ornaments in a meaningful way
 This new menu can be used by other modders, and is basically desirable, as long as it fits into these categories and wants to be used.
 
 
-New Ornaments Tabs
+### New Ornaments Tabs
 
 - 1337505000 Ornaments Categorie OW/Mods Tab
 - 1337505001 Ornaments Categorie NW/Mods Tab
@@ -116,6 +128,8 @@ This mod adds 2 more fire stations.
 
 The buildings were integrated into the original building menu of the fire station.
 
+For the Harbor a seperated menu is created,straight after SPIU-Harborlife.Main icon is taken from @Jakobs mod "Compact Build Menus" and modified.
+
 
 ### Recommended active mods :
 
@@ -157,6 +171,8 @@ This mod adds 2 more hospitals / doctors.
 
 The buildings have been integrated into the original tree menu of the hospital.
 
+For the Harbor a seperated menu is created,straight after SPIU-Harborlife.
+
 
 ### Recommended active mods :
 
@@ -197,6 +213,7 @@ Who knows, but maybe one or the other immigrant will discover his talent for the
 
 
 Ranges could be changed with [IMYA](https://github.com/anno-mods/iModYourAnno)
+
 
 [Download latest Immigrants_And_Their_Fields_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
@@ -252,6 +269,8 @@ This mod adds 2 more police stations.
 
 
 The buildings have been integrated into the original building menu of the police station.
+
+For the Harbor a seperated menu is created,straight after SPIU-Harborlife.
 
 
 ### Recommended active mods :
@@ -547,9 +566,7 @@ it is possible to build a road x crossing under the building.
 Otherwise, the buildings are just like the warehouse or the depots.
 
 
-### Necessary active mods:
-
-- ["New World Docklands" by @Kurila](https://mod.io/g/anno-1800/m/new-world-dockland-kurila)
+### Necessary active mods :
 
 - ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 
@@ -596,20 +613,16 @@ Even if they do not directly fulfil the mod theme.
   i would like to wait for him out of respect,but i've already built so much on it now, and involved other mods... i have to "pre" release that and hope nobody is upset about it.
 
 
-### Necessary active mods:
+### Necessary active mods :
 
 - ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
 
 - ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 
-- ["Green_Mile_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/greenmilemu)
-
-- ["Streets & Railways (Jakob)" by @Jakob](https://mod.io/g/anno-1800/m/jakob-improved-streets)
-
 - ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
 
 
-### Recommended active mods:
+### Recommended active mods :
 
 - ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
 
@@ -619,7 +632,9 @@ Even if they do not directly fulfil the mod theme.
 
 - ["Marketplaces_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/marketplacesmu)
 
-- ["Marketplaces_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/marketplacesmu)
+- ["Industrial Ornaments" by @HerrTurTur](https://mod.io/g/anno-1800/m/industrial-ornaments)
+
+- ["Jakob's Industrial Cities, submod : jakob-railway-stations + models-railway-jakob" by @JakobsCollection](https://mod.io/g/anno-1800/m/jakob-industrial-cities)
 
 
 A big thank you goes to @Finchen.
@@ -628,87 +643,171 @@ thanks @Finchen
 
 [Download latest Rails_Related_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
------
 
-# MuggenTours_MU
 
-![image](https://github.com/muggenstuermer/MuggenTours_MU/blob/main/298-1643879468-718482811.png)
+## `MuggenTours_MU
+
+![](./doc/muggentours_banner.jpg)
 
 This mod adds two trolleybus skins, a double decker bus and a convertible bus skin.
 
 Furthermore, this mod replaces the central power poles with poles placed at the roadside and power lines that have lighting with hanging lights.
 	
 
-don't take this mod too seriously ;)
-	
-	
-	
-## ATTENTION!!
+## Note
 
-## NOT COMPATIBLE WITH SPIU : [Ornamental] Electric Lighting instead of Electricity Wires.
+don't take this mod too seriously
+	
+	
+### Incompatible mods :
 
-## This MUST be deactivated !
+- ["Electric Lighting (Spice It Up)" by @Taubenangriff](https://mod.io/g/anno-1800/m/electric-lighting)
+
+- ["Streets and Railways (Jakob)" by @JakobsCollection](https://mod.io/g/anno-1800/m/jakob-improved-streets)
 
 	
 Have fun with it: your muggenstuermer ;)
 
 	
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+[Download latest MuggenTours_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
 
-# Streets_Related_MU
+## `Streets_Related_MU
 
-![image](https://github.com/muggenstuermer/Streets_Related_MU/blob/main/sample.jpg)
+![](./doc/streets_related_banner.jpg)
 
-This mod will contain all my mods in the future, which are directly related to the theme "streets".
-Street mods from City_Ornaments or Harbour_Ornaments will follow.
+This mod will contain all my modifications in the future, which are directly related to the topic “streets”.
+Street mods from City_Ornaments and Harbour_Ornaments.
 
-contains:
-	- known streets and street related parts from City_Ornaments_MU_2
-	- bridges for different possibilities - road bridges - pedestrian bridges - railway bridges
-	- water channels and their bridges
-	- a modular lake,which can be used under all bridges ,pedestrian bridges excluded ( hinders the use of the bridge by feedback )
-	- invisible Harbour_Ornaments_MU_2 content - affects construction of roads from land to water
-	- roundabouts in the NW matches to Jakob's Improved Streets mod.
-	- the regions have all their own roundabouts
 
-## Required active mods :
----------------------	
-"Shared_Objects_MU" by @muggenstuermer
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+### Necessary active mods :
 
-"Improved Streets" by @Jakob with activated rails modification
-https://github.com/jakobharder/anno-1800-jakobs-mods/releases/latest
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
 
 
 	
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+[Download latest Streets_Related_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
 
 
-# Green_Mile_MU
+##  Green_Mile_MU
 
-![image](https://github.com/muggenstuermer/Green_Mile_MU/blob/main/screenshot_2023-02-15-18-03-07.jpg)
+![](./doc/febece_banner.jpg)
 
-This mod contains all trees and plants from City and Harbour_Ornaments and have been reworked.
-
-To maintain the vanilla build menu appearance for the ornaments, the Arctic and Enbesa have also received an ornaments tab.
-
-I have added a separate mods tab.
-
-This new menu may be used by other modders, and is basically desired, as long as it fits into this section.
+This mod contains all trees and plants from City and Harbour_Ornaments and have been revised.
 
 
-## Required active mods :
----------------------	
-"Shared_Objects_MU" by @muggenstuermer
-https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest
+### Note :
+
+The harbour objects are very difficult or impossible to remove with the remove tool from the construction menu.
+This is due to the fact that these objects do not have a ground decal to be able to freely choose the ground, which will be added with future mods.
+
+These objects can be removed by clicking on them and pressing the "Remove" key on the keyboard.
+
+The attractiveness of the objects is set by mod to 2 points per object.
+However, this value can be freely changed for each region with the ModManager IModYourAnno (https://github.com/anno-mods/iModYourAnno/releases/latest).
 
 
----------------------------
-Release - 1.0
----------------------------
 
----------------------------
-Changelog - 1.1
----------------------------
-	- Tweak possibility for attractiveness added.
+### Necessary active mods :
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
+
+
+	
+[Download latest Green_Mile_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+##  Fe_Be_Ce_MU
+
+![](./doc/febece_banner.jpg)
+
+This mod adds the missing benches, fences and cemetery accessories from CO2 in a modified form.
+
+Furthermore it contains skins for the immigrant chapel, for the old world church (also for Harbor) and for the NW another chapel is integrated into the building menu.
+
+Pretty much everything from the cemetery building menu is overbuildable, except for the sculptures and the fences.
+so there are no limits to creativity
+
+
+
+### Necessary active mods :
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
+
+- ["Worlds_New_Depots_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/worldsnewdepotsmu)
+
+
+
+### Recommended active mods :
+
+- ["Spice_Harborlife" by @Taubenangriff](https://mod.io/g/anno-1800/m/harborlife)
+
+- ["Immigrants_And_Their_Fields_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/immigrantsandtheirfieldsmu)
+
+
+[Download latest Fe_Be_Ce_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+##  Ornament_Mania_MU
+
+![](./doc/ornament_mania_banner.jpg)
+
+Ornament_Mania_MU brings almost all noteworthy DLC and CDLC to all regions,Horai included.
+
+These must be purchased and accessible.
+
+In addition, all of these ornaments are also accessible in the harbour area.
+
+The main focus was on making everything available.
+
+The sense and nonsense of this is open to debate.
+
+Everything is possible, but nothing is mandatory.
+
+
+
+### Necessary active mods :
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
+
+- ["Streets_Related_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/streetsrelatedmu)
+
+
+### Recommended active mods :
+
+- ["Pavements_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/pavements-mu)
+
+- ["Green_Mile_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/greenmilemu)
+
+- ["Fe_Be_Ce_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/fe-be-ce-mu)
+
+
+[Download latest Ornament_Mania_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
+
+
+##  Mugges_Missing_Ornaments
+
+![](./doc/missing_ornaments_banner.jpg)
+
+This mod includes all missing and desired ornaments from CO2 and HO2
+that do not fit thematically into existing MU mods.
+Some of the ornaments have been revised and new content has also been added.
+For example, functional workers' seaside houses can be built. The bodies of water can be visually connected with connecting pipes,
+and it is possible to place bridges over the plots.
+
+### Necessary active mods :
+
+- ["A_Modified_Ornaments_Tab" by @muggenstuermer](https://mod.io/g/anno-1800/m/amodifiedornamentstabmu)
+
+- ["Shared_Objects_MU" by @muggenstuermer](https://mod.io/g/anno-1800/m/sharedobjectsmu)
+
+
+[Download latest Fe_Be_Ce_MU Release](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection/releases/latest)
