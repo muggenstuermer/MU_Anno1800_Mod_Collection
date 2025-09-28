@@ -55,6 +55,12 @@ Changelog - 1.38
 
 	- more decals from old CO2 added.
 	
+---------------------------
+Changelog - 1.4
+---------------------------
+
+	- changed template.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

@@ -63,5 +63,10 @@ Changelog - 1.31
 ---------------------------
 	- Changed mod folder structure.
 	
+---------------------------
+Changelog - 1.4
+---------------------------
+	- added attribute to assets.
+	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

@@ -23,6 +23,12 @@ and it is possible to place bridges over the plots.
 Release - 1.0
 ---------------------------
 
+---------------------------
+Changelog - 1.1
+---------------------------
+	- ornamental workers pond residences added.
+	- correction of cafe by the sea variation,one empty field in variation 2
+
 	
 	
 	

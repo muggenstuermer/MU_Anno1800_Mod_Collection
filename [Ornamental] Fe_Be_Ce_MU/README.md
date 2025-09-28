@@ -58,5 +58,11 @@ Changelog - 1.2
 	- new fence added for land and harbor.
 	- added NW chapel to pools
 	
+---------------------------
+Changelog - 1.3
+---------------------------
+	- forgotten mausoleum added.
+	- adjusted some cfg files.
+	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

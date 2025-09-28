@@ -101,6 +101,11 @@ Changelog - 1.32
 ---------------------------
 	- a few code corrections.
 	
+---------------------------
+Changelog - 1.4
+---------------------------
+	- get rid of the vanilla skins
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

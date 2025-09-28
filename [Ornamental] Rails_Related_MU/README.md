@@ -87,6 +87,11 @@ Changelog - 1.3
 Changelog - 1.4
 ---------------------------
 	- some code corrections on adding to pools.
+	
+---------------------------
+Changelog - 1.5
+---------------------------
+	- on request, ornaments and buildings no longer disappears in first-person mode
 	  
 
 A big thank you goes to @Finchen.

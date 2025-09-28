@@ -83,6 +83,11 @@ Changelog - 1.8
 	- more decals from old CO2 added.
 	- added walkable boardwalk for all regions.
 	
+---------------------------
+Changelog - 1.9
+---------------------------
+	- on request, ornaments no longer disappears in first-person mode
+	- added pavementsgraphics from NH for non NH players. all credits for this goes to the all Creators of NH,thx.
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

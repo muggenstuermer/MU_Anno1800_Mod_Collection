@@ -45,7 +45,11 @@ Release - 1.0
 Changelog - 1.1
 ---------------------------
 	- added grey skin for old town walls.
-
+	
+---------------------------
+Changelog - 1.2
+---------------------------
+	- on request: ornaments no longer disappears in first-person mode.
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

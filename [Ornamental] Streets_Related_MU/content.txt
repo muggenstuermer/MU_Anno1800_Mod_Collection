@@ -150,7 +150,12 @@ Changelog - 1.6
 Changelog - 1.7
 ---------------------------
 	- added some stuff from old CO2 and Ho2 mods.
-	- some corrections in modfiles
+	- some corrections in modfiles.
+	
+---------------------------
+Changelog - 1.8
+---------------------------
+	- on request, ornaments no longer disappears in first-person mode.
 	  
 	  
 Special thanks to @darknesswei#2951 for the Chinese translation and Tonton Yip#8766 for the French translation. Also a big thank you to @Aveneger432 from Nexus for his Polish translation and to @Ionovia#8097 for constantly testing and introducing the mods.

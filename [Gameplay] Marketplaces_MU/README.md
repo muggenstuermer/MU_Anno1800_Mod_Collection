@@ -48,6 +48,11 @@ Changelog - 1.21
 ---------------------------
 	- correct some code for menu position.
 	
+---------------------------
+Changelog - 1.3
+---------------------------
+	- get rid of the vanilla skins on small markets
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)

@@ -109,6 +109,12 @@ Changelog - 1.43
 
 	- a few code corrections for pool integration.
 	
+---------------------------
+Changelog - 1.5
+---------------------------
+
+	- on request: the triumphal arch no longer disappears in first-person mode.
+	
 	
 	
 [Part of MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
